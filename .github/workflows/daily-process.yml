@@ -1,0 +1,66 @@
+name: TikTok Daily Processing
+
+on:
+  schedule:
+    - cron: '0 9 * * *'
+  workflow_dispatch:
+
+jobs:
+  process:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+      
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      
+      - name: Install dependencies
+        run: |
+          pip install pandas openpyxl requests numpy gspread google-auth google-api-python-client
+      
+      - name: Create directories
+        run: |
+          mkdir -p data
+          mkdir -p output
+      
+      - name: Restore cache
+        id: cache-restore
+        uses: actions/cache/restore@v4
+        with:
+          path: data/
+          key: tiktok-cache-${{ github.run_number }}
+          restore-keys: |
+            tiktok-cache-
+      
+      - name: Run processor
+        env:
+          APIFY_TOKEN: ${{ secrets.APIFY_TOKEN }}
+          US_VIDEO_TASK_ID: ${{ secrets.US_VIDEO_TASK_ID }}
+          UK_VIDEO_TASK_ID: ${{ secrets.UK_VIDEO_TASK_ID }}
+          US_MUSIC_TASK_ID: ${{ secrets.US_MUSIC_TASK_ID }}
+          UK_MUSIC_TASK_ID: ${{ secrets.UK_MUSIC_TASK_ID }}
+          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+          GOOGLE_CREDENTIALS: ${{ secrets.GOOGLE_CREDENTIALS }}
+          DRIVE_FOLDER_ID: ${{ secrets.DRIVE_FOLDER_ID }}
+          DASHBOARD_SHEET_ID: ${{ secrets.DASHBOARD_SHEET_ID }}
+          OUTPUT_DIR: output
+          CACHE_DIR: data
+        run: python src/main.py
+      
+      - name: Save cache
+        if: always()
+        uses: actions/cache/save@v4
+        with:
+          path: data/
+          key: tiktok-cache-${{ github.run_number }}
+      
+      - name: Upload output files
+        uses: actions/upload-artifact@v4
+        with:
+          name: tiktok-output-${{ github.run_number }}
+          path: output/
+          retention-days: 30
