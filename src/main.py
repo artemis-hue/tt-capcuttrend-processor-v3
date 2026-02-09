@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 TIKTOK AUTOMATION MAIN
-Version: 5.5.0 - Added Google Drive + Dashboard Integration
+Version: 5.5.1 - Added Google Drive + Dashboard Integration
 Changes from 5.4.0:
   - Added Google Drive upload for all output files
   - Added Google Sheets dashboard auto-update
@@ -228,6 +228,8 @@ def upload_to_google_drive(output_dir):
         return None
     except Exception as e:
         print(f"  ❌ Drive upload error: {e}")
+        import traceback
+        traceback.print_exc()
         return None
 
 
@@ -250,6 +252,8 @@ def update_google_dashboard(cache_dir):
         return False
     except Exception as e:
         print(f"  ❌ Dashboard update error: {e}")
+        import traceback
+        traceback.print_exc()
         return False
 
 
