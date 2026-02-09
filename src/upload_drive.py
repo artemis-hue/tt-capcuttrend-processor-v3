@@ -1,9 +1,7 @@
 """
 upload_drive.py — Upload BUILD files to Google Drive
-Runs as part of GitHub Actions daily workflow.
-
-Fix: Uses 'drive' scope (not 'drive.file') and supportsAllDrives=True
-to resolve "Service Accounts do not have storage quota" error.
+v5.5.1 FIX: Uses 'drive' scope, supportsAllDrives, and
+explicit folder parent to resolve storage quota errors.
 """
 
 import os
@@ -32,17 +30,37 @@ def get_credentials():
     )
 
 
+def test_access(service, folder_id):
+    """Test that the service account can access the target folder."""
+    try:
+        folder = service.files().get(
+            fileId=folder_id,
+            fields='id, name, mimeType',
+            supportsAllDrives=True
+        ).execute()
+        print(f"  ✅ Folder accessible: '{folder.get('name')}' ({folder_id})")
+        return True
+    except Exception as e:
+        print(f"  ❌ Cannot access folder {folder_id}: {e}")
+        return False
+
+
 def upload_file(service, filepath, folder_id):
     """Upload a single file to Google Drive folder."""
     filename = os.path.basename(filepath)
 
     # Check if file already exists (same name) - update instead of duplicate
-    results = service.files().list(
-        q=f"name='{filename}' and '{folder_id}' in parents and trashed=false",
-        fields='files(id, name)',
-        supportsAllDrives=True
-    ).execute()
-    existing = results.get('files', [])
+    try:
+        results = service.files().list(
+            q=f"name='{filename}' and '{folder_id}' in parents and trashed=false",
+            fields='files(id, name)',
+            supportsAllDrives=True,
+            includeItemsFromAllDrives=True
+        ).execute()
+        existing = results.get('files', [])
+    except Exception as e:
+        print(f"  Warning: Could not check for existing file: {e}")
+        existing = []
 
     mime_map = {
         '.xlsx': 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet',
@@ -85,6 +103,14 @@ def main():
     creds = get_credentials()
     service = build('drive', 'v3', credentials=creds)
 
+    # Test folder access first
+    if not test_access(service, folder_id):
+        print("  ❌ Cannot access folder. Check:")
+        print("     1. Folder is shared with service account email as Editor")
+        print("     2. DRIVE_FOLDER_ID is correct")
+        print("     3. Google Drive API is enabled in Google Cloud Console")
+        raise RuntimeError("Google Drive folder not accessible")
+
     today = datetime.now().strftime('%Y-%m-%d')
     output_dir = os.environ.get('OUTPUT_DIR', 'output')
 
@@ -101,10 +127,13 @@ def main():
     files_uploaded = 0
     for pattern in patterns:
         for filepath in glob.glob(pattern):
-            upload_file(service, filepath, folder_id)
-            files_uploaded += 1
+            try:
+                upload_file(service, filepath, folder_id)
+                files_uploaded += 1
+            except Exception as e:
+                print(f'  ❌ Failed to upload {os.path.basename(filepath)}: {e}')
 
-    print(f'\n  {files_uploaded} files uploaded to Google Drive')
+    print(f'\n  ✅ {files_uploaded} files uploaded to Google Drive')
 
     os.makedirs('data', exist_ok=True)
     with open('data/drive_upload_status.json', 'w') as f:
@@ -117,3 +146,17 @@ def main():
 
 if __name__ == '__main__':
     main()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
