@@ -1,28 +1,20 @@
 """
 update_dashboard.py — Push daily processed data to Google Sheets dashboard
-Runs as part of GitHub Actions daily workflow.
+v5.5.1 FIX: Uses 'drive' scope (not 'drive.file'), safe tab access,
+safe row deletion, handles missing tabs gracefully.
 
-This script updates the following tabs in the live Google Sheet:
+Tabs updated:
 - OPPORTUNITY_NOW:  Overwrites with today's opportunity matrix
 - COMPETITOR_VIEW:  Appends today's competitor gap analysis
 - PREDICTION_LOG:   Appends today's prediction accuracy summary
 - DATA_FEED:        Appends today's MY_PERFORMANCE data
 - DASHBOARD:        Updates seasonal alerts section
-
-It does NOT touch REVENUE_TRACKER or REVENUE_INSIGHTS —
-those are maintained by you (revenue data) and by Sheets formulas.
-
-Setup:
-1. Create a Google Sheet from the template (import TikTok_Dashboard_Template.xlsx)
-2. Share the Sheet with your service account email
-3. Copy the spreadsheet ID from the URL
-4. Add as GitHub secret: DASHBOARD_SHEET_ID
+- REVENUE_TRACKER:  Pre-fills new templates (doesn't touch user data)
 """
 
 import os
 import json
 import base64
-import pandas as pd
 from datetime import datetime
 from google.oauth2 import service_account
 import gspread
@@ -39,27 +31,38 @@ def get_gspread_client():
         creds_json,
         scopes=[
             'https://www.googleapis.com/auth/spreadsheets',
-            'https://www.googleapis.com/auth/drive.file',
+            'https://www.googleapis.com/auth/drive',
         ]
     )
     return gspread.authorize(creds)
 
 
-def update_opportunity_now(sheet, opportunity_data):
-    """
-    Overwrite OPPORTUNITY_NOW tab with today's build queue.
-    This tab is completely refreshed daily.
-    """
-    ws = sheet.worksheet('OPPORTUNITY_NOW')
+def safe_get_worksheet(sheet, tab_name):
+    """Safely get a worksheet by name, return None if not found."""
+    try:
+        return sheet.worksheet(tab_name)
+    except gspread.exceptions.WorksheetNotFound:
+        print(f'  ⚠️ Tab "{tab_name}" not found in spreadsheet — skipping')
+        return None
 
-    # Clear existing data (keep headers)
+
+def update_opportunity_now(sheet, opportunity_data):
+    """Overwrite OPPORTUNITY_NOW tab with today's build queue."""
+    ws = safe_get_worksheet(sheet, 'OPPORTUNITY_NOW')
+    if ws is None:
+        return 0
+
+    # Clear existing data (keep headers) — safe check
     if ws.row_count > 1:
-        ws.delete_rows(2, ws.row_count)
+        try:
+            ws.delete_rows(2, ws.row_count)
+        except Exception:
+            # If delete fails (e.g. only header), that's OK
+            pass
 
     if not opportunity_data:
         return 0
 
-    # Write rows
     rows = []
     for item in opportunity_data:
         rows.append([
@@ -86,11 +89,10 @@ def update_opportunity_now(sheet, opportunity_data):
 
 
 def append_competitor_view(sheet, competitor_data, date_str):
-    """
-    Append today's competitor gap analysis rows to COMPETITOR_VIEW.
-    This tab accumulates data over time for trend analysis.
-    """
-    ws = sheet.worksheet('COMPETITOR_VIEW')
+    """Append today's competitor gap analysis rows."""
+    ws = safe_get_worksheet(sheet, 'COMPETITOR_VIEW')
+    if ws is None:
+        return 0
 
     rows = []
     for gap in competitor_data:
@@ -117,10 +119,10 @@ def append_competitor_view(sheet, competitor_data, date_str):
 
 
 def append_prediction_log(sheet, model_summary, date_str):
-    """
-    Append one row to PREDICTION_LOG with today's model accuracy metrics.
-    """
-    ws = sheet.worksheet('PREDICTION_LOG')
+    """Append one row to PREDICTION_LOG with today's model accuracy metrics."""
+    ws = safe_get_worksheet(sheet, 'PREDICTION_LOG')
+    if ws is None:
+        return 0
 
     if not model_summary or 'direction_accuracy_pct' not in model_summary:
         print('  PREDICTION_LOG: No accuracy data (first run or no predictions)')
@@ -132,7 +134,7 @@ def append_prediction_log(sheet, model_summary, date_str):
     row = [
         date_str,
         model_summary.get('trends_tracked', 0),
-        model_summary.get('direction_accuracy_pct', 0) / 100,  # As decimal for %
+        model_summary.get('direction_accuracy_pct', 0) / 100,
         model_summary.get('bias', 'N/A'),
         model_summary.get('mean_absolute_pct_error', 0),
         outcomes.get('CORRECT_BUILD', 0),
@@ -148,11 +150,10 @@ def append_prediction_log(sheet, model_summary, date_str):
 
 
 def append_data_feed(sheet, my_performance_data, date_str):
-    """
-    Append today's MY_PERFORMANCE + enhanced data to DATA_FEED.
-    This is the raw data that DASHBOARD formulas reference.
-    """
-    ws = sheet.worksheet('DATA_FEED')
+    """Append today's MY_PERFORMANCE data to DATA_FEED."""
+    ws = safe_get_worksheet(sheet, 'DATA_FEED')
+    if ws is None:
+        return 0
 
     rows = []
     for item in my_performance_data:
@@ -186,15 +187,12 @@ def append_data_feed(sheet, my_performance_data, date_str):
 
 
 def update_seasonal_alerts(sheet, seasonal_alerts):
-    """
-    Update the seasonal alerts section on the DASHBOARD tab.
-    Writes to fixed cells (rows 18-20, columns A-C based on template layout).
-    """
-    ws = sheet.worksheet('DASHBOARD')
+    """Update seasonal alerts section on DASHBOARD tab."""
+    ws = safe_get_worksheet(sheet, 'DASHBOARD')
+    if ws is None:
+        return
 
-    # Clear previous alerts (rows 18-20 in template — adjust if layout changes)
-    # These correspond to the 3 placeholder rows in the dashboard
-    alert_start_row = 18  # Adjust based on your actual template
+    alert_start_row = 18
 
     actionable = [a for a in seasonal_alerts
                   if a.get('priority', '') in ('🔴 CRITICAL', '🟠 HIGH', '🟡 PREP', '🟢 HEADS_UP')]
@@ -215,20 +213,16 @@ def update_seasonal_alerts(sheet, seasonal_alerts):
 
 
 def update_revenue_tracker_metadata(sheet, new_templates):
-    """
-    For new templates detected in MY_PERFORMANCE that have URLs not yet in
-    REVENUE_TRACKER, pre-fill the automation columns (K-R) so the user only
-    needs to add revenue data when it comes in.
-    
-    Does NOT overwrite any existing rows (preserves user-entered revenue data).
-    """
-    ws = sheet.worksheet('REVENUE_TRACKER')
+    """Pre-fill new templates in REVENUE_TRACKER (doesn't touch user data)."""
+    ws = safe_get_worksheet(sheet, 'REVENUE_TRACKER')
+    if ws is None:
+        return 0
 
     # Get existing URLs
     existing_urls = set()
     try:
-        url_col = ws.col_values(1)  # Column A = TikTok URL
-        existing_urls = set(url_col[1:])  # Skip header
+        url_col = ws.col_values(1)
+        existing_urls = set(url_col[1:])
     except Exception:
         pass
 
@@ -237,30 +231,29 @@ def update_revenue_tracker_metadata(sheet, new_templates):
         url = tpl.get('TikTok URL', tpl.get('webVideoUrl', ''))
         if url and url not in existing_urls and url != 'nan':
             new_rows.append([
-                url,                                          # A: URL
-                tpl.get('Account', ''),                       # B: Account
-                '',                                           # C: Template Link (user fills)
-                0,                                            # D: Received
-                0,                                            # E: Estimated
-                0,                                            # F: US/EU installs
-                0,                                            # G: ROW installs
-                '=F{r}+G{r}',                                # H: Total (formula)
-                '=IFERROR(E{r}/H{r},0)',                     # I: Rev/Install (formula)
-                '=IF(E{r}>=2500,"✅ CAP","")',                # J: At Cap (formula)
-                str(tpl.get('Trend', ''))[:60],               # K: Trend
-                tpl.get('Momentum', 0),                       # L: Momentum at detection
-                tpl.get('URGENCY', tpl.get('trigger_level', '')),  # M: Trigger level
-                tpl.get('action_window', ''),                 # N: Action window
-                tpl.get('Market', ''),                        # O: Market
-                tpl.get('AI_CATEGORY', tpl.get('ai_category', '')),  # P: AI Category
-                tpl.get('Age', ''),                           # Q: Age at detection
-                datetime.now().strftime('%Y-%m-%d'),           # R: Date first seen
-                '',                                           # S: Notes
+                url,
+                tpl.get('Account', ''),
+                '',
+                0,
+                0,
+                0,
+                0,
+                '',  # placeholder - formula added below
+                '',
+                '',
+                str(tpl.get('Trend', ''))[:60],
+                tpl.get('Momentum', 0),
+                tpl.get('URGENCY', tpl.get('trigger_level', '')),
+                tpl.get('action_window', ''),
+                tpl.get('Market', ''),
+                tpl.get('AI_CATEGORY', tpl.get('ai_category', '')),
+                tpl.get('Age', ''),
+                datetime.now().strftime('%Y-%m-%d'),
+                '',
             ])
 
     if new_rows:
-        # Fix formula row references
-        next_row = len(existing_urls) + 2  # +1 for header, +1 for 1-indexed
+        next_row = len(existing_urls) + 2
         for i, row in enumerate(new_rows):
             r = next_row + i
             row[7] = f'=F{r}+G{r}'
@@ -279,20 +272,37 @@ def main():
         raise ValueError('DASHBOARD_SHEET_ID not set')
 
     client = get_gspread_client()
-    sheet = client.open_by_key(sheet_id)
-    today = datetime.now().strftime('%Y-%m-%d')
-
-    print(f'Updating dashboard for {today}...')
-
-    # Load processed data from daily processor output
+    
     try:
-        with open('data/dashboard_payload.json', 'r') as f:
+        sheet = client.open_by_key(sheet_id)
+    except gspread.exceptions.SpreadsheetNotFound:
+        print(f"  ❌ Spreadsheet {sheet_id} not found. Check:")
+        print("     1. Sheet is shared with service account email as Editor")
+        print("     2. DASHBOARD_SHEET_ID is correct (not the full URL)")
+        raise
+    except Exception as e:
+        print(f"  ❌ Cannot open spreadsheet: {e}")
+        raise
+    
+    today = datetime.now().strftime('%Y-%m-%d')
+    print(f'Updating dashboard for {today}...')
+    
+    # List available tabs for debugging
+    tab_names = [ws.title for ws in sheet.worksheets()]
+    print(f'  Available tabs: {tab_names}')
+
+    # Load processed data
+    cache_dir = os.environ.get('CACHE_DIR', 'data')
+    payload_path = os.path.join(cache_dir, 'dashboard_payload.json')
+    
+    try:
+        with open(payload_path, 'r') as f:
             payload = json.load(f)
     except FileNotFoundError:
-        print('ERROR: data/dashboard_payload.json not found. Run daily_processor first.')
+        print(f'ERROR: {payload_path} not found. Run daily_processor first.')
         return
 
-    # Update each tab
+    # Update each tab (each function handles missing tabs gracefully)
     update_opportunity_now(sheet, payload.get('opportunity_matrix', []))
     append_competitor_view(sheet, payload.get('competitor_gaps', []), today)
     append_prediction_log(sheet, payload.get('model_summary', {}), today)
@@ -305,3 +315,17 @@ def main():
 
 if __name__ == '__main__':
     main()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
