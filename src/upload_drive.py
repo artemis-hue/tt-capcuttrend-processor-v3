@@ -1,44 +1,62 @@
 """
 upload_drive.py — Upload BUILD files to Google Drive
-v5.5.1 FIX: Uses 'drive' scope, supportsAllDrives, and
-explicit folder parent to resolve storage quota errors.
+v6.0.0: OAuth2 ONLY (service accounts cannot upload to personal Drive)
+
+Requires: GOOGLE_CLIENT_ID, GOOGLE_CLIENT_SECRET, GOOGLE_REFRESH_TOKEN
 """
 
 import os
 import json
-import base64
 import glob
 from datetime import datetime
-from google.oauth2 import service_account
+from google.oauth2.credentials import Credentials
+from google.auth.transport.requests import Request
 from googleapiclient.discovery import build
 from googleapiclient.http import MediaFileUpload
 
 
 def get_credentials():
-    """Decode service account credentials from environment variable."""
-    creds_b64 = os.environ.get('GOOGLE_CREDENTIALS', '')
-    if not creds_b64:
-        raise ValueError('GOOGLE_CREDENTIALS not set')
+    """Get OAuth2 credentials using refresh token. No service account fallback."""
+    client_id = os.environ.get('GOOGLE_CLIENT_ID', '')
+    client_secret = os.environ.get('GOOGLE_CLIENT_SECRET', '')
+    refresh_token = os.environ.get('GOOGLE_REFRESH_TOKEN', '')
 
-    creds_json = json.loads(base64.b64decode(creds_b64))
-    return service_account.Credentials.from_service_account_info(
-        creds_json,
-        scopes=[
-            'https://www.googleapis.com/auth/drive',
-            'https://www.googleapis.com/auth/spreadsheets',
-        ]
+    print(f"  OAuth2 secrets: CLIENT_ID={'set' if client_id else 'MISSING'}, "
+          f"CLIENT_SECRET={'set' if client_secret else 'MISSING'}, "
+          f"REFRESH_TOKEN={'set' if refresh_token else 'MISSING'}")
+
+    if not all([client_id, client_secret, refresh_token]):
+        raise ValueError(
+            'Google Drive upload requires GOOGLE_CLIENT_ID, '
+            'GOOGLE_CLIENT_SECRET, and GOOGLE_REFRESH_TOKEN. '
+            'Run get_refresh_token.py to generate these.'
+        )
+
+    creds = Credentials(
+        token=None,
+        refresh_token=refresh_token,
+        token_uri='https://oauth2.googleapis.com/token',
+        client_id=client_id,
+        client_secret=client_secret,
     )
+
+    # Force token refresh now so we catch errors early
+    print("  Refreshing OAuth2 token...")
+    creds.refresh(Request())
+    print(f"  ✅ OAuth2 token refreshed (expires: {creds.expiry})")
+
+    return creds
 
 
 def test_access(service, folder_id):
-    """Test that the service account can access the target folder."""
+    """Test that we can access the target folder."""
     try:
         folder = service.files().get(
             fileId=folder_id,
             fields='id, name, mimeType',
             supportsAllDrives=True
         ).execute()
-        print(f"  ✅ Folder accessible: '{folder.get('name')}' ({folder_id})")
+        print(f"  ✅ Folder accessible: '{folder.get('name')}'")
         return True
     except Exception as e:
         print(f"  ❌ Cannot access folder {folder_id}: {e}")
@@ -49,7 +67,7 @@ def upload_file(service, filepath, folder_id):
     """Upload a single file to Google Drive folder."""
     filename = os.path.basename(filepath)
 
-    # Check if file already exists (same name) - update instead of duplicate
+    # Check if file already exists (for update instead of duplicate)
     try:
         results = service.files().list(
             q=f"name='{filename}' and '{folder_id}' in parents and trashed=false",
@@ -103,18 +121,12 @@ def main():
     creds = get_credentials()
     service = build('drive', 'v3', credentials=creds)
 
-    # Test folder access first
     if not test_access(service, folder_id):
-        print("  ❌ Cannot access folder. Check:")
-        print("     1. Folder is shared with service account email as Editor")
-        print("     2. DRIVE_FOLDER_ID is correct")
-        print("     3. Google Drive API is enabled in Google Cloud Console")
         raise RuntimeError("Google Drive folder not accessible")
 
     today = datetime.now().strftime('%Y-%m-%d')
     output_dir = os.environ.get('OUTPUT_DIR', 'output')
 
-    # Find all output files
     patterns = [
         f'{output_dir}/BUILD_TODAY_TOP20_{today}.xlsx',
         f'{output_dir}/BUILD_TODAY_TOP100_{today}.xlsx',
@@ -146,17 +158,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
