@@ -1,8 +1,0 @@
-pandas
-openpyxl
-requests
-numpy
-gspread
-google-auth
-google-auth-oauthlib
-google-api-python-client
