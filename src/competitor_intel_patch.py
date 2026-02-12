@@ -22,7 +22,10 @@ from openpyxl.styles import Font, PatternFill, Alignment, Border, Side
 from openpyxl.cell.cell import ILLEGAL_CHARACTERS_RE
 
 # Import shared config
-from v35_enhancements_v360 import YOUR_ACCOUNTS, COMPETITOR_ACCOUNTS, _sanitize_cell
+try:
+    from v35_enhancements import YOUR_ACCOUNTS, COMPETITOR_ACCOUNTS, _sanitize_cell
+except ImportError:
+    from v35_enhancements_v360 import YOUR_ACCOUNTS, COMPETITOR_ACCOUNTS, _sanitize_cell
 
 
 # =============================================================================
