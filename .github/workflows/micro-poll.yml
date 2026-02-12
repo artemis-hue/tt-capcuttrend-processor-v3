@@ -27,13 +27,21 @@ jobs:
       - name: Create data directory
         run: mkdir -p data
       
-      - name: Restore micro-polling cache
-        uses: actions/cache/restore@v4
+      - name: Restore micro-polling state
+        uses: actions/download-artifact@v4
         with:
-          path: data/micro_candidates.json
-          key: micro-poll-candidates-${{ github.run_number }}
-          restore-keys: |
-            micro-poll-candidates-
+          name: micro-poll-state
+          path: data/
+        continue-on-error: true
+      
+      - name: Show restored state
+        run: |
+          if [ -f data/micro_candidates.json ]; then
+            echo "✅ Previous state restored"
+            cat data/micro_candidates.json | python3 -c "import sys,json; d=json.load(sys.stdin); print(f'  Candidates: {len(d.get(\"candidates\",[]))}')"
+          else
+            echo "⚠️ No previous state (first run)"
+          fi
       
       - name: Run micro-poller
         env:
@@ -43,9 +51,11 @@ jobs:
           UK_VIDEO_TASK_ID: ${{ secrets.UK_VIDEO_TASK_ID }}
         run: python src/micro_poller.py
       
-      - name: Save micro-polling cache
-        uses: actions/cache/save@v4
+      - name: Save micro-polling state
+        uses: actions/upload-artifact@v4
         with:
+          name: micro-poll-state
           path: data/micro_candidates.json
-          key: micro-poll-candidates-${{ github.run_number }}
+          retention-days: 3
+          overwrite: true
         if: always()
