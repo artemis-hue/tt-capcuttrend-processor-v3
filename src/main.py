@@ -416,6 +416,31 @@ def main():
     
     save_today_cache(us_df, uk_df, cache_dir)
     
+    # Step 4b: Save competitor history for 7-day intel (NEW v3.6.0)
+    try:
+        from competitor_intel_patch import save_competitor_history
+        # Need full data with author column for competitor detection
+        combined_for_comp = pd.concat([df for df in [us_df, uk_df] if len(df) > 0], ignore_index=True)
+        if len(combined_for_comp) > 0:
+            combined_for_comp = combined_for_comp.drop_duplicates(subset=['webVideoUrl'], keep='first')
+            from daily_processor import get_author_name, detect_ai
+            if 'author' not in combined_for_comp.columns:
+                combined_for_comp['author'] = combined_for_comp.apply(get_author_name, axis=1)
+            if 'AI_CATEGORY' not in combined_for_comp.columns:
+                combined_for_comp['AI_CATEGORY'] = combined_for_comp.get('text', pd.Series([''])).apply(detect_ai)
+            if 'Market' not in combined_for_comp.columns:
+                us_urls_set = set(us_df['webVideoUrl']) if len(us_df) > 0 else set()
+                uk_urls_set = set(uk_df['webVideoUrl']) if len(uk_df) > 0 else set()
+                both_urls_set = us_urls_set & uk_urls_set
+                combined_for_comp['Market'] = combined_for_comp['webVideoUrl'].apply(
+                    lambda u: '🌐 BOTH' if u in both_urls_set else ('🇺🇸 US ONLY' if u in us_urls_set else '🇬🇧 UK ONLY')
+                )
+            save_competitor_history(combined_for_comp, cache_dir)
+    except Exception as e:
+        print(f"  ⚠️ Could not save competitor history: {e}")
+        import traceback
+        traceback.print_exc()
+    
     # Step 5: Send Discord notification (with seasonal alerts)
     print("\n[Step 5] Sending Discord notification...")
     seasonal_alerts = get_seasonal_alerts()

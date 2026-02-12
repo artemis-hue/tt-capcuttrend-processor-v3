@@ -398,32 +398,47 @@ def calculate_velocity_predictions(
         velocity = row['velocity']
         momentum = row['momentum_score']
         predicted_24h = row['predicted_24h']
+        has_velocity_data = pd.notna(row.get('momentum_yesterday')) and row.get('momentum_yesterday') != row.get('momentum_score', 0)
         
         # Too old - 72h window closing
         if age > 60:
             return '⚠️ WINDOW CLOSING'
         
-        # Explosive growth - act immediately
-        if velocity >= 200 and momentum >= 1000:
-            return '🔴 ACT NOW'
+        # If we have real velocity data, use it
+        if has_velocity_data:
+            # Explosive growth - act immediately
+            if velocity >= 200 and momentum >= 1000:
+                return '🔴 ACT NOW'
+            
+            # Strong growth - act within 6-12h
+            if velocity >= 100 and momentum >= 500:
+                return '🟠 6-12H'
+            
+            # Moderate growth but predicted to be big
+            if velocity >= 50 and predicted_24h >= 2000:
+                return '🟡 12-24H'
+            
+            # Flat or declining
+            if velocity <= 0:
+                if momentum >= 2000:
+                    return '⚠️ PEAKED'
+                else:
+                    return '❌ TOO LATE'
+            
+            # Default - worth monitoring
+            return '🟢 MONITOR'
         
-        # Strong growth - act within 6-12h
-        if velocity >= 100 and momentum >= 500:
-            return '🟠 6-12H'
-        
-        # Moderate growth but predicted to be big
-        if velocity >= 50 and predicted_24h >= 2000:
-            return '🟡 12-24H'
-        
-        # Flat or declining
-        if velocity <= 0:
-            if momentum >= 2000:
-                return '⚠️ PEAKED'
-            else:
-                return '❌ TOO LATE'
-        
-        # Default - worth monitoring
-        return '🟢 MONITOR'
+        else:
+            # No velocity data — classify on momentum + age alone
+            if momentum >= 3000 and age <= 24:
+                return '🔴 ACT NOW'
+            if momentum >= 2000 and age <= 36:
+                return '🟠 6-12H'
+            if momentum >= 1000 and age <= 48:
+                return '🟡 12-24H'
+            if momentum >= 500:
+                return '🟢 MONITOR'
+            return '❌ TOO LATE'
     
     df['action_window'] = df.apply(get_action_window, axis=1)
     
@@ -740,7 +755,7 @@ def create_enhanced_excel(
     dashboard_path: str = None
 ) -> str:
     """
-    Create v3.6.0 Enhanced Excel file with 7 tabs:
+    Create v3.6.0 Enhanced Excel file with 8 tabs:
     1. DASHBOARD - Formula-driven KPI summary
     2. OPPORTUNITY_NOW - 13-column priority build list
     3. REVENUE_TRACKER - 19-column revenue tracking (carried forward)
@@ -748,6 +763,7 @@ def create_enhanced_excel(
     5. COMPETITOR_VIEW - 12-column combined competitor analysis
     6. PREDICTION_LOG - Model accuracy tracking
     7. DATA_FEED - 19-column enhanced MY_PERFORMANCE
+    8. COMPETITOR_INTEL - 7-day deep competitor intelligence (9 sections)
     """
     df_today = _ensure_calculated_metrics(df_today)
 
@@ -765,6 +781,16 @@ def create_enhanced_excel(
     # Load existing revenue/prediction data
     existing_revenue = _load_existing_revenue(dashboard_path)
     existing_prediction_log = _load_existing_prediction_log(dashboard_path)
+
+    # Build competitor intel (7-day deep analysis)
+    try:
+        from competitor_intel_patch import build_competitor_intel, build_competitor_intel_tab
+        comp_intel = build_competitor_intel(df_today, cache_path or 'data')
+        has_comp_intel = True
+    except Exception as e:
+        print(f"  [WARNING] Could not build competitor intel: {e}")
+        comp_intel = None
+        has_comp_intel = False
 
     # Style definitions
     header_fill = PatternFill('solid', fgColor='1F4E78')
@@ -804,6 +830,11 @@ def create_enhanced_excel(
     # TAB 7: DATA_FEED (19 columns)
     ws_feed = wb.create_sheet('DATA_FEED')
     _build_data_feed_tab(ws_feed, df_today, header_fill, header_font, thin_border, cyan_fill)
+
+    # TAB 8: COMPETITOR_INTEL (7-day deep intelligence)
+    if has_comp_intel and comp_intel is not None:
+        ws_intel = wb.create_sheet('COMPETITOR_INTEL')
+        build_competitor_intel_tab(ws_intel, comp_intel, header_fill, header_font, thin_border)
 
     wb.save(output_path)
     return output_path
@@ -953,11 +984,25 @@ def _build_opportunity_now_tab(ws, df_pred, header_fill, header_font, thin_borde
         (df_pred['action_window'].str.contains('ACT NOW|6-12H', na=False)) &
         (df_pred['age_hours'] <= 48) & (df_pred['momentum_score'] >= 500)
     ].copy()
+    
+    # Fallback 1: Expand to include 12-24H and MONITOR with decent momentum
     if len(actionable) == 0:
         actionable = df_pred[
-            (df_pred['age_hours'] <= 60) & (df_pred['momentum_score'] >= 300) &
-            (~df_pred['action_window'].str.contains('TOO LATE', na=False))
-        ].nlargest(10, 'momentum_score').copy()
+            (df_pred['action_window'].str.contains('ACT NOW|6-12H|12-24H|MONITOR', na=False)) &
+            (df_pred['age_hours'] <= 60) & (df_pred['momentum_score'] >= 300)
+        ].nlargest(20, 'momentum_score').copy()
+    
+    # Fallback 2: If velocity data is missing (all PEAKED/TOO LATE), use pure momentum
+    if len(actionable) == 0:
+        actionable = df_pred[
+            (df_pred['age_hours'] <= 60) & (df_pred['momentum_score'] >= 300)
+        ].nlargest(20, 'momentum_score').copy()
+    
+    # Fallback 3: Just show top 20 by momentum regardless
+    if len(actionable) == 0:
+        actionable = df_pred[
+            df_pred['age_hours'] <= 72
+        ].nlargest(20, 'momentum_score').copy()
 
     # Exclude tracked accounts
     if 'author' in actionable.columns and len(actionable) > 0:
