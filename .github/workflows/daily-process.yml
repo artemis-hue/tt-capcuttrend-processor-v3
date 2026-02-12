@@ -1,61 +1,69 @@
-name: TikTok Micro-Polling
+name: TikTok Daily Processing
 
 on:
   schedule:
-    # Every 2 hours from 8am to 10pm UK time (UTC in winter)
-    # Runs at: 08:00, 10:00, 12:00, 14:00, 16:00, 18:00, 20:00, 22:00
-    - cron: '0 8,10,12,14,16,18,20,22 * * *'
-  workflow_dispatch:  # Manual trigger for testing
+    - cron: '0 9 * * *'
+  workflow_dispatch:
 
 jobs:
-  micro-poll:
+  process:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
     
     steps:
-      - name: Checkout repository
+      - name: Checkout code
         uses: actions/checkout@v4
       
-      - name: Set up Python
+      - name: Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
       
       - name: Install dependencies
-        run: pip install requests
-      
-      - name: Create data directory
-        run: mkdir -p data
-      
-      - name: Restore micro-polling state
-        uses: actions/download-artifact@v4
-        with:
-          name: micro-poll-state
-          path: data/
-        continue-on-error: true
-      
-      - name: Show restored state
         run: |
-          if [ -f data/micro_candidates.json ]; then
-            echo "✅ Previous state restored"
-            cat data/micro_candidates.json | python3 -c "import sys,json; d=json.load(sys.stdin); print(f'  Candidates: {len(d.get(\"candidates\",[]))}')"
-          else
-            echo "⚠️ No previous state (first run)"
-          fi
+          pip install pandas openpyxl requests numpy gspread google-auth google-auth-oauthlib google-api-python-client
       
-      - name: Run micro-poller
+      - name: Create directories
+        run: |
+          mkdir -p data
+          mkdir -p output
+      
+      - name: Restore cache
+        id: cache-restore
+        uses: actions/cache/restore@v4
+        with:
+          path: data/
+          key: tiktok-cache-${{ github.run_number }}
+          restore-keys: |
+            tiktok-cache-
+      
+      - name: Run processor
         env:
           APIFY_TOKEN: ${{ secrets.APIFY_TOKEN }}
-          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
           US_VIDEO_TASK_ID: ${{ secrets.US_VIDEO_TASK_ID }}
           UK_VIDEO_TASK_ID: ${{ secrets.UK_VIDEO_TASK_ID }}
-        run: python src/micro_poller.py
+          US_MUSIC_TASK_ID: ${{ secrets.US_MUSIC_TASK_ID }}
+          UK_MUSIC_TASK_ID: ${{ secrets.UK_MUSIC_TASK_ID }}
+          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+          GOOGLE_CLIENT_ID: ${{ secrets.GOOGLE_CLIENT_ID }}
+          GOOGLE_CLIENT_SECRET: ${{ secrets.GOOGLE_CLIENT_SECRET }}
+          GOOGLE_REFRESH_TOKEN: ${{ secrets.GOOGLE_REFRESH_TOKEN }}
+          GOOGLE_CREDENTIALS: ${{ secrets.GOOGLE_CREDENTIALS }}
+          DRIVE_FOLDER_ID: ${{ secrets.DRIVE_FOLDER_ID }}
+          DASHBOARD_SHEET_ID: ${{ secrets.DASHBOARD_SHEET_ID }}
+          OUTPUT_DIR: output
+          CACHE_DIR: data
+        run: python src/main.py
       
-      - name: Save micro-polling state
+      - name: Save cache
+        if: always()
+        uses: actions/cache/save@v4
+        with:
+          path: data/
+          key: tiktok-cache-${{ github.run_number }}
+      
+      - name: Upload output files
         uses: actions/upload-artifact@v4
         with:
-          name: micro-poll-state
-          path: data/micro_candidates.json
-          retention-days: 3
-          overwrite: true
-        if: always()
+          name: tiktok-output-${{ github.run_number }}
+          path: output/
+          retention-days: 30
