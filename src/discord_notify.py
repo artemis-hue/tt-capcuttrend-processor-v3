@@ -33,8 +33,13 @@ def send_discord_notification(stats):
             {"name": "US Fresh (72h)", "value": str(stats.get('us_fresh', 0)), "inline": True},
             {"name": "UK Fresh (72h)", "value": str(stats.get('uk_fresh', 0)), "inline": True},
         ],
-        "footer": {"text": "TikTok Trend System v5.3.0"}
+        "footer": {"text": "TikTok Trend System v3.6.0"}
     }
+    
+    # Add seasonal alerts if available
+    seasonal_fields = stats.get('seasonal_discord_fields', [])
+    if seasonal_fields:
+        embed["fields"].extend(seasonal_fields)
     
     payload = {"embeds": [embed]}
     

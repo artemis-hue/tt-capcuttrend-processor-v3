@@ -939,24 +939,41 @@ def _build_dashboard_tab(ws, header_fill, header_font):
     for col in range(1, 13):
         ws.cell(row=19, column=col).fill = yellow_kpi
     ws.merge_cells('A19:L19')
+    seasonal_end_row = 20  # Track where seasonal section ends
     try:
         from seasonal_calendar import get_seasonal_alerts
         from datetime import date
         alerts = get_seasonal_alerts(date.today())
         if alerts:
-            for i, a in enumerate(alerts[:3]):
-                ws.cell(row=20+i, column=1, value=f"{a.get('emoji','')} {a.get('event','')} \u2014 {a.get('timing','')}")
+            for i, a in enumerate(alerts):
+                cell = ws.cell(row=20+i, column=1, value=f"{a.get('emoji','')} {a.get('event','')} \u2014 {a.get('timing','')}")
+                # Color based on priority
+                pri = a.get('priority_level', '')
+                if pri in ('today', 'urgent'):
+                    cell.font = Font(bold=True, color='CC0000')
+                elif pri == 'review':
+                    cell.font = Font(color='996600')
+                elif pri == 'high':
+                    cell.font = Font(bold=True, color='006600')
+                elif pri == 'window':
+                    cell.font = Font(italic=True, color='1F4E78')
+                else:
+                    cell.font = Font(color='333333')
+            seasonal_end_row = 20 + len(alerts)
         else:
             ws['A20'] = 'No seasonal events coming up'
+            seasonal_end_row = 21
     except Exception:
         ws['A20'] = 'Seasonal calendar not available'
+        seasonal_end_row = 21
 
-    # HOW TO USE
-    ws['A25'] = '\U0001f4cb HOW TO USE THIS DASHBOARD'
-    ws['A25'].font = Font(bold=True, size=12, color='1F4E78')
+    # HOW TO USE (dynamically positioned after seasonal)
+    how_to_row = seasonal_end_row + 1
+    ws.cell(row=how_to_row, column=1, value='\U0001f4cb HOW TO USE THIS DASHBOARD')
+    ws.cell(row=how_to_row, column=1).font = Font(bold=True, size=12, color='1F4E78')
     for col in range(1, 13):
-        ws.cell(row=25, column=col).fill = section_fill
-    ws.merge_cells('A25:L25')
+        ws.cell(row=how_to_row, column=col).fill = section_fill
+    ws.merge_cells(start_row=how_to_row, start_column=1, end_row=how_to_row, end_column=12)
     instructions = [
         '1. Open OPPORTUNITY_NOW tab > build the red items first',
         '2. Check COMPETITOR_VIEW > look for MISSED_BY_YOU with high momentum',
@@ -966,7 +983,7 @@ def _build_dashboard_tab(ws, header_fill, header_font):
         '6. PREDICTION_LOG tracks model accuracy > check for tuning suggestions',
     ]
     for i, txt in enumerate(instructions):
-        ws.cell(row=26+i, column=1, value=txt).font = Font(size=10)
+        ws.cell(row=how_to_row+1+i, column=1, value=txt).font = Font(size=10)
     for col in range(1, 13):
         from openpyxl.utils import get_column_letter
         ws.column_dimensions[get_column_letter(col)].width = 16
@@ -1117,79 +1134,120 @@ def _build_revenue_tracker_tab(ws, existing_revenue, header_fill, header_font, t
 
 
 def _build_revenue_insights_tab(ws, header_fill, header_font):
+    """
+    REVENUE_INSIGHTS tab — matches user's target structure exactly.
+    4 sections: By Trigger Level (6 cols), By Market (5 cols), By AI Category (5 cols), Install Economics (2 cols).
+    All formulas reference REVENUE_TRACKER tab.
+    """
+    section_font = Font(bold=True, size=12, color='1F4E78')
+    table_header_fill = PatternFill('solid', fgColor='1F4E78')
+    table_header_font = Font(bold=True, size=11, color='FFFFFF')
+
+    # === ROW 1: Title ===
     ws['A1'] = '\U0001f4b0 REVENUE INSIGHTS \u2014 Auto-Calculated'
-    ws['A1'].font = Font(bold=True, size=14, color='FFFFFF')
-    ws['A1'].fill = PatternFill('solid', fgColor='1F4E78')
+    ws['A1'].font = Font(bold=True, size=16, color='1F4E78')
     ws.merge_cells('A1:F1')
 
-    section_headers = ['Category', 'Templates', 'Total Revenue', 'Avg Revenue', 'Hit Rate', 'Best Template']
-    alt_fill = PatternFill('solid', fgColor='F2F2F2')
-    section_fill = PatternFill('solid', fgColor='E8F4FD')
-    trig_colors = {'URGENT': 'FFE0E0', 'HIGH': 'FFF3E0', 'WATCH': 'FFFDE0', 'NONE': 'F5F5F5'}
-    mkt_colors = {'BOTH': 'FFD700', 'US': 'E0F0FF', 'UK': 'FFE0E0'}
-    cat_colors = {'AI': 'E8E0FF', 'NON-AI': 'E0FFE8'}
+    # === SECTION 1: REVENUE BY TRIGGER LEVEL (rows 3-8) ===
+    ws['A3'] = 'REVENUE BY TRIGGER LEVEL'
+    ws['A3'].font = section_font
 
-    # BY TRIGGER LEVEL
-    ws['A3'] = 'BY TRIGGER LEVEL'
-    ws['A3'].font = Font(bold=True, size=12)
-    ws['A3'].fill = section_fill
-    for i, h in enumerate(section_headers, 1):
-        c = ws.cell(row=4, column=i, value=h if i > 1 else 'Trigger Level')
-        c.fill = header_fill; c.font = header_font
+    # Headers row 4
+    for ci, h in enumerate(['Trigger Level', 'Templates', 'Total Revenue', 'Avg Revenue', 'Hit Rate', 'Cap Rate', 'Best Template'], 1):
+        c = ws.cell(row=4, column=ci, value=h)
+        c.fill = table_header_fill; c.font = table_header_font
+
+    # Data rows 5-8
     for ri, trig in enumerate(['URGENT', 'HIGH', 'WATCH', 'NONE'], 5):
-        row_fill = PatternFill('solid', fgColor=trig_colors.get(trig, 'FFFFFF'))
-        ws.cell(row=ri, column=1, value=trig).fill = row_fill
-        ws.cell(row=ri, column=2, value=f'=COUNTIF(REVENUE_TRACKER!M2:M1000,"*{trig}*")')
-        ws.cell(row=ri, column=3, value=f'=SUMIF(REVENUE_TRACKER!M2:M1000,"*{trig}*",REVENUE_TRACKER!E2:E1000)')
+        ws.cell(row=ri, column=1, value=trig)
+        ws.cell(row=ri, column=2, value=f'=COUNTIF(REVENUE_TRACKER!M:M,"*{trig}*")')
+        ws.cell(row=ri, column=3, value=f'=SUMPRODUCT((ISNUMBER(SEARCH("{trig}",REVENUE_TRACKER!M$2:M$1000)))*REVENUE_TRACKER!E$2:E$1000)')
         ws.cell(row=ri, column=3).number_format = '$#,##0'
         ws.cell(row=ri, column=4, value=f'=IFERROR(C{ri}/B{ri},0)')
         ws.cell(row=ri, column=4).number_format = '$#,##0'
-        ws.cell(row=ri, column=5, value=f'=IFERROR(COUNTIFS(REVENUE_TRACKER!M2:M1000,"*{trig}*",REVENUE_TRACKER!E2:E1000,">0")/B{ri},0)')
+        ws.cell(row=ri, column=5, value=f'=IFERROR(SUMPRODUCT((ISNUMBER(SEARCH("{trig}",REVENUE_TRACKER!M$2:M$1000)))*(REVENUE_TRACKER!E$2:E$1000>0))/B{ri},0)')
         ws.cell(row=ri, column=5).number_format = '0%'
-        ws.cell(row=ri, column=6, value=f'=IFERROR(MAXIFS(REVENUE_TRACKER!E2:E1000,REVENUE_TRACKER!M2:M1000,"*{trig}*"),0)')
-        ws.cell(row=ri, column=6).number_format = '$#,##0'
+        ws.cell(row=ri, column=6, value=f'=IFERROR(SUMPRODUCT((ISNUMBER(SEARCH("{trig}",REVENUE_TRACKER!M$2:M$1000)))*(REVENUE_TRACKER!E$2:E$1000>=2500))/B{ri},0)')
+        ws.cell(row=ri, column=6).number_format = '0%'
+        ws.cell(row=ri, column=7, value=f'=IFERROR(MAXIFS(REVENUE_TRACKER!E$2:E$1000,REVENUE_TRACKER!M$2:M$1000,"*{trig}*"),0)')
+        ws.cell(row=ri, column=7).number_format = '$#,##0'
 
-    # BY MARKET
-    ws['A11'] = 'BY MARKET'
-    ws['A11'].font = Font(bold=True, size=12)
-    ws['A11'].fill = section_fill
-    for i, h in enumerate(section_headers, 1):
-        c = ws.cell(row=12, column=i, value=h if i > 1 else 'Market')
-        c.fill = header_fill; c.font = header_font
-    for ri, mkt in enumerate(['BOTH', 'US', 'UK'], 13):
-        row_fill = PatternFill('solid', fgColor=mkt_colors.get(mkt, 'FFFFFF'))
-        ws.cell(row=ri, column=1, value=mkt).fill = row_fill
-        ws.cell(row=ri, column=2, value=f'=COUNTIF(REVENUE_TRACKER!O2:O1000,"*{mkt}*")')
-        ws.cell(row=ri, column=3, value=f'=SUMIF(REVENUE_TRACKER!O2:O1000,"*{mkt}*",REVENUE_TRACKER!E2:E1000)')
+    # === SECTION 2: REVENUE BY MARKET (rows 11-15) ===
+    ws['A11'] = 'REVENUE BY MARKET'
+    ws['A11'].font = section_font
+
+    # Headers row 12
+    for ci, h in enumerate(['Market', 'Templates', 'Total Revenue', 'Avg Revenue', 'Cap Rate', 'Best Template'], 1):
+        c = ws.cell(row=12, column=ci, value=h)
+        c.fill = table_header_fill; c.font = table_header_font
+
+    # Data rows 13-15
+    for ri, (mkt, search_term) in enumerate([('BOTH', 'BOTH'), ('US ONLY', 'US ONLY'), ('UK ONLY', 'UK ONLY')], 13):
+        ws.cell(row=ri, column=1, value=mkt)
+        ws.cell(row=ri, column=2, value=f'=COUNTIF(REVENUE_TRACKER!O:O,"*{search_term}*")')
+        ws.cell(row=ri, column=3, value=f'=SUMPRODUCT((ISNUMBER(SEARCH("{search_term}",REVENUE_TRACKER!O$2:O$1000)))*REVENUE_TRACKER!E$2:E$1000)')
         ws.cell(row=ri, column=3).number_format = '$#,##0'
         ws.cell(row=ri, column=4, value=f'=IFERROR(C{ri}/B{ri},0)')
         ws.cell(row=ri, column=4).number_format = '$#,##0'
-        ws.cell(row=ri, column=5, value=f'=IFERROR(COUNTIFS(REVENUE_TRACKER!O2:O1000,"*{mkt}*",REVENUE_TRACKER!E2:E1000,">0")/B{ri},0)')
+        ws.cell(row=ri, column=5, value=f'=IFERROR(SUMPRODUCT((ISNUMBER(SEARCH("{search_term}",REVENUE_TRACKER!O$2:O$1000)))*(REVENUE_TRACKER!E$2:E$1000>=2500))/B{ri},0)')
         ws.cell(row=ri, column=5).number_format = '0%'
-        ws.cell(row=ri, column=6, value=f'=IFERROR(MAXIFS(REVENUE_TRACKER!E2:E1000,REVENUE_TRACKER!O2:O1000,"*{mkt}*"),0)')
+        ws.cell(row=ri, column=6, value=f'=IFERROR(MAXIFS(REVENUE_TRACKER!E$2:E$1000,REVENUE_TRACKER!O$2:O$1000,"*{search_term}*"),0)')
         ws.cell(row=ri, column=6).number_format = '$#,##0'
 
-    # BY AI CATEGORY
-    ws['A18'] = 'BY AI CATEGORY'
-    ws['A18'].font = Font(bold=True, size=12)
-    ws['A18'].fill = section_fill
-    for i, h in enumerate(section_headers, 1):
-        c = ws.cell(row=19, column=i, value=h if i > 1 else 'Category')
-        c.fill = header_fill; c.font = header_font
-    for ri, cat in enumerate(['AI', 'NON-AI'], 20):
-        row_fill = PatternFill('solid', fgColor=cat_colors.get(cat, 'FFFFFF'))
-        ws.cell(row=ri, column=1, value=cat).fill = row_fill
-        ws.cell(row=ri, column=2, value=f'=COUNTIF(REVENUE_TRACKER!P2:P1000,"*{cat}*")')
-        ws.cell(row=ri, column=3, value=f'=SUMIF(REVENUE_TRACKER!P2:P1000,"*{cat}*",REVENUE_TRACKER!E2:E1000)')
-        ws.cell(row=ri, column=3).number_format = '$#,##0'
-        ws.cell(row=ri, column=4, value=f'=IFERROR(C{ri}/B{ri},0)')
-        ws.cell(row=ri, column=4).number_format = '$#,##0'
-        ws.cell(row=ri, column=5, value=f'=IFERROR(COUNTIFS(REVENUE_TRACKER!P2:P1000,"*{cat}*",REVENUE_TRACKER!E2:E1000,">0")/B{ri},0)')
-        ws.cell(row=ri, column=5).number_format = '0%'
-        ws.cell(row=ri, column=6, value=f'=IFERROR(MAXIFS(REVENUE_TRACKER!E2:E1000,REVENUE_TRACKER!P2:P1000,"*{cat}*"),0)')
-        ws.cell(row=ri, column=6).number_format = '$#,##0'
+    # === SECTION 3: REVENUE BY AI CATEGORY (rows 18-21) ===
+    ws['A18'] = 'REVENUE BY AI CATEGORY'
+    ws['A18'].font = section_font
 
-    for col, w in [('A',18),('B',12),('C',15),('D',15),('E',12),('F',15)]:
+    # Headers row 19
+    for ci, h in enumerate(['Category', 'Templates', 'Total Revenue', 'Avg Revenue', 'Cap Rate', 'Best Template'], 1):
+        c = ws.cell(row=19, column=ci, value=h)
+        c.fill = table_header_fill; c.font = table_header_font
+
+    # Data rows 20-21 (exact match uses = not SEARCH for AI category)
+    ws.cell(row=20, column=1, value='AI')
+    ws.cell(row=20, column=2, value='=COUNTIF(REVENUE_TRACKER!P:P,"*AI")')
+    ws.cell(row=20, column=3, value='=SUMPRODUCT((REVENUE_TRACKER!P$2:P$1000="AI")*REVENUE_TRACKER!E$2:E$1000)')
+    ws.cell(row=20, column=3).number_format = '$#,##0'
+    ws.cell(row=20, column=4, value='=IFERROR(C20/B20,0)')
+    ws.cell(row=20, column=4).number_format = '$#,##0'
+    ws.cell(row=20, column=5, value='=IFERROR(SUMPRODUCT((REVENUE_TRACKER!P$2:P$1000="AI")*(REVENUE_TRACKER!E$2:E$1000>=2500))/B20,0)')
+    ws.cell(row=20, column=5).number_format = '0%'
+    ws.cell(row=20, column=6, value='=IFERROR(MAXIFS(REVENUE_TRACKER!E$2:E$1000,REVENUE_TRACKER!P$2:P$1000,"AI"),0)')
+    ws.cell(row=20, column=6).number_format = '$#,##0'
+
+    ws.cell(row=21, column=1, value='NON-AI')
+    ws.cell(row=21, column=2, value='=COUNTIF(REVENUE_TRACKER!P:P,"*NON-AI")')
+    ws.cell(row=21, column=3, value='=SUMPRODUCT((REVENUE_TRACKER!P$2:P$1000="NON-AI")*REVENUE_TRACKER!E$2:E$1000)')
+    ws.cell(row=21, column=3).number_format = '$#,##0'
+    ws.cell(row=21, column=4, value='=IFERROR(C21/B21,0)')
+    ws.cell(row=21, column=4).number_format = '$#,##0'
+    ws.cell(row=21, column=5, value='=IFERROR(SUMPRODUCT((REVENUE_TRACKER!P$2:P$1000="NON-AI")*(REVENUE_TRACKER!E$2:E$1000>=2500))/B21,0)')
+    ws.cell(row=21, column=5).number_format = '0%'
+    ws.cell(row=21, column=6, value='=IFERROR(MAXIFS(REVENUE_TRACKER!E$2:E$1000,REVENUE_TRACKER!P$2:P$1000,"NON-AI"),0)')
+    ws.cell(row=21, column=6).number_format = '$#,##0'
+
+    # === SECTION 4: INSTALL ECONOMICS (rows 24-28) ===
+    ws['A24'] = 'INSTALL ECONOMICS'
+    ws['A24'].font = section_font
+
+    ws.cell(row=25, column=1, value='Avg revenue per install (all)')
+    ws.cell(row=25, column=2, value='=IFERROR(SUM(REVENUE_TRACKER!E:E)/SUM(REVENUE_TRACKER!H:H),0)')
+    ws.cell(row=25, column=2).number_format = '$#,##0.00'
+
+    ws.cell(row=26, column=1, value='Avg revenue per install (earning only)')
+    ws.cell(row=26, column=2, value='=IFERROR(SUMPRODUCT((REVENUE_TRACKER!E$2:E$1000>0)*REVENUE_TRACKER!E$2:E$1000)/SUMPRODUCT((REVENUE_TRACKER!E$2:E$1000>0)*REVENUE_TRACKER!H$2:H$1000),0)')
+    ws.cell(row=26, column=2).number_format = '$#,##0.00'
+
+    ws.cell(row=27, column=1, value='US/EU installs as % of total')
+    ws.cell(row=27, column=2, value='=IFERROR(SUM(REVENUE_TRACKER!F:F)/SUM(REVENUE_TRACKER!H:H),0)')
+    ws.cell(row=27, column=2).number_format = '0%'
+
+    ws.cell(row=28, column=1, value='Min installs to hit cap')
+    ws.cell(row=28, column=2, value='=IFERROR(MIN(IF(REVENUE_TRACKER!E$2:E$1000>=2500,REVENUE_TRACKER!H$2:H$1000)),0)')
+    ws.cell(row=28, column=2).number_format = '#,##0'
+
+    # Column widths
+    for col, w in [('A', 35), ('B', 14), ('C', 16), ('D', 14), ('E', 12), ('F', 12)]:
         ws.column_dimensions[col].width = w
 
 
