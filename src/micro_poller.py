@@ -419,9 +419,22 @@ def process_polling_run(us_data: list, uk_data: list, webhook_url: str) -> dict:
         # Find current video data
         video = all_videos.get(url)
         if not video:
-            print(f"\u26a0\ufe0f Video no longer in data: {truncate_text(candidate.get('text', ''), 30)}")
-            removed_count += 1
-            continue
+            # Video not in this Apify pull - keep candidate but track misses
+            # Apify returns different videos each scrape, so missing is normal
+            misses = candidate.get('consecutive_misses', 0) + 1
+            candidate['consecutive_misses'] = misses
+            if misses >= 3:
+                # Only remove after 3 consecutive misses (6+ hours absent)
+                print(f"\U0001f6d1 Removed (missing 3 runs): {truncate_text(candidate.get('text', ''), 30)}")
+                removed_count += 1
+                continue
+            else:
+                print(f"\u23f3 Kept candidate (miss {misses}/3): {truncate_text(candidate.get('text', ''), 30)}")
+                updated_candidates.append(candidate)
+                continue
+
+        # Reset miss counter when found
+        candidate['consecutive_misses'] = 0
 
         # Calculate current metrics
         metrics = calculate_metrics(video)
