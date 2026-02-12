@@ -785,7 +785,10 @@ def create_enhanced_excel(
     # Build competitor intel (7-day deep analysis)
     try:
         from competitor_intel_patch import build_competitor_intel, build_competitor_intel_tab
-        comp_intel = build_competitor_intel(df_today, cache_path or 'data')
+        comp_cache_dir = os.path.dirname(cache_path) if cache_path else 'data'
+        if not comp_cache_dir:
+            comp_cache_dir = 'data'
+        comp_intel = build_competitor_intel(df_today, comp_cache_dir)
         has_comp_intel = True
     except Exception as e:
         print(f"  [WARNING] Could not build competitor intel: {e}")
