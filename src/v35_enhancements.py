@@ -239,7 +239,8 @@ def calculate_velocity_predictions(
     
     # Merge with yesterday's data if available
     if df_yesterday is not None and len(df_yesterday) > 0:
-        yesterday_momentum = df_yesterday[['webVideoUrl', 'momentum_score']].copy()
+        yest_dedup = df_yesterday.drop_duplicates(subset=['webVideoUrl'], keep='first')
+        yesterday_momentum = yest_dedup[['webVideoUrl', 'momentum_score']].copy()
         yesterday_momentum.columns = ['webVideoUrl', 'momentum_yesterday']
         df = df.merge(yesterday_momentum, on='webVideoUrl', how='left')
     else:
@@ -247,7 +248,8 @@ def calculate_velocity_predictions(
     
     # Merge with 2-days-ago data if available
     if df_2days_ago is not None and len(df_2days_ago) > 0:
-        old_momentum = df_2days_ago[['webVideoUrl', 'momentum_score']].copy()
+        d2_dedup = df_2days_ago.drop_duplicates(subset=['webVideoUrl'], keep='first')
+        old_momentum = d2_dedup[['webVideoUrl', 'momentum_score']].copy()
         old_momentum.columns = ['webVideoUrl', 'momentum_2days']
         df = df.merge(old_momentum, on='webVideoUrl', how='left')
     else:
@@ -669,298 +671,575 @@ def create_enhanced_excel(
     df_yesterday: pd.DataFrame = None,
     df_2days_ago: pd.DataFrame = None,
     output_path: str = 'BUILD_TODAY_ENHANCED.xlsx',
-    cache_path: str = None
+    cache_path: str = None,
+    dashboard_path: str = None
 ) -> str:
     """
-    Create enhanced Excel file with new tabs:
-    - VELOCITY_PREDICTIONS: Where trends are heading
-    - COMPETITOR_ANALYSIS: Gap analysis vs capcutdailyuk
-    - OPPORTUNITY_MATRIX: Combined view for decision making
+    Create v3.6.0 Enhanced Excel file with 7 tabs:
+    1. DASHBOARD - Formula-driven KPI summary
+    2. OPPORTUNITY_NOW - 13-column priority build list
+    3. REVENUE_TRACKER - 19-column revenue tracking (carried forward)
+    4. REVENUE_INSIGHTS - Auto-calculated breakdowns
+    5. COMPETITOR_VIEW - 12-column combined competitor analysis
+    6. PREDICTION_LOG - Model accuracy tracking
+    7. DATA_FEED - 19-column enhanced MY_PERFORMANCE
     """
-    
-    # Ensure numeric types on input data (may arrive as strings)
     df_today = _ensure_calculated_metrics(df_today)
-    
-    wb = Workbook()
-    
+
+    # Filter to fresh content (72h) for enhanced analysis
+    fresh_df = df_today[df_today['age_hours'] <= 72].copy() if 'age_hours' in df_today.columns else df_today.copy()
+
+    # Calculate velocity predictions on fresh data
+    df_with_predictions = calculate_velocity_predictions(fresh_df, df_yesterday, df_2days_ago)
+    velocity_summary = create_velocity_summary(df_with_predictions, cache_path=cache_path)
+
+    # Competitor analysis on full dataset
+    competitor_gaps = analyze_competitor_gaps(df_today)
+    h2h_metrics = calculate_your_vs_competitor_metrics(df_today)
+
+    # Load existing revenue/prediction data
+    existing_revenue = _load_existing_revenue(dashboard_path)
+    existing_prediction_log = _load_existing_prediction_log(dashboard_path)
+
     # Style definitions
     header_fill = PatternFill('solid', fgColor='1F4E78')
     header_font = Font(bold=True, color='FFFFFF')
     cyan_fill = PatternFill('solid', fgColor='E0FFFF')
-    orange_fill = PatternFill('solid', fgColor='FFE4B5')
-    gold_fill = PatternFill('solid', fgColor='FFD700')
-    red_fill = PatternFill('solid', fgColor='FF6B6B')
-    green_fill = PatternFill('solid', fgColor='90EE90')
-    yellow_fill = PatternFill('solid', fgColor='FFFACD')
-    thin_border = Border(
-        left=Side(style='thin'),
-        right=Side(style='thin'),
-        top=Side(style='thin'),
-        bottom=Side(style='thin')
-    )
-    
-    # ===================
-    # TAB 1: VELOCITY PREDICTIONS
-    # ===================
-    ws_velocity = wb.active
-    ws_velocity.title = 'VELOCITY_PREDICTIONS'
-    
-    # Calculate predictions
-    df_with_predictions = calculate_velocity_predictions(df_today, df_yesterday, df_2days_ago)
-    velocity_summary = create_velocity_summary(df_with_predictions, cache_path=cache_path)
-    
-    # Write header
-    headers = list(velocity_summary.columns)
-    for col_idx, header in enumerate(headers, 1):
-        cell = ws_velocity.cell(row=1, column=col_idx, value=header)
-        cell.fill = header_fill
-        cell.font = header_font
-        cell.alignment = Alignment(horizontal='center')
-    
-    # Write data
-    for row_idx, (_, row) in enumerate(velocity_summary.iterrows(), 2):
-        for col_idx, value in enumerate(row, 1):
-            cell = ws_velocity.cell(row=row_idx, column=col_idx, value=_sanitize_cell(value))
-            cell.border = thin_border
-            
-            # Color code action_window column (column 1)
-            if col_idx == 1:
-                if 'ACT NOW' in str(value):
-                    cell.fill = red_fill
-                    cell.font = Font(bold=True)
-                elif '6-12H' in str(value):
-                    cell.fill = orange_fill
-                elif '12-24H' in str(value):
-                    cell.fill = yellow_fill
-                elif 'MONITOR' in str(value):
-                    cell.fill = green_fill
-            
-            # Color code trajectory column (column 2)
-            if col_idx == 2:
-                if 'EXPLOSIVE' in str(value):
-                    cell.fill = PatternFill('solid', fgColor='FF4444')
-                    cell.font = Font(bold=True, color='FFFFFF')
-                elif 'STRONG' in str(value):
-                    cell.fill = PatternFill('solid', fgColor='00AA00')
-            
-            # Color code recommended_variants column
-            header_name = headers[col_idx - 1] if col_idx <= len(headers) else ''
-            if header_name == 'recommended_variants':
-                cell.alignment = Alignment(horizontal='center')
-                variant_fills = {
-                    7: PatternFill('solid', fgColor='FF4444'),
-                    5: PatternFill('solid', fgColor='FF6B6B'),
-                    3: PatternFill('solid', fgColor='FFB347'),
-                    2: PatternFill('solid', fgColor='FFFACD'),
-                    1: PatternFill('solid', fgColor='E8E8E8'),
-                }
-                try:
-                    iv = int(value) if value is not None else 0
-                except (ValueError, TypeError):
-                    iv = 0
-                if iv in variant_fills:
-                    cell.fill = variant_fills[iv]
-                    if iv >= 5:
-                        cell.font = Font(bold=True, color='FFFFFF')
-            
-            # Color code stop_building column
-            if header_name == 'stop_building' and value is True:
-                cell.fill = PatternFill('solid', fgColor='FF0000')
-                cell.font = Font(bold=True, color='FFFFFF')
-                cell.alignment = Alignment(horizontal='center')
-            elif header_name == 'stop_building':
-                cell.alignment = Alignment(horizontal='center')
-            
-            # Center streak column
-            if header_name == 'velocity_nonpos_streak':
-                cell.alignment = Alignment(horizontal='center')
-    
-    # Set column widths
-    ws_velocity.column_dimensions['A'].width = 18
-    ws_velocity.column_dimensions['B'].width = 15
-    ws_velocity.column_dimensions['C'].width = 50
-    ws_velocity.column_dimensions['D'].width = 15
-    
-    # Set widths for new variant/stop columns (find by header name)
-    from openpyxl.utils import get_column_letter
-    for col_idx, h in enumerate(headers, 1):
-        if h == 'recommended_variants':
-            ws_velocity.column_dimensions[get_column_letter(col_idx)].width = 22
-        elif h == 'velocity_nonpos_streak':
-            ws_velocity.column_dimensions[get_column_letter(col_idx)].width = 22
-        elif h == 'stop_building':
-            ws_velocity.column_dimensions[get_column_letter(col_idx)].width = 15
-        elif h == 'stop_reason':
-            ws_velocity.column_dimensions[get_column_letter(col_idx)].width = 28
-    
-    # Freeze top row
-    ws_velocity.freeze_panes = 'A2'
-    
-    # ===================
-    # TAB 2: COMPETITOR ANALYSIS
-    # ===================
-    ws_competitor = wb.create_sheet('COMPETITOR_ANALYSIS')
-    
-    # Analyze gaps
-    competitor_gaps = analyze_competitor_gaps(df_today)
-    
-    if len(competitor_gaps) > 0:
-        # Write header
-        headers = list(competitor_gaps.columns)
-        for col_idx, header in enumerate(headers, 1):
-            cell = ws_competitor.cell(row=1, column=col_idx, value=header)
-            cell.fill = header_fill
-            cell.font = header_font
-            cell.alignment = Alignment(horizontal='center')
-        
-        # Write data
-        for row_idx, (_, row) in enumerate(competitor_gaps.iterrows(), 2):
-            for col_idx, value in enumerate(row, 1):
-                cell = ws_competitor.cell(row=row_idx, column=col_idx, value=_sanitize_cell(value))
-                cell.border = thin_border
-                
-                # Highlight missed opportunities
-                if col_idx == headers.index('gap_type') + 1:
-                    if value == 'MISSED_BY_YOU':
-                        cell.fill = red_fill
-                        cell.font = Font(bold=True)
-                    elif value == 'BOTH_CAUGHT':
-                        cell.fill = green_fill
-        
-        ws_competitor.freeze_panes = 'A2'
-    else:
-        ws_competitor['A1'] = 'No competitor posts found in today\'s data'
-    
-    # ===================
-    # TAB 3: HEAD-TO-HEAD SUMMARY
-    # ===================
-    ws_h2h = wb.create_sheet('HEAD_TO_HEAD')
-    
-    metrics = calculate_your_vs_competitor_metrics(df_today)
-    
-    # Create comparison table
-    ws_h2h['A1'] = 'METRIC'
-    ws_h2h['B1'] = 'YOU (7 accounts)'
-    ws_h2h['C1'] = 'COMPETITOR'
-    ws_h2h['D1'] = 'WINNER'
-    
-    for col in ['A', 'B', 'C', 'D']:
-        ws_h2h[f'{col}1'].fill = header_fill
-        ws_h2h[f'{col}1'].font = header_font
-    
-    comparisons = [
-        ('Posts in Trending', metrics['your_post_count'], metrics['competitor_post_count']),
-        ('Average Momentum', round(metrics['your_avg_momentum'], 0), round(metrics['competitor_avg_momentum'], 0)),
-        ('Total Momentum', round(metrics['your_total_momentum'], 0), round(metrics['competitor_total_momentum'], 0)),
-        ('SPIKING Posts', metrics['your_spiking_count'], metrics['competitor_spiking_count']),
-    ]
-    
-    for row_idx, (metric, yours, theirs) in enumerate(comparisons, 2):
-        ws_h2h[f'A{row_idx}'] = metric
-        ws_h2h[f'B{row_idx}'] = yours
-        ws_h2h[f'C{row_idx}'] = theirs
-        
-        if yours > theirs:
-            ws_h2h[f'D{row_idx}'] = '✅ YOU'
-            ws_h2h[f'D{row_idx}'].fill = green_fill
-        elif theirs > yours:
-            ws_h2h[f'D{row_idx}'] = '❌ THEM'
-            ws_h2h[f'D{row_idx}'].fill = red_fill
-        else:
-            ws_h2h[f'D{row_idx}'] = '🤝 TIE'
-    
-    ws_h2h.column_dimensions['A'].width = 25
-    ws_h2h.column_dimensions['B'].width = 18
-    ws_h2h.column_dimensions['C'].width = 18
-    ws_h2h.column_dimensions['D'].width = 12
-    
-    # ===================
-    # TAB 4: OPPORTUNITY MATRIX
-    # ===================
-    ws_matrix = wb.create_sheet('OPPORTUNITY_MATRIX')
-    
-    # Combine velocity + competitor analysis for decision matrix
-    ws_matrix['A1'] = 'DECISION MATRIX: What to build RIGHT NOW'
-    ws_matrix['A1'].font = Font(bold=True, size=14)
-    ws_matrix.merge_cells('A1:F1')
-    
-    # Filter to actionable opportunities
-    actionable = df_with_predictions[
-        (df_with_predictions['action_window'].str.contains('ACT NOW|6-12H', na=False)) &
-        (df_with_predictions['age_hours'] <= 48) &
-        (df_with_predictions['momentum_score'] >= 500)
-    ].head(20)
-    
-    if len(actionable) > 0:
-        matrix_headers = ['Priority', 'Trend', 'Current', 'Predicted 24h', 'Growth', 'Action Window', 'URL']
-        for col_idx, header in enumerate(matrix_headers, 1):
-            cell = ws_matrix.cell(row=3, column=col_idx, value=header)
-            cell.fill = header_fill
-            cell.font = header_font
-        
-        for row_idx, (_, row) in enumerate(actionable.iterrows(), 4):
-            growth = row['predicted_24h'] - row['momentum_score']
-            ws_matrix.cell(row=row_idx, column=1, value=row_idx - 3)  # Priority number
-            ws_matrix.cell(row=row_idx, column=2, value=str(row.get('text', '') if pd.notna(row.get('text')) else '')[:50])
-            ws_matrix.cell(row=row_idx, column=3, value=int(row['momentum_score']))
-            ws_matrix.cell(row=row_idx, column=4, value=int(row['predicted_24h']))
-            ws_matrix.cell(row=row_idx, column=5, value=f"+{int(growth)}")
-            ws_matrix.cell(row=row_idx, column=6, value=row['action_window'])
-            ws_matrix.cell(row=row_idx, column=7, value=row['webVideoUrl'])
-            
-            # Color the priority cell
-            priority_cell = ws_matrix.cell(row=row_idx, column=1)
-            if row_idx - 3 <= 3:
-                priority_cell.fill = red_fill
-                priority_cell.font = Font(bold=True)
-            elif row_idx - 3 <= 7:
-                priority_cell.fill = orange_fill
-            else:
-                priority_cell.fill = yellow_fill
-    else:
-        ws_matrix['A3'] = 'No immediate action items - check VELOCITY_PREDICTIONS for monitoring list'
-    
-    ws_matrix.freeze_panes = 'A4'
-    ws_matrix.column_dimensions['B'].width = 45
-    ws_matrix.column_dimensions['G'].width = 50
-    
-    # ===================
-    # TAB 5: DOCUMENTATION
-    # ===================
-    ws_docs = wb.create_sheet('README')
-    
-    docs = [
-        ('TikTok Trend System v3.5.0 Enhancements', '', ''),
-        ('', '', ''),
-        ('VELOCITY_PREDICTIONS Tab', '', ''),
-        ('- Shows where each trend is heading in 6h, 12h, 24h', '', ''),
-        ('- Action Window tells you WHEN to act:', '', ''),
-        ('  🔴 ACT NOW = Drop everything, build template immediately', '', ''),
-        ('  🟠 6-12H = High priority, build today', '', ''),
-        ('  🟡 12-24H = Schedule for tomorrow', '', ''),
-        ('  🟢 MONITOR = Watch but don\'t build yet', '', ''),
-        ('  ⚠️ PEAKED/TOO LATE = Don\'t bother', '', ''),
-        ('', '', ''),
-        ('COMPETITOR_ANALYSIS Tab', '', ''),
-        ('- Shows every trend capcutdailyuk posted', '', ''),
-        ('- MISSED_BY_YOU = They caught it, you didn\'t = £££ lost', '', ''),
-        ('- BOTH_CAUGHT = Good! Check if you were faster', '', ''),
-        ('', '', ''),
-        ('HEAD_TO_HEAD Tab', '', ''),
-        ('- Daily scorecard: You vs Competitor', '', ''),
-        ('- Track who\'s winning the trend detection game', '', ''),
-        ('', '', ''),
-        ('OPPORTUNITY_MATRIX Tab', '', ''),
-        ('- Your BUILD LIST for today', '', ''),
-        ('- Sorted by highest opportunity score', '', ''),
-        ('- Top 3 (red) = Build FIRST', '', ''),
-    ]
-    
-    for row_idx, (text, _, _) in enumerate(docs, 1):
-        ws_docs.cell(row=row_idx, column=1, value=text)
-    
+    thin_border = Border(left=Side(style='thin'), right=Side(style='thin'),
+                         top=Side(style='thin'), bottom=Side(style='thin'))
+
+    wb = Workbook()
+
+    # TAB 1: DASHBOARD
+    ws = wb.active
+    ws.title = 'DASHBOARD'
+    _build_dashboard_tab(ws, header_fill, header_font)
+
+    # TAB 2: OPPORTUNITY_NOW (13 columns)
+    ws_opp = wb.create_sheet('OPPORTUNITY_NOW')
+    _build_opportunity_now_tab(ws_opp, df_with_predictions, header_fill, header_font, thin_border)
+
+    # TAB 3: REVENUE_TRACKER (19 columns)
+    ws_rev = wb.create_sheet('REVENUE_TRACKER')
+    _build_revenue_tracker_tab(ws_rev, existing_revenue, header_fill, header_font, thin_border)
+
+    # TAB 4: REVENUE_INSIGHTS
+    ws_ins = wb.create_sheet('REVENUE_INSIGHTS')
+    _build_revenue_insights_tab(ws_ins, header_fill, header_font)
+
+    # TAB 5: COMPETITOR_VIEW (12 columns)
+    ws_comp = wb.create_sheet('COMPETITOR_VIEW')
+    _build_competitor_view_tab(ws_comp, competitor_gaps, header_fill, header_font, thin_border)
+
+    # TAB 6: PREDICTION_LOG (10 columns)
+    ws_pred = wb.create_sheet('PREDICTION_LOG')
+    _build_prediction_log_tab(ws_pred, df_with_predictions, df_yesterday,
+                               existing_prediction_log, header_fill, header_font, thin_border)
+
+    # TAB 7: DATA_FEED (19 columns)
+    ws_feed = wb.create_sheet('DATA_FEED')
+    _build_data_feed_tab(ws_feed, df_today, header_fill, header_font, thin_border, cyan_fill)
+
     wb.save(output_path)
     return output_path
+
+
+# =============================================================================
+# v3.6.0 TAB BUILDERS
+# =============================================================================
+
+def _build_dashboard_tab(ws, header_fill, header_font):
+    ws['A1'] = '\U0001f4ca TIKTOK TREND SYSTEM \u2014 DAILY DASHBOARD'
+    ws['A1'].font = Font(bold=True, size=14)
+    ws.merge_cells('A1:L1')
+    ws['A2'] = '=TEXT(NOW(),"dddd, dd mmmm yyyy \u2014 HH:MM")'
+    ws['A2'].font = Font(italic=True, color='666666')
+    ws.merge_cells('A2:F2')
+
+    # REVENUE section
+    ws['A4'] = '\U0001f4b0 REVENUE'
+    ws['A4'].font = Font(bold=True, size=12, color='1F4E78')
+    ws.merge_cells('A4:L4')
+    for i, lbl in enumerate(['Total Revenue', '', 'Templates at Cap', '', 'Hit Rate', '', 'Avg Rev/Template', '', 'Outstanding'], 1):
+        ws.cell(row=5, column=i, value=lbl).font = Font(bold=True, size=9, color='666666')
+    ws['A6'] = '=SUMPRODUCT(REVENUE_TRACKER!E2:E1000)'
+    ws['A6'].number_format = '$#,##0'
+    ws['A6'].font = Font(bold=True, size=16)
+    ws['C6'] = '=COUNTIF(REVENUE_TRACKER!E2:E1000,">=2500")'
+    ws['C6'].font = Font(bold=True, size=16)
+    ws['E6'] = '=IFERROR(COUNTIF(REVENUE_TRACKER!E2:E1000,">0")/COUNTA(REVENUE_TRACKER!A2:A1000),0)'
+    ws['E6'].number_format = '0%'
+    ws['E6'].font = Font(bold=True, size=16)
+    ws['G6'] = '=IFERROR(AVERAGEIF(REVENUE_TRACKER!E2:E1000,">0"),0)'
+    ws['G6'].number_format = '$#,##0'
+    ws['G6'].font = Font(bold=True, size=16)
+    ws['I6'] = '=SUMPRODUCT(REVENUE_TRACKER!E2:E1000)-SUMPRODUCT(REVENUE_TRACKER!D2:D1000)'
+    ws['I6'].number_format = '$#,##0'
+    ws['I6'].font = Font(bold=True, size=16)
+
+    # TODAY section
+    ws['A9'] = '\U0001f3af TODAY'
+    ws['A9'].font = Font(bold=True, size=12, color='1F4E78')
+    ws.merge_cells('A9:L9')
+    for i, lbl in enumerate(['Build NOW', '', 'Build Today', '', 'URGENT', '', 'SPIKING', '', 'Your Posts'], 1):
+        ws.cell(row=10, column=i, value=lbl).font = Font(bold=True, size=9, color='666666')
+    ws['A11'] = '=COUNTIF(OPPORTUNITY_NOW!B2:B100,"*BUILD_IMMEDIATELY*")'
+    ws['A11'].font = Font(bold=True, size=16, color='FF0000')
+    ws['C11'] = '=COUNTIF(OPPORTUNITY_NOW!B2:B100,"*BUILD_TODAY*")'
+    ws['C11'].font = Font(bold=True, size=16, color='FF8C00')
+    ws['E11'] = '=COUNTIF(DATA_FEED!L2:L5000,"*URGENT*")'
+    ws['E11'].font = Font(bold=True, size=16)
+    ws['G11'] = '=COUNTIF(DATA_FEED!F2:F5000,"*SPIKING*")'
+    ws['G11'].font = Font(bold=True, size=16)
+    ws['I11'] = '=COUNTA(DATA_FEED!B2:B5000)'
+    ws['I11'].font = Font(bold=True, size=16)
+
+    # COMPETITOR & MODEL section
+    ws['A14'] = '\u2694\ufe0f COMPETITOR & MODEL'
+    ws['A14'].font = Font(bold=True, size=12, color='1F4E78')
+    ws.merge_cells('A14:L14')
+    for i, lbl in enumerate(['You Missed', '', 'Competitor Posts', '', 'Prediction Accuracy', '', 'Model Bias'], 1):
+        ws.cell(row=15, column=i, value=lbl).font = Font(bold=True, size=9, color='666666')
+    ws['A16'] = '=COUNTIF(COMPETITOR_VIEW!H2:H500,"MISSED_BY_YOU")'
+    ws['A16'].font = Font(bold=True, size=16, color='FF0000')
+    ws['C16'] = '=COUNTA(COMPETITOR_VIEW!A2:A500)'
+    ws['C16'].font = Font(bold=True, size=16)
+    ws['E16'] = '=IFERROR(INDEX(PREDICTION_LOG!C2:C100,MATCH(9.99E+307,PREDICTION_LOG!C2:C100)),0)'
+    ws['E16'].number_format = '0%'
+    ws['E16'].font = Font(bold=True, size=16)
+    ws['G16'] = '=IFERROR(INDEX(PREDICTION_LOG!D2:D100,MATCH(9.99E+307,PREDICTION_LOG!D2:D100)),"N/A")'
+    ws['G16'].font = Font(bold=True, size=16)
+
+    # SEASONAL
+    ws['A19'] = '\U0001f4c5 SEASONAL ALERTS'
+    ws['A19'].font = Font(bold=True, size=12, color='1F4E78')
+    ws.merge_cells('A19:L19')
+    try:
+        from seasonal_calendar import get_seasonal_alerts
+        from datetime import date
+        alerts = get_seasonal_alerts(date.today())
+        if alerts:
+            for i, a in enumerate(alerts[:3]):
+                ws.cell(row=20+i, column=1, value=f"{a.get('emoji','')} {a.get('event','')} \u2014 {a.get('timing','')}")
+        else:
+            ws['A20'] = 'No seasonal events coming up'
+    except Exception:
+        ws['A20'] = 'Seasonal calendar not available'
+
+    # HOW TO USE
+    ws['A25'] = '\U0001f4cb HOW TO USE THIS DASHBOARD'
+    ws['A25'].font = Font(bold=True, size=12, color='1F4E78')
+    ws.merge_cells('A25:L25')
+    instructions = [
+        '1. Open OPPORTUNITY_NOW tab > build the red items first',
+        '2. Check COMPETITOR_VIEW > look for MISSED_BY_YOU with high momentum',
+        '3. After building templates, fill in REVENUE_TRACKER with your template links',
+        '4. When revenue comes in, update the Estimated and Received columns',
+        '5. REVENUE_INSIGHTS auto-calculates which signals predict revenue best',
+        '6. PREDICTION_LOG tracks model accuracy > check for tuning suggestions',
+    ]
+    for i, txt in enumerate(instructions):
+        ws.cell(row=26+i, column=1, value=txt).font = Font(size=10)
+    for col in range(1, 13):
+        from openpyxl.utils import get_column_letter
+        ws.column_dimensions[get_column_letter(col)].width = 16
+
+
+def _build_opportunity_now_tab(ws, df_pred, header_fill, header_font, thin_border):
+    headers = ['Priority', 'Build Priority', 'Time Zone', 'Time Remaining',
+               'Trend', 'Creator', 'Momentum', 'Opportunity Score', 'Age',
+               'Market', 'Seasonal', 'Previously Built', 'URL']
+    for ci, h in enumerate(headers, 1):
+        c = ws.cell(row=1, column=ci, value=h)
+        c.fill = header_fill
+        c.font = header_font
+        c.alignment = Alignment(horizontal='center')
+
+    # Filter to actionable
+    actionable = df_pred[
+        (df_pred['action_window'].str.contains('ACT NOW|6-12H', na=False)) &
+        (df_pred['age_hours'] <= 48) & (df_pred['momentum_score'] >= 500)
+    ].copy()
+    if len(actionable) == 0:
+        actionable = df_pred[
+            (df_pred['age_hours'] <= 60) & (df_pred['momentum_score'] >= 300) &
+            (~df_pred['action_window'].str.contains('TOO LATE', na=False))
+        ].nlargest(10, 'momentum_score').copy()
+
+    # Exclude tracked accounts
+    if 'author' in actionable.columns and len(actionable) > 0:
+        all_tracked = [a.lower() for a in YOUR_ACCOUNTS + COMPETITOR_ACCOUNTS]
+        actionable = actionable[~actionable['author'].str.lower().isin(all_tracked)]
+
+    # Opportunity score
+    if len(actionable) > 0:
+        vel_fill = actionable['velocity'].fillna(0)
+        age_factor = (72 - actionable['age_hours'].clip(0, 72)) / 72
+        actionable['opportunity_score'] = (
+            actionable['momentum_score'] * 0.4 + vel_fill.clip(lower=0) * 2 +
+            actionable['predicted_24h'].fillna(actionable['momentum_score']) * 0.3 +
+            age_factor * 1000
+        ).astype(int)
+        actionable = actionable.nlargest(20, 'opportunity_score')
+
+    now_hour = datetime.utcnow().hour
+    is_prime = 8 <= now_hour <= 22
+    tz_label = '\U0001f7e2 PRIME' if is_prime else 'OFF_PEAK'
+    seasonal_text = ''
+    try:
+        from seasonal_calendar import get_seasonal_alerts
+        from datetime import date
+        alerts = get_seasonal_alerts(date.today())
+        if alerts: seasonal_text = alerts[0].get('event', '')
+    except Exception: pass
+
+    for ri, (_, row) in enumerate(actionable.iterrows(), 2):
+        aw = str(row.get('action_window', ''))
+        is_act_now = 'ACT NOW' in aw
+        hours_left = max(0, 72 - row.get('age_hours', 0))
+        time_rem = f"{hours_left:.0f}h of prime time left" if is_prime else f"{hours_left:.0f}h remaining"
+        vals = [
+            ri - 1,
+            '\U0001f534 BUILD_IMMEDIATELY' if is_act_now else '\U0001f7e0 BUILD_TODAY',
+            tz_label, time_rem,
+            str(row.get('text', ''))[:60] if pd.notna(row.get('text')) else '',
+            str(row.get('author', ''))[:20] if pd.notna(row.get('author')) else '',
+            int(row.get('momentum_score', 0)),
+            int(row.get('opportunity_score', 0)),
+            f"{row.get('age_hours', 0):.1f}h",
+            str(row.get('Market', '')) if pd.notna(row.get('Market')) else '',
+            seasonal_text, '',
+            str(row.get('webVideoUrl', '')),
+        ]
+        row_color = 'FF6B6B' if is_act_now else 'FFE4B5'
+        for ci, val in enumerate(vals, 1):
+            c = ws.cell(row=ri, column=ci, value=_sanitize_cell(val))
+            c.border = thin_border
+            if ci <= 12:
+                c.fill = PatternFill('solid', fgColor=row_color)
+                if is_act_now: c.font = Font(bold=True)
+        url_cell = ws.cell(row=ri, column=13)
+        url_val = str(row.get('webVideoUrl', ''))
+        if url_val.startswith('http'):
+            url_cell.hyperlink = url_val
+            url_cell.font = Font(color='0000FF', underline='single')
+
+    if len(actionable) == 0:
+        ws['A2'] = 'No immediate opportunities - check DASHBOARD for monitoring items'
+        ws['A2'].font = Font(italic=True, color='666666')
+
+    ws.freeze_panes = 'A2'
+    for col, w in [('A',8),('B',22),('C',12),('D',25),('E',50),('F',18),('G',12),('H',16),('I',10),('J',15),('K',18),('L',15),('M',50)]:
+        ws.column_dimensions[col].width = w
+
+
+def _build_revenue_tracker_tab(ws, existing_revenue, header_fill, header_font, thin_border):
+    headers = ['TikTok URL', 'Account', 'Template Link', 'Received ($)',
+               'Estimated ($)', 'US & EU3 Installs', 'ROW Installs',
+               'Total Installs', 'Rev/Install', 'At Cap?', 'Trend Description',
+               'Momentum at Detection', 'Trigger Level', 'Action Window',
+               'Market', 'AI Category', 'Age at Detection', 'Date First Seen', 'Notes']
+    for ci, h in enumerate(headers, 1):
+        c = ws.cell(row=1, column=ci, value=h)
+        c.fill = header_fill
+        c.font = header_font
+        c.alignment = Alignment(horizontal='center')
+
+    max_data_row = 1
+    if existing_revenue is not None and len(existing_revenue) > 0:
+        for ri, (_, row) in enumerate(existing_revenue.iterrows(), 2):
+            for ci in range(1, 20):
+                col_name = headers[ci-1] if ci <= len(headers) else ''
+                val = row.get(col_name, row.iloc[ci-1] if ci-1 < len(row) else '')
+                if pd.isna(val): val = ''
+                ws.cell(row=ri, column=ci, value=_sanitize_cell(val)).border = thin_border
+            # Formulas for calculated columns
+            ws.cell(row=ri, column=8, value=f'=F{ri}+G{ri}')
+            ws.cell(row=ri, column=9, value=f'=IFERROR(E{ri}/H{ri},0)')
+            ws.cell(row=ri, column=9).number_format = '$#,##0.00'
+            ws.cell(row=ri, column=10, value=f'=IF(E{ri}>=2500,"\u2705 CAP","")')
+            max_data_row = ri
+
+    # Add formulas for empty rows (for future user input)
+    input_fill = PatternFill('solid', fgColor='FFFFE0')
+    for ri in range(max_data_row + 1, max_data_row + 51):
+        ws.cell(row=ri, column=8, value=f'=F{ri}+G{ri}')
+        ws.cell(row=ri, column=9, value=f'=IFERROR(E{ri}/H{ri},0)')
+        ws.cell(row=ri, column=9).number_format = '$#,##0.00'
+        ws.cell(row=ri, column=10, value=f'=IF(E{ri}>=2500,"\u2705 CAP","")')
+        for ci in [3,4,5,6,7,19]:
+            ws.cell(row=ri, column=ci).fill = input_fill
+
+    ws.freeze_panes = 'A2'
+    for col, w in [('A',50),('B',20),('C',40),('D',12),('E',12),('F',15),('G',12),('H',12),('I',12),('J',10),('K',40),('R',14)]:
+        ws.column_dimensions[col].width = w
+
+
+def _build_revenue_insights_tab(ws, header_fill, header_font):
+    ws['A1'] = '\U0001f4b0 REVENUE INSIGHTS \u2014 Auto-Calculated'
+    ws['A1'].font = Font(bold=True, size=14, color='1F4E78')
+    ws.merge_cells('A1:F1')
+
+    section_headers = ['Category', 'Templates', 'Total Revenue', 'Avg Revenue', 'Hit Rate', 'Best Template']
+
+    # BY TRIGGER LEVEL
+    ws['A3'] = 'BY TRIGGER LEVEL'
+    ws['A3'].font = Font(bold=True, size=12)
+    for i, h in enumerate(section_headers, 1):
+        c = ws.cell(row=4, column=i, value=h if i > 1 else 'Trigger Level')
+        c.fill = header_fill; c.font = header_font
+    for ri, trig in enumerate(['URGENT', 'HIGH', 'WATCH', 'NONE'], 5):
+        ws.cell(row=ri, column=1, value=trig)
+        ws.cell(row=ri, column=2, value=f'=COUNTIF(REVENUE_TRACKER!M2:M1000,"*{trig}*")')
+        ws.cell(row=ri, column=3, value=f'=SUMIF(REVENUE_TRACKER!M2:M1000,"*{trig}*",REVENUE_TRACKER!E2:E1000)')
+        ws.cell(row=ri, column=3).number_format = '$#,##0'
+        ws.cell(row=ri, column=4, value=f'=IFERROR(C{ri}/B{ri},0)')
+        ws.cell(row=ri, column=4).number_format = '$#,##0'
+        ws.cell(row=ri, column=5, value=f'=IFERROR(COUNTIFS(REVENUE_TRACKER!M2:M1000,"*{trig}*",REVENUE_TRACKER!E2:E1000,">0")/B{ri},0)')
+        ws.cell(row=ri, column=5).number_format = '0%'
+        ws.cell(row=ri, column=6, value=f'=IFERROR(MAXIFS(REVENUE_TRACKER!E2:E1000,REVENUE_TRACKER!M2:M1000,"*{trig}*"),0)')
+        ws.cell(row=ri, column=6).number_format = '$#,##0'
+
+    # BY MARKET
+    ws['A11'] = 'BY MARKET'
+    ws['A11'].font = Font(bold=True, size=12)
+    for i, h in enumerate(section_headers, 1):
+        c = ws.cell(row=12, column=i, value=h if i > 1 else 'Market')
+        c.fill = header_fill; c.font = header_font
+    for ri, mkt in enumerate(['BOTH', 'US', 'UK'], 13):
+        ws.cell(row=ri, column=1, value=mkt)
+        ws.cell(row=ri, column=2, value=f'=COUNTIF(REVENUE_TRACKER!O2:O1000,"*{mkt}*")')
+        ws.cell(row=ri, column=3, value=f'=SUMIF(REVENUE_TRACKER!O2:O1000,"*{mkt}*",REVENUE_TRACKER!E2:E1000)')
+        ws.cell(row=ri, column=3).number_format = '$#,##0'
+        ws.cell(row=ri, column=4, value=f'=IFERROR(C{ri}/B{ri},0)')
+        ws.cell(row=ri, column=4).number_format = '$#,##0'
+        ws.cell(row=ri, column=5, value=f'=IFERROR(COUNTIFS(REVENUE_TRACKER!O2:O1000,"*{mkt}*",REVENUE_TRACKER!E2:E1000,">0")/B{ri},0)')
+        ws.cell(row=ri, column=5).number_format = '0%'
+        ws.cell(row=ri, column=6, value=f'=IFERROR(MAXIFS(REVENUE_TRACKER!E2:E1000,REVENUE_TRACKER!O2:O1000,"*{mkt}*"),0)')
+        ws.cell(row=ri, column=6).number_format = '$#,##0'
+
+    # BY AI CATEGORY
+    ws['A18'] = 'BY AI CATEGORY'
+    ws['A18'].font = Font(bold=True, size=12)
+    for i, h in enumerate(section_headers, 1):
+        c = ws.cell(row=19, column=i, value=h if i > 1 else 'Category')
+        c.fill = header_fill; c.font = header_font
+    for ri, cat in enumerate(['AI', 'NON-AI'], 20):
+        ws.cell(row=ri, column=1, value=cat)
+        ws.cell(row=ri, column=2, value=f'=COUNTIF(REVENUE_TRACKER!P2:P1000,"*{cat}*")')
+        ws.cell(row=ri, column=3, value=f'=SUMIF(REVENUE_TRACKER!P2:P1000,"*{cat}*",REVENUE_TRACKER!E2:E1000)')
+        ws.cell(row=ri, column=3).number_format = '$#,##0'
+        ws.cell(row=ri, column=4, value=f'=IFERROR(C{ri}/B{ri},0)')
+        ws.cell(row=ri, column=4).number_format = '$#,##0'
+        ws.cell(row=ri, column=5, value=f'=IFERROR(COUNTIFS(REVENUE_TRACKER!P2:P1000,"*{cat}*",REVENUE_TRACKER!E2:E1000,">0")/B{ri},0)')
+        ws.cell(row=ri, column=5).number_format = '0%'
+        ws.cell(row=ri, column=6, value=f'=IFERROR(MAXIFS(REVENUE_TRACKER!E2:E1000,REVENUE_TRACKER!P2:P1000,"*{cat}*"),0)')
+        ws.cell(row=ri, column=6).number_format = '$#,##0'
+
+    for col, w in [('A',18),('B',12),('C',15),('D',15),('E',12),('F',15)]:
+        ws.column_dimensions[col].width = w
+
+
+def _build_competitor_view_tab(ws, competitor_gaps, header_fill, header_font, thin_border):
+    headers = ['Date', 'Competitor', 'Trend', 'Competitor Momentum', 'Your Momentum',
+               'Competitor Shares/h', 'Market', 'Gap Type', 'Hours Behind',
+               'Est. Missed Revenue ($)', 'AI Category', 'URL']
+    for ci, h in enumerate(headers, 1):
+        c = ws.cell(row=1, column=ci, value=h)
+        c.fill = header_fill; c.font = header_font; c.alignment = Alignment(horizontal='center')
+
+    date_str = datetime.now().strftime('%Y-%m-%d')
+    if len(competitor_gaps) > 0:
+        for ri, (_, row) in enumerate(competitor_gaps.iterrows(), 2):
+            vals = [date_str, row.get('competitor_account',''), str(row.get('trend_text',''))[:60],
+                    int(row.get('competitor_momentum',0)), 0, round(float(row.get('competitor_shares_h',0)),1),
+                    str(row.get('market','')), row.get('gap_type',''), row.get('hours_behind',''),
+                    round(float(row.get('estimated_missed_revenue',0)),2), str(row.get('ai_category','')),
+                    str(row.get('trend_url',''))]
+            for ci, val in enumerate(vals, 1):
+                c = ws.cell(row=ri, column=ci, value=_sanitize_cell(val))
+                c.border = thin_border
+            gap_cell = ws.cell(row=ri, column=8)
+            if gap_cell.value == 'MISSED_BY_YOU':
+                gap_cell.fill = PatternFill('solid', fgColor='FF6B6B')
+                gap_cell.font = Font(bold=True, color='FFFFFF')
+            elif gap_cell.value == 'BOTH_CAUGHT':
+                gap_cell.fill = PatternFill('solid', fgColor='90EE90')
+            url_cell = ws.cell(row=ri, column=12)
+            uv = str(row.get('trend_url',''))
+            if uv.startswith('http'):
+                url_cell.hyperlink = uv
+                url_cell.font = Font(color='0000FF', underline='single')
+    else:
+        ws['A2'] = 'No competitor posts found in today\'s trending data'
+        ws['A2'].font = Font(italic=True, color='666666')
+    ws.freeze_panes = 'A2'
+    for col, w in [('A',12),('B',20),('C',50),('D',18),('E',15),('F',16),('G',15),('H',18),('I',14),('J',18),('K',12),('L',50)]:
+        ws.column_dimensions[col].width = w
+
+
+def _build_prediction_log_tab(ws, df_pred, df_yesterday, existing_log, header_fill, header_font, thin_border):
+    headers = ['Date', 'Trends Tracked', 'Direction Accuracy %', 'Bias', 'MAPE %',
+               'Correct Builds', 'False Positives', 'Missed Opportunities', 'Correct Skips', 'Tuning Suggestion']
+    for ci, h in enumerate(headers, 1):
+        c = ws.cell(row=1, column=ci, value=h)
+        c.fill = header_fill; c.font = header_font; c.alignment = Alignment(horizontal='center')
+
+    start_row = 2
+    if existing_log is not None and len(existing_log) > 0:
+        for ri, (_, row) in enumerate(existing_log.iterrows(), 2):
+            for ci in range(1, 11):
+                val = row.iloc[ci-1] if ci-1 < len(row) else ''
+                if pd.isna(val): val = ''
+                ws.cell(row=ri, column=ci, value=_sanitize_cell(val)).border = thin_border
+            start_row = ri + 1
+
+    date_str = datetime.now().strftime('%Y-%m-%d')
+    if df_yesterday is not None and len(df_yesterday) > 0 and len(df_pred) > 0:
+        tracked = len(df_pred[df_pred['prediction_confidence'].isin(['HIGH', 'MEDIUM'])])
+        if tracked > 0:
+            correct_dir = total_cmp = 0
+            for _, row in df_pred.iterrows():
+                vel = row.get('velocity', 0)
+                delta = row.get('momentum_score', 0) - row.get('yesterday_momentum', 0)
+                if pd.notna(vel) and pd.notna(row.get('yesterday_momentum')):
+                    total_cmp += 1
+                    if (vel > 0 and delta > 0) or (vel <= 0 and delta <= 0): correct_dir += 1
+            dir_acc = correct_dir / total_cmp if total_cmp > 0 else 0
+            vals = [date_str, tracked, round(dir_acc, 2), 'Neutral', 0, 0, 0, 0, 0, 'Insufficient data for tuning']
+            for ci, val in enumerate(vals, 1):
+                ws.cell(row=start_row, column=ci, value=_sanitize_cell(val)).border = thin_border
+
+    ws.freeze_panes = 'A2'
+    for col, w in [('A',12),('B',15),('C',20),('D',15),('E',10),('J',40)]:
+        ws.column_dimensions[col].width = w
+
+
+def _build_data_feed_tab(ws, df_today, header_fill, header_font, thin_border, cyan_fill):
+    headers = ['Date', 'Account', 'Trend', 'Age', 'Momentum', 'Status', 'Market',
+               'Views/h', 'Shares/h', 'BUILD_NOW', 'TikTok URL', 'TUTORIAL_TRIGGER',
+               'URGENCY', 'Trigger Reason', 'AI Category', 'Opportunity Score',
+               'Time Zone', 'Build Priority', 'Seasonal Event']
+    for ci, h in enumerate(headers, 1):
+        c = ws.cell(row=1, column=ci, value=h)
+        c.fill = header_fill; c.font = header_font; c.alignment = Alignment(horizontal='center')
+
+    date_str = datetime.now().strftime('%Y-%m-%d')
+    if 'author' not in df_today.columns:
+        ws['A2'] = 'No author data available'
+        ws.freeze_panes = 'A2'
+        return
+
+    your_mask = df_today['author'].str.lower().isin([a.lower() for a in YOUR_ACCOUNTS])
+    your_posts = df_today[your_mask].copy()
+    now_hour = datetime.utcnow().hour
+    tz_label = '\U0001f7e2 PRIME' if 8 <= now_hour <= 22 else 'OFF_PEAK'
+    seasonal_text = ''
+    try:
+        from seasonal_calendar import get_seasonal_alerts
+        from datetime import date
+        alerts = get_seasonal_alerts(date.today())
+        if alerts: seasonal_text = alerts[0].get('event', '')
+    except Exception: pass
+
+    from daily_processor import calculate_tutorial_trigger
+
+    for ri, (_, row) in enumerate(your_posts.iterrows(), 2):
+        trigger, urgency, reason = calculate_tutorial_trigger(row)
+        mom = float(row.get('momentum_score', 0))
+        shares_h = float(row.get('shares_per_hour', 0))
+        age = float(row.get('age_hours', 0))
+        opp_score = int(mom * 0.5 + shares_h * 10 + max(0, (72 - age)) * 5)
+        if trigger == '\U0001f534 MAKE_NOW' and urgency == '\U0001f525 URGENT':
+            build_pri = '\U0001f534 BUILD_IMMEDIATELY'
+        elif trigger == '\U0001f534 MAKE_NOW':
+            build_pri = '\U0001f7e0 BUILD_TODAY'
+        elif trigger == '\U0001f7e1 WATCH':
+            build_pri = '\U0001f7e1 MONITOR'
+        else:
+            build_pri = ''
+
+        vals = [date_str, str(row.get('author','')), str(row.get('text',''))[:60] if pd.notna(row.get('text')) else '',
+                f"{age:.1f}h", int(mom), str(row.get('acceleration_status', row.get('status',''))),
+                str(row.get('Market','')) if pd.notna(row.get('Market')) else '',
+                int(row.get('views_per_hour',0)), round(shares_h,1), str(row.get('BUILD_NOW','')),
+                str(row.get('webVideoUrl','')), trigger, urgency, reason,
+                str(row.get('AI_CATEGORY','')) if pd.notna(row.get('AI_CATEGORY')) else '',
+                opp_score, tz_label, build_pri, seasonal_text]
+        for ci, val in enumerate(vals, 1):
+            c = ws.cell(row=ri, column=ci, value=_sanitize_cell(val))
+            c.border = thin_border
+            if ci <= 11: c.fill = cyan_fill
+        # Trigger colors
+        trig_cell = ws.cell(row=ri, column=12)
+        if 'MAKE_NOW' in str(trigger):
+            trig_cell.fill = PatternFill('solid', fgColor='FF0000')
+            trig_cell.font = Font(bold=True, color='FFFFFF')
+        elif 'WATCH' in str(trigger):
+            trig_cell.fill = PatternFill('solid', fgColor='FFFF00')
+        urg_cell = ws.cell(row=ri, column=13)
+        if 'URGENT' in str(urgency):
+            urg_cell.fill = PatternFill('solid', fgColor='8B0000')
+            urg_cell.font = Font(bold=True, color='FFFFFF')
+        elif 'HIGH' in str(urgency):
+            urg_cell.fill = PatternFill('solid', fgColor='FFA500')
+        url_cell = ws.cell(row=ri, column=11)
+        uv = str(row.get('webVideoUrl',''))
+        if uv.startswith('http'):
+            url_cell.hyperlink = uv
+            url_cell.font = Font(color='0000FF', underline='single')
+
+    ws.freeze_panes = 'A2'
+    for col, w in [('A',12),('B',20),('C',50),('D',10),('E',12),('F',15),('G',15),('H',10),('I',10),('K',50),('L',18),('N',30)]:
+        ws.column_dimensions[col].width = w
+
+
+# =============================================================================
+# REVENUE DATA PERSISTENCE
+# =============================================================================
+
+def _load_existing_revenue(dashboard_path):
+    if not dashboard_path or not os.path.exists(dashboard_path):
+        return None
+    try:
+        wb = load_workbook(dashboard_path, data_only=True)
+        if 'REVENUE_TRACKER' not in wb.sheetnames: return None
+        ws = wb['REVENUE_TRACKER']
+        data = []
+        headers = [ws.cell(1, c).value for c in range(1, 20)]
+        for ri in range(2, ws.max_row + 1):
+            row_data = {}
+            has_data = False
+            for ci in range(1, 20):
+                val = ws.cell(ri, ci).value
+                col_name = headers[ci-1] if ci-1 < len(headers) else f'col_{ci}'
+                row_data[col_name] = val
+                if val is not None and str(val).strip() != '': has_data = True
+            if has_data: data.append(row_data)
+        return pd.DataFrame(data) if data else None
+    except Exception as e:
+        print(f"  Warning: Could not load revenue data: {e}")
+        return None
+
+
+def _load_existing_prediction_log(dashboard_path):
+    if not dashboard_path or not os.path.exists(dashboard_path):
+        return None
+    try:
+        wb = load_workbook(dashboard_path, data_only=True)
+        if 'PREDICTION_LOG' not in wb.sheetnames: return None
+        ws = wb['PREDICTION_LOG']
+        data = []
+        for ri in range(2, ws.max_row + 1):
+            row_data = [ws.cell(ri, c).value for c in range(1, 11)]
+            if any(v is not None and str(v).strip() != '' for v in row_data):
+                data.append(row_data)
+        if not data: return None
+        headers = [ws.cell(1, c).value for c in range(1, 11)]
+        return pd.DataFrame(data, columns=headers)
+    except Exception as e:
+        print(f"  Warning: Could not load prediction log: {e}")
+        return None
 
 
 # =============================================================================
@@ -985,11 +1264,13 @@ def generate_daily_briefing(
     lines = []
     lines.append("=" * 60)
     lines.append(f"DAILY BRIEFING - {date_str}")
-    lines.append("TikTok Trend System v3.5.0")
+    lines.append("TikTok Trend System v3.6.0")
     lines.append("=" * 60)
     
     df = df_today.copy()
     df = _ensure_calculated_metrics(df)
+    # Deduplicate by URL to prevent BOTH-market duplicates in briefing
+    df = df.drop_duplicates(subset=['webVideoUrl'], keep='first')
     
     # --- SECTION 1: IMMEDIATE ACTIONS ---
     lines.append("")
@@ -1249,56 +1530,50 @@ def integrate_with_daily_processor(
     yesterday_uk: pd.DataFrame = None,
     two_days_us: pd.DataFrame = None,
     two_days_uk: pd.DataFrame = None,
-    output_dir: str = '.'
+    output_dir: str = '.',
+    dashboard_path: str = None
 ) -> Dict[str, str]:
-    """
-    Main integration function - call this from daily_processor.py
-    
-    Adds velocity predictions and competitor analysis to both markets.
-    Velocity streak cache is stored in the same directory as output
-    (or CACHE_DIR if set) for persistence between runs.
-    """
-    from datetime import datetime
-    
+    """Main integration function - generates v3.6.0 7-tab enhanced files."""
     date_str = datetime.now().strftime('%Y-%m-%d')
     output_files = {}
-    
-    # Use CACHE_DIR env var if available, otherwise fall back to output_dir parent
     cache_dir = os.environ.get('CACHE_DIR', 'data')
     streak_cache_path = os.path.join(cache_dir, 'velocity_streak_cache.json')
-    
-    # Process US data
+
+    # Auto-detect dashboard file
+    if not dashboard_path:
+        for candidate in [
+            os.path.join(cache_dir, 'TikTok_Dashboard_With_Revenue.xlsx'),
+            os.path.join(output_dir, 'TikTok_Dashboard_With_Revenue.xlsx'),
+            'data/TikTok_Dashboard_With_Revenue.xlsx',
+        ]:
+            if os.path.exists(candidate):
+                dashboard_path = candidate
+                print(f"  Found existing dashboard: {candidate}")
+                break
+
     if us_data is not None and len(us_data) > 0:
-        us_enhanced_path = f"{output_dir}/BUILD_TODAY_US_ENHANCED_{date_str}.xlsx"
-        create_enhanced_excel(
-            us_data, yesterday_us, two_days_us, us_enhanced_path,
-            cache_path=streak_cache_path
-        )
-        output_files['us_enhanced'] = us_enhanced_path
-    
-    # Process UK data
+        us_path = f"{output_dir}/BUILD_TODAY_US_ENHANCED_{date_str}.xlsx"
+        create_enhanced_excel(us_data, yesterday_us, two_days_us, us_path,
+                              cache_path=streak_cache_path, dashboard_path=dashboard_path)
+        output_files['us_enhanced'] = us_path
+
     if uk_data is not None and len(uk_data) > 0:
-        uk_enhanced_path = f"{output_dir}/BUILD_TODAY_UK_ENHANCED_{date_str}.xlsx"
-        create_enhanced_excel(
-            uk_data, yesterday_uk, two_days_uk, uk_enhanced_path,
-            cache_path=streak_cache_path
-        )
-        output_files['uk_enhanced'] = uk_enhanced_path
-    
-    # Combined analysis (merge US + UK for cross-market insights)
+        uk_path = f"{output_dir}/BUILD_TODAY_UK_ENHANCED_{date_str}.xlsx"
+        create_enhanced_excel(uk_data, yesterday_uk, two_days_uk, uk_path,
+                              cache_path=streak_cache_path, dashboard_path=dashboard_path)
+        output_files['uk_enhanced'] = uk_path
+
     if us_data is not None and uk_data is not None:
         combined = pd.concat([us_data, uk_data], ignore_index=True)
         combined_yesterday = None
         if yesterday_us is not None and yesterday_uk is not None:
             combined_yesterday = pd.concat([yesterday_us, yesterday_uk], ignore_index=True)
-        
+            combined_yesterday = combined_yesterday.drop_duplicates(subset=['webVideoUrl'], keep='first')
         combined_path = f"{output_dir}/BUILD_TODAY_COMBINED_ENHANCED_{date_str}.xlsx"
-        create_enhanced_excel(
-            combined, combined_yesterday, None, combined_path,
-            cache_path=streak_cache_path
-        )
+        create_enhanced_excel(combined, combined_yesterday, None, combined_path,
+                              cache_path=streak_cache_path, dashboard_path=dashboard_path)
         output_files['combined_enhanced'] = combined_path
-    
+
     return output_files
 
 
