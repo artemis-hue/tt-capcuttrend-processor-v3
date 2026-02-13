@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-12T23:01:26.119138+00:00",
+  "last_updated": "2026-02-13T10:09:05.066199+00:00",
   "candidates": [
     {
       "url": "https://www.tiktok.com/@vlogwithkii/video/7605590246675320077",
@@ -15,10 +15,19 @@
           "views_per_hour": 525,
           "momentum": 267,
           "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-02-13T10:09:05.061491+00:00",
+          "age_hours": 45.2,
+          "shares_per_hour": 6.6,
+          "views_per_hour": 510,
+          "momentum": 247,
+          "delta_shares_per_hour": -1.0
         }
       ],
-      "consecutive_negative_deltas": 0,
-      "alerted": false
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
     },
     {
       "url": "https://www.tiktok.com/@unfiltered_living/video/7605404745741716744",
@@ -34,10 +43,19 @@
           "views_per_hour": 902,
           "momentum": 265,
           "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-02-13T10:09:05.061491+00:00",
+          "age_hours": 57.2,
+          "shares_per_hour": 12.3,
+          "views_per_hour": 857,
+          "momentum": 253,
+          "delta_shares_per_hour": -0.5
         }
       ],
-      "consecutive_negative_deltas": 0,
-      "alerted": false
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
     },
     {
       "url": "https://www.tiktok.com/@one002787/video/7605649437058272525",
@@ -53,10 +71,19 @@
           "views_per_hour": 673,
           "momentum": 219,
           "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-02-13T10:09:05.061491+00:00",
+          "age_hours": 41.4,
+          "shares_per_hour": 12.7,
+          "views_per_hour": 642,
+          "momentum": 190,
+          "delta_shares_per_hour": -2.1000000000000014
         }
       ],
-      "consecutive_negative_deltas": 0,
-      "alerted": false
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
     },
     {
       "url": "https://www.tiktok.com/@oneclick.producti3/video/7605580921957256461",
@@ -71,6 +98,91 @@
           "shares_per_hour": 6.9,
           "views_per_hour": 219,
           "momentum": 94,
+          "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-02-13T10:09:05.061491+00:00",
+          "age_hours": 45.8,
+          "shares_per_hour": 11.9,
+          "views_per_hour": 316,
+          "momentum": 155,
+          "delta_shares_per_hour": 5.0
+        }
+      ],
+      "consecutive_negative_deltas": 0,
+      "alerted": false,
+      "consecutive_misses": 0
+    },
+    {
+      "url": "https://www.tiktok.com/@ia.vido64/video/7605596495458454806",
+      "first_seen": "2026-02-13T10:09:05.061491+00:00",
+      "market": "\ud83c\uddfa\ud83c\uddf8 US ONLY",
+      "text": "#ia#fake#funny#fyppppppppppppppppppppppppppp#pourtoiii ",
+      "creator": "ia.vido64",
+      "checks": [
+        {
+          "timestamp": "2026-02-13T10:09:05.061491+00:00",
+          "age_hours": 44.8,
+          "shares_per_hour": 758.3,
+          "views_per_hour": 8379,
+          "momentum": 9199,
+          "delta_shares_per_hour": null
+        }
+      ],
+      "consecutive_negative_deltas": 0,
+      "alerted": false
+    },
+    {
+      "url": "https://www.tiktok.com/@richard.frank5126/video/7605798424297901332",
+      "first_seen": "2026-02-13T10:09:05.061491+00:00",
+      "market": "\ud83c\uddfa\ud83c\uddf8 US ONLY",
+      "text": "DM \"guide\" for the method \n#transformation #discipline #GlowUp #mensupgrade #dadglowup ",
+      "creator": "richard.frank5126",
+      "checks": [
+        {
+          "timestamp": "2026-02-13T10:09:05.061491+00:00",
+          "age_hours": 31.8,
+          "shares_per_hour": 399.7,
+          "views_per_hour": 20500,
+          "momentum": 8695,
+          "delta_shares_per_hour": null
+        }
+      ],
+      "consecutive_negative_deltas": 0,
+      "alerted": false
+    },
+    {
+      "url": "https://www.tiktok.com/@richard.frank5126/video/7605791157095894293",
+      "first_seen": "2026-02-13T10:09:05.061491+00:00",
+      "market": "\ud83c\uddfa\ud83c\uddf8 US ONLY",
+      "text": "5 years of growth. See realistic results in less than 10 months. method in the link in bio\n#transformation #GlowUp #gym #ascension ",
+      "creator": "richard.frank5126",
+      "checks": [
+        {
+          "timestamp": "2026-02-13T10:09:05.061491+00:00",
+          "age_hours": 32.2,
+          "shares_per_hour": 237.2,
+          "views_per_hour": 9719,
+          "momentum": 5520,
+          "delta_shares_per_hour": null
+        }
+      ],
+      "consecutive_negative_deltas": 0,
+      "alerted": false
+    },
+    {
+      "url": "https://www.tiktok.com/@chic.clic0/video/7605991073277578503",
+      "first_seen": "2026-02-13T10:09:05.061491+00:00",
+      "market": "\ud83c\uddfa\ud83c\uddf8 US ONLY",
+      "text": "TikTok + IA = \ud83d\udca5\nVoici comment utiliser l\u2019IA Sway Effect pour faire danser ta photo \u2728\nJe t\u2019apprend \u00e0 cr\u00e9er ces vid\u00e9os ai de danse virales \nAbonne-toi pour plus d\u2019astuces TikTok \ud83d\udcf2\n\n#TikTokIA \n#aiswaydance \n#TikTokTips \n#creatorsearchinsights #astuce \n\nCreator's Search insight 2026\ncontent strategy 2026\nCreateur de contenu business\nCreateur de contenu inspiration\nContenu TikTok\nStrat\u00e9gie TikTok\nDevenir cr\u00e9ateur de contenu id\u00e9e\nCreateur de contenu\nStrat\u00e9gie\nTechnique \nTichou Cr\u00e9a",
+      "creator": "chic.clic0",
+      "checks": [
+        {
+          "timestamp": "2026-02-13T10:09:05.061491+00:00",
+          "age_hours": 19.3,
+          "shares_per_hour": 18.1,
+          "views_per_hour": 21291,
+          "momentum": 3887,
           "delta_shares_per_hour": null
         }
       ],
