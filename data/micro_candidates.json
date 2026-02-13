@@ -1,42 +1,6 @@
 {
-  "last_updated": "2026-02-13T21:53:54.106452+00:00",
+  "last_updated": "2026-02-13T23:05:18.782559+00:00",
   "candidates": [
-    {
-      "url": "https://www.tiktok.com/@_kaydycain_/video/7606037543699680534",
-      "first_seen": "2026-02-13T14:29:09.574070+00:00",
-      "market": "\ud83c\uddec\ud83c\udde7 UK ONLY",
-      "text": "IA ",
-      "creator": "_kaydycain_",
-      "checks": [
-        {
-          "timestamp": "2026-02-13T14:29:09.574070+00:00",
-          "age_hours": 20.6,
-          "shares_per_hour": 26.2,
-          "views_per_hour": 2760,
-          "momentum": 2352,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-02-13T18:00:22.060402+00:00",
-          "age_hours": 24.2,
-          "shares_per_hour": 22.4,
-          "views_per_hour": 2358,
-          "momentum": 2010,
-          "delta_shares_per_hour": -3.8000000000000007
-        },
-        {
-          "timestamp": "2026-02-13T21:53:54.101271+00:00",
-          "age_hours": 28.1,
-          "shares_per_hour": 19.3,
-          "views_per_hour": 2031,
-          "momentum": 1731,
-          "delta_shares_per_hour": -3.099999999999998
-        }
-      ],
-      "consecutive_negative_deltas": 2,
-      "alerted": false,
-      "consecutive_misses": 0
-    },
     {
       "url": "https://www.tiktok.com/@kindaalalisa/video/7605975742542875925",
       "first_seen": "2026-02-13T18:00:22.060402+00:00",
@@ -59,9 +23,17 @@
           "views_per_hour": 2345,
           "momentum": 1025,
           "delta_shares_per_hour": -3.599999999999998
+        },
+        {
+          "timestamp": "2026-02-13T23:05:18.778114+00:00",
+          "age_hours": 33.2,
+          "shares_per_hour": 25.2,
+          "views_per_hour": 2261,
+          "momentum": 988,
+          "delta_shares_per_hour": -0.9000000000000021
         }
       ],
-      "consecutive_negative_deltas": 1,
+      "consecutive_negative_deltas": 2,
       "alerted": false,
       "consecutive_misses": 0
     },
@@ -87,9 +59,17 @@
           "views_per_hour": 2039,
           "momentum": 1000,
           "delta_shares_per_hour": -2.0
+        },
+        {
+          "timestamp": "2026-02-13T23:05:18.778114+00:00",
+          "age_hours": 44.4,
+          "shares_per_hour": 19.6,
+          "views_per_hour": 1985,
+          "momentum": 973,
+          "delta_shares_per_hour": -0.5999999999999979
         }
       ],
-      "consecutive_negative_deltas": 1,
+      "consecutive_negative_deltas": 2,
       "alerted": false,
       "consecutive_misses": 0
     },
@@ -107,10 +87,19 @@
           "views_per_hour": 4791,
           "momentum": 932,
           "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-02-13T23:05:18.778114+00:00",
+          "age_hours": 34.6,
+          "shares_per_hour": 33.5,
+          "views_per_hour": 4626,
+          "momentum": 900,
+          "delta_shares_per_hour": -1.2000000000000028
         }
       ],
-      "consecutive_negative_deltas": 0,
-      "alerted": false
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
     },
     {
       "url": "https://www.tiktok.com/@basanta.tamang03/video/7605747761228827924",
@@ -126,10 +115,19 @@
           "views_per_hour": 1156,
           "momentum": 453,
           "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-02-13T23:05:18.778114+00:00",
+          "age_hours": 48.0,
+          "shares_per_hour": 30.7,
+          "views_per_hour": 1127,
+          "momentum": 442,
+          "delta_shares_per_hour": -0.8000000000000007
         }
       ],
-      "consecutive_negative_deltas": 0,
-      "alerted": false
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
     },
     {
       "url": "https://www.tiktok.com/@bumsuzbzx0/video/7606000661515324693",
@@ -145,10 +143,19 @@
           "views_per_hour": 1077,
           "momentum": 302,
           "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-02-13T23:05:18.778114+00:00",
+          "age_hours": 31.6,
+          "shares_per_hour": 24.2,
+          "views_per_hour": 1036,
+          "momentum": 290,
+          "delta_shares_per_hour": -1.0
         }
       ],
-      "consecutive_negative_deltas": 0,
-      "alerted": false
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
     },
     {
       "url": "https://www.tiktok.com/@ai.a.i.a.i/video/7606005456074460438",
@@ -164,10 +171,19 @@
           "views_per_hour": 959,
           "momentum": 256,
           "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-02-13T23:05:18.778114+00:00",
+          "age_hours": 31.3,
+          "shares_per_hour": 8.4,
+          "views_per_hour": 922,
+          "momentum": 246,
+          "delta_shares_per_hour": -0.40000000000000036
         }
       ],
-      "consecutive_negative_deltas": 0,
-      "alerted": false
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
     },
     {
       "url": "https://www.tiktok.com/@ex3go200n5/video/7605949967127137543",
@@ -182,6 +198,34 @@
           "shares_per_hour": 19.2,
           "views_per_hour": 253,
           "momentum": 247,
+          "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-02-13T23:05:18.778114+00:00",
+          "age_hours": 34.9,
+          "shares_per_hour": 18.5,
+          "views_per_hour": 244,
+          "momentum": 239,
+          "delta_shares_per_hour": -0.6999999999999993
+        }
+      ],
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
+    },
+    {
+      "url": "https://www.tiktok.com/@richard.frank5126/video/7605798424297901332",
+      "first_seen": "2026-02-13T23:05:18.778114+00:00",
+      "market": "\ud83c\uddfa\ud83c\uddf8 US ONLY",
+      "text": "DM \"guide\" for the method \n#transformation #discipline #GlowUp #mensupgrade #dadglowup ",
+      "creator": "richard.frank5126",
+      "checks": [
+        {
+          "timestamp": "2026-02-13T23:05:18.778114+00:00",
+          "age_hours": 44.7,
+          "shares_per_hour": 284.0,
+          "views_per_hour": 14568,
+          "momentum": 6179,
           "delta_shares_per_hour": null
         }
       ],
