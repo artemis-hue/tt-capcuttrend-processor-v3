@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-13T10:09:05.066199+00:00",
+  "last_updated": "2026-02-13T14:29:09.578543+00:00",
   "candidates": [
     {
       "url": "https://www.tiktok.com/@vlogwithkii/video/7605590246675320077",
@@ -23,37 +23,17 @@
           "views_per_hour": 510,
           "momentum": 247,
           "delta_shares_per_hour": -1.0
-        }
-      ],
-      "consecutive_negative_deltas": 1,
-      "alerted": false,
-      "consecutive_misses": 0
-    },
-    {
-      "url": "https://www.tiktok.com/@unfiltered_living/video/7605404745741716744",
-      "first_seen": "2026-02-12T23:01:26.113972+00:00",
-      "market": "\ud83c\udf10 BOTH",
-      "text": "Replying to @spain town Would you try this AI effect? @Higgsfield AI #higgsfieldai #aitechnology #aihacks #higgsfieldeyeseffect ",
-      "creator": "unfiltered_living",
-      "checks": [
-        {
-          "timestamp": "2026-02-12T23:01:26.113972+00:00",
-          "age_hours": 46.1,
-          "shares_per_hour": 12.8,
-          "views_per_hour": 902,
-          "momentum": 265,
-          "delta_shares_per_hour": null
         },
         {
-          "timestamp": "2026-02-13T10:09:05.061491+00:00",
-          "age_hours": 57.2,
-          "shares_per_hour": 12.3,
-          "views_per_hour": 857,
-          "momentum": 253,
-          "delta_shares_per_hour": -0.5
+          "timestamp": "2026-02-13T14:29:09.574070+00:00",
+          "age_hours": 49.6,
+          "shares_per_hour": 6.0,
+          "views_per_hour": 466,
+          "momentum": 226,
+          "delta_shares_per_hour": -0.5999999999999996
         }
       ],
-      "consecutive_negative_deltas": 1,
+      "consecutive_negative_deltas": 2,
       "alerted": false,
       "consecutive_misses": 0
     },
@@ -79,9 +59,17 @@
           "views_per_hour": 642,
           "momentum": 190,
           "delta_shares_per_hour": -2.1000000000000014
+        },
+        {
+          "timestamp": "2026-02-13T14:29:09.574070+00:00",
+          "age_hours": 45.7,
+          "shares_per_hour": 11.5,
+          "views_per_hour": 581,
+          "momentum": 172,
+          "delta_shares_per_hour": -1.1999999999999993
         }
       ],
-      "consecutive_negative_deltas": 1,
+      "consecutive_negative_deltas": 2,
       "alerted": false,
       "consecutive_misses": 0
     },
@@ -107,9 +95,17 @@
           "views_per_hour": 316,
           "momentum": 155,
           "delta_shares_per_hour": 5.0
+        },
+        {
+          "timestamp": "2026-02-13T14:29:09.574070+00:00",
+          "age_hours": 50.2,
+          "shares_per_hour": 10.8,
+          "views_per_hour": 289,
+          "momentum": 142,
+          "delta_shares_per_hour": -1.0999999999999996
         }
       ],
-      "consecutive_negative_deltas": 0,
+      "consecutive_negative_deltas": 1,
       "alerted": false,
       "consecutive_misses": 0
     },
@@ -127,10 +123,19 @@
           "views_per_hour": 8379,
           "momentum": 9199,
           "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-02-13T14:29:09.574070+00:00",
+          "age_hours": 49.2,
+          "shares_per_hour": 691.5,
+          "views_per_hour": 7640,
+          "momentum": 8388,
+          "delta_shares_per_hour": -66.79999999999995
         }
       ],
-      "consecutive_negative_deltas": 0,
-      "alerted": false
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
     },
     {
       "url": "https://www.tiktok.com/@richard.frank5126/video/7605798424297901332",
@@ -146,10 +151,19 @@
           "views_per_hour": 20500,
           "momentum": 8695,
           "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-02-13T14:29:09.574070+00:00",
+          "age_hours": 36.1,
+          "shares_per_hour": 351.7,
+          "views_per_hour": 18039,
+          "momentum": 7652,
+          "delta_shares_per_hour": -48.0
         }
       ],
-      "consecutive_negative_deltas": 0,
-      "alerted": false
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
     },
     {
       "url": "https://www.tiktok.com/@richard.frank5126/video/7605791157095894293",
@@ -165,10 +179,19 @@
           "views_per_hour": 9719,
           "momentum": 5520,
           "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-02-13T14:29:09.574070+00:00",
+          "age_hours": 36.6,
+          "shares_per_hour": 209.1,
+          "views_per_hour": 8567,
+          "momentum": 4866,
+          "delta_shares_per_hour": -28.099999999999994
         }
       ],
-      "consecutive_negative_deltas": 0,
-      "alerted": false
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
     },
     {
       "url": "https://www.tiktok.com/@chic.clic0/video/7605991073277578503",
@@ -183,6 +206,34 @@
           "shares_per_hour": 18.1,
           "views_per_hour": 21291,
           "momentum": 3887,
+          "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-02-13T14:29:09.574070+00:00",
+          "age_hours": 23.7,
+          "shares_per_hour": 14.8,
+          "views_per_hour": 17389,
+          "momentum": 3175,
+          "delta_shares_per_hour": -3.3000000000000007
+        }
+      ],
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
+    },
+    {
+      "url": "https://www.tiktok.com/@_kaydycain_/video/7606037543699680534",
+      "first_seen": "2026-02-13T14:29:09.574070+00:00",
+      "market": "\ud83c\uddec\ud83c\udde7 UK ONLY",
+      "text": "IA ",
+      "creator": "_kaydycain_",
+      "checks": [
+        {
+          "timestamp": "2026-02-13T14:29:09.574070+00:00",
+          "age_hours": 20.6,
+          "shares_per_hour": 26.2,
+          "views_per_hour": 2760,
+          "momentum": 2352,
           "delta_shares_per_hour": null
         }
       ],
