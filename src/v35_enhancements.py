@@ -65,149 +65,65 @@ STATUS_COLORS = {
 # Historical revenue data - 59 entries from TIKTOK_SYSTEM_DASHBAORD.xlsx (2026-02-12)
 # Used as seed when no dashboard file exists in automated environment
 SEED_REVENUE_DATA = [
-    {'TikTok URL': 'https://www.tiktok.com/@7597546182721670422/video/7597546182721670422', 'Account': '', 'Received ($)': 2500, 'Estimated ($)': 2500, 'US & EU3 Installs': 2059, 'ROW Installs': 8418, 'Engagements': 0, 'Total Installs': 10477, 'Date First Seen': '2026-02-14'},
-    {'TikTok URL': 'https://www.tiktok.com/@7598141227619388694/video/7598141227619388694', 'Account': '', 'Received ($)': 2500, 'Estimated ($)': 2500, 'US & EU3 Installs': 839, 'ROW Installs': 2046, 'Engagements': 0, 'Total Installs': 2885, 'Date First Seen': '2026-02-14'},
-    {'TikTok URL': 'https://www.tiktok.com/@7596436774478548246/video/7596436774478548246', 'Account': '', 'Received ($)': 2500, 'Estimated ($)': 2500, 'US & EU3 Installs': 540, 'ROW Installs': 861, 'Engagements': 0, 'Total Installs': 1401, 'Date First Seen': '2026-02-14'},
-    {'TikTok URL': 'https://www.tiktok.com/@7597736583386762518/video/7597736583386762518', 'Account': '', 'Received ($)': 2500, 'Estimated ($)': 2500, 'US & EU3 Installs': 837, 'ROW Installs': 2202, 'Engagements': 0, 'Total Installs': 3039, 'Date First Seen': '2026-02-14'},
-    {'TikTok URL': 'https://www.tiktok.com/@7599034433294830870/video/7599034433294830870', 'Account': '', 'Received ($)': 2500, 'Estimated ($)': 2500, 'US & EU3 Installs': 1399, 'ROW Installs': 1422, 'Engagements': 0, 'Total Installs': 2821, 'Date First Seen': '2026-02-14'},
-    {'TikTok URL': 'https://www.tiktok.com/@7596266053953391895/video/7596266053953391895', 'Account': '', 'Received ($)': 2500, 'Estimated ($)': 2500, 'US & EU3 Installs': 495, 'ROW Installs': 847, 'Engagements': 0, 'Total Installs': 1342, 'Date First Seen': '2026-02-14'},
-    {'TikTok URL': 'https://www.tiktok.com/@7588452470355987734/video/7588452470355987734', 'Account': '', 'Received ($)': 2500, 'Estimated ($)': 2500, 'US & EU3 Installs': 803, 'ROW Installs': 317, 'Engagements': 0, 'Total Installs': 1120, 'Date First Seen': '2026-02-14'},
-    {'TikTok URL': 'https://www.tiktok.com/@7597126976427609366/video/7597126976427609366', 'Account': 'Account 1 (smaller)', 'Received ($)': 2500, 'Estimated ($)': 2500, 'US & EU3 Installs': 2184, 'ROW Installs': 3782, 'Engagements': 0, 'Total Installs': 5966, 'Date First Seen': '2026-02-09'},
-    {'TikTok URL': 'https://www.tiktok.com/@7597399641776508163/video/7597399641776508163', 'Account': 'Account 1 (smaller)', 'Received ($)': 2500, 'Estimated ($)': 2500, 'US & EU3 Installs': 717, 'ROW Installs': 1984, 'Engagements': 0, 'Total Installs': 2701, 'Date First Seen': '2026-02-09'},
-    {'TikTok URL': 'https://www.tiktok.com/@7597123284848610582/video/7597123284848610582', 'Account': 'Account 1 (smaller)', 'Received ($)': 2500, 'Estimated ($)': 2500, 'US & EU3 Installs': 1196, 'ROW Installs': 1554, 'Engagements': 0, 'Total Installs': 2750, 'Date First Seen': '2026-02-09'},
-    {'TikTok URL': 'https://www.tiktok.com/@7597924302243007766/video/7597924302243007766', 'Account': 'Account 1 (smaller)', 'Received ($)': 2500, 'Estimated ($)': 2500, 'US & EU3 Installs': 671, 'ROW Installs': 1269, 'Engagements': 0, 'Total Installs': 1940, 'Date First Seen': '2026-02-09'},
-    {'TikTok URL': 'https://www.tiktok.com/@7596261580220763394/video/7596261580220763394', 'Account': '', 'Received ($)': 2233, 'Estimated ($)': 2233, 'US & EU3 Installs': 333, 'ROW Installs': 568, 'Engagements': 0, 'Total Installs': 901, 'Date First Seen': '2026-02-14'},
-    {'TikTok URL': 'https://www.tiktok.com/@7600100215269412118/video/7600100215269412118', 'Account': '', 'Received ($)': 2097, 'Estimated ($)': 2097, 'US & EU3 Installs': 303, 'ROW Installs': 582, 'Engagements': 0, 'Total Installs': 885, 'Date First Seen': '2026-02-14'},
-    {'TikTok URL': 'https://www.tiktok.com/@7596653525971520790/video/7596653525971520790', 'Account': '', 'Received ($)': 1694, 'Estimated ($)': 1694, 'US & EU3 Installs': 223, 'ROW Installs': 579, 'Engagements': 0, 'Total Installs': 802, 'Date First Seen': '2026-02-14'},
-    {'TikTok URL': 'https://www.tiktok.com/@7589641969870081302/video/7589641969870081302', 'Account': '', 'Received ($)': 1638, 'Estimated ($)': 1638, 'US & EU3 Installs': 252, 'ROW Installs': 378, 'Engagements': 0, 'Total Installs': 630, 'Date First Seen': '2026-02-14'},
-    {'TikTok URL': 'https://www.tiktok.com/@7596264812846353686/video/7596264812846353686', 'Account': '', 'Received ($)': 1462, 'Estimated ($)': 1462, 'US & EU3 Installs': 209, 'ROW Installs': 417, 'Engagements': 0, 'Total Installs': 626, 'Date First Seen': '2026-02-14'},
-    {'TikTok URL': 'https://www.tiktok.com/@7600762883944893718/video/7600762883944893718', 'Account': '', 'Received ($)': 1457, 'Estimated ($)': 1457, 'US & EU3 Installs': 122, 'ROW Installs': 847, 'Engagements': 0, 'Total Installs': 969, 'Date First Seen': '2026-02-14'},
-    {'TikTok URL': 'https://www.tiktok.com/@7589953615041711382/video/7589953615041711382', 'Account': '', 'Received ($)': 1386, 'Estimated ($)': 1386, 'US & EU3 Installs': 173, 'ROW Installs': 1, 'Engagements': 0, 'Total Installs': 174, 'Date First Seen': '2026-02-14'},
-    {'TikTok URL': 'https://www.tiktok.com/@7597416345443675174/video/7597416345443675174', 'Account': '', 'Received ($)': 1261, 'Estimated ($)': 1261, 'US & EU3 Installs': 154, 'ROW Installs': 491, 'Engagements': 0, 'Total Installs': 645, 'Date First Seen': '2026-02-14'},
-    {'TikTok URL': 'https://www.tiktok.com/@7598499844461743382/video/7598499844461743382', 'Account': '', 'Received ($)': 1040, 'Estimated ($)': 1040, 'US & EU3 Installs': 136, 'ROW Installs': 360, 'Engagements': 0, 'Total Installs': 496, 'Date First Seen': '2026-02-14'},
-    {'TikTok URL': 'https://www.tiktok.com/@7598144760615947542/video/7598144760615947542', 'Account': '', 'Received ($)': 1018, 'Estimated ($)': 1018, 'US & EU3 Installs': 150, 'ROW Installs': 268, 'Engagements': 0, 'Total Installs': 418, 'Date First Seen': '2026-02-14'},
-    {'TikTok URL': 'https://www.tiktok.com/@7598494805294959894/video/7598494805294959894', 'Account': '', 'Received ($)': 893, 'Estimated ($)': 893, 'US & EU3 Installs': 145, 'ROW Installs': 168, 'Engagements': 0, 'Total Installs': 313, 'Date First Seen': '2026-02-14'},
-    {'TikTok URL': 'https://www.tiktok.com/@7598604870899289366/video/7598604870899289366', 'Account': '', 'Received ($)': 869, 'Estimated ($)': 869, 'US & EU3 Installs': 152, 'ROW Installs': 109, 'Engagements': 0, 'Total Installs': 261, 'Date First Seen': '2026-02-14'},
-    {'TikTok URL': 'https://www.tiktok.com/@7590045885837413654/video/7590045885837413654', 'Account': '', 'Received ($)': 854, 'Estimated ($)': 854, 'US & EU3 Installs': 187, 'ROW Installs': 195, 'Engagements': 0, 'Total Installs': 382, 'Date First Seen': '2026-02-14'},
-    {'TikTok URL': 'https://www.tiktok.com/@7596803270442601750/video/7596803270442601750', 'Account': '', 'Received ($)': 818, 'Estimated ($)': 818, 'US & EU3 Installs': 84, 'ROW Installs': 398, 'Engagements': 0, 'Total Installs': 482, 'Date First Seen': '2026-02-14'},
-    {'TikTok URL': 'https://www.tiktok.com/@7596800019433295126/video/7596800019433295126', 'Account': '', 'Received ($)': 359, 'Estimated ($)': 359, 'US & EU3 Installs': 63, 'ROW Installs': 44, 'Engagements': 0, 'Total Installs': 107, 'Date First Seen': '2026-02-14'},
-    {'TikTok URL': 'https://www.tiktok.com/@7600099102747135254/video/7600099102747135254', 'Account': '', 'Received ($)': 345, 'Estimated ($)': 345, 'US & EU3 Installs': 31, 'ROW Installs': 190, 'Engagements': 0, 'Total Installs': 221, 'Date First Seen': '2026-02-14'},
-    {'TikTok URL': 'https://www.tiktok.com/@7597114246433869078/video/7597114246433869078', 'Account': 'Account 1 (smaller)', 'Received ($)': 324, 'Estimated ($)': 324, 'US & EU3 Installs': 49, 'ROW Installs': 79, 'Engagements': 0, 'Total Installs': 128, 'Date First Seen': '2026-02-09'},
-    {'TikTok URL': 'https://www.tiktok.com/@7597084269701270806/video/7597084269701270806', 'Account': 'Account 1 (smaller)', 'Received ($)': 314, 'Estimated ($)': 314, 'US & EU3 Installs': 47, 'ROW Installs': 79, 'Engagements': 0, 'Total Installs': 126, 'Date First Seen': '2026-02-09'},
-    {'TikTok URL': 'https://www.tiktok.com/@7597737771008085270/video/7597737771008085270', 'Account': '', 'Received ($)': 305, 'Estimated ($)': 305, 'US & EU3 Installs': 53, 'ROW Installs': 40, 'Engagements': 0, 'Total Installs': 93, 'Date First Seen': '2026-02-14'},
-    {'TikTok URL': 'https://www.tiktok.com/@7596670194215439638/video/7596670194215439638', 'Account': '', 'Received ($)': 237, 'Estimated ($)': 237, 'US & EU3 Installs': 44, 'ROW Installs': 17, 'Engagements': 0, 'Total Installs': 61, 'Date First Seen': '2026-02-14'},
-    {'TikTok URL': 'https://www.tiktok.com/@7600760603992460566/video/7600760603992460566', 'Account': '', 'Received ($)': 230, 'Estimated ($)': 230, 'US & EU3 Installs': 16, 'ROW Installs': 150, 'Engagements': 0, 'Total Installs': 166, 'Date First Seen': '2026-02-14'},
-    {'TikTok URL': 'https://www.tiktok.com/@7588890166589246742/video/7588890166589246742', 'Account': '', 'Received ($)': 191, 'Estimated ($)': 191, 'US & EU3 Installs': 38, 'ROW Installs': 1, 'Engagements': 0, 'Total Installs': 39, 'Date First Seen': '2026-02-14'},
-    {'TikTok URL': 'https://www.tiktok.com/@7595978340461333782/video/7595978340461333782', 'Account': '', 'Received ($)': 180, 'Estimated ($)': 180, 'US & EU3 Installs': 26, 'ROW Installs': 50, 'Engagements': 0, 'Total Installs': 76, 'Date First Seen': '2026-02-14'},
-    {'TikTok URL': 'https://www.tiktok.com/@7589801229585452290/video/7589801229585452290', 'Account': '', 'Received ($)': 120, 'Estimated ($)': 120, 'US & EU3 Installs': 15, 'ROW Installs': 12, 'Engagements': 0, 'Total Installs': 27, 'Date First Seen': '2026-02-14'},
-    {'TikTok URL': 'https://www.tiktok.com/@7597805299315068182/video/7597805299315068182', 'Account': 'Account 1 (smaller)', 'Received ($)': 106, 'Estimated ($)': 106, 'US & EU3 Installs': 13, 'ROW Installs': 41, 'Engagements': 0, 'Total Installs': 54, 'Date First Seen': '2026-02-09'},
-    {'TikTok URL': 'https://www.tiktok.com/@7585413802045295894/video/7585413802045295894', 'Account': '', 'Received ($)': 84, 'Estimated ($)': 84, 'US & EU3 Installs': 14, 'ROW Installs': 14, 'Engagements': 0, 'Total Installs': 28, 'Date First Seen': '2026-02-14'},
-    {'TikTok URL': 'https://www.tiktok.com/@7598924005176921366/video/7598924005176921366', 'Account': '', 'Received ($)': 77, 'Estimated ($)': 77, 'US & EU3 Installs': 10, 'ROW Installs': 27, 'Engagements': 0, 'Total Installs': 37, 'Date First Seen': '2026-02-14'},
-    {'TikTok URL': 'https://www.tiktok.com/@7599638833512074518/video/7599638833512074518', 'Account': '', 'Received ($)': 71, 'Estimated ($)': 71, 'US & EU3 Installs': 13, 'ROW Installs': 6, 'Engagements': 0, 'Total Installs': 19, 'Date First Seen': '2026-02-14'},
-    {'TikTok URL': 'https://www.tiktok.com/@7534055571922750742/video/7534055571922750742', 'Account': '', 'Received ($)': 66, 'Estimated ($)': 66, 'US & EU3 Installs': 11, 'ROW Installs': 11, 'Engagements': 0, 'Total Installs': 22, 'Date First Seen': '2026-02-14'},
-    {'TikTok URL': 'https://www.tiktok.com/@7600491652389752067/video/7600491652389752067', 'Account': '', 'Received ($)': 59, 'Estimated ($)': 59, 'US & EU3 Installs': 11, 'ROW Installs': 4, 'Engagements': 0, 'Total Installs': 15, 'Date First Seen': '2026-02-14'},
-    {'TikTok URL': 'https://www.tiktok.com/@7588665170323410198/video/7588665170323410198', 'Account': '', 'Received ($)': 56, 'Estimated ($)': 56, 'US & EU3 Installs': 9, 'ROW Installs': 11, 'Engagements': 0, 'Total Installs': 20, 'Date First Seen': '2026-02-14'},
-    {'TikTok URL': 'https://www.tiktok.com/@7600349631934909718/video/7600349631934909718', 'Account': '', 'Received ($)': 53, 'Estimated ($)': 53, 'US & EU3 Installs': 8, 'ROW Installs': 13, 'Engagements': 0, 'Total Installs': 21, 'Date First Seen': '2026-02-14'},
-    {'TikTok URL': 'https://www.tiktok.com/@7584815356997373206/video/7584815356997373206', 'Account': '', 'Received ($)': 35, 'Estimated ($)': 35, 'US & EU3 Installs': 7, 'ROW Installs': 0, 'Engagements': 0, 'Total Installs': 7, 'Date First Seen': '2026-02-14'},
-    {'TikTok URL': 'https://www.tiktok.com/@7599639960802659606/video/7599639960802659606', 'Account': '', 'Received ($)': 25, 'Estimated ($)': 25, 'US & EU3 Installs': 4, 'ROW Installs': 5, 'Engagements': 0, 'Total Installs': 9, 'Date First Seen': '2026-02-14'},
-    {'TikTok URL': 'https://www.tiktok.com/@7600069960731200790/video/7600069960731200790', 'Account': '', 'Received ($)': 19, 'Estimated ($)': 19, 'US & EU3 Installs': 2, 'ROW Installs': 9, 'Engagements': 0, 'Total Installs': 11, 'Date First Seen': '2026-02-14'},
-    {'TikTok URL': 'https://www.tiktok.com/@7588593850516589846/video/7588593850516589846', 'Account': '', 'Received ($)': 18, 'Estimated ($)': 18, 'US & EU3 Installs': 3, 'ROW Installs': 3, 'Engagements': 0, 'Total Installs': 6, 'Date First Seen': '2026-02-14'},
-    {'TikTok URL': 'https://www.tiktok.com/@7599750339352595735/video/7599750339352595735', 'Account': '', 'Received ($)': 16, 'Estimated ($)': 16, 'US & EU3 Installs': 2, 'ROW Installs': 6, 'Engagements': 0, 'Total Installs': 8, 'Date First Seen': '2026-02-14'},
-    {'TikTok URL': 'https://www.tiktok.com/@7584827008618646806/video/7584827008618646806', 'Account': '', 'Received ($)': 15, 'Estimated ($)': 15, 'US & EU3 Installs': 2, 'ROW Installs': 5, 'Engagements': 0, 'Total Installs': 7, 'Date First Seen': '2026-02-14'},
-    {'TikTok URL': 'https://www.tiktok.com/@7592963003901840662/video/7592963003901840662', 'Account': '', 'Received ($)': 15, 'Estimated ($)': 15, 'US & EU3 Installs': 2, 'ROW Installs': 5, 'Engagements': 0, 'Total Installs': 7, 'Date First Seen': '2026-02-14'},
-    {'TikTok URL': 'https://www.tiktok.com/@7538858594683440406/video/7538858594683440406', 'Account': '', 'Received ($)': 14, 'Estimated ($)': 14, 'US & EU3 Installs': 2, 'ROW Installs': 4, 'Engagements': 0, 'Total Installs': 6, 'Date First Seen': '2026-02-14'},
-    {'TikTok URL': 'https://www.tiktok.com/@7584811033206803734/video/7584811033206803734', 'Account': '', 'Received ($)': 13, 'Estimated ($)': 13, 'US & EU3 Installs': 2, 'ROW Installs': 3, 'Engagements': 0, 'Total Installs': 5, 'Date First Seen': '2026-02-14'},
-    {'TikTok URL': 'https://www.tiktok.com/@7595235096404266262/video/7595235096404266262', 'Account': '', 'Received ($)': 11, 'Estimated ($)': 11, 'US & EU3 Installs': 2, 'ROW Installs': 1, 'Engagements': 0, 'Total Installs': 3, 'Date First Seen': '2026-02-14'},
-    {'TikTok URL': 'https://www.tiktok.com/@7589183622859558167/video/7589183622859558167', 'Account': '', 'Received ($)': 11, 'Estimated ($)': 11, 'US & EU3 Installs': 2, 'ROW Installs': 1, 'Engagements': 0, 'Total Installs': 3, 'Date First Seen': '2026-02-14'},
-    {'TikTok URL': 'https://www.tiktok.com/@7600770165768228118/video/7600770165768228118', 'Account': '', 'Received ($)': 8, 'Estimated ($)': 8, 'US & EU3 Installs': 1, 'ROW Installs': 3, 'Engagements': 0, 'Total Installs': 4, 'Date First Seen': '2026-02-14'},
-    {'TikTok URL': 'https://www.tiktok.com/@7599275177226046742/video/7599275177226046742', 'Account': '', 'Received ($)': 8, 'Estimated ($)': 8, 'US & EU3 Installs': 1, 'ROW Installs': 3, 'Engagements': 0, 'Total Installs': 4, 'Date First Seen': '2026-02-14'},
-    {'TikTok URL': 'https://www.tiktok.com/@7596766270058417430/video/7596766270058417430', 'Account': '', 'Received ($)': 7, 'Estimated ($)': 7, 'US & EU3 Installs': 1, 'ROW Installs': 2, 'Engagements': 0, 'Total Installs': 3, 'Date First Seen': '2026-02-14'},
-    {'TikTok URL': 'https://www.tiktok.com/@7599177144627154179/video/7599177144627154179', 'Account': '', 'Received ($)': 6, 'Estimated ($)': 6, 'US & EU3 Installs': 1, 'ROW Installs': 1, 'Engagements': 0, 'Total Installs': 2, 'Date First Seen': '2026-02-14'},
-    {'TikTok URL': 'https://www.tiktok.com/@7589643666491297046/video/7589643666491297046', 'Account': '', 'Received ($)': 6, 'Estimated ($)': 6, 'US & EU3 Installs': 1, 'ROW Installs': 1, 'Engagements': 0, 'Total Installs': 2, 'Date First Seen': '2026-02-14'},
-    {'TikTok URL': 'https://www.tiktok.com/@7590120022803205397/video/7590120022803205397', 'Account': '', 'Received ($)': 5, 'Estimated ($)': 5, 'US & EU3 Installs': 0, 'ROW Installs': 5, 'Engagements': 0, 'Total Installs': 5, 'Date First Seen': '2026-02-14'},
-    {'TikTok URL': 'https://www.tiktok.com/@7592645042695802135/video/7592645042695802135', 'Account': '', 'Received ($)': 5, 'Estimated ($)': 5, 'US & EU3 Installs': 1, 'ROW Installs': 0, 'Engagements': 0, 'Total Installs': 1, 'Date First Seen': '2026-02-14'},
-    {'TikTok URL': 'https://www.tiktok.com/@7599026448749382934/video/7599026448749382934', 'Account': '', 'Received ($)': 5, 'Estimated ($)': 5, 'US & EU3 Installs': 1, 'ROW Installs': 0, 'Engagements': 0, 'Total Installs': 1, 'Date First Seen': '2026-02-14'},
-    {'TikTok URL': 'https://www.tiktok.com/@7586604785374104854/video/7586604785374104854', 'Account': '', 'Received ($)': 5, 'Estimated ($)': 5, 'US & EU3 Installs': 1, 'ROW Installs': 0, 'Engagements': 0, 'Total Installs': 1, 'Date First Seen': '2026-02-14'},
-    {'TikTok URL': 'https://www.tiktok.com/@7597362819398503702/video/7597362819398503702', 'Account': 'Account 1 (smaller)', 'Received ($)': 5, 'Estimated ($)': 5, 'US & EU3 Installs': 1, 'ROW Installs': 0, 'Engagements': 0, 'Total Installs': 1, 'Date First Seen': '2026-02-09'},
-    {'TikTok URL': 'https://www.tiktok.com/@7599372602066390294/video/7599372602066390294', 'Account': '', 'Received ($)': 3, 'Estimated ($)': 3, 'US & EU3 Installs': 0, 'ROW Installs': 3, 'Engagements': 0, 'Total Installs': 3, 'Date First Seen': '2026-02-14'},
-    {'TikTok URL': 'https://www.tiktok.com/@7599371798970371350/video/7599371798970371350', 'Account': '', 'Received ($)': 3, 'Estimated ($)': 3, 'US & EU3 Installs': 0, 'ROW Installs': 3, 'Engagements': 0, 'Total Installs': 3, 'Date First Seen': '2026-02-14'},
-    {'TikTok URL': 'https://www.tiktok.com/@7599032518100241686/video/7599032518100241686', 'Account': 'Account 1 (smaller)', 'Received ($)': 3, 'Estimated ($)': 3, 'US & EU3 Installs': 0, 'ROW Installs': 3, 'Engagements': 0, 'Total Installs': 3, 'Date First Seen': '2026-02-09'},
-    {'TikTok URL': 'https://www.tiktok.com/@7598241192240778518/video/7598241192240778518', 'Account': '', 'Received ($)': 2, 'Estimated ($)': 2, 'US & EU3 Installs': 0, 'ROW Installs': 2, 'Engagements': 0, 'Total Installs': 2, 'Date First Seen': '2026-02-14'},
-    {'TikTok URL': 'https://www.tiktok.com/@7589955663128775958/video/7589955663128775958', 'Account': '', 'Received ($)': 2, 'Estimated ($)': 2, 'US & EU3 Installs': 1, 'ROW Installs': 0, 'Engagements': 0, 'Total Installs': 1, 'Date First Seen': '2026-02-14'},
-    {'TikTok URL': 'https://www.tiktok.com/@7592952482741964054/video/7592952482741964054', 'Account': '', 'Received ($)': 2, 'Estimated ($)': 2, 'US & EU3 Installs': 0, 'ROW Installs': 2, 'Engagements': 0, 'Total Installs': 2, 'Date First Seen': '2026-02-14'},
-    {'TikTok URL': 'https://www.tiktok.com/@7590115654942854422/video/7590115654942854422', 'Account': '', 'Received ($)': 2, 'Estimated ($)': 2, 'US & EU3 Installs': 0, 'ROW Installs': 2, 'Engagements': 0, 'Total Installs': 2, 'Date First Seen': '2026-02-14'},
-    {'TikTok URL': 'https://www.tiktok.com/@7598188911415938326/video/7598188911415938326', 'Account': '', 'Received ($)': 2, 'Estimated ($)': 2, 'US & EU3 Installs': 0, 'ROW Installs': 2, 'Engagements': 0, 'Total Installs': 2, 'Date First Seen': '2026-02-14'},
-    {'TikTok URL': 'https://www.tiktok.com/@7585524986576637186/video/7585524986576637186', 'Account': '', 'Received ($)': 2, 'Estimated ($)': 2, 'US & EU3 Installs': 0, 'ROW Installs': 2, 'Engagements': 0, 'Total Installs': 2, 'Date First Seen': '2026-02-14'},
-    {'TikTok URL': 'https://www.tiktok.com/@7588896788531252502/video/7588896788531252502', 'Account': '', 'Received ($)': 2, 'Estimated ($)': 2, 'US & EU3 Installs': 0, 'ROW Installs': 2, 'Engagements': 0, 'Total Installs': 2, 'Date First Seen': '2026-02-14'},
-    {'TikTok URL': 'https://www.tiktok.com/@7597064708012920067/video/7597064708012920067', 'Account': 'Account 1 (smaller)', 'Received ($)': 2, 'Estimated ($)': 2, 'US & EU3 Installs': 0, 'ROW Installs': 2, 'Engagements': 0, 'Total Installs': 2, 'Date First Seen': '2026-02-09'},
-    {'TikTok URL': 'https://www.tiktok.com/@7599268989629549827/video/7599268989629549827', 'Account': '', 'Received ($)': 1, 'Estimated ($)': 1, 'US & EU3 Installs': 0, 'ROW Installs': 1, 'Engagements': 0, 'Total Installs': 1, 'Date First Seen': '2026-02-14'},
-    {'TikTok URL': 'https://www.tiktok.com/@7589294163988974870/video/7589294163988974870', 'Account': '', 'Received ($)': 1, 'Estimated ($)': 1, 'US & EU3 Installs': 0, 'ROW Installs': 1, 'Engagements': 0, 'Total Installs': 1, 'Date First Seen': '2026-02-14'},
-    {'TikTok URL': 'https://www.tiktok.com/@7595964773100014870/video/7595964773100014870', 'Account': '', 'Received ($)': 1, 'Estimated ($)': 1, 'US & EU3 Installs': 0, 'ROW Installs': 1, 'Engagements': 0, 'Total Installs': 1, 'Date First Seen': '2026-02-14'},
-    {'TikTok URL': 'https://www.tiktok.com/@7600781841251061014/video/7600781841251061014', 'Account': '', 'Received ($)': 1, 'Estimated ($)': 1, 'US & EU3 Installs': 0, 'ROW Installs': 1, 'Engagements': 0, 'Total Installs': 1, 'Date First Seen': '2026-02-14'},
-    {'TikTok URL': 'https://www.tiktok.com/@7600362027797826838/video/7600362027797826838', 'Account': '', 'Received ($)': 1, 'Estimated ($)': 1, 'US & EU3 Installs': 0, 'ROW Installs': 1, 'Engagements': 0, 'Total Installs': 1, 'Date First Seen': '2026-02-14'},
-    {'TikTok URL': 'https://www.tiktok.com/@7592911940830219542/video/7592911940830219542', 'Account': '', 'Received ($)': 1, 'Estimated ($)': 1, 'US & EU3 Installs': 0, 'ROW Installs': 1, 'Engagements': 0, 'Total Installs': 1, 'Date First Seen': '2026-02-14'},
-    {'TikTok URL': 'https://www.tiktok.com/@7595908644831694082/video/7595908644831694082', 'Account': '', 'Received ($)': 1, 'Estimated ($)': 1, 'US & EU3 Installs': 0, 'ROW Installs': 1, 'Engagements': 0, 'Total Installs': 1, 'Date First Seen': '2026-02-14'},
-    {'TikTok URL': 'https://www.tiktok.com/@7601487341189975318/video/7601487341189975318', 'Account': '', 'Received ($)': 0, 'Estimated ($)': 1539, 'US & EU3 Installs': 284, 'ROW Installs': 119, 'Engagements': 0, 'Total Installs': 403, 'Date First Seen': '2026-02-14'},
-    {'TikTok URL': 'https://www.tiktok.com/@7601835249730915606/video/7601835249730915606', 'Account': '', 'Received ($)': 0, 'Estimated ($)': 56, 'US & EU3 Installs': 9, 'ROW Installs': 11, 'Engagements': 0, 'Total Installs': 20, 'Date First Seen': '2026-02-14'},
-    {'TikTok URL': 'https://www.tiktok.com/@7601565353419853078/video/7601565353419853078', 'Account': '', 'Received ($)': 0, 'Estimated ($)': 196, 'US & EU3 Installs': 37, 'ROW Installs': 11, 'Engagements': 0, 'Total Installs': 48, 'Date First Seen': '2026-02-14'},
-    {'TikTok URL': 'https://www.tiktok.com/@7604896624334228758/video/7604896624334228758', 'Account': '', 'Received ($)': 0, 'Estimated ($)': 3, 'US & EU3 Installs': 0, 'ROW Installs': 3, 'Engagements': 0, 'Total Installs': 3, 'Date First Seen': '2026-02-14'},
-    {'TikTok URL': 'https://www.tiktok.com/@7601828002359430422/video/7601828002359430422', 'Account': '', 'Received ($)': 0, 'Estimated ($)': 78, 'US & EU3 Installs': 15, 'ROW Installs': 3, 'Engagements': 0, 'Total Installs': 18, 'Date First Seen': '2026-02-14'},
-    {'TikTok URL': 'https://www.tiktok.com/@7603420165602037014/video/7603420165602037014', 'Account': '', 'Received ($)': 0, 'Estimated ($)': 128, 'US & EU3 Installs': 23, 'ROW Installs': 13, 'Engagements': 0, 'Total Installs': 36, 'Date First Seen': '2026-02-14'},
-    {'TikTok URL': 'https://www.tiktok.com/@7530652618117582102/video/7530652618117582102', 'Account': '', 'Received ($)': 0, 'Estimated ($)': 0, 'US & EU3 Installs': 0, 'ROW Installs': 0, 'Engagements': 0, 'Total Installs': 0, 'Date First Seen': '2026-02-14'},
-    {'TikTok URL': 'https://www.tiktok.com/@7601622544600354070/video/7601622544600354070', 'Account': '', 'Received ($)': 0, 'Estimated ($)': 5, 'US & EU3 Installs': 1, 'ROW Installs': 0, 'Engagements': 0, 'Total Installs': 1, 'Date First Seen': '2026-02-14'},
-    {'TikTok URL': 'https://www.tiktok.com/@7589958196710722838/video/7589958196710722838', 'Account': '', 'Received ($)': 0, 'Estimated ($)': 0, 'US & EU3 Installs': 0, 'ROW Installs': 0, 'Engagements': 0, 'Total Installs': 0, 'Date First Seen': '2026-02-14'},
-    {'TikTok URL': 'https://www.tiktok.com/@7601242576053652758/video/7601242576053652758', 'Account': '', 'Received ($)': 0, 'Estimated ($)': 0, 'US & EU3 Installs': 0, 'ROW Installs': 0, 'Engagements': 0, 'Total Installs': 0, 'Date First Seen': '2026-02-14'},
-    {'TikTok URL': 'https://www.tiktok.com/@7601537953378143510/video/7601537953378143510', 'Account': '', 'Received ($)': 0, 'Estimated ($)': 179, 'US & EU3 Installs': 33, 'ROW Installs': 14, 'Engagements': 0, 'Total Installs': 47, 'Date First Seen': '2026-02-14'},
-    {'TikTok URL': 'https://www.tiktok.com/@7601470612418170135/video/7601470612418170135', 'Account': '', 'Received ($)': 0, 'Estimated ($)': 6, 'US & EU3 Installs': 1, 'ROW Installs': 1, 'Engagements': 0, 'Total Installs': 2, 'Date First Seen': '2026-02-14'},
-    {'TikTok URL': 'https://www.tiktok.com/@7601632405601996054/video/7601632405601996054', 'Account': '', 'Received ($)': 0, 'Estimated ($)': 6, 'US & EU3 Installs': 1, 'ROW Installs': 1, 'Engagements': 0, 'Total Installs': 2, 'Date First Seen': '2026-02-14'},
-    {'TikTok URL': 'https://www.tiktok.com/@7596811565123374358/video/7596811565123374358', 'Account': '', 'Received ($)': 0, 'Estimated ($)': 0, 'US & EU3 Installs': 0, 'ROW Installs': 0, 'Engagements': 0, 'Total Installs': 0, 'Date First Seen': '2026-02-14'},
-    {'TikTok URL': 'https://www.tiktok.com/@7604153402934725890/video/7604153402934725890', 'Account': '', 'Received ($)': 0, 'Estimated ($)': 3, 'US & EU3 Installs': 0, 'ROW Installs': 3, 'Engagements': 0, 'Total Installs': 3, 'Date First Seen': '2026-02-14'},
-    {'TikTok URL': 'https://www.tiktok.com/@7594456162293026070/video/7594456162293026070', 'Account': '', 'Received ($)': 0, 'Estimated ($)': 0, 'US & EU3 Installs': 0, 'ROW Installs': 0, 'Engagements': 0, 'Total Installs': 0, 'Date First Seen': '2026-02-14'},
-    {'TikTok URL': 'https://www.tiktok.com/@7603017097614232854/video/7603017097614232854', 'Account': '', 'Received ($)': 0, 'Estimated ($)': 5, 'US & EU3 Installs': 1, 'ROW Installs': 0, 'Engagements': 0, 'Total Installs': 1, 'Date First Seen': '2026-02-14'},
-    {'TikTok URL': 'https://www.tiktok.com/@7595560825469930774/video/7595560825469930774', 'Account': '', 'Received ($)': 0, 'Estimated ($)': 0, 'US & EU3 Installs': 0, 'ROW Installs': 0, 'Engagements': 0, 'Total Installs': 0, 'Date First Seen': '2026-02-14'},
-    {'TikTok URL': 'https://www.tiktok.com/@7590078610845879574/video/7590078610845879574', 'Account': '', 'Received ($)': 0, 'Estimated ($)': 0, 'US & EU3 Installs': 0, 'ROW Installs': 0, 'Engagements': 0, 'Total Installs': 0, 'Date First Seen': '2026-02-14'},
-    {'TikTok URL': 'https://www.tiktok.com/@7601468586128952598/video/7601468586128952598', 'Account': '', 'Received ($)': 0, 'Estimated ($)': 0, 'US & EU3 Installs': 0, 'ROW Installs': 0, 'Engagements': 0, 'Total Installs': 0, 'Date First Seen': '2026-02-14'},
-    {'TikTok URL': 'https://www.tiktok.com/@7602393658146524418/video/7602393658146524418', 'Account': '', 'Received ($)': 0, 'Estimated ($)': 10, 'US & EU3 Installs': 2, 'ROW Installs': 0, 'Engagements': 0, 'Total Installs': 2, 'Date First Seen': '2026-02-14'},
-    {'TikTok URL': 'https://www.tiktok.com/@7598278879643569430/video/7598278879643569430', 'Account': '', 'Received ($)': 0, 'Estimated ($)': 0, 'US & EU3 Installs': 0, 'ROW Installs': 0, 'Engagements': 0, 'Total Installs': 0, 'Date First Seen': '2026-02-14'},
-    {'TikTok URL': 'https://www.tiktok.com/@7598212457932393750/video/7598212457932393750', 'Account': '', 'Received ($)': 0, 'Estimated ($)': 0, 'US & EU3 Installs': 0, 'ROW Installs': 0, 'Engagements': 0, 'Total Installs': 0, 'Date First Seen': '2026-02-14'},
-    {'TikTok URL': 'https://www.tiktok.com/@7599172358380719382/video/7599172358380719382', 'Account': '', 'Received ($)': 0, 'Estimated ($)': 0, 'US & EU3 Installs': 0, 'ROW Installs': 0, 'Engagements': 0, 'Total Installs': 0, 'Date First Seen': '2026-02-14'},
-    {'TikTok URL': 'https://www.tiktok.com/@7601614140414708995/video/7601614140414708995', 'Account': '', 'Received ($)': 0, 'Estimated ($)': 18, 'US & EU3 Installs': 3, 'ROW Installs': 3, 'Engagements': 0, 'Total Installs': 6, 'Date First Seen': '2026-02-14'},
-    {'TikTok URL': 'https://www.tiktok.com/@7590381156978199831/video/7590381156978199831', 'Account': '', 'Received ($)': 0, 'Estimated ($)': 0, 'US & EU3 Installs': 0, 'ROW Installs': 0, 'Engagements': 0, 'Total Installs': 0, 'Date First Seen': '2026-02-14'},
-    {'TikTok URL': 'https://www.tiktok.com/@7598963080218873111/video/7598963080218873111', 'Account': '', 'Received ($)': 0, 'Estimated ($)': 0, 'US & EU3 Installs': 0, 'ROW Installs': 0, 'Engagements': 0, 'Total Installs': 0, 'Date First Seen': '2026-02-14'},
-    {'TikTok URL': 'https://www.tiktok.com/@7603374540235803926/video/7603374540235803926', 'Account': '', 'Received ($)': 0, 'Estimated ($)': 81, 'US & EU3 Installs': 6, 'ROW Installs': 51, 'Engagements': 0, 'Total Installs': 57, 'Date First Seen': '2026-02-14'},
-    {'TikTok URL': 'https://www.tiktok.com/@7530023517908159766/video/7530023517908159766', 'Account': '', 'Received ($)': 0, 'Estimated ($)': 0, 'US & EU3 Installs': 0, 'ROW Installs': 0, 'Engagements': 0, 'Total Installs': 0, 'Date First Seen': '2026-02-14'},
-    {'TikTok URL': 'https://www.tiktok.com/@7601515548182138134/video/7601515548182138134', 'Account': '', 'Received ($)': 0, 'Estimated ($)': 28, 'US & EU3 Installs': 5, 'ROW Installs': 3, 'Engagements': 0, 'Total Installs': 8, 'Date First Seen': '2026-02-14'},
-    {'TikTok URL': 'https://www.tiktok.com/@7601611906779974934/video/7601611906779974934', 'Account': '', 'Received ($)': 0, 'Estimated ($)': 21, 'US & EU3 Installs': 4, 'ROW Installs': 1, 'Engagements': 0, 'Total Installs': 5, 'Date First Seen': '2026-02-14'},
-    {'TikTok URL': 'https://www.tiktok.com/@7528031035309821206/video/7528031035309821206', 'Account': '', 'Received ($)': 0, 'Estimated ($)': 0, 'US & EU3 Installs': 0, 'ROW Installs': 0, 'Engagements': 0, 'Total Installs': 0, 'Date First Seen': '2026-02-14'},
-    {'TikTok URL': 'https://www.tiktok.com/@7603359664142568726/video/7603359664142568726', 'Account': '', 'Received ($)': 0, 'Estimated ($)': 0, 'US & EU3 Installs': 0, 'ROW Installs': 0, 'Engagements': 0, 'Total Installs': 0, 'Date First Seen': '2026-02-14'},
-    {'TikTok URL': 'https://www.tiktok.com/@7601167547966164246/video/7601167547966164246', 'Account': '', 'Received ($)': 0, 'Estimated ($)': 28, 'US & EU3 Installs': 2, 'ROW Installs': 18, 'Engagements': 0, 'Total Installs': 20, 'Date First Seen': '2026-02-14'},
-    {'TikTok URL': 'https://www.tiktok.com/@7584426482357882115/video/7584426482357882115', 'Account': '', 'Received ($)': 0, 'Estimated ($)': 0, 'US & EU3 Installs': 0, 'ROW Installs': 0, 'Engagements': 0, 'Total Installs': 0, 'Date First Seen': '2026-02-14'},
-    {'TikTok URL': 'https://www.tiktok.com/@7601477473322159382/video/7601477473322159382', 'Account': '', 'Received ($)': 0, 'Estimated ($)': 5, 'US & EU3 Installs': 1, 'ROW Installs': 0, 'Engagements': 0, 'Total Installs': 1, 'Date First Seen': '2026-02-14'},
-    {'TikTok URL': 'https://www.tiktok.com/@7599666081636322583/video/7599666081636322583', 'Account': '', 'Received ($)': 0, 'Estimated ($)': 0, 'US & EU3 Installs': 0, 'ROW Installs': 0, 'Engagements': 0, 'Total Installs': 0, 'Date First Seen': '2026-02-14'},
-    {'TikTok URL': 'https://www.tiktok.com/@7598945928455720214/video/7598945928455720214', 'Account': '', 'Received ($)': 0, 'Estimated ($)': 0, 'US & EU3 Installs': 0, 'ROW Installs': 0, 'Engagements': 0, 'Total Installs': 0, 'Date First Seen': '2026-02-14'},
-    {'TikTok URL': 'https://www.tiktok.com/@7603101081257790742/video/7603101081257790742', 'Account': '', 'Received ($)': 0, 'Estimated ($)': 8, 'US & EU3 Installs': 1, 'ROW Installs': 3, 'Engagements': 0, 'Total Installs': 4, 'Date First Seen': '2026-02-14'},
-    {'TikTok URL': 'https://www.tiktok.com/@7599276140229856534/video/7599276140229856534', 'Account': '', 'Received ($)': 0, 'Estimated ($)': 0, 'US & EU3 Installs': 0, 'ROW Installs': 0, 'Engagements': 0, 'Total Installs': 0, 'Date First Seen': '2026-02-14'},
-    {'TikTok URL': 'https://www.tiktok.com/@7601245488603565334/video/7601245488603565334', 'Account': '', 'Received ($)': 0, 'Estimated ($)': 20, 'US & EU3 Installs': 4, 'ROW Installs': 0, 'Engagements': 0, 'Total Installs': 4, 'Date First Seen': '2026-02-14'},
-    {'TikTok URL': 'https://www.tiktok.com/@7601836046355074326/video/7601836046355074326', 'Account': '', 'Received ($)': 0, 'Estimated ($)': 7, 'US & EU3 Installs': 0, 'ROW Installs': 7, 'Engagements': 0, 'Total Installs': 7, 'Date First Seen': '2026-02-14'},
-    {'TikTok URL': 'https://www.tiktok.com/@7597795533490507030/video/7597795533490507030', 'Account': 'Account 1 (smaller)', 'Received ($)': 0, 'Estimated ($)': 0, 'US & EU3 Installs': 0, 'ROW Installs': 0, 'Engagements': 0, 'Total Installs': 0, 'Date First Seen': '2026-02-09'},
-    {'TikTok URL': 'https://www.tiktok.com/@7597363566458539286/video/7597363566458539286', 'Account': 'Account 1 (smaller)', 'Received ($)': 0, 'Estimated ($)': 0, 'US & EU3 Installs': 0, 'ROW Installs': 0, 'Engagements': 0, 'Total Installs': 0, 'Date First Seen': '2026-02-09'},
-    {'TikTok URL': 'https://www.tiktok.com/@7597171707987709206/video/7597171707987709206', 'Account': 'Account 1 (smaller)', 'Received ($)': 0, 'Estimated ($)': 0, 'US & EU3 Installs': 0, 'ROW Installs': 0, 'Engagements': 0, 'Total Installs': 0, 'Date First Seen': '2026-02-09'},
-    {'TikTok URL': 'https://www.tiktok.com/@7591292533720878358/video/7591292533720878358', 'Account': 'Account 1 (smaller)', 'Received ($)': 0, 'Estimated ($)': 0, 'US & EU3 Installs': 0, 'ROW Installs': 0, 'Engagements': 0, 'Total Installs': 0, 'Date First Seen': '2026-02-09'},
-    {'TikTok URL': 'https://www.tiktok.com/@7597796013792939286/video/7597796013792939286', 'Account': 'Account 1 (smaller)', 'Received ($)': 0, 'Estimated ($)': 0, 'US & EU3 Installs': 0, 'ROW Installs': 0, 'Engagements': 0, 'Total Installs': 0, 'Date First Seen': '2026-02-09'},
-    {'TikTok URL': 'https://www.tiktok.com/@7597800531087658262/video/7597800531087658262', 'Account': 'Account 1 (smaller)', 'Received ($)': 0, 'Estimated ($)': 0, 'US & EU3 Installs': 0, 'ROW Installs': 0, 'Engagements': 0, 'Total Installs': 0, 'Date First Seen': '2026-02-09'},
-    {'TikTok URL': 'https://www.tiktok.com/@7597080404323028246/video/7597080404323028246', 'Account': 'Account 1 (smaller)', 'Received ($)': 0, 'Estimated ($)': 0, 'US & EU3 Installs': 0, 'ROW Installs': 0, 'Engagements': 0, 'Total Installs': 0, 'Date First Seen': '2026-02-09'},
-    {'TikTok URL': 'https://www.tiktok.com/@7597108883814944022/video/7597108883814944022', 'Account': 'Account 1 (smaller)', 'Received ($)': 0, 'Estimated ($)': 0, 'US & EU3 Installs': 0, 'ROW Installs': 0, 'Engagements': 0, 'Total Installs': 0, 'Date First Seen': '2026-02-09'},
-    {'TikTok URL': 'https://www.tiktok.com/@7603100212176997654/video/7603100212176997654', 'Account': 'Account 1 (smaller)', 'Received ($)': 0, 'Estimated ($)': 0, 'US & EU3 Installs': 0, 'ROW Installs': 0, 'Engagements': 0, 'Total Installs': 0, 'Date First Seen': '2026-02-09'},
-    {'TikTok URL': 'https://www.tiktok.com/@7597012528090107158/video/7597012528090107158', 'Account': 'Account 1 (smaller)', 'Received ($)': 0, 'Estimated ($)': 0, 'US & EU3 Installs': 0, 'ROW Installs': 0, 'Engagements': 0, 'Total Installs': 0, 'Date First Seen': '2026-02-09'},
-    {'TikTok URL': 'https://www.tiktok.com/@7597801729450577174/video/7597801729450577174', 'Account': 'Account 1 (smaller)', 'Received ($)': 0, 'Estimated ($)': 0, 'US & EU3 Installs': 0, 'ROW Installs': 0, 'Engagements': 0, 'Total Installs': 0, 'Date First Seen': '2026-02-09'},
-    {'TikTok URL': 'https://www.tiktok.com/@7597364619035888899/video/7597364619035888899', 'Account': 'Account 1 (smaller)', 'Received ($)': 0, 'Estimated ($)': 0, 'US & EU3 Installs': 0, 'ROW Installs': 0, 'Engagements': 0, 'Total Installs': 0, 'Date First Seen': '2026-02-09'},
-    {'TikTok URL': 'https://www.tiktok.com/@7590877569394773270/video/7590877569394773270', 'Account': 'Account 1 (smaller)', 'Received ($)': 0, 'Estimated ($)': 0, 'US & EU3 Installs': 0, 'ROW Installs': 0, 'Engagements': 0, 'Total Installs': 0, 'Date First Seen': '2026-02-09'},
-    {'TikTok URL': 'https://www.tiktok.com/@7582151219729272086/video/7582151219729272086', 'Account': 'Account 1 (smaller)', 'Received ($)': 0, 'Estimated ($)': 0, 'US & EU3 Installs': 0, 'ROW Installs': 0, 'Engagements': 0, 'Total Installs': 0, 'Date First Seen': '2026-02-09'},
-    {'TikTok URL': 'https://www.tiktok.com/@7581890594608336150/video/7581890594608336150', 'Account': 'Account 1 (smaller)', 'Received ($)': 0, 'Estimated ($)': 0, 'US & EU3 Installs': 0, 'ROW Installs': 0, 'Engagements': 0, 'Total Installs': 0, 'Date First Seen': '2026-02-09'},
-    {'TikTok URL': 'https://www.tiktok.com/@7597928583667010819/video/7597928583667010819', 'Account': 'Account 1 (smaller)', 'Received ($)': 0, 'Estimated ($)': 0, 'US & EU3 Installs': 0, 'ROW Installs': 0, 'Engagements': 0, 'Total Installs': 0, 'Date First Seen': '2026-02-09'},
-    {'TikTok URL': 'https://www.tiktok.com/@7582190483133238550/video/7582190483133238550', 'Account': 'Account 1 (smaller)', 'Received ($)': 0, 'Estimated ($)': 0, 'US & EU3 Installs': 0, 'ROW Installs': 0, 'Engagements': 0, 'Total Installs': 0, 'Date First Seen': '2026-02-09'},
-    {'TikTok URL': 'https://www.tiktok.com/@7581937222518115606/video/7581937222518115606', 'Account': 'Account 1 (smaller)', 'Received ($)': 0, 'Estimated ($)': 0, 'US & EU3 Installs': 0, 'ROW Installs': 0, 'Engagements': 0, 'Total Installs': 0, 'Date First Seen': '2026-02-09'},
-    {'TikTok URL': 'https://www.tiktok.com/@capcuttemplatesai/video/7433474060589223201', 'Account': 'capcuttemplatesai', 'Received ($)': 0, 'Estimated ($)': 0, 'US & EU3 Installs': 0, 'ROW Installs': 0, 'Engagements': 0, 'Total Installs': 0, 'Date First Seen': '2026-02-09'},
+    {'TikTok URL': 'https://www.tiktok.com/@7597126976427609366/video/7597126976427609366', 'Account': 'Account 1 (smaller)', 'Received ($)': 2500, 'Estimated ($)': 2500, 'US & EU3 Installs': 2184, 'ROW Installs': 3782, 'Date First Seen': '2026-02-09'},
+    {'TikTok URL': 'https://www.tiktok.com/@7597399641776508163/video/7597399641776508163', 'Account': 'Account 1 (smaller)', 'Received ($)': 2500, 'Estimated ($)': 2500, 'US & EU3 Installs': 717, 'ROW Installs': 1984, 'Date First Seen': '2026-02-09'},
+    {'TikTok URL': 'https://www.tiktok.com/@7597123284848610582/video/7597123284848610582', 'Account': 'Account 1 (smaller)', 'Received ($)': 2500, 'Estimated ($)': 2500, 'US & EU3 Installs': 1196, 'ROW Installs': 1554, 'Date First Seen': '2026-02-09'},
+    {'TikTok URL': 'https://www.tiktok.com/@7597924302243007766/video/7597924302243007766', 'Account': 'Account 1 (smaller)', 'Received ($)': 2500, 'Estimated ($)': 2500, 'US & EU3 Installs': 671, 'ROW Installs': 1269, 'Date First Seen': '2026-02-09'},
+    {'TikTok URL': 'https://www.tiktok.com/@7597114246433869078/video/7597114246433869078', 'Account': 'Account 1 (smaller)', 'Received ($)': 324, 'Estimated ($)': 324, 'US & EU3 Installs': 49, 'ROW Installs': 79, 'Date First Seen': '2026-02-09'},
+    {'TikTok URL': 'https://www.tiktok.com/@7597805299315068182/video/7597805299315068182', 'Account': 'Account 1 (smaller)', 'Received ($)': 106, 'Estimated ($)': 106, 'US & EU3 Installs': 13, 'ROW Installs': 41, 'Date First Seen': '2026-02-09'},
+    {'TikTok URL': 'https://www.tiktok.com/@7597084269701270806/video/7597084269701270806', 'Account': 'Account 1 (smaller)', 'Received ($)': 314, 'Estimated ($)': 314, 'US & EU3 Installs': 47, 'ROW Installs': 79, 'Date First Seen': '2026-02-09'},
+    {'TikTok URL': 'https://www.tiktok.com/@7597064708012920067/video/7597064708012920067', 'Account': 'Account 1 (smaller)', 'Received ($)': 2, 'Estimated ($)': 2, 'US & EU3 Installs': 0, 'ROW Installs': 2, 'Date First Seen': '2026-02-09'},
+    {'TikTok URL': 'https://www.tiktok.com/@7599032518100241686/video/7599032518100241686', 'Account': 'Account 1 (smaller)', 'Received ($)': 3, 'Estimated ($)': 3, 'US & EU3 Installs': 0, 'ROW Installs': 3, 'Date First Seen': '2026-02-09'},
+    {'TikTok URL': 'https://www.tiktok.com/@7597362819398503702/video/7597362819398503702', 'Account': 'Account 1 (smaller)', 'Received ($)': 5, 'Estimated ($)': 5, 'US & EU3 Installs': 1, 'ROW Installs': 0, 'Date First Seen': '2026-02-09'},
+    {'TikTok URL': 'https://www.tiktok.com/@7597795533490507030/video/7597795533490507030', 'Account': 'Account 1 (smaller)', 'Received ($)': 0, 'Estimated ($)': 0, 'US & EU3 Installs': 0, 'ROW Installs': 0, 'Date First Seen': '2026-02-09'},
+    {'TikTok URL': 'https://www.tiktok.com/@7597363566458539286/video/7597363566458539286', 'Account': 'Account 1 (smaller)', 'Received ($)': 0, 'Estimated ($)': 0, 'US & EU3 Installs': 0, 'ROW Installs': 0, 'Date First Seen': '2026-02-09'},
+    {'TikTok URL': 'https://www.tiktok.com/@7597171707987709206/video/7597171707987709206', 'Account': 'Account 1 (smaller)', 'Received ($)': 0, 'Estimated ($)': 0, 'US & EU3 Installs': 0, 'ROW Installs': 0, 'Date First Seen': '2026-02-09'},
+    {'TikTok URL': 'https://www.tiktok.com/@7591292533720878358/video/7591292533720878358', 'Account': 'Account 1 (smaller)', 'Received ($)': 0, 'Estimated ($)': 0, 'US & EU3 Installs': 0, 'ROW Installs': 0, 'Date First Seen': '2026-02-09'},
+    {'TikTok URL': 'https://www.tiktok.com/@7597796013792939286/video/7597796013792939286', 'Account': 'Account 1 (smaller)', 'Received ($)': 0, 'Estimated ($)': 0, 'US & EU3 Installs': 0, 'ROW Installs': 0, 'Date First Seen': '2026-02-09'},
+    {'TikTok URL': 'https://www.tiktok.com/@7597800531087658262/video/7597800531087658262', 'Account': 'Account 1 (smaller)', 'Received ($)': 0, 'Estimated ($)': 0, 'US & EU3 Installs': 0, 'ROW Installs': 0, 'Date First Seen': '2026-02-09'},
+    {'TikTok URL': 'https://www.tiktok.com/@7597080404323028246/video/7597080404323028246', 'Account': 'Account 1 (smaller)', 'Received ($)': 0, 'Estimated ($)': 0, 'US & EU3 Installs': 0, 'ROW Installs': 0, 'Date First Seen': '2026-02-09'},
+    {'TikTok URL': 'https://www.tiktok.com/@7597108883814944022/video/7597108883814944022', 'Account': 'Account 1 (smaller)', 'Received ($)': 0, 'Estimated ($)': 0, 'US & EU3 Installs': 0, 'ROW Installs': 0, 'Date First Seen': '2026-02-09'},
+    {'TikTok URL': 'https://www.tiktok.com/@7603100212176997654/video/7603100212176997654', 'Account': 'Account 1 (smaller)', 'Received ($)': 0, 'Estimated ($)': 0, 'US & EU3 Installs': 0, 'ROW Installs': 0, 'Date First Seen': '2026-02-09'},
+    {'TikTok URL': 'https://www.tiktok.com/@7597012528090107158/video/7597012528090107158', 'Account': 'Account 1 (smaller)', 'Received ($)': 0, 'Estimated ($)': 0, 'US & EU3 Installs': 0, 'ROW Installs': 0, 'Date First Seen': '2026-02-09'},
+    {'TikTok URL': 'https://www.tiktok.com/@7597801729450577174/video/7597801729450577174', 'Account': 'Account 1 (smaller)', 'Received ($)': 0, 'Estimated ($)': 0, 'US & EU3 Installs': 0, 'ROW Installs': 0, 'Date First Seen': '2026-02-09'},
+    {'TikTok URL': 'https://www.tiktok.com/@7597364619035888899/video/7597364619035888899', 'Account': 'Account 1 (smaller)', 'Received ($)': 0, 'Estimated ($)': 0, 'US & EU3 Installs': 0, 'ROW Installs': 0, 'Date First Seen': '2026-02-09'},
+    {'TikTok URL': 'https://www.tiktok.com/@7590877569394773270/video/7590877569394773270', 'Account': 'Account 1 (smaller)', 'Received ($)': 0, 'Estimated ($)': 0, 'US & EU3 Installs': 0, 'ROW Installs': 0, 'Date First Seen': '2026-02-09'},
+    {'TikTok URL': 'https://www.tiktok.com/@7582151219729272086/video/7582151219729272086', 'Account': 'Account 1 (smaller)', 'Received ($)': 0, 'Estimated ($)': 0, 'US & EU3 Installs': 0, 'ROW Installs': 0, 'Date First Seen': '2026-02-09'},
+    {'TikTok URL': 'https://www.tiktok.com/@7581890594608336150/video/7581890594608336150', 'Account': 'Account 1 (smaller)', 'Received ($)': 0, 'Estimated ($)': 0, 'US & EU3 Installs': 0, 'ROW Installs': 0, 'Date First Seen': '2026-02-09'},
+    {'TikTok URL': 'https://www.tiktok.com/@7597928583667010819/video/7597928583667010819', 'Account': 'Account 1 (smaller)', 'Received ($)': 0, 'Estimated ($)': 0, 'US & EU3 Installs': 0, 'ROW Installs': 0, 'Date First Seen': '2026-02-09'},
+    {'TikTok URL': 'https://www.tiktok.com/@7582190483133238550/video/7582190483133238550', 'Account': 'Account 1 (smaller)', 'Received ($)': 0, 'Estimated ($)': 0, 'US & EU3 Installs': 0, 'ROW Installs': 0, 'Date First Seen': '2026-02-09'},
+    {'TikTok URL': 'https://www.tiktok.com/@7581937222518115606/video/7581937222518115606', 'Account': 'Account 1 (smaller)', 'Received ($)': 0, 'Estimated ($)': 0, 'US & EU3 Installs': 0, 'ROW Installs': 0, 'Date First Seen': '2026-02-09'},
+    {'TikTok URL': 'https://www.tiktok.com/@capcut.vorlagen101/video/7600100215269412118', 'Account': 'capcut.vorlagen101', 'Received ($)': 0, 'Estimated ($)': 0, 'US & EU3 Installs': 0, 'ROW Installs': 0, 'Trend Description': '#CapCut #aibaby\n#aitrend #capcutpioneer\n#pioneertemplate\n\nMa', 'Momentum at Detection': 733, 'Trigger Level': '🟡 WATCH', 'Market': 'US', 'AI Category': 'AI', 'Age at Detection': '317.9h', 'Date First Seen': '2026-02-09'},
+    {'TikTok URL': 'https://www.tiktok.com/@artemiscc_capcut/video/7596800019433295126', 'Account': 'artemiscc_capcut', 'Received ($)': 0, 'Estimated ($)': 0, 'US & EU3 Installs': 0, 'ROW Installs': 0, 'Trend Description': '#CapCut #pioneertemplate #capcutpioneer #dancingbaby #aibaby', 'Momentum at Detection': 38, 'Market': 'US', 'AI Category': 'AI', 'Age at Detection': '531.4h', 'Date First Seen': '2026-02-09'},
+    {'TikTok URL': 'https://www.tiktok.com/@capcut.vorlagen101/video/7601835249730915606', 'Account': 'capcut.vorlagen101', 'Received ($)': 0, 'Estimated ($)': 0, 'US & EU3 Installs': 0, 'ROW Installs': 0, 'Trend Description': '#CapCut #capcutpioneer #pioneertemplate #chachaslide #aifilt', 'Momentum at Detection': 54, 'Market': 'US', 'AI Category': 'AI', 'Age at Detection': '205.7h', 'Date First Seen': '2026-02-09'},
+    {'TikTok URL': 'https://www.tiktok.com/@capcut.vorlagen101/video/7597546182721670422', 'Account': 'capcut.vorlagen101', 'Received ($)': 0, 'Estimated ($)': 0, 'US & EU3 Installs': 0, 'ROW Installs': 0, 'Trend Description': '#CapCut #capcutpioneer #pioneertemplate #aibaby #aitrend \n\nM', 'Momentum at Detection': 6892, 'Trigger Level': '🔥 URGENT', 'Market': 'US', 'AI Category': 'AI', 'Age at Detection': '483.1h', 'Date First Seen': '2026-02-09'},
+    {'TikTok URL': 'https://www.tiktok.com/@artemiscc_capcut/video/7598494805294959894', 'Account': 'artemiscc_capcut', 'Received ($)': 0, 'Estimated ($)': 0, 'US & EU3 Installs': 0, 'ROW Installs': 0, 'Trend Description': '#CapCut #mapopo #aitrend #capcutpioneer #pioneertemplate \n\nM', 'Momentum at Detection': 335, 'Market': 'US', 'AI Category': 'AI', 'Age at Detection': '421.8h', 'Date First Seen': '2026-02-09'},
+    {'TikTok URL': 'https://www.tiktok.com/@capcuttrends02/video/7597736583386762518', 'Account': 'capcuttrends02', 'Received ($)': 0, 'Estimated ($)': 0, 'US & EU3 Installs': 0, 'ROW Installs': 0, 'Trend Description': '#CapCut #mapopo #aitrend #capcutpioneer #pioneertemplate \n\nM', 'Momentum at Detection': 1879, 'Trigger Level': '⚡ HIGH', 'Market': 'US', 'AI Category': 'AI', 'Age at Detection': '470.8h', 'Date First Seen': '2026-02-09'},
+    {'TikTok URL': 'https://www.tiktok.com/@capcuttemplatesai/video/7601614140414708995', 'Account': 'capcuttemplatesai', 'Received ($)': 0, 'Estimated ($)': 0, 'US & EU3 Installs': 0, 'ROW Installs': 0, 'Trend Description': '#CapCut #capcutpioneer #pioneertemplate #keepitgangsta #aida', 'Momentum at Detection': 4, 'Market': 'US', 'AI Category': 'AI', 'Age at Detection': '220.0h', 'Date First Seen': '2026-02-09'},
+    {'TikTok URL': 'https://www.tiktok.com/@artemiscc_capcut/video/7601828002359430422', 'Account': 'artemiscc_capcut', 'Received ($)': 0, 'Estimated ($)': 0, 'US & EU3 Installs': 0, 'ROW Installs': 0, 'Trend Description': '#CapCut #capcutpioneer #pioneertemplate #keepitgangsta #aida', 'Momentum at Detection': 82, 'Market': 'US', 'AI Category': 'AI', 'Age at Detection': '206.2h', 'Date First Seen': '2026-02-09'},
+    {'TikTok URL': 'https://www.tiktok.com/@capcuttemplatesai/video/7433474060589223201', 'Account': 'capcuttemplatesai', 'Received ($)': 0, 'Estimated ($)': 0, 'US & EU3 Installs': 0, 'ROW Installs': 0, 'Trend Description': 'Bridgerton AI Template #CapCut #aitemplate #Bridgerton #netf', 'Momentum at Detection': 0, 'Market': 'UK', 'AI Category': 'AI', 'Age at Detection': '11094.5h', 'Date First Seen': '2026-02-09'},
+    {'TikTok URL': 'https://www.tiktok.com/@artemiscc_capcut/video/7596800019433295126', 'Account': 'artemiscc_capcut', 'Received ($)': 0, 'Estimated ($)': 0, 'US & EU3 Installs': 0, 'ROW Installs': 0, 'Trend Description': '#CapCut #pioneertemplate #capcutpioneer #dancingbaby #aibaby', 'Momentum at Detection': 38, 'Market': 'UK', 'AI Category': 'AI', 'Age at Detection': '531.4h', 'Date First Seen': '2026-02-09'},
+    {'TikTok URL': 'https://www.tiktok.com/@artemiscc_capcut/video/7596436774478548246', 'Account': 'artemiscc_capcut', 'Received ($)': 0, 'Estimated ($)': 0, 'US & EU3 Installs': 0, 'ROW Installs': 0, 'Trend Description': '#CapCut #mapopo #aitrend #capcutpioneer #pioneertemplate \n\nM', 'Momentum at Detection': 605, 'Market': 'UK', 'AI Category': 'AI', 'Age at Detection': '554.9h', 'Date First Seen': '2026-02-09'},
+    {'TikTok URL': 'https://www.tiktok.com/@capcutaistudio/video/7600069960731200790', 'Account': 'capcutaistudio', 'Received ($)': 0, 'Estimated ($)': 0, 'US & EU3 Installs': 0, 'ROW Installs': 0, 'Trend Description': '#CapCut #capcutpioneer #pioneertemplate #crippwalk #aidance ', 'Momentum at Detection': 11, 'Market': 'UK', 'AI Category': 'AI', 'Age at Detection': '319.9h', 'Date First Seen': '2026-02-09'},
+    {'TikTok URL': 'https://www.tiktok.com/@capcut.vorlagen101/video/7601835249730915606', 'Account': 'capcut.vorlagen101', 'Received ($)': 0, 'Estimated ($)': 0, 'US & EU3 Installs': 0, 'ROW Installs': 0, 'Trend Description': '#CapCut #capcutpioneer #pioneertemplate #chachaslide #aifilt', 'Momentum at Detection': 54, 'Market': 'UK', 'AI Category': 'AI', 'Age at Detection': '205.7h', 'Date First Seen': '2026-02-09'},
+    {'TikTok URL': 'https://www.tiktok.com/@capcut.vorlagen101/video/7600100215269412118', 'Account': 'capcut.vorlagen101', 'Received ($)': 0, 'Estimated ($)': 0, 'US & EU3 Installs': 0, 'ROW Installs': 0, 'Trend Description': '#CapCut #aibaby\n#aitrend #capcutpioneer\n#pioneertemplate\n\nMa', 'Momentum at Detection': 733, 'Trigger Level': '🟡 WATCH', 'Market': 'UK', 'AI Category': 'AI', 'Age at Detection': '317.9h', 'Date First Seen': '2026-02-09'},
+    {'TikTok URL': 'https://www.tiktok.com/@capcut.vorlagen101/video/7597546182721670422', 'Account': 'capcut.vorlagen101', 'Received ($)': 0, 'Estimated ($)': 0, 'US & EU3 Installs': 0, 'ROW Installs': 0, 'Trend Description': '#CapCut #capcutpioneer #pioneertemplate #aibaby #aitrend \n\nM', 'Momentum at Detection': 6892, 'Trigger Level': '🔥 URGENT', 'Market': 'UK', 'AI Category': 'AI', 'Age at Detection': '483.1h', 'Date First Seen': '2026-02-09'},
+    {'TikTok URL': 'https://www.tiktok.com/@capcuttrends02/video/7600760603992460566', 'Account': 'capcuttrends02', 'Received ($)': 0, 'Estimated ($)': 0, 'US & EU3 Installs': 0, 'ROW Installs': 0, 'Trend Description': '#CapCut #capcutpioneer #pioneertemplate #aibaby #aifilter \n\n', 'Momentum at Detection': 362, 'Market': 'UK', 'AI Category': 'AI', 'Age at Detection': '275.2h', 'Date First Seen': '2026-02-09'},
+    {'TikTok URL': 'https://www.tiktok.com/@capcuttemplatesai/video/7601614140414708995', 'Account': 'capcuttemplatesai', 'Received ($)': 0, 'Estimated ($)': 0, 'US & EU3 Installs': 0, 'ROW Installs': 0, 'Trend Description': '#CapCut #capcutpioneer #pioneertemplate #keepitgangsta #aida', 'Momentum at Detection': 4, 'Market': 'UK', 'AI Category': 'AI', 'Age at Detection': '220.0h', 'Date First Seen': '2026-02-09'},
+    {'TikTok URL': 'https://www.tiktok.com/@capcuttemplatesai/video/7597924302243007766', 'Account': 'capcuttemplatesai', 'Received ($)': 0, 'Estimated ($)': 0, 'US & EU3 Installs': 0, 'ROW Installs': 0, 'Trend Description': '#CapCut #mapopo #aitrend #capcutpioneer #pioneertemplate \n\nM', 'Momentum at Detection': 1239, 'Trigger Level': '🟡 WATCH', 'Market': 'UK', 'AI Category': 'AI', 'Age at Detection': '458.7h', 'Date First Seen': '2026-02-09'},
+    {'TikTok URL': 'https://www.tiktok.com/@capcuttrends02/video/7597126976427609366', 'Account': 'capcuttrends02', 'Received ($)': 0, 'Estimated ($)': 0, 'US & EU3 Installs': 0, 'ROW Installs': 0, 'Trend Description': '#CapCut #mapopo #aitrend #capcutpioneer #pioneertemplate \n\nM', 'Momentum at Detection': 2695, 'Trigger Level': '🔥 URGENT', 'Market': 'UK', 'AI Category': 'AI', 'Age at Detection': '510.2h', 'Date First Seen': '2026-02-09'},
+    {'TikTok URL': 'https://www.tiktok.com/@capcuttrends02/video/7597736583386762518', 'Account': 'capcuttrends02', 'Received ($)': 0, 'Estimated ($)': 0, 'US & EU3 Installs': 0, 'ROW Installs': 0, 'Trend Description': '#CapCut #mapopo #aitrend #capcutpioneer #pioneertemplate \n\nM', 'Momentum at Detection': 1879, 'Trigger Level': '⚡ HIGH', 'Market': 'UK', 'AI Category': 'AI', 'Age at Detection': '470.8h', 'Date First Seen': '2026-02-09'},
+    {'TikTok URL': 'https://www.tiktok.com/@artemiscc_capcut/video/7598494805294959894', 'Account': 'artemiscc_capcut', 'Received ($)': 0, 'Estimated ($)': 0, 'US & EU3 Installs': 0, 'ROW Installs': 0, 'Trend Description': '#CapCut #mapopo #aitrend #capcutpioneer #pioneertemplate \n\nM', 'Momentum at Detection': 335, 'Market': 'UK', 'AI Category': 'AI', 'Age at Detection': '421.8h', 'Date First Seen': '2026-02-09'},
+    {'TikTok URL': 'https://www.tiktok.com/@artemiscc_capcut/video/7600349631934909718', 'Account': 'artemiscc_capcut', 'Received ($)': 0, 'Estimated ($)': 0, 'US & EU3 Installs': 0, 'ROW Installs': 0, 'Trend Description': '#CapCut #aibaby\n#aitrend #capcutpioneer\n#pioneertemplate\n\nMa', 'Momentum at Detection': 96, 'Market': 'US', 'AI Category': 'AI', 'Age at Detection': '313.7h', 'Date First Seen': '2026-02-10'},
+    {'TikTok URL': 'https://www.tiktok.com/@capcutaistudio/video/7601487341189975318', 'Account': 'capcutaistudio', 'Received ($)': 0, 'Estimated ($)': 0, 'US & EU3 Installs': 0, 'ROW Installs': 0, 'Trend Description': '#CapCut #capcutpioneer #pioneertemplate #aidance #aibaby\n\nAi', 'Momentum at Detection': 699, 'Trigger Level': '🟡 WATCH', 'Market': 'US', 'AI Category': 'AI', 'Age at Detection': '240.1h', 'Date First Seen': '2026-02-10'},
+    {'TikTok URL': 'https://www.tiktok.com/@artemiscccapcut/video/7597737771008085270', 'Account': 'artemiscccapcut', 'Received ($)': 0, 'Estimated ($)': 0, 'US & EU3 Installs': 0, 'ROW Installs': 0, 'Trend Description': '#CapCut #mapopo #aitrend #capcutpioneer #pioneertemplate \n\nM', 'Momentum at Detection': 199, 'Market': 'US', 'AI Category': 'AI', 'Age at Detection': '482.6h', 'Date First Seen': '2026-02-10'},
+    {'TikTok URL': 'https://www.tiktok.com/@capcut.vorlagen101/video/7598499844461743382', 'Account': 'capcut.vorlagen101', 'Received ($)': 0, 'Estimated ($)': 0, 'US & EU3 Installs': 0, 'ROW Installs': 0, 'Trend Description': '#CapCut #mapopo #aitrend #capcutpioneer #pioneertemplate \n\nM', 'Momentum at Detection': 727, 'Trigger Level': '🟡 WATCH', 'Market': 'US', 'AI Category': 'AI', 'Age at Detection': '433.3h', 'Date First Seen': '2026-02-10'},
+    {'TikTok URL': 'https://www.tiktok.com/@capcut.vorlagen101/video/7603374540235803926', 'Account': 'capcut.vorlagen101', 'Received ($)': 0, 'Estimated ($)': 0, 'US & EU3 Installs': 0, 'ROW Installs': 0, 'Trend Description': '#CapCut #pioneertemplate #capcutpioneer #aitrend #mapopo \n\nM', 'Momentum at Detection': 463, 'Market': 'US', 'AI Category': 'AI', 'Age at Detection': '118.1h', 'Date First Seen': '2026-02-10'},
+    {'TikTok URL': 'https://www.tiktok.com/@capcuttemplates833/video/7596803270442601750', 'Account': 'capcuttemplates833', 'Received ($)': 0, 'Estimated ($)': 0, 'US & EU3 Installs': 0, 'ROW Installs': 0, 'Trend Description': '#CapCut #mapopo #aitrend #capcutpioneer #pioneertemplate \n\nM', 'Momentum at Detection': 771, 'Market': 'US', 'AI Category': 'AI', 'Age at Detection': '543.1h', 'Date First Seen': '2026-02-10'},
+    {'TikTok URL': 'https://www.tiktok.com/@artemiscc_capcut/video/7600349631934909718', 'Account': 'artemiscc_capcut', 'Received ($)': 0, 'Estimated ($)': 0, 'US & EU3 Installs': 0, 'ROW Installs': 0, 'Trend Description': '#CapCut #aibaby\n#aitrend #capcutpioneer\n#pioneertemplate\n\nMa', 'Momentum at Detection': 96, 'Market': 'UK', 'AI Category': 'AI', 'Age at Detection': '313.7h', 'Date First Seen': '2026-02-10'},
+    {'TikTok URL': 'https://www.tiktok.com/@capcut.vorlagen101/video/7603374540235803926', 'Account': 'capcut.vorlagen101', 'Received ($)': 0, 'Estimated ($)': 0, 'US & EU3 Installs': 0, 'ROW Installs': 0, 'Trend Description': '#CapCut #pioneertemplate #capcutpioneer #aitrend #mapopo \n\nM', 'Momentum at Detection': 463, 'Market': 'UK', 'AI Category': 'AI', 'Age at Detection': '118.1h', 'Date First Seen': '2026-02-10'},
+    {'TikTok URL': 'https://www.tiktok.com/@capcut.vorlagen101/video/7598499844461743382', 'Account': 'capcut.vorlagen101', 'Received ($)': 0, 'Estimated ($)': 0, 'US & EU3 Installs': 0, 'ROW Installs': 0, 'Trend Description': '#CapCut #mapopo #aitrend #capcutpioneer #pioneertemplate \n\nM', 'Momentum at Detection': 727, 'Trigger Level': '🟡 WATCH', 'Market': 'UK', 'AI Category': 'AI', 'Age at Detection': '433.3h', 'Date First Seen': '2026-02-10'},
+    {'TikTok URL': 'https://www.tiktok.com/@capcuttemplatesai/video/7601515548182138134', 'Account': 'capcuttemplatesai', 'Received ($)': 0, 'Estimated ($)': 0, 'US & EU3 Installs': 0, 'ROW Installs': 0, 'Trend Description': '#CapCut #capcutpioneer #pioneertemplate #aidance #aifilter\n\n', 'Momentum at Detection': 21, 'Market': 'US', 'AI Category': 'AI', 'Age at Detection': '262.2h', 'Date First Seen': '2026-02-11'},
 ]
 
 
@@ -759,10 +675,8 @@ def analyze_competitor_gaps(
             gap_type = 'MISSED_BY_YOU'
             hours_behind = None
         
-        # Estimate missed revenue using data-driven model
-        from revenue_model import estimate_competitor_revenue as _est_comp
-        _est = _est_comp(comp_row['momentum_score'], comp_row.get('shares_per_hour'), comp_row.get('age_hours'))
-        potential_missed = _est['estimated_revenue'] if not you_also_posted else 0
+        # Estimate missed revenue: £5 per 1000 momentum (rough estimate)
+        potential_missed = (comp_row['momentum_score'] / 1000) * 5 if not you_also_posted else 0
         
         results.append({
             'trend_url': comp_row['webVideoUrl'],
@@ -838,21 +752,18 @@ def create_enhanced_excel(
     df_2days_ago: pd.DataFrame = None,
     output_path: str = 'BUILD_TODAY_ENHANCED.xlsx',
     cache_path: str = None,
-    dashboard_path: str = None,
-    live_revenue_df: pd.DataFrame = None
+    dashboard_path: str = None
 ) -> str:
     """
-    Create v3.6.0 Enhanced Excel file with 10 tabs:
+    Create v3.6.0 Enhanced Excel file with 8 tabs:
     1. DASHBOARD - Formula-driven KPI summary
     2. OPPORTUNITY_NOW - 13-column priority build list
-    3. REVENUE_TRACKER - 20-column revenue tracking (carried forward)
+    3. REVENUE_TRACKER - 19-column revenue tracking (carried forward)
     4. REVENUE_INSIGHTS - Auto-calculated breakdowns
     5. COMPETITOR_VIEW - 12-column combined competitor analysis
     6. PREDICTION_LOG - Model accuracy tracking
     7. DATA_FEED - 19-column enhanced MY_PERFORMANCE
     8. COMPETITOR_INTEL - 7-day deep competitor intelligence (9 sections)
-    9. PAYMENTS - Day-by-day Pioneer Programme payments sorted by post date
-    10. MONTHLY_REVENUE - Month-by-month revenue summary with totals
     """
     df_today = _ensure_calculated_metrics(df_today)
 
@@ -868,7 +779,7 @@ def create_enhanced_excel(
     h2h_metrics = calculate_your_vs_competitor_metrics(df_today)
 
     # Load existing revenue/prediction data
-    existing_revenue = _load_existing_revenue(dashboard_path, live_revenue_df=live_revenue_df)
+    existing_revenue = _load_existing_revenue(dashboard_path)
     existing_prediction_log = _load_existing_prediction_log(dashboard_path)
 
     # Build competitor intel (7-day deep analysis)
@@ -928,11 +839,11 @@ def create_enhanced_excel(
         ws_intel = wb.create_sheet('COMPETITOR_INTEL')
         build_competitor_intel_tab(ws_intel, comp_intel, header_fill, header_font, thin_border)
 
-    # TAB 9: PAYMENTS (day-by-day Pioneer Programme payments)
+    # TAB 9: PAYMENTS (Pioneer Programme day-by-day breakdown) - NEW v5.8.1
     ws_pay = wb.create_sheet('PAYMENTS')
     _build_payments_tab(ws_pay, existing_revenue, header_fill, header_font, thin_border)
 
-    # TAB 10: MONTHLY_REVENUE (month-by-month summary)
+    # TAB 10: MONTHLY_REVENUE (month-over-month summary) - NEW v5.8.1
     ws_monthly = wb.create_sheet('MONTHLY_REVENUE')
     _build_monthly_revenue_tab(ws_monthly, existing_revenue, header_fill, header_font, thin_border)
 
@@ -1193,8 +1104,7 @@ def _build_revenue_tracker_tab(ws, existing_revenue, header_fill, header_font, t
                'Estimated ($)', 'US & EU3 Installs', 'ROW Installs',
                'Total Installs', 'Rev/Install', 'At Cap?', 'Trend Description',
                'Momentum at Detection', 'Trigger Level', 'Action Window',
-               'Market', 'AI Category', 'Age at Detection', 'Date First Seen', 'Notes',
-               'Post Date']
+               'Market', 'AI Category', 'Age at Detection', 'Date First Seen', 'Notes']
     for ci, h in enumerate(headers, 1):
         c = ws.cell(row=1, column=ci, value=h)
         c.fill = header_fill
@@ -1203,386 +1113,31 @@ def _build_revenue_tracker_tab(ws, existing_revenue, header_fill, header_font, t
 
     max_data_row = 1
     if existing_revenue is not None and len(existing_revenue) > 0:
-        from revenue_model import extract_post_date_str
         for ri, (_, row) in enumerate(existing_revenue.iterrows(), 2):
             for ci in range(1, 20):
                 col_name = headers[ci-1] if ci <= len(headers) else ''
                 val = row.get(col_name, row.iloc[ci-1] if ci-1 < len(row) else '')
                 if pd.isna(val): val = ''
                 ws.cell(row=ri, column=ci, value=_sanitize_cell(val)).border = thin_border
-            # Column 20: Post Date (derived from video URL)
-            url_val = str(row.get('TikTok URL', row.get('url', '')))
-            post_date = extract_post_date_str(url_val, '%Y-%m-%d %H:%M')
-            ws.cell(row=ri, column=20, value=post_date).border = thin_border
             # Formulas for calculated columns
             ws.cell(row=ri, column=8, value=f'=F{ri}+G{ri}')
-            ws.cell(row=ri, column=9, value=f'=IFERROR(E{ri}/H{ri},0)')
+            ws.cell(row=ri, column=9, value=f'=IFERROR(D{ri}/H{ri},0)')
             ws.cell(row=ri, column=9).number_format = '$#,##0.00'
-            ws.cell(row=ri, column=10, value=f'=IF(E{ri}>=2500,"\u2705 CAP","")')
+            ws.cell(row=ri, column=10, value=f'=IF(D{ri}>=2500,"\u2705 CAP","")')
             max_data_row = ri
 
     # Add formulas for empty rows (for future user input)
     input_fill = PatternFill('solid', fgColor='FFFFE0')
     for ri in range(max_data_row + 1, max_data_row + 51):
         ws.cell(row=ri, column=8, value=f'=F{ri}+G{ri}')
-        ws.cell(row=ri, column=9, value=f'=IFERROR(E{ri}/H{ri},0)')
+        ws.cell(row=ri, column=9, value=f'=IFERROR(D{ri}/H{ri},0)')
         ws.cell(row=ri, column=9).number_format = '$#,##0.00'
-        ws.cell(row=ri, column=10, value=f'=IF(E{ri}>=2500,"\u2705 CAP","")')
+        ws.cell(row=ri, column=10, value=f'=IF(D{ri}>=2500,"\u2705 CAP","")')
         for ci in [3,4,5,6,7,19]:
             ws.cell(row=ri, column=ci).fill = input_fill
 
     ws.freeze_panes = 'A2'
-    for col, w in [('A',50),('B',20),('C',40),('D',12),('E',12),('F',15),('G',12),('H',12),('I',12),('J',10),('K',40),('R',14),('T',18)]:
-        ws.column_dimensions[col].width = w
-
-
-def _build_payments_tab(ws, existing_revenue, header_fill, header_font, thin_border):
-    """
-    PAYMENTS tab — Day-by-day Pioneer Programme payments.
-    Sorted by post date (derived from video ID), with daily subtotals.
-    Clean, easy-to-read view of all template earnings.
-    """
-    from revenue_model import extract_post_date_str, extract_post_date
-    
-    headers = ['Post Date', 'TikTok URL', 'Received ($)', 'Estimated ($)',
-               'US & EU3 Installs', 'ROW Installs', 'Total Installs',
-               'Rev/Install', 'At Cap?', 'Status']
-    
-    for ci, h in enumerate(headers, 1):
-        c = ws.cell(row=1, column=ci, value=h)
-        c.fill = header_fill
-        c.font = header_font
-        c.alignment = Alignment(horizontal='center')
-    
-    if existing_revenue is None or len(existing_revenue) == 0:
-        ws.cell(row=2, column=1, value='No revenue data available')
-        ws.freeze_panes = 'A2'
-        return
-    
-    # Build list of entries with post dates
-    entries = []
-    for _, row in existing_revenue.iterrows():
-        url = str(row.get('TikTok URL', row.get('url', '')))
-        if not url or not url.startswith('http'):
-            continue
-        post_dt = extract_post_date(url)
-        post_date_str = post_dt.strftime('%Y-%m-%d') if post_dt else ''
-        received = float(row.get('Received ($)', row.get('received', 0))) if pd.notna(row.get('Received ($)', row.get('received', 0))) else 0
-        estimated = float(row.get('Estimated ($)', row.get('estimated', 0))) if pd.notna(row.get('Estimated ($)', row.get('estimated', 0))) else 0
-        us_inst = float(row.get('US & EU3 Installs', row.get('us_installs', 0))) if pd.notna(row.get('US & EU3 Installs', row.get('us_installs', 0))) else 0
-        row_inst = float(row.get('ROW Installs', row.get('row_installs', 0))) if pd.notna(row.get('ROW Installs', row.get('row_installs', 0))) else 0
-        total_inst = us_inst + row_inst
-        rev_per = estimated / total_inst if total_inst > 0 else 0
-        at_cap = '✅ CAP' if received >= 2500 else ''
-        
-        # Status
-        if received >= 2500:
-            status = '🟢 Capped'
-        elif received > 0:
-            status = '🟡 Earning'
-        elif estimated > 0:
-            status = '🟠 Pending'
-        elif total_inst > 0:
-            status = '⚪ Installs only'
-        else:
-            status = '⭕ No activity'
-        
-        entries.append({
-            'post_date_str': post_date_str,
-            'post_dt': post_dt,
-            'url': url,
-            'received': received,
-            'estimated': estimated,
-            'us_installs': int(us_inst),
-            'row_installs': int(row_inst),
-            'total_installs': int(total_inst),
-            'rev_per': rev_per,
-            'at_cap': at_cap,
-            'status': status,
-        })
-    
-    # Sort by post date (newest first)
-    from datetime import datetime as _dt_cls, timezone as _tz
-    _min_dt = _dt_cls(2000, 1, 1, tzinfo=_tz.utc)
-    entries.sort(key=lambda x: x['post_dt'] or _min_dt, reverse=True)
-    
-    # Color definitions
-    cap_fill = PatternFill('solid', fgColor='C6EFCE')     # Green for capped
-    earning_fill = PatternFill('solid', fgColor='FFFFE0')  # Light yellow for earning
-    pending_fill = PatternFill('solid', fgColor='FFE4B5')  # Orange for pending
-    
-    ri = 2
-    current_date = None
-    daily_received = 0
-    daily_estimated = 0
-    daily_start_row = 2
-    grand_received = 0
-    grand_estimated = 0
-    grand_installs = 0
-    
-    for entry in entries:
-        date_str = entry['post_date_str']
-        
-        # Insert daily subtotal when date changes
-        if current_date is not None and date_str != current_date and daily_received + daily_estimated > 0:
-            # Subtotal row
-            sub_fill = PatternFill('solid', fgColor='D9E1F2')
-            ws.cell(row=ri, column=1, value=f'  Subtotal: {current_date}').font = Font(bold=True, size=10)
-            ws.cell(row=ri, column=3, value=daily_received).number_format = '$#,##0.00'
-            ws.cell(row=ri, column=4, value=daily_estimated).number_format = '$#,##0.00'
-            for ci in range(1, 11):
-                ws.cell(row=ri, column=ci).fill = sub_fill
-                ws.cell(row=ri, column=ci).border = thin_border
-            ws.cell(row=ri, column=3).font = Font(bold=True)
-            ws.cell(row=ri, column=4).font = Font(bold=True)
-            ri += 1
-            daily_received = 0
-            daily_estimated = 0
-        
-        current_date = date_str
-        daily_received += entry['received']
-        daily_estimated += entry['estimated']
-        grand_received += entry['received']
-        grand_estimated += entry['estimated']
-        grand_installs += entry['total_installs']
-        
-        # Data row
-        vals = [entry['post_date_str'], entry['url'], entry['received'],
-                entry['estimated'], entry['us_installs'], entry['row_installs'],
-                entry['total_installs'], entry['rev_per'], entry['at_cap'], entry['status']]
-        
-        for ci, val in enumerate(vals, 1):
-            c = ws.cell(row=ri, column=ci, value=val)
-            c.border = thin_border
-            if ci == 3 or ci == 4:
-                c.number_format = '$#,##0.00'
-            elif ci == 8:
-                c.number_format = '$#,##0.00'
-        
-        # Row coloring based on status
-        if entry['received'] >= 2500:
-            for ci in range(1, 11):
-                ws.cell(row=ri, column=ci).fill = cap_fill
-        elif entry['received'] > 0:
-            for ci in range(1, 11):
-                ws.cell(row=ri, column=ci).fill = earning_fill
-        elif entry['estimated'] > 0:
-            for ci in range(1, 11):
-                ws.cell(row=ri, column=ci).fill = pending_fill
-        
-        # URL as hyperlink
-        try:
-            ws.cell(row=ri, column=2).hyperlink = entry['url']
-            ws.cell(row=ri, column=2).font = Font(color='0000FF', underline='single')
-        except Exception:
-            pass
-        
-        ri += 1
-    
-    # Final daily subtotal
-    if current_date is not None and daily_received + daily_estimated > 0:
-        sub_fill = PatternFill('solid', fgColor='D9E1F2')
-        ws.cell(row=ri, column=1, value=f'  Subtotal: {current_date}').font = Font(bold=True, size=10)
-        ws.cell(row=ri, column=3, value=daily_received).number_format = '$#,##0.00'
-        ws.cell(row=ri, column=4, value=daily_estimated).number_format = '$#,##0.00'
-        for ci in range(1, 11):
-            ws.cell(row=ri, column=ci).fill = sub_fill
-            ws.cell(row=ri, column=ci).border = thin_border
-        ri += 1
-    
-    # Grand total
-    ri += 1
-    total_fill = PatternFill('solid', fgColor='1F4E78')
-    total_font = Font(bold=True, color='FFFFFF', size=11)
-    ws.cell(row=ri, column=1, value='GRAND TOTAL').fill = total_fill
-    ws.cell(row=ri, column=1).font = total_font
-    ws.cell(row=ri, column=3, value=grand_received).fill = total_fill
-    ws.cell(row=ri, column=3).font = total_font
-    ws.cell(row=ri, column=3).number_format = '$#,##0.00'
-    ws.cell(row=ri, column=4, value=grand_estimated).fill = total_fill
-    ws.cell(row=ri, column=4).font = total_font
-    ws.cell(row=ri, column=4).number_format = '$#,##0.00'
-    ws.cell(row=ri, column=7, value=grand_installs).fill = total_fill
-    ws.cell(row=ri, column=7).font = total_font
-    for ci in [2, 5, 6, 8, 9, 10]:
-        ws.cell(row=ri, column=ci).fill = total_fill
-    
-    ws.freeze_panes = 'A2'
-    for col, w in [('A', 14), ('B', 55), ('C', 14), ('D', 14), ('E', 16), ('F', 14), ('G', 14), ('H', 12), ('I', 10), ('J', 16)]:
-        ws.column_dimensions[col].width = w
-
-
-def _build_monthly_revenue_tab(ws, existing_revenue, header_fill, header_font, thin_border):
-    """
-    MONTHLY_REVENUE tab — Month-by-month revenue summary.
-    Shows templates posted, revenue earned, installs, cap rate per month.
-    """
-    from revenue_model import extract_post_month, extract_post_date
-    
-    if existing_revenue is None or len(existing_revenue) == 0:
-        ws.cell(row=1, column=1, value='No revenue data available')
-        return
-    
-    # Build monthly aggregations
-    monthly = {}
-    for _, row in existing_revenue.iterrows():
-        url = str(row.get('TikTok URL', row.get('url', '')))
-        if not url or not url.startswith('http'):
-            continue
-        month = extract_post_month(url)
-        if not month:
-            continue
-        
-        received = float(row.get('Received ($)', row.get('received', 0))) if pd.notna(row.get('Received ($)', row.get('received', 0))) else 0
-        estimated = float(row.get('Estimated ($)', row.get('estimated', 0))) if pd.notna(row.get('Estimated ($)', row.get('estimated', 0))) else 0
-        us_inst = float(row.get('US & EU3 Installs', row.get('us_installs', 0))) if pd.notna(row.get('US & EU3 Installs', row.get('us_installs', 0))) else 0
-        row_inst = float(row.get('ROW Installs', row.get('row_installs', 0))) if pd.notna(row.get('ROW Installs', row.get('row_installs', 0))) else 0
-        
-        if month not in monthly:
-            monthly[month] = {
-                'templates': 0, 'received': 0, 'estimated': 0,
-                'us_installs': 0, 'row_installs': 0, 'total_installs': 0,
-                'at_cap': 0, 'with_revenue': 0,
-            }
-        m = monthly[month]
-        m['templates'] += 1
-        m['received'] += received
-        m['estimated'] += estimated
-        m['us_installs'] += us_inst
-        m['row_installs'] += row_inst
-        m['total_installs'] += us_inst + row_inst
-        if received >= 2500:
-            m['at_cap'] += 1
-        if received > 0:
-            m['with_revenue'] += 1
-    
-    # Headers
-    headers = ['Month', 'Templates', 'Received ($)', 'Estimated ($)',
-               'US & EU3 Installs', 'ROW Installs', 'Total Installs',
-               'At Cap', 'With Revenue', 'Cap Rate (%)', 'Avg Rev/Template',
-               'Rev/Install']
-    
-    for ci, h in enumerate(headers, 1):
-        c = ws.cell(row=1, column=ci, value=h)
-        c.fill = header_fill
-        c.font = header_font
-        c.alignment = Alignment(horizontal='center')
-    
-    # Data rows (sorted by month)
-    ri = 2
-    total_templates = 0
-    total_received = 0
-    total_estimated = 0
-    total_installs = 0
-    total_us = 0
-    total_row = 0
-    total_cap = 0
-    total_with_rev = 0
-    
-    for month in sorted(monthly.keys()):
-        m = monthly[month]
-        cap_rate = (m['at_cap'] / m['templates'] * 100) if m['templates'] > 0 else 0
-        avg_rev = m['received'] / m['templates'] if m['templates'] > 0 else 0
-        rev_per_install = m['received'] / m['total_installs'] if m['total_installs'] > 0 else 0
-        
-        vals = [month, m['templates'], m['received'], m['estimated'],
-                int(m['us_installs']), int(m['row_installs']), int(m['total_installs']),
-                m['at_cap'], m['with_revenue'], round(cap_rate, 1), round(avg_rev, 2),
-                round(rev_per_install, 2)]
-        
-        for ci, val in enumerate(vals, 1):
-            c = ws.cell(row=ri, column=ci, value=val)
-            c.border = thin_border
-            if ci in [3, 4, 11]:
-                c.number_format = '$#,##0.00'
-            elif ci == 12:
-                c.number_format = '$#,##0.00'
-            elif ci == 10:
-                c.number_format = '0.0%'
-                c.value = cap_rate / 100  # Store as decimal for Excel
-        
-        # Color highlight months with high revenue
-        if m['received'] >= 10000:
-            month_fill = PatternFill('solid', fgColor='C6EFCE')  # Green
-        elif m['received'] >= 1000:
-            month_fill = PatternFill('solid', fgColor='FFFFE0')  # Light yellow
-        else:
-            month_fill = None
-        
-        if month_fill:
-            for ci in range(1, 13):
-                ws.cell(row=ri, column=ci).fill = month_fill
-        
-        total_templates += m['templates']
-        total_received += m['received']
-        total_estimated += m['estimated']
-        total_us += m['us_installs']
-        total_row += m['row_installs']
-        total_installs += m['total_installs']
-        total_cap += m['at_cap']
-        total_with_rev += m['with_revenue']
-        ri += 1
-    
-    # Grand total row
-    ri += 1
-    total_fill = PatternFill('solid', fgColor='1F4E78')
-    total_font = Font(bold=True, color='FFFFFF', size=11)
-    
-    totals = ['TOTAL', total_templates, total_received, total_estimated,
-              int(total_us), int(total_row), int(total_installs),
-              total_cap, total_with_rev,
-              total_cap / total_templates if total_templates > 0 else 0,
-              total_received / total_templates if total_templates > 0 else 0,
-              total_received / total_installs if total_installs > 0 else 0]
-    
-    for ci, val in enumerate(totals, 1):
-        c = ws.cell(row=ri, column=ci, value=val)
-        c.fill = total_fill
-        c.font = total_font
-        if ci in [3, 4, 11]:
-            c.number_format = '$#,##0.00'
-        elif ci == 12:
-            c.number_format = '$#,##0.00'
-        elif ci == 10:
-            c.number_format = '0.0%'
-    
-    # Month-over-month growth section
-    ri += 3
-    ws.cell(row=ri, column=1, value='MONTH-OVER-MONTH GROWTH').font = Font(bold=True, size=12, color='1F4E78')
-    ri += 1
-    growth_headers = ['Month', 'Revenue', 'Change ($)', 'Change (%)', 'Templates', 'Pace']
-    for ci, h in enumerate(growth_headers, 1):
-        c = ws.cell(row=ri, column=ci, value=h)
-        c.fill = PatternFill('solid', fgColor='D9E1F2')
-        c.font = Font(bold=True)
-    
-    ri += 1
-    sorted_months = sorted(monthly.keys())
-    prev_rev = 0
-    for month in sorted_months:
-        m = monthly[month]
-        change = m['received'] - prev_rev
-        change_pct = (change / prev_rev * 100) if prev_rev > 0 else 0
-        pace = '📈 Growing' if change > 0 else ('📉 Declining' if change < 0 else '➡️ Flat')
-        
-        ws.cell(row=ri, column=1, value=month).border = thin_border
-        ws.cell(row=ri, column=2, value=m['received']).border = thin_border
-        ws.cell(row=ri, column=2).number_format = '$#,##0.00'
-        ws.cell(row=ri, column=3, value=change).border = thin_border
-        ws.cell(row=ri, column=3).number_format = '$#,##0.00'
-        if prev_rev > 0:
-            ws.cell(row=ri, column=4, value=change_pct / 100).border = thin_border
-            ws.cell(row=ri, column=4).number_format = '0.0%'
-        else:
-            ws.cell(row=ri, column=4, value='N/A').border = thin_border
-        ws.cell(row=ri, column=5, value=m['templates']).border = thin_border
-        ws.cell(row=ri, column=6, value=pace).border = thin_border
-        
-        prev_rev = m['received']
-        ri += 1
-    
-    ws.freeze_panes = 'A2'
-    for col, w in [('A', 14), ('B', 12), ('C', 14), ('D', 14), ('E', 16), ('F', 14), ('G', 14), ('H', 10), ('I', 14), ('J', 12), ('K', 16), ('L', 12)]:
+    for col, w in [('A',50),('B',20),('C',40),('D',12),('E',12),('F',15),('G',12),('H',12),('I',12),('J',10),('K',40),('R',14)]:
         ws.column_dimensions[col].width = w
 
 
@@ -1868,21 +1423,331 @@ def _build_data_feed_tab(ws, df_today, header_fill, header_font, thin_border, cy
 # REVENUE DATA PERSISTENCE
 # =============================================================================
 
-def _load_existing_revenue(dashboard_path, live_revenue_df=None):
-    # Start with seed data as the base (always includes all known templates)
-    seed_df = pd.DataFrame(SEED_REVENUE_DATA) if SEED_REVENUE_DATA else None
+def _extract_post_date(url):
+    """Extract post date from TikTok video URL using Snowflake bit-shift.
+    TikTok video IDs encode creation timestamp: video_id >> 32 = Unix timestamp.
+    Returns date string 'YYYY-MM-DD' or None if extraction fails.
+    """
+    try:
+        video_id_str = str(url).rstrip('/').split('/')[-1].split('?')[0]
+        video_id = int(video_id_str)
+        timestamp = video_id >> 32
+        if timestamp < 1500000000 or timestamp > 2000000000:
+            return None  # Sanity check: 2017-2033 range
+        from datetime import datetime, timezone
+        dt = datetime.fromtimestamp(timestamp, tz=timezone.utc)
+        return dt.strftime('%Y-%m-%d')
+    except (ValueError, TypeError, IndexError, OverflowError):
+        return None
+
+
+def _extract_post_month(url):
+    """Extract post month from TikTok video URL. Returns 'YYYY-MM' or None."""
+    d = _extract_post_date(url)
+    return d[:7] if d else None
+
+
+def _build_payments_tab(ws, existing_revenue, header_fill, header_font, thin_border):
+    """Build PAYMENTS tab: day-by-day Pioneer Programme breakdown.
     
-    # Determine the primary data source
+    Sorted by post date (extracted from video ID).
+    Color coding: green = at $2,500 cap, yellow = earning, orange = pending/no revenue.
+    """
+    headers = ['TikTok URL', 'Account', 'Post Date', 'Received ($)',
+               'Estimated ($)', 'US & EU3 Installs', 'ROW Installs',
+               'Total Installs', 'Status']
+    for ci, h in enumerate(headers, 1):
+        c = ws.cell(row=1, column=ci, value=h)
+        c.fill = header_fill
+        c.font = header_font
+        c.alignment = Alignment(horizontal='center')
+        c.border = thin_border
+
+    if existing_revenue is None or len(existing_revenue) == 0:
+        ws.cell(row=2, column=1, value='No revenue data available')
+        ws.freeze_panes = 'A2'
+        return
+
+    # Build payment rows with post dates
+    rows = []
+    url_col = None
+    for col_name in ['TikTok URL', 'TikTok Video URL', 'URL']:
+        if col_name in existing_revenue.columns:
+            url_col = col_name
+            break
+    if not url_col:
+        ws.cell(row=2, column=1, value='Could not find URL column in revenue data')
+        ws.freeze_panes = 'A2'
+        return
+
+    for _, row in existing_revenue.iterrows():
+        url = str(row.get(url_col, ''))
+        account = row.get('Account', '')
+        received = float(row.get('Received ($)', 0) or 0)
+        estimated = float(row.get('Estimated ($)', 0) or 0)
+        us_eu3 = float(row.get('US & EU3 Installs', 0) or 0)
+        row_installs = float(row.get('ROW Installs', 0) or 0)
+        total = us_eu3 + row_installs
+        post_date = _extract_post_date(url) or row.get('Date First Seen', '')
+        
+        # Determine status
+        if received >= 2500:
+            status = 'CAPPED'
+        elif received > 0:
+            status = 'EARNING'
+        elif estimated > 0:
+            status = 'PENDING'
+        else:
+            status = 'NO REVENUE'
+        
+        rows.append({
+            'url': url, 'account': account, 'post_date': str(post_date),
+            'received': received, 'estimated': estimated,
+            'us_eu3': us_eu3, 'row_installs': row_installs,
+            'total': total, 'status': status
+        })
+
+    # Sort by post date descending (newest first)
+    rows.sort(key=lambda r: r['post_date'], reverse=True)
+
+    # Color fills
+    green_fill = PatternFill('solid', fgColor='C6EFCE')    # Capped
+    yellow_fill = PatternFill('solid', fgColor='FFEB9C')    # Earning
+    orange_fill = PatternFill('solid', fgColor='FFE4B5')    # Pending
+    gray_fill = PatternFill('solid', fgColor='F2F2F2')      # No revenue
+
+    for ri, r in enumerate(rows, 2):
+        ws.cell(row=ri, column=1, value=_sanitize_cell(r['url'])).border = thin_border
+        ws.cell(row=ri, column=2, value=_sanitize_cell(r['account'])).border = thin_border
+        ws.cell(row=ri, column=3, value=_sanitize_cell(r['post_date'])).border = thin_border
+        ws.cell(row=ri, column=4, value=r['received']).border = thin_border
+        ws.cell(row=ri, column=4).number_format = '$#,##0.00'
+        ws.cell(row=ri, column=5, value=r['estimated']).border = thin_border
+        ws.cell(row=ri, column=5).number_format = '$#,##0.00'
+        ws.cell(row=ri, column=6, value=int(r['us_eu3'])).border = thin_border
+        ws.cell(row=ri, column=7, value=int(r['row_installs'])).border = thin_border
+        ws.cell(row=ri, column=8, value=int(r['total'])).border = thin_border
+        ws.cell(row=ri, column=9, value=r['status']).border = thin_border
+
+        # Color coding by status
+        if r['status'] == 'CAPPED':
+            fill = green_fill
+        elif r['status'] == 'EARNING':
+            fill = yellow_fill
+        elif r['status'] == 'PENDING':
+            fill = orange_fill
+        else:
+            fill = gray_fill
+        
+        for ci in range(1, 10):
+            ws.cell(row=ri, column=ci).fill = fill
+
+    ws.freeze_panes = 'A2'
+    for col, w in [('A', 55), ('B', 22), ('C', 12), ('D', 12), ('E', 12),
+                   ('F', 15), ('G', 12), ('H', 12), ('I', 14)]:
+        ws.column_dimensions[col].width = w
+
+
+def _build_monthly_revenue_tab(ws, existing_revenue, header_fill, header_font, thin_border):
+    """Build MONTHLY_REVENUE tab: month-over-month revenue summary.
+    
+    Groups templates by post month (extracted from video ID).
+    Shows templates posted, received, estimated, installs, at cap, with revenue, growth %.
+    """
+    # Main summary headers
+    headers = ['Month', 'Templates', 'Received ($)', 'Estimated ($)',
+               'US & EU3 Installs', 'ROW Installs', 'Total Installs',
+               'At Cap', 'With Revenue', 'Cap Rate (%)', 'Avg Rev/Template', 'Rev/Install']
+    for ci, h in enumerate(headers, 1):
+        c = ws.cell(row=1, column=ci, value=h)
+        c.fill = header_fill
+        c.font = header_font
+        c.alignment = Alignment(horizontal='center')
+        c.border = thin_border
+
+    if existing_revenue is None or len(existing_revenue) == 0:
+        ws.cell(row=2, column=1, value='No revenue data available')
+        ws.freeze_panes = 'A2'
+        return
+
+    # Find URL column
+    url_col = None
+    for col_name in ['TikTok URL', 'TikTok Video URL', 'URL']:
+        if col_name in existing_revenue.columns:
+            url_col = col_name
+            break
+    if not url_col:
+        ws.cell(row=2, column=1, value='Could not find URL column')
+        ws.freeze_panes = 'A2'
+        return
+
+    # Extract post months and aggregate
+    monthly = {}
+    for _, row in existing_revenue.iterrows():
+        url = str(row.get(url_col, ''))
+        month = _extract_post_month(url)
+        if not month:
+            month = str(row.get('Date First Seen', ''))[:7]
+        if not month or month == '':
+            month = 'Unknown'
+
+        if month not in monthly:
+            monthly[month] = {
+                'templates': 0, 'received': 0, 'estimated': 0,
+                'us_eu3': 0, 'row_installs': 0, 'total': 0,
+                'at_cap': 0, 'with_revenue': 0
+            }
+        
+        received = float(row.get('Received ($)', 0) or 0)
+        estimated = float(row.get('Estimated ($)', 0) or 0)
+        us_eu3 = float(row.get('US & EU3 Installs', 0) or 0)
+        row_installs_val = float(row.get('ROW Installs', 0) or 0)
+        
+        monthly[month]['templates'] += 1
+        monthly[month]['received'] += received
+        monthly[month]['estimated'] += estimated
+        monthly[month]['us_eu3'] += us_eu3
+        monthly[month]['row_installs'] += row_installs_val
+        monthly[month]['total'] += us_eu3 + row_installs_val
+        if received >= 2500:
+            monthly[month]['at_cap'] += 1
+        if received > 0:
+            monthly[month]['with_revenue'] += 1
+
+    # Sort by month
+    sorted_months = sorted(monthly.keys())
+
+    # Write monthly rows
+    gold_fill = PatternFill('solid', fgColor='FFD700')
+    for ri, month in enumerate(sorted_months, 2):
+        m = monthly[month]
+        cap_rate = (m['at_cap'] / m['templates'] * 100) if m['templates'] > 0 else 0
+        avg_rev = (m['received'] / m['templates']) if m['templates'] > 0 else 0
+        rev_install = (m['received'] / m['total']) if m['total'] > 0 else 0
+
+        ws.cell(row=ri, column=1, value=month).border = thin_border
+        ws.cell(row=ri, column=2, value=m['templates']).border = thin_border
+        ws.cell(row=ri, column=3, value=m['received']).border = thin_border
+        ws.cell(row=ri, column=3).number_format = '$#,##0.00'
+        ws.cell(row=ri, column=4, value=m['estimated']).border = thin_border
+        ws.cell(row=ri, column=4).number_format = '$#,##0.00'
+        ws.cell(row=ri, column=5, value=int(m['us_eu3'])).border = thin_border
+        ws.cell(row=ri, column=6, value=int(m['row_installs'])).border = thin_border
+        ws.cell(row=ri, column=7, value=int(m['total'])).border = thin_border
+        ws.cell(row=ri, column=8, value=m['at_cap']).border = thin_border
+        ws.cell(row=ri, column=9, value=m['with_revenue']).border = thin_border
+        ws.cell(row=ri, column=10, value=round(cap_rate, 1)).border = thin_border
+        ws.cell(row=ri, column=10).number_format = '0.0%'
+        ws.cell(row=ri, column=11, value=round(avg_rev, 2)).border = thin_border
+        ws.cell(row=ri, column=11).number_format = '$#,##0.00'
+        ws.cell(row=ri, column=12, value=round(rev_install, 2)).border = thin_border
+        ws.cell(row=ri, column=12).number_format = '$#,##0.00'
+
+        # Highlight row if it has at-cap templates
+        if m['at_cap'] > 0:
+            for ci in range(1, 13):
+                ws.cell(row=ri, column=ci).font = Font(bold=True)
+
+    # TOTAL row
+    total_row = len(sorted_months) + 2
+    totals = {k: sum(monthly[m][k] for m in sorted_months) for k in monthly[sorted_months[0]].keys()} if sorted_months else {}
+    total_cap_rate = (totals.get('at_cap', 0) / totals.get('templates', 1) * 100) if totals.get('templates', 0) > 0 else 0
+    total_avg_rev = (totals.get('received', 0) / totals.get('templates', 1)) if totals.get('templates', 0) > 0 else 0
+    total_rev_install = (totals.get('received', 0) / totals.get('total', 1)) if totals.get('total', 0) > 0 else 0
+
+    total_fill = PatternFill('solid', fgColor='1F4E78')
+    total_font = Font(bold=True, color='FFFFFF', size=11)
+    for ci, val in enumerate([
+        'TOTAL', totals.get('templates', 0),
+        totals.get('received', 0), totals.get('estimated', 0),
+        int(totals.get('us_eu3', 0)), int(totals.get('row_installs', 0)),
+        int(totals.get('total', 0)), totals.get('at_cap', 0),
+        totals.get('with_revenue', 0), round(total_cap_rate, 1),
+        round(total_avg_rev, 2), round(total_rev_install, 2)
+    ], 1):
+        c = ws.cell(row=total_row, column=ci, value=val)
+        c.fill = total_fill
+        c.font = total_font
+        c.border = thin_border
+    ws.cell(row=total_row, column=3).number_format = '$#,##0.00'
+    ws.cell(row=total_row, column=4).number_format = '$#,##0.00'
+    ws.cell(row=total_row, column=10).number_format = '0.0%'
+    ws.cell(row=total_row, column=11).number_format = '$#,##0.00'
+    ws.cell(row=total_row, column=12).number_format = '$#,##0.00'
+
+    # Empty row then MONTH-OVER-MONTH GROWTH section
+    growth_header_row = total_row + 2
+    ws.cell(row=growth_header_row, column=1, value='MONTH-OVER-MONTH GROWTH').font = Font(bold=True, size=12)
+    
+    growth_headers = ['Month', 'Revenue', 'Change ($)', 'Change (%)', 'Templates', 'Pace']
+    for ci, h in enumerate(growth_headers, 1):
+        c = ws.cell(row=growth_header_row + 1, column=ci, value=h)
+        c.fill = header_fill
+        c.font = header_font
+        c.border = thin_border
+
+    prev_rev = 0
+    for ri_offset, month in enumerate(sorted_months):
+        ri = growth_header_row + 2 + ri_offset
+        m = monthly[month]
+        change = m['received'] - prev_rev
+        change_pct = (change / prev_rev * 100) if prev_rev > 0 else 0
+        
+        if prev_rev == 0 and m['received'] == 0:
+            pace = 'Flat'
+            pace_icon = '\u2796'
+        elif change > 0:
+            pace = 'Growing'
+            pace_icon = '\U0001F4C8'
+        elif change < 0:
+            pace = 'Declining'
+            pace_icon = '\U0001F4C9'
+        else:
+            pace = 'Flat'
+            pace_icon = '\u2796'
+
+        ws.cell(row=ri, column=1, value=month).border = thin_border
+        ws.cell(row=ri, column=2, value=m['received']).border = thin_border
+        ws.cell(row=ri, column=2).number_format = '$#,##0.00'
+        ws.cell(row=ri, column=3, value=change).border = thin_border
+        ws.cell(row=ri, column=3).number_format = '$#,##0.00'
+        if prev_rev > 0:
+            ws.cell(row=ri, column=4, value=f'{change_pct:.1f}%').border = thin_border
+        else:
+            ws.cell(row=ri, column=4, value='N/A').border = thin_border
+        ws.cell(row=ri, column=5, value=m['templates']).border = thin_border
+        ws.cell(row=ri, column=6, value=f'{pace_icon} {pace}').border = thin_border
+        
+        prev_rev = m['received']
+
+    ws.freeze_panes = 'A2'
+    for col, w in [('A', 12), ('B', 12), ('C', 14), ('D', 14),
+                   ('E', 15), ('F', 12), ('G', 12), ('H', 8),
+                   ('I', 12), ('J', 10), ('K', 15), ('L', 10)]:
+        ws.column_dimensions[col].width = w
+
+
+def _load_existing_revenue(dashboard_path):
+    """Load revenue data with seed-only merge logic.
+    
+    Revenue comes from up to two sources that get MERGED:
+    1. Primary source: dashboard file (Excel with REVENUE_TRACKER tab)
+       - This contains the live Pioneer Programme data
+    2. Seed data: SEED_REVENUE_DATA embedded in this file
+       - Contains 28 'Account 1 (smaller)' entries ($10,754 received)
+       - These are from a separate account NOT tracked in Pioneer spreadsheet
+    
+    The merge ensures seed-only entries are NEVER lost, regardless of
+    which primary source is used. Seed entries whose TikTok URL already
+    exists in the primary source are skipped (primary wins).
+    
+    If primary source fails, falls back to seed data only.
+    """
     primary_df = None
-    source = None
+    primary_source = None
     
-    # Priority 1: Live data from Google Sheet
-    if live_revenue_df is not None and len(live_revenue_df) > 0:
-        primary_df = live_revenue_df
-        source = 'Google Sheet'
-    
-    # Priority 2: Existing dashboard file
-    elif dashboard_path and os.path.exists(dashboard_path):
+    # Try loading from dashboard file (primary source)
+    if dashboard_path and os.path.exists(dashboard_path):
         try:
             wb = load_workbook(dashboard_path, data_only=True)
             if 'REVENUE_TRACKER' in wb.sheetnames:
@@ -1900,47 +1765,64 @@ def _load_existing_revenue(dashboard_path, live_revenue_df=None):
                     if has_data: data.append(row_data)
                 if data:
                     primary_df = pd.DataFrame(data)
-                    source = 'dashboard file'
+                    primary_source = f"dashboard file ({len(data)} entries)"
         except Exception as e:
             print(f"  Warning: Could not load revenue from file: {e}")
     
-    # If no primary source, fall back to seed data alone
-    if primary_df is None:
-        if seed_df is not None:
-            print(f"  Using embedded seed revenue data ({len(seed_df)} entries)")
+    # If no primary source, use seed data as the only source
+    if primary_df is None or len(primary_df) == 0:
+        if SEED_REVENUE_DATA:
+            seed_df = pd.DataFrame(SEED_REVENUE_DATA)
+            # Deduplicate seed by URL, keeping first occurrence
+            if 'TikTok URL' in seed_df.columns:
+                seed_df = seed_df.drop_duplicates(subset=['TikTok URL'], keep='first')
+            print(f"  Using embedded seed revenue data ({len(seed_df)} entries, no primary source)")
             return seed_df
         return None
     
-    # MERGE: primary data + any seed-only entries not in primary
-    # This ensures templates tracked outside the Pioneer spreadsheet are never lost
-    if seed_df is not None and len(seed_df) > 0:
-        # Get URL column from primary
+    # MERGE: Primary source + seed-only entries
+    # Seed-only entries are those whose URL does NOT exist in the primary source
+    if SEED_REVENUE_DATA:
+        seed_df = pd.DataFrame(SEED_REVENUE_DATA)
+        # Deduplicate seed by URL
+        if 'TikTok URL' in seed_df.columns:
+            seed_df = seed_df.drop_duplicates(subset=['TikTok URL'], keep='first')
+        
+        # Find the URL column in primary (may be named differently)
         primary_url_col = None
-        for col in ['TikTok URL', 'url', 'tiktok_url', 'webVideoUrl']:
-            if col in primary_df.columns:
-                primary_url_col = col
+        for col_name in ['TikTok URL', 'TikTok Video URL', 'URL']:
+            if col_name in primary_df.columns:
+                primary_url_col = col_name
                 break
         
-        seed_url_col = 'TikTok URL'  # Seed always uses this
-        
-        if primary_url_col and seed_url_col in seed_df.columns:
-            primary_urls = set(primary_df[primary_url_col].astype(str).str.strip())
+        if primary_url_col and 'TikTok URL' in seed_df.columns:
+            primary_urls = set(primary_df[primary_url_col].dropna().astype(str))
             
-            # Find seed entries not in primary data
-            seed_only = seed_df[~seed_df[seed_url_col].astype(str).str.strip().isin(primary_urls)].copy()
+            # Filter seed to only entries NOT in primary
+            seed_only = seed_df[~seed_df['TikTok URL'].isin(primary_urls)].copy()
             
             if len(seed_only) > 0:
                 # Rename seed columns to match primary if needed
-                if primary_url_col != seed_url_col:
-                    seed_only = seed_only.rename(columns={seed_url_col: primary_url_col})
+                if primary_url_col != 'TikTok URL':
+                    seed_only = seed_only.rename(columns={'TikTok URL': primary_url_col})
                 
+                # Calculate seed-only revenue
+                seed_received = seed_only.get('Received ($)', pd.Series([0])).sum()
+                
+                # Merge: primary + seed-only
                 merged = pd.concat([primary_df, seed_only], ignore_index=True)
-                seed_only_rev = seed_only['Received ($)'].sum() if 'Received ($)' in seed_only.columns else 0
-                print(f"  Using live revenue data from {source} ({len(primary_df)} entries) + {len(seed_only)} seed-only entries (${seed_only_rev:,.0f} received)")
+                print(f"  Revenue: {primary_source} + {len(seed_only)} seed-only entries (${seed_received:.0f} received)")
+                print(f"  Total: {len(merged)} templates")
                 return merged
-    
-    print(f"  Using live revenue data from {source} ({len(primary_df)} entries)")
-    return primary_df
+            else:
+                print(f"  Revenue: {primary_source} (all seed entries already in primary)")
+                return primary_df
+        else:
+            print(f"  Revenue: {primary_source} (could not match URL columns for merge)")
+            return primary_df
+    else:
+        print(f"  Revenue: {primary_source}")
+        return primary_df
 
 
 def _load_existing_prediction_log(dashboard_path):
@@ -2132,9 +2014,7 @@ def generate_daily_briefing(
                 text = str(row.get('text') if pd.notna(row.get('text')) else '')[:50]
                 account = str(row.get('author', ''))
                 age = round(float(row.get('age_hours', 0)), 1) if pd.notna(row.get('age_hours')) else 0
-                from revenue_model import estimate_competitor_revenue as _est_comp2
-                _est2 = _est_comp2(m, row.get('shares_per_hour'), row.get('age_hours'))
-                est_rev = _est2['estimated_revenue']
+                est_rev = round(m / 1000 * 5, 2)
                 total_missed_revenue += est_rev
                 
                 lines.append(f"    • {text}")
@@ -2254,8 +2134,7 @@ def integrate_with_daily_processor(
     two_days_us: pd.DataFrame = None,
     two_days_uk: pd.DataFrame = None,
     output_dir: str = '.',
-    dashboard_path: str = None,
-    live_revenue_df: pd.DataFrame = None
+    dashboard_path: str = None
 ) -> Dict[str, str]:
     """Main integration function - generates v3.6.0 7-tab enhanced files."""
     date_str = datetime.now().strftime('%Y-%m-%d')
@@ -2278,15 +2157,13 @@ def integrate_with_daily_processor(
     if us_data is not None and len(us_data) > 0:
         us_path = f"{output_dir}/BUILD_TODAY_US_ENHANCED_{date_str}.xlsx"
         create_enhanced_excel(us_data, yesterday_us, two_days_us, us_path,
-                              cache_path=streak_cache_path, dashboard_path=dashboard_path,
-                              live_revenue_df=live_revenue_df)
+                              cache_path=streak_cache_path, dashboard_path=dashboard_path)
         output_files['us_enhanced'] = us_path
 
     if uk_data is not None and len(uk_data) > 0:
         uk_path = f"{output_dir}/BUILD_TODAY_UK_ENHANCED_{date_str}.xlsx"
         create_enhanced_excel(uk_data, yesterday_uk, two_days_uk, uk_path,
-                              cache_path=streak_cache_path, dashboard_path=dashboard_path,
-                              live_revenue_df=live_revenue_df)
+                              cache_path=streak_cache_path, dashboard_path=dashboard_path)
         output_files['uk_enhanced'] = uk_path
 
     if us_data is not None and uk_data is not None:
@@ -2297,8 +2174,7 @@ def integrate_with_daily_processor(
             combined_yesterday = combined_yesterday.drop_duplicates(subset=['webVideoUrl'], keep='first')
         combined_path = f"{output_dir}/BUILD_TODAY_COMBINED_ENHANCED_{date_str}.xlsx"
         create_enhanced_excel(combined, combined_yesterday, None, combined_path,
-                              cache_path=streak_cache_path, dashboard_path=dashboard_path,
-                              live_revenue_df=live_revenue_df)
+                              cache_path=streak_cache_path, dashboard_path=dashboard_path)
         output_files['combined_enhanced'] = combined_path
 
     return output_files
