@@ -80,9 +80,18 @@ def fetch_live_revenue():
         df = pd.DataFrame(rows, columns=headers)
         
         # Clean up: convert numeric columns
+        # gspread returns all values as strings. Google Sheets may format numbers
+        # with currency symbols ($), commas (2,500), or spaces that break pd.to_numeric.
+        # Strip all formatting before conversion.
         for col in ['Received ($)', 'Estimated ($)', 'US & EU3 Installs', 'ROW Installs',
                      'Total Installs', 'Rev/Install', 'Momentum at Detection']:
             if col in df.columns:
+                df[col] = (df[col].astype(str)
+                          .str.replace('$', '', regex=False)
+                          .str.replace(',', '', regex=False)
+                          .str.replace(' ', '', regex=False)
+                          .str.replace('£', '', regex=False)
+                          .str.strip())
                 df[col] = pd.to_numeric(df[col], errors='coerce').fillna(0)
         
         # Filter out completely empty rows
@@ -271,18 +280,21 @@ def get_revenue_lookup(live_revenue_df):
         }
     
     with_revenue = sum(1 for v in lookup.values() if v['revenue'] > 0)
-    total = sum(v['revenue'] for v in lookup.values())
-    print(f"  [RevPersist] Revenue lookup: {len(lookup)} URLs, {with_revenue} with revenue (${total:,.0f})")
+    total_received = sum(v['received'] for v in lookup.values())
+    total_estimated = sum(v['estimated'] for v in lookup.values())
+    print(f"  [RevPersist] Revenue lookup: {len(lookup)} URLs, {with_revenue} with received revenue (${total_received:,.0f} received, ${total_estimated:,.0f} estimated)")
     
     return lookup
 
 
 def _safe_numeric(row, column_candidates):
-    """Try multiple column names, return first valid numeric value."""
+    """Try multiple column names, return first valid numeric value.
+    Handles currency formatting ($, commas) from gspread string values."""
     for col in column_candidates:
         if col in row.index:
             try:
-                val = float(row[col])
+                val = str(row[col]).replace('$', '').replace(',', '').replace('£', '').replace(' ', '').strip()
+                val = float(val)
                 if pd.notna(val):
                     return val
             except (ValueError, TypeError):
