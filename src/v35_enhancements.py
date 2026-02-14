@@ -752,7 +752,8 @@ def create_enhanced_excel(
     df_2days_ago: pd.DataFrame = None,
     output_path: str = 'BUILD_TODAY_ENHANCED.xlsx',
     cache_path: str = None,
-    dashboard_path: str = None
+    dashboard_path: str = None,
+    live_revenue_df: pd.DataFrame = None
 ) -> str:
     """
     Create v3.6.0 Enhanced Excel file with 8 tabs:
@@ -779,7 +780,7 @@ def create_enhanced_excel(
     h2h_metrics = calculate_your_vs_competitor_metrics(df_today)
 
     # Load existing revenue/prediction data
-    existing_revenue = _load_existing_revenue(dashboard_path)
+    existing_revenue = _load_existing_revenue(dashboard_path, live_revenue_df=live_revenue_df)
     existing_prediction_log = _load_existing_prediction_log(dashboard_path)
 
     # Build competitor intel (7-day deep analysis)
@@ -1727,13 +1728,13 @@ def _build_monthly_revenue_tab(ws, existing_revenue, header_fill, header_font, t
         ws.column_dimensions[col].width = w
 
 
-def _load_existing_revenue(dashboard_path):
+def _load_existing_revenue(dashboard_path, live_revenue_df=None):
     """Load revenue data with seed-only merge logic.
     
-    Revenue comes from up to two sources that get MERGED:
-    1. Primary source: dashboard file (Excel with REVENUE_TRACKER tab)
-       - This contains the live Pioneer Programme data
-    2. Seed data: SEED_REVENUE_DATA embedded in this file
+    Revenue comes from up to three sources, merged together:
+    1. Live data from Google Sheet (highest priority, passed as live_revenue_df)
+    2. Dashboard file (Excel with REVENUE_TRACKER tab)
+    3. Seed data: SEED_REVENUE_DATA embedded in this file
        - Contains 28 'Account 1 (smaller)' entries ($10,754 received)
        - These are from a separate account NOT tracked in Pioneer spreadsheet
     
@@ -1746,8 +1747,13 @@ def _load_existing_revenue(dashboard_path):
     primary_df = None
     primary_source = None
     
-    # Try loading from dashboard file (primary source)
-    if dashboard_path and os.path.exists(dashboard_path):
+    # Priority 1: Live data from Google Sheet
+    if live_revenue_df is not None and len(live_revenue_df) > 0:
+        primary_df = live_revenue_df
+        primary_source = f"Google Sheet ({len(live_revenue_df)} entries)"
+    
+    # Priority 2: Dashboard file
+    if primary_df is None and dashboard_path and os.path.exists(dashboard_path):
         try:
             wb = load_workbook(dashboard_path, data_only=True)
             if 'REVENUE_TRACKER' in wb.sheetnames:
@@ -2134,9 +2140,10 @@ def integrate_with_daily_processor(
     two_days_us: pd.DataFrame = None,
     two_days_uk: pd.DataFrame = None,
     output_dir: str = '.',
-    dashboard_path: str = None
+    dashboard_path: str = None,
+    live_revenue_df: pd.DataFrame = None
 ) -> Dict[str, str]:
-    """Main integration function - generates v3.6.0 7-tab enhanced files."""
+    """Main integration function - generates enhanced files with revenue tracking."""
     date_str = datetime.now().strftime('%Y-%m-%d')
     output_files = {}
     cache_dir = os.environ.get('CACHE_DIR', 'data')
@@ -2157,13 +2164,15 @@ def integrate_with_daily_processor(
     if us_data is not None and len(us_data) > 0:
         us_path = f"{output_dir}/BUILD_TODAY_US_ENHANCED_{date_str}.xlsx"
         create_enhanced_excel(us_data, yesterday_us, two_days_us, us_path,
-                              cache_path=streak_cache_path, dashboard_path=dashboard_path)
+                              cache_path=streak_cache_path, dashboard_path=dashboard_path,
+                              live_revenue_df=live_revenue_df)
         output_files['us_enhanced'] = us_path
 
     if uk_data is not None and len(uk_data) > 0:
         uk_path = f"{output_dir}/BUILD_TODAY_UK_ENHANCED_{date_str}.xlsx"
         create_enhanced_excel(uk_data, yesterday_uk, two_days_uk, uk_path,
-                              cache_path=streak_cache_path, dashboard_path=dashboard_path)
+                              cache_path=streak_cache_path, dashboard_path=dashboard_path,
+                              live_revenue_df=live_revenue_df)
         output_files['uk_enhanced'] = uk_path
 
     if us_data is not None and uk_data is not None:
@@ -2174,7 +2183,8 @@ def integrate_with_daily_processor(
             combined_yesterday = combined_yesterday.drop_duplicates(subset=['webVideoUrl'], keep='first')
         combined_path = f"{output_dir}/BUILD_TODAY_COMBINED_ENHANCED_{date_str}.xlsx"
         create_enhanced_excel(combined, combined_yesterday, None, combined_path,
-                              cache_path=streak_cache_path, dashboard_path=dashboard_path)
+                              cache_path=streak_cache_path, dashboard_path=dashboard_path,
+                              live_revenue_df=live_revenue_df)
         output_files['combined_enhanced'] = combined_path
 
     return output_files
