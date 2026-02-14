@@ -1,13 +1,13 @@
 #!/usr/bin/env python3
 """
 TIKTOK AUTOMATION MAIN
-Version: 5.6.0 - Added Google Drive + Dashboard Integration
-Changes from 5.4.0:
-  - Added Google Drive upload for all output files
-  - Added Google Sheets dashboard auto-update
-  - Added dashboard_payload.json generation for dashboard sync
-  - Discord notification now includes Drive folder link
-  - All existing v3.3.0 + v3.5.0 functionality preserved
+Version: 5.8.0 - Pioneer Revenue Model + Merged Revenue Data
+Changes from 5.6.0:
+  - Merged 143 real Pioneer Programme revenue entries (was 59 seed)
+  - Data-driven revenue estimation model (R²=0.96)
+  - US & EU3 rate: $3.51/install, ROW rate: $1.50/install
+  - Replaces old (momentum/1000)*5 formula everywhere
+  - All existing functionality preserved
 """
 
 import os
@@ -22,10 +22,12 @@ from daily_processor import process_data, load_yesterday_cache, save_today_cache
 from discord_notify import send_discord_notification
 from v35_enhancements import integrate_with_daily_processor, generate_daily_briefing
 from seasonal_calendar import get_seasonal_alerts, format_seasonal_for_discord, format_seasonal_for_summary, format_seasonal_for_enhanced
+from revenue_persistence import fetch_live_revenue, get_revenue_lookup, cache_revenue_locally, load_cached_revenue
+from revenue_model import estimate_competitor_revenue
 import pandas as pd
 
 
-def run_v35_enhancements(us_data, uk_data, yesterday_us, yesterday_uk, output_dir, cache_dir):
+def run_v35_enhancements(us_data, uk_data, yesterday_us, yesterday_uk, output_dir, cache_dir, live_revenue_df=None):
     """
     Run v3.5.0 enhanced analytics: velocity predictions, competitor analysis,
     variant allocation, and stop rules.
@@ -90,7 +92,8 @@ def run_v35_enhancements(us_data, uk_data, yesterday_us, yesterday_uk, output_di
             yesterday_uk=yesterday_uk_df,
             two_days_us=None,
             two_days_uk=None,
-            output_dir=output_dir
+            output_dir=output_dir,
+            live_revenue_df=live_revenue_df
         )
         
         if enhanced_files:
@@ -195,7 +198,7 @@ def generate_dashboard_payload(us_data, uk_data, yesterday_us, yesterday_uk, sta
                     'market': market_label,
                     'gap_type': 'BOTH_CAUGHT' if you_also else 'MISSED_BY_YOU',
                     'hours_behind': '',
-                    'estimated_missed_revenue': round(row.get('momentum_score', 0) / 1000 * 5, 2) if not you_also else 0,
+                    'estimated_missed_revenue': estimate_competitor_revenue(row.get('momentum_score', 0), row.get('shares_per_hour'), row.get('age_hours'))['estimated_revenue'] if not you_also else 0,
                     'ai_category': str(row.get('AI_CATEGORY', '')),
                     'trend_url': str(row.get('webVideoUrl', '')),
                 })
@@ -317,20 +320,29 @@ def main():
     else:
         print("  No cache found - all statuses will be NEW")
     
+    # Step 2b: Fetch live revenue from Google Sheet (revenue persistence)
+    print("\n[Step 2b] Fetching live revenue data...")
+    live_revenue_df = fetch_live_revenue()
+    if live_revenue_df is None:
+        live_revenue_df = load_cached_revenue(cache_dir)
+    revenue_lookup = get_revenue_lookup(live_revenue_df)
+    
     # Step 3: Process data (standard v3.3.0 files)
     print("\n[Step 3] Processing data (standard files)...")
     stats = process_data(
         us_data, uk_data, 
         us_music, uk_music,
         yesterday_us, yesterday_uk,
-        output_dir, cache_dir
+        output_dir, cache_dir,
+        revenue_lookup=revenue_lookup
     )
     
     # Step 3b: Run v3.5.0 enhancements (non-blocking)
     enhanced_files = run_v35_enhancements(
         us_data, uk_data,
         yesterday_us, yesterday_uk,
-        output_dir, cache_dir
+        output_dir, cache_dir,
+        live_revenue_df=live_revenue_df
     )
     
     if enhanced_files:
@@ -416,7 +428,11 @@ def main():
     
     save_today_cache(us_df, uk_df, cache_dir)
     
-    # Step 4b: Save competitor history for 7-day intel (NEW v3.6.0)
+    # Step 4b: Cache revenue locally as backup
+    if live_revenue_df is not None:
+        cache_revenue_locally(live_revenue_df, cache_dir)
+    
+    # Step 4c: Save competitor history for 7-day intel
     try:
         from competitor_intel_patch import save_competitor_history
         # Need full data with author column for competitor detection
@@ -489,6 +505,10 @@ def main():
     print(f"  🚀 SPIKING: {stats.get('spiking', 0)}")
     if enhanced_files:
         print(f"  📊 Enhanced files: {len(enhanced_files)}")
+    if revenue_lookup:
+        total_rev = sum(v['revenue'] for v in revenue_lookup.values())
+        with_rev = sum(1 for v in revenue_lookup.values() if v['revenue'] > 0)
+        print(f"  💰 Revenue: ${total_rev:,.0f} across {with_rev} templates")
     if drive_url:
         print(f"  📁 Google Drive: {drive_url}")
     if dashboard_updated:

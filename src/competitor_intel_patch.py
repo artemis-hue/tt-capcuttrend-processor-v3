@@ -482,11 +482,13 @@ def _analyze_revenue_estimation(comp_df):
     if len(comp_df) == 0:
         return {'total_estimated': 0, 'per_trend': []}
     
-    # Rough model: £5 per 1000 momentum points, capped at $2500 per template
+    # Data-driven revenue model using actual Pioneer Programme conversion rates
+    from revenue_model import estimate_competitor_revenue
     per_trend = []
     for _, p in comp_df.iterrows():
         mom = float(p.get('momentum_score', 0))
-        est = min((mom / 1000) * 5, 2500)
+        _est = estimate_competitor_revenue(mom, p.get('shares_per_hour'), p.get('age_hours'))
+        est = _est['estimated_revenue']
         per_trend.append({
             'account': p.get('author', ''),
             'trend': str(p.get('text', ''))[:50],

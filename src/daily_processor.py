@@ -335,7 +335,7 @@ def process_audio_data(audio_data):
     return result.head(100)
 
 
-def process_data(us_data, uk_data, us_music_data, uk_music_data, yesterday_us, yesterday_uk, output_dir, cache_dir):
+def process_data(us_data, uk_data, us_music_data, uk_music_data, yesterday_us, yesterday_uk, output_dir, cache_dir, revenue_lookup=None):
     """Main processing function."""
     today = datetime.now().strftime('%Y-%m-%d')
     stats = {}
@@ -550,7 +550,7 @@ def create_build_file(filepath, uk_ai, uk_non, uk_audio, us_ai, us_non, us_audio
     
     # MY_PERFORMANCE sheet
     ws = wb.create_sheet("MY_PERFORMANCE")
-    create_my_performance_sheet(ws, your_posts, today)
+    create_my_performance_sheet(ws, your_posts, today, revenue_lookup=revenue_lookup)
     
     wb.save(filepath)
 
@@ -646,7 +646,7 @@ def create_audio_sheet(ws, df):
         ws.cell(row=idx, column=7, value=row.get('play_url', ''))
 
 
-def create_my_performance_sheet(ws, your_posts, today):
+def create_my_performance_sheet(ws, your_posts, today, revenue_lookup=None):
     """Create MY_PERFORMANCE sheet with proper formatting."""
     headers = [
         'Date', 'Account', 'Trend', 'Age', 'Momentum', 'Status', 'Market',
@@ -678,7 +678,15 @@ def create_my_performance_sheet(ws, your_posts, today):
         ws.cell(row=idx, column=12, value=row.get('TUTORIAL_TRIGGER', ''))
         ws.cell(row=idx, column=13, value=row.get('URGENCY', ''))
         ws.cell(row=idx, column=14, value=_safe_text(row.get('trigger_reason', ''), 80))
-        # Columns 15-19 are manual entry (blank)
+        # Column 18: Revenue — populated from Google Sheet if available
+        if revenue_lookup:
+            url = row.get('webVideoUrl', '')
+            if url:
+                from revenue_persistence import lookup_revenue_for_url
+                rev = lookup_revenue_for_url(revenue_lookup, url)
+                if rev > 0:
+                    ws.cell(row=idx, column=18, value=rev)
+        # Columns 15-17, 19 are manual entry (blank)
         
         # Apply CYAN to data columns 1-11
         for col in range(1, 12):
