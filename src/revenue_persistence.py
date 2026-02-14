@@ -254,8 +254,8 @@ def get_revenue_lookup(live_revenue_df):
         if total_installs == 0 and (us_installs > 0 or row_installs > 0):
             total_installs = us_installs + row_installs
         
-        # Use the higher of received/estimated as the "revenue" figure
-        revenue = max(received, estimated)
+        # Use Received as the canonical revenue figure (actual payments)
+        revenue = received
         
         lookup[url_clean] = {
             'revenue': revenue,

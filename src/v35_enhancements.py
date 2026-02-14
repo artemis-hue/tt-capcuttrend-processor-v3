@@ -968,16 +968,16 @@ def _build_dashboard_tab(ws, header_fill, header_font):
     ws.merge_cells('A4:L4')
     for i, lbl in enumerate(['Total Revenue', '', 'Templates at Cap', '', 'Hit Rate', '', 'Avg Rev/Template', '', 'Outstanding'], 1):
         ws.cell(row=5, column=i, value=lbl).font = Font(bold=True, size=9, color='666666')
-    ws['A6'] = '=SUMPRODUCT(REVENUE_TRACKER!E2:E1000)'
+    ws['A6'] = '=SUMPRODUCT(REVENUE_TRACKER!D2:D1000)'
     ws['A6'].number_format = '$#,##0'
     ws['A6'].font = Font(bold=True, size=16)
     ws['A6'].fill = green_kpi
-    ws['C6'] = '=COUNTIF(REVENUE_TRACKER!E2:E1000,">=2500")'
+    ws['C6'] = '=COUNTIF(REVENUE_TRACKER!D2:D1000,">=2500")'
     ws['C6'].font = Font(bold=True, size=16)
-    ws['E6'] = '=IFERROR(COUNTIF(REVENUE_TRACKER!E2:E1000,">0")/COUNTA(REVENUE_TRACKER!A2:A1000),0)'
+    ws['E6'] = '=IFERROR(COUNTIF(REVENUE_TRACKER!D2:D1000,">0")/COUNTA(REVENUE_TRACKER!A2:A1000),0)'
     ws['E6'].number_format = '0%'
     ws['E6'].font = Font(bold=True, size=16)
-    ws['G6'] = '=IFERROR(AVERAGEIF(REVENUE_TRACKER!E2:E1000,">0"),0)'
+    ws['G6'] = '=IFERROR(AVERAGEIF(REVENUE_TRACKER!D2:D1000,">0"),0)'
     ws['G6'].number_format = '$#,##0'
     ws['G6'].font = Font(bold=True, size=16)
     ws['I6'] = '=SUMPRODUCT(REVENUE_TRACKER!E2:E1000)-SUMPRODUCT(REVENUE_TRACKER!D2:D1000)'
@@ -1614,15 +1614,15 @@ def _build_revenue_insights_tab(ws, header_fill, header_font):
     for ri, trig in enumerate(['URGENT', 'HIGH', 'WATCH', 'NONE'], 5):
         ws.cell(row=ri, column=1, value=trig)
         ws.cell(row=ri, column=2, value=f'=COUNTIF(REVENUE_TRACKER!M:M,"*{trig}*")')
-        ws.cell(row=ri, column=3, value=f'=SUMPRODUCT((ISNUMBER(SEARCH("{trig}",REVENUE_TRACKER!M$2:M$1000)))*REVENUE_TRACKER!E$2:E$1000)')
+        ws.cell(row=ri, column=3, value=f'=SUMPRODUCT((ISNUMBER(SEARCH("{trig}",REVENUE_TRACKER!M$2:M$1000)))*REVENUE_TRACKER!D$2:D$1000)')
         ws.cell(row=ri, column=3).number_format = '$#,##0'
         ws.cell(row=ri, column=4, value=f'=IFERROR(C{ri}/B{ri},0)')
         ws.cell(row=ri, column=4).number_format = '$#,##0'
-        ws.cell(row=ri, column=5, value=f'=IFERROR(SUMPRODUCT((ISNUMBER(SEARCH("{trig}",REVENUE_TRACKER!M$2:M$1000)))*(REVENUE_TRACKER!E$2:E$1000>0))/B{ri},0)')
+        ws.cell(row=ri, column=5, value=f'=IFERROR(SUMPRODUCT((ISNUMBER(SEARCH("{trig}",REVENUE_TRACKER!M$2:M$1000)))*(REVENUE_TRACKER!D$2:D$1000>0))/B{ri},0)')
         ws.cell(row=ri, column=5).number_format = '0%'
-        ws.cell(row=ri, column=6, value=f'=IFERROR(SUMPRODUCT((ISNUMBER(SEARCH("{trig}",REVENUE_TRACKER!M$2:M$1000)))*(REVENUE_TRACKER!E$2:E$1000>=2500))/B{ri},0)')
+        ws.cell(row=ri, column=6, value=f'=IFERROR(SUMPRODUCT((ISNUMBER(SEARCH("{trig}",REVENUE_TRACKER!M$2:M$1000)))*(REVENUE_TRACKER!D$2:D$1000>=2500))/B{ri},0)')
         ws.cell(row=ri, column=6).number_format = '0%'
-        ws.cell(row=ri, column=7, value=f'=IFERROR(MAXIFS(REVENUE_TRACKER!E$2:E$1000,REVENUE_TRACKER!M$2:M$1000,"*{trig}*"),0)')
+        ws.cell(row=ri, column=7, value=f'=IFERROR(MAXIFS(REVENUE_TRACKER!D$2:D$1000,REVENUE_TRACKER!M$2:M$1000,"*{trig}*"),0)')
         ws.cell(row=ri, column=7).number_format = '$#,##0'
 
     # === SECTION 2: REVENUE BY MARKET (rows 11-15) ===
@@ -1638,13 +1638,13 @@ def _build_revenue_insights_tab(ws, header_fill, header_font):
     for ri, (mkt, search_term) in enumerate([('BOTH', 'BOTH'), ('US ONLY', 'US ONLY'), ('UK ONLY', 'UK ONLY')], 13):
         ws.cell(row=ri, column=1, value=mkt)
         ws.cell(row=ri, column=2, value=f'=COUNTIF(REVENUE_TRACKER!O:O,"*{search_term}*")')
-        ws.cell(row=ri, column=3, value=f'=SUMPRODUCT((ISNUMBER(SEARCH("{search_term}",REVENUE_TRACKER!O$2:O$1000)))*REVENUE_TRACKER!E$2:E$1000)')
+        ws.cell(row=ri, column=3, value=f'=SUMPRODUCT((ISNUMBER(SEARCH("{search_term}",REVENUE_TRACKER!O$2:O$1000)))*REVENUE_TRACKER!D$2:D$1000)')
         ws.cell(row=ri, column=3).number_format = '$#,##0'
         ws.cell(row=ri, column=4, value=f'=IFERROR(C{ri}/B{ri},0)')
         ws.cell(row=ri, column=4).number_format = '$#,##0'
-        ws.cell(row=ri, column=5, value=f'=IFERROR(SUMPRODUCT((ISNUMBER(SEARCH("{search_term}",REVENUE_TRACKER!O$2:O$1000)))*(REVENUE_TRACKER!E$2:E$1000>=2500))/B{ri},0)')
+        ws.cell(row=ri, column=5, value=f'=IFERROR(SUMPRODUCT((ISNUMBER(SEARCH("{search_term}",REVENUE_TRACKER!O$2:O$1000)))*(REVENUE_TRACKER!D$2:D$1000>=2500))/B{ri},0)')
         ws.cell(row=ri, column=5).number_format = '0%'
-        ws.cell(row=ri, column=6, value=f'=IFERROR(MAXIFS(REVENUE_TRACKER!E$2:E$1000,REVENUE_TRACKER!O$2:O$1000,"*{search_term}*"),0)')
+        ws.cell(row=ri, column=6, value=f'=IFERROR(MAXIFS(REVENUE_TRACKER!D$2:D$1000,REVENUE_TRACKER!O$2:O$1000,"*{search_term}*"),0)')
         ws.cell(row=ri, column=6).number_format = '$#,##0'
 
     # === SECTION 3: REVENUE BY AI CATEGORY (rows 18-21) ===
@@ -1659,24 +1659,24 @@ def _build_revenue_insights_tab(ws, header_fill, header_font):
     # Data rows 20-21 (exact match uses = not SEARCH for AI category)
     ws.cell(row=20, column=1, value='AI')
     ws.cell(row=20, column=2, value='=COUNTIF(REVENUE_TRACKER!P:P,"*AI")')
-    ws.cell(row=20, column=3, value='=SUMPRODUCT((REVENUE_TRACKER!P$2:P$1000="AI")*REVENUE_TRACKER!E$2:E$1000)')
+    ws.cell(row=20, column=3, value='=SUMPRODUCT((REVENUE_TRACKER!P$2:P$1000="AI")*REVENUE_TRACKER!D$2:D$1000)')
     ws.cell(row=20, column=3).number_format = '$#,##0'
     ws.cell(row=20, column=4, value='=IFERROR(C20/B20,0)')
     ws.cell(row=20, column=4).number_format = '$#,##0'
-    ws.cell(row=20, column=5, value='=IFERROR(SUMPRODUCT((REVENUE_TRACKER!P$2:P$1000="AI")*(REVENUE_TRACKER!E$2:E$1000>=2500))/B20,0)')
+    ws.cell(row=20, column=5, value='=IFERROR(SUMPRODUCT((REVENUE_TRACKER!P$2:P$1000="AI")*(REVENUE_TRACKER!D$2:D$1000>=2500))/B20,0)')
     ws.cell(row=20, column=5).number_format = '0%'
-    ws.cell(row=20, column=6, value='=IFERROR(MAXIFS(REVENUE_TRACKER!E$2:E$1000,REVENUE_TRACKER!P$2:P$1000,"AI"),0)')
+    ws.cell(row=20, column=6, value='=IFERROR(MAXIFS(REVENUE_TRACKER!D$2:D$1000,REVENUE_TRACKER!P$2:P$1000,"AI"),0)')
     ws.cell(row=20, column=6).number_format = '$#,##0'
 
     ws.cell(row=21, column=1, value='NON-AI')
     ws.cell(row=21, column=2, value='=COUNTIF(REVENUE_TRACKER!P:P,"*NON-AI")')
-    ws.cell(row=21, column=3, value='=SUMPRODUCT((REVENUE_TRACKER!P$2:P$1000="NON-AI")*REVENUE_TRACKER!E$2:E$1000)')
+    ws.cell(row=21, column=3, value='=SUMPRODUCT((REVENUE_TRACKER!P$2:P$1000="NON-AI")*REVENUE_TRACKER!D$2:D$1000)')
     ws.cell(row=21, column=3).number_format = '$#,##0'
     ws.cell(row=21, column=4, value='=IFERROR(C21/B21,0)')
     ws.cell(row=21, column=4).number_format = '$#,##0'
-    ws.cell(row=21, column=5, value='=IFERROR(SUMPRODUCT((REVENUE_TRACKER!P$2:P$1000="NON-AI")*(REVENUE_TRACKER!E$2:E$1000>=2500))/B21,0)')
+    ws.cell(row=21, column=5, value='=IFERROR(SUMPRODUCT((REVENUE_TRACKER!P$2:P$1000="NON-AI")*(REVENUE_TRACKER!D$2:D$1000>=2500))/B21,0)')
     ws.cell(row=21, column=5).number_format = '0%'
-    ws.cell(row=21, column=6, value='=IFERROR(MAXIFS(REVENUE_TRACKER!E$2:E$1000,REVENUE_TRACKER!P$2:P$1000,"NON-AI"),0)')
+    ws.cell(row=21, column=6, value='=IFERROR(MAXIFS(REVENUE_TRACKER!D$2:D$1000,REVENUE_TRACKER!P$2:P$1000,"NON-AI"),0)')
     ws.cell(row=21, column=6).number_format = '$#,##0'
 
     # === SECTION 4: INSTALL ECONOMICS (rows 24-28) ===
@@ -1684,11 +1684,11 @@ def _build_revenue_insights_tab(ws, header_fill, header_font):
     ws['A24'].font = section_font
 
     ws.cell(row=25, column=1, value='Avg revenue per install (all)')
-    ws.cell(row=25, column=2, value='=IFERROR(SUM(REVENUE_TRACKER!E:E)/SUM(REVENUE_TRACKER!H:H),0)')
+    ws.cell(row=25, column=2, value='=IFERROR(SUM(REVENUE_TRACKER!D:D)/SUM(REVENUE_TRACKER!H:H),0)')
     ws.cell(row=25, column=2).number_format = '$#,##0.00'
 
     ws.cell(row=26, column=1, value='Avg revenue per install (earning only)')
-    ws.cell(row=26, column=2, value='=IFERROR(SUMPRODUCT((REVENUE_TRACKER!E$2:E$1000>0)*REVENUE_TRACKER!E$2:E$1000)/SUMPRODUCT((REVENUE_TRACKER!E$2:E$1000>0)*REVENUE_TRACKER!H$2:H$1000),0)')
+    ws.cell(row=26, column=2, value='=IFERROR(SUMPRODUCT((REVENUE_TRACKER!D$2:D$1000>0)*REVENUE_TRACKER!D$2:D$1000)/SUMPRODUCT((REVENUE_TRACKER!D$2:D$1000>0)*REVENUE_TRACKER!H$2:H$1000),0)')
     ws.cell(row=26, column=2).number_format = '$#,##0.00'
 
     ws.cell(row=27, column=1, value='US/EU installs as % of total')
@@ -1696,7 +1696,7 @@ def _build_revenue_insights_tab(ws, header_fill, header_font):
     ws.cell(row=27, column=2).number_format = '0%'
 
     ws.cell(row=28, column=1, value='Min installs to hit cap')
-    ws.cell(row=28, column=2, value='=IFERROR(MIN(IF(REVENUE_TRACKER!E$2:E$1000>=2500,REVENUE_TRACKER!H$2:H$1000)),0)')
+    ws.cell(row=28, column=2, value='=IFERROR(MIN(IF(REVENUE_TRACKER!D$2:D$1000>=2500,REVENUE_TRACKER!H$2:H$1000)),0)')
     ws.cell(row=28, column=2).number_format = '#,##0'
 
     # Column widths
@@ -1869,13 +1869,20 @@ def _build_data_feed_tab(ws, df_today, header_fill, header_font, thin_border, cy
 # =============================================================================
 
 def _load_existing_revenue(dashboard_path, live_revenue_df=None):
-    # Use live revenue from Google Sheet if provided (highest priority)
-    if live_revenue_df is not None and len(live_revenue_df) > 0:
-        print(f"  Using live revenue data from Google Sheet ({len(live_revenue_df)} entries)")
-        return live_revenue_df
+    # Start with seed data as the base (always includes all known templates)
+    seed_df = pd.DataFrame(SEED_REVENUE_DATA) if SEED_REVENUE_DATA else None
     
-    # Try loading from file next
-    if dashboard_path and os.path.exists(dashboard_path):
+    # Determine the primary data source
+    primary_df = None
+    source = None
+    
+    # Priority 1: Live data from Google Sheet
+    if live_revenue_df is not None and len(live_revenue_df) > 0:
+        primary_df = live_revenue_df
+        source = 'Google Sheet'
+    
+    # Priority 2: Existing dashboard file
+    elif dashboard_path and os.path.exists(dashboard_path):
         try:
             wb = load_workbook(dashboard_path, data_only=True)
             if 'REVENUE_TRACKER' in wb.sheetnames:
@@ -1892,16 +1899,48 @@ def _load_existing_revenue(dashboard_path, live_revenue_df=None):
                         if val is not None and str(val).strip() != '': has_data = True
                     if has_data: data.append(row_data)
                 if data:
-                    print(f"  Loaded {len(data)} revenue rows from dashboard file")
-                    return pd.DataFrame(data)
+                    primary_df = pd.DataFrame(data)
+                    source = 'dashboard file'
         except Exception as e:
             print(f"  Warning: Could not load revenue from file: {e}")
     
-    # Fall back to embedded seed data
-    if SEED_REVENUE_DATA:
-        print(f"  Using embedded seed revenue data ({len(SEED_REVENUE_DATA)} entries)")
-        return pd.DataFrame(SEED_REVENUE_DATA)
-    return None
+    # If no primary source, fall back to seed data alone
+    if primary_df is None:
+        if seed_df is not None:
+            print(f"  Using embedded seed revenue data ({len(seed_df)} entries)")
+            return seed_df
+        return None
+    
+    # MERGE: primary data + any seed-only entries not in primary
+    # This ensures templates tracked outside the Pioneer spreadsheet are never lost
+    if seed_df is not None and len(seed_df) > 0:
+        # Get URL column from primary
+        primary_url_col = None
+        for col in ['TikTok URL', 'url', 'tiktok_url', 'webVideoUrl']:
+            if col in primary_df.columns:
+                primary_url_col = col
+                break
+        
+        seed_url_col = 'TikTok URL'  # Seed always uses this
+        
+        if primary_url_col and seed_url_col in seed_df.columns:
+            primary_urls = set(primary_df[primary_url_col].astype(str).str.strip())
+            
+            # Find seed entries not in primary data
+            seed_only = seed_df[~seed_df[seed_url_col].astype(str).str.strip().isin(primary_urls)].copy()
+            
+            if len(seed_only) > 0:
+                # Rename seed columns to match primary if needed
+                if primary_url_col != seed_url_col:
+                    seed_only = seed_only.rename(columns={seed_url_col: primary_url_col})
+                
+                merged = pd.concat([primary_df, seed_only], ignore_index=True)
+                seed_only_rev = seed_only['Received ($)'].sum() if 'Received ($)' in seed_only.columns else 0
+                print(f"  Using live revenue data from {source} ({len(primary_df)} entries) + {len(seed_only)} seed-only entries (${seed_only_rev:,.0f} received)")
+                return merged
+    
+    print(f"  Using live revenue data from {source} ({len(primary_df)} entries)")
+    return primary_df
 
 
 def _load_existing_prediction_log(dashboard_path):
