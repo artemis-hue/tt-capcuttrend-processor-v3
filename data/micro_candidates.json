@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-14T09:02:40.641119+00:00",
+  "last_updated": "2026-02-14T10:57:38.411716+00:00",
   "candidates": [
     {
       "url": "https://www.tiktok.com/@brandnat/video/7605954428138573076",
@@ -27,7 +27,7 @@
       ],
       "consecutive_negative_deltas": 1,
       "alerted": false,
-      "consecutive_misses": 1
+      "consecutive_misses": 2
     },
     {
       "url": "https://www.tiktok.com/@basanta.tamang03/video/7605747761228827924",
@@ -55,7 +55,7 @@
       ],
       "consecutive_negative_deltas": 1,
       "alerted": false,
-      "consecutive_misses": 1
+      "consecutive_misses": 2
     },
     {
       "url": "https://www.tiktok.com/@bumsuzbzx0/video/7606000661515324693",
@@ -83,7 +83,7 @@
       ],
       "consecutive_negative_deltas": 1,
       "alerted": false,
-      "consecutive_misses": 1
+      "consecutive_misses": 2
     },
     {
       "url": "https://www.tiktok.com/@ai.a.i.a.i/video/7606005456074460438",
@@ -115,9 +115,17 @@
           "views_per_hour": 2543,
           "momentum": 622,
           "delta_shares_per_hour": 17.700000000000003
+        },
+        {
+          "timestamp": "2026-02-14T10:57:38.411606+00:00",
+          "age_hours": 43.2,
+          "shares_per_hour": 24.9,
+          "views_per_hour": 2430,
+          "momentum": 594,
+          "delta_shares_per_hour": -1.2000000000000028
         }
       ],
-      "consecutive_negative_deltas": 0,
+      "consecutive_negative_deltas": 1,
       "alerted": false,
       "consecutive_misses": 0
     },
@@ -147,7 +155,7 @@
       ],
       "consecutive_negative_deltas": 1,
       "alerted": false,
-      "consecutive_misses": 1
+      "consecutive_misses": 2
     },
     {
       "url": "https://www.tiktok.com/@richard.frank5126/video/7605798424297901332",
@@ -167,7 +175,7 @@
       ],
       "consecutive_negative_deltas": 0,
       "alerted": false,
-      "consecutive_misses": 1
+      "consecutive_misses": 2
     },
     {
       "url": "https://www.tiktok.com/@a0tx3sem37/video/7606243193956437256",
@@ -183,10 +191,19 @@
           "views_per_hour": 81066,
           "momentum": 24289,
           "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-02-14T10:57:38.411606+00:00",
+          "age_hours": 27.8,
+          "shares_per_hour": 1675.0,
+          "views_per_hour": 75483,
+          "momentum": 22616,
+          "delta_shares_per_hour": -123.90000000000009
         }
       ],
-      "consecutive_negative_deltas": 0,
-      "alerted": false
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
     },
     {
       "url": "https://www.tiktok.com/@kriziaraso/video/7606075993261919510",
@@ -202,10 +219,19 @@
           "views_per_hour": 32680,
           "momentum": 8014,
           "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-02-14T10:57:38.411606+00:00",
+          "age_hours": 38.6,
+          "shares_per_hour": 224.4,
+          "views_per_hour": 31059,
+          "momentum": 7616,
+          "delta_shares_per_hour": -11.699999999999989
         }
       ],
-      "consecutive_negative_deltas": 0,
-      "alerted": false
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
     }
   ]
 }
