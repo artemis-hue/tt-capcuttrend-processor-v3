@@ -132,8 +132,8 @@ def _get_gspread_client():
             client_id=client_id,
             client_secret=client_secret,
             scopes=[
-                'https://www.googleapis.com/auth/spreadsheets.readonly',
-                'https://www.googleapis.com/auth/drive.readonly',
+                'https://www.googleapis.com/auth/spreadsheets',
+                'https://www.googleapis.com/auth/drive',
             ]
         )
         return gspread.authorize(creds)
@@ -147,8 +147,8 @@ def _get_gspread_client():
         creds = service_account.Credentials.from_service_account_info(
             creds_json,
             scopes=[
-                'https://www.googleapis.com/auth/spreadsheets.readonly',
-                'https://www.googleapis.com/auth/drive.readonly',
+                'https://www.googleapis.com/auth/spreadsheets',
+                'https://www.googleapis.com/auth/drive',
             ]
         )
         return gspread.authorize(creds)
