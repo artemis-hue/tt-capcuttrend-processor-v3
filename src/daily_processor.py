@@ -477,7 +477,7 @@ def process_data(us_data, uk_data, us_music_data, uk_music_data, yesterday_us, y
         f"{output_dir}/BUILD_TODAY_TOP20_{today}.xlsx",
         uk_ai_20, uk_non_20, uk_audio.head(20),
         us_ai_20, us_non_20, us_audio.head(20),
-        your_posts, stats, today, "TOP20"
+        your_posts, stats, today, "TOP20", revenue_lookup=revenue_lookup
     )
     
     # BUILD_TODAY_TOP100
@@ -485,7 +485,7 @@ def process_data(us_data, uk_data, us_music_data, uk_music_data, yesterday_us, y
         f"{output_dir}/BUILD_TODAY_TOP100_{today}.xlsx",
         uk_ai_100, uk_non_100, uk_audio,
         us_ai_100, us_non_100, us_audio,
-        your_posts, stats, today, "TOP100"
+        your_posts, stats, today, "TOP100", revenue_lookup=revenue_lookup
     )
     
     # Full data files
@@ -516,7 +516,7 @@ def process_data(us_data, uk_data, us_music_data, uk_music_data, yesterday_us, y
     return stats
 
 
-def create_build_file(filepath, uk_ai, uk_non, uk_audio, us_ai, us_non, us_audio, your_posts, stats, today, suffix):
+def create_build_file(filepath, uk_ai, uk_non, uk_audio, us_ai, us_non, us_audio, your_posts, stats, today, suffix, revenue_lookup=None):
     """Create BUILD_TODAY Excel file with correct tab order."""
     wb = Workbook()
     
