@@ -1,114 +1,6 @@
 {
-  "last_updated": "2026-02-14T19:04:54.472082+00:00",
+  "last_updated": "2026-02-14T20:54:33.001210+00:00",
   "candidates": [
-    {
-      "url": "https://www.tiktok.com/@n1_usha/video/7606303443048877334",
-      "first_seen": "2026-02-14T14:57:29.683573+00:00",
-      "market": "\ud83c\uddec\ud83c\udde7 UK ONLY",
-      "text": "#glowUp #jawline #looksmax #fyp here is some advice that so many of you asked for\ud83d\ude0f follow for more!",
-      "creator": "n1_usha",
-      "checks": [
-        {
-          "timestamp": "2026-02-14T14:57:29.683573+00:00",
-          "age_hours": 27.9,
-          "shares_per_hour": 18.1,
-          "views_per_hour": 9311,
-          "momentum": 2552,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-02-14T17:01:06.854169+00:00",
-          "age_hours": 30.0,
-          "shares_per_hour": 16.9,
-          "views_per_hour": 8671,
-          "momentum": 2376,
-          "delta_shares_per_hour": -1.2000000000000028
-        },
-        {
-          "timestamp": "2026-02-14T19:04:54.466994+00:00",
-          "age_hours": 32.0,
-          "shares_per_hour": 15.8,
-          "views_per_hour": 8113,
-          "momentum": 2223,
-          "delta_shares_per_hour": -1.0999999999999979
-        }
-      ],
-      "consecutive_negative_deltas": 2,
-      "alerted": false,
-      "consecutive_misses": 0
-    },
-    {
-      "url": "https://www.tiktok.com/@adriano.explores/video/7606072062372842774",
-      "first_seen": "2026-02-14T14:57:29.683573+00:00",
-      "market": "\ud83c\uddec\ud83c\udde7 UK ONLY",
-      "text": "Follow and Comment \" Ai \" for the method #ai #model #faceswap #method ",
-      "creator": "adriano.explores",
-      "checks": [
-        {
-          "timestamp": "2026-02-14T14:57:29.683573+00:00",
-          "age_hours": 42.9,
-          "shares_per_hour": 32.5,
-          "views_per_hour": 4966,
-          "momentum": 2277,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-02-14T17:01:06.854169+00:00",
-          "age_hours": 44.9,
-          "shares_per_hour": 31.0,
-          "views_per_hour": 4738,
-          "momentum": 2172,
-          "delta_shares_per_hour": -1.5
-        },
-        {
-          "timestamp": "2026-02-14T19:04:54.466994+00:00",
-          "age_hours": 47.0,
-          "shares_per_hour": 29.6,
-          "views_per_hour": 4530,
-          "momentum": 2077,
-          "delta_shares_per_hour": -1.3999999999999986
-        }
-      ],
-      "consecutive_negative_deltas": 2,
-      "alerted": false,
-      "consecutive_misses": 0
-    },
-    {
-      "url": "https://www.tiktok.com/@leeyuumer/video/7606296915256282375",
-      "first_seen": "2026-02-14T14:57:29.683573+00:00",
-      "market": "\ud83c\udf10 BOTH",
-      "text": "BUTTERFLY - KROMA \n\ud83c\udfa5 @Brennan Wright \n\n#butterfly #kroma #CapCut #capcutpioneer #pioneertemplate ",
-      "creator": "leeyuumer",
-      "checks": [
-        {
-          "timestamp": "2026-02-14T14:57:29.683573+00:00",
-          "age_hours": 28.3,
-          "shares_per_hour": 43.4,
-          "views_per_hour": 3909,
-          "momentum": 2156,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-02-14T17:01:06.854169+00:00",
-          "age_hours": 30.4,
-          "shares_per_hour": 40.5,
-          "views_per_hour": 3644,
-          "momentum": 2010,
-          "delta_shares_per_hour": -2.8999999999999986
-        },
-        {
-          "timestamp": "2026-02-14T19:04:54.466994+00:00",
-          "age_hours": 32.5,
-          "shares_per_hour": 37.9,
-          "views_per_hour": 3412,
-          "momentum": 1882,
-          "delta_shares_per_hour": -2.6000000000000014
-        }
-      ],
-      "consecutive_negative_deltas": 2,
-      "alerted": false,
-      "consecutive_misses": 0
-    },
     {
       "url": "https://www.tiktok.com/@a0tx3sem37/video/7606243193956437256",
       "first_seen": "2026-02-14T19:04:54.466994+00:00",
@@ -123,10 +15,19 @@
           "views_per_hour": 58427,
           "momentum": 17506,
           "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-02-14T20:54:32.996599+00:00",
+          "age_hours": 37.8,
+          "shares_per_hour": 1233.8,
+          "views_per_hour": 55600,
+          "momentum": 16659,
+          "delta_shares_per_hour": -62.700000000000045
         }
       ],
-      "consecutive_negative_deltas": 0,
-      "alerted": false
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
     },
     {
       "url": "https://www.tiktok.com/@kriziaraso/video/7606075993261919510",
@@ -142,10 +43,19 @@
           "views_per_hour": 25665,
           "momentum": 6293,
           "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-02-14T20:54:32.996599+00:00",
+          "age_hours": 48.6,
+          "shares_per_hour": 178.4,
+          "views_per_hour": 24699,
+          "momentum": 6057,
+          "delta_shares_per_hour": -7.0
         }
       ],
-      "consecutive_negative_deltas": 0,
-      "alerted": false
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
     },
     {
       "url": "https://www.tiktok.com/@nairunariakra/video/7606329600582470919",
@@ -161,10 +71,19 @@
           "views_per_hour": 4355,
           "momentum": 968,
           "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-02-14T20:54:32.996599+00:00",
+          "age_hours": 32.2,
+          "shares_per_hour": 79.5,
+          "views_per_hour": 4107,
+          "momentum": 913,
+          "delta_shares_per_hour": -4.799999999999997
         }
       ],
-      "consecutive_negative_deltas": 0,
-      "alerted": false
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
     },
     {
       "url": "https://www.tiktok.com/@jatemplate/video/7606276868496493842",
@@ -180,10 +99,19 @@
           "views_per_hour": 7863,
           "momentum": 911,
           "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-02-14T20:54:32.996599+00:00",
+          "age_hours": 35.6,
+          "shares_per_hour": 26.6,
+          "views_per_hour": 7459,
+          "momentum": 864,
+          "delta_shares_per_hour": -1.3999999999999986
         }
       ],
-      "consecutive_negative_deltas": 0,
-      "alerted": false
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
     },
     {
       "url": "https://www.tiktok.com/@capcut_lamonse/video/7606399053944868116",
@@ -198,6 +126,72 @@
           "shares_per_hour": 6.4,
           "views_per_hour": 2191,
           "momentum": 428,
+          "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-02-14T20:54:32.996599+00:00",
+          "age_hours": 27.2,
+          "shares_per_hour": 6.0,
+          "views_per_hour": 2044,
+          "momentum": 399,
+          "delta_shares_per_hour": -0.40000000000000036
+        }
+      ],
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
+    },
+    {
+      "url": "https://www.tiktok.com/@rznvll._/video/7606250760443006226",
+      "first_seen": "2026-02-14T20:54:32.996599+00:00",
+      "market": "\ud83c\uddec\ud83c\udde7 UK ONLY",
+      "text": "Simpan buat valentine besok\ud83e\udd73\ud83d\udc8c\n[ template klik logo \ud83d\udc46\ud83c\udffb]\n\n- @\ud835\udde6\ud835\udddc\ud835\udddf\ud835\uddd8\ud835\udde1\ud835\udde7 \ud835\ude51\ud835\ude4f\ud835\ude53 \n\n-\n#CapCut #xybca #valentinesday #templatecapcut #trend ",
+      "creator": "rznvll._",
+      "checks": [
+        {
+          "timestamp": "2026-02-14T20:54:32.996599+00:00",
+          "age_hours": 37.3,
+          "shares_per_hour": 138.3,
+          "views_per_hour": 12387,
+          "momentum": 4427,
+          "delta_shares_per_hour": null
+        }
+      ],
+      "consecutive_negative_deltas": 0,
+      "alerted": false
+    },
+    {
+      "url": "https://www.tiktok.com/@recctemplate/video/7606318630057413909",
+      "first_seen": "2026-02-14T20:54:32.996599+00:00",
+      "market": "\ud83c\udf10 BOTH",
+      "text": "Happy Valentine\u2019s Day\n#CapCut #capcutpioneer #pioneertemplate #valentinesday #february14 ",
+      "creator": "recctemplate",
+      "checks": [
+        {
+          "timestamp": "2026-02-14T20:54:32.996599+00:00",
+          "age_hours": 32.9,
+          "shares_per_hour": 300.2,
+          "views_per_hour": 4873,
+          "momentum": 3286,
+          "delta_shares_per_hour": null
+        }
+      ],
+      "consecutive_negative_deltas": 0,
+      "alerted": false
+    },
+    {
+      "url": "https://www.tiktok.com/@dress_770/video/7606150632910621972",
+      "first_seen": "2026-02-14T20:54:32.996599+00:00",
+      "market": "\ud83c\udf10 BOTH",
+      "text": "-9 kilos en mi primer mes #metodo77 #cambiofisico #glowup ",
+      "creator": "dress_770",
+      "checks": [
+        {
+          "timestamp": "2026-02-14T20:54:32.996599+00:00",
+          "age_hours": 43.8,
+          "shares_per_hour": 22.4,
+          "views_per_hour": 20638,
+          "momentum": 3042,
           "delta_shares_per_hour": null
         }
       ],
