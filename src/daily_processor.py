@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 TIKTOK DAILY PROCESSOR
-Version: 5.3.0 - All bugs fixed
+Version: 5.8.1 - Status calculation fix
 Fixes:
   - BUG 1: YOUR posts from processed data (not fresh)
   - BUG 2: Competitor count from processed data (not fresh)
@@ -11,6 +11,8 @@ Fixes:
   - BUG 6: START_HERE full summary
   - BUG 7: Tab order fixed (UK together, US together)
   - BUG 8: Status diversity preserved
+  - BUG 9: STATUS FIX — cache raw counts, calculate growth-based delta (v5.8.1)
+  - BUG 10: Revenue column populated via revenue_lookup (v5.8.0)
 """
 
 import pandas as pd
@@ -220,7 +222,22 @@ def calculate_metrics(df):
 
 
 def calculate_status(df, yesterday_data=None):
-    """Calculate 24h status based on momentum delta."""
+    """Calculate 24h status based on raw engagement growth.
+    
+    v5.8.1 FIX: Uses raw count growth (shares, views, likes gained in 24h)
+    instead of momentum_score delta. Momentum is a per-hour rate that 
+    naturally declines as content ages, making the old approach produce
+    COOLING for virtually everything.
+    
+    New approach:
+    - Cache stores raw counts (shareCount, diggCount, playCount)
+    - Delta = growth in raw counts over ~24h period
+    - growth_momentum = (delta_shares/h × 10) + (delta_likes/h × 3) + (delta_views/h × 0.01)
+    - Same thresholds: SPIKING > 100, RISING > 0, COOLING > -100, DYING <= -100
+    
+    Backward compatible: if old cache format detected (has momentum_score
+    but no shareCount), falls back to NEW for all entries.
+    """
     if yesterday_data is None:
         df['status'] = '🆕 NEW'
         return df
@@ -231,28 +248,70 @@ def calculate_status(df, yesterday_data=None):
         df['status'] = '🆕 NEW'
         return df
     
-    yesterday_momentum = dict(zip(
-        yesterday_df['webVideoUrl'],
-        yesterday_df.get('momentum_score', [0] * len(yesterday_df))
-    ))
+    # Detect cache format: new (raw counts) vs old (momentum_score only)
+    has_raw_counts = 'shareCount' in yesterday_df.columns
+    
+    if not has_raw_counts:
+        # Old cache format — can't calculate proper growth delta
+        # Fall back to NEW for all (first run after upgrade)
+        print("  ⚠ Old cache format detected (momentum_score only). All statuses set to NEW.")
+        print("    Next run will use new cache format with raw counts.")
+        df['status'] = '🆕 NEW'
+        return df
+    
+    # Build lookup: URL → {shareCount, diggCount, playCount}
+    yesterday_lookup = {}
+    for _, row in yesterday_df.iterrows():
+        url = row.get('webVideoUrl', '')
+        if url:
+            yesterday_lookup[url] = {
+                'shareCount': float(row.get('shareCount', 0)),
+                'diggCount': float(row.get('diggCount', 0)),
+                'playCount': float(row.get('playCount', 0)),
+            }
     
     def get_status(row):
         url = row.get('webVideoUrl', '')
-        if url not in yesterday_momentum:
+        if url not in yesterday_lookup:
             return '🆕 NEW'
         
-        delta = row['momentum_score'] - yesterday_momentum.get(url, 0)
+        prev = yesterday_lookup[url]
         
-        if delta > 100:
+        # Raw count growth over ~24h
+        delta_shares = float(row.get('shareCount', 0)) - prev['shareCount']
+        delta_likes = float(row.get('diggCount', 0)) - prev['diggCount']
+        delta_views = float(row.get('playCount', 0)) - prev['playCount']
+        
+        # Convert to per-hour growth (assuming ~24h between cache reads)
+        # This gives us a "growth rate" comparable to the momentum formula weights
+        hours_between = 24.0  # approximate — cache is saved daily
+        growth_shares_h = delta_shares / hours_between
+        growth_likes_h = delta_likes / hours_between
+        growth_views_h = delta_views / hours_between
+        
+        # Growth momentum using same weights as momentum_score formula
+        growth_momentum = (
+            growth_shares_h * 10 +
+            growth_likes_h * 3 +
+            growth_views_h * 0.01
+        )
+        
+        # Same thresholds as spec
+        if growth_momentum > 100:
             return '🚀 SPIKING'
-        elif delta > 0:
+        elif growth_momentum > 0:
             return '📈 RISING'
-        elif delta > -100:
+        elif growth_momentum > -100:
             return '📉 COOLING'
         else:
             return '❄️ DYING'
     
     df['status'] = df.apply(get_status, axis=1)
+    
+    # Log status distribution for debugging
+    status_counts = df['status'].value_counts()
+    print(f"  Status distribution: {dict(status_counts)}")
+    
     return df
 
 
@@ -336,7 +395,11 @@ def process_audio_data(audio_data):
 
 
 def process_data(us_data, uk_data, us_music_data, uk_music_data, yesterday_us, yesterday_uk, output_dir, cache_dir, revenue_lookup=None):
-    """Main processing function."""
+    """Main processing function.
+    
+    Args:
+        revenue_lookup: dict mapping TikTok URL → revenue data (from revenue_persistence.py)
+    """
     today = datetime.now().strftime('%Y-%m-%d')
     stats = {}
     
@@ -477,7 +540,8 @@ def process_data(us_data, uk_data, us_music_data, uk_music_data, yesterday_us, y
         f"{output_dir}/BUILD_TODAY_TOP20_{today}.xlsx",
         uk_ai_20, uk_non_20, uk_audio.head(20),
         us_ai_20, us_non_20, us_audio.head(20),
-        your_posts, stats, today, "TOP20", revenue_lookup=revenue_lookup
+        your_posts, stats, today, "TOP20",
+        revenue_lookup=revenue_lookup
     )
     
     # BUILD_TODAY_TOP100
@@ -485,7 +549,8 @@ def process_data(us_data, uk_data, us_music_data, uk_music_data, yesterday_us, y
         f"{output_dir}/BUILD_TODAY_TOP100_{today}.xlsx",
         uk_ai_100, uk_non_100, uk_audio,
         us_ai_100, us_non_100, us_audio,
-        your_posts, stats, today, "TOP100", revenue_lookup=revenue_lookup
+        your_posts, stats, today, "TOP100",
+        revenue_lookup=revenue_lookup
     )
     
     # Full data files
@@ -557,7 +622,7 @@ def create_build_file(filepath, uk_ai, uk_non, uk_audio, us_ai, us_non, us_audio
 
 def create_start_here_sheet(ws, stats, today):
     """Create START_HERE summary sheet (BUG FIX 6)."""
-    ws['A1'] = f"TikTok Trend System v3.3.0 - {today}"
+    ws['A1'] = f"TikTok Trend System v5.8.1 - {today}"
     ws['A1'].font = Font(bold=True, size=14)
     
     ws['A3'] = "📊 DAILY SUMMARY"
@@ -647,7 +712,11 @@ def create_audio_sheet(ws, df):
 
 
 def create_my_performance_sheet(ws, your_posts, today, revenue_lookup=None):
-    """Create MY_PERFORMANCE sheet with proper formatting."""
+    """Create MY_PERFORMANCE sheet with proper formatting.
+    
+    Args:
+        revenue_lookup: dict mapping TikTok URL → revenue data (v5.8.0+)
+    """
     headers = [
         'Date', 'Account', 'Trend', 'Age', 'Momentum', 'Status', 'Market',
         'Views/h', 'Shares/h', 'BUILD_NOW', 'TikTok URL', 'TUTORIAL_TRIGGER',
@@ -678,15 +747,17 @@ def create_my_performance_sheet(ws, your_posts, today, revenue_lookup=None):
         ws.cell(row=idx, column=12, value=row.get('TUTORIAL_TRIGGER', ''))
         ws.cell(row=idx, column=13, value=row.get('URGENCY', ''))
         ws.cell(row=idx, column=14, value=_safe_text(row.get('trigger_reason', ''), 80))
-        # Column 18: Revenue — populated from Google Sheet if available
-        if revenue_lookup:
-            url = row.get('webVideoUrl', '')
-            if url:
-                from revenue_persistence import lookup_revenue_for_url
-                rev = lookup_revenue_for_url(revenue_lookup, url)
-                if rev > 0:
-                    ws.cell(row=idx, column=18, value=rev)
-        # Columns 15-17, 19 are manual entry (blank)
+        # Columns 15-17 are manual entry (blank)
+        
+        # Column 18: Revenue — auto-populated from Google Sheet (v5.8.0+)
+        url = row.get('webVideoUrl', '')
+        if revenue_lookup and url in revenue_lookup:
+            rev_data = revenue_lookup[url]
+            revenue_val = rev_data.get('revenue', rev_data.get('Received ($)', ''))
+            if revenue_val:
+                ws.cell(row=idx, column=18, value=revenue_val)
+        
+        # Column 19: Notes (blank)
         
         # Apply CYAN to data columns 1-11
         for col in range(1, 12):
@@ -730,6 +801,13 @@ def load_yesterday_cache(cache_dir):
         if not isinstance(us_data, list) or not isinstance(uk_data, list):
             print(f"  Cache format invalid (expected list, got {type(us_data).__name__}/{type(uk_data).__name__})")
             return None, None
+        
+        # Detect cache format
+        if us_data and 'shareCount' in us_data[0]:
+            print(f"    Cache format: v5.8.1 (raw counts) ✓")
+        elif us_data and 'momentum_score' in us_data[0]:
+            print(f"    Cache format: pre-v5.8.1 (momentum only) — will upgrade on next save")
+        
         print(f"    Loaded US: {len(us_data)} records")
         print(f"    Loaded UK: {len(uk_data)} records")
         return us_data, uk_data
@@ -739,27 +817,54 @@ def load_yesterday_cache(cache_dir):
 
 
 def save_today_cache(us_df, uk_df, cache_dir):
-    """Save today's data for tomorrow's comparison."""
+    """Save today's data for tomorrow's comparison.
+    
+    v5.8.1 FIX: Now saves raw engagement counts (shareCount, diggCount, playCount)
+    instead of momentum_score. This enables accurate growth-based status calculation
+    that doesn't penalize content for aging.
+    
+    Cache format v5.8.1:
+    [
+        {
+            "webVideoUrl": "https://...",
+            "shareCount": 1234,
+            "diggCount": 5678,
+            "playCount": 90000,
+            "momentum_score": 456.7  # kept for backward compat / velocity engine
+        },
+        ...
+    ]
+    """
     os.makedirs(cache_dir, exist_ok=True)
     
     us_path = os.path.join(cache_dir, 'yesterday_us.json')
     uk_path = os.path.join(cache_dir, 'yesterday_uk.json')
     
-    print(f"  Saving cache to:")
+    print(f"  Saving cache (v5.8.1 format — raw counts):")
     print(f"    US: {us_path}")
     print(f"    UK: {uk_path}")
     
-    # Save only necessary columns for 24h tracking
+    # Save raw counts + momentum for 24h tracking
     # Replace NaN with 0 to produce valid JSON
+    cache_cols = ['webVideoUrl', 'shareCount', 'diggCount', 'playCount', 'momentum_score']
+    
     if len(us_df) > 0:
-        cache_df = us_df[['webVideoUrl', 'momentum_score']].copy()
-        cache_df['momentum_score'] = cache_df['momentum_score'].fillna(0)
+        # Ensure all required columns exist
+        for col in cache_cols:
+            if col not in us_df.columns:
+                us_df[col] = 0
+        cache_df = us_df[cache_cols].copy()
+        cache_df = cache_df.fillna(0)
         us_cache = cache_df.to_dict('records')
     else:
         us_cache = []
+    
     if len(uk_df) > 0:
-        cache_df = uk_df[['webVideoUrl', 'momentum_score']].copy()
-        cache_df['momentum_score'] = cache_df['momentum_score'].fillna(0)
+        for col in cache_cols:
+            if col not in uk_df.columns:
+                uk_df[col] = 0
+        cache_df = uk_df[cache_cols].copy()
+        cache_df = cache_df.fillna(0)
         uk_cache = cache_df.to_dict('records')
     else:
         uk_cache = []
