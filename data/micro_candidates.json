@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-15T09:03:03.167755+00:00",
+  "last_updated": "2026-02-15T10:57:44.207107+00:00",
   "candidates": [
     {
       "url": "https://www.tiktok.com/@a0tx3sem37/video/7606243193956437256",
@@ -35,7 +35,7 @@
       ],
       "consecutive_negative_deltas": 2,
       "alerted": false,
-      "consecutive_misses": 1
+      "consecutive_misses": 2
     },
     {
       "url": "https://www.tiktok.com/@kriziaraso/video/7606075993261919510",
@@ -71,7 +71,7 @@
       ],
       "consecutive_negative_deltas": 2,
       "alerted": false,
-      "consecutive_misses": 1
+      "consecutive_misses": 2
     },
     {
       "url": "https://www.tiktok.com/@nairunariakra/video/7606329600582470919",
@@ -107,7 +107,7 @@
       ],
       "consecutive_negative_deltas": 2,
       "alerted": false,
-      "consecutive_misses": 1
+      "consecutive_misses": 2
     },
     {
       "url": "https://www.tiktok.com/@capcut_lamonse/video/7606399053944868116",
@@ -143,7 +143,7 @@
       ],
       "consecutive_negative_deltas": 2,
       "alerted": false,
-      "consecutive_misses": 1
+      "consecutive_misses": 2
     },
     {
       "url": "https://www.tiktok.com/@rznvll._/video/7606250760443006226",
@@ -175,9 +175,17 @@
           "views_per_hour": 13384,
           "momentum": 4405,
           "delta_shares_per_hour": 1.6000000000000227
+        },
+        {
+          "timestamp": "2026-02-15T10:57:44.202523+00:00",
+          "age_hours": 51.3,
+          "shares_per_hour": 127.9,
+          "views_per_hour": 12886,
+          "momentum": 4241,
+          "delta_shares_per_hour": -4.900000000000006
         }
       ],
-      "consecutive_negative_deltas": 0,
+      "consecutive_negative_deltas": 1,
       "alerted": false,
       "consecutive_misses": 0
     },
@@ -207,43 +215,7 @@
       ],
       "consecutive_negative_deltas": 1,
       "alerted": false,
-      "consecutive_misses": 1
-    },
-    {
-      "url": "https://www.tiktok.com/@dress_770/video/7606150632910621972",
-      "first_seen": "2026-02-14T20:54:32.996599+00:00",
-      "market": "\ud83c\udf10 BOTH",
-      "text": "-9 kilos en mi primer mes #metodo77 #cambiofisico #glowup ",
-      "creator": "dress_770",
-      "checks": [
-        {
-          "timestamp": "2026-02-14T20:54:32.996599+00:00",
-          "age_hours": 43.8,
-          "shares_per_hour": 22.4,
-          "views_per_hour": 20638,
-          "momentum": 3042,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-02-14T22:54:35.000937+00:00",
-          "age_hours": 45.8,
-          "shares_per_hour": 21.4,
-          "views_per_hour": 19736,
-          "momentum": 2909,
-          "delta_shares_per_hour": -1.0
-        },
-        {
-          "timestamp": "2026-02-15T09:03:03.163371+00:00",
-          "age_hours": 55.9,
-          "shares_per_hour": 19.7,
-          "views_per_hour": 19679,
-          "momentum": 2841,
-          "delta_shares_per_hour": -1.6999999999999993
-        }
-      ],
-      "consecutive_negative_deltas": 2,
-      "alerted": false,
-      "consecutive_misses": 0
+      "consecutive_misses": 2
     },
     {
       "url": "https://www.tiktok.com/@cool77809/video/7606325049892637975",
@@ -258,6 +230,34 @@
           "shares_per_hour": 811.4,
           "views_per_hour": 40343,
           "momentum": 19080,
+          "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-02-15T10:57:44.202523+00:00",
+          "age_hours": 46.5,
+          "shares_per_hour": 778.0,
+          "views_per_hour": 38686,
+          "momentum": 18296,
+          "delta_shares_per_hour": -33.39999999999998
+        }
+      ],
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
+    },
+    {
+      "url": "https://www.tiktok.com/@quasihuman/video/7606809664222792981",
+      "first_seen": "2026-02-15T10:57:44.202523+00:00",
+      "market": "\ud83c\udf10 BOTH",
+      "text": "\u2764\ufe0f #ai #valentinesday #\u2764\ufe0f ",
+      "creator": "quasihuman",
+      "checks": [
+        {
+          "timestamp": "2026-02-15T10:57:44.202523+00:00",
+          "age_hours": 15.2,
+          "shares_per_hour": 941.8,
+          "views_per_hour": 3688,
+          "momentum": 11137,
           "delta_shares_per_hour": null
         }
       ],
