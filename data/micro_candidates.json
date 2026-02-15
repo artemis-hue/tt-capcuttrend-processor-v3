@@ -1,78 +1,6 @@
 {
-  "last_updated": "2026-02-15T19:05:56.364786+00:00",
+  "last_updated": "2026-02-15T20:55:52.589274+00:00",
   "candidates": [
-    {
-      "url": "https://www.tiktok.com/@capcuttrythistemplate00/video/7606544674982989077",
-      "first_seen": "2026-02-15T14:58:39.136669+00:00",
-      "market": "\ud83c\uddec\ud83c\udde7 UK ONLY",
-      "text": "#CapCut #capcut_edit #capcuttemplate #edit ",
-      "creator": "capcuttrythistemplate00",
-      "checks": [
-        {
-          "timestamp": "2026-02-15T14:58:39.136669+00:00",
-          "age_hours": 36.3,
-          "shares_per_hour": 7.7,
-          "views_per_hour": 3698,
-          "momentum": 905,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-02-15T17:00:51.941700+00:00",
-          "age_hours": 38.4,
-          "shares_per_hour": 7.3,
-          "views_per_hour": 3502,
-          "momentum": 857,
-          "delta_shares_per_hour": -0.40000000000000036
-        },
-        {
-          "timestamp": "2026-02-15T19:05:56.359937+00:00",
-          "age_hours": 40.5,
-          "shares_per_hour": 6.9,
-          "views_per_hour": 3321,
-          "momentum": 813,
-          "delta_shares_per_hour": -0.39999999999999947
-        }
-      ],
-      "consecutive_negative_deltas": 2,
-      "alerted": false,
-      "consecutive_misses": 0
-    },
-    {
-      "url": "https://www.tiktok.com/@zzyue0609/video/7606434364053802271",
-      "first_seen": "2026-02-15T14:58:39.136669+00:00",
-      "market": "\ud83c\udf10 BOTH",
-      "text": "\u26bd\ufe0f\ud83d\ude1dHow to make AI baby dance video cara edit ai bayi joget overdrive / template overdrive ai bayi cara edit video bayi yang lagi viral Cara mengedit dan membuat efek video tarian \ud83d\udd25bayi secara gratis a MI image Generator cara buat video bayi joget pakai ai overdrive babv a cara edit ai generated car vidos tutorialith Oroamina Al cara buat foto \u26a1\ufe0fjoget pakai ai gratis cara edit bayi joget ai cara edit bayi joget overdrive cara edit kling ai anak joget cara membuat efek video tarian cara edit ai bayi dance bayi dengan Keling Al secara gratis cara \ud83d\ude18edit bayi joget ai eee a cara edit video foto sendiri joget gerakan Baby Video TikTok Al Baby Filter Al baby dance filter CapCut tutorial Viral Al baby dance effect TikTok How to edit Al baby dance video for TikTok Cute Al baby dancing filter trend Al baby dance template for social \ud83d\ude1cmedia TikTok Al baby dance challenge ideas Free Al baby dance filter app Al baby dance effect for reels How to create a video of Al baby dance? FannyTikTok baby cute aigenerated viraltiktok singing video TikTok sing babydancing Al trendingson How to \ud83d\udd25make AI baby dance video cara edit ai bayi joget overdrive / template overdrive ai bayi cara edit video bayi yang lagi viral Cara mengedit dan membuat efek video tarian bayi secara gratis a MI image Generator cara buat video \ud83e\udd23bayi joget pakai ai overdrive babv a cara edit ai generated car vidos tutorialith Oroamina Al cara buat foto joget pakai ai gratis cara edit bayi joget ai cara edit bayi joget overdrive cara edit kling ai anak joget cara membuat efek video tarian cara edit ai bayi dance bayi dengan Keling \ud83e\udd29Al secara gratis cara edit bayi joget ai eee a cara edit video foto sendiri joget gerakan Baby Video TikTok Al Baby Filter Al baby dance filter CapCut tutorial Viral Al baby dance effect TikTok How to edit Al baby dance video for TikTok Cute Al baby dancing filter trend Al baby dance template for social \ud83d\ude1dmedia TikTok Al baby dance challenge ideas Free Al baby dance filter app Al baby dance effect for reels How to create a video of Al baby dance? FannyTikTok baby cute aigenerated viraltiktok singing video TikTok sing babydancing Al trendingson #pioneertemplate #AIBabyDance #klingai \n#capcut #capcutpioneer ",
-      "creator": "zzyue0609",
-      "checks": [
-        {
-          "timestamp": "2026-02-15T14:58:39.136669+00:00",
-          "age_hours": 43.5,
-          "shares_per_hour": 75.8,
-          "views_per_hour": 1575,
-          "momentum": 885,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-02-15T17:00:51.941700+00:00",
-          "age_hours": 45.5,
-          "shares_per_hour": 72.4,
-          "views_per_hour": 1505,
-          "momentum": 846,
-          "delta_shares_per_hour": -3.3999999999999915
-        },
-        {
-          "timestamp": "2026-02-15T19:05:56.359937+00:00",
-          "age_hours": 47.6,
-          "shares_per_hour": 69.2,
-          "views_per_hour": 1439,
-          "momentum": 809,
-          "delta_shares_per_hour": -3.200000000000003
-        }
-      ],
-      "consecutive_negative_deltas": 2,
-      "alerted": false,
-      "consecutive_misses": 0
-    },
     {
       "url": "https://www.tiktok.com/@boogiebug0/video/7606863988164513054",
       "first_seen": "2026-02-15T17:00:51.941700+00:00",
@@ -95,9 +23,17 @@
           "views_per_hour": 2352,
           "momentum": 674,
           "delta_shares_per_hour": -5.299999999999997
+        },
+        {
+          "timestamp": "2026-02-15T20:55:52.584803+00:00",
+          "age_hours": 21.6,
+          "shares_per_hour": 41.6,
+          "views_per_hour": 2153,
+          "momentum": 617,
+          "delta_shares_per_hour": -3.8999999999999986
         }
       ],
-      "consecutive_negative_deltas": 1,
+      "consecutive_negative_deltas": 2,
       "alerted": false,
       "consecutive_misses": 0
     },
@@ -115,10 +51,19 @@
           "views_per_hour": 2401,
           "momentum": 7251,
           "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-02-15T20:55:52.584803+00:00",
+          "age_hours": 25.2,
+          "shares_per_hour": 568.5,
+          "views_per_hour": 2226,
+          "momentum": 6723,
+          "delta_shares_per_hour": -44.700000000000045
         }
       ],
-      "consecutive_negative_deltas": 0,
-      "alerted": false
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
     },
     {
       "url": "https://www.tiktok.com/@mvdraa/video/7606743367845711126",
@@ -134,10 +79,19 @@
           "views_per_hour": 3179,
           "momentum": 605,
           "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-02-15T20:55:52.584803+00:00",
+          "age_hours": 29.4,
+          "shares_per_hour": 8.5,
+          "views_per_hour": 2982,
+          "momentum": 568,
+          "delta_shares_per_hour": -0.5999999999999996
         }
       ],
-      "consecutive_negative_deltas": 0,
-      "alerted": false
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
     },
     {
       "url": "https://www.tiktok.com/@obslover5.0/video/7606431471854767373",
@@ -153,10 +107,19 @@
           "views_per_hour": 1528,
           "momentum": 430,
           "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-02-15T20:55:52.584803+00:00",
+          "age_hours": 49.6,
+          "shares_per_hour": 29.6,
+          "views_per_hour": 1471,
+          "momentum": 414,
+          "delta_shares_per_hour": -1.1999999999999993
         }
       ],
-      "consecutive_negative_deltas": 0,
-      "alerted": false
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
     },
     {
       "url": "https://www.tiktok.com/@jajaitsai/video/7606427459105443085",
@@ -172,10 +135,19 @@
           "views_per_hour": 453,
           "momentum": 297,
           "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-02-15T20:55:52.584803+00:00",
+          "age_hours": 49.9,
+          "shares_per_hour": 16.0,
+          "views_per_hour": 437,
+          "momentum": 286,
+          "delta_shares_per_hour": -0.6999999999999993
         }
       ],
-      "consecutive_negative_deltas": 0,
-      "alerted": false
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
     },
     {
       "url": "https://www.tiktok.com/@chanda.pokhrel7/video/7606890561554976031",
@@ -190,6 +162,53 @@
           "shares_per_hour": 14.7,
           "views_per_hour": 257,
           "momentum": 211,
+          "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-02-15T20:55:52.584803+00:00",
+          "age_hours": 19.9,
+          "shares_per_hour": 13.4,
+          "views_per_hour": 233,
+          "momentum": 191,
+          "delta_shares_per_hour": -1.299999999999999
+        }
+      ],
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
+    },
+    {
+      "url": "https://www.tiktok.com/@booogiebugie/video/7606615700463013134",
+      "first_seen": "2026-02-15T20:55:52.584803+00:00",
+      "market": "\ud83c\udf10 BOTH",
+      "text": "\ud83d\udc9a Created by KlingAI \ud83d\udcab Copy the video link and make the same one#KLingCreators#KlingAI#viral #funnyai #tiktokfunny ",
+      "creator": "booogiebugie",
+      "checks": [
+        {
+          "timestamp": "2026-02-15T20:55:52.584803+00:00",
+          "age_hours": 37.7,
+          "shares_per_hour": 358.1,
+          "views_per_hour": 29180,
+          "momentum": 5098,
+          "delta_shares_per_hour": null
+        }
+      ],
+      "consecutive_negative_deltas": 0,
+      "alerted": false
+    },
+    {
+      "url": "https://www.tiktok.com/@kiuticami__/video/7606902695705709832",
+      "first_seen": "2026-02-15T20:55:52.584803+00:00",
+      "market": "\ud83c\uddec\ud83c\udde7 UK ONLY",
+      "text": "HEYYY #fyp #kiuticami ",
+      "creator": "kiuticami__",
+      "checks": [
+        {
+          "timestamp": "2026-02-15T20:55:52.584803+00:00",
+          "age_hours": 19.1,
+          "shares_per_hour": 6.9,
+          "views_per_hour": 3385,
+          "momentum": 3959,
           "delta_shares_per_hour": null
         }
       ],
