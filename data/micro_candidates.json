@@ -1,42 +1,6 @@
 {
-  "last_updated": "2026-02-15T20:55:52.589274+00:00",
+  "last_updated": "2026-02-15T22:56:45.707640+00:00",
   "candidates": [
-    {
-      "url": "https://www.tiktok.com/@boogiebug0/video/7606863988164513054",
-      "first_seen": "2026-02-15T17:00:51.941700+00:00",
-      "market": "\ud83c\udf10 BOTH",
-      "text": "I finally stopped gatekeeping \u2014 how I make these AI videos #foryoupag #fyp #viral #funnyai #tiktokfunny ",
-      "creator": "boogiebug0",
-      "checks": [
-        {
-          "timestamp": "2026-02-15T17:00:51.941700+00:00",
-          "age_hours": 17.7,
-          "shares_per_hour": 50.8,
-          "views_per_hour": 2629,
-          "momentum": 753,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-02-15T19:05:56.359937+00:00",
-          "age_hours": 19.8,
-          "shares_per_hour": 45.5,
-          "views_per_hour": 2352,
-          "momentum": 674,
-          "delta_shares_per_hour": -5.299999999999997
-        },
-        {
-          "timestamp": "2026-02-15T20:55:52.584803+00:00",
-          "age_hours": 21.6,
-          "shares_per_hour": 41.6,
-          "views_per_hour": 2153,
-          "momentum": 617,
-          "delta_shares_per_hour": -3.8999999999999986
-        }
-      ],
-      "consecutive_negative_deltas": 2,
-      "alerted": false,
-      "consecutive_misses": 0
-    },
     {
       "url": "https://www.tiktok.com/@quasihuman/video/7606809664222792981",
       "first_seen": "2026-02-15T19:05:56.359937+00:00",
@@ -59,9 +23,17 @@
           "views_per_hour": 2226,
           "momentum": 6723,
           "delta_shares_per_hour": -44.700000000000045
+        },
+        {
+          "timestamp": "2026-02-15T22:56:45.703397+00:00",
+          "age_hours": 27.2,
+          "shares_per_hour": 526.4,
+          "views_per_hour": 2061,
+          "momentum": 6224,
+          "delta_shares_per_hour": -42.10000000000002
         }
       ],
-      "consecutive_negative_deltas": 1,
+      "consecutive_negative_deltas": 2,
       "alerted": false,
       "consecutive_misses": 0
     },
@@ -87,9 +59,17 @@
           "views_per_hour": 2982,
           "momentum": 568,
           "delta_shares_per_hour": -0.5999999999999996
+        },
+        {
+          "timestamp": "2026-02-15T22:56:45.703397+00:00",
+          "age_hours": 31.5,
+          "shares_per_hour": 7.9,
+          "views_per_hour": 2791,
+          "momentum": 531,
+          "delta_shares_per_hour": -0.5999999999999996
         }
       ],
-      "consecutive_negative_deltas": 1,
+      "consecutive_negative_deltas": 2,
       "alerted": false,
       "consecutive_misses": 0
     },
@@ -115,9 +95,17 @@
           "views_per_hour": 1471,
           "momentum": 414,
           "delta_shares_per_hour": -1.1999999999999993
+        },
+        {
+          "timestamp": "2026-02-15T22:56:45.703397+00:00",
+          "age_hours": 51.6,
+          "shares_per_hour": 28.5,
+          "views_per_hour": 1414,
+          "momentum": 398,
+          "delta_shares_per_hour": -1.1000000000000014
         }
       ],
-      "consecutive_negative_deltas": 1,
+      "consecutive_negative_deltas": 2,
       "alerted": false,
       "consecutive_misses": 0
     },
@@ -143,9 +131,17 @@
           "views_per_hour": 437,
           "momentum": 286,
           "delta_shares_per_hour": -0.6999999999999993
+        },
+        {
+          "timestamp": "2026-02-15T22:56:45.703397+00:00",
+          "age_hours": 51.9,
+          "shares_per_hour": 15.4,
+          "views_per_hour": 420,
+          "momentum": 275,
+          "delta_shares_per_hour": -0.5999999999999996
         }
       ],
-      "consecutive_negative_deltas": 1,
+      "consecutive_negative_deltas": 2,
       "alerted": false,
       "consecutive_misses": 0
     },
@@ -171,9 +167,17 @@
           "views_per_hour": 233,
           "momentum": 191,
           "delta_shares_per_hour": -1.299999999999999
+        },
+        {
+          "timestamp": "2026-02-15T22:56:45.703397+00:00",
+          "age_hours": 21.9,
+          "shares_per_hour": 12.1,
+          "views_per_hour": 212,
+          "momentum": 174,
+          "delta_shares_per_hour": -1.3000000000000007
         }
       ],
-      "consecutive_negative_deltas": 1,
+      "consecutive_negative_deltas": 2,
       "alerted": false,
       "consecutive_misses": 0
     },
@@ -191,10 +195,19 @@
           "views_per_hour": 29180,
           "momentum": 5098,
           "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-02-15T22:56:45.703397+00:00",
+          "age_hours": 39.7,
+          "shares_per_hour": 340.0,
+          "views_per_hour": 27700,
+          "momentum": 4839,
+          "delta_shares_per_hour": -18.100000000000023
         }
       ],
-      "consecutive_negative_deltas": 0,
-      "alerted": false
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
     },
     {
       "url": "https://www.tiktok.com/@kiuticami__/video/7606902695705709832",
@@ -209,6 +222,34 @@
           "shares_per_hour": 6.9,
           "views_per_hour": 3385,
           "momentum": 3959,
+          "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-02-15T22:56:45.703397+00:00",
+          "age_hours": 21.2,
+          "shares_per_hour": 6.3,
+          "views_per_hour": 3063,
+          "momentum": 3582,
+          "delta_shares_per_hour": -0.6000000000000005
+        }
+      ],
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
+    },
+    {
+      "url": "https://www.tiktok.com/@masteroogwgayx/video/7606872127974690080",
+      "first_seen": "2026-02-15T22:56:45.703397+00:00",
+      "market": "\ud83c\udf10 BOTH",
+      "text": "#duet with @McKirk #ai ",
+      "creator": "masteroogwgayx",
+      "checks": [
+        {
+          "timestamp": "2026-02-15T22:56:45.703397+00:00",
+          "age_hours": 23.1,
+          "shares_per_hour": 66.4,
+          "views_per_hour": 2516,
+          "momentum": 1367,
           "delta_shares_per_hour": null
         }
       ],
