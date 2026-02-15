@@ -1,186 +1,6 @@
 {
-  "last_updated": "2026-02-15T17:00:51.946075+00:00",
+  "last_updated": "2026-02-15T19:05:56.364786+00:00",
   "candidates": [
-    {
-      "url": "https://www.tiktok.com/@booogiebugie/video/7606615700463013134",
-      "first_seen": "2026-02-15T13:57:21.780176+00:00",
-      "market": "\ud83c\udf10 BOTH",
-      "text": "\ud83d\udc9a Created by KlingAI \ud83d\udcab Copy the video link and make the same one#KLingCreators#KlingAI#viral #funnyai #tiktokfunny ",
-      "creator": "booogiebugie",
-      "checks": [
-        {
-          "timestamp": "2026-02-15T13:57:21.780176+00:00",
-          "age_hours": 30.7,
-          "shares_per_hour": 439.4,
-          "views_per_hour": 35806,
-          "momentum": 6256,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-02-15T14:58:39.136669+00:00",
-          "age_hours": 31.7,
-          "shares_per_hour": 425.3,
-          "views_per_hour": 34653,
-          "momentum": 6054,
-          "delta_shares_per_hour": -14.099999999999966
-        },
-        {
-          "timestamp": "2026-02-15T17:00:51.941700+00:00",
-          "age_hours": 33.8,
-          "shares_per_hour": 399.7,
-          "views_per_hour": 32564,
-          "momentum": 5689,
-          "delta_shares_per_hour": -25.600000000000023
-        }
-      ],
-      "consecutive_negative_deltas": 2,
-      "alerted": false,
-      "consecutive_misses": 0
-    },
-    {
-      "url": "https://www.tiktok.com/@kiuticami__/video/7606902695705709832",
-      "first_seen": "2026-02-15T13:57:21.780176+00:00",
-      "market": "\ud83c\uddec\ud83c\udde7 UK ONLY",
-      "text": "HEYYY #fyp #kiuticami ",
-      "creator": "kiuticami__",
-      "checks": [
-        {
-          "timestamp": "2026-02-15T13:57:21.780176+00:00",
-          "age_hours": 12.2,
-          "shares_per_hour": 10.9,
-          "views_per_hour": 5327,
-          "momentum": 6230,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-02-15T14:58:39.136669+00:00",
-          "age_hours": 13.2,
-          "shares_per_hour": 10.1,
-          "views_per_hour": 4915,
-          "momentum": 5747,
-          "delta_shares_per_hour": -0.8000000000000007
-        },
-        {
-          "timestamp": "2026-02-15T17:00:51.941700+00:00",
-          "age_hours": 15.2,
-          "shares_per_hour": 8.7,
-          "views_per_hour": 4257,
-          "momentum": 4978,
-          "delta_shares_per_hour": -1.4000000000000004
-        }
-      ],
-      "consecutive_negative_deltas": 2,
-      "alerted": false,
-      "consecutive_misses": 0
-    },
-    {
-      "url": "https://www.tiktok.com/@masteroogwgayx/video/7606872127974690080",
-      "first_seen": "2026-02-15T13:57:21.780176+00:00",
-      "market": "\ud83c\udf10 BOTH",
-      "text": "#duet with @McKirk #ai ",
-      "creator": "masteroogwgayx",
-      "checks": [
-        {
-          "timestamp": "2026-02-15T13:57:21.780176+00:00",
-          "age_hours": 14.1,
-          "shares_per_hour": 108.6,
-          "views_per_hour": 4117,
-          "momentum": 2237,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-02-15T14:58:39.136669+00:00",
-          "age_hours": 15.2,
-          "shares_per_hour": 101.3,
-          "views_per_hour": 3839,
-          "momentum": 2086,
-          "delta_shares_per_hour": -7.299999999999997
-        },
-        {
-          "timestamp": "2026-02-15T17:00:51.941700+00:00",
-          "age_hours": 17.2,
-          "shares_per_hour": 89.3,
-          "views_per_hour": 3384,
-          "momentum": 1839,
-          "delta_shares_per_hour": -12.0
-        }
-      ],
-      "consecutive_negative_deltas": 2,
-      "alerted": false,
-      "consecutive_misses": 0
-    },
-    {
-      "url": "https://www.tiktok.com/@boogiebug0/video/7606877772908137758",
-      "first_seen": "2026-02-15T13:57:21.780176+00:00",
-      "market": "\ud83c\udf10 BOTH",
-      "text": "Step-by-step AI video method in bio #foryoupag #viral #funnyai #tiktokfunny #trend ",
-      "creator": "boogiebug0",
-      "checks": [
-        {
-          "timestamp": "2026-02-15T13:57:21.780176+00:00",
-          "age_hours": 13.8,
-          "shares_per_hour": 58.4,
-          "views_per_hour": 5634,
-          "momentum": 1135,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-02-15T14:58:39.136669+00:00",
-          "age_hours": 14.8,
-          "shares_per_hour": 54.3,
-          "views_per_hour": 5245,
-          "momentum": 1056,
-          "delta_shares_per_hour": -4.100000000000001
-        },
-        {
-          "timestamp": "2026-02-15T17:00:51.941700+00:00",
-          "age_hours": 16.8,
-          "shares_per_hour": 47.8,
-          "views_per_hour": 4610,
-          "momentum": 928,
-          "delta_shares_per_hour": -6.5
-        }
-      ],
-      "consecutive_negative_deltas": 2,
-      "alerted": false,
-      "consecutive_misses": 0
-    },
-    {
-      "url": "https://www.tiktok.com/@alexusesai/video/7606413283494563094",
-      "first_seen": "2026-02-15T13:57:21.780176+00:00",
-      "market": "\ud83c\udf10 BOTH",
-      "text": "link in bio #strangerthings #ai #kling #higgsfeild ",
-      "creator": "alexusesai",
-      "checks": [
-        {
-          "timestamp": "2026-02-15T13:57:21.780176+00:00",
-          "age_hours": 43.8,
-          "shares_per_hour": 16.9,
-          "views_per_hour": 5217,
-          "momentum": 1015,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-02-15T14:58:39.136669+00:00",
-          "age_hours": 44.8,
-          "shares_per_hour": 16.5,
-          "views_per_hour": 5098,
-          "momentum": 992,
-          "delta_shares_per_hour": -0.3999999999999986
-        },
-        {
-          "timestamp": "2026-02-15T17:00:51.941700+00:00",
-          "age_hours": 46.9,
-          "shares_per_hour": 15.8,
-          "views_per_hour": 4876,
-          "momentum": 949,
-          "delta_shares_per_hour": -0.6999999999999993
-        }
-      ],
-      "consecutive_negative_deltas": 2,
-      "alerted": false,
-      "consecutive_misses": 0
-    },
     {
       "url": "https://www.tiktok.com/@capcuttrythistemplate00/video/7606544674982989077",
       "first_seen": "2026-02-15T14:58:39.136669+00:00",
@@ -203,9 +23,17 @@
           "views_per_hour": 3502,
           "momentum": 857,
           "delta_shares_per_hour": -0.40000000000000036
+        },
+        {
+          "timestamp": "2026-02-15T19:05:56.359937+00:00",
+          "age_hours": 40.5,
+          "shares_per_hour": 6.9,
+          "views_per_hour": 3321,
+          "momentum": 813,
+          "delta_shares_per_hour": -0.39999999999999947
         }
       ],
-      "consecutive_negative_deltas": 1,
+      "consecutive_negative_deltas": 2,
       "alerted": false,
       "consecutive_misses": 0
     },
@@ -231,9 +59,17 @@
           "views_per_hour": 1505,
           "momentum": 846,
           "delta_shares_per_hour": -3.3999999999999915
+        },
+        {
+          "timestamp": "2026-02-15T19:05:56.359937+00:00",
+          "age_hours": 47.6,
+          "shares_per_hour": 69.2,
+          "views_per_hour": 1439,
+          "momentum": 809,
+          "delta_shares_per_hour": -3.200000000000003
         }
       ],
-      "consecutive_negative_deltas": 1,
+      "consecutive_negative_deltas": 2,
       "alerted": false,
       "consecutive_misses": 0
     },
@@ -250,6 +86,110 @@
           "shares_per_hour": 50.8,
           "views_per_hour": 2629,
           "momentum": 753,
+          "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-02-15T19:05:56.359937+00:00",
+          "age_hours": 19.8,
+          "shares_per_hour": 45.5,
+          "views_per_hour": 2352,
+          "momentum": 674,
+          "delta_shares_per_hour": -5.299999999999997
+        }
+      ],
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
+    },
+    {
+      "url": "https://www.tiktok.com/@quasihuman/video/7606809664222792981",
+      "first_seen": "2026-02-15T19:05:56.359937+00:00",
+      "market": "\ud83c\udf10 BOTH",
+      "text": "\u2764\ufe0f #ai #valentinesday #\u2764\ufe0f ",
+      "creator": "quasihuman",
+      "checks": [
+        {
+          "timestamp": "2026-02-15T19:05:56.359937+00:00",
+          "age_hours": 23.3,
+          "shares_per_hour": 613.2,
+          "views_per_hour": 2401,
+          "momentum": 7251,
+          "delta_shares_per_hour": null
+        }
+      ],
+      "consecutive_negative_deltas": 0,
+      "alerted": false
+    },
+    {
+      "url": "https://www.tiktok.com/@mvdraa/video/7606743367845711126",
+      "first_seen": "2026-02-15T19:05:56.359937+00:00",
+      "market": "\ud83c\udf10 BOTH",
+      "text": "Trending edit tutorial #capcut #capcutpioneer #tutorial #fyp #capcutedit ",
+      "creator": "mvdraa",
+      "checks": [
+        {
+          "timestamp": "2026-02-15T19:05:56.359937+00:00",
+          "age_hours": 27.6,
+          "shares_per_hour": 9.1,
+          "views_per_hour": 3179,
+          "momentum": 605,
+          "delta_shares_per_hour": null
+        }
+      ],
+      "consecutive_negative_deltas": 0,
+      "alerted": false
+    },
+    {
+      "url": "https://www.tiktok.com/@obslover5.0/video/7606431471854767373",
+      "first_seen": "2026-02-15T19:05:56.359937+00:00",
+      "market": "\ud83c\udf10 BOTH",
+      "text": "#sora #ai #fyp #trending #dog ",
+      "creator": "obslover5.0",
+      "checks": [
+        {
+          "timestamp": "2026-02-15T19:05:56.359937+00:00",
+          "age_hours": 47.8,
+          "shares_per_hour": 30.8,
+          "views_per_hour": 1528,
+          "momentum": 430,
+          "delta_shares_per_hour": null
+        }
+      ],
+      "consecutive_negative_deltas": 0,
+      "alerted": false
+    },
+    {
+      "url": "https://www.tiktok.com/@jajaitsai/video/7606427459105443085",
+      "first_seen": "2026-02-15T19:05:56.359937+00:00",
+      "market": "\ud83c\udf10 BOTH",
+      "text": "I don\u2019t think y\u2019all are ready for this one \ud83d\udc37\ud83d\ude2e\u200d\ud83d\udca8#foryoupage #funny #ai #pig #viral ",
+      "creator": "jajaitsai",
+      "checks": [
+        {
+          "timestamp": "2026-02-15T19:05:56.359937+00:00",
+          "age_hours": 48.0,
+          "shares_per_hour": 16.7,
+          "views_per_hour": 453,
+          "momentum": 297,
+          "delta_shares_per_hour": null
+        }
+      ],
+      "consecutive_negative_deltas": 0,
+      "alerted": false
+    },
+    {
+      "url": "https://www.tiktok.com/@chanda.pokhrel7/video/7606890561554976031",
+      "first_seen": "2026-02-15T19:05:56.359937+00:00",
+      "market": "\ud83c\udf10 BOTH",
+      "text": "Ai The pirate portrait -Bai #trendingvideo #Ai#effect #goviral #@Bina Karki @binakarki @chitra ",
+      "creator": "chanda.pokhrel7",
+      "checks": [
+        {
+          "timestamp": "2026-02-15T19:05:56.359937+00:00",
+          "age_hours": 18.1,
+          "shares_per_hour": 14.7,
+          "views_per_hour": 257,
+          "momentum": 211,
           "delta_shares_per_hour": null
         }
       ],
