@@ -1,78 +1,6 @@
 {
-  "last_updated": "2026-02-16T17:58:40.401253+00:00",
+  "last_updated": "2026-02-16T19:47:17.593757+00:00",
   "candidates": [
-    {
-      "url": "https://www.tiktok.com/@boogiebug0/video/7606863988164513054",
-      "first_seen": "2026-02-16T10:35:48.138790+00:00",
-      "market": "\ud83c\udf10 BOTH",
-      "text": "I finally stopped gatekeeping \u2014 how I make these AI videos #foryoupag #fyp #viral #funnyai #tiktokfunny ",
-      "creator": "boogiebug0",
-      "checks": [
-        {
-          "timestamp": "2026-02-16T10:35:48.138790+00:00",
-          "age_hours": 35.3,
-          "shares_per_hour": 7220.3,
-          "views_per_hour": 229441,
-          "momentum": 100586,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-02-16T14:32:43.535009+00:00",
-          "age_hours": 39.3,
-          "shares_per_hour": 6494.0,
-          "views_per_hour": 206359,
-          "momentum": 90467,
-          "delta_shares_per_hour": -726.3000000000002
-        },
-        {
-          "timestamp": "2026-02-16T17:58:40.396640+00:00",
-          "age_hours": 42.7,
-          "shares_per_hour": 5971.8,
-          "views_per_hour": 189765,
-          "momentum": 83192,
-          "delta_shares_per_hour": -522.1999999999998
-        }
-      ],
-      "consecutive_negative_deltas": 2,
-      "alerted": false,
-      "consecutive_misses": 0
-    },
-    {
-      "url": "https://www.tiktok.com/@b1mbitpcf3/video/7606715514844417300",
-      "first_seen": "2026-02-16T10:35:48.138790+00:00",
-      "market": "\ud83c\udf10 BOTH",
-      "text": "#capcut #capcutpioneer  Coloque uma foto sua e crie um v\u00eddeo de dan\u00e7a com uma batida sensacional. Usa esse template e posta no TikTok agora!",
-      "creator": "b1mbitpcf3",
-      "checks": [
-        {
-          "timestamp": "2026-02-16T10:35:48.138790+00:00",
-          "age_hours": 44.9,
-          "shares_per_hour": 1324.9,
-          "views_per_hour": 71253,
-          "momentum": 14996,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-02-16T14:32:43.535009+00:00",
-          "age_hours": 48.9,
-          "shares_per_hour": 1217.8,
-          "views_per_hour": 65495,
-          "momentum": 13784,
-          "delta_shares_per_hour": -107.10000000000014
-        },
-        {
-          "timestamp": "2026-02-16T17:58:40.396640+00:00",
-          "age_hours": 52.3,
-          "shares_per_hour": 1137.9,
-          "views_per_hour": 61196,
-          "momentum": 12879,
-          "delta_shares_per_hour": -79.89999999999986
-        }
-      ],
-      "consecutive_negative_deltas": 2,
-      "alerted": false,
-      "consecutive_misses": 0
-    },
     {
       "url": "https://www.tiktok.com/@ak_pilled/video/7606922195864014094",
       "first_seen": "2026-02-16T17:58:40.396640+00:00",
@@ -87,10 +15,19 @@
           "views_per_hour": 13369,
           "momentum": 4411,
           "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-02-16T19:47:17.589461+00:00",
+          "age_hours": 40.7,
+          "shares_per_hour": 76.5,
+          "views_per_hour": 12774,
+          "momentum": 4215,
+          "delta_shares_per_hour": -3.5999999999999943
         }
       ],
-      "consecutive_negative_deltas": 0,
-      "alerted": false
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
     },
     {
       "url": "https://www.tiktok.com/@mustcopfinds/video/7606818269403630862",
@@ -106,10 +43,19 @@
           "views_per_hour": 9248,
           "momentum": 3660,
           "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-02-16T19:47:17.589461+00:00",
+          "age_hours": 47.4,
+          "shares_per_hour": 149.8,
+          "views_per_hour": 8895,
+          "momentum": 3521,
+          "delta_shares_per_hour": -5.899999999999977
         }
       ],
-      "consecutive_negative_deltas": 0,
-      "alerted": false
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
     },
     {
       "url": "https://www.tiktok.com/@emma799400/video/7607035378331045140",
@@ -125,10 +71,19 @@
           "views_per_hour": 7442,
           "momentum": 2711,
           "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-02-16T19:47:17.589461+00:00",
+          "age_hours": 33.4,
+          "shares_per_hour": 227.9,
+          "views_per_hour": 7039,
+          "momentum": 2565,
+          "delta_shares_per_hour": -13.099999999999994
         }
       ],
-      "consecutive_negative_deltas": 0,
-      "alerted": false
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
     },
     {
       "url": "https://www.tiktok.com/@boogiebug0/video/7607266154947661086",
@@ -144,10 +99,19 @@
           "views_per_hour": 5043,
           "momentum": 2109,
           "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-02-16T19:47:17.589461+00:00",
+          "age_hours": 18.5,
+          "shares_per_hour": 134.7,
+          "views_per_hour": 4549,
+          "momentum": 1903,
+          "delta_shares_per_hour": -14.600000000000023
         }
       ],
-      "consecutive_negative_deltas": 0,
-      "alerted": false
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
     },
     {
       "url": "https://www.tiktok.com/@adriano.explores/video/7607089371845577987",
@@ -163,10 +127,19 @@
           "views_per_hour": 7377,
           "momentum": 1991,
           "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-02-16T19:47:17.589461+00:00",
+          "age_hours": 29.9,
+          "shares_per_hour": 20.8,
+          "views_per_hour": 6931,
+          "momentum": 1871,
+          "delta_shares_per_hour": -1.3000000000000007
         }
       ],
-      "consecutive_negative_deltas": 0,
-      "alerted": false
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
     },
     {
       "url": "https://www.tiktok.com/@lucky32859/video/7606943649494011166",
@@ -181,6 +154,53 @@
           "shares_per_hour": 134.5,
           "views_per_hour": 1460,
           "momentum": 1416,
+          "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-02-16T19:47:17.589461+00:00",
+          "age_hours": 39.3,
+          "shares_per_hour": 128.3,
+          "views_per_hour": 1392,
+          "momentum": 1351,
+          "delta_shares_per_hour": -6.199999999999989
+        }
+      ],
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
+    },
+    {
+      "url": "https://www.tiktok.com/@dominicpenyak/video/7607220440989240590",
+      "first_seen": "2026-02-16T19:47:17.589461+00:00",
+      "market": "\ud83c\udf10 BOTH",
+      "text": "#antiAI #AI #stopAI #fyp #follow ",
+      "creator": "dominicpenyak",
+      "checks": [
+        {
+          "timestamp": "2026-02-16T19:47:17.589461+00:00",
+          "age_hours": 21.4,
+          "shares_per_hour": 6.5,
+          "views_per_hour": 1110,
+          "momentum": 962,
+          "delta_shares_per_hour": null
+        }
+      ],
+      "consecutive_negative_deltas": 0,
+      "alerted": false
+    },
+    {
+      "url": "https://www.tiktok.com/@migue.baena/video/7607123630287342881",
+      "first_seen": "2026-02-16T19:47:17.589461+00:00",
+      "market": "\ud83c\udf10 BOTH",
+      "text": "\ud83d\udea8 \u00bfSigues pagando suscripciones para crear videos con Inteligencia Artificial? \ud83d\udcb8 Entonces esto te interesa \ud83e\udd2f\n\ud83d\udc49\ud83c\udffb Hoy te traigo a SkyReels, una herramienta open-source que permite crear videos cinematogr\u00e1ficos con IA, gratis y sin l\u00edmites de duraci\u00f3n. S\u00ed, sin pagar Veo, Kling ni otras plataformas cerradas. \ud83c\udfac\n\u2022\nEsto es lo que realmente la hace potente \ud83d\udc47\ud83c\udffb\n\u2714\ufe0f Texto o imagen a video con resultados realistas\n\u2714\ufe0f Control de c\u00e1mara: movimientos, planos y estilo visual\n\u2714\ufe0f Sonido integrado: m\u00fasica y efectos desde la misma herramienta\n\u2714\ufe0f Lip sync avanzado con voces reales\n\u2714\ufe0f Sin instalaciones complicadas: \u00fasala desde la web o en Hugging Face\n\ud83e\udd29 Para creadores, marketers y agencias, esto es un PLUS para tus videos con IA.\n\u2022\n\ud83d\udc49\ud83c\udffb Si quieres probarlo, entra al link https://f.mtr.cool/zoqgfzlurx y empieza a crear tus propios videos con IA hoy mismo.\n\ud83d\udcda Si quieres aprender a usar herramientas avanzadas de IA para tu negocio, tu agencia o tus proyectos: Entra a mi Comunidad Exclusiva desde el link en la bio. \ud83d\udd17\n\u2022\n#IA #InteligenciaArtificial #SkyReels #CreacionDeContenido #VideoIA #HerramientasDigitales #MarketingDigital #GoogleVeo #KlingAI #CreacionDeVideos",
+      "creator": "migue.baena",
+      "checks": [
+        {
+          "timestamp": "2026-02-16T19:47:17.589461+00:00",
+          "age_hours": 27.7,
+          "shares_per_hour": 37.8,
+          "views_per_hour": 1234,
+          "momentum": 630,
           "delta_shares_per_hour": null
         }
       ],
