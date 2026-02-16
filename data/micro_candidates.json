@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-16T19:47:17.593757+00:00",
+  "last_updated": "2026-02-16T21:00:40.164501+00:00",
   "candidates": [
     {
       "url": "https://www.tiktok.com/@ak_pilled/video/7606922195864014094",
@@ -23,9 +23,17 @@
           "views_per_hour": 12774,
           "momentum": 4215,
           "delta_shares_per_hour": -3.5999999999999943
+        },
+        {
+          "timestamp": "2026-02-16T21:00:40.164360+00:00",
+          "age_hours": 42.0,
+          "shares_per_hour": 74.3,
+          "views_per_hour": 12402,
+          "momentum": 4092,
+          "delta_shares_per_hour": -2.200000000000003
         }
       ],
-      "consecutive_negative_deltas": 1,
+      "consecutive_negative_deltas": 2,
       "alerted": false,
       "consecutive_misses": 0
     },
@@ -51,9 +59,17 @@
           "views_per_hour": 8895,
           "momentum": 3521,
           "delta_shares_per_hour": -5.899999999999977
+        },
+        {
+          "timestamp": "2026-02-16T21:00:40.164360+00:00",
+          "age_hours": 48.7,
+          "shares_per_hour": 146.0,
+          "views_per_hour": 8672,
+          "momentum": 3432,
+          "delta_shares_per_hour": -3.8000000000000114
         }
       ],
-      "consecutive_negative_deltas": 1,
+      "consecutive_negative_deltas": 2,
       "alerted": false,
       "consecutive_misses": 0
     },
@@ -79,9 +95,17 @@
           "views_per_hour": 7039,
           "momentum": 2565,
           "delta_shares_per_hour": -13.099999999999994
+        },
+        {
+          "timestamp": "2026-02-16T21:00:40.164360+00:00",
+          "age_hours": 34.6,
+          "shares_per_hour": 219.9,
+          "views_per_hour": 6790,
+          "momentum": 2474,
+          "delta_shares_per_hour": -8.0
         }
       ],
-      "consecutive_negative_deltas": 1,
+      "consecutive_negative_deltas": 2,
       "alerted": false,
       "consecutive_misses": 0
     },
@@ -107,9 +131,17 @@
           "views_per_hour": 4549,
           "momentum": 1903,
           "delta_shares_per_hour": -14.600000000000023
+        },
+        {
+          "timestamp": "2026-02-16T21:00:40.164360+00:00",
+          "age_hours": 19.7,
+          "shares_per_hour": 126.3,
+          "views_per_hour": 4267,
+          "momentum": 1784,
+          "delta_shares_per_hour": -8.399999999999991
         }
       ],
-      "consecutive_negative_deltas": 1,
+      "consecutive_negative_deltas": 2,
       "alerted": false,
       "consecutive_misses": 0
     },
@@ -135,9 +167,17 @@
           "views_per_hour": 6931,
           "momentum": 1871,
           "delta_shares_per_hour": -1.3000000000000007
+        },
+        {
+          "timestamp": "2026-02-16T21:00:40.164360+00:00",
+          "age_hours": 31.1,
+          "shares_per_hour": 19.9,
+          "views_per_hour": 6659,
+          "momentum": 1797,
+          "delta_shares_per_hour": -0.9000000000000021
         }
       ],
-      "consecutive_negative_deltas": 1,
+      "consecutive_negative_deltas": 2,
       "alerted": false,
       "consecutive_misses": 0
     },
@@ -163,9 +203,17 @@
           "views_per_hour": 1392,
           "momentum": 1351,
           "delta_shares_per_hour": -6.199999999999989
+        },
+        {
+          "timestamp": "2026-02-16T21:00:40.164360+00:00",
+          "age_hours": 40.6,
+          "shares_per_hour": 124.4,
+          "views_per_hour": 1350,
+          "momentum": 1310,
+          "delta_shares_per_hour": -3.9000000000000057
         }
       ],
-      "consecutive_negative_deltas": 1,
+      "consecutive_negative_deltas": 2,
       "alerted": false,
       "consecutive_misses": 0
     },
@@ -183,10 +231,19 @@
           "views_per_hour": 1110,
           "momentum": 962,
           "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-02-16T21:00:40.164360+00:00",
+          "age_hours": 22.7,
+          "shares_per_hour": 6.1,
+          "views_per_hour": 1050,
+          "momentum": 910,
+          "delta_shares_per_hour": -0.40000000000000036
         }
       ],
-      "consecutive_negative_deltas": 0,
-      "alerted": false
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
     },
     {
       "url": "https://www.tiktok.com/@migue.baena/video/7607123630287342881",
@@ -202,10 +259,19 @@
           "views_per_hour": 1234,
           "momentum": 630,
           "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-02-16T21:00:40.164360+00:00",
+          "age_hours": 28.9,
+          "shares_per_hour": 36.2,
+          "views_per_hour": 1182,
+          "momentum": 603,
+          "delta_shares_per_hour": -1.5999999999999943
         }
       ],
-      "consecutive_negative_deltas": 0,
-      "alerted": false
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
     }
   ]
 }
