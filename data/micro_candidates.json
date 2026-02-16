@@ -1,190 +1,6 @@
 {
-  "last_updated": "2026-02-16T14:32:43.535108+00:00",
+  "last_updated": "2026-02-16T17:58:40.401253+00:00",
   "candidates": [
-    {
-      "url": "https://www.tiktok.com/@quasihuman/video/7606809664222792981",
-      "first_seen": "2026-02-15T19:05:56.359937+00:00",
-      "market": "\ud83c\udf10 BOTH",
-      "text": "\u2764\ufe0f #ai #valentinesday #\u2764\ufe0f ",
-      "creator": "quasihuman",
-      "checks": [
-        {
-          "timestamp": "2026-02-15T19:05:56.359937+00:00",
-          "age_hours": 23.3,
-          "shares_per_hour": 613.2,
-          "views_per_hour": 2401,
-          "momentum": 7251,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-02-15T20:55:52.584803+00:00",
-          "age_hours": 25.2,
-          "shares_per_hour": 568.5,
-          "views_per_hour": 2226,
-          "momentum": 6723,
-          "delta_shares_per_hour": -44.700000000000045
-        },
-        {
-          "timestamp": "2026-02-15T22:56:45.703397+00:00",
-          "age_hours": 27.2,
-          "shares_per_hour": 526.4,
-          "views_per_hour": 2061,
-          "momentum": 6224,
-          "delta_shares_per_hour": -42.10000000000002
-        }
-      ],
-      "consecutive_negative_deltas": 2,
-      "alerted": false,
-      "consecutive_misses": 2
-    },
-    {
-      "url": "https://www.tiktok.com/@obslover5.0/video/7606431471854767373",
-      "first_seen": "2026-02-15T19:05:56.359937+00:00",
-      "market": "\ud83c\udf10 BOTH",
-      "text": "#sora #ai #fyp #trending #dog ",
-      "creator": "obslover5.0",
-      "checks": [
-        {
-          "timestamp": "2026-02-15T19:05:56.359937+00:00",
-          "age_hours": 47.8,
-          "shares_per_hour": 30.8,
-          "views_per_hour": 1528,
-          "momentum": 430,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-02-15T20:55:52.584803+00:00",
-          "age_hours": 49.6,
-          "shares_per_hour": 29.6,
-          "views_per_hour": 1471,
-          "momentum": 414,
-          "delta_shares_per_hour": -1.1999999999999993
-        },
-        {
-          "timestamp": "2026-02-15T22:56:45.703397+00:00",
-          "age_hours": 51.6,
-          "shares_per_hour": 28.5,
-          "views_per_hour": 1414,
-          "momentum": 398,
-          "delta_shares_per_hour": -1.1000000000000014
-        }
-      ],
-      "consecutive_negative_deltas": 2,
-      "alerted": false,
-      "consecutive_misses": 2
-    },
-    {
-      "url": "https://www.tiktok.com/@chanda.pokhrel7/video/7606890561554976031",
-      "first_seen": "2026-02-15T19:05:56.359937+00:00",
-      "market": "\ud83c\udf10 BOTH",
-      "text": "Ai The pirate portrait -Bai #trendingvideo #Ai#effect #goviral #@Bina Karki @binakarki @chitra ",
-      "creator": "chanda.pokhrel7",
-      "checks": [
-        {
-          "timestamp": "2026-02-15T19:05:56.359937+00:00",
-          "age_hours": 18.1,
-          "shares_per_hour": 14.7,
-          "views_per_hour": 257,
-          "momentum": 211,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-02-15T20:55:52.584803+00:00",
-          "age_hours": 19.9,
-          "shares_per_hour": 13.4,
-          "views_per_hour": 233,
-          "momentum": 191,
-          "delta_shares_per_hour": -1.299999999999999
-        },
-        {
-          "timestamp": "2026-02-15T22:56:45.703397+00:00",
-          "age_hours": 21.9,
-          "shares_per_hour": 12.1,
-          "views_per_hour": 212,
-          "momentum": 174,
-          "delta_shares_per_hour": -1.3000000000000007
-        }
-      ],
-      "consecutive_negative_deltas": 2,
-      "alerted": false,
-      "consecutive_misses": 2
-    },
-    {
-      "url": "https://www.tiktok.com/@booogiebugie/video/7606615700463013134",
-      "first_seen": "2026-02-15T20:55:52.584803+00:00",
-      "market": "\ud83c\udf10 BOTH",
-      "text": "\ud83d\udc9a Created by KlingAI \ud83d\udcab Copy the video link and make the same one#KLingCreators#KlingAI#viral #funnyai #tiktokfunny ",
-      "creator": "booogiebugie",
-      "checks": [
-        {
-          "timestamp": "2026-02-15T20:55:52.584803+00:00",
-          "age_hours": 37.7,
-          "shares_per_hour": 358.1,
-          "views_per_hour": 29180,
-          "momentum": 5098,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-02-15T22:56:45.703397+00:00",
-          "age_hours": 39.7,
-          "shares_per_hour": 340.0,
-          "views_per_hour": 27700,
-          "momentum": 4839,
-          "delta_shares_per_hour": -18.100000000000023
-        }
-      ],
-      "consecutive_negative_deltas": 1,
-      "alerted": false,
-      "consecutive_misses": 2
-    },
-    {
-      "url": "https://www.tiktok.com/@kiuticami__/video/7606902695705709832",
-      "first_seen": "2026-02-15T20:55:52.584803+00:00",
-      "market": "\ud83c\uddec\ud83c\udde7 UK ONLY",
-      "text": "HEYYY #fyp #kiuticami ",
-      "creator": "kiuticami__",
-      "checks": [
-        {
-          "timestamp": "2026-02-15T20:55:52.584803+00:00",
-          "age_hours": 19.1,
-          "shares_per_hour": 6.9,
-          "views_per_hour": 3385,
-          "momentum": 3959,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-02-15T22:56:45.703397+00:00",
-          "age_hours": 21.2,
-          "shares_per_hour": 6.3,
-          "views_per_hour": 3063,
-          "momentum": 3582,
-          "delta_shares_per_hour": -0.6000000000000005
-        }
-      ],
-      "consecutive_negative_deltas": 1,
-      "alerted": false,
-      "consecutive_misses": 2
-    },
-    {
-      "url": "https://www.tiktok.com/@masteroogwgayx/video/7606872127974690080",
-      "first_seen": "2026-02-15T22:56:45.703397+00:00",
-      "market": "\ud83c\udf10 BOTH",
-      "text": "#duet with @McKirk #ai ",
-      "creator": "masteroogwgayx",
-      "checks": [
-        {
-          "timestamp": "2026-02-15T22:56:45.703397+00:00",
-          "age_hours": 23.1,
-          "shares_per_hour": 66.4,
-          "views_per_hour": 2516,
-          "momentum": 1367,
-          "delta_shares_per_hour": null
-        }
-      ],
-      "consecutive_negative_deltas": 0,
-      "alerted": false,
-      "consecutive_misses": 2
-    },
     {
       "url": "https://www.tiktok.com/@boogiebug0/video/7606863988164513054",
       "first_seen": "2026-02-16T10:35:48.138790+00:00",
@@ -207,9 +23,17 @@
           "views_per_hour": 206359,
           "momentum": 90467,
           "delta_shares_per_hour": -726.3000000000002
+        },
+        {
+          "timestamp": "2026-02-16T17:58:40.396640+00:00",
+          "age_hours": 42.7,
+          "shares_per_hour": 5971.8,
+          "views_per_hour": 189765,
+          "momentum": 83192,
+          "delta_shares_per_hour": -522.1999999999998
         }
       ],
-      "consecutive_negative_deltas": 1,
+      "consecutive_negative_deltas": 2,
       "alerted": false,
       "consecutive_misses": 0
     },
@@ -235,11 +59,133 @@
           "views_per_hour": 65495,
           "momentum": 13784,
           "delta_shares_per_hour": -107.10000000000014
+        },
+        {
+          "timestamp": "2026-02-16T17:58:40.396640+00:00",
+          "age_hours": 52.3,
+          "shares_per_hour": 1137.9,
+          "views_per_hour": 61196,
+          "momentum": 12879,
+          "delta_shares_per_hour": -79.89999999999986
         }
       ],
-      "consecutive_negative_deltas": 1,
+      "consecutive_negative_deltas": 2,
       "alerted": false,
       "consecutive_misses": 0
+    },
+    {
+      "url": "https://www.tiktok.com/@ak_pilled/video/7606922195864014094",
+      "first_seen": "2026-02-16T17:58:40.396640+00:00",
+      "market": "\ud83c\uddfa\ud83c\uddf8 US ONLY",
+      "text": "Best gift parents can give. #looks #glowup #mallu ",
+      "creator": "ak_pilled",
+      "checks": [
+        {
+          "timestamp": "2026-02-16T17:58:40.396640+00:00",
+          "age_hours": 38.9,
+          "shares_per_hour": 80.1,
+          "views_per_hour": 13369,
+          "momentum": 4411,
+          "delta_shares_per_hour": null
+        }
+      ],
+      "consecutive_negative_deltas": 0,
+      "alerted": false
+    },
+    {
+      "url": "https://www.tiktok.com/@mustcopfinds/video/7606818269403630862",
+      "first_seen": "2026-02-16T17:58:40.396640+00:00",
+      "market": "\ud83c\udf10 BOTH",
+      "text": "Ranking Diabolical Ai Trailers Part 4\ud83d\ude2d#fyp #disney #trailer #viral #sora ",
+      "creator": "mustcopfinds",
+      "checks": [
+        {
+          "timestamp": "2026-02-16T17:58:40.396640+00:00",
+          "age_hours": 45.6,
+          "shares_per_hour": 155.7,
+          "views_per_hour": 9248,
+          "momentum": 3660,
+          "delta_shares_per_hour": null
+        }
+      ],
+      "consecutive_negative_deltas": 0,
+      "alerted": false
+    },
+    {
+      "url": "https://www.tiktok.com/@emma799400/video/7607035378331045140",
+      "first_seen": "2026-02-16T17:58:40.396640+00:00",
+      "market": "\ud83c\uddec\ud83c\udde7 UK ONLY",
+      "text": "Como fazer a IA dan\u00e7ar essa coreografia para voc\u00ea? \ud83d\udc83\n\u00c9 muito mais f\u00e1cil do que voc\u00ea pensa. \ud83c\udfb5\nBasta s\u00f3 uma foto que t\u00e1 feito.\nA IA faz tudo sozinha, voc\u00ea n\u00e3o mexe uma m\u00e3o sequer. \u26a1\nDeixa as m\u00e3os livres, relaxa que a tecnologia cuida de tudo.\nUm toque, uma foto, e a dan\u00e7a mais legal aparece na hora. \ud83e\udea9\nEsse modelo \u00e9 sensacional, todo mundo est\u00e1 amando e usando.\nSe voc\u00ea quer um v\u00eddeo que chama aten\u00e7\u00e3o na hora, \u00e9 esse mesmo. \ud83e\udd29\nCria o seu agora e arrasa por a\u00ed! \ud83d\udd25\n#fyp #funk #aifilter #capcutpioneer #capcut",
+      "creator": "emma799400",
+      "checks": [
+        {
+          "timestamp": "2026-02-16T17:58:40.396640+00:00",
+          "age_hours": 31.6,
+          "shares_per_hour": 241.0,
+          "views_per_hour": 7442,
+          "momentum": 2711,
+          "delta_shares_per_hour": null
+        }
+      ],
+      "consecutive_negative_deltas": 0,
+      "alerted": false
+    },
+    {
+      "url": "https://www.tiktok.com/@boogiebug0/video/7607266154947661086",
+      "first_seen": "2026-02-16T17:58:40.396640+00:00",
+      "market": "\ud83c\udf10 BOTH",
+      "text": "My viral AI video method full guide in bio (step-by-step) #foryoupag #funnyai #tiktokfunny #trend #viral ",
+      "creator": "boogiebug0",
+      "checks": [
+        {
+          "timestamp": "2026-02-16T17:58:40.396640+00:00",
+          "age_hours": 16.7,
+          "shares_per_hour": 149.3,
+          "views_per_hour": 5043,
+          "momentum": 2109,
+          "delta_shares_per_hour": null
+        }
+      ],
+      "consecutive_negative_deltas": 0,
+      "alerted": false
+    },
+    {
+      "url": "https://www.tiktok.com/@adriano.explores/video/7607089371845577987",
+      "first_seen": "2026-02-16T17:58:40.396640+00:00",
+      "market": "\ud83c\udf10 BOTH",
+      "text": "@Breckie Hill Collab with me #ai #model #faceswap #method ",
+      "creator": "adriano.explores",
+      "checks": [
+        {
+          "timestamp": "2026-02-16T17:58:40.396640+00:00",
+          "age_hours": 28.1,
+          "shares_per_hour": 22.1,
+          "views_per_hour": 7377,
+          "momentum": 1991,
+          "delta_shares_per_hour": null
+        }
+      ],
+      "consecutive_negative_deltas": 0,
+      "alerted": false
+    },
+    {
+      "url": "https://www.tiktok.com/@lucky32859/video/7606943649494011166",
+      "first_seen": "2026-02-16T17:58:40.396640+00:00",
+      "market": "\ud83c\udf10 BOTH",
+      "text": "ai sway dance effect\nai baby dance generator\nbaby dancing ai tutorial\nai dance filter tutorial capcut\nai sway baby dance effect\nai baby dancing tutorial\nboo headband baby dancing ai video\nai dance filter effect\nai sway dance effect prompt\nbaby dancing ai video\nai sway dance effect filter 2026\nai dance filter tutorial\nai sway dance effect video\nbaby ai trending\nai baby dancing app\nai sway dance effect tutorial\nai baby sway dance effect\nai generated sway dance effect\nbaby dancing ai to boo tutorial\nendurance grand ai baby dance effect\nai sway dance effect baby\nai dance filter tutorial no template\nboo boo baby dancing ai\nai sway dance filter tutorial\nbaby dancing ai template\nai sway baby effects\nai sway dance effect photo\nbaby dancing ai tutorials\nai sway dance filter\n#endurancegrand\n#SwayDanceEffect #capcut #capcutpioneer",
+      "creator": "lucky32859",
+      "checks": [
+        {
+          "timestamp": "2026-02-16T17:58:40.396640+00:00",
+          "age_hours": 37.5,
+          "shares_per_hour": 134.5,
+          "views_per_hour": 1460,
+          "momentum": 1416,
+          "delta_shares_per_hour": null
+        }
+      ],
+      "consecutive_negative_deltas": 0,
+      "alerted": false
     }
   ]
 }
