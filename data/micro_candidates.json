@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-17T10:32:04.117231+00:00",
+  "last_updated": "2026-02-17T14:37:19.358089+00:00",
   "candidates": [
     {
       "url": "https://www.tiktok.com/@dominicpenyak/video/7607220440989240590",
@@ -35,7 +35,7 @@
       ],
       "consecutive_negative_deltas": 2,
       "alerted": false,
-      "consecutive_misses": 1
+      "consecutive_misses": 2
     },
     {
       "url": "https://www.tiktok.com/@migue.baena/video/7607123630287342881",
@@ -71,35 +71,7 @@
       ],
       "consecutive_negative_deltas": 2,
       "alerted": false,
-      "consecutive_misses": 1
-    },
-    {
-      "url": "https://www.tiktok.com/@boogiebug0/video/7606863988164513054",
-      "first_seen": "2026-02-16T23:01:38.341749+00:00",
-      "market": "\ud83c\udf10 BOTH",
-      "text": "I finally stopped gatekeeping \u2014 how I make these AI videos #foryoupag #fyp #viral #funnyai #tiktokfunny ",
-      "creator": "boogiebug0",
-      "checks": [
-        {
-          "timestamp": "2026-02-16T23:01:38.341749+00:00",
-          "age_hours": 47.7,
-          "shares_per_hour": 5340.0,
-          "views_per_hour": 169691,
-          "momentum": 74391,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-02-17T10:32:04.117125+00:00",
-          "age_hours": 59.2,
-          "shares_per_hour": 9854.7,
-          "views_per_hour": 285276,
-          "momentum": 136635,
-          "delta_shares_per_hour": 4514.700000000001
-        }
-      ],
-      "consecutive_negative_deltas": 0,
-      "alerted": false,
-      "consecutive_misses": 0
+      "consecutive_misses": 2
     },
     {
       "url": "https://www.tiktok.com/@pardesi_kanxa.0.x.3/video/7607050226624384277",
@@ -123,9 +95,17 @@
           "views_per_hour": 12231,
           "momentum": 783,
           "delta_shares_per_hour": 3.5
+        },
+        {
+          "timestamp": "2026-02-17T14:37:19.353538+00:00",
+          "age_hours": 51.3,
+          "shares_per_hour": 11.2,
+          "views_per_hour": 11256,
+          "momentum": 720,
+          "delta_shares_per_hour": -0.9000000000000004
         }
       ],
-      "consecutive_negative_deltas": 0,
+      "consecutive_negative_deltas": 1,
       "alerted": false,
       "consecutive_misses": 0
     },
@@ -147,7 +127,7 @@
       ],
       "consecutive_negative_deltas": 0,
       "alerted": false,
-      "consecutive_misses": 1
+      "consecutive_misses": 2
     },
     {
       "url": "https://www.tiktok.com/@boogiebug0/video/7607256671315971358",
@@ -167,7 +147,7 @@
       ],
       "consecutive_negative_deltas": 0,
       "alerted": false,
-      "consecutive_misses": 1
+      "consecutive_misses": 2
     },
     {
       "url": "https://www.tiktok.com/@kup863/video/7607082480885091597",
@@ -187,7 +167,7 @@
       ],
       "consecutive_negative_deltas": 0,
       "alerted": false,
-      "consecutive_misses": 1
+      "consecutive_misses": 2
     },
     {
       "url": "https://www.tiktok.com/@zzyue0609/video/7607155917116738847",
@@ -211,11 +191,38 @@
           "views_per_hour": 795,
           "momentum": 363,
           "delta_shares_per_hour": 17.7
+        },
+        {
+          "timestamp": "2026-02-17T14:37:19.353538+00:00",
+          "age_hours": 44.4,
+          "shares_per_hour": 27.9,
+          "views_per_hour": 722,
+          "momentum": 330,
+          "delta_shares_per_hour": -2.8000000000000007
+        }
+      ],
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
+    },
+    {
+      "url": "https://www.tiktok.com/@boogiebug0/video/7607266154947661086",
+      "first_seen": "2026-02-17T14:37:19.353538+00:00",
+      "market": "\ud83c\udf10 BOTH",
+      "text": "My viral AI video method full guide in bio (step-by-step) #foryoupag #funnyai #tiktokfunny #trend #viral ",
+      "creator": "boogiebug0",
+      "checks": [
+        {
+          "timestamp": "2026-02-17T14:37:19.353538+00:00",
+          "age_hours": 37.3,
+          "shares_per_hour": 3933.7,
+          "views_per_hour": 66991,
+          "momentum": 47105,
+          "delta_shares_per_hour": null
         }
       ],
       "consecutive_negative_deltas": 0,
-      "alerted": false,
-      "consecutive_misses": 0
+      "alerted": false
     }
   ]
 }
