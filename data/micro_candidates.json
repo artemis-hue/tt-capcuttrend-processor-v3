@@ -1,42 +1,6 @@
 {
-  "last_updated": "2026-02-17T21:49:24.867417+00:00",
+  "last_updated": "2026-02-17T23:01:34.649883+00:00",
   "candidates": [
-    {
-      "url": "https://www.tiktok.com/@boogiebug0/video/7607266154947661086",
-      "first_seen": "2026-02-17T14:37:19.353538+00:00",
-      "market": "\ud83c\udf10 BOTH",
-      "text": "My viral AI video method full guide in bio (step-by-step) #foryoupag #funnyai #tiktokfunny #trend #viral ",
-      "creator": "boogiebug0",
-      "checks": [
-        {
-          "timestamp": "2026-02-17T14:37:19.353538+00:00",
-          "age_hours": 37.3,
-          "shares_per_hour": 3933.7,
-          "views_per_hour": 66991,
-          "momentum": 47105,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-02-17T18:37:56.567876+00:00",
-          "age_hours": 41.3,
-          "shares_per_hour": 3552.0,
-          "views_per_hour": 60490,
-          "momentum": 42534,
-          "delta_shares_per_hour": -381.6999999999998
-        },
-        {
-          "timestamp": "2026-02-17T21:49:24.862614+00:00",
-          "age_hours": 44.5,
-          "shares_per_hour": 3297.4,
-          "views_per_hour": 56154,
-          "momentum": 39485,
-          "delta_shares_per_hour": -254.5999999999999
-        }
-      ],
-      "consecutive_negative_deltas": 2,
-      "alerted": false,
-      "consecutive_misses": 0
-    },
     {
       "url": "https://www.tiktok.com/@comedy.clips783/video/7607190345566194974",
       "first_seen": "2026-02-17T18:37:56.567876+00:00",
@@ -59,9 +23,17 @@
           "views_per_hour": 159850,
           "momentum": 38295,
           "delta_shares_per_hour": -180.4000000000001
+        },
+        {
+          "timestamp": "2026-02-17T23:01:34.645170+00:00",
+          "age_hours": 50.6,
+          "shares_per_hour": 2550.2,
+          "views_per_hour": 156053,
+          "momentum": 37385,
+          "delta_shares_per_hour": -62.0
         }
       ],
-      "consecutive_negative_deltas": 1,
+      "consecutive_negative_deltas": 2,
       "alerted": false,
       "consecutive_misses": 0
     },
@@ -87,9 +59,17 @@
           "views_per_hour": 43380,
           "momentum": 29207,
           "delta_shares_per_hour": -296.9000000000001
+        },
+        {
+          "timestamp": "2026-02-17T23:01:34.645170+00:00",
+          "age_hours": 24.3,
+          "shares_per_hour": 1756.4,
+          "views_per_hour": 41229,
+          "momentum": 27759,
+          "delta_shares_per_hour": -91.59999999999991
         }
       ],
-      "consecutive_negative_deltas": 1,
+      "consecutive_negative_deltas": 2,
       "alerted": false,
       "consecutive_misses": 0
     },
@@ -115,9 +95,17 @@
           "views_per_hour": 9149,
           "momentum": 5098,
           "delta_shares_per_hour": -5.0
+        },
+        {
+          "timestamp": "2026-02-17T23:01:34.645170+00:00",
+          "age_hours": 29.4,
+          "shares_per_hour": 37.7,
+          "views_per_hour": 8774,
+          "momentum": 4889,
+          "delta_shares_per_hour": -1.5999999999999943
         }
       ],
-      "consecutive_negative_deltas": 1,
+      "consecutive_negative_deltas": 2,
       "alerted": false,
       "consecutive_misses": 0
     },
@@ -143,9 +131,17 @@
           "views_per_hour": 7361,
           "momentum": 5262,
           "delta_shares_per_hour": -1.3000000000000007
+        },
+        {
+          "timestamp": "2026-02-17T23:01:34.645170+00:00",
+          "age_hours": 50.4,
+          "shares_per_hour": 18.5,
+          "views_per_hour": 7185,
+          "momentum": 5136,
+          "delta_shares_per_hour": -0.5
         }
       ],
-      "consecutive_negative_deltas": 1,
+      "consecutive_negative_deltas": 2,
       "alerted": false,
       "consecutive_misses": 0
     },
@@ -171,9 +167,17 @@
           "views_per_hour": 1844,
           "momentum": 3757,
           "delta_shares_per_hour": -42.0
+        },
+        {
+          "timestamp": "2026-02-17T23:01:34.645170+00:00",
+          "age_hours": 27.1,
+          "shares_per_hour": 285.4,
+          "views_per_hour": 1762,
+          "momentum": 3590,
+          "delta_shares_per_hour": -13.300000000000011
         }
       ],
-      "consecutive_negative_deltas": 1,
+      "consecutive_negative_deltas": 2,
       "alerted": false,
       "consecutive_misses": 0
     },
@@ -191,10 +195,19 @@
           "views_per_hour": 3595,
           "momentum": 2020,
           "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-02-17T23:01:34.645170+00:00",
+          "age_hours": 38.4,
+          "shares_per_hour": 152.7,
+          "views_per_hour": 3483,
+          "momentum": 1957,
+          "delta_shares_per_hour": -5.0
         }
       ],
-      "consecutive_negative_deltas": 0,
-      "alerted": false
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
     },
     {
       "url": "https://www.tiktok.com/@dailymail/video/7607573747733695757",
@@ -209,6 +222,34 @@
           "shares_per_hour": 64.5,
           "views_per_hour": 6823,
           "momentum": 1659,
+          "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-02-17T23:01:34.645170+00:00",
+          "age_hours": 25.8,
+          "shares_per_hour": 61.5,
+          "views_per_hour": 6505,
+          "momentum": 1581,
+          "delta_shares_per_hour": -3.0
+        }
+      ],
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
+    },
+    {
+      "url": "https://www.tiktok.com/@po94275/video/7607266442290941197",
+      "first_seen": "2026-02-17T23:01:34.645170+00:00",
+      "market": "\ud83c\udf10 BOTH",
+      "text": "Rain AI Effect Filter Tutorial, Create Rain AI Effect Filter Tutorial with One Photo, Editing Creative Rain AI Effect Filter,#capcutforus #capcut#capcutpioneer #gemini #aiRain AI Effect Filter Tutorial, Membuat Rain AI Effect Filter Tutorial dengan satu foto, Foto Gemini Editing Creative Rain AI Effect Filter",
+      "creator": "po94275",
+      "checks": [
+        {
+          "timestamp": "2026-02-17T23:01:34.645170+00:00",
+          "age_hours": 45.7,
+          "shares_per_hour": 75.8,
+          "views_per_hour": 1967,
+          "momentum": 838,
           "delta_shares_per_hour": null
         }
       ],
