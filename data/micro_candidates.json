@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-18T10:28:19.541002+00:00",
+  "last_updated": "2026-02-18T14:36:21.088567+00:00",
   "candidates": [
     {
       "url": "https://www.tiktok.com/@comedy.clips783/video/7607190345566194974",
@@ -35,7 +35,7 @@
       ],
       "consecutive_negative_deltas": 2,
       "alerted": false,
-      "consecutive_misses": 1
+      "consecutive_misses": 2
     },
     {
       "url": "https://www.tiktok.com/@aibhaz/video/7607519233513180438",
@@ -71,7 +71,7 @@
       ],
       "consecutive_negative_deltas": 2,
       "alerted": false,
-      "consecutive_misses": 1
+      "consecutive_misses": 2
     },
     {
       "url": "https://www.tiktok.com/@bsdp1th/video/7607194650738248963",
@@ -107,7 +107,7 @@
       ],
       "consecutive_negative_deltas": 2,
       "alerted": false,
-      "consecutive_misses": 1
+      "consecutive_misses": 2
     },
     {
       "url": "https://www.tiktok.com/@fabcrypto4/video/7607379476569230609",
@@ -135,7 +135,7 @@
       ],
       "consecutive_negative_deltas": 1,
       "alerted": false,
-      "consecutive_misses": 1
+      "consecutive_misses": 2
     },
     {
       "url": "https://www.tiktok.com/@dailymail/video/7607573747733695757",
@@ -163,7 +163,7 @@
       ],
       "consecutive_negative_deltas": 1,
       "alerted": false,
-      "consecutive_misses": 1
+      "consecutive_misses": 2
     },
     {
       "url": "https://www.tiktok.com/@po94275/video/7607266442290941197",
@@ -183,7 +183,7 @@
       ],
       "consecutive_negative_deltas": 0,
       "alerted": false,
-      "consecutive_misses": 1
+      "consecutive_misses": 2
     },
     {
       "url": "https://www.tiktok.com/@cbseveningnews/video/7607669821760687374",
@@ -199,10 +199,19 @@
           "views_per_hour": 67616,
           "momentum": 17367,
           "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-02-18T14:36:21.088468+00:00",
+          "age_hours": 35.2,
+          "shares_per_hour": 409.2,
+          "views_per_hour": 59674,
+          "momentum": 15327,
+          "delta_shares_per_hour": -54.5
         }
       ],
-      "consecutive_negative_deltas": 0,
-      "alerted": false
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
     },
     {
       "url": "https://www.tiktok.com/@trusteverythingyousee/video/7607576230648450326",
@@ -218,10 +227,19 @@
           "views_per_hour": 15740,
           "momentum": 10527,
           "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-02-18T14:36:21.088468+00:00",
+          "age_hours": 41.2,
+          "shares_per_hour": 603.7,
+          "views_per_hour": 14162,
+          "momentum": 9472,
+          "delta_shares_per_hour": -67.19999999999993
         }
       ],
-      "consecutive_negative_deltas": 0,
-      "alerted": false
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
     }
   ]
 }
