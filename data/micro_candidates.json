@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-17T23:01:34.649883+00:00",
+  "last_updated": "2026-02-18T10:28:19.541002+00:00",
   "candidates": [
     {
       "url": "https://www.tiktok.com/@comedy.clips783/video/7607190345566194974",
@@ -35,43 +35,7 @@
       ],
       "consecutive_negative_deltas": 2,
       "alerted": false,
-      "consecutive_misses": 0
-    },
-    {
-      "url": "https://www.tiktok.com/@overtime/video/7607598036016991502",
-      "first_seen": "2026-02-17T18:37:56.567876+00:00",
-      "market": "\ud83c\udf10 BOTH",
-      "text": "BABY FROM THE TOP ROPE \ud83d\ude33\ud83d\udd25 #wwe #ai #baby #wrestling ",
-      "creator": "overtime",
-      "checks": [
-        {
-          "timestamp": "2026-02-17T18:37:56.567876+00:00",
-          "age_hours": 19.9,
-          "shares_per_hour": 2144.9,
-          "views_per_hour": 50350,
-          "momentum": 33901,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-02-17T21:49:24.862614+00:00",
-          "age_hours": 23.1,
-          "shares_per_hour": 1848.0,
-          "views_per_hour": 43380,
-          "momentum": 29207,
-          "delta_shares_per_hour": -296.9000000000001
-        },
-        {
-          "timestamp": "2026-02-17T23:01:34.645170+00:00",
-          "age_hours": 24.3,
-          "shares_per_hour": 1756.4,
-          "views_per_hour": 41229,
-          "momentum": 27759,
-          "delta_shares_per_hour": -91.59999999999991
-        }
-      ],
-      "consecutive_negative_deltas": 2,
-      "alerted": false,
-      "consecutive_misses": 0
+      "consecutive_misses": 1
     },
     {
       "url": "https://www.tiktok.com/@aibhaz/video/7607519233513180438",
@@ -107,7 +71,7 @@
       ],
       "consecutive_negative_deltas": 2,
       "alerted": false,
-      "consecutive_misses": 0
+      "consecutive_misses": 1
     },
     {
       "url": "https://www.tiktok.com/@bsdp1th/video/7607194650738248963",
@@ -143,43 +107,7 @@
       ],
       "consecutive_negative_deltas": 2,
       "alerted": false,
-      "consecutive_misses": 0
-    },
-    {
-      "url": "https://www.tiktok.com/@quasihuman/video/7607554714732940565",
-      "first_seen": "2026-02-17T18:37:56.567876+00:00",
-      "market": "\ud83c\udf10 BOTH",
-      "text": "\ud83d\udc9a #ai #winter ",
-      "creator": "quasihuman",
-      "checks": [
-        {
-          "timestamp": "2026-02-17T18:37:56.567876+00:00",
-          "age_hours": 22.7,
-          "shares_per_hour": 340.7,
-          "views_per_hour": 2104,
-          "momentum": 4286,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-02-17T21:49:24.862614+00:00",
-          "age_hours": 25.9,
-          "shares_per_hour": 298.7,
-          "views_per_hour": 1844,
-          "momentum": 3757,
-          "delta_shares_per_hour": -42.0
-        },
-        {
-          "timestamp": "2026-02-17T23:01:34.645170+00:00",
-          "age_hours": 27.1,
-          "shares_per_hour": 285.4,
-          "views_per_hour": 1762,
-          "momentum": 3590,
-          "delta_shares_per_hour": -13.300000000000011
-        }
-      ],
-      "consecutive_negative_deltas": 2,
-      "alerted": false,
-      "consecutive_misses": 0
+      "consecutive_misses": 1
     },
     {
       "url": "https://www.tiktok.com/@fabcrypto4/video/7607379476569230609",
@@ -207,7 +135,7 @@
       ],
       "consecutive_negative_deltas": 1,
       "alerted": false,
-      "consecutive_misses": 0
+      "consecutive_misses": 1
     },
     {
       "url": "https://www.tiktok.com/@dailymail/video/7607573747733695757",
@@ -235,7 +163,7 @@
       ],
       "consecutive_negative_deltas": 1,
       "alerted": false,
-      "consecutive_misses": 0
+      "consecutive_misses": 1
     },
     {
       "url": "https://www.tiktok.com/@po94275/video/7607266442290941197",
@@ -250,6 +178,45 @@
           "shares_per_hour": 75.8,
           "views_per_hour": 1967,
           "momentum": 838,
+          "delta_shares_per_hour": null
+        }
+      ],
+      "consecutive_negative_deltas": 0,
+      "alerted": false,
+      "consecutive_misses": 1
+    },
+    {
+      "url": "https://www.tiktok.com/@cbseveningnews/video/7607669821760687374",
+      "first_seen": "2026-02-18T10:28:19.535709+00:00",
+      "market": "\ud83c\udf10 BOTH",
+      "text": "Bytedance, the Chinese tech company behind TikTok, just rolled out its new AI video generator, Seedance 2.0, and it\u2019s sparking backlash and despair in Hollywood. CBS News\u2019 Jo Ling Kent reports from Los Angeles.",
+      "creator": "cbseveningnews",
+      "checks": [
+        {
+          "timestamp": "2026-02-18T10:28:19.535709+00:00",
+          "age_hours": 31.1,
+          "shares_per_hour": 463.7,
+          "views_per_hour": 67616,
+          "momentum": 17367,
+          "delta_shares_per_hour": null
+        }
+      ],
+      "consecutive_negative_deltas": 0,
+      "alerted": false
+    },
+    {
+      "url": "https://www.tiktok.com/@trusteverythingyousee/video/7607576230648450326",
+      "first_seen": "2026-02-18T10:28:19.535709+00:00",
+      "market": "\ud83c\udf10 BOTH",
+      "text": "Un chat virtuose\n\n#cat #chat #ai #ia #sora #humour",
+      "creator": "trusteverythingyousee",
+      "checks": [
+        {
+          "timestamp": "2026-02-18T10:28:19.535709+00:00",
+          "age_hours": 37.1,
+          "shares_per_hour": 670.9,
+          "views_per_hour": 15740,
+          "momentum": 10527,
           "delta_shares_per_hour": null
         }
       ],
