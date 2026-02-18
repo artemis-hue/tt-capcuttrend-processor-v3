@@ -1,190 +1,6 @@
 {
-  "last_updated": "2026-02-18T14:36:21.088567+00:00",
+  "last_updated": "2026-02-18T18:08:04.293719+00:00",
   "candidates": [
-    {
-      "url": "https://www.tiktok.com/@comedy.clips783/video/7607190345566194974",
-      "first_seen": "2026-02-17T18:37:56.567876+00:00",
-      "market": "\ud83c\uddec\ud83c\udde7 UK ONLY",
-      "text": "#BalliBotMagos #TredingReels #TredingReels #ForYouPage #FYP #FYP #ViralTikTok #MillionViews #TechMagic #SmartBot #AITrend #RobotVibes #Innovation ",
-      "creator": "comedy.clips783",
-      "checks": [
-        {
-          "timestamp": "2026-02-17T18:37:56.567876+00:00",
-          "age_hours": 46.2,
-          "shares_per_hour": 2792.6,
-          "views_per_hour": 170885,
-          "momentum": 40938,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-02-17T21:49:24.862614+00:00",
-          "age_hours": 49.4,
-          "shares_per_hour": 2612.2,
-          "views_per_hour": 159850,
-          "momentum": 38295,
-          "delta_shares_per_hour": -180.4000000000001
-        },
-        {
-          "timestamp": "2026-02-17T23:01:34.645170+00:00",
-          "age_hours": 50.6,
-          "shares_per_hour": 2550.2,
-          "views_per_hour": 156053,
-          "momentum": 37385,
-          "delta_shares_per_hour": -62.0
-        }
-      ],
-      "consecutive_negative_deltas": 2,
-      "alerted": false,
-      "consecutive_misses": 2
-    },
-    {
-      "url": "https://www.tiktok.com/@aibhaz/video/7607519233513180438",
-      "first_seen": "2026-02-17T18:37:56.567876+00:00",
-      "market": "\ud83c\uddec\ud83c\udde7 UK ONLY",
-      "text": "loved both of these dramas #moonbaek #kimyoungkwang #trigger #fyp #edit ",
-      "creator": "aibhaz",
-      "checks": [
-        {
-          "timestamp": "2026-02-17T18:37:56.567876+00:00",
-          "age_hours": 25.0,
-          "shares_per_hour": 44.3,
-          "views_per_hour": 10318,
-          "momentum": 5749,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-02-17T21:49:24.862614+00:00",
-          "age_hours": 28.2,
-          "shares_per_hour": 39.3,
-          "views_per_hour": 9149,
-          "momentum": 5098,
-          "delta_shares_per_hour": -5.0
-        },
-        {
-          "timestamp": "2026-02-17T23:01:34.645170+00:00",
-          "age_hours": 29.4,
-          "shares_per_hour": 37.7,
-          "views_per_hour": 8774,
-          "momentum": 4889,
-          "delta_shares_per_hour": -1.5999999999999943
-        }
-      ],
-      "consecutive_negative_deltas": 2,
-      "alerted": false,
-      "consecutive_misses": 2
-    },
-    {
-      "url": "https://www.tiktok.com/@bsdp1th/video/7607194650738248963",
-      "first_seen": "2026-02-17T18:37:56.567876+00:00",
-      "market": "\ud83c\udf10 BOTH",
-      "text": "I miss when it was 2024 and wasnt ai everywhere..  || #trend #armydreamers #viral #ai #viral||",
-      "creator": "bsdp1th",
-      "checks": [
-        {
-          "timestamp": "2026-02-17T18:37:56.567876+00:00",
-          "age_hours": 46.0,
-          "shares_per_hour": 20.3,
-          "views_per_hour": 7872,
-          "momentum": 5627,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-02-17T21:49:24.862614+00:00",
-          "age_hours": 49.1,
-          "shares_per_hour": 19.0,
-          "views_per_hour": 7361,
-          "momentum": 5262,
-          "delta_shares_per_hour": -1.3000000000000007
-        },
-        {
-          "timestamp": "2026-02-17T23:01:34.645170+00:00",
-          "age_hours": 50.4,
-          "shares_per_hour": 18.5,
-          "views_per_hour": 7185,
-          "momentum": 5136,
-          "delta_shares_per_hour": -0.5
-        }
-      ],
-      "consecutive_negative_deltas": 2,
-      "alerted": false,
-      "consecutive_misses": 2
-    },
-    {
-      "url": "https://www.tiktok.com/@fabcrypto4/video/7607379476569230609",
-      "first_seen": "2026-02-17T21:49:24.862614+00:00",
-      "market": "\ud83c\udf10 BOTH",
-      "text": "Oops \ud83d\ude05\n.\n.\n.\n#aivideos #trending #viral #aigenerated #aiart ",
-      "creator": "fabcrypto4",
-      "checks": [
-        {
-          "timestamp": "2026-02-17T21:49:24.862614+00:00",
-          "age_hours": 37.2,
-          "shares_per_hour": 157.7,
-          "views_per_hour": 3595,
-          "momentum": 2020,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-02-17T23:01:34.645170+00:00",
-          "age_hours": 38.4,
-          "shares_per_hour": 152.7,
-          "views_per_hour": 3483,
-          "momentum": 1957,
-          "delta_shares_per_hour": -5.0
-        }
-      ],
-      "consecutive_negative_deltas": 1,
-      "alerted": false,
-      "consecutive_misses": 2
-    },
-    {
-      "url": "https://www.tiktok.com/@dailymail/video/7607573747733695757",
-      "first_seen": "2026-02-17T21:49:24.862614+00:00",
-      "market": "\ud83c\uddfa\ud83c\uddf8 US ONLY",
-      "text": "A robot that will be used as a simple museum guide can also do incredible martial arts movements as seen in AGIBOT's latest hype video that shows off the A3 model's physical capabilities.\n\nThe demo capture's exciting kung fu movie-like skills with relative ease, but again, this piece of impressive technological engineering will be used as just a glorified front desk attendant... for now.\n\n\ud83d\udcf7 AGIBOT\n\n#ai #tech #robot #mma #news ",
-      "creator": "dailymail",
-      "checks": [
-        {
-          "timestamp": "2026-02-17T21:49:24.862614+00:00",
-          "age_hours": 24.6,
-          "shares_per_hour": 64.5,
-          "views_per_hour": 6823,
-          "momentum": 1659,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-02-17T23:01:34.645170+00:00",
-          "age_hours": 25.8,
-          "shares_per_hour": 61.5,
-          "views_per_hour": 6505,
-          "momentum": 1581,
-          "delta_shares_per_hour": -3.0
-        }
-      ],
-      "consecutive_negative_deltas": 1,
-      "alerted": false,
-      "consecutive_misses": 2
-    },
-    {
-      "url": "https://www.tiktok.com/@po94275/video/7607266442290941197",
-      "first_seen": "2026-02-17T23:01:34.645170+00:00",
-      "market": "\ud83c\udf10 BOTH",
-      "text": "Rain AI Effect Filter Tutorial, Create Rain AI Effect Filter Tutorial with One Photo, Editing Creative Rain AI Effect Filter,#capcutforus #capcut#capcutpioneer #gemini #aiRain AI Effect Filter Tutorial, Membuat Rain AI Effect Filter Tutorial dengan satu foto, Foto Gemini Editing Creative Rain AI Effect Filter",
-      "creator": "po94275",
-      "checks": [
-        {
-          "timestamp": "2026-02-17T23:01:34.645170+00:00",
-          "age_hours": 45.7,
-          "shares_per_hour": 75.8,
-          "views_per_hour": 1967,
-          "momentum": 838,
-          "delta_shares_per_hour": null
-        }
-      ],
-      "consecutive_negative_deltas": 0,
-      "alerted": false,
-      "consecutive_misses": 2
-    },
     {
       "url": "https://www.tiktok.com/@cbseveningnews/video/7607669821760687374",
       "first_seen": "2026-02-18T10:28:19.535709+00:00",
@@ -207,9 +23,17 @@
           "views_per_hour": 59674,
           "momentum": 15327,
           "delta_shares_per_hour": -54.5
+        },
+        {
+          "timestamp": "2026-02-18T18:08:04.288967+00:00",
+          "age_hours": 38.7,
+          "shares_per_hour": 371.9,
+          "views_per_hour": 54235,
+          "momentum": 13930,
+          "delta_shares_per_hour": -37.30000000000001
         }
       ],
-      "consecutive_negative_deltas": 1,
+      "consecutive_negative_deltas": 2,
       "alerted": false,
       "consecutive_misses": 0
     },
@@ -235,11 +59,133 @@
           "views_per_hour": 14162,
           "momentum": 9472,
           "delta_shares_per_hour": -67.19999999999993
+        },
+        {
+          "timestamp": "2026-02-18T18:08:04.288967+00:00",
+          "age_hours": 44.8,
+          "shares_per_hour": 556.1,
+          "views_per_hour": 13046,
+          "momentum": 8726,
+          "delta_shares_per_hour": -47.60000000000002
         }
       ],
-      "consecutive_negative_deltas": 1,
+      "consecutive_negative_deltas": 2,
       "alerted": false,
       "consecutive_misses": 0
+    },
+    {
+      "url": "https://www.tiktok.com/@overtime/video/7607598036016991502",
+      "first_seen": "2026-02-18T18:08:04.288967+00:00",
+      "market": "\ud83c\udf10 BOTH",
+      "text": "BABY FROM THE TOP ROPE \ud83d\ude33\ud83d\udd25 #wwe #ai #baby #wrestling ",
+      "creator": "overtime",
+      "checks": [
+        {
+          "timestamp": "2026-02-18T18:08:04.288967+00:00",
+          "age_hours": 43.4,
+          "shares_per_hour": 1023.9,
+          "views_per_hour": 25367,
+          "momentum": 16193,
+          "delta_shares_per_hour": null
+        }
+      ],
+      "consecutive_negative_deltas": 0,
+      "alerted": false
+    },
+    {
+      "url": "https://www.tiktok.com/@quasihuman/video/7607554714732940565",
+      "first_seen": "2026-02-18T18:08:04.288967+00:00",
+      "market": "\ud83c\udf10 BOTH",
+      "text": "\ud83d\udc9a #ai #winter ",
+      "creator": "quasihuman",
+      "checks": [
+        {
+          "timestamp": "2026-02-18T18:08:04.288967+00:00",
+          "age_hours": 46.2,
+          "shares_per_hour": 387.7,
+          "views_per_hour": 2854,
+          "momentum": 4997,
+          "delta_shares_per_hour": null
+        }
+      ],
+      "consecutive_negative_deltas": 0,
+      "alerted": false
+    },
+    {
+      "url": "https://www.tiktok.com/@overtime/video/7608028266741484813",
+      "first_seen": "2026-02-18T18:08:04.288967+00:00",
+      "market": "\ud83c\uddfa\ud83c\uddf8 US ONLY",
+      "text": "Literally simulating nba 1v1s \ud83e\udd2f #nba #1v1 #ai #basketball ",
+      "creator": "overtime",
+      "checks": [
+        {
+          "timestamp": "2026-02-18T18:08:04.288967+00:00",
+          "age_hours": 15.5,
+          "shares_per_hour": 61.7,
+          "views_per_hour": 7053,
+          "momentum": 3390,
+          "delta_shares_per_hour": null
+        }
+      ],
+      "consecutive_negative_deltas": 0,
+      "alerted": false
+    },
+    {
+      "url": "https://www.tiktok.com/@luke.swan89/video/7607814634430532896",
+      "first_seen": "2026-02-18T18:08:04.288967+00:00",
+      "market": "\ud83c\udf10 BOTH",
+      "text": "Which age did I look best? #glowup #ascend #FaceKit #beforevsafter #lockin ",
+      "creator": "luke.swan89",
+      "checks": [
+        {
+          "timestamp": "2026-02-18T18:08:04.288967+00:00",
+          "age_hours": 29.4,
+          "shares_per_hour": 24.2,
+          "views_per_hour": 4489,
+          "momentum": 1492,
+          "delta_shares_per_hour": null
+        }
+      ],
+      "consecutive_negative_deltas": 0,
+      "alerted": false
+    },
+    {
+      "url": "https://www.tiktok.com/@discooctopus/video/7607530409299135766",
+      "first_seen": "2026-02-18T18:08:04.288967+00:00",
+      "market": "\ud83c\udf10 BOTH",
+      "text": "Ramadan Mubarak 2026 #ramadan2026 #Aitrend \n#capcut #capcutpioneer #pioneertemplate @aitrends4u ",
+      "creator": "discooctopus",
+      "checks": [
+        {
+          "timestamp": "2026-02-18T18:08:04.288967+00:00",
+          "age_hours": 47.7,
+          "shares_per_hour": 102.0,
+          "views_per_hour": 6252,
+          "momentum": 1405,
+          "delta_shares_per_hour": null
+        }
+      ],
+      "consecutive_negative_deltas": 0,
+      "alerted": false
+    },
+    {
+      "url": "https://www.tiktok.com/@kittytwirldaily/video/7607681682413456653",
+      "first_seen": "2026-02-18T18:08:04.288967+00:00",
+      "market": "\ud83c\uddfa\ud83c\uddf8 US ONLY",
+      "text": "Pet dance tutorial\n#capcutpioneer #capcut #capcutforus ",
+      "creator": "kittytwirldaily",
+      "checks": [
+        {
+          "timestamp": "2026-02-18T18:08:04.288967+00:00",
+          "age_hours": 38.0,
+          "shares_per_hour": 72.5,
+          "views_per_hour": 1248,
+          "momentum": 1049,
+          "delta_shares_per_hour": null
+        }
+      ],
+      "consecutive_negative_deltas": 0,
+      "alerted": false
     }
   ]
 }
