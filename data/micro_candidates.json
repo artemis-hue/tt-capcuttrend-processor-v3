@@ -1,78 +1,6 @@
 {
-  "last_updated": "2026-02-18T18:08:04.293719+00:00",
+  "last_updated": "2026-02-18T21:50:41.344048+00:00",
   "candidates": [
-    {
-      "url": "https://www.tiktok.com/@cbseveningnews/video/7607669821760687374",
-      "first_seen": "2026-02-18T10:28:19.535709+00:00",
-      "market": "\ud83c\udf10 BOTH",
-      "text": "Bytedance, the Chinese tech company behind TikTok, just rolled out its new AI video generator, Seedance 2.0, and it\u2019s sparking backlash and despair in Hollywood. CBS News\u2019 Jo Ling Kent reports from Los Angeles.",
-      "creator": "cbseveningnews",
-      "checks": [
-        {
-          "timestamp": "2026-02-18T10:28:19.535709+00:00",
-          "age_hours": 31.1,
-          "shares_per_hour": 463.7,
-          "views_per_hour": 67616,
-          "momentum": 17367,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-02-18T14:36:21.088468+00:00",
-          "age_hours": 35.2,
-          "shares_per_hour": 409.2,
-          "views_per_hour": 59674,
-          "momentum": 15327,
-          "delta_shares_per_hour": -54.5
-        },
-        {
-          "timestamp": "2026-02-18T18:08:04.288967+00:00",
-          "age_hours": 38.7,
-          "shares_per_hour": 371.9,
-          "views_per_hour": 54235,
-          "momentum": 13930,
-          "delta_shares_per_hour": -37.30000000000001
-        }
-      ],
-      "consecutive_negative_deltas": 2,
-      "alerted": false,
-      "consecutive_misses": 0
-    },
-    {
-      "url": "https://www.tiktok.com/@trusteverythingyousee/video/7607576230648450326",
-      "first_seen": "2026-02-18T10:28:19.535709+00:00",
-      "market": "\ud83c\udf10 BOTH",
-      "text": "Un chat virtuose\n\n#cat #chat #ai #ia #sora #humour",
-      "creator": "trusteverythingyousee",
-      "checks": [
-        {
-          "timestamp": "2026-02-18T10:28:19.535709+00:00",
-          "age_hours": 37.1,
-          "shares_per_hour": 670.9,
-          "views_per_hour": 15740,
-          "momentum": 10527,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-02-18T14:36:21.088468+00:00",
-          "age_hours": 41.2,
-          "shares_per_hour": 603.7,
-          "views_per_hour": 14162,
-          "momentum": 9472,
-          "delta_shares_per_hour": -67.19999999999993
-        },
-        {
-          "timestamp": "2026-02-18T18:08:04.288967+00:00",
-          "age_hours": 44.8,
-          "shares_per_hour": 556.1,
-          "views_per_hour": 13046,
-          "momentum": 8726,
-          "delta_shares_per_hour": -47.60000000000002
-        }
-      ],
-      "consecutive_negative_deltas": 2,
-      "alerted": false,
-      "consecutive_misses": 0
-    },
     {
       "url": "https://www.tiktok.com/@overtime/video/7607598036016991502",
       "first_seen": "2026-02-18T18:08:04.288967+00:00",
@@ -87,10 +15,19 @@
           "views_per_hour": 25367,
           "momentum": 16193,
           "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-02-18T21:50:41.339476+00:00",
+          "age_hours": 47.1,
+          "shares_per_hour": 943.2,
+          "views_per_hour": 23367,
+          "momentum": 14917,
+          "delta_shares_per_hour": -80.69999999999993
         }
       ],
-      "consecutive_negative_deltas": 0,
-      "alerted": false
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
     },
     {
       "url": "https://www.tiktok.com/@quasihuman/video/7607554714732940565",
@@ -106,10 +43,19 @@
           "views_per_hour": 2854,
           "momentum": 4997,
           "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-02-18T21:50:41.339476+00:00",
+          "age_hours": 49.9,
+          "shares_per_hour": 358.9,
+          "views_per_hour": 2642,
+          "momentum": 4625,
+          "delta_shares_per_hour": -28.80000000000001
         }
       ],
-      "consecutive_negative_deltas": 0,
-      "alerted": false
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
     },
     {
       "url": "https://www.tiktok.com/@overtime/video/7608028266741484813",
@@ -125,10 +71,19 @@
           "views_per_hour": 7053,
           "momentum": 3390,
           "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-02-18T21:50:41.339476+00:00",
+          "age_hours": 19.2,
+          "shares_per_hour": 49.8,
+          "views_per_hour": 5693,
+          "momentum": 2737,
+          "delta_shares_per_hour": -11.900000000000006
         }
       ],
-      "consecutive_negative_deltas": 0,
-      "alerted": false
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
     },
     {
       "url": "https://www.tiktok.com/@luke.swan89/video/7607814634430532896",
@@ -144,10 +99,19 @@
           "views_per_hour": 4489,
           "momentum": 1492,
           "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-02-18T21:50:41.339476+00:00",
+          "age_hours": 33.1,
+          "shares_per_hour": 21.5,
+          "views_per_hour": 3985,
+          "momentum": 1325,
+          "delta_shares_per_hour": -2.6999999999999993
         }
       ],
-      "consecutive_negative_deltas": 0,
-      "alerted": false
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
     },
     {
       "url": "https://www.tiktok.com/@discooctopus/video/7607530409299135766",
@@ -163,10 +127,19 @@
           "views_per_hour": 6252,
           "momentum": 1405,
           "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-02-18T21:50:41.339476+00:00",
+          "age_hours": 51.5,
+          "shares_per_hour": 94.6,
+          "views_per_hour": 5801,
+          "momentum": 1304,
+          "delta_shares_per_hour": -7.400000000000006
         }
       ],
-      "consecutive_negative_deltas": 0,
-      "alerted": false
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
     },
     {
       "url": "https://www.tiktok.com/@kittytwirldaily/video/7607681682413456653",
@@ -181,6 +154,53 @@
           "shares_per_hour": 72.5,
           "views_per_hour": 1248,
           "momentum": 1049,
+          "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-02-18T21:50:41.339476+00:00",
+          "age_hours": 41.7,
+          "shares_per_hour": 66.0,
+          "views_per_hour": 1137,
+          "momentum": 955,
+          "delta_shares_per_hour": -6.5
+        }
+      ],
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
+    },
+    {
+      "url": "https://www.tiktok.com/@cbcnews/video/7607989871419886869",
+      "first_seen": "2026-02-18T21:50:41.339476+00:00",
+      "market": "\ud83c\uddec\ud83c\udde7 UK ONLY",
+      "text": "Andrew Chang explains why China's humanoid robots are being recognized globally and how China has been leading in the AI-powered robotics space.\n\n#AboutThat #Robots #China #AI #CBCNews",
+      "creator": "cbcnews",
+      "checks": [
+        {
+          "timestamp": "2026-02-18T21:50:41.339476+00:00",
+          "age_hours": 21.3,
+          "shares_per_hour": 31.1,
+          "views_per_hour": 2515,
+          "momentum": 670,
+          "delta_shares_per_hour": null
+        }
+      ],
+      "consecutive_negative_deltas": 0,
+      "alerted": false
+    },
+    {
+      "url": "https://www.tiktok.com/@luhmar2tuffreal/video/7607693051527548191",
+      "first_seen": "2026-02-18T21:50:41.339476+00:00",
+      "market": "\ud83c\udf10 BOTH",
+      "text": "AI is getting crazy good #seedance #NBA #basketball #1v1 #ai ",
+      "creator": "luhmar2tuffreal",
+      "checks": [
+        {
+          "timestamp": "2026-02-18T21:50:41.339476+00:00",
+          "age_hours": 40.9,
+          "shares_per_hour": 22.7,
+          "views_per_hour": 1497,
+          "momentum": 562,
           "delta_shares_per_hour": null
         }
       ],
