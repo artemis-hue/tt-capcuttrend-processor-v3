@@ -1,206 +1,6 @@
 {
-  "last_updated": "2026-02-19T14:38:51.329875+00:00",
+  "last_updated": "2026-02-19T18:35:11.082952+00:00",
   "candidates": [
-    {
-      "url": "https://www.tiktok.com/@quasihuman/video/7607554714732940565",
-      "first_seen": "2026-02-18T18:08:04.288967+00:00",
-      "market": "\ud83c\udf10 BOTH",
-      "text": "\ud83d\udc9a #ai #winter ",
-      "creator": "quasihuman",
-      "checks": [
-        {
-          "timestamp": "2026-02-18T18:08:04.288967+00:00",
-          "age_hours": 46.2,
-          "shares_per_hour": 387.7,
-          "views_per_hour": 2854,
-          "momentum": 4997,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-02-18T21:50:41.339476+00:00",
-          "age_hours": 49.9,
-          "shares_per_hour": 358.9,
-          "views_per_hour": 2642,
-          "momentum": 4625,
-          "delta_shares_per_hour": -28.80000000000001
-        },
-        {
-          "timestamp": "2026-02-18T23:03:58.597518+00:00",
-          "age_hours": 51.1,
-          "shares_per_hour": 350.3,
-          "views_per_hour": 2579,
-          "momentum": 4514,
-          "delta_shares_per_hour": -8.599999999999966
-        }
-      ],
-      "consecutive_negative_deltas": 2,
-      "alerted": false,
-      "consecutive_misses": 2
-    },
-    {
-      "url": "https://www.tiktok.com/@overtime/video/7608028266741484813",
-      "first_seen": "2026-02-18T18:08:04.288967+00:00",
-      "market": "\ud83c\uddfa\ud83c\uddf8 US ONLY",
-      "text": "Literally simulating nba 1v1s \ud83e\udd2f #nba #1v1 #ai #basketball ",
-      "creator": "overtime",
-      "checks": [
-        {
-          "timestamp": "2026-02-18T18:08:04.288967+00:00",
-          "age_hours": 15.5,
-          "shares_per_hour": 61.7,
-          "views_per_hour": 7053,
-          "momentum": 3390,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-02-18T21:50:41.339476+00:00",
-          "age_hours": 19.2,
-          "shares_per_hour": 49.8,
-          "views_per_hour": 5693,
-          "momentum": 2737,
-          "delta_shares_per_hour": -11.900000000000006
-        },
-        {
-          "timestamp": "2026-02-18T23:03:58.597518+00:00",
-          "age_hours": 20.5,
-          "shares_per_hour": 46.8,
-          "views_per_hour": 5353,
-          "momentum": 2573,
-          "delta_shares_per_hour": -3.0
-        }
-      ],
-      "consecutive_negative_deltas": 2,
-      "alerted": false,
-      "consecutive_misses": 2
-    },
-    {
-      "url": "https://www.tiktok.com/@luke.swan89/video/7607814634430532896",
-      "first_seen": "2026-02-18T18:08:04.288967+00:00",
-      "market": "\ud83c\udf10 BOTH",
-      "text": "Which age did I look best? #glowup #ascend #FaceKit #beforevsafter #lockin ",
-      "creator": "luke.swan89",
-      "checks": [
-        {
-          "timestamp": "2026-02-18T18:08:04.288967+00:00",
-          "age_hours": 29.4,
-          "shares_per_hour": 24.2,
-          "views_per_hour": 4489,
-          "momentum": 1492,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-02-18T21:50:41.339476+00:00",
-          "age_hours": 33.1,
-          "shares_per_hour": 21.5,
-          "views_per_hour": 3985,
-          "momentum": 1325,
-          "delta_shares_per_hour": -2.6999999999999993
-        },
-        {
-          "timestamp": "2026-02-18T23:03:58.597518+00:00",
-          "age_hours": 34.3,
-          "shares_per_hour": 20.7,
-          "views_per_hour": 3843,
-          "momentum": 1278,
-          "delta_shares_per_hour": -0.8000000000000007
-        }
-      ],
-      "consecutive_negative_deltas": 2,
-      "alerted": false,
-      "consecutive_misses": 2
-    },
-    {
-      "url": "https://www.tiktok.com/@kittytwirldaily/video/7607681682413456653",
-      "first_seen": "2026-02-18T18:08:04.288967+00:00",
-      "market": "\ud83c\uddfa\ud83c\uddf8 US ONLY",
-      "text": "Pet dance tutorial\n#capcutpioneer #capcut #capcutforus ",
-      "creator": "kittytwirldaily",
-      "checks": [
-        {
-          "timestamp": "2026-02-18T18:08:04.288967+00:00",
-          "age_hours": 38.0,
-          "shares_per_hour": 72.5,
-          "views_per_hour": 1248,
-          "momentum": 1049,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-02-18T21:50:41.339476+00:00",
-          "age_hours": 41.7,
-          "shares_per_hour": 66.0,
-          "views_per_hour": 1137,
-          "momentum": 955,
-          "delta_shares_per_hour": -6.5
-        },
-        {
-          "timestamp": "2026-02-18T23:03:58.597518+00:00",
-          "age_hours": 42.9,
-          "shares_per_hour": 64.1,
-          "views_per_hour": 1105,
-          "momentum": 928,
-          "delta_shares_per_hour": -1.9000000000000057
-        }
-      ],
-      "consecutive_negative_deltas": 2,
-      "alerted": false,
-      "consecutive_misses": 2
-    },
-    {
-      "url": "https://www.tiktok.com/@cbcnews/video/7607989871419886869",
-      "first_seen": "2026-02-18T21:50:41.339476+00:00",
-      "market": "\ud83c\uddec\ud83c\udde7 UK ONLY",
-      "text": "Andrew Chang explains why China's humanoid robots are being recognized globally and how China has been leading in the AI-powered robotics space.\n\n#AboutThat #Robots #China #AI #CBCNews",
-      "creator": "cbcnews",
-      "checks": [
-        {
-          "timestamp": "2026-02-18T21:50:41.339476+00:00",
-          "age_hours": 21.3,
-          "shares_per_hour": 31.1,
-          "views_per_hour": 2515,
-          "momentum": 670,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-02-18T23:03:58.597518+00:00",
-          "age_hours": 22.6,
-          "shares_per_hour": 29.4,
-          "views_per_hour": 2379,
-          "momentum": 634,
-          "delta_shares_per_hour": -1.7000000000000028
-        }
-      ],
-      "consecutive_negative_deltas": 1,
-      "alerted": false,
-      "consecutive_misses": 2
-    },
-    {
-      "url": "https://www.tiktok.com/@luhmar2tuffreal/video/7607693051527548191",
-      "first_seen": "2026-02-18T21:50:41.339476+00:00",
-      "market": "\ud83c\udf10 BOTH",
-      "text": "AI is getting crazy good #seedance #NBA #basketball #1v1 #ai ",
-      "creator": "luhmar2tuffreal",
-      "checks": [
-        {
-          "timestamp": "2026-02-18T21:50:41.339476+00:00",
-          "age_hours": 40.9,
-          "shares_per_hour": 22.7,
-          "views_per_hour": 1497,
-          "momentum": 562,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-02-18T23:03:58.597518+00:00",
-          "age_hours": 42.2,
-          "shares_per_hour": 22.1,
-          "views_per_hour": 1454,
-          "momentum": 545,
-          "delta_shares_per_hour": -0.5999999999999979
-        }
-      ],
-      "consecutive_negative_deltas": 1,
-      "alerted": false,
-      "consecutive_misses": 2
-    },
     {
       "url": "https://www.tiktok.com/@trusteverythingyousee/video/7607906695737527574",
       "first_seen": "2026-02-19T10:27:46.800664+00:00",
@@ -223,9 +23,17 @@
           "views_per_hour": 36431,
           "momentum": 23944,
           "delta_shares_per_hour": -171.9000000000001
+        },
+        {
+          "timestamp": "2026-02-19T18:35:11.078016+00:00",
+          "age_hours": 47.9,
+          "shares_per_hour": 1498.2,
+          "views_per_hour": 33433,
+          "momentum": 21974,
+          "delta_shares_per_hour": -134.39999999999986
         }
       ],
-      "consecutive_negative_deltas": 1,
+      "consecutive_negative_deltas": 2,
       "alerted": false,
       "consecutive_misses": 0
     },
@@ -251,11 +59,133 @@
           "views_per_hour": 33751,
           "momentum": 22953,
           "delta_shares_per_hour": -168.70000000000005
+        },
+        {
+          "timestamp": "2026-02-19T18:35:11.078016+00:00",
+          "age_hours": 42.5,
+          "shares_per_hour": 1255.4,
+          "views_per_hour": 30620,
+          "momentum": 20823,
+          "delta_shares_per_hour": -128.39999999999986
         }
       ],
-      "consecutive_negative_deltas": 1,
+      "consecutive_negative_deltas": 2,
       "alerted": false,
       "consecutive_misses": 0
+    },
+    {
+      "url": "https://www.tiktok.com/@wearefutureai/video/7608168663870475553",
+      "first_seen": "2026-02-19T18:35:11.078016+00:00",
+      "market": "\ud83c\uddfa\ud83c\uddf8 US ONLY",
+      "text": "Et si Macron \u00e9tait n\u00e9 dans un autre pays ? L\u2019ial\u2019imagine pour vous \n-\n#macron #francetiktok\ud83c\udde8\ud83c\uddf5 #ai #ia ",
+      "creator": "wearefutureai",
+      "checks": [
+        {
+          "timestamp": "2026-02-19T18:35:11.078016+00:00",
+          "age_hours": 30.9,
+          "shares_per_hour": 909.0,
+          "views_per_hour": 24873,
+          "momentum": 13007,
+          "delta_shares_per_hour": null
+        }
+      ],
+      "consecutive_negative_deltas": 0,
+      "alerted": false
+    },
+    {
+      "url": "https://www.tiktok.com/@piscesfin/video/7608247494203559188",
+      "first_seen": "2026-02-19T18:35:11.078016+00:00",
+      "market": "\ud83c\uddec\ud83c\udde7 UK ONLY",
+      "text": "#CapCut #statusharian #statuswhatsapp #capcutpioneer #pioneertemplate ",
+      "creator": "piscesfin",
+      "checks": [
+        {
+          "timestamp": "2026-02-19T18:35:11.078016+00:00",
+          "age_hours": 25.8,
+          "shares_per_hour": 1138.9,
+          "views_per_hour": 18954,
+          "momentum": 12359,
+          "delta_shares_per_hour": null
+        }
+      ],
+      "consecutive_negative_deltas": 0,
+      "alerted": false
+    },
+    {
+      "url": "https://www.tiktok.com/@raissacruiz/video/7608303730622057748",
+      "first_seen": "2026-02-19T18:35:11.078016+00:00",
+      "market": "\ud83c\uddfa\ud83c\uddf8 US ONLY",
+      "text": "",
+      "creator": "raissacruiz",
+      "checks": [
+        {
+          "timestamp": "2026-02-19T18:35:11.078016+00:00",
+          "age_hours": 22.2,
+          "shares_per_hour": 323.3,
+          "views_per_hour": 43538,
+          "momentum": 12244,
+          "delta_shares_per_hour": null
+        }
+      ],
+      "consecutive_negative_deltas": 0,
+      "alerted": false
+    },
+    {
+      "url": "https://www.tiktok.com/@lapepadolores/video/7608261029323099414",
+      "first_seen": "2026-02-19T18:35:11.078016+00:00",
+      "market": "\ud83c\uddfa\ud83c\uddf8 US ONLY",
+      "text": "HOY EN EL PARQUE \ud83e\udd8a \n#ia #therian #humor #animal ",
+      "creator": "lapepadolores",
+      "checks": [
+        {
+          "timestamp": "2026-02-19T18:35:11.078016+00:00",
+          "age_hours": 24.9,
+          "shares_per_hour": 918.1,
+          "views_per_hour": 8302,
+          "momentum": 12234,
+          "delta_shares_per_hour": null
+        }
+      ],
+      "consecutive_negative_deltas": 0,
+      "alerted": false
+    },
+    {
+      "url": "https://www.tiktok.com/@aidanstanik.ai/video/7607940876375002398",
+      "first_seen": "2026-02-19T18:35:11.078016+00:00",
+      "market": "\ud83c\udf10 BOTH",
+      "text": "Motion Control is Insane #motioncontrol #aivideo #higgsfield ",
+      "creator": "aidanstanik.ai",
+      "checks": [
+        {
+          "timestamp": "2026-02-19T18:35:11.078016+00:00",
+          "age_hours": 45.6,
+          "shares_per_hour": 77.2,
+          "views_per_hour": 17599,
+          "momentum": 5686,
+          "delta_shares_per_hour": null
+        }
+      ],
+      "consecutive_negative_deltas": 0,
+      "alerted": false
+    },
+    {
+      "url": "https://www.tiktok.com/@mr.jonn_/video/7607908945629465876",
+      "first_seen": "2026-02-19T18:35:11.078016+00:00",
+      "market": "\ud83c\udf10 BOTH",
+      "text": "CapCut template \ud83d\udccd \n#capcutpioneer #pioneertemplate #capcut ",
+      "creator": "mr.jonn_",
+      "checks": [
+        {
+          "timestamp": "2026-02-19T18:35:11.078016+00:00",
+          "age_hours": 47.7,
+          "shares_per_hour": 13.0,
+          "views_per_hour": 10833,
+          "momentum": 3652,
+          "delta_shares_per_hour": null
+        }
+      ],
+      "consecutive_negative_deltas": 0,
+      "alerted": false
     }
   ]
 }
