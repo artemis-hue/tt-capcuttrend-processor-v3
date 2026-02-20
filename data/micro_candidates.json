@@ -1,206 +1,6 @@
 {
-  "last_updated": "2026-02-20T14:25:39.754042+00:00",
+  "last_updated": "2026-02-20T17:58:13.173244+00:00",
   "candidates": [
-    {
-      "url": "https://www.tiktok.com/@piscesfin/video/7608247494203559188",
-      "first_seen": "2026-02-19T18:35:11.078016+00:00",
-      "market": "\ud83c\uddec\ud83c\udde7 UK ONLY",
-      "text": "#CapCut #statusharian #statuswhatsapp #capcutpioneer #pioneertemplate ",
-      "creator": "piscesfin",
-      "checks": [
-        {
-          "timestamp": "2026-02-19T18:35:11.078016+00:00",
-          "age_hours": 25.8,
-          "shares_per_hour": 1138.9,
-          "views_per_hour": 18954,
-          "momentum": 12359,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-02-19T21:03:11.947408+00:00",
-          "age_hours": 28.3,
-          "shares_per_hour": 1039.5,
-          "views_per_hour": 17300,
-          "momentum": 11281,
-          "delta_shares_per_hour": -99.40000000000009
-        },
-        {
-          "timestamp": "2026-02-19T23:04:17.294610+00:00",
-          "age_hours": 30.3,
-          "shares_per_hour": 970.3,
-          "views_per_hour": 16148,
-          "momentum": 10530,
-          "delta_shares_per_hour": -69.20000000000005
-        }
-      ],
-      "consecutive_negative_deltas": 2,
-      "alerted": false,
-      "consecutive_misses": 2
-    },
-    {
-      "url": "https://www.tiktok.com/@raissacruiz/video/7608303730622057748",
-      "first_seen": "2026-02-19T18:35:11.078016+00:00",
-      "market": "\ud83c\uddfa\ud83c\uddf8 US ONLY",
-      "text": "",
-      "creator": "raissacruiz",
-      "checks": [
-        {
-          "timestamp": "2026-02-19T18:35:11.078016+00:00",
-          "age_hours": 22.2,
-          "shares_per_hour": 323.3,
-          "views_per_hour": 43538,
-          "momentum": 12244,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-02-19T21:03:11.947408+00:00",
-          "age_hours": 24.6,
-          "shares_per_hour": 290.9,
-          "views_per_hour": 39180,
-          "momentum": 11018,
-          "delta_shares_per_hour": -32.400000000000034
-        },
-        {
-          "timestamp": "2026-02-19T23:04:17.294610+00:00",
-          "age_hours": 26.7,
-          "shares_per_hour": 268.9,
-          "views_per_hour": 36214,
-          "momentum": 10184,
-          "delta_shares_per_hour": -22.0
-        }
-      ],
-      "consecutive_negative_deltas": 2,
-      "alerted": false,
-      "consecutive_misses": 2
-    },
-    {
-      "url": "https://www.tiktok.com/@lapepadolores/video/7608261029323099414",
-      "first_seen": "2026-02-19T18:35:11.078016+00:00",
-      "market": "\ud83c\uddfa\ud83c\uddf8 US ONLY",
-      "text": "HOY EN EL PARQUE \ud83e\udd8a \n#ia #therian #humor #animal ",
-      "creator": "lapepadolores",
-      "checks": [
-        {
-          "timestamp": "2026-02-19T18:35:11.078016+00:00",
-          "age_hours": 24.9,
-          "shares_per_hour": 918.1,
-          "views_per_hour": 8302,
-          "momentum": 12234,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-02-19T21:03:11.947408+00:00",
-          "age_hours": 27.4,
-          "shares_per_hour": 835.5,
-          "views_per_hour": 7555,
-          "momentum": 11133,
-          "delta_shares_per_hour": -82.60000000000002
-        },
-        {
-          "timestamp": "2026-02-19T23:04:17.294610+00:00",
-          "age_hours": 29.4,
-          "shares_per_hour": 778.2,
-          "views_per_hour": 7037,
-          "momentum": 10370,
-          "delta_shares_per_hour": -57.299999999999955
-        }
-      ],
-      "consecutive_negative_deltas": 2,
-      "alerted": false,
-      "consecutive_misses": 2
-    },
-    {
-      "url": "https://www.tiktok.com/@aidanstanik.ai/video/7607940876375002398",
-      "first_seen": "2026-02-19T18:35:11.078016+00:00",
-      "market": "\ud83c\udf10 BOTH",
-      "text": "Motion Control is Insane #motioncontrol #aivideo #higgsfield ",
-      "creator": "aidanstanik.ai",
-      "checks": [
-        {
-          "timestamp": "2026-02-19T18:35:11.078016+00:00",
-          "age_hours": 45.6,
-          "shares_per_hour": 77.2,
-          "views_per_hour": 17599,
-          "momentum": 5686,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-02-19T21:03:11.947408+00:00",
-          "age_hours": 48.1,
-          "shares_per_hour": 73.2,
-          "views_per_hour": 16696,
-          "momentum": 5395,
-          "delta_shares_per_hour": -4.0
-        },
-        {
-          "timestamp": "2026-02-19T23:04:17.294610+00:00",
-          "age_hours": 50.1,
-          "shares_per_hour": 70.3,
-          "views_per_hour": 16024,
-          "momentum": 5177,
-          "delta_shares_per_hour": -2.9000000000000057
-        }
-      ],
-      "consecutive_negative_deltas": 2,
-      "alerted": false,
-      "consecutive_misses": 2
-    },
-    {
-      "url": "https://www.tiktok.com/@templatemoe/video/7608135039796251922",
-      "first_seen": "2026-02-19T21:03:11.947408+00:00",
-      "market": "\ud83c\udf10 BOTH",
-      "text": "Sorry for long intro \ud83d\ude05 #CapCut #capcutpioneer #pioneertemplate #trendtemplate #fyp ",
-      "creator": "templatemoe",
-      "checks": [
-        {
-          "timestamp": "2026-02-19T21:03:11.947408+00:00",
-          "age_hours": 35.6,
-          "shares_per_hour": 50.7,
-          "views_per_hour": 16882,
-          "momentum": 3021,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-02-19T23:04:17.294610+00:00",
-          "age_hours": 37.6,
-          "shares_per_hour": 48.0,
-          "views_per_hour": 15975,
-          "momentum": 2859,
-          "delta_shares_per_hour": -2.700000000000003
-        }
-      ],
-      "consecutive_negative_deltas": 1,
-      "alerted": false,
-      "consecutive_misses": 2
-    },
-    {
-      "url": "https://www.tiktok.com/@catatan_harian47/video/7608168133731421460",
-      "first_seen": "2026-02-19T21:03:11.947408+00:00",
-      "market": "\ud83c\uddec\ud83c\udde7 UK ONLY",
-      "text": "#CapCut #fypppppppppppppppppppppp #capcutpioneer #pioneertemplate #ramadhan2026 ",
-      "creator": "catatan_harian47",
-      "checks": [
-        {
-          "timestamp": "2026-02-19T21:03:11.947408+00:00",
-          "age_hours": 33.4,
-          "shares_per_hour": 247.6,
-          "views_per_hour": 5239,
-          "momentum": 2640,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-02-19T23:04:17.294610+00:00",
-          "age_hours": 35.4,
-          "shares_per_hour": 233.5,
-          "views_per_hour": 4941,
-          "momentum": 2490,
-          "delta_shares_per_hour": -14.099999999999994
-        }
-      ],
-      "consecutive_negative_deltas": 1,
-      "alerted": false,
-      "consecutive_misses": 2
-    },
     {
       "url": "https://www.tiktok.com/@wildcrazylass123/video/7608477701351017748",
       "first_seen": "2026-02-20T10:02:54.807993+00:00",
@@ -223,9 +23,17 @@
           "views_per_hour": 18001,
           "momentum": 9816,
           "delta_shares_per_hour": -123.5
+        },
+        {
+          "timestamp": "2026-02-20T17:58:13.168908+00:00",
+          "age_hours": 34.3,
+          "shares_per_hour": 667.4,
+          "views_per_hour": 16143,
+          "momentum": 8802,
+          "delta_shares_per_hour": -76.80000000000007
         }
       ],
-      "consecutive_negative_deltas": 1,
+      "consecutive_negative_deltas": 2,
       "alerted": false,
       "consecutive_misses": 0
     },
@@ -251,11 +59,133 @@
           "views_per_hour": 7571,
           "momentum": 4451,
           "delta_shares_per_hour": -31.5
+        },
+        {
+          "timestamp": "2026-02-20T17:58:13.168908+00:00",
+          "age_hours": 54.5,
+          "shares_per_hour": 313.8,
+          "views_per_hour": 7078,
+          "momentum": 4161,
+          "delta_shares_per_hour": -21.899999999999977
         }
       ],
-      "consecutive_negative_deltas": 1,
+      "consecutive_negative_deltas": 2,
       "alerted": false,
       "consecutive_misses": 0
+    },
+    {
+      "url": "https://www.tiktok.com/@wildcrazylass123/video/7608556749250923797",
+      "first_seen": "2026-02-20T17:58:13.168908+00:00",
+      "market": "\ud83c\uddec\ud83c\udde7 UK ONLY",
+      "text": "#capcut #capcutpioneer\n\u2728 AI Ramadan Kareem Tutorial \ud83c\udf19\ud83d\udd4c\nTransform your photo into beautiful Ramadan light with AI magic \u2728\ud83d\udcab\nWarm glow, sacred blessings \u2014 feel the peaceful Ramadan energy \ud83d\udd25\n#aivideo #ramadankareem #\u0631\u0645\u0636\u0627\u0646_\u0643\u0631\u064a\u0645\n \nTutoriel IA Ramadan Kareem \u2728\ud83c\udf19\ud83d\udd4c\nTransforme ta photo en lumi\u00e8re Ramadan gr\u00e2ce \u00e0 l\u2019IA \u2728\ud83d\udcab\nLueur chaude, b\u00e9n\u00e9dictions sacr\u00e9es \u2014 ressentez la paix de Ramadan \ud83d\udd25\n \nKI-Tutorial Ramadan Kareem \u2728\ud83c\udf19\ud83d\udd4c\nVerwandele dein Foto in wundersch\u00f6nes Ramadan-Licht mit KI-Magie \u2728\ud83d\udcab\nWarmes Leuchten, gesegnete Momente \u2014 sp\u00fcre die friedliche Ramadan-Energie \ud83d\udd25\n \nTutorial IA Ramadan Kareem \u2728\ud83c\udf19\ud83d\udd4c\nConvierte tu foto en luz de Ramadan con magia IA \u2728\ud83d\udcab\nBrillo c\u00e1lido, bendiciones sagradas \u2014 siente la energ\u00eda pac\u00edfica de Ramadan \ud83d\udd25\n \nTutorial IA Ramadan Kareem \u2728\ud83c\udf19\ud83d\udd4c\nTransforme sua foto em luz de Ramadan com magia IA \u2728\ud83d\udcab\nBrilho quente, b\u00ean\u00e7\u00e3os sagradas \u2014 sinta a energia pac\u00edfica de Ramadan \ud83d\udd25\n \nTutorial AI Ramadan Kareem \u2728\ud83c\udf19\ud83d\udd4c\nUbah fotomu menjadi nuansa cahaya Ramadan yang indah dengan sihir AI \u2728\ud83d\udcab\nCahaya hangat, berkah suci \u2014 rasakan energi damai Ramadan \ud83d\udd25\n \nTutorial AI Ramadan Kareem \u2728\ud83c\udf19\ud83d\udd4c\nUbah foto kamu menjadi suasana cahaya Ramadan dengan magic AI \u2728\ud83d\udcab\nCahaya hangat, keberkahan suci \u2014 rasakan kedamaian Ramadan \ud83d\udd25\n \n\u041e\u0431\u0443\u0447\u0435\u043d\u0438\u0435 \u0418\u0418 \u0420\u0430\u043c\u0430\u0434\u0430\u043d \u041a\u0430\u0440\u0438\u043c \u2728\ud83c\udf19\ud83d\udd4c\n\u041f\u0440\u0435\u0432\u0440\u0430\u0442\u0438 \u0444\u043e\u0442\u043e \u0432 \u0442\u0435\u043f\u043b\u043e\u0435 \u0441\u0438\u044f\u043d\u0438\u0435 \u0420\u0430\u043c\u0430\u0434\u0430\u043d\u0430 \u0441 \u043f\u043e\u043c\u043e\u0449\u044c\u044e \u0418\u0418 \u2728\ud83d\udcab\n\u0422\u0435\u043f\u043b\u043e\u0435 \u0441\u0438\u044f\u043d\u0438\u0435, \u0441\u0432\u044f\u0449\u0435\u043d\u043d\u044b\u0435 \u0431\u043b\u0430\u0433\u043e\u0441\u043b\u043e\u0432\u0435\u043d\u0438\u044f \u2014 \u043e\u0449\u0443\u0442\u0438\u0442\u0435 \u043c\u0438\u0440 \u0420\u0430\u043c\u0430\u0434\u0430\u043d\u0430 \ud83d\udd25\n \n\u062f\u0631\u0633 \u062a\u0639\u0644\u064a\u0645\u064a \u0630\u0643\u0627\u0621 \u0627\u0635\u0637\u0646\u0627\u0639\u064a \u0631\u0645\u0636\u0627\u0646 \u0643\u0631\u064a\u0645 \u2728\ud83c\udf19\ud83d\udd4c\n\u062d\u0648\u0651\u0644 \u0635\u0648\u0631\u062a\u0643 \u0625\u0644\u0649 \u0623\u062c\u0648\u0627\u0621 \u0646\u0648\u0631 \u0631\u0645\u0636\u0627\u0646 \u0628\u0627\u0644\u0630\u0643\u0627\u0621 \u0627\u0644\u0627\u0635\u0637\u0646\u0627\u0639\u064a \u2728\ud83d\udcab\n\u0646\u0648\u0631 \u062f\u0627\u0641\u0626\u060c \u0628\u0631\u0643\u0627\u062a \u0645\u0642\u062f\u0633\u0629 \u2014 \u0627\u0634\u0639\u0631 \u0628\u0633\u0644\u0627\u0645 \u0631\u0645\u0636\u0627\u0646 \ud83d\udd25\n \nAI \u0930\u092e\u091c\u093e\u0928 \u0915\u0930\u0940\u092e \u091f\u094d\u092f\u0942\u091f\u094b\u0930\u093f\u092f\u0932 \u2728\ud83c\udf19\ud83d\udd4c\nAI \u0915\u0940 \u092e\u0926\u0926 \u0938\u0947 \u0905\u092a\u0928\u0940 \u092b\u094b\u091f\u094b \u0915\u094b \u0930\u092e\u091c\u093e\u0928 \u0915\u0947 \u0916\u0942\u092c\u0938\u0942\u0930\u0924 \u092a\u094d\u0930\u0915\u093e\u0936 \u092e\u0947\u0902 \u092c\u0926\u0932\u0947\u0902 \u2728\ud83d\udcab\n\u0917\u0930\u094d\u092e \u091a\u092e\u0915, \u092a\u0935\u093f\u0924\u094d\u0930 \u0906\u0936\u0940\u0930\u094d\u0935\u093e\u0926 \u2014 \u0936\u093e\u0902\u0924\u093f\u092a\u0942\u0930\u094d\u0923 \u0930\u092e\u091c\u093e\u0928 \u090a\u0930\u094d\u091c\u093e \u0915\u094b \u092e\u0939\u0938\u0942\u0938 \u0915\u0930\u0947\u0902 \ud83d\udd25",
+      "creator": "wildcrazylass123",
+      "checks": [
+        {
+          "timestamp": "2026-02-20T17:58:13.168908+00:00",
+          "age_hours": 29.2,
+          "shares_per_hour": 278.5,
+          "views_per_hour": 4024,
+          "momentum": 3420,
+          "delta_shares_per_hour": null
+        }
+      ],
+      "consecutive_negative_deltas": 0,
+      "alerted": false
+    },
+    {
+      "url": "https://www.tiktok.com/@imoletok1/video/7608586373053910285",
+      "first_seen": "2026-02-20T17:58:13.168908+00:00",
+      "market": "\ud83c\udf10 BOTH",
+      "text": "#CapCut Transition tutorial \ud83d\ude2d\ud83d\udd25, Hope this was mad helpful \ud83d\ude18 #capcutpioneer #capcuttutorial @CapCut /Transition tutorials/How to make cool transitions on CapCut/",
+      "creator": "imoletok1",
+      "checks": [
+        {
+          "timestamp": "2026-02-20T17:58:13.168908+00:00",
+          "age_hours": 27.3,
+          "shares_per_hour": 18.7,
+          "views_per_hour": 24836,
+          "momentum": 3086,
+          "delta_shares_per_hour": null
+        }
+      ],
+      "consecutive_negative_deltas": 0,
+      "alerted": false
+    },
+    {
+      "url": "https://www.tiktok.com/@alia.abk/video/7608601521814719764",
+      "first_seen": "2026-02-20T17:58:13.168908+00:00",
+      "market": "\ud83c\udf10 BOTH",
+      "text": "6 glow up tips I wish I knew sooner, from someone that had a major glow up (pt 3) last one is highkey the most important \ud83e\udd70",
+      "creator": "alia.abk",
+      "checks": [
+        {
+          "timestamp": "2026-02-20T17:58:13.168908+00:00",
+          "age_hours": 26.3,
+          "shares_per_hour": 26.5,
+          "views_per_hour": 6527,
+          "momentum": 1949,
+          "delta_shares_per_hour": null
+        }
+      ],
+      "consecutive_negative_deltas": 0,
+      "alerted": false
+    },
+    {
+      "url": "https://www.tiktok.com/@kafiiisardar/video/7608534540415421717",
+      "first_seen": "2026-02-20T17:58:13.168908+00:00",
+      "market": "\ud83c\udf10 BOTH",
+      "text": "\ud83e\udee0\u2764\ufe0f TRENDING \u2764\ufe0f\u200d\ud83d\udd25#CapCut #fyp #trending #templatecapcut #kaifi\ud83d\udd1b\ud83d\udd1d @\u0686\u0648\u06c1\u062f\u0631\u06cc \u0627\u0641\u0636\u0627\u0644 \ud83d\udcb8 ",
+      "creator": "kafiiisardar",
+      "checks": [
+        {
+          "timestamp": "2026-02-20T17:58:13.168908+00:00",
+          "age_hours": 30.6,
+          "shares_per_hour": 7.8,
+          "views_per_hour": 4067,
+          "momentum": 1042,
+          "delta_shares_per_hour": null
+        }
+      ],
+      "consecutive_negative_deltas": 0,
+      "alerted": false
+    },
+    {
+      "url": "https://www.tiktok.com/@capcutcanvas1/video/7608265960482458900",
+      "first_seen": "2026-02-20T17:58:13.168908+00:00",
+      "market": "\ud83c\udf10 BOTH",
+      "text": "New template\ud83d\udd25\u2764\ufe0f only 8 videos needed\u2764\ufe0f\u200d\ud83d\udd25 #CapCut #trending #viral #template #fyp ",
+      "creator": "capcutcanvas1",
+      "checks": [
+        {
+          "timestamp": "2026-02-20T17:58:13.168908+00:00",
+          "age_hours": 48.0,
+          "shares_per_hour": 14.0,
+          "views_per_hour": 1401,
+          "momentum": 997,
+          "delta_shares_per_hour": null
+        }
+      ],
+      "consecutive_negative_deltas": 0,
+      "alerted": false
+    },
+    {
+      "url": "https://www.tiktok.com/@clearskinalyssa/video/7608463246319766815",
+      "first_seen": "2026-02-20T17:58:13.168908+00:00",
+      "market": "\ud83c\uddfa\ud83c\uddf8 US ONLY",
+      "text": "literally all of my skin problems were fixed with thea #skincare #hellothea #skintok #GlowUp #glassskin ",
+      "creator": "clearskinalyssa",
+      "checks": [
+        {
+          "timestamp": "2026-02-20T17:58:13.168908+00:00",
+          "age_hours": 35.2,
+          "shares_per_hour": 8.9,
+          "views_per_hour": 5508,
+          "momentum": 952,
+          "delta_shares_per_hour": null
+        }
+      ],
+      "consecutive_negative_deltas": 0,
+      "alerted": false
     }
   ]
 }
