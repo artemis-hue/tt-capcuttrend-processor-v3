@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-21T20:51:21.463769+00:00",
+  "last_updated": "2026-02-21T22:54:12.089931+00:00",
   "candidates": [
     {
       "url": "https://www.tiktok.com/@jajaitsai/video/7608658705428663565",
@@ -23,9 +23,17 @@
           "views_per_hour": 40420,
           "momentum": 38761,
           "delta_shares_per_hour": -87.0
+        },
+        {
+          "timestamp": "2026-02-21T22:54:12.089809+00:00",
+          "age_hours": 51.5,
+          "shares_per_hour": 2249.3,
+          "views_per_hour": 38814,
+          "momentum": 37221,
+          "delta_shares_per_hour": -93.09999999999991
         }
       ],
-      "consecutive_negative_deltas": 1,
+      "consecutive_negative_deltas": 2,
       "alerted": false,
       "consecutive_misses": 0
     },
@@ -51,9 +59,17 @@
           "views_per_hour": 53321,
           "momentum": 25697,
           "delta_shares_per_hour": -116.09999999999991
+        },
+        {
+          "timestamp": "2026-02-21T22:54:12.089809+00:00",
+          "age_hours": 28.3,
+          "shares_per_hour": 1487.5,
+          "views_per_hour": 49464,
+          "momentum": 23838,
+          "delta_shares_per_hour": -116.0
         }
       ],
-      "consecutive_negative_deltas": 1,
+      "consecutive_negative_deltas": 2,
       "alerted": false,
       "consecutive_misses": 0
     },
@@ -79,9 +95,17 @@
           "views_per_hour": 3830,
           "momentum": 8663,
           "delta_shares_per_hour": -43.60000000000002
+        },
+        {
+          "timestamp": "2026-02-21T22:54:12.089809+00:00",
+          "age_hours": 27.9,
+          "shares_per_hour": 548.6,
+          "views_per_hour": 3549,
+          "momentum": 8027,
+          "delta_shares_per_hour": -43.39999999999998
         }
       ],
-      "consecutive_negative_deltas": 1,
+      "consecutive_negative_deltas": 2,
       "alerted": false,
       "consecutive_misses": 0
     },
@@ -99,10 +123,19 @@
           "views_per_hour": 3380,
           "momentum": 1584,
           "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-02-21T22:54:12.089809+00:00",
+          "age_hours": 47.7,
+          "shares_per_hour": 9.6,
+          "views_per_hour": 3235,
+          "momentum": 1516,
+          "delta_shares_per_hour": -0.40000000000000036
         }
       ],
-      "consecutive_negative_deltas": 0,
-      "alerted": false
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
     },
     {
       "url": "https://www.tiktok.com/@kreadul/video/7608966410991193366",
@@ -118,10 +151,19 @@
           "views_per_hour": 3095,
           "momentum": 1327,
           "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-02-21T22:54:12.089809+00:00",
+          "age_hours": 31.6,
+          "shares_per_hour": 86.4,
+          "views_per_hour": 2895,
+          "momentum": 1241,
+          "delta_shares_per_hour": -6.0
         }
       ],
-      "consecutive_negative_deltas": 0,
-      "alerted": false
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
     },
     {
       "url": "https://www.tiktok.com/@zzyue0609/video/7608959009277725982",
@@ -137,10 +179,19 @@
           "views_per_hour": 349,
           "momentum": 207,
           "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-02-21T22:54:12.089809+00:00",
+          "age_hours": 32.1,
+          "shares_per_hour": 16.6,
+          "views_per_hour": 327,
+          "momentum": 194,
+          "delta_shares_per_hour": -1.1999999999999993
         }
       ],
-      "consecutive_negative_deltas": 0,
-      "alerted": false
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
     },
     {
       "url": "https://www.tiktok.com/@jio46683/video/7608959735915629831",
@@ -156,10 +207,19 @@
           "views_per_hour": 188,
           "momentum": 194,
           "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-02-21T22:54:12.089809+00:00",
+          "age_hours": 32.1,
+          "shares_per_hour": 15.9,
+          "views_per_hour": 176,
+          "momentum": 181,
+          "delta_shares_per_hour": -1.0999999999999996
         }
       ],
-      "consecutive_negative_deltas": 0,
-      "alerted": false
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
     },
     {
       "url": "https://www.tiktok.com/@baileyhansen1739/video/7608813067056516374",
@@ -175,10 +235,19 @@
           "views_per_hour": 273,
           "momentum": 191,
           "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-02-21T22:54:12.089809+00:00",
+          "age_hours": 41.6,
+          "shares_per_hour": 9.0,
+          "views_per_hour": 259,
+          "momentum": 182,
+          "delta_shares_per_hour": -0.5
         }
       ],
-      "consecutive_negative_deltas": 0,
-      "alerted": false
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
     }
   ]
 }
