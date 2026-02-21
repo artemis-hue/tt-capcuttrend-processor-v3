@@ -1,114 +1,6 @@
 {
-  "last_updated": "2026-02-21T16:59:31.947060+00:00",
+  "last_updated": "2026-02-21T19:04:58.616179+00:00",
   "candidates": [
-    {
-      "url": "https://www.tiktok.com/@mirrasar/video/7608677352138214674",
-      "first_seen": "2026-02-21T13:54:05.229574+00:00",
-      "market": "\ud83c\uddec\ud83c\udde7 UK ONLY",
-      "text": "#CapCut ",
-      "creator": "mirrasar",
-      "checks": [
-        {
-          "timestamp": "2026-02-21T13:54:05.229574+00:00",
-          "age_hours": 41.3,
-          "shares_per_hour": 33.3,
-          "views_per_hour": 21685,
-          "momentum": 6291,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-02-21T14:55:35.420757+00:00",
-          "age_hours": 42.4,
-          "shares_per_hour": 32.5,
-          "views_per_hour": 21161,
-          "momentum": 6139,
-          "delta_shares_per_hour": -0.7999999999999972
-        },
-        {
-          "timestamp": "2026-02-21T16:59:31.946938+00:00",
-          "age_hours": 44.4,
-          "shares_per_hour": 31.0,
-          "views_per_hour": 20177,
-          "momentum": 5853,
-          "delta_shares_per_hour": -1.5
-        }
-      ],
-      "consecutive_negative_deltas": 2,
-      "alerted": false,
-      "consecutive_misses": 0
-    },
-    {
-      "url": "https://www.tiktok.com/@stormcapcutx/video/7608621835453730069",
-      "first_seen": "2026-02-21T13:54:05.229574+00:00",
-      "market": "\ud83c\udf10 BOTH",
-      "text": "moonlight #CapCut #xxxtentacion #capcutpioneer #pioneertemplate #song @mawatermelon ",
-      "creator": "stormcapcutx",
-      "checks": [
-        {
-          "timestamp": "2026-02-21T13:54:05.229574+00:00",
-          "age_hours": 44.9,
-          "shares_per_hour": 13.7,
-          "views_per_hour": 6967,
-          "momentum": 4059,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-02-21T14:55:35.420757+00:00",
-          "age_hours": 45.9,
-          "shares_per_hour": 13.4,
-          "views_per_hour": 6812,
-          "momentum": 3969,
-          "delta_shares_per_hour": -0.29999999999999893
-        },
-        {
-          "timestamp": "2026-02-21T16:59:31.946938+00:00",
-          "age_hours": 48.0,
-          "shares_per_hour": 12.8,
-          "views_per_hour": 6519,
-          "momentum": 3798,
-          "delta_shares_per_hour": -0.5999999999999996
-        }
-      ],
-      "consecutive_negative_deltas": 2,
-      "alerted": false,
-      "consecutive_misses": 0
-    },
-    {
-      "url": "https://www.tiktok.com/@alia.abk/video/7608601521814719764",
-      "first_seen": "2026-02-21T13:54:05.229574+00:00",
-      "market": "\ud83c\udf10 BOTH",
-      "text": "6 glow up tips I wish I knew sooner, from someone that had a major glow up (pt 3) last one is highkey the most important \ud83e\udd70",
-      "creator": "alia.abk",
-      "checks": [
-        {
-          "timestamp": "2026-02-21T13:54:05.229574+00:00",
-          "age_hours": 46.2,
-          "shares_per_hour": 54.0,
-          "views_per_hour": 12406,
-          "momentum": 3947,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-02-21T14:55:35.420757+00:00",
-          "age_hours": 47.3,
-          "shares_per_hour": 52.9,
-          "views_per_hour": 12137,
-          "momentum": 3862,
-          "delta_shares_per_hour": -1.1000000000000014
-        },
-        {
-          "timestamp": "2026-02-21T16:59:31.946938+00:00",
-          "age_hours": 49.3,
-          "shares_per_hour": 50.7,
-          "views_per_hour": 11628,
-          "momentum": 3700,
-          "delta_shares_per_hour": -2.1999999999999957
-        }
-      ],
-      "consecutive_negative_deltas": 2,
-      "alerted": false,
-      "consecutive_misses": 0
-    },
     {
       "url": "https://www.tiktok.com/@urdr92956838/video/7608950717637725461",
       "first_seen": "2026-02-21T14:55:35.420757+00:00",
@@ -131,9 +23,17 @@
           "views_per_hour": 4895,
           "momentum": 3097,
           "delta_shares_per_hour": -17.299999999999983
+        },
+        {
+          "timestamp": "2026-02-21T19:04:58.611736+00:00",
+          "age_hours": 28.8,
+          "shares_per_hour": 191.4,
+          "views_per_hour": 4540,
+          "momentum": 2872,
+          "delta_shares_per_hour": -14.900000000000006
         }
       ],
-      "consecutive_negative_deltas": 1,
+      "consecutive_negative_deltas": 2,
       "alerted": false,
       "consecutive_misses": 0
     },
@@ -159,9 +59,17 @@
           "views_per_hour": 5386,
           "momentum": 3089,
           "delta_shares_per_hour": -1.0999999999999996
+        },
+        {
+          "timestamp": "2026-02-21T19:04:58.611736+00:00",
+          "age_hours": 30.2,
+          "shares_per_hour": 13.3,
+          "views_per_hour": 5013,
+          "momentum": 2875,
+          "delta_shares_per_hour": -1.0
         }
       ],
-      "consecutive_negative_deltas": 1,
+      "consecutive_negative_deltas": 2,
       "alerted": false,
       "consecutive_misses": 0
     },
@@ -187,9 +95,17 @@
           "views_per_hour": 2978,
           "momentum": 2997,
           "delta_shares_per_hour": -24.900000000000034
+        },
+        {
+          "timestamp": "2026-02-21T19:04:58.611736+00:00",
+          "age_hours": 25.9,
+          "shares_per_hour": 241.2,
+          "views_per_hour": 2738,
+          "momentum": 2755,
+          "delta_shares_per_hour": -21.19999999999999
         }
       ],
-      "consecutive_negative_deltas": 1,
+      "consecutive_negative_deltas": 2,
       "alerted": false,
       "consecutive_misses": 0
     },
@@ -215,9 +131,17 @@
           "views_per_hour": 4117,
           "momentum": 2175,
           "delta_shares_per_hour": -11.799999999999983
+        },
+        {
+          "timestamp": "2026-02-21T19:04:58.611736+00:00",
+          "age_hours": 34.9,
+          "shares_per_hour": 165.4,
+          "views_per_hour": 3871,
+          "momentum": 2045,
+          "delta_shares_per_hour": -10.5
         }
       ],
-      "consecutive_negative_deltas": 1,
+      "consecutive_negative_deltas": 2,
       "alerted": false,
       "consecutive_misses": 0
     },
@@ -243,11 +167,76 @@
           "views_per_hour": 5184,
           "momentum": 1743,
           "delta_shares_per_hour": -13.599999999999994
+        },
+        {
+          "timestamp": "2026-02-21T19:04:58.611736+00:00",
+          "age_hours": 28.2,
+          "shares_per_hour": 146.4,
+          "views_per_hour": 4799,
+          "momentum": 1614,
+          "delta_shares_per_hour": -11.699999999999989
         }
       ],
-      "consecutive_negative_deltas": 1,
+      "consecutive_negative_deltas": 2,
       "alerted": false,
       "consecutive_misses": 0
+    },
+    {
+      "url": "https://www.tiktok.com/@jajaitsai/video/7608658705428663565",
+      "first_seen": "2026-02-21T19:04:58.611736+00:00",
+      "market": "\ud83c\udf10 BOTH",
+      "text": "What\u2019s next ? \ud83d\ude02\ud83e\udee0#ai #foryoupage #viral #dachshund #funny ",
+      "creator": "jajaitsai",
+      "checks": [
+        {
+          "timestamp": "2026-02-21T19:04:58.611736+00:00",
+          "age_hours": 47.7,
+          "shares_per_hour": 2429.4,
+          "views_per_hour": 41923,
+          "momentum": 40202,
+          "delta_shares_per_hour": null
+        }
+      ],
+      "consecutive_negative_deltas": 0,
+      "alerted": false
+    },
+    {
+      "url": "https://www.tiktok.com/@meow.meow.ai.art/video/7609017834164833549",
+      "first_seen": "2026-02-21T19:04:58.611736+00:00",
+      "market": "\ud83c\udf10 BOTH",
+      "text": "Paws Of Vengeance \n\n#cat #ai #wedding #drama #part7",
+      "creator": "meow.meow.ai.art",
+      "checks": [
+        {
+          "timestamp": "2026-02-21T19:04:58.611736+00:00",
+          "age_hours": 24.5,
+          "shares_per_hour": 1719.6,
+          "views_per_hour": 57183,
+          "momentum": 27558,
+          "delta_shares_per_hour": null
+        }
+      ],
+      "consecutive_negative_deltas": 0,
+      "alerted": false
+    },
+    {
+      "url": "https://www.tiktok.com/@fxckbrxn/video/7609024337475079431",
+      "first_seen": "2026-02-21T19:04:58.611736+00:00",
+      "market": "\ud83c\uddec\ud83c\udde7 UK ONLY",
+      "text": "#fyp #ai #ia #inteligenciaartificial #claudiasheinbaum",
+      "creator": "fxckbrxn",
+      "checks": [
+        {
+          "timestamp": "2026-02-21T19:04:58.611736+00:00",
+          "age_hours": 24.1,
+          "shares_per_hour": 635.6,
+          "views_per_hour": 4112,
+          "momentum": 9301,
+          "delta_shares_per_hour": null
+        }
+      ],
+      "consecutive_negative_deltas": 0,
+      "alerted": false
     }
   ]
 }
