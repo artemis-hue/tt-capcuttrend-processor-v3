@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-21T14:55:35.425087+00:00",
+  "last_updated": "2026-02-21T16:59:31.947060+00:00",
   "candidates": [
     {
       "url": "https://www.tiktok.com/@mirrasar/video/7608677352138214674",
@@ -23,9 +23,17 @@
           "views_per_hour": 21161,
           "momentum": 6139,
           "delta_shares_per_hour": -0.7999999999999972
+        },
+        {
+          "timestamp": "2026-02-21T16:59:31.946938+00:00",
+          "age_hours": 44.4,
+          "shares_per_hour": 31.0,
+          "views_per_hour": 20177,
+          "momentum": 5853,
+          "delta_shares_per_hour": -1.5
         }
       ],
-      "consecutive_negative_deltas": 1,
+      "consecutive_negative_deltas": 2,
       "alerted": false,
       "consecutive_misses": 0
     },
@@ -51,9 +59,17 @@
           "views_per_hour": 6812,
           "momentum": 3969,
           "delta_shares_per_hour": -0.29999999999999893
+        },
+        {
+          "timestamp": "2026-02-21T16:59:31.946938+00:00",
+          "age_hours": 48.0,
+          "shares_per_hour": 12.8,
+          "views_per_hour": 6519,
+          "momentum": 3798,
+          "delta_shares_per_hour": -0.5999999999999996
         }
       ],
-      "consecutive_negative_deltas": 1,
+      "consecutive_negative_deltas": 2,
       "alerted": false,
       "consecutive_misses": 0
     },
@@ -79,9 +95,17 @@
           "views_per_hour": 12137,
           "momentum": 3862,
           "delta_shares_per_hour": -1.1000000000000014
+        },
+        {
+          "timestamp": "2026-02-21T16:59:31.946938+00:00",
+          "age_hours": 49.3,
+          "shares_per_hour": 50.7,
+          "views_per_hour": 11628,
+          "momentum": 3700,
+          "delta_shares_per_hour": -2.1999999999999957
         }
       ],
-      "consecutive_negative_deltas": 1,
+      "consecutive_negative_deltas": 2,
       "alerted": false,
       "consecutive_misses": 0
     },
@@ -99,10 +123,19 @@
           "views_per_hour": 5304,
           "momentum": 3356,
           "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-02-21T16:59:31.946938+00:00",
+          "age_hours": 26.7,
+          "shares_per_hour": 206.3,
+          "views_per_hour": 4895,
+          "momentum": 3097,
+          "delta_shares_per_hour": -17.299999999999983
         }
       ],
-      "consecutive_negative_deltas": 0,
-      "alerted": false
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
     },
     {
       "url": "https://www.tiktok.com/@writingtobury/video/7608929610130115860",
@@ -118,10 +151,19 @@
           "views_per_hour": 5813,
           "momentum": 3334,
           "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-02-21T16:59:31.946938+00:00",
+          "age_hours": 28.1,
+          "shares_per_hour": 14.3,
+          "views_per_hour": 5386,
+          "momentum": 3089,
+          "delta_shares_per_hour": -1.0999999999999996
         }
       ],
-      "consecutive_negative_deltas": 0,
-      "alerted": false
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
     },
     {
       "url": "https://www.tiktok.com/@wildcrazylass123/video/7608995609969839380",
@@ -137,10 +179,19 @@
           "views_per_hour": 3261,
           "momentum": 3282,
           "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-02-21T16:59:31.946938+00:00",
+          "age_hours": 23.8,
+          "shares_per_hour": 262.4,
+          "views_per_hour": 2978,
+          "momentum": 2997,
+          "delta_shares_per_hour": -24.900000000000034
         }
       ],
-      "consecutive_negative_deltas": 0,
-      "alerted": false
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
     },
     {
       "url": "https://www.tiktok.com/@lovinglylov3ly0/video/7608856149399506197",
@@ -156,10 +207,19 @@
           "views_per_hour": 4394,
           "momentum": 2321,
           "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-02-21T16:59:31.946938+00:00",
+          "age_hours": 32.9,
+          "shares_per_hour": 175.9,
+          "views_per_hour": 4117,
+          "momentum": 2175,
+          "delta_shares_per_hour": -11.799999999999983
         }
       ],
-      "consecutive_negative_deltas": 0,
-      "alerted": false
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
     },
     {
       "url": "https://www.tiktok.com/@anna164191/video/7608960357427727636",
@@ -175,10 +235,19 @@
           "views_per_hour": 5629,
           "momentum": 1893,
           "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-02-21T16:59:31.946938+00:00",
+          "age_hours": 26.1,
+          "shares_per_hour": 158.1,
+          "views_per_hour": 5184,
+          "momentum": 1743,
+          "delta_shares_per_hour": -13.599999999999994
         }
       ],
-      "consecutive_negative_deltas": 0,
-      "alerted": false
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
     }
   ]
 }
