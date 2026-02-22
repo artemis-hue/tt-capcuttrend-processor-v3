@@ -1,42 +1,6 @@
 {
-  "last_updated": "2026-02-21T22:54:12.089931+00:00",
+  "last_updated": "2026-02-22T09:01:41.587416+00:00",
   "candidates": [
-    {
-      "url": "https://www.tiktok.com/@jajaitsai/video/7608658705428663565",
-      "first_seen": "2026-02-21T19:04:58.611736+00:00",
-      "market": "\ud83c\udf10 BOTH",
-      "text": "What\u2019s next ? \ud83d\ude02\ud83e\udee0#ai #foryoupage #viral #dachshund #funny ",
-      "creator": "jajaitsai",
-      "checks": [
-        {
-          "timestamp": "2026-02-21T19:04:58.611736+00:00",
-          "age_hours": 47.7,
-          "shares_per_hour": 2429.4,
-          "views_per_hour": 41923,
-          "momentum": 40202,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-02-21T20:51:21.459530+00:00",
-          "age_hours": 49.5,
-          "shares_per_hour": 2342.4,
-          "views_per_hour": 40420,
-          "momentum": 38761,
-          "delta_shares_per_hour": -87.0
-        },
-        {
-          "timestamp": "2026-02-21T22:54:12.089809+00:00",
-          "age_hours": 51.5,
-          "shares_per_hour": 2249.3,
-          "views_per_hour": 38814,
-          "momentum": 37221,
-          "delta_shares_per_hour": -93.09999999999991
-        }
-      ],
-      "consecutive_negative_deltas": 2,
-      "alerted": false,
-      "consecutive_misses": 0
-    },
     {
       "url": "https://www.tiktok.com/@meow.meow.ai.art/video/7609017834164833549",
       "first_seen": "2026-02-21T19:04:58.611736+00:00",
@@ -71,43 +35,7 @@
       ],
       "consecutive_negative_deltas": 2,
       "alerted": false,
-      "consecutive_misses": 0
-    },
-    {
-      "url": "https://www.tiktok.com/@fxckbrxn/video/7609024337475079431",
-      "first_seen": "2026-02-21T19:04:58.611736+00:00",
-      "market": "\ud83c\uddec\ud83c\udde7 UK ONLY",
-      "text": "#fyp #ai #ia #inteligenciaartificial #claudiasheinbaum",
-      "creator": "fxckbrxn",
-      "checks": [
-        {
-          "timestamp": "2026-02-21T19:04:58.611736+00:00",
-          "age_hours": 24.1,
-          "shares_per_hour": 635.6,
-          "views_per_hour": 4112,
-          "momentum": 9301,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-02-21T20:51:21.459530+00:00",
-          "age_hours": 25.8,
-          "shares_per_hour": 592.0,
-          "views_per_hour": 3830,
-          "momentum": 8663,
-          "delta_shares_per_hour": -43.60000000000002
-        },
-        {
-          "timestamp": "2026-02-21T22:54:12.089809+00:00",
-          "age_hours": 27.9,
-          "shares_per_hour": 548.6,
-          "views_per_hour": 3549,
-          "momentum": 8027,
-          "delta_shares_per_hour": -43.39999999999998
-        }
-      ],
-      "consecutive_negative_deltas": 2,
-      "alerted": false,
-      "consecutive_misses": 0
+      "consecutive_misses": 1
     },
     {
       "url": "https://www.tiktok.com/@priestessprincess/video/7608717261406244110",
@@ -135,7 +63,7 @@
       ],
       "consecutive_negative_deltas": 1,
       "alerted": false,
-      "consecutive_misses": 0
+      "consecutive_misses": 1
     },
     {
       "url": "https://www.tiktok.com/@kreadul/video/7608966410991193366",
@@ -163,7 +91,7 @@
       ],
       "consecutive_negative_deltas": 1,
       "alerted": false,
-      "consecutive_misses": 0
+      "consecutive_misses": 1
     },
     {
       "url": "https://www.tiktok.com/@zzyue0609/video/7608959009277725982",
@@ -187,9 +115,17 @@
           "views_per_hour": 327,
           "momentum": 194,
           "delta_shares_per_hour": -1.1999999999999993
+        },
+        {
+          "timestamp": "2026-02-22T09:01:41.582901+00:00",
+          "age_hours": 42.2,
+          "shares_per_hour": 26.0,
+          "views_per_hour": 518,
+          "momentum": 298,
+          "delta_shares_per_hour": 9.399999999999999
         }
       ],
-      "consecutive_negative_deltas": 1,
+      "consecutive_negative_deltas": 0,
       "alerted": false,
       "consecutive_misses": 0
     },
@@ -219,7 +155,7 @@
       ],
       "consecutive_negative_deltas": 1,
       "alerted": false,
-      "consecutive_misses": 0
+      "consecutive_misses": 1
     },
     {
       "url": "https://www.tiktok.com/@baileyhansen1739/video/7608813067056516374",
@@ -247,7 +183,45 @@
       ],
       "consecutive_negative_deltas": 1,
       "alerted": false,
-      "consecutive_misses": 0
+      "consecutive_misses": 1
+    },
+    {
+      "url": "https://www.tiktok.com/@matteo_cruzzz/video/7609110364436860192",
+      "first_seen": "2026-02-22T09:01:41.582901+00:00",
+      "market": "\ud83c\uddfa\ud83c\uddf8 US ONLY",
+      "text": "Did I glow up?\n\n#motivation #glowup #fitness #natual #divorce ",
+      "creator": "matteo_cruzzz",
+      "checks": [
+        {
+          "timestamp": "2026-02-22T09:01:41.582901+00:00",
+          "age_hours": 32.4,
+          "shares_per_hour": 767.4,
+          "views_per_hour": 46229,
+          "momentum": 19730,
+          "delta_shares_per_hour": null
+        }
+      ],
+      "consecutive_negative_deltas": 0,
+      "alerted": false
+    },
+    {
+      "url": "https://www.tiktok.com/@doctortren1/video/7609384647562104086",
+      "first_seen": "2026-02-22T09:01:41.582901+00:00",
+      "market": "\ud83c\udf10 BOTH",
+      "text": "WHAT A GLOW UP \ud83d\udde3\ufe0f\ud83d\udde3\ufe0f #adamyu #gymmotivation #gymtok #foryoupag\u0435 ",
+      "creator": "doctortren1",
+      "checks": [
+        {
+          "timestamp": "2026-02-22T09:01:41.582901+00:00",
+          "age_hours": 14.7,
+          "shares_per_hour": 438.1,
+          "views_per_hour": 44595,
+          "momentum": 18161,
+          "delta_shares_per_hour": null
+        }
+      ],
+      "consecutive_negative_deltas": 0,
+      "alerted": false
     }
   ]
 }
