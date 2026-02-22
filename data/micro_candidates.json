@@ -1,186 +1,6 @@
 {
-  "last_updated": "2026-02-22T17:00:26.636772+00:00",
+  "last_updated": "2026-02-22T19:04:51.814505+00:00",
   "candidates": [
-    {
-      "url": "https://www.tiktok.com/@fxckbrxn/video/7609024337475079431",
-      "first_seen": "2026-02-22T13:55:17.079833+00:00",
-      "market": "\ud83c\udf10 BOTH",
-      "text": "#fyp #ai #ia #inteligenciaartificial #claudiasheinbaum",
-      "creator": "fxckbrxn",
-      "checks": [
-        {
-          "timestamp": "2026-02-22T13:55:17.079833+00:00",
-          "age_hours": 42.9,
-          "shares_per_hour": 7247.8,
-          "views_per_hour": 58262,
-          "momentum": 109143,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-02-22T14:57:36.439151+00:00",
-          "age_hours": 43.9,
-          "shares_per_hour": 7076.5,
-          "views_per_hour": 56885,
-          "momentum": 106564,
-          "delta_shares_per_hour": -171.30000000000018
-        },
-        {
-          "timestamp": "2026-02-22T17:00:26.636650+00:00",
-          "age_hours": 46.0,
-          "shares_per_hour": 6761.5,
-          "views_per_hour": 54353,
-          "momentum": 101820,
-          "delta_shares_per_hour": -315.0
-        }
-      ],
-      "consecutive_negative_deltas": 2,
-      "alerted": false,
-      "consecutive_misses": 0
-    },
-    {
-      "url": "https://www.tiktok.com/@viviantried/video/7608953897784331541",
-      "first_seen": "2026-02-22T13:55:17.079833+00:00",
-      "market": "\ud83c\uddec\ud83c\udde7 UK ONLY",
-      "text": "and it looks natural \ud83d\udc95 #chin #filler #chinfiller #glowup #results ",
-      "creator": "viviantried",
-      "checks": [
-        {
-          "timestamp": "2026-02-22T13:55:17.079833+00:00",
-          "age_hours": 47.5,
-          "shares_per_hour": 106.0,
-          "views_per_hour": 17130,
-          "momentum": 7577,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-02-22T14:57:36.439151+00:00",
-          "age_hours": 48.5,
-          "shares_per_hour": 103.7,
-          "views_per_hour": 16763,
-          "momentum": 7415,
-          "delta_shares_per_hour": -2.299999999999997
-        },
-        {
-          "timestamp": "2026-02-22T17:00:26.636650+00:00",
-          "age_hours": 50.5,
-          "shares_per_hour": 99.5,
-          "views_per_hour": 16084,
-          "momentum": 7114,
-          "delta_shares_per_hour": -4.200000000000003
-        }
-      ],
-      "consecutive_negative_deltas": 2,
-      "alerted": false,
-      "consecutive_misses": 0
-    },
-    {
-      "url": "https://www.tiktok.com/@imoletok1/video/7609307988616105229",
-      "first_seen": "2026-02-22T13:55:17.079833+00:00",
-      "market": "\ud83c\udf10 BOTH",
-      "text": "#CapCut Text animation tutorial for that one stranger things edit \ud83d\ude2d\ud83d\udd25, I know this was hella helpful gng \ud83d\ude18 #capcutpioneer #capcuttutorial @CapCut |Text animation tutorial, Stranger things edit tutorial, That one stranger things edit text tutorial, That one stranger things edit tutorial ",
-      "creator": "imoletok1",
-      "checks": [
-        {
-          "timestamp": "2026-02-22T13:55:17.079833+00:00",
-          "age_hours": 24.5,
-          "shares_per_hour": 52.9,
-          "views_per_hour": 38988,
-          "momentum": 6589,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-02-22T14:57:36.439151+00:00",
-          "age_hours": 25.6,
-          "shares_per_hour": 50.7,
-          "views_per_hour": 37405,
-          "momentum": 6322,
-          "delta_shares_per_hour": -2.1999999999999957
-        },
-        {
-          "timestamp": "2026-02-22T17:00:26.636650+00:00",
-          "age_hours": 27.6,
-          "shares_per_hour": 47.0,
-          "views_per_hour": 34634,
-          "momentum": 5853,
-          "delta_shares_per_hour": -3.700000000000003
-        }
-      ],
-      "consecutive_negative_deltas": 2,
-      "alerted": false,
-      "consecutive_misses": 0
-    },
-    {
-      "url": "https://www.tiktok.com/@dituthichdapes/video/7609336263077809429",
-      "first_seen": "2026-02-22T13:55:17.079833+00:00",
-      "market": "\ud83c\uddec\ud83c\udde7 UK ONLY",
-      "text": "Neymar Please Curl \ud83e\udd21 #pes #efootball #CapCut #capcutpioneer #pioneertemplate ",
-      "creator": "dituthichdapes",
-      "checks": [
-        {
-          "timestamp": "2026-02-22T13:55:17.079833+00:00",
-          "age_hours": 22.7,
-          "shares_per_hour": 58.9,
-          "views_per_hour": 40380,
-          "momentum": 6561,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-02-22T14:57:36.439151+00:00",
-          "age_hours": 23.8,
-          "shares_per_hour": 56.4,
-          "views_per_hour": 38616,
-          "momentum": 6274,
-          "delta_shares_per_hour": -2.5
-        },
-        {
-          "timestamp": "2026-02-22T17:00:26.636650+00:00",
-          "age_hours": 25.8,
-          "shares_per_hour": 51.9,
-          "views_per_hour": 35554,
-          "momentum": 5777,
-          "delta_shares_per_hour": -4.5
-        }
-      ],
-      "consecutive_negative_deltas": 2,
-      "alerted": false,
-      "consecutive_misses": 0
-    },
-    {
-      "url": "https://www.tiktok.com/@relaxnowasmr4/video/7609008607220337942",
-      "first_seen": "2026-02-22T13:55:17.079833+00:00",
-      "market": "\ud83c\udf10 BOTH",
-      "text": "Orange and Avocado dancing macarena #viraldance #aifunny #dancingfruit #aidance #orange ",
-      "creator": "relaxnowasmr4",
-      "checks": [
-        {
-          "timestamp": "2026-02-22T13:55:17.079833+00:00",
-          "age_hours": 43.9,
-          "shares_per_hour": 402.9,
-          "views_per_hour": 21380,
-          "momentum": 6367,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-02-22T14:57:36.439151+00:00",
-          "age_hours": 45.0,
-          "shares_per_hour": 393.6,
-          "views_per_hour": 20886,
-          "momentum": 6219,
-          "delta_shares_per_hour": -9.299999999999955
-        },
-        {
-          "timestamp": "2026-02-22T17:00:26.636650+00:00",
-          "age_hours": 47.0,
-          "shares_per_hour": 376.5,
-          "views_per_hour": 19977,
-          "momentum": 5949,
-          "delta_shares_per_hour": -17.100000000000023
-        }
-      ],
-      "consecutive_negative_deltas": 2,
-      "alerted": false,
-      "consecutive_misses": 0
-    },
     {
       "url": "https://www.tiktok.com/@antizzoe/video/7609328174064815363",
       "first_seen": "2026-02-22T14:57:36.439151+00:00",
@@ -203,9 +23,17 @@
           "views_per_hour": 5363,
           "momentum": 3341,
           "delta_shares_per_hour": -1.4000000000000004
+        },
+        {
+          "timestamp": "2026-02-22T19:04:51.810097+00:00",
+          "age_hours": 28.4,
+          "shares_per_hour": 14.5,
+          "views_per_hour": 4971,
+          "momentum": 3097,
+          "delta_shares_per_hour": -1.0999999999999996
         }
       ],
-      "consecutive_negative_deltas": 1,
+      "consecutive_negative_deltas": 2,
       "alerted": false,
       "consecutive_misses": 0
     },
@@ -231,9 +59,17 @@
           "views_per_hour": 6552,
           "momentum": 3380,
           "delta_shares_per_hour": -0.5999999999999996
+        },
+        {
+          "timestamp": "2026-02-22T19:04:51.810097+00:00",
+          "age_hours": 45.4,
+          "shares_per_hour": 12.0,
+          "views_per_hour": 6253,
+          "momentum": 3226,
+          "delta_shares_per_hour": -0.5999999999999996
         }
       ],
-      "consecutive_negative_deltas": 1,
+      "consecutive_negative_deltas": 2,
       "alerted": false,
       "consecutive_misses": 0
     },
@@ -259,11 +95,114 @@
           "views_per_hour": 17042,
           "momentum": 3026,
           "delta_shares_per_hour": -11.199999999999989
+        },
+        {
+          "timestamp": "2026-02-22T19:04:51.810097+00:00",
+          "age_hours": 52.0,
+          "shares_per_hour": 250.0,
+          "views_per_hour": 16363,
+          "momentum": 2906,
+          "delta_shares_per_hour": -10.300000000000011
         }
       ],
-      "consecutive_negative_deltas": 1,
+      "consecutive_negative_deltas": 2,
       "alerted": false,
       "consecutive_misses": 0
+    },
+    {
+      "url": "https://www.tiktok.com/@matteo_cruzzz/video/7609110364436860192",
+      "first_seen": "2026-02-22T19:04:51.810097+00:00",
+      "market": "\ud83c\uddfa\ud83c\uddf8 US ONLY",
+      "text": "Did I glow up?\n\n#motivation #glowup #fitness #natual #divorce ",
+      "creator": "matteo_cruzzz",
+      "checks": [
+        {
+          "timestamp": "2026-02-22T19:04:51.810097+00:00",
+          "age_hours": 42.5,
+          "shares_per_hour": 585.9,
+          "views_per_hour": 35294,
+          "momentum": 15063,
+          "delta_shares_per_hour": null
+        }
+      ],
+      "consecutive_negative_deltas": 0,
+      "alerted": false
+    },
+    {
+      "url": "https://www.tiktok.com/@doctortren1/video/7609384647562104086",
+      "first_seen": "2026-02-22T19:04:51.810097+00:00",
+      "market": "\ud83c\udf10 BOTH",
+      "text": "WHAT A GLOW UP \ud83d\udde3\ufe0f\ud83d\udde3\ufe0f #adamyu #gymmotivation #gymtok #foryoupag\u0435 ",
+      "creator": "doctortren1",
+      "checks": [
+        {
+          "timestamp": "2026-02-22T19:04:51.810097+00:00",
+          "age_hours": 24.8,
+          "shares_per_hour": 260.3,
+          "views_per_hour": 26494,
+          "momentum": 10789,
+          "delta_shares_per_hour": null
+        }
+      ],
+      "consecutive_negative_deltas": 0,
+      "alerted": false
+    },
+    {
+      "url": "https://www.tiktok.com/@plantillasbychand/video/7609069664416632085",
+      "first_seen": "2026-02-22T19:04:51.810097+00:00",
+      "market": "\ud83c\udf10 BOTH",
+      "text": "#CapCut #capcutpioneer #pioneertemplate #parati #cctrends ",
+      "creator": "plantillasbychand",
+      "checks": [
+        {
+          "timestamp": "2026-02-22T19:04:51.810097+00:00",
+          "age_hours": 45.1,
+          "shares_per_hour": 34.8,
+          "views_per_hour": 12265,
+          "momentum": 2863,
+          "delta_shares_per_hour": null
+        }
+      ],
+      "consecutive_negative_deltas": 0,
+      "alerted": false
+    },
+    {
+      "url": "https://www.tiktok.com/@trevorlarcom/video/7609190284768857358",
+      "first_seen": "2026-02-22T19:04:51.810097+00:00",
+      "market": "\ud83c\udf10 BOTH",
+      "text": "Never forget what people say #glowup #looks #ascend #fyp ",
+      "creator": "trevorlarcom",
+      "checks": [
+        {
+          "timestamp": "2026-02-22T19:04:51.810097+00:00",
+          "age_hours": 37.3,
+          "shares_per_hour": 31.8,
+          "views_per_hour": 6930,
+          "momentum": 2035,
+          "delta_shares_per_hour": null
+        }
+      ],
+      "consecutive_negative_deltas": 0,
+      "alerted": false
+    },
+    {
+      "url": "https://www.tiktok.com/@recctemplate/video/7609356201452719381",
+      "first_seen": "2026-02-22T19:04:51.810097+00:00",
+      "market": "\ud83c\uddec\ud83c\udde7 UK ONLY",
+      "text": "GOD TODAY SUNDAY \n#CapCut #capcutpioneer #pioneertemplate #sunday #february22 ",
+      "creator": "recctemplate",
+      "checks": [
+        {
+          "timestamp": "2026-02-22T19:04:51.810097+00:00",
+          "age_hours": 26.6,
+          "shares_per_hour": 104.0,
+          "views_per_hour": 1292,
+          "momentum": 1169,
+          "delta_shares_per_hour": null
+        }
+      ],
+      "consecutive_negative_deltas": 0,
+      "alerted": false
     }
   ]
 }
