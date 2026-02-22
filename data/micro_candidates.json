@@ -1,98 +1,6 @@
 {
-  "last_updated": "2026-02-22T10:55:30.492376+00:00",
+  "last_updated": "2026-02-22T13:55:17.084840+00:00",
   "candidates": [
-    {
-      "url": "https://www.tiktok.com/@meow.meow.ai.art/video/7609017834164833549",
-      "first_seen": "2026-02-21T19:04:58.611736+00:00",
-      "market": "\ud83c\udf10 BOTH",
-      "text": "Paws Of Vengeance \n\n#cat #ai #wedding #drama #part7",
-      "creator": "meow.meow.ai.art",
-      "checks": [
-        {
-          "timestamp": "2026-02-21T19:04:58.611736+00:00",
-          "age_hours": 24.5,
-          "shares_per_hour": 1719.6,
-          "views_per_hour": 57183,
-          "momentum": 27558,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-02-21T20:51:21.459530+00:00",
-          "age_hours": 26.3,
-          "shares_per_hour": 1603.5,
-          "views_per_hour": 53321,
-          "momentum": 25697,
-          "delta_shares_per_hour": -116.09999999999991
-        },
-        {
-          "timestamp": "2026-02-21T22:54:12.089809+00:00",
-          "age_hours": 28.3,
-          "shares_per_hour": 1487.5,
-          "views_per_hour": 49464,
-          "momentum": 23838,
-          "delta_shares_per_hour": -116.0
-        }
-      ],
-      "consecutive_negative_deltas": 2,
-      "alerted": false,
-      "consecutive_misses": 2
-    },
-    {
-      "url": "https://www.tiktok.com/@priestessprincess/video/7608717261406244110",
-      "first_seen": "2026-02-21T20:51:21.459530+00:00",
-      "market": "\ud83c\udf10 BOTH",
-      "text": "#transformation #glowup ",
-      "creator": "priestessprincess",
-      "checks": [
-        {
-          "timestamp": "2026-02-21T20:51:21.459530+00:00",
-          "age_hours": 45.7,
-          "shares_per_hour": 10.0,
-          "views_per_hour": 3380,
-          "momentum": 1584,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-02-21T22:54:12.089809+00:00",
-          "age_hours": 47.7,
-          "shares_per_hour": 9.6,
-          "views_per_hour": 3235,
-          "momentum": 1516,
-          "delta_shares_per_hour": -0.40000000000000036
-        }
-      ],
-      "consecutive_negative_deltas": 1,
-      "alerted": false,
-      "consecutive_misses": 2
-    },
-    {
-      "url": "https://www.tiktok.com/@kreadul/video/7608966410991193366",
-      "first_seen": "2026-02-21T20:51:21.459530+00:00",
-      "market": "\ud83c\udf10 BOTH",
-      "text": "#kreadul \ud83d\udc08\ud83d\udcb5\n\n#cat #ai ",
-      "creator": "kreadul",
-      "checks": [
-        {
-          "timestamp": "2026-02-21T20:51:21.459530+00:00",
-          "age_hours": 29.6,
-          "shares_per_hour": 92.4,
-          "views_per_hour": 3095,
-          "momentum": 1327,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-02-21T22:54:12.089809+00:00",
-          "age_hours": 31.6,
-          "shares_per_hour": 86.4,
-          "views_per_hour": 2895,
-          "momentum": 1241,
-          "delta_shares_per_hour": -6.0
-        }
-      ],
-      "consecutive_negative_deltas": 1,
-      "alerted": false,
-      "consecutive_misses": 2
-    },
     {
       "url": "https://www.tiktok.com/@zzyue0609/video/7608959009277725982",
       "first_seen": "2026-02-21T20:51:21.459530+00:00",
@@ -131,67 +39,19 @@
           "views_per_hour": 496,
           "momentum": 285,
           "delta_shares_per_hour": -1.1999999999999993
+        },
+        {
+          "timestamp": "2026-02-22T13:55:17.079833+00:00",
+          "age_hours": 47.1,
+          "shares_per_hour": 23.3,
+          "views_per_hour": 464,
+          "momentum": 267,
+          "delta_shares_per_hour": -1.5
         }
       ],
-      "consecutive_negative_deltas": 1,
+      "consecutive_negative_deltas": 2,
       "alerted": false,
       "consecutive_misses": 0
-    },
-    {
-      "url": "https://www.tiktok.com/@jio46683/video/7608959735915629831",
-      "first_seen": "2026-02-21T20:51:21.459530+00:00",
-      "market": "\ud83c\uddfa\ud83c\uddf8 US ONLY",
-      "text": "The Ultimate Guide to Cinematic Photo AI Prompts#cinematic \n#capcut #capcutpioneer ai cinematic photo prompt\nhow to make your photo look cinematic ai prompt\ncinematic photo tutorial ai prompt\nai photoshoot prompt\ncinematic picture ai prompt\nai photographer app\ngemini ai prompt cinematic photo\nprompts for photos\nai gemini photo prompt\ncinematic photo ai prompt",
-      "creator": "jio46683",
-      "checks": [
-        {
-          "timestamp": "2026-02-21T20:51:21.459530+00:00",
-          "age_hours": 30.0,
-          "shares_per_hour": 17.0,
-          "views_per_hour": 188,
-          "momentum": 194,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-02-21T22:54:12.089809+00:00",
-          "age_hours": 32.1,
-          "shares_per_hour": 15.9,
-          "views_per_hour": 176,
-          "momentum": 181,
-          "delta_shares_per_hour": -1.0999999999999996
-        }
-      ],
-      "consecutive_negative_deltas": 1,
-      "alerted": false,
-      "consecutive_misses": 2
-    },
-    {
-      "url": "https://www.tiktok.com/@baileyhansen1739/video/7608813067056516374",
-      "first_seen": "2026-02-21T20:51:21.459530+00:00",
-      "market": "\ud83c\uddec\ud83c\udde7 UK ONLY",
-      "text": "This photo effect will give your photos a fresh new look. Let AI reveal the hidden magic in your photo. #capcut #capcutpioneer #capcutforus #fyp  #ai Let me show you how to transform your photos with cutting-edge AI effects! Want to discover how AI can unlock new creative potentials in your photos? Filter Beautification, 3D Face Swap, Cartoon Images, Outfit Effects, AR Face Swap. ",
-      "creator": "baileyhansen1739",
-      "checks": [
-        {
-          "timestamp": "2026-02-21T20:51:21.459530+00:00",
-          "age_hours": 39.5,
-          "shares_per_hour": 9.5,
-          "views_per_hour": 273,
-          "momentum": 191,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-02-21T22:54:12.089809+00:00",
-          "age_hours": 41.6,
-          "shares_per_hour": 9.0,
-          "views_per_hour": 259,
-          "momentum": 182,
-          "delta_shares_per_hour": -0.5
-        }
-      ],
-      "consecutive_negative_deltas": 1,
-      "alerted": false,
-      "consecutive_misses": 2
     },
     {
       "url": "https://www.tiktok.com/@matteo_cruzzz/video/7609110364436860192",
@@ -215,9 +75,17 @@
           "views_per_hour": 43676,
           "momentum": 18641,
           "delta_shares_per_hour": -42.39999999999998
+        },
+        {
+          "timestamp": "2026-02-22T13:55:17.079833+00:00",
+          "age_hours": 37.3,
+          "shares_per_hour": 666.8,
+          "views_per_hour": 40171,
+          "momentum": 17145,
+          "delta_shares_per_hour": -58.200000000000045
         }
       ],
-      "consecutive_negative_deltas": 1,
+      "consecutive_negative_deltas": 2,
       "alerted": false,
       "consecutive_misses": 0
     },
@@ -243,11 +111,114 @@
           "views_per_hour": 39502,
           "momentum": 16087,
           "delta_shares_per_hour": -50.0
+        },
+        {
+          "timestamp": "2026-02-22T13:55:17.079833+00:00",
+          "age_hours": 19.6,
+          "shares_per_hour": 328.8,
+          "views_per_hour": 33466,
+          "momentum": 13628,
+          "delta_shares_per_hour": -59.30000000000001
         }
       ],
-      "consecutive_negative_deltas": 1,
+      "consecutive_negative_deltas": 2,
       "alerted": false,
       "consecutive_misses": 0
+    },
+    {
+      "url": "https://www.tiktok.com/@fxckbrxn/video/7609024337475079431",
+      "first_seen": "2026-02-22T13:55:17.079833+00:00",
+      "market": "\ud83c\udf10 BOTH",
+      "text": "#fyp #ai #ia #inteligenciaartificial #claudiasheinbaum",
+      "creator": "fxckbrxn",
+      "checks": [
+        {
+          "timestamp": "2026-02-22T13:55:17.079833+00:00",
+          "age_hours": 42.9,
+          "shares_per_hour": 7247.8,
+          "views_per_hour": 58262,
+          "momentum": 109143,
+          "delta_shares_per_hour": null
+        }
+      ],
+      "consecutive_negative_deltas": 0,
+      "alerted": false
+    },
+    {
+      "url": "https://www.tiktok.com/@viviantried/video/7608953897784331541",
+      "first_seen": "2026-02-22T13:55:17.079833+00:00",
+      "market": "\ud83c\uddec\ud83c\udde7 UK ONLY",
+      "text": "and it looks natural \ud83d\udc95 #chin #filler #chinfiller #glowup #results ",
+      "creator": "viviantried",
+      "checks": [
+        {
+          "timestamp": "2026-02-22T13:55:17.079833+00:00",
+          "age_hours": 47.5,
+          "shares_per_hour": 106.0,
+          "views_per_hour": 17130,
+          "momentum": 7577,
+          "delta_shares_per_hour": null
+        }
+      ],
+      "consecutive_negative_deltas": 0,
+      "alerted": false
+    },
+    {
+      "url": "https://www.tiktok.com/@imoletok1/video/7609307988616105229",
+      "first_seen": "2026-02-22T13:55:17.079833+00:00",
+      "market": "\ud83c\udf10 BOTH",
+      "text": "#CapCut Text animation tutorial for that one stranger things edit \ud83d\ude2d\ud83d\udd25, I know this was hella helpful gng \ud83d\ude18 #capcutpioneer #capcuttutorial @CapCut |Text animation tutorial, Stranger things edit tutorial, That one stranger things edit text tutorial, That one stranger things edit tutorial ",
+      "creator": "imoletok1",
+      "checks": [
+        {
+          "timestamp": "2026-02-22T13:55:17.079833+00:00",
+          "age_hours": 24.5,
+          "shares_per_hour": 52.9,
+          "views_per_hour": 38988,
+          "momentum": 6589,
+          "delta_shares_per_hour": null
+        }
+      ],
+      "consecutive_negative_deltas": 0,
+      "alerted": false
+    },
+    {
+      "url": "https://www.tiktok.com/@dituthichdapes/video/7609336263077809429",
+      "first_seen": "2026-02-22T13:55:17.079833+00:00",
+      "market": "\ud83c\uddec\ud83c\udde7 UK ONLY",
+      "text": "Neymar Please Curl \ud83e\udd21 #pes #efootball #CapCut #capcutpioneer #pioneertemplate ",
+      "creator": "dituthichdapes",
+      "checks": [
+        {
+          "timestamp": "2026-02-22T13:55:17.079833+00:00",
+          "age_hours": 22.7,
+          "shares_per_hour": 58.9,
+          "views_per_hour": 40380,
+          "momentum": 6561,
+          "delta_shares_per_hour": null
+        }
+      ],
+      "consecutive_negative_deltas": 0,
+      "alerted": false
+    },
+    {
+      "url": "https://www.tiktok.com/@relaxnowasmr4/video/7609008607220337942",
+      "first_seen": "2026-02-22T13:55:17.079833+00:00",
+      "market": "\ud83c\udf10 BOTH",
+      "text": "Orange and Avocado dancing macarena #viraldance #aifunny #dancingfruit #aidance #orange ",
+      "creator": "relaxnowasmr4",
+      "checks": [
+        {
+          "timestamp": "2026-02-22T13:55:17.079833+00:00",
+          "age_hours": 43.9,
+          "shares_per_hour": 402.9,
+          "views_per_hour": 21380,
+          "momentum": 6367,
+          "delta_shares_per_hour": null
+        }
+      ],
+      "consecutive_negative_deltas": 0,
+      "alerted": false
     }
   ]
 }
