@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-22T09:01:41.587416+00:00",
+  "last_updated": "2026-02-22T10:55:30.492376+00:00",
   "candidates": [
     {
       "url": "https://www.tiktok.com/@meow.meow.ai.art/video/7609017834164833549",
@@ -35,7 +35,7 @@
       ],
       "consecutive_negative_deltas": 2,
       "alerted": false,
-      "consecutive_misses": 1
+      "consecutive_misses": 2
     },
     {
       "url": "https://www.tiktok.com/@priestessprincess/video/7608717261406244110",
@@ -63,7 +63,7 @@
       ],
       "consecutive_negative_deltas": 1,
       "alerted": false,
-      "consecutive_misses": 1
+      "consecutive_misses": 2
     },
     {
       "url": "https://www.tiktok.com/@kreadul/video/7608966410991193366",
@@ -91,7 +91,7 @@
       ],
       "consecutive_negative_deltas": 1,
       "alerted": false,
-      "consecutive_misses": 1
+      "consecutive_misses": 2
     },
     {
       "url": "https://www.tiktok.com/@zzyue0609/video/7608959009277725982",
@@ -123,9 +123,17 @@
           "views_per_hour": 518,
           "momentum": 298,
           "delta_shares_per_hour": 9.399999999999999
+        },
+        {
+          "timestamp": "2026-02-22T10:55:30.492274+00:00",
+          "age_hours": 44.1,
+          "shares_per_hour": 24.8,
+          "views_per_hour": 496,
+          "momentum": 285,
+          "delta_shares_per_hour": -1.1999999999999993
         }
       ],
-      "consecutive_negative_deltas": 0,
+      "consecutive_negative_deltas": 1,
       "alerted": false,
       "consecutive_misses": 0
     },
@@ -155,7 +163,7 @@
       ],
       "consecutive_negative_deltas": 1,
       "alerted": false,
-      "consecutive_misses": 1
+      "consecutive_misses": 2
     },
     {
       "url": "https://www.tiktok.com/@baileyhansen1739/video/7608813067056516374",
@@ -183,7 +191,7 @@
       ],
       "consecutive_negative_deltas": 1,
       "alerted": false,
-      "consecutive_misses": 1
+      "consecutive_misses": 2
     },
     {
       "url": "https://www.tiktok.com/@matteo_cruzzz/video/7609110364436860192",
@@ -199,10 +207,19 @@
           "views_per_hour": 46229,
           "momentum": 19730,
           "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-02-22T10:55:30.492274+00:00",
+          "age_hours": 34.3,
+          "shares_per_hour": 725.0,
+          "views_per_hour": 43676,
+          "momentum": 18641,
+          "delta_shares_per_hour": -42.39999999999998
         }
       ],
-      "consecutive_negative_deltas": 0,
-      "alerted": false
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
     },
     {
       "url": "https://www.tiktok.com/@doctortren1/video/7609384647562104086",
@@ -218,10 +235,19 @@
           "views_per_hour": 44595,
           "momentum": 18161,
           "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-02-22T10:55:30.492274+00:00",
+          "age_hours": 16.6,
+          "shares_per_hour": 388.1,
+          "views_per_hour": 39502,
+          "momentum": 16087,
+          "delta_shares_per_hour": -50.0
         }
       ],
-      "consecutive_negative_deltas": 0,
-      "alerted": false
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
     }
   ]
 }
