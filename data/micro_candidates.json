@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-23T10:36:00.431193+00:00",
+  "last_updated": "2026-02-23T14:37:47.351763+00:00",
   "candidates": [
     {
       "url": "https://www.tiktok.com/@matteo_cruzzz/video/7609110364436860192",
@@ -35,7 +35,7 @@
       ],
       "consecutive_negative_deltas": 2,
       "alerted": false,
-      "consecutive_misses": 1
+      "consecutive_misses": 2
     },
     {
       "url": "https://www.tiktok.com/@doctortren1/video/7609384647562104086",
@@ -71,7 +71,7 @@
       ],
       "consecutive_negative_deltas": 2,
       "alerted": false,
-      "consecutive_misses": 1
+      "consecutive_misses": 2
     },
     {
       "url": "https://www.tiktok.com/@trevorlarcom/video/7609190284768857358",
@@ -107,7 +107,7 @@
       ],
       "consecutive_negative_deltas": 2,
       "alerted": false,
-      "consecutive_misses": 1
+      "consecutive_misses": 2
     },
     {
       "url": "https://www.tiktok.com/@recctemplate/video/7609356201452719381",
@@ -143,7 +143,7 @@
       ],
       "consecutive_negative_deltas": 2,
       "alerted": false,
-      "consecutive_misses": 1
+      "consecutive_misses": 2
     },
     {
       "url": "https://www.tiktok.com/@imoletok1/video/7609307988616105229",
@@ -175,9 +175,17 @@
           "views_per_hour": 66336,
           "momentum": 13014,
           "delta_shares_per_hour": 51.39999999999999
+        },
+        {
+          "timestamp": "2026-02-23T14:37:47.351664+00:00",
+          "age_hours": 49.3,
+          "shares_per_hour": 82.8,
+          "views_per_hour": 60908,
+          "momentum": 11949,
+          "delta_shares_per_hour": -7.299999999999997
         }
       ],
-      "consecutive_negative_deltas": 0,
+      "consecutive_negative_deltas": 1,
       "alerted": false,
       "consecutive_misses": 0
     },
@@ -207,7 +215,7 @@
       ],
       "consecutive_negative_deltas": 1,
       "alerted": false,
-      "consecutive_misses": 1
+      "consecutive_misses": 2
     },
     {
       "url": "https://www.tiktok.com/@user926752612423/video/7609183805802351890",
@@ -235,7 +243,7 @@
       ],
       "consecutive_negative_deltas": 1,
       "alerted": false,
-      "consecutive_misses": 1
+      "consecutive_misses": 2
     },
     {
       "url": "https://www.tiktok.com/@sofa.tomato/video/7609672151108439317",
@@ -251,10 +259,19 @@
           "views_per_hour": 119865,
           "momentum": 36023,
           "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-02-23T14:37:47.351664+00:00",
+          "age_hours": 25.7,
+          "shares_per_hour": 141.1,
+          "views_per_hour": 101086,
+          "momentum": 30379,
+          "delta_shares_per_hour": -26.200000000000017
         }
       ],
-      "consecutive_negative_deltas": 0,
-      "alerted": false
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
     }
   ]
 }
