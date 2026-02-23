@@ -1,150 +1,6 @@
 {
-  "last_updated": "2026-02-23T14:37:47.351763+00:00",
+  "last_updated": "2026-02-23T19:42:25.322957+00:00",
   "candidates": [
-    {
-      "url": "https://www.tiktok.com/@matteo_cruzzz/video/7609110364436860192",
-      "first_seen": "2026-02-22T19:04:51.810097+00:00",
-      "market": "\ud83c\uddfa\ud83c\uddf8 US ONLY",
-      "text": "Did I glow up?\n\n#motivation #glowup #fitness #natual #divorce ",
-      "creator": "matteo_cruzzz",
-      "checks": [
-        {
-          "timestamp": "2026-02-22T19:04:51.810097+00:00",
-          "age_hours": 42.5,
-          "shares_per_hour": 585.9,
-          "views_per_hour": 35294,
-          "momentum": 15063,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-02-22T20:55:20.023385+00:00",
-          "age_hours": 44.3,
-          "shares_per_hour": 561.6,
-          "views_per_hour": 33829,
-          "momentum": 14438,
-          "delta_shares_per_hour": -24.299999999999955
-        },
-        {
-          "timestamp": "2026-02-22T22:56:31.885611+00:00",
-          "age_hours": 46.4,
-          "shares_per_hour": 537.1,
-          "views_per_hour": 32355,
-          "momentum": 13809,
-          "delta_shares_per_hour": -24.5
-        }
-      ],
-      "consecutive_negative_deltas": 2,
-      "alerted": false,
-      "consecutive_misses": 2
-    },
-    {
-      "url": "https://www.tiktok.com/@doctortren1/video/7609384647562104086",
-      "first_seen": "2026-02-22T19:04:51.810097+00:00",
-      "market": "\ud83c\udf10 BOTH",
-      "text": "WHAT A GLOW UP \ud83d\udde3\ufe0f\ud83d\udde3\ufe0f #adamyu #gymmotivation #gymtok #foryoupag\u0435 ",
-      "creator": "doctortren1",
-      "checks": [
-        {
-          "timestamp": "2026-02-22T19:04:51.810097+00:00",
-          "age_hours": 24.8,
-          "shares_per_hour": 260.3,
-          "views_per_hour": 26494,
-          "momentum": 10789,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-02-22T20:55:20.023385+00:00",
-          "age_hours": 26.6,
-          "shares_per_hour": 242.3,
-          "views_per_hour": 24661,
-          "momentum": 10043,
-          "delta_shares_per_hour": -18.0
-        },
-        {
-          "timestamp": "2026-02-22T22:56:31.885611+00:00",
-          "age_hours": 28.6,
-          "shares_per_hour": 225.2,
-          "views_per_hour": 22921,
-          "momentum": 9334,
-          "delta_shares_per_hour": -17.100000000000023
-        }
-      ],
-      "consecutive_negative_deltas": 2,
-      "alerted": false,
-      "consecutive_misses": 2
-    },
-    {
-      "url": "https://www.tiktok.com/@trevorlarcom/video/7609190284768857358",
-      "first_seen": "2026-02-22T19:04:51.810097+00:00",
-      "market": "\ud83c\udf10 BOTH",
-      "text": "Never forget what people say #glowup #looks #ascend #fyp ",
-      "creator": "trevorlarcom",
-      "checks": [
-        {
-          "timestamp": "2026-02-22T19:04:51.810097+00:00",
-          "age_hours": 37.3,
-          "shares_per_hour": 31.8,
-          "views_per_hour": 6930,
-          "momentum": 2035,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-02-22T20:55:20.023385+00:00",
-          "age_hours": 39.2,
-          "shares_per_hour": 30.3,
-          "views_per_hour": 6604,
-          "momentum": 1939,
-          "delta_shares_per_hour": -1.5
-        },
-        {
-          "timestamp": "2026-02-22T22:56:31.885611+00:00",
-          "age_hours": 41.2,
-          "shares_per_hour": 28.8,
-          "views_per_hour": 6280,
-          "momentum": 1844,
-          "delta_shares_per_hour": -1.5
-        }
-      ],
-      "consecutive_negative_deltas": 2,
-      "alerted": false,
-      "consecutive_misses": 2
-    },
-    {
-      "url": "https://www.tiktok.com/@recctemplate/video/7609356201452719381",
-      "first_seen": "2026-02-22T19:04:51.810097+00:00",
-      "market": "\ud83c\uddec\ud83c\udde7 UK ONLY",
-      "text": "GOD TODAY SUNDAY \n#CapCut #capcutpioneer #pioneertemplate #sunday #february22 ",
-      "creator": "recctemplate",
-      "checks": [
-        {
-          "timestamp": "2026-02-22T19:04:51.810097+00:00",
-          "age_hours": 26.6,
-          "shares_per_hour": 104.0,
-          "views_per_hour": 1292,
-          "momentum": 1169,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-02-22T20:55:20.023385+00:00",
-          "age_hours": 28.4,
-          "shares_per_hour": 97.2,
-          "views_per_hour": 1209,
-          "momentum": 1093,
-          "delta_shares_per_hour": -6.799999999999997
-        },
-        {
-          "timestamp": "2026-02-22T22:56:31.885611+00:00",
-          "age_hours": 30.5,
-          "shares_per_hour": 90.8,
-          "views_per_hour": 1129,
-          "momentum": 1021,
-          "delta_shares_per_hour": -6.400000000000006
-        }
-      ],
-      "consecutive_negative_deltas": 2,
-      "alerted": false,
-      "consecutive_misses": 2
-    },
     {
       "url": "https://www.tiktok.com/@imoletok1/video/7609307988616105229",
       "first_seen": "2026-02-22T20:55:20.023385+00:00",
@@ -183,67 +39,19 @@
           "views_per_hour": 60908,
           "momentum": 11949,
           "delta_shares_per_hour": -7.299999999999997
+        },
+        {
+          "timestamp": "2026-02-23T19:42:25.317610+00:00",
+          "age_hours": 54.3,
+          "shares_per_hour": 75.0,
+          "views_per_hour": 55216,
+          "momentum": 10832,
+          "delta_shares_per_hour": -7.799999999999997
         }
       ],
-      "consecutive_negative_deltas": 1,
+      "consecutive_negative_deltas": 2,
       "alerted": false,
       "consecutive_misses": 0
-    },
-    {
-      "url": "https://www.tiktok.com/@dituthichdapes/video/7609336263077809429",
-      "first_seen": "2026-02-22T20:55:20.023385+00:00",
-      "market": "\ud83c\uddec\ud83c\udde7 UK ONLY",
-      "text": "Neymar Please Curl \ud83e\udd21 #pes #efootball #CapCut #capcutpioneer #pioneertemplate ",
-      "creator": "dituthichdapes",
-      "checks": [
-        {
-          "timestamp": "2026-02-22T20:55:20.023385+00:00",
-          "age_hours": 29.7,
-          "shares_per_hour": 45.1,
-          "views_per_hour": 30874,
-          "momentum": 5016,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-02-22T22:56:31.885611+00:00",
-          "age_hours": 31.8,
-          "shares_per_hour": 42.2,
-          "views_per_hour": 28910,
-          "momentum": 4697,
-          "delta_shares_per_hour": -2.8999999999999986
-        }
-      ],
-      "consecutive_negative_deltas": 1,
-      "alerted": false,
-      "consecutive_misses": 2
-    },
-    {
-      "url": "https://www.tiktok.com/@user926752612423/video/7609183805802351890",
-      "first_seen": "2026-02-22T20:55:20.023385+00:00",
-      "market": "\ud83c\uddec\ud83c\udde7 UK ONLY",
-      "text": "Tutorial on Free Creation of AI \"Run Fast\" Effect:\ud83d\udd25\ud83d\udd25\ud83d\udd25You Can Generate the Same Style for Free with Just One Photo. ai run fast   Tutorial Membuat Efek AI \"Run Fast\" Secara Gratis: Bisa Buat Versi Sama dengan Hanya Satu Foto Tanpa Biaya.#airunfast#aifilter #capcut #capcutforus #capcutpioneer",
-      "creator": "user926752612423",
-      "checks": [
-        {
-          "timestamp": "2026-02-22T20:55:20.023385+00:00",
-          "age_hours": 39.6,
-          "shares_per_hour": 57.0,
-          "views_per_hour": 3836,
-          "momentum": 1026,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-02-22T22:56:31.885611+00:00",
-          "age_hours": 41.6,
-          "shares_per_hour": 54.2,
-          "views_per_hour": 3649,
-          "momentum": 976,
-          "delta_shares_per_hour": -2.799999999999997
-        }
-      ],
-      "consecutive_negative_deltas": 1,
-      "alerted": false,
-      "consecutive_misses": 2
     },
     {
       "url": "https://www.tiktok.com/@sofa.tomato/video/7609672151108439317",
@@ -267,11 +75,133 @@
           "views_per_hour": 101086,
           "momentum": 30379,
           "delta_shares_per_hour": -26.200000000000017
+        },
+        {
+          "timestamp": "2026-02-23T19:42:25.317610+00:00",
+          "age_hours": 30.8,
+          "shares_per_hour": 117.8,
+          "views_per_hour": 84421,
+          "momentum": 25371,
+          "delta_shares_per_hour": -23.299999999999997
         }
       ],
-      "consecutive_negative_deltas": 1,
+      "consecutive_negative_deltas": 2,
       "alerted": false,
       "consecutive_misses": 0
+    },
+    {
+      "url": "https://www.tiktok.com/@only1aliya/video/7609805965852003615",
+      "first_seen": "2026-02-23T19:42:25.317610+00:00",
+      "market": "\ud83c\udf10 BOTH",
+      "text": "ouiiii #transition #glowup ",
+      "creator": "only1aliya",
+      "checks": [
+        {
+          "timestamp": "2026-02-23T19:42:25.317610+00:00",
+          "age_hours": 22.1,
+          "shares_per_hour": 12.1,
+          "views_per_hour": 18527,
+          "momentum": 13137,
+          "delta_shares_per_hour": null
+        }
+      ],
+      "consecutive_negative_deltas": 0,
+      "alerted": false
+    },
+    {
+      "url": "https://www.tiktok.com/@gqt9daub36/video/7609562167767043345",
+      "first_seen": "2026-02-23T19:42:25.317610+00:00",
+      "market": "\ud83c\udf10 BOTH",
+      "text": "\u041a\u0430\u043a \u0441\u043e\u0437\u0434\u0430\u0442\u044c \u044d\u0442\u043e \u0432\u0438\u0440\u0443\u0441\u043d\u043e\u0435 \u0432\u0438\u0434\u0435\u043e \u0441 AI C-Walk?\n\u042d\u0442\u043e \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0442\u0435\u043b\u044c\u043d\u043e \u043e\u0447\u0435\u043d\u044c \u043f\u0440\u043e\u0441\u0442\u043e.\n\u0412\u0441\u0451, \u0447\u0442\u043e \u0442\u0435\u0431\u0435 \u043d\u0443\u0436\u043d\u043e, \u2014 \u044d\u0442\u043e \u0444\u043e\u0442\u043e, \u0438 \u044d\u0442\u043e \u0441\u043e\u0432\u0435\u0440\u0448\u0435\u043d\u043d\u043e \u0431\u0435\u0441\u043f\u043b\u0430\u0442\u043d\u043e.\n\u0421\u0435\u0433\u043e\u0434\u043d\u044f \u044f \u043f\u043e\u043a\u0430\u0436\u0443 \u0442\u0435\u0431\u0435 \u0448\u0430\u0433 \u0437\u0430 \u0448\u0430\u0433\u043e\u043c.\nKeep It Gangsta\n\u0423\u0447\u0435\u0431\u043d\u0438\u043a \u043f\u043e AI C-Walk\n\u041b\u0443\u0447\u0448\u0438\u0439 \u044d\u0444\u0444\u0435\u043a\u0442 AI C-Walk \u0432\u0441\u0435\u0445 \u0432\u0440\u0435\u043c\u0451\u043d\n\u0424\u0438\u043b\u044c\u0442\u0440 AI C-Walk 2Pac\n\u0428\u0430\u0431\u043b\u043e\u043d AI C-Walk\n\u041e\u0440\u0438\u0433\u0438\u043d\u0430\u043b\u044c\u043d\u043e\u0435 \u0434\u0432\u0438\u0436\u0435\u043d\u0438\u0435 AI \u0432 \u0441\u0442\u0438\u043b\u0435 C-Walk\n\u0412\u0438\u0434\u0435\u043e AI C-Walk \u0438\u0437 \u0444\u043e\u0442\u043e \u0431\u0435\u0441\u043f\u043b\u0430\u0442\u043d\u043e\n\u041a\u0430\u043a \u0441\u043e\u0437\u0434\u0430\u0442\u044c \u0433\u0440\u0443\u043f\u043f\u043e\u0432\u043e\u0439 AI C-Walk \u0441 \u043e\u0434\u043d\u043e\u0439 \u0444\u043e\u0442\u043e\u0433\u0440\u0430\u0444\u0438\u0438\n\u0411\u0435\u0441\u043f\u043b\u0430\u0442\u043d\u044b\u0439 AI-\u0438\u043d\u0441\u0442\u0440\u0443\u043c\u0435\u043d\u0442 \u0434\u043b\u044f \u043f\u0440\u0435\u0432\u0440\u0430\u0449\u0435\u043d\u0438\u044f \u0444\u043e\u0442\u043e \u0432 \u0432\u0438\u0434\u0435\u043e C-Walk\n\u0422\u0440\u0435\u043d\u0434\u043e\u0432\u044b\u0439 \u0443\u0447\u0435\u0431\u043d\u0438\u043a \u043f\u043e \u044d\u0444\u0444\u0435\u043a\u0442\u0443 \u0433\u0440\u0443\u043f\u043f\u043e\u0432\u043e\u0433\u043e AI C-Walk\n\u0413\u0435\u043d\u0435\u0440\u0430\u0442\u043e\u0440 \u0432\u0438\u0434\u0435\u043e AI C-Walk\n\u041a\u0430\u043a \u0440\u0435\u0434\u0430\u043a\u0442\u0438\u0440\u043e\u0432\u0430\u0442\u044c \u0432\u0438\u0434\u0435\u043e AI C-Walk \u0434\u043b\u044f \u0441\u043e\u0446\u0441\u0435\u0442\u0435\u0439\n\u041f\u043e\u0448\u0430\u0433\u043e\u0432\u043e\u0435 \u0440\u0443\u043a\u043e\u0432\u043e\u0434\u0441\u0442\u0432\u043e \u043f\u043e AI \u0444\u043e\u0442\u043e \u0432 \u0432\u0438\u0434\u0435\u043e C-Walk\n\u041f\u043e\u043b\u044c\u0437\u043e\u0432\u0430\u0442\u0435\u043b\u044c\u0441\u043a\u043e\u0435 \u0434\u0432\u0438\u0436\u0435\u043d\u0438\u0435 AI C-Walk \u0434\u043b\u044f \u0444\u043e\u0442\u043e\n\u0421\u043c\u0435\u0448\u043d\u043e\u0435 \u0432\u0438\u0434\u0435\u043e AI C-Walk\n\u0417\u0430\u0431\u0430\u0432\u043d\u044b\u0439 \u044d\u0444\u0444\u0435\u043a\u0442 \u0433\u0440\u0443\u043f\u043f\u043e\u0432\u043e\u0433\u043e AI C-Walk\n\u041a\u0430\u043a \u0441\u043e\u0437\u0434\u0430\u0442\u044c \u0441\u043c\u0435\u0448\u043d\u044b\u0435 \u0432\u0438\u0434\u0435\u043e AI C-Walk \u0438\u0437 \u0444\u043e\u0442\u043e\n\u0411\u0435\u0441\u043f\u043b\u0430\u0442\u043d\u044b\u0439 \u0433\u0435\u043d\u0435\u0440\u0430\u0442\u043e\u0440 \u0441\u043c\u0435\u0448\u043d\u043e\u0433\u043e AI C-Walk\n\u0422\u0440\u0435\u043d\u0434\u043e\u0432\u044b\u0439 \u0437\u0430\u0431\u0430\u0432\u043d\u044b\u0439 \u0444\u0438\u043b\u044c\u0442\u0440 AI C-Walk\n\u0412\u0438\u0434\u0435\u043e AI Meme C-Walk \u0438\u0437 \u0438\u0437\u043e\u0431\u0440\u0430\u0436\u0435\u043d\u0438\u0439\n\u041a\u0430\u043a \u0441\u043e\u0437\u0434\u0430\u0442\u044c \u0432\u0438\u0434\u0435\u043e AI C-Walk\n\u042d\u0444\u0444\u0435\u043a\u0442 AI C-Walk\n\u0424\u0438\u043b\u044c\u0442\u0440 AI \u0444\u043e\u0442\u043e \u0432 C-Walk\n\u0423\u0447\u0435\u0431\u043d\u0438\u043a \u043f\u043e AI C-Walk \u0434\u043b\u044f \u043d\u0430\u0447\u0438\u043d\u0430\u044e\u0449\u0438\u0445\n\u0411\u0435\u0441\u043f\u043b\u0430\u0442\u043d\u043e\u0435 \u043f\u0440\u043e\u0433\u0440\u0430\u043c\u043c\u043d\u043e\u0435 \u043e\u0431\u0435\u0441\u043f\u0435\u0447\u0435\u043d\u0438\u0435 \u0434\u043b\u044f AI C-Walk\n\u041f\u0440\u043e\u043c\u043f\u0442 \u0434\u043b\u044f \u0433\u0435\u043d\u0435\u0440\u0430\u0446\u0438\u0438 AI C-Walk\n\u0422\u0440\u0435\u043d\u0434\u043e\u0432\u043e\u0435 \u0434\u0432\u0438\u0436\u0435\u043d\u0438\u0435 AI C-Walk\n\u0417\u0430\u0445\u0432\u0430\u0442 \u0434\u0432\u0438\u0436\u0435\u043d\u0438\u044f AI C-Walk\n\u0411\u0435\u0441\u043f\u043b\u0430\u0442\u043d\u044b\u0439 \u0438\u043d\u0441\u0442\u0440\u0443\u043c\u0435\u043d\u0442 \u0434\u043b\u044f \u0440\u0435\u0434\u0430\u043a\u0442\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u044f AI C-Walk\n\u0410\u043d\u0438\u043c\u0430\u0446\u0438\u044f \u043f\u0435\u0440\u0441\u043e\u043d\u0430\u0436\u0430 AI C-Walk\n#cwalkchallenge #cwalk #capcutforus #capcut #capcutpioneer",
+      "creator": "gqt9daub36",
+      "checks": [
+        {
+          "timestamp": "2026-02-23T19:42:25.317610+00:00",
+          "age_hours": 37.9,
+          "shares_per_hour": 345.8,
+          "views_per_hour": 8416,
+          "momentum": 3742,
+          "delta_shares_per_hour": null
+        }
+      ],
+      "consecutive_negative_deltas": 0,
+      "alerted": false
+    },
+    {
+      "url": "https://www.tiktok.com/@lars_ranks/video/7609458397246786838",
+      "first_seen": "2026-02-23T19:42:25.317610+00:00",
+      "market": "\ud83c\udf10 BOTH",
+      "text": "Ranking The Best AI Disney Trailers\ud83c\udfac #disney #ranking #ai #fyp ",
+      "creator": "lars_ranks",
+      "checks": [
+        {
+          "timestamp": "2026-02-23T19:42:25.317610+00:00",
+          "age_hours": 44.6,
+          "shares_per_hour": 113.2,
+          "views_per_hour": 12796,
+          "momentum": 3196,
+          "delta_shares_per_hour": null
+        }
+      ],
+      "consecutive_negative_deltas": 0,
+      "alerted": false
+    },
+    {
+      "url": "https://www.tiktok.com/@dnvgsxtvq2/video/7609597113449729288",
+      "first_seen": "2026-02-23T19:42:25.317610+00:00",
+      "market": "\ud83c\uddfa\ud83c\uddf8 US ONLY",
+      "text": "Tutorial gratis template foto AI \ud83d\udc96\nBuat foto serupa dengan satu klik\nsecara gratis, klik hypic di sudut kiri\nbawah untuk membuatnya secara gratis.\nGemini ai foto edit\nPrompt Gemini ai\nEditor kreatif AI, Editor foto AI\nPenyunting kreatif AI, Penyunting foto\nAI\nGoogle Gemini AI\nFilter Foto AI\nAI Foto Efek\nFilter ai foto wajah\nGunakan filter ai foto ini\nPenyunting Kreatif AI\nPenyunting Foto AI\nAI Creative Editing, \nAI Photo Editing\nGoogle Gemini AI, \nEditor foto Alat edit\nfoto efek filter ,\npenyunting kreatif AI ,\nAI creative editing Prompt,\nAI PromptFoto\n#hypic #hypiccreator #Godpic @hypic_global @HypicVietnam #Geminiai #ramadan ",
+      "creator": "dnvgsxtvq2",
+      "checks": [
+        {
+          "timestamp": "2026-02-23T19:42:25.317610+00:00",
+          "age_hours": 35.7,
+          "shares_per_hour": 283.3,
+          "views_per_hour": 9023,
+          "momentum": 3115,
+          "delta_shares_per_hour": null
+        }
+      ],
+      "consecutive_negative_deltas": 0,
+      "alerted": false
+    },
+    {
+      "url": "https://www.tiktok.com/@nate.b.jones/video/7609432736536759582",
+      "first_seen": "2026-02-23T19:42:25.317610+00:00",
+      "market": "\ud83c\udf10 BOTH",
+      "text": "And what are the Ai agents buying? #ai #chatgpt #learn #LearnOnTikTok ",
+      "creator": "nate.b.jones",
+      "checks": [
+        {
+          "timestamp": "2026-02-23T19:42:25.317610+00:00",
+          "age_hours": 46.3,
+          "shares_per_hour": 72.5,
+          "views_per_hour": 5222,
+          "momentum": 1814,
+          "delta_shares_per_hour": null
+        }
+      ],
+      "consecutive_negative_deltas": 0,
+      "alerted": false
+    },
+    {
+      "url": "https://www.tiktok.com/@kriziaraso/video/7609766102154923286",
+      "first_seen": "2026-02-23T19:42:25.317610+00:00",
+      "market": "\ud83c\uddec\ud83c\udde7 UK ONLY",
+      "text": "It\u2019s beautiful, but let\u2019s clarify the reality \ud83e\udd79\ud83d\ude4f\ud83c\udffb #nose #glowuptips #beauty #glowup #beautytips ",
+      "creator": "kriziaraso",
+      "checks": [
+        {
+          "timestamp": "2026-02-23T19:42:25.317610+00:00",
+          "age_hours": 24.7,
+          "shares_per_hour": 7.7,
+          "views_per_hour": 5788,
+          "momentum": 1663,
+          "delta_shares_per_hour": null
+        }
+      ],
+      "consecutive_negative_deltas": 0,
+      "alerted": false
     }
   ]
 }
