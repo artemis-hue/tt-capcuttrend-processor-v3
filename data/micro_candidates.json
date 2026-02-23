@@ -1,94 +1,6 @@
 {
-  "last_updated": "2026-02-23T19:42:25.322957+00:00",
+  "last_updated": "2026-02-23T22:09:02.931383+00:00",
   "candidates": [
-    {
-      "url": "https://www.tiktok.com/@imoletok1/video/7609307988616105229",
-      "first_seen": "2026-02-22T20:55:20.023385+00:00",
-      "market": "\ud83c\udf10 BOTH",
-      "text": "#CapCut Text animation tutorial for that one stranger things edit \ud83d\ude2d\ud83d\udd25, I know this was hella helpful gng \ud83d\ude18 #capcutpioneer #capcuttutorial @CapCut |Text animation tutorial, Stranger things edit tutorial, That one stranger things edit text tutorial, That one stranger things edit tutorial ",
-      "creator": "imoletok1",
-      "checks": [
-        {
-          "timestamp": "2026-02-22T20:55:20.023385+00:00",
-          "age_hours": 31.5,
-          "shares_per_hour": 41.1,
-          "views_per_hour": 30336,
-          "momentum": 5127,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-02-22T22:56:31.885611+00:00",
-          "age_hours": 33.6,
-          "shares_per_hour": 38.7,
-          "views_per_hour": 28510,
-          "momentum": 4818,
-          "delta_shares_per_hour": -2.3999999999999986
-        },
-        {
-          "timestamp": "2026-02-23T10:36:00.426433+00:00",
-          "age_hours": 45.2,
-          "shares_per_hour": 90.1,
-          "views_per_hour": 66336,
-          "momentum": 13014,
-          "delta_shares_per_hour": 51.39999999999999
-        },
-        {
-          "timestamp": "2026-02-23T14:37:47.351664+00:00",
-          "age_hours": 49.3,
-          "shares_per_hour": 82.8,
-          "views_per_hour": 60908,
-          "momentum": 11949,
-          "delta_shares_per_hour": -7.299999999999997
-        },
-        {
-          "timestamp": "2026-02-23T19:42:25.317610+00:00",
-          "age_hours": 54.3,
-          "shares_per_hour": 75.0,
-          "views_per_hour": 55216,
-          "momentum": 10832,
-          "delta_shares_per_hour": -7.799999999999997
-        }
-      ],
-      "consecutive_negative_deltas": 2,
-      "alerted": false,
-      "consecutive_misses": 0
-    },
-    {
-      "url": "https://www.tiktok.com/@sofa.tomato/video/7609672151108439317",
-      "first_seen": "2026-02-23T10:36:00.426433+00:00",
-      "market": "\ud83c\udf10 BOTH",
-      "text": "I\u2019m probably gonna make a new video about it since I know who exactly did it, lol\n#trend #irl #animation #weirdal #capcuttemplate ",
-      "creator": "sofa.tomato",
-      "checks": [
-        {
-          "timestamp": "2026-02-23T10:36:00.426433+00:00",
-          "age_hours": 21.7,
-          "shares_per_hour": 167.3,
-          "views_per_hour": 119865,
-          "momentum": 36023,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-02-23T14:37:47.351664+00:00",
-          "age_hours": 25.7,
-          "shares_per_hour": 141.1,
-          "views_per_hour": 101086,
-          "momentum": 30379,
-          "delta_shares_per_hour": -26.200000000000017
-        },
-        {
-          "timestamp": "2026-02-23T19:42:25.317610+00:00",
-          "age_hours": 30.8,
-          "shares_per_hour": 117.8,
-          "views_per_hour": 84421,
-          "momentum": 25371,
-          "delta_shares_per_hour": -23.299999999999997
-        }
-      ],
-      "consecutive_negative_deltas": 2,
-      "alerted": false,
-      "consecutive_misses": 0
-    },
     {
       "url": "https://www.tiktok.com/@only1aliya/video/7609805965852003615",
       "first_seen": "2026-02-23T19:42:25.317610+00:00",
@@ -103,10 +15,19 @@
           "views_per_hour": 18527,
           "momentum": 13137,
           "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-02-23T22:09:02.926471+00:00",
+          "age_hours": 24.6,
+          "shares_per_hour": 10.9,
+          "views_per_hour": 16685,
+          "momentum": 11831,
+          "delta_shares_per_hour": -1.1999999999999993
         }
       ],
-      "consecutive_negative_deltas": 0,
-      "alerted": false
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
     },
     {
       "url": "https://www.tiktok.com/@gqt9daub36/video/7609562167767043345",
@@ -122,10 +43,19 @@
           "views_per_hour": 8416,
           "momentum": 3742,
           "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-02-23T22:09:02.926471+00:00",
+          "age_hours": 40.3,
+          "shares_per_hour": 324.8,
+          "views_per_hour": 7906,
+          "momentum": 3515,
+          "delta_shares_per_hour": -21.0
         }
       ],
-      "consecutive_negative_deltas": 0,
-      "alerted": false
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
     },
     {
       "url": "https://www.tiktok.com/@lars_ranks/video/7609458397246786838",
@@ -141,10 +71,19 @@
           "views_per_hour": 12796,
           "momentum": 3196,
           "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-02-23T22:09:02.926471+00:00",
+          "age_hours": 47.1,
+          "shares_per_hour": 107.4,
+          "views_per_hour": 12131,
+          "momentum": 3030,
+          "delta_shares_per_hour": -5.799999999999997
         }
       ],
-      "consecutive_negative_deltas": 0,
-      "alerted": false
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
     },
     {
       "url": "https://www.tiktok.com/@dnvgsxtvq2/video/7609597113449729288",
@@ -160,10 +99,19 @@
           "views_per_hour": 9023,
           "momentum": 3115,
           "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-02-23T22:09:02.926471+00:00",
+          "age_hours": 38.1,
+          "shares_per_hour": 265.1,
+          "views_per_hour": 8444,
+          "momentum": 2915,
+          "delta_shares_per_hour": -18.19999999999999
         }
       ],
-      "consecutive_negative_deltas": 0,
-      "alerted": false
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
     },
     {
       "url": "https://www.tiktok.com/@nate.b.jones/video/7609432736536759582",
@@ -179,10 +127,19 @@
           "views_per_hour": 5222,
           "momentum": 1814,
           "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-02-23T22:09:02.926471+00:00",
+          "age_hours": 48.7,
+          "shares_per_hour": 68.9,
+          "views_per_hour": 4960,
+          "momentum": 1723,
+          "delta_shares_per_hour": -3.5999999999999943
         }
       ],
-      "consecutive_negative_deltas": 0,
-      "alerted": false
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
     },
     {
       "url": "https://www.tiktok.com/@kriziaraso/video/7609766102154923286",
@@ -197,6 +154,53 @@
           "shares_per_hour": 7.7,
           "views_per_hour": 5788,
           "momentum": 1663,
+          "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-02-23T22:09:02.926471+00:00",
+          "age_hours": 27.2,
+          "shares_per_hour": 7.0,
+          "views_per_hour": 5267,
+          "momentum": 1514,
+          "delta_shares_per_hour": -0.7000000000000002
+        }
+      ],
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
+    },
+    {
+      "url": "https://www.tiktok.com/@wildcrazylass123/video/7609675290859687188",
+      "first_seen": "2026-02-23T22:09:02.926471+00:00",
+      "market": "\ud83c\uddfa\ud83c\uddf8 US ONLY",
+      "text": "#capcut #capcutpioneer\n\u2728 AI Ramadan Kareem Tutorial \ud83c\udf19\ud83d\udd4c\nTransform your photo into beautiful Ramadan light with AI magic \u2728\ud83d\udcab\nWarm glow, sacred blessings \u2014 feel the peaceful Ramadan energy \ud83d\udd25\n#aivideo #ramadankareem #\u0631\u0645\u0636\u0627\u0646_\u0643\u0631\u064a\u0645\n \nTutoriel IA Ramadan Kareem \u2728\ud83c\udf19\ud83d\udd4c\nTransforme ta photo en lumi\u00e8re Ramadan gr\u00e2ce \u00e0 l\u2019IA \u2728\ud83d\udcab\nLueur chaude, b\u00e9n\u00e9dictions sacr\u00e9es \u2014 ressentez la paix de Ramadan \ud83d\udd25\n \nKI-Tutorial Ramadan Kareem \u2728\ud83c\udf19\ud83d\udd4c\nVerwandele dein Foto in wundersch\u00f6nes Ramadan-Licht mit KI-Magie \u2728\ud83d\udcab\nWarmes Leuchten, gesegnete Momente \u2014 sp\u00fcre die friedliche Ramadan-Energie \ud83d\udd25\n \nTutorial IA Ramadan Kareem \u2728\ud83c\udf19\ud83d\udd4c\nConvierte tu foto en luz de Ramadan con magia IA \u2728\ud83d\udcab\nBrillo c\u00e1lido, bendiciones sagradas \u2014 siente la energ\u00eda pac\u00edfica de Ramadan \ud83d\udd25\n \nTutorial IA Ramadan Kareem \u2728\ud83c\udf19\ud83d\udd4c\nTransforme sua foto em luz de Ramadan com magia IA \u2728\ud83d\udcab\nBrilho quente, b\u00ean\u00e7\u00e3os sagradas \u2014 sinta a energia pac\u00edfica de Ramadan \ud83d\udd25\n \nTutorial AI Ramadan Kareem \u2728\ud83c\udf19\ud83d\udd4c\nUbah fotomu menjadi nuansa cahaya Ramadan yang indah dengan sihir AI \u2728\ud83d\udcab\nCahaya hangat, berkah suci \u2014 rasakan energi damai Ramadan \ud83d\udd25\n \nTutorial AI Ramadan Kareem \u2728\ud83c\udf19\ud83d\udd4c\nUbah foto kamu menjadi suasana cahaya Ramadan dengan magic AI \u2728\ud83d\udcab\nCahaya hangat, keberkahan suci \u2014 rasakan kedamaian Ramadan \ud83d\udd25\n \n\u041e\u0431\u0443\u0447\u0435\u043d\u0438\u0435 \u0418\u0418 \u0420\u0430\u043c\u0430\u0434\u0430\u043d \u041a\u0430\u0440\u0438\u043c \u2728\ud83c\udf19\ud83d\udd4c\n\u041f\u0440\u0435\u0432\u0440\u0430\u0442\u0438 \u0444\u043e\u0442\u043e \u0432 \u0442\u0435\u043f\u043b\u043e\u0435 \u0441\u0438\u044f\u043d\u0438\u0435 \u0420\u0430\u043c\u0430\u0434\u0430\u043d\u0430 \u0441 \u043f\u043e\u043c\u043e\u0449\u044c\u044e \u0418\u0418 \u2728\ud83d\udcab\n\u0422\u0435\u043f\u043b\u043e\u0435 \u0441\u0438\u044f\u043d\u0438\u0435, \u0441\u0432\u044f\u0449\u0435\u043d\u043d\u044b\u0435 \u0431\u043b\u0430\u0433\u043e\u0441\u043b\u043e\u0432\u0435\u043d\u0438\u044f \u2014 \u043e\u0449\u0443\u0442\u0438\u0442\u0435 \u043c\u0438\u0440 \u0420\u0430\u043c\u0430\u0434\u0430\u043d\u0430 \ud83d\udd25\n \n\u062f\u0631\u0633 \u062a\u0639\u0644\u064a\u0645\u064a \u0630\u0643\u0627\u0621 \u0627\u0635\u0637\u0646\u0627\u0639\u064a \u0631\u0645\u0636\u0627\u0646 \u0643\u0631\u064a\u0645 \u2728\ud83c\udf19\ud83d\udd4c\n\u062d\u0648\u0651\u0644 \u0635\u0648\u0631\u062a\u0643 \u0625\u0644\u0649 \u0623\u062c\u0648\u0627\u0621 \u0646\u0648\u0631 \u0631\u0645\u0636\u0627\u0646 \u0628\u0627\u0644\u0630\u0643\u0627\u0621 \u0627\u0644\u0627\u0635\u0637\u0646\u0627\u0639\u064a \u2728\ud83d\udcab\n\u0646\u0648\u0631 \u062f\u0627\u0641\u0626\u060c \u0628\u0631\u0643\u0627\u062a \u0645\u0642\u062f\u0633\u0629 \u2014 \u0627\u0634\u0639\u0631 \u0628\u0633\u0644\u0627\u0645 \u0631\u0645\u0636\u0627\u0646 \ud83d\udd25\n \nAI \u0930\u092e\u091c\u093e\u0928 \u0915\u0930\u0940\u092e \u091f\u094d\u092f\u0942\u091f\u094b\u0930\u093f\u092f\u0932 \u2728\ud83c\udf19\ud83d\udd4c\nAI \u0915\u0940 \u092e\u0926\u0926 \u0938\u0947 \u0905\u092a\u0928\u0940 \u092b\u094b\u091f\u094b \u0915\u094b \u0930\u092e\u091c\u093e\u0928 \u0915\u0947 \u0916\u0942\u092c\u0938\u0942\u0930\u0924 \u092a\u094d\u0930\u0915\u093e\u0936 \u092e\u0947\u0902 \u092c\u0926\u0932\u0947\u0902 \u2728\ud83d\udcab\n\u0917\u0930\u094d\u092e \u091a\u092e\u0915, \u092a\u0935\u093f\u0924\u094d\u0930 \u0906\u0936\u0940\u0930\u094d\u0935\u093e\u0926 \u2014 \u0936\u093e\u0902\u0924\u093f\u092a\u0942\u0930\u094d\u0923 \u0930\u092e\u091c\u093e\u0928 \u090a\u0930\u094d\u091c\u093e \u0915\u094b \u092e\u0939\u0938\u0942\u0938 \u0915\u0930\u0947\u0902 \ud83d\udd25",
+      "creator": "wildcrazylass123",
+      "checks": [
+        {
+          "timestamp": "2026-02-23T22:09:02.926471+00:00",
+          "age_hours": 33.0,
+          "shares_per_hour": 78.6,
+          "views_per_hour": 1407,
+          "momentum": 910,
+          "delta_shares_per_hour": null
+        }
+      ],
+      "consecutive_negative_deltas": 0,
+      "alerted": false
+    },
+    {
+      "url": "https://www.tiktok.com/@xiaoxiao3312/video/7609758441942338834",
+      "first_seen": "2026-02-23T22:09:02.926471+00:00",
+      "market": "\ud83c\uddfa\ud83c\uddf8 US ONLY",
+      "text": "#capcut #capcutpioneer #capcutforus\u2728 AI Ramadan Kareem Tutorial \ud83c\udf19\ud83d\udd4c Transform your photo into beautiful Ramadan light with AI magic \u2728\ud83d\udcab Warm glow, sacred blessings \u2014 feel the peaceful Ramadan energy \ud83d\udd25 #ramadankareem #\u0631\u0645\u0636\u0627\u0646_\u0643\u0631\u064a\u0645   Tutoriel IA Ramadan Kareem \u2728\ud83c\udf19\ud83d\udd4c Transforme ta photo en lumi\u00e8re Ramadan gr\u00e2ce \u00e0 l\u2019IA \u2728\ud83d\udcab Lueur chaude, b\u00e9n\u00e9dictions sacr\u00e9es \u2014 ressentez la paix de Ramadan \ud83d\udd25   KI-Tutorial Ramadan Kareem \u2728\ud83c\udf19\ud83d\udd4c Verwandele dein Foto in wundersch\u00f6nes Ramadan-Licht mit KI-Magie \u2728\ud83d\udcab Warmes Leuchten, gesegnete Momente \u2014 sp\u00fcre die friedliche Ramadan-Energie \ud83d\udd25   Tutorial IA Ramadan Kareem \u2728\ud83c\udf19\ud83d\udd4c Convierte tu foto en luz de Ramadan con magia IA \u2728\ud83d\udcab Brillo c\u00e1lido, bendiciones sagradas \u2014 siente la energ\u00eda pac\u00edfica de Ramadan \ud83d\udd25   Tutorial IA Ramadan Kareem \u2728\ud83c\udf19\ud83d\udd4c Transforme sua foto em luz de Ramadan com magia IA \u2728\ud83d\udcab Brilho quente, b\u00ean\u00e7\u00e3os sagradas \u2014 sinta a energia pac\u00edfica de Ramadan \ud83d\udd25   Tutorial AI Ramadan Kareem \u2728\ud83c\udf19\ud83d\udd4c Ubah fotomu menjadi nuansa cahaya Ramadan yang indah dengan sihir AI \u2728\ud83d\udcab Cahaya hangat, berkah suci \u2014 rasakan energi damai Ramadan \ud83d\udd25   Tutorial AI Ramadan Kareem \u2728\ud83c\udf19\ud83d\udd4c Ubah foto kamu menjadi suasana cahaya Ramadan dengan magic AI \u2728\ud83d\udcab Cahaya hangat, keberkahan suci \u2014 rasakan kedamaian Ramadan \ud83d\udd25   \u041e\u0431\u0443\u0447\u0435\u043d\u0438\u0435 \u0418\u0418 \u0420\u0430\u043c\u0430\u0434\u0430\u043d \u041a\u0430\u0440\u0438\u043c \u2728\ud83c\udf19\ud83d\udd4c \u041f\u0440\u0435\u0432\u0440\u0430\u0442\u0438 \u0444\u043e\u0442\u043e \u0432 \u0442\u0435\u043f\u043b\u043e\u0435 \u0441\u0438\u044f\u043d\u0438\u0435 \u0420\u0430\u043c\u0430\u0434\u0430\u043d\u0430 \u0441 \u043f\u043e\u043c\u043e\u0449\u044c\u044e \u0418\u0418 \u2728\ud83d\udcab \u0422\u0435\u043f\u043b\u043e\u0435 \u0441\u0438\u044f\u043d\u0438\u0435, \u0441\u0432\u044f\u0449\u0435\u043d\u043d\u044b\u0435 \u0431\u043b\u0430\u0433\u043e\u0441\u043b\u043e\u0432\u0435\u043d\u0438\u044f \u2014 \u043e\u0449\u0443\u0442\u0438\u0442\u0435 \u043c\u0438\u0440 \u0420\u0430\u043c\u0430\u0434\u0430\u043d\u0430 \ud83d\udd25   \u062f\u0631\u0633 \u062a\u0639\u0644\u064a\u0645\u064a \u0630\u0643\u0627\u0621 \u0627\u0635\u0637\u0646\u0627\u0639\u064a \u0631\u0645\u0636\u0627\u0646 \u0643\u0631\u064a\u0645 \u2728\ud83c\udf19\ud83d\udd4c \u062d\u0648\u0651\u0644 \u0635\u0648\u0631\u062a\u0643 \u0625\u0644\u0649 \u0623\u062c\u0648\u0627\u0621 \u0646\u0648\u0631 \u0631\u0645\u0636\u0627\u0646 \u0628\u0627\u0644\u0630\u0643\u0627\u0621 \u0627\u0644\u0627\u0635\u0637\u0646\u0627\u0639\u064a \u2728\ud83d\udcab \u0646\u0648\u0631 \u062f\u0627\u0641\u0626\u060c \u0628\u0631\u0643\u0627\u062a \u0645\u0642\u062f\u0633\u0629 \u2014 \u0627\u0634\u0639\u0631 \u0628\u0633\u0644\u0627\u0645 \u0631\u0645\u0636\u0627\u0646 \ud83d\udd25   AI \u0930\u092e\u091c\u093e\u0928 \u0915\u0930\u0940\u092e \u091f\u094d\u092f\u0942\u091f\u094b\u0930\u093f\u092f\u0932 \u2728\ud83c\udf19\ud83d\udd4c AI \u0915\u0940 \u092e\u0926\u0926 \u0938\u0947 \u0905\u092a\u0928\u0940 \u092b\u094b\u091f\u094b \u0915\u094b \u0930\u092e\u091c\u093e\u0928 \u0915\u0947 \u0916\u0942\u092c\u0938\u0942\u0930\u0924 \u092a\u094d\u0930\u0915\u093e\u0936 \u092e\u0947\u0902 \u092c\u0926\u0932\u0947\u0902 \u2728\ud83d\udcab \u0917\u0930\u094d\u092e \u091a\u092e\u0915, \u092a\u0935\u093f\u0924\u094d\u0930 \u0906\u0936\u0940\u0930\u094d\u0935\u093e\u0926 \u2014 \u0936\u093e\u0902\u0924\u093f\u092a\u0942\u0930\u094d\u0923 \u0930\u092e\u091c\u093e\u0928 \u090a\u0930\u094d\u091c\u093e \u0915\u094b \u092e\u0939\u0938\u0942\u0938 \u0915\u0930\u0947\u0902 \ud83d\udd25",
+      "creator": "xiaoxiao3312",
+      "checks": [
+        {
+          "timestamp": "2026-02-23T22:09:02.926471+00:00",
+          "age_hours": 27.7,
+          "shares_per_hour": 54.0,
+          "views_per_hour": 1106,
+          "momentum": 743,
           "delta_shares_per_hour": null
         }
       ],
