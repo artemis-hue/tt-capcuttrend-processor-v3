@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-22T22:56:31.885731+00:00",
+  "last_updated": "2026-02-23T10:36:00.431193+00:00",
   "candidates": [
     {
       "url": "https://www.tiktok.com/@matteo_cruzzz/video/7609110364436860192",
@@ -35,7 +35,7 @@
       ],
       "consecutive_negative_deltas": 2,
       "alerted": false,
-      "consecutive_misses": 0
+      "consecutive_misses": 1
     },
     {
       "url": "https://www.tiktok.com/@doctortren1/video/7609384647562104086",
@@ -71,43 +71,7 @@
       ],
       "consecutive_negative_deltas": 2,
       "alerted": false,
-      "consecutive_misses": 0
-    },
-    {
-      "url": "https://www.tiktok.com/@plantillasbychand/video/7609069664416632085",
-      "first_seen": "2026-02-22T19:04:51.810097+00:00",
-      "market": "\ud83c\udf10 BOTH",
-      "text": "#CapCut #capcutpioneer #pioneertemplate #parati #cctrends ",
-      "creator": "plantillasbychand",
-      "checks": [
-        {
-          "timestamp": "2026-02-22T19:04:51.810097+00:00",
-          "age_hours": 45.1,
-          "shares_per_hour": 34.8,
-          "views_per_hour": 12265,
-          "momentum": 2863,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-02-22T20:55:20.023385+00:00",
-          "age_hours": 47.0,
-          "shares_per_hour": 33.4,
-          "views_per_hour": 11784,
-          "momentum": 2751,
-          "delta_shares_per_hour": -1.3999999999999986
-        },
-        {
-          "timestamp": "2026-02-22T22:56:31.885611+00:00",
-          "age_hours": 49.0,
-          "shares_per_hour": 32.1,
-          "views_per_hour": 11298,
-          "momentum": 2637,
-          "delta_shares_per_hour": -1.2999999999999972
-        }
-      ],
-      "consecutive_negative_deltas": 2,
-      "alerted": false,
-      "consecutive_misses": 0
+      "consecutive_misses": 1
     },
     {
       "url": "https://www.tiktok.com/@trevorlarcom/video/7609190284768857358",
@@ -143,7 +107,7 @@
       ],
       "consecutive_negative_deltas": 2,
       "alerted": false,
-      "consecutive_misses": 0
+      "consecutive_misses": 1
     },
     {
       "url": "https://www.tiktok.com/@recctemplate/video/7609356201452719381",
@@ -179,7 +143,7 @@
       ],
       "consecutive_negative_deltas": 2,
       "alerted": false,
-      "consecutive_misses": 0
+      "consecutive_misses": 1
     },
     {
       "url": "https://www.tiktok.com/@imoletok1/video/7609307988616105229",
@@ -203,9 +167,17 @@
           "views_per_hour": 28510,
           "momentum": 4818,
           "delta_shares_per_hour": -2.3999999999999986
+        },
+        {
+          "timestamp": "2026-02-23T10:36:00.426433+00:00",
+          "age_hours": 45.2,
+          "shares_per_hour": 90.1,
+          "views_per_hour": 66336,
+          "momentum": 13014,
+          "delta_shares_per_hour": 51.39999999999999
         }
       ],
-      "consecutive_negative_deltas": 1,
+      "consecutive_negative_deltas": 0,
       "alerted": false,
       "consecutive_misses": 0
     },
@@ -235,7 +207,7 @@
       ],
       "consecutive_negative_deltas": 1,
       "alerted": false,
-      "consecutive_misses": 0
+      "consecutive_misses": 1
     },
     {
       "url": "https://www.tiktok.com/@user926752612423/video/7609183805802351890",
@@ -263,7 +235,26 @@
       ],
       "consecutive_negative_deltas": 1,
       "alerted": false,
-      "consecutive_misses": 0
+      "consecutive_misses": 1
+    },
+    {
+      "url": "https://www.tiktok.com/@sofa.tomato/video/7609672151108439317",
+      "first_seen": "2026-02-23T10:36:00.426433+00:00",
+      "market": "\ud83c\udf10 BOTH",
+      "text": "I\u2019m probably gonna make a new video about it since I know who exactly did it, lol\n#trend #irl #animation #weirdal #capcuttemplate ",
+      "creator": "sofa.tomato",
+      "checks": [
+        {
+          "timestamp": "2026-02-23T10:36:00.426433+00:00",
+          "age_hours": 21.7,
+          "shares_per_hour": 167.3,
+          "views_per_hour": 119865,
+          "momentum": 36023,
+          "delta_shares_per_hour": null
+        }
+      ],
+      "consecutive_negative_deltas": 0,
+      "alerted": false
     }
   ]
 }
