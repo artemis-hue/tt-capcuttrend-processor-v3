@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-23T22:09:02.931383+00:00",
+  "last_updated": "2026-02-24T10:33:25.910392+00:00",
   "candidates": [
     {
       "url": "https://www.tiktok.com/@only1aliya/video/7609805965852003615",
@@ -23,9 +23,17 @@
           "views_per_hour": 16685,
           "momentum": 11831,
           "delta_shares_per_hour": -1.1999999999999993
+        },
+        {
+          "timestamp": "2026-02-24T10:33:25.905419+00:00",
+          "age_hours": 37.0,
+          "shares_per_hour": 14.5,
+          "views_per_hour": 19886,
+          "momentum": 12509,
+          "delta_shares_per_hour": 3.5999999999999996
         }
       ],
-      "consecutive_negative_deltas": 1,
+      "consecutive_negative_deltas": 0,
       "alerted": false,
       "consecutive_misses": 0
     },
@@ -51,9 +59,17 @@
           "views_per_hour": 7906,
           "momentum": 3515,
           "delta_shares_per_hour": -21.0
+        },
+        {
+          "timestamp": "2026-02-24T10:33:25.905419+00:00",
+          "age_hours": 52.7,
+          "shares_per_hour": 561.3,
+          "views_per_hour": 17366,
+          "momentum": 6196,
+          "delta_shares_per_hour": 236.49999999999994
         }
       ],
-      "consecutive_negative_deltas": 1,
+      "consecutive_negative_deltas": 0,
       "alerted": false,
       "consecutive_misses": 0
     },
@@ -83,7 +99,7 @@
       ],
       "consecutive_negative_deltas": 1,
       "alerted": false,
-      "consecutive_misses": 0
+      "consecutive_misses": 1
     },
     {
       "url": "https://www.tiktok.com/@dnvgsxtvq2/video/7609597113449729288",
@@ -107,37 +123,17 @@
           "views_per_hour": 8444,
           "momentum": 2915,
           "delta_shares_per_hour": -18.19999999999999
-        }
-      ],
-      "consecutive_negative_deltas": 1,
-      "alerted": false,
-      "consecutive_misses": 0
-    },
-    {
-      "url": "https://www.tiktok.com/@nate.b.jones/video/7609432736536759582",
-      "first_seen": "2026-02-23T19:42:25.317610+00:00",
-      "market": "\ud83c\udf10 BOTH",
-      "text": "And what are the Ai agents buying? #ai #chatgpt #learn #LearnOnTikTok ",
-      "creator": "nate.b.jones",
-      "checks": [
-        {
-          "timestamp": "2026-02-23T19:42:25.317610+00:00",
-          "age_hours": 46.3,
-          "shares_per_hour": 72.5,
-          "views_per_hour": 5222,
-          "momentum": 1814,
-          "delta_shares_per_hour": null
         },
         {
-          "timestamp": "2026-02-23T22:09:02.926471+00:00",
-          "age_hours": 48.7,
-          "shares_per_hour": 68.9,
-          "views_per_hour": 4960,
-          "momentum": 1723,
-          "delta_shares_per_hour": -3.5999999999999943
+          "timestamp": "2026-02-24T10:33:25.905419+00:00",
+          "age_hours": 50.5,
+          "shares_per_hour": 445.5,
+          "views_per_hour": 17710,
+          "momentum": 5083,
+          "delta_shares_per_hour": 180.39999999999998
         }
       ],
-      "consecutive_negative_deltas": 1,
+      "consecutive_negative_deltas": 0,
       "alerted": false,
       "consecutive_misses": 0
     },
@@ -167,7 +163,7 @@
       ],
       "consecutive_negative_deltas": 1,
       "alerted": false,
-      "consecutive_misses": 0
+      "consecutive_misses": 1
     },
     {
       "url": "https://www.tiktok.com/@wildcrazylass123/video/7609675290859687188",
@@ -186,7 +182,8 @@
         }
       ],
       "consecutive_negative_deltas": 0,
-      "alerted": false
+      "alerted": false,
+      "consecutive_misses": 1
     },
     {
       "url": "https://www.tiktok.com/@xiaoxiao3312/video/7609758441942338834",
@@ -201,6 +198,26 @@
           "shares_per_hour": 54.0,
           "views_per_hour": 1106,
           "momentum": 743,
+          "delta_shares_per_hour": null
+        }
+      ],
+      "consecutive_negative_deltas": 0,
+      "alerted": false,
+      "consecutive_misses": 1
+    },
+    {
+      "url": "https://www.tiktok.com/@animeieducando/video/7609714760975764754",
+      "first_seen": "2026-02-24T10:33:25.905419+00:00",
+      "market": "\ud83c\uddfa\ud83c\uddf8 US ONLY",
+      "text": "\ud83e\udef5\ud83c\udffdA culpa \u00e9 sua! \ud83d\ude2d\n#fyp #ia #objetosfalantes #meme #divertido ",
+      "creator": "animeieducando",
+      "checks": [
+        {
+          "timestamp": "2026-02-24T10:33:25.905419+00:00",
+          "age_hours": 42.9,
+          "shares_per_hour": 3294.3,
+          "views_per_hour": 95589,
+          "momentum": 49139,
           "delta_shares_per_hour": null
         }
       ],
