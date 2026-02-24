@@ -1,146 +1,6 @@
 {
-  "last_updated": "2026-02-24T19:31:53.171124+00:00",
+  "last_updated": "2026-02-24T21:52:41.767489+00:00",
   "candidates": [
-    {
-      "url": "https://www.tiktok.com/@only1aliya/video/7609805965852003615",
-      "first_seen": "2026-02-23T19:42:25.317610+00:00",
-      "market": "\ud83c\udf10 BOTH",
-      "text": "ouiiii #transition #glowup ",
-      "creator": "only1aliya",
-      "checks": [
-        {
-          "timestamp": "2026-02-23T19:42:25.317610+00:00",
-          "age_hours": 22.1,
-          "shares_per_hour": 12.1,
-          "views_per_hour": 18527,
-          "momentum": 13137,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-02-23T22:09:02.926471+00:00",
-          "age_hours": 24.6,
-          "shares_per_hour": 10.9,
-          "views_per_hour": 16685,
-          "momentum": 11831,
-          "delta_shares_per_hour": -1.1999999999999993
-        },
-        {
-          "timestamp": "2026-02-24T10:33:25.905419+00:00",
-          "age_hours": 37.0,
-          "shares_per_hour": 14.5,
-          "views_per_hour": 19886,
-          "momentum": 12509,
-          "delta_shares_per_hour": 3.5999999999999996
-        },
-        {
-          "timestamp": "2026-02-24T15:11:08.567390+00:00",
-          "age_hours": 41.6,
-          "shares_per_hour": 12.9,
-          "views_per_hour": 17674,
-          "momentum": 11118,
-          "delta_shares_per_hour": -1.5999999999999996
-        },
-        {
-          "timestamp": "2026-02-24T19:31:53.166390+00:00",
-          "age_hours": 46.0,
-          "shares_per_hour": 11.7,
-          "views_per_hour": 16003,
-          "momentum": 10067,
-          "delta_shares_per_hour": -1.200000000000001
-        }
-      ],
-      "consecutive_negative_deltas": 2,
-      "alerted": false,
-      "consecutive_misses": 0
-    },
-    {
-      "url": "https://www.tiktok.com/@dnvgsxtvq2/video/7609597113449729288",
-      "first_seen": "2026-02-23T19:42:25.317610+00:00",
-      "market": "\ud83c\uddfa\ud83c\uddf8 US ONLY",
-      "text": "Tutorial gratis template foto AI \ud83d\udc96\nBuat foto serupa dengan satu klik\nsecara gratis, klik hypic di sudut kiri\nbawah untuk membuatnya secara gratis.\nGemini ai foto edit\nPrompt Gemini ai\nEditor kreatif AI, Editor foto AI\nPenyunting kreatif AI, Penyunting foto\nAI\nGoogle Gemini AI\nFilter Foto AI\nAI Foto Efek\nFilter ai foto wajah\nGunakan filter ai foto ini\nPenyunting Kreatif AI\nPenyunting Foto AI\nAI Creative Editing, \nAI Photo Editing\nGoogle Gemini AI, \nEditor foto Alat edit\nfoto efek filter ,\npenyunting kreatif AI ,\nAI creative editing Prompt,\nAI PromptFoto\n#hypic #hypiccreator #Godpic @hypic_global @HypicVietnam #Geminiai #ramadan ",
-      "creator": "dnvgsxtvq2",
-      "checks": [
-        {
-          "timestamp": "2026-02-23T19:42:25.317610+00:00",
-          "age_hours": 35.7,
-          "shares_per_hour": 283.3,
-          "views_per_hour": 9023,
-          "momentum": 3115,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-02-23T22:09:02.926471+00:00",
-          "age_hours": 38.1,
-          "shares_per_hour": 265.1,
-          "views_per_hour": 8444,
-          "momentum": 2915,
-          "delta_shares_per_hour": -18.19999999999999
-        },
-        {
-          "timestamp": "2026-02-24T10:33:25.905419+00:00",
-          "age_hours": 50.5,
-          "shares_per_hour": 445.5,
-          "views_per_hour": 17710,
-          "momentum": 5083,
-          "delta_shares_per_hour": 180.39999999999998
-        },
-        {
-          "timestamp": "2026-02-24T15:11:08.567390+00:00",
-          "age_hours": 55.1,
-          "shares_per_hour": 408.1,
-          "views_per_hour": 16223,
-          "momentum": 4657,
-          "delta_shares_per_hour": -37.39999999999998
-        },
-        {
-          "timestamp": "2026-02-24T19:31:53.166390+00:00",
-          "age_hours": 59.5,
-          "shares_per_hour": 378.3,
-          "views_per_hour": 15038,
-          "momentum": 4316,
-          "delta_shares_per_hour": -29.80000000000001
-        }
-      ],
-      "consecutive_negative_deltas": 2,
-      "alerted": false,
-      "consecutive_misses": 0
-    },
-    {
-      "url": "https://www.tiktok.com/@animeieducando/video/7609714760975764754",
-      "first_seen": "2026-02-24T10:33:25.905419+00:00",
-      "market": "\ud83c\uddfa\ud83c\uddf8 US ONLY",
-      "text": "\ud83e\udef5\ud83c\udffdA culpa \u00e9 sua! \ud83d\ude2d\n#fyp #ia #objetosfalantes #meme #divertido ",
-      "creator": "animeieducando",
-      "checks": [
-        {
-          "timestamp": "2026-02-24T10:33:25.905419+00:00",
-          "age_hours": 42.9,
-          "shares_per_hour": 3294.3,
-          "views_per_hour": 95589,
-          "momentum": 49139,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-02-24T15:11:08.567390+00:00",
-          "age_hours": 47.5,
-          "shares_per_hour": 2973.5,
-          "views_per_hour": 86278,
-          "momentum": 44353,
-          "delta_shares_per_hour": -320.8000000000002
-        },
-        {
-          "timestamp": "2026-02-24T19:31:53.166390+00:00",
-          "age_hours": 51.9,
-          "shares_per_hour": 2724.3,
-          "views_per_hour": 79049,
-          "momentum": 40637,
-          "delta_shares_per_hour": -249.19999999999982
-        }
-      ],
-      "consecutive_negative_deltas": 2,
-      "alerted": false,
-      "consecutive_misses": 0
-    },
     {
       "url": "https://www.tiktok.com/@yourincomelab/video/7609885495635479830",
       "first_seen": "2026-02-24T19:31:53.166390+00:00",
@@ -155,10 +15,19 @@
           "views_per_hour": 6083,
           "momentum": 4659,
           "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-02-24T21:52:41.762324+00:00",
+          "age_hours": 43.2,
+          "shares_per_hour": 234.0,
+          "views_per_hour": 5752,
+          "momentum": 4406,
+          "delta_shares_per_hour": -13.400000000000006
         }
       ],
-      "consecutive_negative_deltas": 0,
-      "alerted": false
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
     },
     {
       "url": "https://www.tiktok.com/@ella506122/video/7609921038796885279",
@@ -174,10 +43,19 @@
           "views_per_hour": 13942,
           "momentum": 3768,
           "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-02-24T21:52:41.762324+00:00",
+          "age_hours": 40.9,
+          "shares_per_hour": 320.5,
+          "views_per_hour": 13141,
+          "momentum": 3551,
+          "delta_shares_per_hour": -19.600000000000023
         }
       ],
-      "consecutive_negative_deltas": 0,
-      "alerted": false
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
     },
     {
       "url": "https://www.tiktok.com/@urdr92956838/video/7609932478610148629",
@@ -193,10 +71,19 @@
           "views_per_hour": 7026,
           "momentum": 3686,
           "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-02-24T21:52:41.762324+00:00",
+          "age_hours": 40.1,
+          "shares_per_hour": 193.2,
+          "views_per_hour": 6615,
+          "momentum": 3470,
+          "delta_shares_per_hour": -12.0
         }
       ],
-      "consecutive_negative_deltas": 0,
-      "alerted": false
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
     },
     {
       "url": "https://www.tiktok.com/@funny.yt92/video/7610057360341601566",
@@ -212,10 +99,19 @@
           "views_per_hour": 27330,
           "momentum": 3240,
           "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-02-24T21:52:41.762324+00:00",
+          "age_hours": 32.0,
+          "shares_per_hour": 76.5,
+          "views_per_hour": 25328,
+          "momentum": 3002,
+          "delta_shares_per_hour": -6.0
         }
       ],
-      "consecutive_negative_deltas": 0,
-      "alerted": false
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
     },
     {
       "url": "https://www.tiktok.com/@naicbnfeb4/video/7610023786850716948",
@@ -230,6 +126,72 @@
           "shares_per_hour": 149.4,
           "views_per_hour": 1803,
           "momentum": 1753,
+          "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-02-24T21:52:41.762324+00:00",
+          "age_hours": 34.2,
+          "shares_per_hour": 139.2,
+          "views_per_hour": 1679,
+          "momentum": 1632,
+          "delta_shares_per_hour": -10.200000000000017
+        }
+      ],
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
+    },
+    {
+      "url": "https://www.tiktok.com/@spamsecretico/video/7610032062464118029",
+      "first_seen": "2026-02-24T21:52:41.762324+00:00",
+      "market": "\ud83c\uddfa\ud83c\uddf8 US ONLY",
+      "text": "#fyp\u30b7\u309aviral ",
+      "creator": "spamsecretico",
+      "checks": [
+        {
+          "timestamp": "2026-02-24T21:52:41.762324+00:00",
+          "age_hours": 33.7,
+          "shares_per_hour": 11.0,
+          "views_per_hour": 2150,
+          "momentum": 1289,
+          "delta_shares_per_hour": null
+        }
+      ],
+      "consecutive_negative_deltas": 0,
+      "alerted": false
+    },
+    {
+      "url": "https://www.tiktok.com/@emma341820/video/7610007495502859528",
+      "first_seen": "2026-02-24T21:52:41.762324+00:00",
+      "market": "\ud83c\udf10 BOTH",
+      "text": "AI Flying Effect Tutorial AI Flying Transformation Effect Guide\ud83d\udc40 Fly into the Sky with AI \u2728 AI Flying Effect CapCut Tutorial AI Flying Filter Effect \ud83d\udd25 How to Create an AI Flying Portrait AI Flying Trend Filter How to Get the AI Flying Effect \ud83d\udcab Use AI to Create a Flying Effect with Your Photo in CapCut \u2764\ufe0f AI Flying Effect Step-by-Step Tutorial\ud83d\udc40 AI Flying Transformation CapCut AI Flying Trend Filter AI Flying Portrait Editing Guide Tutoriel IA Effet Voler \ud83d\udd25 Guide Effet IA Transformation Volante Envolez-vous dans le Ciel avec l\u2019IA \u2728 Tutoriel CapCut Effet IA Voler Effet Filtre IA Voler \ud83d\udd25 Comment Cr\u00e9er un Portrait IA en Train de Voler\ud83d\udc40 Filtre Tendance IA Effet Voler Comment Obtenir l\u2019Effet IA Voler \ud83d\udcab Utilisez l\u2019IA pour Cr\u00e9er un Effet de Vol avec Votre Photo dans CapCut \u2764\ufe0f Tutoriel Pas \u00e0 Pas Effet IA Voler Transformation CapCut IA Effet Voler\ud83d\udc40 Filtre Tendance IA Vol Guide d\u2019\u00c9dition de Portrait IA Volant #fyp #flying #capcut #capcutpioneer #capcutforus",
+      "creator": "emma341820",
+      "checks": [
+        {
+          "timestamp": "2026-02-24T21:52:41.762324+00:00",
+          "age_hours": 35.3,
+          "shares_per_hour": 45.2,
+          "views_per_hour": 1933,
+          "momentum": 811,
+          "delta_shares_per_hour": null
+        }
+      ],
+      "consecutive_negative_deltas": 0,
+      "alerted": false
+    },
+    {
+      "url": "https://www.tiktok.com/@nate.b.jones/video/7610202736738569503",
+      "first_seen": "2026-02-24T21:52:41.762324+00:00",
+      "market": "\ud83c\uddfa\ud83c\uddf8 US ONLY",
+      "text": "No AI can do this. Maybe ever. You should get really good at it. #ai #chatgpt #learn #learnontiktok ",
+      "creator": "nate.b.jones",
+      "checks": [
+        {
+          "timestamp": "2026-02-24T21:52:41.762324+00:00",
+          "age_hours": 22.7,
+          "shares_per_hour": 14.9,
+          "views_per_hour": 2485,
+          "momentum": 666,
           "delta_shares_per_hour": null
         }
       ],
