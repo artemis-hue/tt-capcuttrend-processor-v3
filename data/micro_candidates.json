@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-24T10:33:25.910392+00:00",
+  "last_updated": "2026-02-24T15:11:08.567520+00:00",
   "candidates": [
     {
       "url": "https://www.tiktok.com/@only1aliya/video/7609805965852003615",
@@ -31,9 +31,17 @@
           "views_per_hour": 19886,
           "momentum": 12509,
           "delta_shares_per_hour": 3.5999999999999996
+        },
+        {
+          "timestamp": "2026-02-24T15:11:08.567390+00:00",
+          "age_hours": 41.6,
+          "shares_per_hour": 12.9,
+          "views_per_hour": 17674,
+          "momentum": 11118,
+          "delta_shares_per_hour": -1.5999999999999996
         }
       ],
-      "consecutive_negative_deltas": 0,
+      "consecutive_negative_deltas": 1,
       "alerted": false,
       "consecutive_misses": 0
     },
@@ -67,9 +75,17 @@
           "views_per_hour": 17366,
           "momentum": 6196,
           "delta_shares_per_hour": 236.49999999999994
+        },
+        {
+          "timestamp": "2026-02-24T15:11:08.567390+00:00",
+          "age_hours": 57.4,
+          "shares_per_hour": 516.0,
+          "views_per_hour": 15965,
+          "momentum": 5696,
+          "delta_shares_per_hour": -45.299999999999955
         }
       ],
-      "consecutive_negative_deltas": 0,
+      "consecutive_negative_deltas": 1,
       "alerted": false,
       "consecutive_misses": 0
     },
@@ -99,7 +115,7 @@
       ],
       "consecutive_negative_deltas": 1,
       "alerted": false,
-      "consecutive_misses": 1
+      "consecutive_misses": 2
     },
     {
       "url": "https://www.tiktok.com/@dnvgsxtvq2/video/7609597113449729288",
@@ -131,9 +147,17 @@
           "views_per_hour": 17710,
           "momentum": 5083,
           "delta_shares_per_hour": 180.39999999999998
+        },
+        {
+          "timestamp": "2026-02-24T15:11:08.567390+00:00",
+          "age_hours": 55.1,
+          "shares_per_hour": 408.1,
+          "views_per_hour": 16223,
+          "momentum": 4657,
+          "delta_shares_per_hour": -37.39999999999998
         }
       ],
-      "consecutive_negative_deltas": 0,
+      "consecutive_negative_deltas": 1,
       "alerted": false,
       "consecutive_misses": 0
     },
@@ -163,7 +187,7 @@
       ],
       "consecutive_negative_deltas": 1,
       "alerted": false,
-      "consecutive_misses": 1
+      "consecutive_misses": 2
     },
     {
       "url": "https://www.tiktok.com/@wildcrazylass123/video/7609675290859687188",
@@ -183,7 +207,7 @@
       ],
       "consecutive_negative_deltas": 0,
       "alerted": false,
-      "consecutive_misses": 1
+      "consecutive_misses": 2
     },
     {
       "url": "https://www.tiktok.com/@xiaoxiao3312/video/7609758441942338834",
@@ -203,7 +227,7 @@
       ],
       "consecutive_negative_deltas": 0,
       "alerted": false,
-      "consecutive_misses": 1
+      "consecutive_misses": 2
     },
     {
       "url": "https://www.tiktok.com/@animeieducando/video/7609714760975764754",
@@ -219,10 +243,19 @@
           "views_per_hour": 95589,
           "momentum": 49139,
           "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-02-24T15:11:08.567390+00:00",
+          "age_hours": 47.5,
+          "shares_per_hour": 2973.5,
+          "views_per_hour": 86278,
+          "momentum": 44353,
+          "delta_shares_per_hour": -320.8000000000002
         }
       ],
-      "consecutive_negative_deltas": 0,
-      "alerted": false
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
     }
   ]
 }
