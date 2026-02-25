@@ -1,42 +1,6 @@
 {
-  "last_updated": "2026-02-25T19:33:57.383780+00:00",
+  "last_updated": "2026-02-25T21:49:32.411518+00:00",
   "candidates": [
-    {
-      "url": "https://www.tiktok.com/@sofa.tomato/video/7610211198226779400",
-      "first_seen": "2026-02-25T10:36:26.644571+00:00",
-      "market": "\ud83c\udf10 BOTH",
-      "text": "REMAKING MY OLD VIDEOS - DAY 1\n#animation #edit #irl #trend #meme #AI #WeirdAl #template #capcut #cringe #alightmotion",
-      "creator": "sofa.tomato",
-      "checks": [
-        {
-          "timestamp": "2026-02-25T10:36:26.644571+00:00",
-          "age_hours": 27.6,
-          "shares_per_hour": 83.0,
-          "views_per_hour": 61577,
-          "momentum": 19973,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-02-25T15:12:01.284810+00:00",
-          "age_hours": 32.2,
-          "shares_per_hour": 71.2,
-          "views_per_hour": 52794,
-          "momentum": 17124,
-          "delta_shares_per_hour": -11.799999999999997
-        },
-        {
-          "timestamp": "2026-02-25T19:33:57.379082+00:00",
-          "age_hours": 36.6,
-          "shares_per_hour": 62.7,
-          "views_per_hour": 46491,
-          "momentum": 15080,
-          "delta_shares_per_hour": -8.5
-        }
-      ],
-      "consecutive_negative_deltas": 2,
-      "alerted": false,
-      "consecutive_misses": 0
-    },
     {
       "url": "https://www.tiktok.com/@emma341820/video/7610301262793411848",
       "first_seen": "2026-02-25T19:33:57.379082+00:00",
@@ -51,10 +15,19 @@
           "views_per_hour": 26337,
           "momentum": 4509,
           "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-02-25T21:49:32.407012+00:00",
+          "age_hours": 40.2,
+          "shares_per_hour": 212.9,
+          "views_per_hour": 24857,
+          "momentum": 4256,
+          "delta_shares_per_hour": -12.699999999999989
         }
       ],
-      "consecutive_negative_deltas": 0,
-      "alerted": false
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
     },
     {
       "url": "https://www.tiktok.com/@user926752612423/video/7610343310799949064",
@@ -70,10 +43,19 @@
           "views_per_hour": 10913,
           "momentum": 2750,
           "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-02-25T21:49:32.407012+00:00",
+          "age_hours": 37.5,
+          "shares_per_hour": 145.0,
+          "views_per_hour": 10256,
+          "momentum": 2584,
+          "delta_shares_per_hour": -9.300000000000011
         }
       ],
-      "consecutive_negative_deltas": 0,
-      "alerted": false
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
     },
     {
       "url": "https://www.tiktok.com/@.ma__ryo/video/7610161111123496212",
@@ -89,10 +71,19 @@
           "views_per_hour": 4794,
           "momentum": 1649,
           "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-02-25T21:49:32.407012+00:00",
+          "age_hours": 49.3,
+          "shares_per_hour": 28.0,
+          "views_per_hour": 4574,
+          "momentum": 1573,
+          "delta_shares_per_hour": -1.3999999999999986
         }
       ],
-      "consecutive_negative_deltas": 0,
-      "alerted": false
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
     },
     {
       "url": "https://www.tiktok.com/@fflora77/video/7610289907919064338",
@@ -108,10 +99,19 @@
           "views_per_hour": 6136,
           "momentum": 1147,
           "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-02-25T21:49:32.407012+00:00",
+          "age_hours": 41.0,
+          "shares_per_hour": 91.7,
+          "views_per_hour": 5797,
+          "momentum": 1084,
+          "delta_shares_per_hour": -5.3999999999999915
         }
       ],
-      "consecutive_negative_deltas": 0,
-      "alerted": false
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
     },
     {
       "url": "https://www.tiktok.com/@hvn_scale/video/7610503353407212822",
@@ -127,10 +127,19 @@
           "views_per_hour": 8819,
           "momentum": 936,
           "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-02-25T21:49:32.407012+00:00",
+          "age_hours": 27.2,
+          "shares_per_hour": 12.4,
+          "views_per_hour": 8085,
+          "momentum": 858,
+          "delta_shares_per_hour": -1.0999999999999996
         }
       ],
-      "consecutive_negative_deltas": 0,
-      "alerted": false
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
     },
     {
       "url": "https://www.tiktok.com/@demonslayereditz_1/video/7610419845246618902",
@@ -146,10 +155,19 @@
           "views_per_hour": 2438,
           "momentum": 623,
           "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-02-25T21:49:32.407012+00:00",
+          "age_hours": 32.6,
+          "shares_per_hour": 8.4,
+          "views_per_hour": 2269,
+          "momentum": 580,
+          "delta_shares_per_hour": -0.5999999999999996
         }
       ],
-      "consecutive_negative_deltas": 0,
-      "alerted": false
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
     },
     {
       "url": "https://www.tiktok.com/@templatemoe/video/7610353894270553352",
@@ -164,6 +182,34 @@
           "shares_per_hour": 14.0,
           "views_per_hour": 4319,
           "momentum": 602,
+          "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-02-25T21:49:32.407012+00:00",
+          "age_hours": 36.8,
+          "shares_per_hour": 13.2,
+          "views_per_hour": 4054,
+          "momentum": 565,
+          "delta_shares_per_hour": -0.8000000000000007
+        }
+      ],
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
+    },
+    {
+      "url": "https://www.tiktok.com/@emma341820/video/7610343270815681800",
+      "first_seen": "2026-02-25T21:49:32.407012+00:00",
+      "market": "\ud83c\uddec\ud83c\udde7 UK ONLY",
+      "text": "AI Flying Effect Tutorial AI Flying Transformation Effect Guide\ud83d\udc40 Fly into the Sky with AI \u2728 AI Flying Effect CapCut Tutorial AI Flying Filter Effect \ud83d\udd25 How to Create an AI Flying Portrait AI Flying Trend Filter How to Get the AI Flying Effect \ud83d\udcab Use AI to Create a Flying Effect with Your Photo in CapCut \u2764\ufe0f AI Flying Effect Step-by-Step Tutorial\ud83d\udc40 AI Flying Transformation CapCut AI Flying Trend Filter AI Flying Portrait Editing Guide Tutoriel IA Effet Voler \ud83d\udd25 Guide Effet IA Transformation Volante Envolez-vous dans le Ciel avec l\u2019IA \u2728 Tutoriel CapCut Effet IA Voler Effet Filtre IA Voler \ud83d\udd25 Comment Cr\u00e9er un Portrait IA en Train de Voler\ud83d\udc40 Filtre Tendance IA Effet Voler Comment Obtenir l\u2019Effet IA Voler \ud83d\udcab Utilisez l\u2019IA pour Cr\u00e9er un Effet de Vol avec Votre Photo dans CapCut \u2764\ufe0f Tutoriel Pas \u00e0 Pas Effet IA Voler Transformation CapCut IA Effet Voler\ud83d\udc40 Filtre Tendance IA Vol Guide d\u2019\u00c9dition de Portrait IA Volant #fyp #flying #capcut #capcutpioneer #capcutforus",
+      "creator": "emma341820",
+      "checks": [
+        {
+          "timestamp": "2026-02-25T21:49:32.407012+00:00",
+          "age_hours": 37.5,
+          "shares_per_hour": 37.6,
+          "views_per_hour": 1650,
+          "momentum": 539,
           "delta_shares_per_hour": null
         }
       ],
