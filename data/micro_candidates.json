@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-24T23:04:34.647058+00:00",
+  "last_updated": "2026-02-25T10:36:26.649408+00:00",
   "candidates": [
     {
       "url": "https://www.tiktok.com/@yourincomelab/video/7609885495635479830",
@@ -35,43 +35,7 @@
       ],
       "consecutive_negative_deltas": 2,
       "alerted": false,
-      "consecutive_misses": 0
-    },
-    {
-      "url": "https://www.tiktok.com/@ella506122/video/7609921038796885279",
-      "first_seen": "2026-02-24T19:31:53.166390+00:00",
-      "market": "\ud83c\uddec\ud83c\udde7 UK ONLY",
-      "text": "#capcut #capcutpioneer \u041a\u0430\u043a \u0441\u0434\u0435\u043b\u0430\u0442\u044c \u0442\u0430\u043a\u043e\u0435 \u0442\u0430\u043d\u0446\u0435\u0432\u0430\u043b\u044c\u043d\u043e\u0435 \u0432\u0438\u0434\u0435\u043e \u043f\u043e \u043e\u0434\u043d\u043e\u0439 \u043a\u0430\u0440\u0442\u0438\u043d\u043a\u0435\n\u0423\u0440\u043e\u043a \u043f\u043e AI-\u044d\u0444\u0444\u0435\u043a\u0442\u0430\u043c\n\u0428\u0430\u0431\u043b\u043e\u043d \u0442\u0430\u043d\u0446\u0430\n\u0411\u0430\u0437\u043e\u0432\u044b\u0439 \u043c\u0438\u043d\u0438\u043c\u0443\u043c\n\u041d\u0435 \u0431\u0430\u0437\u043e\u0432\u044b\u0439 \u041c\u0438\u043d\u0438\u043c\u0430\u043b (\u041f\u0430\u0440\u043e\u0434\u0438\u044f). Zara. \u041c\u0443\u0436\u0441\u043a\u0430\u044f \u0432\u0435\u0440\u0441\u0438\u044f\n\u041a\u043e\u0433\u0434\u0430 \u043f\u0440\u0438\u0435\u0445\u0430\u043b \u0441 \u0432\u0430\u0445\u0442\u044b \u043d\u0430 \u0440\u0430\u0439\u043e\u043d\n\u041c\u041e\u0419 \u0421\u042b\u041d \u0413\u041e\u0412\u041e\u0420\u0418\u041b \u0427\u0422\u041e \u042f \u041d\u0415 \u0417\u0410\u0421\u0422\u0410\u0412\u041b\u042e \u0415\u0413\u041e \u0422\u0410\u041d\u0426\u0415\u0412\u0410\u0422\u042c\n\u0428\u0430\u0431\u043b\u043e\u043d \u0442\u0430\u043d\u0446\u0430 \u00ab\u0411\u0430\u0437\u043e\u0432\u044b\u0439 \u043c\u0438\u043d\u0438\u043c\u0443\u043c\u00bb",
-      "creator": "ella506122",
-      "checks": [
-        {
-          "timestamp": "2026-02-24T19:31:53.166390+00:00",
-          "age_hours": 38.5,
-          "shares_per_hour": 340.1,
-          "views_per_hour": 13942,
-          "momentum": 3768,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-02-24T21:52:41.762324+00:00",
-          "age_hours": 40.9,
-          "shares_per_hour": 320.5,
-          "views_per_hour": 13141,
-          "momentum": 3551,
-          "delta_shares_per_hour": -19.600000000000023
-        },
-        {
-          "timestamp": "2026-02-24T23:04:34.646918+00:00",
-          "age_hours": 42.1,
-          "shares_per_hour": 311.4,
-          "views_per_hour": 12767,
-          "momentum": 3450,
-          "delta_shares_per_hour": -9.100000000000023
-        }
-      ],
-      "consecutive_negative_deltas": 2,
-      "alerted": false,
-      "consecutive_misses": 0
+      "consecutive_misses": 1
     },
     {
       "url": "https://www.tiktok.com/@urdr92956838/video/7609932478610148629",
@@ -107,7 +71,7 @@
       ],
       "consecutive_negative_deltas": 2,
       "alerted": false,
-      "consecutive_misses": 0
+      "consecutive_misses": 1
     },
     {
       "url": "https://www.tiktok.com/@funny.yt92/video/7610057360341601566",
@@ -143,7 +107,7 @@
       ],
       "consecutive_negative_deltas": 2,
       "alerted": false,
-      "consecutive_misses": 0
+      "consecutive_misses": 1
     },
     {
       "url": "https://www.tiktok.com/@naicbnfeb4/video/7610023786850716948",
@@ -179,7 +143,7 @@
       ],
       "consecutive_negative_deltas": 2,
       "alerted": false,
-      "consecutive_misses": 0
+      "consecutive_misses": 1
     },
     {
       "url": "https://www.tiktok.com/@spamsecretico/video/7610032062464118029",
@@ -207,7 +171,7 @@
       ],
       "consecutive_negative_deltas": 1,
       "alerted": false,
-      "consecutive_misses": 0
+      "consecutive_misses": 1
     },
     {
       "url": "https://www.tiktok.com/@emma341820/video/7610007495502859528",
@@ -235,7 +199,7 @@
       ],
       "consecutive_negative_deltas": 1,
       "alerted": false,
-      "consecutive_misses": 0
+      "consecutive_misses": 1
     },
     {
       "url": "https://www.tiktok.com/@nate.b.jones/video/7610202736738569503",
@@ -263,7 +227,26 @@
       ],
       "consecutive_negative_deltas": 1,
       "alerted": false,
-      "consecutive_misses": 0
+      "consecutive_misses": 1
+    },
+    {
+      "url": "https://www.tiktok.com/@sofa.tomato/video/7610211198226779400",
+      "first_seen": "2026-02-25T10:36:26.644571+00:00",
+      "market": "\ud83c\udf10 BOTH",
+      "text": "REMAKING MY OLD VIDEOS - DAY 1\n#animation #edit #irl #trend #meme #AI #WeirdAl #template #capcut #cringe #alightmotion",
+      "creator": "sofa.tomato",
+      "checks": [
+        {
+          "timestamp": "2026-02-25T10:36:26.644571+00:00",
+          "age_hours": 27.6,
+          "shares_per_hour": 83.0,
+          "views_per_hour": 61577,
+          "momentum": 19973,
+          "delta_shares_per_hour": null
+        }
+      ],
+      "consecutive_negative_deltas": 0,
+      "alerted": false
     }
   ]
 }
