@@ -1,234 +1,6 @@
 {
-  "last_updated": "2026-02-25T15:12:01.284911+00:00",
+  "last_updated": "2026-02-25T19:33:57.383780+00:00",
   "candidates": [
-    {
-      "url": "https://www.tiktok.com/@yourincomelab/video/7609885495635479830",
-      "first_seen": "2026-02-24T19:31:53.166390+00:00",
-      "market": "\ud83c\udf10 BOTH",
-      "text": "Strawberry with Chocolate and Yogurt\u00a0\n(She gon Call me Baby Boo)\n#aistory #aianimation #sadstory #strawberrychocolate #aifoodtalking ",
-      "creator": "yourincomelab",
-      "checks": [
-        {
-          "timestamp": "2026-02-24T19:31:53.166390+00:00",
-          "age_hours": 40.8,
-          "shares_per_hour": 247.4,
-          "views_per_hour": 6083,
-          "momentum": 4659,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-02-24T21:52:41.762324+00:00",
-          "age_hours": 43.2,
-          "shares_per_hour": 234.0,
-          "views_per_hour": 5752,
-          "momentum": 4406,
-          "delta_shares_per_hour": -13.400000000000006
-        },
-        {
-          "timestamp": "2026-02-24T23:04:34.646918+00:00",
-          "age_hours": 44.4,
-          "shares_per_hour": 227.7,
-          "views_per_hour": 5597,
-          "momentum": 4287,
-          "delta_shares_per_hour": -6.300000000000011
-        }
-      ],
-      "consecutive_negative_deltas": 2,
-      "alerted": false,
-      "consecutive_misses": 2
-    },
-    {
-      "url": "https://www.tiktok.com/@urdr92956838/video/7609932478610148629",
-      "first_seen": "2026-02-24T19:31:53.166390+00:00",
-      "market": "\ud83c\udf10 BOTH",
-      "text": "Rain AI Effect Filter Tutorial, Create Rain AI Effect Filter Tutorial with One Photo, Editing Creative Rain AI Effect Filter,#capcutforus #capcut#capcutpioneer #gemini #aiRain AI Effect Filter Tutorial, Membuat Rain AI Effect Filter Tutorial dengan satu foto, Foto Gemini Editing Creative Rain AI Effect Filter",
-      "creator": "urdr92956838",
-      "checks": [
-        {
-          "timestamp": "2026-02-24T19:31:53.166390+00:00",
-          "age_hours": 37.8,
-          "shares_per_hour": 205.2,
-          "views_per_hour": 7026,
-          "momentum": 3686,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-02-24T21:52:41.762324+00:00",
-          "age_hours": 40.1,
-          "shares_per_hour": 193.2,
-          "views_per_hour": 6615,
-          "momentum": 3470,
-          "delta_shares_per_hour": -12.0
-        },
-        {
-          "timestamp": "2026-02-24T23:04:34.646918+00:00",
-          "age_hours": 41.3,
-          "shares_per_hour": 187.6,
-          "views_per_hour": 6424,
-          "momentum": 3370,
-          "delta_shares_per_hour": -5.599999999999994
-        }
-      ],
-      "consecutive_negative_deltas": 2,
-      "alerted": false,
-      "consecutive_misses": 2
-    },
-    {
-      "url": "https://www.tiktok.com/@funny.yt92/video/7610057360341601566",
-      "first_seen": "2026-02-24T19:31:53.166390+00:00",
-      "market": "\ud83c\uddfa\ud83c\uddf8 US ONLY",
-      "text": "#BalliBotMogis #TrendingReels #TrendingReels #Foryoupage ##FYP #FYP #ViralTikTok #MillionViews #TechMagic #SmartBot #AITrend #RobotVibes #Innovation",
-      "creator": "funny.yt92",
-      "checks": [
-        {
-          "timestamp": "2026-02-24T19:31:53.166390+00:00",
-          "age_hours": 29.7,
-          "shares_per_hour": 82.5,
-          "views_per_hour": 27330,
-          "momentum": 3240,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-02-24T21:52:41.762324+00:00",
-          "age_hours": 32.0,
-          "shares_per_hour": 76.5,
-          "views_per_hour": 25328,
-          "momentum": 3002,
-          "delta_shares_per_hour": -6.0
-        },
-        {
-          "timestamp": "2026-02-24T23:04:34.646918+00:00",
-          "age_hours": 33.2,
-          "shares_per_hour": 73.7,
-          "views_per_hour": 24415,
-          "momentum": 2894,
-          "delta_shares_per_hour": -2.799999999999997
-        }
-      ],
-      "consecutive_negative_deltas": 2,
-      "alerted": false,
-      "consecutive_misses": 2
-    },
-    {
-      "url": "https://www.tiktok.com/@naicbnfeb4/video/7610023786850716948",
-      "first_seen": "2026-02-24T19:31:53.166390+00:00",
-      "market": "\ud83c\uddec\ud83c\udde7 UK ONLY",
-      "text": "#CapCut Rain AI Effect Filter Tutorial, Create Rain AI Effect Filter Tutorial with One Photo, Editing Creative Rain AI Effect Filter, #capcutforus #capcut#capcutpioneer #gemini  AI Effect Filter Tutorial, Membuat Rain AI Effect Filter Tutorial dengan satu foto, Foto Gemini Editing Creative Rain AI Effect Filter",
-      "creator": "naicbnfeb4",
-      "checks": [
-        {
-          "timestamp": "2026-02-24T19:31:53.166390+00:00",
-          "age_hours": 31.9,
-          "shares_per_hour": 149.4,
-          "views_per_hour": 1803,
-          "momentum": 1753,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-02-24T21:52:41.762324+00:00",
-          "age_hours": 34.2,
-          "shares_per_hour": 139.2,
-          "views_per_hour": 1679,
-          "momentum": 1632,
-          "delta_shares_per_hour": -10.200000000000017
-        },
-        {
-          "timestamp": "2026-02-24T23:04:34.646918+00:00",
-          "age_hours": 35.4,
-          "shares_per_hour": 134.5,
-          "views_per_hour": 1623,
-          "momentum": 1577,
-          "delta_shares_per_hour": -4.699999999999989
-        }
-      ],
-      "consecutive_negative_deltas": 2,
-      "alerted": false,
-      "consecutive_misses": 2
-    },
-    {
-      "url": "https://www.tiktok.com/@spamsecretico/video/7610032062464118029",
-      "first_seen": "2026-02-24T21:52:41.762324+00:00",
-      "market": "\ud83c\uddfa\ud83c\uddf8 US ONLY",
-      "text": "#fyp\u30b7\u309aviral ",
-      "creator": "spamsecretico",
-      "checks": [
-        {
-          "timestamp": "2026-02-24T21:52:41.762324+00:00",
-          "age_hours": 33.7,
-          "shares_per_hour": 11.0,
-          "views_per_hour": 2150,
-          "momentum": 1289,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-02-24T23:04:34.646918+00:00",
-          "age_hours": 34.9,
-          "shares_per_hour": 10.6,
-          "views_per_hour": 2076,
-          "momentum": 1245,
-          "delta_shares_per_hour": -0.40000000000000036
-        }
-      ],
-      "consecutive_negative_deltas": 1,
-      "alerted": false,
-      "consecutive_misses": 2
-    },
-    {
-      "url": "https://www.tiktok.com/@emma341820/video/7610007495502859528",
-      "first_seen": "2026-02-24T21:52:41.762324+00:00",
-      "market": "\ud83c\udf10 BOTH",
-      "text": "AI Flying Effect Tutorial AI Flying Transformation Effect Guide\ud83d\udc40 Fly into the Sky with AI \u2728 AI Flying Effect CapCut Tutorial AI Flying Filter Effect \ud83d\udd25 How to Create an AI Flying Portrait AI Flying Trend Filter How to Get the AI Flying Effect \ud83d\udcab Use AI to Create a Flying Effect with Your Photo in CapCut \u2764\ufe0f AI Flying Effect Step-by-Step Tutorial\ud83d\udc40 AI Flying Transformation CapCut AI Flying Trend Filter AI Flying Portrait Editing Guide Tutoriel IA Effet Voler \ud83d\udd25 Guide Effet IA Transformation Volante Envolez-vous dans le Ciel avec l\u2019IA \u2728 Tutoriel CapCut Effet IA Voler Effet Filtre IA Voler \ud83d\udd25 Comment Cr\u00e9er un Portrait IA en Train de Voler\ud83d\udc40 Filtre Tendance IA Effet Voler Comment Obtenir l\u2019Effet IA Voler \ud83d\udcab Utilisez l\u2019IA pour Cr\u00e9er un Effet de Vol avec Votre Photo dans CapCut \u2764\ufe0f Tutoriel Pas \u00e0 Pas Effet IA Voler Transformation CapCut IA Effet Voler\ud83d\udc40 Filtre Tendance IA Vol Guide d\u2019\u00c9dition de Portrait IA Volant #fyp #flying #capcut #capcutpioneer #capcutforus",
-      "creator": "emma341820",
-      "checks": [
-        {
-          "timestamp": "2026-02-24T21:52:41.762324+00:00",
-          "age_hours": 35.3,
-          "shares_per_hour": 45.2,
-          "views_per_hour": 1933,
-          "momentum": 811,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-02-24T23:04:34.646918+00:00",
-          "age_hours": 36.5,
-          "shares_per_hour": 43.7,
-          "views_per_hour": 1869,
-          "momentum": 785,
-          "delta_shares_per_hour": -1.5
-        }
-      ],
-      "consecutive_negative_deltas": 1,
-      "alerted": false,
-      "consecutive_misses": 2
-    },
-    {
-      "url": "https://www.tiktok.com/@nate.b.jones/video/7610202736738569503",
-      "first_seen": "2026-02-24T21:52:41.762324+00:00",
-      "market": "\ud83c\uddfa\ud83c\uddf8 US ONLY",
-      "text": "No AI can do this. Maybe ever. You should get really good at it. #ai #chatgpt #learn #learnontiktok ",
-      "creator": "nate.b.jones",
-      "checks": [
-        {
-          "timestamp": "2026-02-24T21:52:41.762324+00:00",
-          "age_hours": 22.7,
-          "shares_per_hour": 14.9,
-          "views_per_hour": 2485,
-          "momentum": 666,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-02-24T23:04:34.646918+00:00",
-          "age_hours": 23.8,
-          "shares_per_hour": 14.2,
-          "views_per_hour": 2360,
-          "momentum": 633,
-          "delta_shares_per_hour": -0.7000000000000011
-        }
-      ],
-      "consecutive_negative_deltas": 1,
-      "alerted": false,
-      "consecutive_misses": 2
-    },
     {
       "url": "https://www.tiktok.com/@sofa.tomato/video/7610211198226779400",
       "first_seen": "2026-02-25T10:36:26.644571+00:00",
@@ -251,11 +23,152 @@
           "views_per_hour": 52794,
           "momentum": 17124,
           "delta_shares_per_hour": -11.799999999999997
+        },
+        {
+          "timestamp": "2026-02-25T19:33:57.379082+00:00",
+          "age_hours": 36.6,
+          "shares_per_hour": 62.7,
+          "views_per_hour": 46491,
+          "momentum": 15080,
+          "delta_shares_per_hour": -8.5
         }
       ],
-      "consecutive_negative_deltas": 1,
+      "consecutive_negative_deltas": 2,
       "alerted": false,
       "consecutive_misses": 0
+    },
+    {
+      "url": "https://www.tiktok.com/@emma341820/video/7610301262793411848",
+      "first_seen": "2026-02-25T19:33:57.379082+00:00",
+      "market": "\ud83c\udf10 BOTH",
+      "text": "Tutorial on Free Creation of AI \"Run Fast\" Effect:\ud83d\udd25\ud83d\udd25\ud83d\udc46You Can Generate the Same Style for Free with Just One Photo. ai run fast                             Tutorial Membuat Efek AI \"Run Fast\" Secara Gratis: Bisa Buat Versi Sama dengan Hanya Satu Foto Tanpa Biaya.#airunfast#aifilter #capcut #capcutpioneer #capcutforus ",
+      "creator": "emma341820",
+      "checks": [
+        {
+          "timestamp": "2026-02-25T19:33:57.379082+00:00",
+          "age_hours": 38.0,
+          "shares_per_hour": 225.6,
+          "views_per_hour": 26337,
+          "momentum": 4509,
+          "delta_shares_per_hour": null
+        }
+      ],
+      "consecutive_negative_deltas": 0,
+      "alerted": false
+    },
+    {
+      "url": "https://www.tiktok.com/@user926752612423/video/7610343310799949064",
+      "first_seen": "2026-02-25T19:33:57.379082+00:00",
+      "market": "\ud83c\udf10 BOTH",
+      "text": "Tutorial on Free Creation of AI \"Run Fast\" Effect:\ud83d\udd25\ud83d\udd25\ud83d\udd25You Can Generate the Same Style for Free with Just One Photo. ai run fast   Tutorial Membuat Efek AI \"Run Fast\" Secara Gratis: Bisa Buat Versi Sama dengan Hanya Satu Foto Tanpa Biaya.#airunfast#aifilter #capcut #capcutforus #capcutpioneer",
+      "creator": "user926752612423",
+      "checks": [
+        {
+          "timestamp": "2026-02-25T19:33:57.379082+00:00",
+          "age_hours": 35.2,
+          "shares_per_hour": 154.3,
+          "views_per_hour": 10913,
+          "momentum": 2750,
+          "delta_shares_per_hour": null
+        }
+      ],
+      "consecutive_negative_deltas": 0,
+      "alerted": false
+    },
+    {
+      "url": "https://www.tiktok.com/@.ma__ryo/video/7610161111123496212",
+      "first_seen": "2026-02-25T19:33:57.379082+00:00",
+      "market": "\ud83c\udf10 BOTH",
+      "text": "New template\ud83d\udc80\ud83d\udc80\ud83d\udc65\n\n#\u062a\u064a\u0643_\u062a\u0648\u0643_\u0623\u0637\u0648\u0644 #ma_ryo\ud83d\udc0a #ke\u015ffet #phonk        \n#CapCut ",
+      "creator": ".ma__ryo",
+      "checks": [
+        {
+          "timestamp": "2026-02-25T19:33:57.379082+00:00",
+          "age_hours": 47.0,
+          "shares_per_hour": 29.4,
+          "views_per_hour": 4794,
+          "momentum": 1649,
+          "delta_shares_per_hour": null
+        }
+      ],
+      "consecutive_negative_deltas": 0,
+      "alerted": false
+    },
+    {
+      "url": "https://www.tiktok.com/@fflora77/video/7610289907919064338",
+      "first_seen": "2026-02-25T19:33:57.379082+00:00",
+      "market": "\ud83c\udf10 BOTH",
+      "text": "ai jelly bed. Easy CapCut Tutorial\" Create your own soft, \ud83d\udca5surreal jelly bed filter using just one photo \u2014 it\u2018s easier than you think! \ud83d\udd25 \ud83e\udd16Challenge/Turn a Single Image into a Dreamy Jelly Bed Effect \ud83e\ude81\ud83c\udf0a Trend Imitation Style \"Can You Create the Perfect Jelly Bed Effect with One Image?\ud83d\udc40#jellybed #jellybedeffect #capcut #capcutpioneer #tiktokeffect ",
+      "creator": "fflora77",
+      "checks": [
+        {
+          "timestamp": "2026-02-25T19:33:57.379082+00:00",
+          "age_hours": 38.7,
+          "shares_per_hour": 97.1,
+          "views_per_hour": 6136,
+          "momentum": 1147,
+          "delta_shares_per_hour": null
+        }
+      ],
+      "consecutive_negative_deltas": 0,
+      "alerted": false
+    },
+    {
+      "url": "https://www.tiktok.com/@hvn_scale/video/7610503353407212822",
+      "first_seen": "2026-02-25T19:33:57.379082+00:00",
+      "market": "\ud83c\uddfa\ud83c\uddf8 US ONLY",
+      "text": "C\u2019est de plus en plus r\u00e9aliste \ud83d\ude36\u200d\ud83c\udf2b\ufe0f #neymar #ia ",
+      "creator": "hvn_scale",
+      "checks": [
+        {
+          "timestamp": "2026-02-25T19:33:57.379082+00:00",
+          "age_hours": 24.9,
+          "shares_per_hour": 13.5,
+          "views_per_hour": 8819,
+          "momentum": 936,
+          "delta_shares_per_hour": null
+        }
+      ],
+      "consecutive_negative_deltas": 0,
+      "alerted": false
+    },
+    {
+      "url": "https://www.tiktok.com/@demonslayereditz_1/video/7610419845246618902",
+      "first_seen": "2026-02-25T19:33:57.379082+00:00",
+      "market": "\ud83c\uddfa\ud83c\uddf8 US ONLY",
+      "text": "Tutorial on this viral PvZ \u2018On your lawn funk\u2019 (@Tanner) ai dance! What other trends would you like a tutorial on?\n\n#capcut #capcutpioneer #capcutedit #edit #tutorial ",
+      "creator": "demonslayereditz_1",
+      "checks": [
+        {
+          "timestamp": "2026-02-25T19:33:57.379082+00:00",
+          "age_hours": 30.3,
+          "shares_per_hour": 9.0,
+          "views_per_hour": 2438,
+          "momentum": 623,
+          "delta_shares_per_hour": null
+        }
+      ],
+      "consecutive_negative_deltas": 0,
+      "alerted": false
+    },
+    {
+      "url": "https://www.tiktok.com/@templatemoe/video/7610353894270553352",
+      "first_seen": "2026-02-25T19:33:57.379082+00:00",
+      "market": "\ud83c\udf10 BOTH",
+      "text": "#CapCut what a save\ud83d\ude31#newtemplate #capcutpioneer #pioneertemplate #fyp ",
+      "creator": "templatemoe",
+      "checks": [
+        {
+          "timestamp": "2026-02-25T19:33:57.379082+00:00",
+          "age_hours": 34.6,
+          "shares_per_hour": 14.0,
+          "views_per_hour": 4319,
+          "momentum": 602,
+          "delta_shares_per_hour": null
+        }
+      ],
+      "consecutive_negative_deltas": 0,
+      "alerted": false
     }
   ]
 }
