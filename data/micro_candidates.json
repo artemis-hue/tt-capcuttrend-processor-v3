@@ -1,78 +1,6 @@
 {
-  "last_updated": "2026-02-26T14:39:56.342558+00:00",
+  "last_updated": "2026-02-26T18:10:12.441848+00:00",
   "candidates": [
-    {
-      "url": "https://www.tiktok.com/@fflora77/video/7610289907919064338",
-      "first_seen": "2026-02-25T19:33:57.379082+00:00",
-      "market": "\ud83c\udf10 BOTH",
-      "text": "ai jelly bed. Easy CapCut Tutorial\" Create your own soft, \ud83d\udca5surreal jelly bed filter using just one photo \u2014 it\u2018s easier than you think! \ud83d\udd25 \ud83e\udd16Challenge/Turn a Single Image into a Dreamy Jelly Bed Effect \ud83e\ude81\ud83c\udf0a Trend Imitation Style \"Can You Create the Perfect Jelly Bed Effect with One Image?\ud83d\udc40#jellybed #jellybedeffect #capcut #capcutpioneer #tiktokeffect ",
-      "creator": "fflora77",
-      "checks": [
-        {
-          "timestamp": "2026-02-25T19:33:57.379082+00:00",
-          "age_hours": 38.7,
-          "shares_per_hour": 97.1,
-          "views_per_hour": 6136,
-          "momentum": 1147,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-02-25T21:49:32.407012+00:00",
-          "age_hours": 41.0,
-          "shares_per_hour": 91.7,
-          "views_per_hour": 5797,
-          "momentum": 1084,
-          "delta_shares_per_hour": -5.3999999999999915
-        },
-        {
-          "timestamp": "2026-02-25T23:05:42.319748+00:00",
-          "age_hours": 42.2,
-          "shares_per_hour": 89.0,
-          "views_per_hour": 5623,
-          "momentum": 1051,
-          "delta_shares_per_hour": -2.700000000000003
-        }
-      ],
-      "consecutive_negative_deltas": 2,
-      "alerted": false,
-      "consecutive_misses": 2
-    },
-    {
-      "url": "https://www.tiktok.com/@demonslayereditz_1/video/7610419845246618902",
-      "first_seen": "2026-02-25T19:33:57.379082+00:00",
-      "market": "\ud83c\uddfa\ud83c\uddf8 US ONLY",
-      "text": "Tutorial on this viral PvZ \u2018On your lawn funk\u2019 (@Tanner) ai dance! What other trends would you like a tutorial on?\n\n#capcut #capcutpioneer #capcutedit #edit #tutorial ",
-      "creator": "demonslayereditz_1",
-      "checks": [
-        {
-          "timestamp": "2026-02-25T19:33:57.379082+00:00",
-          "age_hours": 30.3,
-          "shares_per_hour": 9.0,
-          "views_per_hour": 2438,
-          "momentum": 623,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-02-25T21:49:32.407012+00:00",
-          "age_hours": 32.6,
-          "shares_per_hour": 8.4,
-          "views_per_hour": 2269,
-          "momentum": 580,
-          "delta_shares_per_hour": -0.5999999999999996
-        },
-        {
-          "timestamp": "2026-02-25T23:05:42.319748+00:00",
-          "age_hours": 33.8,
-          "shares_per_hour": 8.1,
-          "views_per_hour": 2184,
-          "momentum": 558,
-          "delta_shares_per_hour": -0.3000000000000007
-        }
-      ],
-      "consecutive_negative_deltas": 2,
-      "alerted": false,
-      "consecutive_misses": 2
-    },
     {
       "url": "https://www.tiktok.com/@emma341820/video/7610343270815681800",
       "first_seen": "2026-02-25T21:49:32.407012+00:00",
@@ -111,9 +39,17 @@
           "views_per_hour": 1497,
           "momentum": 506,
           "delta_shares_per_hour": -2.8999999999999986
+        },
+        {
+          "timestamp": "2026-02-26T18:10:12.436914+00:00",
+          "age_hours": 57.9,
+          "shares_per_hour": 33.5,
+          "views_per_hour": 1406,
+          "momentum": 475,
+          "delta_shares_per_hour": -2.200000000000003
         }
       ],
-      "consecutive_negative_deltas": 1,
+      "consecutive_negative_deltas": 2,
       "alerted": false,
       "consecutive_misses": 0
     },
@@ -139,9 +75,17 @@
           "views_per_hour": 11844,
           "momentum": 9733,
           "delta_shares_per_hour": -11.100000000000009
+        },
+        {
+          "timestamp": "2026-02-26T18:10:12.436914+00:00",
+          "age_hours": 48.5,
+          "shares_per_hour": 101.4,
+          "views_per_hour": 10989,
+          "momentum": 9030,
+          "delta_shares_per_hour": -7.8999999999999915
         }
       ],
-      "consecutive_negative_deltas": 1,
+      "consecutive_negative_deltas": 2,
       "alerted": false,
       "consecutive_misses": 0
     },
@@ -167,9 +111,17 @@
           "views_per_hour": 6428,
           "momentum": 5668,
           "delta_shares_per_hour": -9.0
+        },
+        {
+          "timestamp": "2026-02-26T18:10:12.436914+00:00",
+          "age_hours": 47.9,
+          "shares_per_hour": 81.3,
+          "views_per_hour": 5958,
+          "momentum": 5253,
+          "delta_shares_per_hour": -6.400000000000006
         }
       ],
-      "consecutive_negative_deltas": 1,
+      "consecutive_negative_deltas": 2,
       "alerted": false,
       "consecutive_misses": 0
     },
@@ -195,9 +147,17 @@
           "views_per_hour": 2134,
           "momentum": 793,
           "delta_shares_per_hour": -2.200000000000003
+        },
+        {
+          "timestamp": "2026-02-26T18:10:12.436914+00:00",
+          "age_hours": 39.7,
+          "shares_per_hour": 15.0,
+          "views_per_hour": 1946,
+          "momentum": 723,
+          "delta_shares_per_hour": -1.3999999999999986
         }
       ],
-      "consecutive_negative_deltas": 1,
+      "consecutive_negative_deltas": 2,
       "alerted": false,
       "consecutive_misses": 0
     },
@@ -223,9 +183,17 @@
           "views_per_hour": 2646,
           "momentum": 670,
           "delta_shares_per_hour": -2.6999999999999993
+        },
+        {
+          "timestamp": "2026-02-26T18:10:12.436914+00:00",
+          "age_hours": 29.5,
+          "shares_per_hour": 12.9,
+          "views_per_hour": 2332,
+          "momentum": 591,
+          "delta_shares_per_hour": -1.799999999999999
         }
       ],
-      "consecutive_negative_deltas": 1,
+      "consecutive_negative_deltas": 2,
       "alerted": false,
       "consecutive_misses": 0
     },
@@ -251,11 +219,57 @@
           "views_per_hour": 902,
           "momentum": 421,
           "delta_shares_per_hour": -3.1999999999999993
+        },
+        {
+          "timestamp": "2026-02-26T18:10:12.436914+00:00",
+          "age_hours": 24.6,
+          "shares_per_hour": 11.3,
+          "views_per_hour": 773,
+          "momentum": 361,
+          "delta_shares_per_hour": -1.8999999999999986
         }
       ],
-      "consecutive_negative_deltas": 1,
+      "consecutive_negative_deltas": 2,
       "alerted": false,
       "consecutive_misses": 0
+    },
+    {
+      "url": "https://www.tiktok.com/@hvn_scale/video/7610503353407212822",
+      "first_seen": "2026-02-26T18:10:12.436914+00:00",
+      "market": "\ud83c\uddfa\ud83c\uddf8 US ONLY",
+      "text": "C\u2019est de plus en plus r\u00e9aliste \ud83d\ude36\u200d\ud83c\udf2b\ufe0f #neymar #ia ",
+      "creator": "hvn_scale",
+      "checks": [
+        {
+          "timestamp": "2026-02-26T18:10:12.436914+00:00",
+          "age_hours": 47.5,
+          "shares_per_hour": 17.0,
+          "views_per_hour": 14933,
+          "momentum": 1405,
+          "delta_shares_per_hour": null
+        }
+      ],
+      "consecutive_negative_deltas": 0,
+      "alerted": false
+    },
+    {
+      "url": "https://www.tiktok.com/@momentos.con.dios/video/7610590819816443157",
+      "first_seen": "2026-02-26T18:10:12.436914+00:00",
+      "market": "\ud83c\uddec\ud83c\udde7 UK ONLY",
+      "text": "Hoy te voy a adorar quien, por qu\u00e9 t\u00fa mereces mi alabanza\n#adoracion #tenecesito #capcutpioneer #pioneertemplate #CapCut ",
+      "creator": "momentos.con.dios",
+      "checks": [
+        {
+          "timestamp": "2026-02-26T18:10:12.436914+00:00",
+          "age_hours": 41.8,
+          "shares_per_hour": 13.4,
+          "views_per_hour": 1323,
+          "momentum": 428,
+          "delta_shares_per_hour": null
+        }
+      ],
+      "consecutive_negative_deltas": 0,
+      "alerted": false
     }
   ]
 }
