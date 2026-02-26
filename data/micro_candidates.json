@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-26T21:47:24.049361+00:00",
+  "last_updated": "2026-02-26T23:03:59.985379+00:00",
   "candidates": [
     {
       "url": "https://www.tiktok.com/@hvn_scale/video/7610503353407212822",
@@ -23,9 +23,17 @@
           "views_per_hour": 13876,
           "momentum": 1305,
           "delta_shares_per_hour": -1.1999999999999993
+        },
+        {
+          "timestamp": "2026-02-26T23:03:59.980215+00:00",
+          "age_hours": 52.4,
+          "shares_per_hour": 15.4,
+          "views_per_hour": 13538,
+          "momentum": 1273,
+          "delta_shares_per_hour": -0.40000000000000036
         }
       ],
-      "consecutive_negative_deltas": 1,
+      "consecutive_negative_deltas": 2,
       "alerted": false,
       "consecutive_misses": 0
     },
@@ -51,9 +59,17 @@
           "views_per_hour": 1218,
           "momentum": 394,
           "delta_shares_per_hour": -1.0999999999999996
+        },
+        {
+          "timestamp": "2026-02-26T23:03:59.980215+00:00",
+          "age_hours": 46.7,
+          "shares_per_hour": 12.0,
+          "views_per_hour": 1185,
+          "momentum": 383,
+          "delta_shares_per_hour": -0.3000000000000007
         }
       ],
-      "consecutive_negative_deltas": 1,
+      "consecutive_negative_deltas": 2,
       "alerted": false,
       "consecutive_misses": 0
     },
@@ -71,10 +87,19 @@
           "views_per_hour": 206,
           "momentum": 102,
           "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-02-26T23:03:59.980215+00:00",
+          "age_hours": 32.4,
+          "shares_per_hour": 7.4,
+          "views_per_hour": 198,
+          "momentum": 98,
+          "delta_shares_per_hour": -0.2999999999999998
         }
       ],
-      "consecutive_negative_deltas": 0,
-      "alerted": false
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
     },
     {
       "url": "https://www.tiktok.com/@as.ff38/video/7611003356772863262",
@@ -89,6 +114,72 @@
           "shares_per_hour": 6.0,
           "views_per_hour": 196,
           "momentum": 74,
+          "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-02-26T23:03:59.980215+00:00",
+          "age_hours": 20.1,
+          "shares_per_hour": 5.6,
+          "views_per_hour": 183,
+          "momentum": 69,
+          "delta_shares_per_hour": -0.40000000000000036
+        }
+      ],
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
+    },
+    {
+      "url": "https://www.tiktok.com/@cinylion/video/7610623772609072402",
+      "first_seen": "2026-02-26T23:03:59.980215+00:00",
+      "market": "\ud83c\uddec\ud83c\udde7 UK ONLY",
+      "text": "\u2764\ufe0f #fyp #foryoupage #explore\n#GlowUp #transformation  \n ",
+      "creator": "cinylion",
+      "checks": [
+        {
+          "timestamp": "2026-02-26T23:03:59.980215+00:00",
+          "age_hours": 44.6,
+          "shares_per_hour": 13.3,
+          "views_per_hour": 1732,
+          "momentum": 643,
+          "delta_shares_per_hour": null
+        }
+      ],
+      "consecutive_negative_deltas": 0,
+      "alerted": false
+    },
+    {
+      "url": "https://www.tiktok.com/@mvdraa/video/7610781102008978710",
+      "first_seen": "2026-02-26T23:03:59.980215+00:00",
+      "market": "\ud83c\udf10 BOTH",
+      "text": "Trending transition tutorial #capcut #capcutpioneer #tutorial #fyp #capcutedit ",
+      "creator": "mvdraa",
+      "checks": [
+        {
+          "timestamp": "2026-02-26T23:03:59.980215+00:00",
+          "age_hours": 34.4,
+          "shares_per_hour": 11.1,
+          "views_per_hour": 2000,
+          "momentum": 507,
+          "delta_shares_per_hour": null
+        }
+      ],
+      "consecutive_negative_deltas": 0,
+      "alerted": false
+    },
+    {
+      "url": "https://www.tiktok.com/@kyvnme/video/7610858175373249812",
+      "first_seen": "2026-02-26T23:03:59.980215+00:00",
+      "market": "\ud83c\uddfa\ud83c\uddf8 US ONLY",
+      "text": "free transition overlay & tutorial on how to use them!\n\n#CapCut #capcutedit #editingtips #edittutorial #capcutpioneer green screen overlays",
+      "creator": "kyvnme",
+      "checks": [
+        {
+          "timestamp": "2026-02-26T23:03:59.980215+00:00",
+          "age_hours": 29.4,
+          "shares_per_hour": 9.4,
+          "views_per_hour": 645,
+          "momentum": 301,
           "delta_shares_per_hour": null
         }
       ],
