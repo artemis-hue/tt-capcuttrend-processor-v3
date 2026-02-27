@@ -1,186 +1,6 @@
 {
-  "last_updated": "2026-02-27T18:40:37.960622+00:00",
+  "last_updated": "2026-02-27T20:26:22.691166+00:00",
   "candidates": [
-    {
-      "url": "https://www.tiktok.com/@.gmx8/video/7611006721279954183",
-      "first_seen": "2026-02-27T14:37:57.289496+00:00",
-      "market": "\ud83c\uddec\ud83c\udde7 UK ONLY",
-      "text": "New template \ud83d\udd25#sukuna #gmx8 #viral #edit #capcut ",
-      "creator": ".gmx8",
-      "checks": [
-        {
-          "timestamp": "2026-02-27T14:37:57.289496+00:00",
-          "age_hours": 35.4,
-          "shares_per_hour": 261.5,
-          "views_per_hour": 16868,
-          "momentum": 16720,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-02-27T16:39:10.541275+00:00",
-          "age_hours": 37.4,
-          "shares_per_hour": 247.3,
-          "views_per_hour": 15957,
-          "momentum": 15817,
-          "delta_shares_per_hour": -14.199999999999989
-        },
-        {
-          "timestamp": "2026-02-27T18:40:37.956014+00:00",
-          "age_hours": 39.5,
-          "shares_per_hour": 234.7,
-          "views_per_hour": 15139,
-          "momentum": 15006,
-          "delta_shares_per_hour": -12.600000000000023
-        }
-      ],
-      "consecutive_negative_deltas": 2,
-      "alerted": false,
-      "consecutive_misses": 0
-    },
-    {
-      "url": "https://www.tiktok.com/@.gmx8/video/7611183927717334290",
-      "first_seen": "2026-02-27T14:37:57.289496+00:00",
-      "market": "\ud83c\uddfa\ud83c\uddf8 US ONLY",
-      "text": "New template \ud83d\udd25#gojo #gmx8 #viral #edit #capcut  ",
-      "creator": ".gmx8",
-      "checks": [
-        {
-          "timestamp": "2026-02-27T14:37:57.289496+00:00",
-          "age_hours": 24.0,
-          "shares_per_hour": 149.1,
-          "views_per_hour": 8834,
-          "momentum": 8618,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-02-27T16:39:10.541275+00:00",
-          "age_hours": 26.0,
-          "shares_per_hour": 137.5,
-          "views_per_hour": 8147,
-          "momentum": 7948,
-          "delta_shares_per_hour": -11.599999999999994
-        },
-        {
-          "timestamp": "2026-02-27T18:40:37.956014+00:00",
-          "age_hours": 28.0,
-          "shares_per_hour": 127.5,
-          "views_per_hour": 7558,
-          "momentum": 7373,
-          "delta_shares_per_hour": -10.0
-        }
-      ],
-      "consecutive_negative_deltas": 2,
-      "alerted": false,
-      "consecutive_misses": 0
-    },
-    {
-      "url": "https://www.tiktok.com/@trusteverythingyousee/video/7611095080115506454",
-      "first_seen": "2026-02-27T14:37:57.289496+00:00",
-      "market": "\ud83c\uddec\ud83c\udde7 UK ONLY",
-      "text": "He's the GOAT\n\n#ai #ia #chat #cat #sora #humour",
-      "creator": "trusteverythingyousee",
-      "checks": [
-        {
-          "timestamp": "2026-02-27T14:37:57.289496+00:00",
-          "age_hours": 29.7,
-          "shares_per_hour": 461.4,
-          "views_per_hour": 9389,
-          "momentum": 6243,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-02-27T16:39:10.541275+00:00",
-          "age_hours": 31.7,
-          "shares_per_hour": 432.0,
-          "views_per_hour": 8791,
-          "momentum": 5845,
-          "delta_shares_per_hour": -29.399999999999977
-        },
-        {
-          "timestamp": "2026-02-27T18:40:37.956014+00:00",
-          "age_hours": 33.7,
-          "shares_per_hour": 406.1,
-          "views_per_hour": 8263,
-          "momentum": 5494,
-          "delta_shares_per_hour": -25.899999999999977
-        }
-      ],
-      "consecutive_negative_deltas": 2,
-      "alerted": false,
-      "consecutive_misses": 0
-    },
-    {
-      "url": "https://www.tiktok.com/@urman347/video/7611070770898373909",
-      "first_seen": "2026-02-27T14:37:57.289496+00:00",
-      "market": "\ud83c\uddfa\ud83c\uddf8 US ONLY",
-      "text": "#capcut #capcutpioneer I found this amazing template in CapCut. Tap the link to try it out! https://www.capcut.com/tv2/ZSmg53tYo/ \u0e04\u0e19\u0e21\u0e35\u0e40\u0e1b\u0e47\u0e19\u0e25\u0e49\u0e32\u0e19",
-      "creator": "urman347",
-      "checks": [
-        {
-          "timestamp": "2026-02-27T14:37:57.289496+00:00",
-          "age_hours": 31.3,
-          "shares_per_hour": 463.8,
-          "views_per_hour": 12949,
-          "momentum": 5736,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-02-27T16:39:10.541275+00:00",
-          "age_hours": 33.3,
-          "shares_per_hour": 435.6,
-          "views_per_hour": 12163,
-          "momentum": 5387,
-          "delta_shares_per_hour": -28.19999999999999
-        },
-        {
-          "timestamp": "2026-02-27T18:40:37.956014+00:00",
-          "age_hours": 35.3,
-          "shares_per_hour": 410.6,
-          "views_per_hour": 11466,
-          "momentum": 5079,
-          "delta_shares_per_hour": -25.0
-        }
-      ],
-      "consecutive_negative_deltas": 2,
-      "alerted": false,
-      "consecutive_misses": 0
-    },
-    {
-      "url": "https://www.tiktok.com/@tjuwvfqs683/video/7610874502058249495",
-      "first_seen": "2026-02-27T14:37:57.289496+00:00",
-      "market": "\ud83c\uddfa\ud83c\uddf8 US ONLY",
-      "text": "Comment faire danser votre photo avec l\u2019effet IA Sway Dance sur TikTok#aiswaydance #tiktoktips #fyp  \nTu veux faire danser ta photo en style TikTok avec le filtre IA Sway Dance ? Dans ce petit tutoriel, je te montre comment utiliser l\u2019effet photo dansant et le nouveau filtre IA de TikTok pour animer ton image en quelques secondes. Ce guide \u00e9tape par \u00e9tape t\u2019apprend \u00e0 faire bouger une image avec l\u2019IA, \u00e0 utiliser l\u2019animation photo IA et \u00e0 suivre la tendance virale de la photo dansante.\nSi tu cherches un tutoriel de photo dansante IA, le meilleur filtre du moment ou les nouveaux effets IA TikTok 2026, cette vid\u00e9o va t\u2019aider \u00e0 cr\u00e9er un contenu viral tr\u00e8s simplement. Tu sauras aussi animer une photo statique, faire bouger une image fixe et obtenir un effet de selfie dansant original et amusant.\n#capcutpioneer #capcut ",
-      "creator": "tjuwvfqs683",
-      "checks": [
-        {
-          "timestamp": "2026-02-27T14:37:57.289496+00:00",
-          "age_hours": 44.0,
-          "shares_per_hour": 420.8,
-          "views_per_hour": 13379,
-          "momentum": 5304,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-02-27T16:39:10.541275+00:00",
-          "age_hours": 46.0,
-          "shares_per_hour": 402.3,
-          "views_per_hour": 12791,
-          "momentum": 5071,
-          "delta_shares_per_hour": -18.5
-        },
-        {
-          "timestamp": "2026-02-27T18:40:37.956014+00:00",
-          "age_hours": 48.0,
-          "shares_per_hour": 385.4,
-          "views_per_hour": 12252,
-          "momentum": 4857,
-          "delta_shares_per_hour": -16.900000000000034
-        }
-      ],
-      "consecutive_negative_deltas": 2,
-      "alerted": false,
-      "consecutive_misses": 0
-    },
     {
       "url": "https://www.tiktok.com/@catatan_harian47/video/7611159624695205141",
       "first_seen": "2026-02-27T16:39:10.541275+00:00",
@@ -203,9 +23,17 @@
           "views_per_hour": 6960,
           "momentum": 3782,
           "delta_shares_per_hour": -25.30000000000001
+        },
+        {
+          "timestamp": "2026-02-27T20:26:22.686355+00:00",
+          "age_hours": 31.3,
+          "shares_per_hour": 325.6,
+          "views_per_hour": 6569,
+          "momentum": 3569,
+          "delta_shares_per_hour": -19.399999999999977
         }
       ],
-      "consecutive_negative_deltas": 1,
+      "consecutive_negative_deltas": 2,
       "alerted": false,
       "consecutive_misses": 0
     },
@@ -231,9 +59,17 @@
           "views_per_hour": 1154,
           "momentum": 698,
           "delta_shares_per_hour": -2.3000000000000043
+        },
+        {
+          "timestamp": "2026-02-27T20:26:22.686355+00:00",
+          "age_hours": 51.4,
+          "shares_per_hour": 54.0,
+          "views_per_hour": 1114,
+          "momentum": 674,
+          "delta_shares_per_hour": -1.8999999999999986
         }
       ],
-      "consecutive_negative_deltas": 1,
+      "consecutive_negative_deltas": 2,
       "alerted": false,
       "consecutive_misses": 0
     },
@@ -250,6 +86,110 @@
           "shares_per_hour": 2413.0,
           "views_per_hour": 266760,
           "momentum": 42584,
+          "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-02-27T20:26:22.686355+00:00",
+          "age_hours": 43.0,
+          "shares_per_hour": 2314.1,
+          "views_per_hour": 255826,
+          "momentum": 40839,
+          "delta_shares_per_hour": -98.90000000000009
+        }
+      ],
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
+    },
+    {
+      "url": "https://www.tiktok.com/@ayhai.168/video/7610985538291617031",
+      "first_seen": "2026-02-27T20:26:22.686355+00:00",
+      "market": "\ud83c\udf10 BOTH",
+      "text": "Free AI Template Link\ud83d\udc47\ud83d\udc47\ud83d\udc47\nPenyunting Kreatif AI, Penyunting Foto AI, AI Creative Editing, AI Photo Editing, Google Gemini AI, Prompt, AI Prompt, ai image generation algorithms, ai Prompt, ai editing photo effect, Filter Foto AI, Al Foto Efek, Filter ai foto wajah, Gunakan filter ai foto ini, Editor foto Alat edit foto efek filter, AI PromptFoto, AIgenerated,ChatGPT, Prompt\nBuat foto serupa dengan satu klik\nsecara gratis, klik hypic di sudut kiri\nbawah untuk membuatnya secara gratis.\nGemini ai foto edit\nPrompt Gemini ai\nEditor kreatif AI, Editor foto AI\nPenyunting kreatif AI, Penyunting foto\nAI\nGoogle Gemini AI\nFilter Foto AI\nAI Foto Efek\nFilter ai foto wajah\nGunakan filter ai foto ini\nPenyunting Kreatif AI\nPenyunting Foto AI\nAI Creative Editing,\nAI Photo Editing\nGoogle Gemini AI,\nEditor foto Alat edit\nfoto efek filter ,\npenyunting kreatif AI ,\nAI creative editing Prompt,\nAI PromptFoto\n#hypic #hypiccreator #Godpic @hypic_global @HypicVietnam #jasaeditfoto #Geminiai",
+      "creator": "ayhai.168",
+      "checks": [
+        {
+          "timestamp": "2026-02-27T20:26:22.686355+00:00",
+          "age_hours": 42.6,
+          "shares_per_hour": 51.0,
+          "views_per_hour": 1472,
+          "momentum": 549,
+          "delta_shares_per_hour": null
+        }
+      ],
+      "consecutive_negative_deltas": 0,
+      "alerted": false
+    },
+    {
+      "url": "https://www.tiktok.com/@momentos.con.dios/video/7611246959537442068",
+      "first_seen": "2026-02-27T20:26:22.686355+00:00",
+      "market": "\ud83c\uddfa\ud83c\uddf8 US ONLY",
+      "text": "Adios febrero, soplaste nuevos vientos...\n#adiosfebrero #nuevoscomienzos #CapCut #capcutpioneer #pioneertemplate ",
+      "creator": "momentos.con.dios",
+      "checks": [
+        {
+          "timestamp": "2026-02-27T20:26:22.686355+00:00",
+          "age_hours": 25.7,
+          "shares_per_hour": 12.1,
+          "views_per_hour": 1269,
+          "momentum": 301,
+          "delta_shares_per_hour": null
+        }
+      ],
+      "consecutive_negative_deltas": 0,
+      "alerted": false
+    },
+    {
+      "url": "https://www.tiktok.com/@eedsipi209953/video/7611057847773809934",
+      "first_seen": "2026-02-27T20:26:22.686355+00:00",
+      "market": "\ud83c\uddfa\ud83c\uddf8 US ONLY",
+      "text": "Let's make the same template together. It's super easy.\ud83d\udd25\u270c\ufe0f\n#capcutforus #capcut #capcutpioneer",
+      "creator": "eedsipi209953",
+      "checks": [
+        {
+          "timestamp": "2026-02-27T20:26:22.686355+00:00",
+          "age_hours": 37.9,
+          "shares_per_hour": 19.5,
+          "views_per_hour": 3114,
+          "momentum": 275,
+          "delta_shares_per_hour": null
+        }
+      ],
+      "consecutive_negative_deltas": 0,
+      "alerted": false
+    },
+    {
+      "url": "https://www.tiktok.com/@kittytwirldaily/video/7611045349305634061",
+      "first_seen": "2026-02-27T20:26:22.686355+00:00",
+      "market": "\ud83c\uddfa\ud83c\uddf8 US ONLY",
+      "text": "#capcutpioneer #capcut #capcutforus ",
+      "creator": "kittytwirldaily",
+      "checks": [
+        {
+          "timestamp": "2026-02-27T20:26:22.686355+00:00",
+          "age_hours": 38.7,
+          "shares_per_hour": 11.0,
+          "views_per_hour": 1570,
+          "momentum": 255,
+          "delta_shares_per_hour": null
+        }
+      ],
+      "consecutive_negative_deltas": 0,
+      "alerted": false
+    },
+    {
+      "url": "https://www.tiktok.com/@ex3go200n5/video/7611250811254918407",
+      "first_seen": "2026-02-27T20:26:22.686355+00:00",
+      "market": "\ud83c\uddfa\ud83c\uddf8 US ONLY",
+      "text": "#capcut #capcutpioneer #capcutforus \u2728 The AI Couple Embrace in the Rain \u2014 Google Gemini Rain AI Effect Tutorial \ud83c\udf27\ufe0f Transform your photo into a romantic AI rain scene with the Gemini Rain AI Filter \u2014 one click to make your images look like a cinematic love story! \ud83d\udc9e\u2614 Perfect for TikTok edits, AI romance videos, and aesthetic rainy visuals. \ud83d\udcf8\u2728 \ud83d\udca7 Learn step by step how to use the Google Gemini Rain AI Effect \u2014 turn a single photo into an emotional rainy embrace full of atmosphere and love. \ud83c\udf19 \u200e\u062f\u0644\u064a\u0644 \u062a\u0623\u062b\u064a\u0631 \u0627\u0644\u0645\u0637\u0631 \u0628\u0627\u0644\u0630\u0643\u0627\u0621 \u0627\u0644\u0627\u0635\u0637\u0646\u0627\u0639\u064a \u0645\u0646 Google Gemini \ud83c\udf27\ufe0f\u2728 \u200e\u062d\u0648\u0651\u0644 \u0635\u0648\u0631\u062a\u0643 \u0625\u0644\u0649 \u0645\u0634\u0647\u062f \u0631\u0648\u0645\u0627\u0646\u0633\u064a \u0628\u064a\u0646 \u0632\u0648\u062c\u064a\u0646 \u062a\u062d\u062a \u0627\u0644\u0645\u0637\u0631 \u0628\u0627\u0633\u062a\u062e\u062f\u0627\u0645 \u0641\u0644\u062a\u0631 \u0627\u0644\u0630\u0643\u0627\u0621 \u0627\u0644\u0627\u0635\u0637\u0646\u0627\u0639\u064a \u0645\u0646 Gemini. \ud83d\udc95 \u200e\u0628\u062e\u0637\u0648\u0629 \u0648\u0627\u062d\u062f\u0629 \u0641\u0642\u0637\u060c \u0623\u0646\u0634\u0626 \u0641\u064a\u062f\u064a\u0648 \u0631\u0627\u0626\u0639 \u0628\u0623\u0633\u0644\u0648\u0628 \u0633\u064a\u0646\u0645\u0627\u0626\u064a \u0645\u062b\u0627\u0644\u064a \u0644\u0645\u0642\u0627\u0637\u0639 TikTok \u0627\u0644\u0625\u0628\u062f\u0627\u0639\u064a\u0629. \ud83c\udfa5\u2614",
+      "creator": "ex3go200n5",
+      "checks": [
+        {
+          "timestamp": "2026-02-27T20:26:22.686355+00:00",
+          "age_hours": 25.4,
+          "shares_per_hour": 14.4,
+          "views_per_hour": 189,
+          "momentum": 184,
           "delta_shares_per_hour": null
         }
       ],
