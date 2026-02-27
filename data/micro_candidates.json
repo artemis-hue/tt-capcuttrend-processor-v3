@@ -1,78 +1,6 @@
 {
-  "last_updated": "2026-02-27T20:26:22.691166+00:00",
+  "last_updated": "2026-02-27T22:20:47.077480+00:00",
   "candidates": [
-    {
-      "url": "https://www.tiktok.com/@catatan_harian47/video/7611159624695205141",
-      "first_seen": "2026-02-27T16:39:10.541275+00:00",
-      "market": "\ud83c\uddfa\ud83c\uddf8 US ONLY",
-      "text": "#CapCut #fypppppppppppppppppppppp #storywa #capcutpioneer #pioneertemplate ",
-      "creator": "catatan_harian47",
-      "checks": [
-        {
-          "timestamp": "2026-02-27T16:39:10.541275+00:00",
-          "age_hours": 27.5,
-          "shares_per_hour": 370.3,
-          "views_per_hour": 7472,
-          "momentum": 4060,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-02-27T18:40:37.956014+00:00",
-          "age_hours": 29.6,
-          "shares_per_hour": 345.0,
-          "views_per_hour": 6960,
-          "momentum": 3782,
-          "delta_shares_per_hour": -25.30000000000001
-        },
-        {
-          "timestamp": "2026-02-27T20:26:22.686355+00:00",
-          "age_hours": 31.3,
-          "shares_per_hour": 325.6,
-          "views_per_hour": 6569,
-          "momentum": 3569,
-          "delta_shares_per_hour": -19.399999999999977
-        }
-      ],
-      "consecutive_negative_deltas": 2,
-      "alerted": false,
-      "consecutive_misses": 0
-    },
-    {
-      "url": "https://www.tiktok.com/@coco5245x1t/video/7610849371235683592",
-      "first_seen": "2026-02-27T16:39:10.541275+00:00",
-      "market": "\ud83c\udf10 BOTH",
-      "text": "#hypic #hypiccreator Click on the CapCut icon above to generate the same style as the video.  Google Gemini Rain AI Effect Filter Tutorial, Create Google Gemini Rain AI Effect Filter Tutorial with One Photo, Gemini Photo Editing Creative Rain AI Effect Filter,Portraits in the rain.  #airain #raineffect  Google Gemini Rain AI Effect Filter Tutorial, Membuat Google Gemini Rain AI Effect Filter Tutorial dengan satu foto, Foto Gemini Editing Creative Rain AI Effect Filter #Godpic@hypic_vn_official\n @hypic_br_official\n@hypic_sa_global\n@hypic_global",
-      "creator": "coco5245x1t",
-      "checks": [
-        {
-          "timestamp": "2026-02-27T16:39:10.541275+00:00",
-          "age_hours": 47.6,
-          "shares_per_hour": 58.2,
-          "views_per_hour": 1203,
-          "momentum": 728,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-02-27T18:40:37.956014+00:00",
-          "age_hours": 49.6,
-          "shares_per_hour": 55.9,
-          "views_per_hour": 1154,
-          "momentum": 698,
-          "delta_shares_per_hour": -2.3000000000000043
-        },
-        {
-          "timestamp": "2026-02-27T20:26:22.686355+00:00",
-          "age_hours": 51.4,
-          "shares_per_hour": 54.0,
-          "views_per_hour": 1114,
-          "momentum": 674,
-          "delta_shares_per_hour": -1.8999999999999986
-        }
-      ],
-      "consecutive_negative_deltas": 2,
-      "alerted": false,
-      "consecutive_misses": 0
-    },
     {
       "url": "https://www.tiktok.com/@jollyv2/video/7610979073275333901",
       "first_seen": "2026-02-27T18:40:37.956014+00:00",
@@ -95,9 +23,17 @@
           "views_per_hour": 255826,
           "momentum": 40839,
           "delta_shares_per_hour": -98.90000000000009
+        },
+        {
+          "timestamp": "2026-02-27T22:20:47.072964+00:00",
+          "age_hours": 44.9,
+          "shares_per_hour": 2215.8,
+          "views_per_hour": 244962,
+          "momentum": 39105,
+          "delta_shares_per_hour": -98.29999999999973
         }
       ],
-      "consecutive_negative_deltas": 1,
+      "consecutive_negative_deltas": 2,
       "alerted": false,
       "consecutive_misses": 0
     },
@@ -115,10 +51,19 @@
           "views_per_hour": 1472,
           "momentum": 549,
           "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-02-27T22:20:47.072964+00:00",
+          "age_hours": 44.5,
+          "shares_per_hour": 48.8,
+          "views_per_hour": 1409,
+          "momentum": 525,
+          "delta_shares_per_hour": -2.200000000000003
         }
       ],
-      "consecutive_negative_deltas": 0,
-      "alerted": false
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
     },
     {
       "url": "https://www.tiktok.com/@momentos.con.dios/video/7611246959537442068",
@@ -134,10 +79,19 @@
           "views_per_hour": 1269,
           "momentum": 301,
           "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-02-27T22:20:47.072964+00:00",
+          "age_hours": 27.6,
+          "shares_per_hour": 11.3,
+          "views_per_hour": 1181,
+          "momentum": 280,
+          "delta_shares_per_hour": -0.7999999999999989
         }
       ],
-      "consecutive_negative_deltas": 0,
-      "alerted": false
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
     },
     {
       "url": "https://www.tiktok.com/@eedsipi209953/video/7611057847773809934",
@@ -153,10 +107,19 @@
           "views_per_hour": 3114,
           "momentum": 275,
           "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-02-27T22:20:47.072964+00:00",
+          "age_hours": 39.8,
+          "shares_per_hour": 18.6,
+          "views_per_hour": 2965,
+          "momentum": 262,
+          "delta_shares_per_hour": -0.8999999999999986
         }
       ],
-      "consecutive_negative_deltas": 0,
-      "alerted": false
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
     },
     {
       "url": "https://www.tiktok.com/@kittytwirldaily/video/7611045349305634061",
@@ -172,10 +135,19 @@
           "views_per_hour": 1570,
           "momentum": 255,
           "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-02-27T22:20:47.072964+00:00",
+          "age_hours": 40.6,
+          "shares_per_hour": 10.5,
+          "views_per_hour": 1496,
+          "momentum": 243,
+          "delta_shares_per_hour": -0.5
         }
       ],
-      "consecutive_negative_deltas": 0,
-      "alerted": false
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
     },
     {
       "url": "https://www.tiktok.com/@ex3go200n5/video/7611250811254918407",
@@ -190,6 +162,53 @@
           "shares_per_hour": 14.4,
           "views_per_hour": 189,
           "momentum": 184,
+          "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-02-27T22:20:47.072964+00:00",
+          "age_hours": 27.3,
+          "shares_per_hour": 13.4,
+          "views_per_hour": 176,
+          "momentum": 171,
+          "delta_shares_per_hour": -1.0
+        }
+      ],
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
+    },
+    {
+      "url": "https://www.tiktok.com/@.gmx8/video/7611006721279954183",
+      "first_seen": "2026-02-27T22:20:47.072964+00:00",
+      "market": "\ud83c\uddec\ud83c\udde7 UK ONLY",
+      "text": "New template \ud83d\udd25#sukuna #gmx8 #viral #edit #capcut ",
+      "creator": ".gmx8",
+      "checks": [
+        {
+          "timestamp": "2026-02-27T22:20:47.072964+00:00",
+          "age_hours": 43.1,
+          "shares_per_hour": 214.7,
+          "views_per_hour": 13850,
+          "momentum": 13729,
+          "delta_shares_per_hour": null
+        }
+      ],
+      "consecutive_negative_deltas": 0,
+      "alerted": false
+    },
+    {
+      "url": "https://www.tiktok.com/@.gmx8/video/7611183927717334290",
+      "first_seen": "2026-02-27T22:20:47.072964+00:00",
+      "market": "\ud83c\uddfa\ud83c\uddf8 US ONLY",
+      "text": "New template \ud83d\udd25#gojo #gmx8 #viral #edit #capcut  ",
+      "creator": ".gmx8",
+      "checks": [
+        {
+          "timestamp": "2026-02-27T22:20:47.072964+00:00",
+          "age_hours": 31.7,
+          "shares_per_hour": 112.7,
+          "views_per_hour": 6682,
+          "momentum": 6518,
           "delta_shares_per_hour": null
         }
       ],
