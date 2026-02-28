@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-28T20:24:20.333208+00:00",
+  "last_updated": "2026-02-28T22:21:08.644466+00:00",
   "candidates": [
     {
       "url": "https://www.tiktok.com/@emma341820/video/7611417845313916178",
@@ -23,9 +23,17 @@
           "views_per_hour": 25910,
           "momentum": 8988,
           "delta_shares_per_hour": -19.600000000000023
+        },
+        {
+          "timestamp": "2026-02-28T22:21:08.639709+00:00",
+          "age_hours": 40.5,
+          "shares_per_hour": 362.6,
+          "views_per_hour": 24666,
+          "momentum": 8556,
+          "delta_shares_per_hour": -18.299999999999955
         }
       ],
-      "consecutive_negative_deltas": 1,
+      "consecutive_negative_deltas": 2,
       "alerted": false,
       "consecutive_misses": 0
     },
@@ -51,9 +59,17 @@
           "views_per_hour": 275,
           "momentum": 219,
           "delta_shares_per_hour": -1.0999999999999979
+        },
+        {
+          "timestamp": "2026-02-28T22:21:08.639709+00:00",
+          "age_hours": 30.1,
+          "shares_per_hour": 15.0,
+          "views_per_hour": 257,
+          "momentum": 204,
+          "delta_shares_per_hour": -1.1000000000000014
         }
       ],
-      "consecutive_negative_deltas": 1,
+      "consecutive_negative_deltas": 2,
       "alerted": false,
       "consecutive_misses": 0
     },
@@ -79,9 +95,17 @@
           "views_per_hour": 210,
           "momentum": 175,
           "delta_shares_per_hour": -0.5
+        },
+        {
+          "timestamp": "2026-02-28T22:21:08.639709+00:00",
+          "age_hours": 51.3,
+          "shares_per_hour": 13.0,
+          "views_per_hour": 202,
+          "momentum": 169,
+          "delta_shares_per_hour": -0.5
         }
       ],
-      "consecutive_negative_deltas": 1,
+      "consecutive_negative_deltas": 2,
       "alerted": false,
       "consecutive_misses": 0
     },
@@ -107,9 +131,17 @@
           "views_per_hour": 156,
           "momentum": 100,
           "delta_shares_per_hour": -0.3000000000000007
+        },
+        {
+          "timestamp": "2026-02-28T22:21:08.639709+00:00",
+          "age_hours": 50.9,
+          "shares_per_hour": 8.8,
+          "views_per_hour": 150,
+          "momentum": 96,
+          "delta_shares_per_hour": -0.3999999999999986
         }
       ],
-      "consecutive_negative_deltas": 1,
+      "consecutive_negative_deltas": 2,
       "alerted": false,
       "consecutive_misses": 0
     },
@@ -127,10 +159,19 @@
           "views_per_hour": 3944,
           "momentum": 1325,
           "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-02-28T22:21:08.639709+00:00",
+          "age_hours": 43.8,
+          "shares_per_hour": 81.5,
+          "views_per_hour": 3768,
+          "momentum": 1266,
+          "delta_shares_per_hour": -3.799999999999997
         }
       ],
-      "consecutive_negative_deltas": 0,
-      "alerted": false
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
     },
     {
       "url": "https://www.tiktok.com/@catatan_harian47/video/7611508384021646612",
@@ -145,6 +186,53 @@
           "shares_per_hour": 100.3,
           "views_per_hour": 1417,
           "momentum": 1092,
+          "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-02-28T22:21:08.639709+00:00",
+          "age_hours": 34.7,
+          "shares_per_hour": 94.7,
+          "views_per_hour": 1337,
+          "momentum": 1031,
+          "delta_shares_per_hour": -5.599999999999994
+        }
+      ],
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
+    },
+    {
+      "url": "https://www.tiktok.com/@catatan_harian47/video/7611543363535392020",
+      "first_seen": "2026-02-28T22:21:08.639709+00:00",
+      "market": "\ud83c\udf10 BOTH",
+      "text": "#CapCut #fypppppppppppppppppppppp #capcutpioneer #pioneertemplate #storywa ",
+      "creator": "catatan_harian47",
+      "checks": [
+        {
+          "timestamp": "2026-02-28T22:21:08.639709+00:00",
+          "age_hours": 32.4,
+          "shares_per_hour": 64.9,
+          "views_per_hour": 1239,
+          "momentum": 738,
+          "delta_shares_per_hour": null
+        }
+      ],
+      "consecutive_negative_deltas": 0,
+      "alerted": false
+    },
+    {
+      "url": "https://www.tiktok.com/@emma341820/video/7611538898027580680",
+      "first_seen": "2026-02-28T22:21:08.639709+00:00",
+      "market": "\ud83c\uddec\ud83c\udde7 UK ONLY",
+      "text": "ai filter effect tutorial How to make this Al beat-synced effect: Tutorial - just import your photos into CapCut and you're done! You can create a uniquely styled photo video. Free tutorial on creating Al beat- synced effects. How to make sync with rhythm effect with Al: Simple guide - just import your photos to CapCut and you're done! You can create a photo video with a unique design. Free Guide to Sync Effects Industry with Artificial Intelligence How does this effect work with Al? Explanation: All you have to do is add your pictures in CapCut and salvation! #gemini#AI_generated#capcutforus#capcut#capcutpioneer",
+      "creator": "emma341820",
+      "checks": [
+        {
+          "timestamp": "2026-02-28T22:21:08.639709+00:00",
+          "age_hours": 32.7,
+          "shares_per_hour": 31.3,
+          "views_per_hour": 1604,
+          "momentum": 713,
           "delta_shares_per_hour": null
         }
       ],
