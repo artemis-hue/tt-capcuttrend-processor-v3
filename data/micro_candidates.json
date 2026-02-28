@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-28T10:21:15.667388+00:00",
+  "last_updated": "2026-02-28T12:42:00.812873+00:00",
   "candidates": [
     {
       "url": "https://www.tiktok.com/@ayhai.168/video/7610985538291617031",
@@ -39,95 +39,19 @@
           "views_per_hour": 2490,
           "momentum": 877,
           "delta_shares_per_hour": -2.9000000000000057
+        },
+        {
+          "timestamp": "2026-02-28T12:42:00.808272+00:00",
+          "age_hours": 58.8,
+          "shares_per_hour": 78.3,
+          "views_per_hour": 2390,
+          "momentum": 842,
+          "delta_shares_per_hour": -3.200000000000003
         }
       ],
-      "consecutive_negative_deltas": 1,
+      "consecutive_negative_deltas": 2,
       "alerted": false,
       "consecutive_misses": 0
-    },
-    {
-      "url": "https://www.tiktok.com/@momentos.con.dios/video/7611246959537442068",
-      "first_seen": "2026-02-27T20:26:22.686355+00:00",
-      "market": "\ud83c\uddfa\ud83c\uddf8 US ONLY",
-      "text": "Adios febrero, soplaste nuevos vientos...\n#adiosfebrero #nuevoscomienzos #CapCut #capcutpioneer #pioneertemplate ",
-      "creator": "momentos.con.dios",
-      "checks": [
-        {
-          "timestamp": "2026-02-27T20:26:22.686355+00:00",
-          "age_hours": 25.7,
-          "shares_per_hour": 12.1,
-          "views_per_hour": 1269,
-          "momentum": 301,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-02-27T22:20:47.072964+00:00",
-          "age_hours": 27.6,
-          "shares_per_hour": 11.3,
-          "views_per_hour": 1181,
-          "momentum": 280,
-          "delta_shares_per_hour": -0.7999999999999989
-        }
-      ],
-      "consecutive_negative_deltas": 1,
-      "alerted": false,
-      "consecutive_misses": 2
-    },
-    {
-      "url": "https://www.tiktok.com/@eedsipi209953/video/7611057847773809934",
-      "first_seen": "2026-02-27T20:26:22.686355+00:00",
-      "market": "\ud83c\uddfa\ud83c\uddf8 US ONLY",
-      "text": "Let's make the same template together. It's super easy.\ud83d\udd25\u270c\ufe0f\n#capcutforus #capcut #capcutpioneer",
-      "creator": "eedsipi209953",
-      "checks": [
-        {
-          "timestamp": "2026-02-27T20:26:22.686355+00:00",
-          "age_hours": 37.9,
-          "shares_per_hour": 19.5,
-          "views_per_hour": 3114,
-          "momentum": 275,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-02-27T22:20:47.072964+00:00",
-          "age_hours": 39.8,
-          "shares_per_hour": 18.6,
-          "views_per_hour": 2965,
-          "momentum": 262,
-          "delta_shares_per_hour": -0.8999999999999986
-        }
-      ],
-      "consecutive_negative_deltas": 1,
-      "alerted": false,
-      "consecutive_misses": 2
-    },
-    {
-      "url": "https://www.tiktok.com/@kittytwirldaily/video/7611045349305634061",
-      "first_seen": "2026-02-27T20:26:22.686355+00:00",
-      "market": "\ud83c\uddfa\ud83c\uddf8 US ONLY",
-      "text": "#capcutpioneer #capcut #capcutforus ",
-      "creator": "kittytwirldaily",
-      "checks": [
-        {
-          "timestamp": "2026-02-27T20:26:22.686355+00:00",
-          "age_hours": 38.7,
-          "shares_per_hour": 11.0,
-          "views_per_hour": 1570,
-          "momentum": 255,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-02-27T22:20:47.072964+00:00",
-          "age_hours": 40.6,
-          "shares_per_hour": 10.5,
-          "views_per_hour": 1496,
-          "momentum": 243,
-          "delta_shares_per_hour": -0.5
-        }
-      ],
-      "consecutive_negative_deltas": 1,
-      "alerted": false,
-      "consecutive_misses": 2
     },
     {
       "url": "https://www.tiktok.com/@ex3go200n5/video/7611250811254918407",
@@ -167,51 +91,19 @@
           "views_per_hour": 264,
           "momentum": 220,
           "delta_shares_per_hour": -0.9000000000000021
+        },
+        {
+          "timestamp": "2026-02-28T12:42:00.808272+00:00",
+          "age_hours": 41.7,
+          "shares_per_hour": 16.0,
+          "views_per_hour": 249,
+          "momentum": 208,
+          "delta_shares_per_hour": -0.8999999999999986
         }
       ],
-      "consecutive_negative_deltas": 1,
+      "consecutive_negative_deltas": 2,
       "alerted": false,
       "consecutive_misses": 0
-    },
-    {
-      "url": "https://www.tiktok.com/@.gmx8/video/7611006721279954183",
-      "first_seen": "2026-02-27T22:20:47.072964+00:00",
-      "market": "\ud83c\uddec\ud83c\udde7 UK ONLY",
-      "text": "New template \ud83d\udd25#sukuna #gmx8 #viral #edit #capcut ",
-      "creator": ".gmx8",
-      "checks": [
-        {
-          "timestamp": "2026-02-27T22:20:47.072964+00:00",
-          "age_hours": 43.1,
-          "shares_per_hour": 214.7,
-          "views_per_hour": 13850,
-          "momentum": 13729,
-          "delta_shares_per_hour": null
-        }
-      ],
-      "consecutive_negative_deltas": 0,
-      "alerted": false,
-      "consecutive_misses": 2
-    },
-    {
-      "url": "https://www.tiktok.com/@.gmx8/video/7611183927717334290",
-      "first_seen": "2026-02-27T22:20:47.072964+00:00",
-      "market": "\ud83c\uddfa\ud83c\uddf8 US ONLY",
-      "text": "New template \ud83d\udd25#gojo #gmx8 #viral #edit #capcut  ",
-      "creator": ".gmx8",
-      "checks": [
-        {
-          "timestamp": "2026-02-27T22:20:47.072964+00:00",
-          "age_hours": 31.7,
-          "shares_per_hour": 112.7,
-          "views_per_hour": 6682,
-          "momentum": 6518,
-          "delta_shares_per_hour": null
-        }
-      ],
-      "consecutive_negative_deltas": 0,
-      "alerted": false,
-      "consecutive_misses": 2
     },
     {
       "url": "https://www.tiktok.com/@emma341820/video/7611417845313916178",
@@ -235,11 +127,114 @@
           "views_per_hour": 35035,
           "momentum": 12153,
           "delta_shares_per_hour": -36.60000000000002
+        },
+        {
+          "timestamp": "2026-02-28T12:42:00.808272+00:00",
+          "age_hours": 30.9,
+          "shares_per_hour": 475.9,
+          "views_per_hour": 32374,
+          "momentum": 11230,
+          "delta_shares_per_hour": -39.10000000000002
         }
       ],
-      "consecutive_negative_deltas": 1,
+      "consecutive_negative_deltas": 2,
       "alerted": false,
       "consecutive_misses": 0
+    },
+    {
+      "url": "https://www.tiktok.com/@ecczysmw98/video/7611161737198456084",
+      "first_seen": "2026-02-28T12:42:00.808272+00:00",
+      "market": "\ud83c\udf10 BOTH",
+      "text": "#capcutpioneer #capcut  How to Create the Effect of a Person Inside a Water Cup  Click the template link in the bottom left corner of the video \ud83d\ude80**Just upload a photo!** Water Cup Effect Person Inside a Water Cup #NewYearTemplate #2026NewEffects  C\u00f3mo crear el efecto de una persona dentro de una taza  Haz clic en el enlace de la plantilla en la esquina inferior izquierda del video \ud83d\ude80**\u00a1Solo sube una foto!**\ud83d\udd25 Efecto de Taza Persona Dentro de la Taza  PlantillaDeA\u00f1oNuevo  NuevosEfectos2026 #capcutforus  ",
+      "creator": "ecczysmw98",
+      "checks": [
+        {
+          "timestamp": "2026-02-28T12:42:00.808272+00:00",
+          "age_hours": 47.5,
+          "shares_per_hour": 417.3,
+          "views_per_hour": 23181,
+          "momentum": 4761,
+          "delta_shares_per_hour": null
+        }
+      ],
+      "consecutive_negative_deltas": 0,
+      "alerted": false
+    },
+    {
+      "url": "https://www.tiktok.com/@local_capcut_templates/video/7611208807988923662",
+      "first_seen": "2026-02-28T12:42:00.808272+00:00",
+      "market": "\ud83c\udf10 BOTH",
+      "text": "#capcut #capcutpioneer #pioneertemplate #capcuttemplate #capcutedit ",
+      "creator": "local_capcut_templates",
+      "checks": [
+        {
+          "timestamp": "2026-02-28T12:42:00.808272+00:00",
+          "age_hours": 44.4,
+          "shares_per_hour": 79.3,
+          "views_per_hour": 18080,
+          "momentum": 4453,
+          "delta_shares_per_hour": null
+        }
+      ],
+      "consecutive_negative_deltas": 0,
+      "alerted": false
+    },
+    {
+      "url": "https://www.tiktok.com/@editop.cc/video/7611586585670274326",
+      "first_seen": "2026-02-28T12:42:00.808272+00:00",
+      "market": "\ud83c\udf10 BOTH",
+      "text": "This look like After effects (not pro) !! #capcutedit #capcut #editing ",
+      "creator": "editop.cc",
+      "checks": [
+        {
+          "timestamp": "2026-02-28T12:42:00.808272+00:00",
+          "age_hours": 20.0,
+          "shares_per_hour": 7.8,
+          "views_per_hour": 9401,
+          "momentum": 2139,
+          "delta_shares_per_hour": null
+        }
+      ],
+      "consecutive_negative_deltas": 0,
+      "alerted": false
+    },
+    {
+      "url": "https://www.tiktok.com/@boogiebug0/video/7611367692464835871",
+      "first_seen": "2026-02-28T12:42:00.808272+00:00",
+      "market": "\ud83c\uddec\ud83c\udde7 UK ONLY",
+      "text": "#foryoupag #funnyai #tiktokfunny #fyp #trend ",
+      "creator": "boogiebug0",
+      "checks": [
+        {
+          "timestamp": "2026-02-28T12:42:00.808272+00:00",
+          "age_hours": 34.1,
+          "shares_per_hour": 104.5,
+          "views_per_hour": 4834,
+          "momentum": 1625,
+          "delta_shares_per_hour": null
+        }
+      ],
+      "consecutive_negative_deltas": 0,
+      "alerted": false
+    },
+    {
+      "url": "https://www.tiktok.com/@catatan_harian47/video/7611508384021646612",
+      "first_seen": "2026-02-28T12:42:00.808272+00:00",
+      "market": "\ud83c\udf10 BOTH",
+      "text": "#CapCut #fypppppppppppppppppppppp #capcutpioneer #pioneertemplate #storywa ",
+      "creator": "catatan_harian47",
+      "checks": [
+        {
+          "timestamp": "2026-02-28T12:42:00.808272+00:00",
+          "age_hours": 25.0,
+          "shares_per_hour": 131.2,
+          "views_per_hour": 1853,
+          "momentum": 1428,
+          "delta_shares_per_hour": null
+        }
+      ],
+      "consecutive_negative_deltas": 0,
+      "alerted": false
     }
   ]
 }
