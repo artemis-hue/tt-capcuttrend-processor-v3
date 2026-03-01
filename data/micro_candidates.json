@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-01T08:29:33.507081+00:00",
+  "last_updated": "2026-03-01T10:23:51.863047+00:00",
   "candidates": [
     {
       "url": "https://www.tiktok.com/@ex3go200n5/video/7611579484159905031",
@@ -35,7 +35,7 @@
       ],
       "consecutive_negative_deltas": 2,
       "alerted": false,
-      "consecutive_misses": 1
+      "consecutive_misses": 2
     },
     {
       "url": "https://www.tiktok.com/@ex3go200n5/video/7611250811254918407",
@@ -71,7 +71,7 @@
       ],
       "consecutive_negative_deltas": 2,
       "alerted": false,
-      "consecutive_misses": 1
+      "consecutive_misses": 2
     },
     {
       "url": "https://www.tiktok.com/@boogiebug0/video/7611367692464835871",
@@ -99,7 +99,7 @@
       ],
       "consecutive_negative_deltas": 1,
       "alerted": false,
-      "consecutive_misses": 1
+      "consecutive_misses": 2
     },
     {
       "url": "https://www.tiktok.com/@catatan_harian47/video/7611508384021646612",
@@ -127,7 +127,7 @@
       ],
       "consecutive_negative_deltas": 1,
       "alerted": false,
-      "consecutive_misses": 1
+      "consecutive_misses": 2
     },
     {
       "url": "https://www.tiktok.com/@catatan_harian47/video/7611543363535392020",
@@ -147,7 +147,7 @@
       ],
       "consecutive_negative_deltas": 0,
       "alerted": false,
-      "consecutive_misses": 1
+      "consecutive_misses": 2
     },
     {
       "url": "https://www.tiktok.com/@emma341820/video/7611538898027580680",
@@ -171,9 +171,17 @@
           "views_per_hour": 11796,
           "momentum": 4751,
           "delta_shares_per_hour": 122.60000000000001
+        },
+        {
+          "timestamp": "2026-03-01T10:23:51.862943+00:00",
+          "age_hours": 44.8,
+          "shares_per_hour": 147.3,
+          "views_per_hour": 11294,
+          "momentum": 4548,
+          "delta_shares_per_hour": -6.599999999999994
         }
       ],
-      "consecutive_negative_deltas": 0,
+      "consecutive_negative_deltas": 1,
       "alerted": false,
       "consecutive_misses": 0
     },
@@ -191,10 +199,19 @@
           "views_per_hour": 50172,
           "momentum": 22137,
           "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-03-01T10:23:51.862943+00:00",
+          "age_hours": 27.8,
+          "shares_per_hour": 1678.9,
+          "views_per_hour": 46736,
+          "momentum": 20621,
+          "delta_shares_per_hour": -123.39999999999986
         }
       ],
-      "consecutive_negative_deltas": 0,
-      "alerted": false
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
     },
     {
       "url": "https://www.tiktok.com/@naicbnfeb4/video/7611905128697793812",
@@ -210,10 +227,19 @@
           "views_per_hour": 11009,
           "momentum": 5031,
           "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-03-01T10:23:51.862943+00:00",
+          "age_hours": 21.1,
+          "shares_per_hour": 286.7,
+          "views_per_hour": 10014,
+          "momentum": 4576,
+          "delta_shares_per_hour": -28.5
         }
       ],
-      "consecutive_negative_deltas": 0,
-      "alerted": false
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
     }
   ]
 }
