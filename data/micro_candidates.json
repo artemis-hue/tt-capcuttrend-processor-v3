@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-01T22:22:31.623962+00:00",
+  "last_updated": "2026-03-02T08:42:31.902817+00:00",
   "candidates": [
     {
       "url": "https://www.tiktok.com/@usa.uk545/video/7611800804776758558",
@@ -35,7 +35,7 @@
       ],
       "consecutive_negative_deltas": 2,
       "alerted": false,
-      "consecutive_misses": 0
+      "consecutive_misses": 1
     },
     {
       "url": "https://www.tiktok.com/@naicbnfeb4/video/7611905128697793812",
@@ -71,43 +71,7 @@
       ],
       "consecutive_negative_deltas": 2,
       "alerted": false,
-      "consecutive_misses": 0
-    },
-    {
-      "url": "https://www.tiktok.com/@cxscko315496/video/7611958467615640862",
-      "first_seen": "2026-03-01T18:31:37.459264+00:00",
-      "market": "\ud83c\udf10 BOTH",
-      "text": "Let's make the same template together. It's super easy. #capcutforus #capcut #capcutpioneer",
-      "creator": "cxscko315496",
-      "checks": [
-        {
-          "timestamp": "2026-03-01T18:31:37.459264+00:00",
-          "age_hours": 25.7,
-          "shares_per_hour": 36.9,
-          "views_per_hour": 5674,
-          "momentum": 517,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-03-01T20:25:08.137618+00:00",
-          "age_hours": 27.6,
-          "shares_per_hour": 34.3,
-          "views_per_hour": 5286,
-          "momentum": 481,
-          "delta_shares_per_hour": -2.6000000000000014
-        },
-        {
-          "timestamp": "2026-03-01T22:22:31.623824+00:00",
-          "age_hours": 29.6,
-          "shares_per_hour": 32.1,
-          "views_per_hour": 4936,
-          "momentum": 449,
-          "delta_shares_per_hour": -2.1999999999999957
-        }
-      ],
-      "consecutive_negative_deltas": 2,
-      "alerted": false,
-      "consecutive_misses": 0
+      "consecutive_misses": 1
     },
     {
       "url": "https://www.tiktok.com/@nq_tutorials/video/7611897580766727446",
@@ -143,43 +107,7 @@
       ],
       "consecutive_negative_deltas": 2,
       "alerted": false,
-      "consecutive_misses": 0
-    },
-    {
-      "url": "https://www.tiktok.com/@capcuttemplateu/video/7611839232058920222",
-      "first_seen": "2026-03-01T18:31:37.459264+00:00",
-      "market": "\ud83c\udf10 BOTH",
-      "text": "#CapCut #pioneertemplate #trending #capcutpioneer ",
-      "creator": "capcuttemplateu",
-      "checks": [
-        {
-          "timestamp": "2026-03-01T18:31:37.459264+00:00",
-          "age_hours": 33.4,
-          "shares_per_hour": 7.5,
-          "views_per_hour": 1608,
-          "momentum": 297,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-03-01T20:25:08.137618+00:00",
-          "age_hours": 35.3,
-          "shares_per_hour": 7.1,
-          "views_per_hour": 1522,
-          "momentum": 281,
-          "delta_shares_per_hour": -0.40000000000000036
-        },
-        {
-          "timestamp": "2026-03-01T22:22:31.623824+00:00",
-          "age_hours": 37.3,
-          "shares_per_hour": 6.7,
-          "views_per_hour": 1442,
-          "momentum": 267,
-          "delta_shares_per_hour": -0.39999999999999947
-        }
-      ],
-      "consecutive_negative_deltas": 2,
-      "alerted": false,
-      "consecutive_misses": 0
+      "consecutive_misses": 1
     },
     {
       "url": "https://www.tiktok.com/@huskistaken/video/7611656642500873503",
@@ -207,7 +135,7 @@
       ],
       "consecutive_negative_deltas": 1,
       "alerted": false,
-      "consecutive_misses": 0
+      "consecutive_misses": 1
     },
     {
       "url": "https://www.tiktok.com/@emma341820/video/7611849333977238802",
@@ -231,9 +159,17 @@
           "views_per_hour": 4831,
           "momentum": 1663,
           "delta_shares_per_hour": -3.3000000000000043
+        },
+        {
+          "timestamp": "2026-03-02T08:42:31.897718+00:00",
+          "age_hours": 47.0,
+          "shares_per_hour": 56.9,
+          "views_per_hour": 4311,
+          "momentum": 1512,
+          "delta_shares_per_hour": -2.3999999999999986
         }
       ],
-      "consecutive_negative_deltas": 1,
+      "consecutive_negative_deltas": 2,
       "alerted": false,
       "consecutive_misses": 0
     },
@@ -263,7 +199,45 @@
       ],
       "consecutive_negative_deltas": 1,
       "alerted": false,
-      "consecutive_misses": 0
+      "consecutive_misses": 1
+    },
+    {
+      "url": "https://www.tiktok.com/@missdong775/video/7611860226475822350",
+      "first_seen": "2026-03-02T08:42:31.897718+00:00",
+      "market": "\ud83c\udf10 BOTH",
+      "text": "#cat #cats #ai #fpy #catsoftiktok ",
+      "creator": "missdong775",
+      "checks": [
+        {
+          "timestamp": "2026-03-02T08:42:31.897718+00:00",
+          "age_hours": 46.3,
+          "shares_per_hour": 163.1,
+          "views_per_hour": 222686,
+          "momentum": 24282,
+          "delta_shares_per_hour": null
+        }
+      ],
+      "consecutive_negative_deltas": 0,
+      "alerted": false
+    },
+    {
+      "url": "https://www.tiktok.com/@tranghieu0211/video/7612524036102425864",
+      "first_seen": "2026-03-02T08:42:31.897718+00:00",
+      "market": "\ud83c\uddec\ud83c\udde7 UK ONLY",
+      "text": "M\u1eabu n\u00e0y vui he hehee #changhiu #couple #CapCut ",
+      "creator": "tranghieu0211",
+      "checks": [
+        {
+          "timestamp": "2026-03-02T08:42:31.897718+00:00",
+          "age_hours": 3.4,
+          "shares_per_hour": 300.2,
+          "views_per_hour": 21108,
+          "momentum": 18060,
+          "delta_shares_per_hour": null
+        }
+      ],
+      "consecutive_negative_deltas": 0,
+      "alerted": false
     }
   ]
 }
