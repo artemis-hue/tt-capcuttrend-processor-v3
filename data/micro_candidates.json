@@ -1,186 +1,6 @@
 {
-  "last_updated": "2026-03-02T16:43:28.285734+00:00",
+  "last_updated": "2026-03-02T18:44:56.408024+00:00",
   "candidates": [
-    {
-      "url": "https://www.tiktok.com/@imoletok1/video/7612036883815697677",
-      "first_seen": "2026-03-02T12:55:58.243289+00:00",
-      "market": "\ud83c\udf10 BOTH",
-      "text": "#CapCut That one oat edit intro tutorial \ud83d\ude2d\ud83d\udd25, Hope this was helpful gng \ud83d\ude18 #capcutpioneer #capcuttutorial @CapCut |Oat edit full tutorial|Full tutorial on the oat edit|That one oat edit tutorial|",
-      "creator": "imoletok1",
-      "checks": [
-        {
-          "timestamp": "2026-03-02T12:55:58.243289+00:00",
-          "age_hours": 39.1,
-          "shares_per_hour": 32.2,
-          "views_per_hour": 10850,
-          "momentum": 2626,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-03-02T14:41:08.007148+00:00",
-          "age_hours": 40.8,
-          "shares_per_hour": 30.9,
-          "views_per_hour": 10384,
-          "momentum": 2513,
-          "delta_shares_per_hour": -1.3000000000000043
-        },
-        {
-          "timestamp": "2026-03-02T16:43:28.280452+00:00",
-          "age_hours": 42.9,
-          "shares_per_hour": 29.4,
-          "views_per_hour": 9890,
-          "momentum": 2394,
-          "delta_shares_per_hour": -1.5
-        }
-      ],
-      "consecutive_negative_deltas": 2,
-      "alerted": false,
-      "consecutive_misses": 0
-    },
-    {
-      "url": "https://www.tiktok.com/@dark_mooon2/video/7612264366020300050",
-      "first_seen": "2026-03-02T12:55:58.243289+00:00",
-      "market": "\ud83c\uddfa\ud83c\uddf8 US ONLY",
-      "text": "RAT MY PUSHTO LIPSYNC \ud83d\ude00\ud83e\udee3\ud83e\udd17\n#capcut_edit #darkbeauty #pashto #fyp #trending ",
-      "creator": "dark_mooon2",
-      "checks": [
-        {
-          "timestamp": "2026-03-02T12:55:58.243289+00:00",
-          "age_hours": 24.4,
-          "shares_per_hour": 36.3,
-          "views_per_hour": 5247,
-          "momentum": 1966,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-03-02T14:41:08.007148+00:00",
-          "age_hours": 26.1,
-          "shares_per_hour": 33.9,
-          "views_per_hour": 4895,
-          "momentum": 1834,
-          "delta_shares_per_hour": -2.3999999999999986
-        },
-        {
-          "timestamp": "2026-03-02T16:43:28.280452+00:00",
-          "age_hours": 28.2,
-          "shares_per_hour": 31.4,
-          "views_per_hour": 4541,
-          "momentum": 1701,
-          "delta_shares_per_hour": -2.5
-        }
-      ],
-      "consecutive_negative_deltas": 2,
-      "alerted": false,
-      "consecutive_misses": 0
-    },
-    {
-      "url": "https://www.tiktok.com/@stargirl_11n/video/7611988752822553864",
-      "first_seen": "2026-03-02T12:55:58.243289+00:00",
-      "market": "\ud83c\uddec\ud83c\udde7 UK ONLY",
-      "text": "#fyp #motivation #mindset #glowup ",
-      "creator": "stargirl_11n",
-      "checks": [
-        {
-          "timestamp": "2026-03-02T12:55:58.243289+00:00",
-          "age_hours": 42.2,
-          "shares_per_hour": 8.7,
-          "views_per_hour": 5220,
-          "momentum": 1909,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-03-02T14:41:08.007148+00:00",
-          "age_hours": 43.9,
-          "shares_per_hour": 8.3,
-          "views_per_hour": 5012,
-          "momentum": 1833,
-          "delta_shares_per_hour": -0.3999999999999986
-        },
-        {
-          "timestamp": "2026-03-02T16:43:28.280452+00:00",
-          "age_hours": 46.0,
-          "shares_per_hour": 8.0,
-          "views_per_hour": 4790,
-          "momentum": 1751,
-          "delta_shares_per_hour": -0.3000000000000007
-        }
-      ],
-      "consecutive_negative_deltas": 2,
-      "alerted": false,
-      "consecutive_misses": 0
-    },
-    {
-      "url": "https://www.tiktok.com/@weloveditzzz/video/7612354283874307341",
-      "first_seen": "2026-03-02T12:55:58.243289+00:00",
-      "market": "\ud83c\udf10 BOTH",
-      "text": "TEMPLATE\ud83d\udccd#CapCut #capcutpioneer #pioneertemplate #capcuttemplate #boatremix @leavemealone ",
-      "creator": "weloveditzzz",
-      "checks": [
-        {
-          "timestamp": "2026-03-02T12:55:58.243289+00:00",
-          "age_hours": 18.6,
-          "shares_per_hour": 6.3,
-          "views_per_hour": 1773,
-          "momentum": 968,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-03-02T14:41:08.007148+00:00",
-          "age_hours": 20.3,
-          "shares_per_hour": 5.8,
-          "views_per_hour": 1620,
-          "momentum": 885,
-          "delta_shares_per_hour": -0.5
-        },
-        {
-          "timestamp": "2026-03-02T16:43:28.280452+00:00",
-          "age_hours": 22.3,
-          "shares_per_hour": 5.2,
-          "views_per_hour": 1472,
-          "momentum": 804,
-          "delta_shares_per_hour": -0.5999999999999996
-        }
-      ],
-      "consecutive_negative_deltas": 2,
-      "alerted": false,
-      "consecutive_misses": 0
-    },
-    {
-      "url": "https://www.tiktok.com/@cmdmenzzz/video/7612013761607650592",
-      "first_seen": "2026-03-02T12:55:58.243289+00:00",
-      "market": "\ud83c\uddfa\ud83c\uddf8 US ONLY",
-      "text": "It\u2019s the best thing\ud83e\udee3 #glowup #breakup #love #fyp #viral ",
-      "creator": "cmdmenzzz",
-      "checks": [
-        {
-          "timestamp": "2026-03-02T12:55:58.243289+00:00",
-          "age_hours": 40.6,
-          "shares_per_hour": 14.0,
-          "views_per_hour": 1757,
-          "momentum": 940,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-03-02T14:41:08.007148+00:00",
-          "age_hours": 42.3,
-          "shares_per_hour": 13.4,
-          "views_per_hour": 1684,
-          "momentum": 902,
-          "delta_shares_per_hour": -0.5999999999999996
-        },
-        {
-          "timestamp": "2026-03-02T16:43:28.280452+00:00",
-          "age_hours": 44.4,
-          "shares_per_hour": 12.8,
-          "views_per_hour": 1606,
-          "momentum": 860,
-          "delta_shares_per_hour": -0.5999999999999996
-        }
-      ],
-      "consecutive_negative_deltas": 2,
-      "alerted": false,
-      "consecutive_misses": 0
-    },
     {
       "url": "https://www.tiktok.com/@dhia_graphic/video/7612013871531904264",
       "first_seen": "2026-03-02T14:41:08.007148+00:00",
@@ -203,9 +23,17 @@
           "views_per_hour": 5157,
           "momentum": 838,
           "delta_shares_per_hour": -1.3000000000000007
+        },
+        {
+          "timestamp": "2026-03-02T18:44:56.403166+00:00",
+          "age_hours": 46.4,
+          "shares_per_hour": 25.5,
+          "views_per_hour": 4932,
+          "momentum": 801,
+          "delta_shares_per_hour": -1.1999999999999993
         }
       ],
-      "consecutive_negative_deltas": 1,
+      "consecutive_negative_deltas": 2,
       "alerted": false,
       "consecutive_misses": 0
     },
@@ -231,9 +59,17 @@
           "views_per_hour": 8001,
           "momentum": 786,
           "delta_shares_per_hour": -2.3999999999999986
+        },
+        {
+          "timestamp": "2026-03-02T18:44:56.403166+00:00",
+          "age_hours": 50.0,
+          "shares_per_hour": 53.6,
+          "views_per_hour": 7677,
+          "momentum": 754,
+          "delta_shares_per_hour": -2.299999999999997
         }
       ],
-      "consecutive_negative_deltas": 1,
+      "consecutive_negative_deltas": 2,
       "alerted": false,
       "consecutive_misses": 0
     },
@@ -250,6 +86,110 @@
           "shares_per_hour": 88.6,
           "views_per_hour": 6227,
           "momentum": 5327,
+          "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-03-02T18:44:56.403166+00:00",
+          "age_hours": 13.4,
+          "shares_per_hour": 75.2,
+          "views_per_hour": 5285,
+          "momentum": 4522,
+          "delta_shares_per_hour": -13.399999999999991
+        }
+      ],
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
+    },
+    {
+      "url": "https://www.tiktok.com/@unknowngirl_2.08/video/7612071934318169365",
+      "first_seen": "2026-03-02T18:44:56.403166+00:00",
+      "market": "\ud83c\udf10 BOTH",
+      "text": "1 month of hard work and I\u2019m still making progress\ud83e\udef6\u270c\ufe0f #workout #motivation #1monthago #glowup? #fyp",
+      "creator": "unknowngirl_2.08",
+      "checks": [
+        {
+          "timestamp": "2026-03-02T18:44:56.403166+00:00",
+          "age_hours": 42.6,
+          "shares_per_hour": 73.1,
+          "views_per_hour": 28147,
+          "momentum": 11476,
+          "delta_shares_per_hour": null
+        }
+      ],
+      "consecutive_negative_deltas": 0,
+      "alerted": false
+    },
+    {
+      "url": "https://www.tiktok.com/@po94275/video/7612103719185927437",
+      "first_seen": "2026-03-02T18:44:56.403166+00:00",
+      "market": "\ud83c\uddec\ud83c\udde7 UK ONLY",
+      "text": "#capcutpioneer Si no sabes bailar, solo sube una foto tuya y podr\u00e1s hacer este divertido video con filtro de baile If you can't dance, just upload a photo of yourself and you can make this fun dance filter video #capcut #capcutpioneer ",
+      "creator": "po94275",
+      "checks": [
+        {
+          "timestamp": "2026-03-02T18:44:56.403166+00:00",
+          "age_hours": 40.6,
+          "shares_per_hour": 62.0,
+          "views_per_hour": 1197,
+          "momentum": 685,
+          "delta_shares_per_hour": null
+        }
+      ],
+      "consecutive_negative_deltas": 0,
+      "alerted": false
+    },
+    {
+      "url": "https://www.tiktok.com/@ayhai.168/video/7612202309765975303",
+      "first_seen": "2026-03-02T18:44:56.403166+00:00",
+      "market": "\ud83c\udf10 BOTH",
+      "text": "Free AI Template Link\ud83d\udc47\ud83d\udc47\ud83d\udc47\nPenyunting Kreatif AI, Penyunting Foto AI, AI Creative Editing, AI Photo Editing, Google Gemini AI, Prompt, AI Prompt, ai image generation algorithms, ai Prompt, ai editing photo effect, Filter Foto AI, Al Foto Efek, Filter ai foto wajah, Gunakan filter ai foto ini, Editor foto Alat edit foto efek filter, AI PromptFoto, AIgenerated,ChatGPT, Prompt\nBuat foto serupa dengan satu klik\nsecara gratis, klik hypic di sudut kiri\nbawah untuk membuatnya secara gratis.\nGemini ai foto edit\nPrompt Gemini ai\nEditor kreatif AI, Editor foto AI\nPenyunting kreatif AI, \nPenyunting fotoAI\nGoogle Gemini AI\nFilter Foto AI\nAI Foto Efek\nFilter ai foto wajah\nGunakan filter ai foto ini\nPenyunting Kreatif AI\nPenyunting Foto AI\nAI Creative Editing,\nAI Photo Editing\nGoogle Gemini AI,\nEditor foto Alat edit\nfoto efek filter ,\npenyunting kreatif AI ,\nAI creative editing Prompt,\nAI PromptFoto\n#hypic #hypiccreator #Godpic @hypic_global @HypicVietnam #promptgemini #Geminiai",
+      "creator": "ayhai.168",
+      "checks": [
+        {
+          "timestamp": "2026-03-02T18:44:56.403166+00:00",
+          "age_hours": 34.2,
+          "shares_per_hour": 19.7,
+          "views_per_hour": 409,
+          "momentum": 217,
+          "delta_shares_per_hour": null
+        }
+      ],
+      "consecutive_negative_deltas": 0,
+      "alerted": false
+    },
+    {
+      "url": "https://www.tiktok.com/@influencerss.ai/video/7612156952415702294",
+      "first_seen": "2026-03-02T18:44:56.403166+00:00",
+      "market": "\ud83c\uddfa\ud83c\uddf8 US ONLY",
+      "text": "Start learning while it\u2019s Hot \ud83d\udcb8\ud83d\udd25 #ai #sidehustle #sidehustleideas #american ",
+      "creator": "influencerss.ai",
+      "checks": [
+        {
+          "timestamp": "2026-03-02T18:44:56.403166+00:00",
+          "age_hours": 37.1,
+          "shares_per_hour": 8.0,
+          "views_per_hour": 2006,
+          "momentum": 210,
+          "delta_shares_per_hour": null
+        }
+      ],
+      "consecutive_negative_deltas": 0,
+      "alerted": false
+    },
+    {
+      "url": "https://www.tiktok.com/@mishaart12/video/7612303038790896926",
+      "first_seen": "2026-03-02T18:44:56.403166+00:00",
+      "market": "\ud83c\udf10 BOTH",
+      "text": "AI food yelling..\n#aifood #KitchenHacks #foodhacks #lifehacks #talkingobjects ",
+      "creator": "mishaart12",
+      "checks": [
+        {
+          "timestamp": "2026-03-02T18:44:56.403166+00:00",
+          "age_hours": 27.7,
+          "shares_per_hour": 6.0,
+          "views_per_hour": 326,
+          "momentum": 148,
           "delta_shares_per_hour": null
         }
       ],
