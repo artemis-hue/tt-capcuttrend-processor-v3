@@ -1,170 +1,6 @@
 {
-  "last_updated": "2026-03-02T10:41:58.809011+00:00",
+  "last_updated": "2026-03-02T12:55:58.247930+00:00",
   "candidates": [
-    {
-      "url": "https://www.tiktok.com/@usa.uk545/video/7611800804776758558",
-      "first_seen": "2026-03-01T18:31:37.459264+00:00",
-      "market": "\ud83c\uddfa\ud83c\uddf8 US ONLY",
-      "text": "#BalliBotMogis #TrendingReels #TrendingReels #Foryoupage ##FYP #FYP #ViralTikTok #MillionViews #TechMagic #SmartBot #AITrend #RobotVibes #Innovation#ForYou  #ViralVideo  #TikTok#ExposePoint",
-      "creator": "usa.uk545",
-      "checks": [
-        {
-          "timestamp": "2026-03-01T18:31:37.459264+00:00",
-          "age_hours": 35.9,
-          "shares_per_hour": 1299.2,
-          "views_per_hour": 36166,
-          "momentum": 15957,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-03-01T20:25:08.137618+00:00",
-          "age_hours": 37.8,
-          "shares_per_hour": 1234.2,
-          "views_per_hour": 34357,
-          "momentum": 15159,
-          "delta_shares_per_hour": -65.0
-        },
-        {
-          "timestamp": "2026-03-01T22:22:31.623824+00:00",
-          "age_hours": 39.8,
-          "shares_per_hour": 1173.6,
-          "views_per_hour": 32668,
-          "momentum": 14414,
-          "delta_shares_per_hour": -60.600000000000136
-        }
-      ],
-      "consecutive_negative_deltas": 2,
-      "alerted": false,
-      "consecutive_misses": 2
-    },
-    {
-      "url": "https://www.tiktok.com/@naicbnfeb4/video/7611905128697793812",
-      "first_seen": "2026-03-01T18:31:37.459264+00:00",
-      "market": "\ud83c\udf10 BOTH",
-      "text": "#CapCut ai filter effect tutorial How to make this Al beat-synced effect: Tutorial - just import your photos into CapCut and you're done! You can create a uniquely styled photo video. Free tutorial on creating Al beat- synced effects. How to make sync with rhythm effect with Al: Simple guide - just import your photos to CapCut and you're done! You can create a photo video with a unique design. Free Guide to Sync Effects Industry with Artificial Intelligence How does this effect work with Al? Explanation: All you have to do is add your pictures in CapCut and salvation! #gemini#capcutpioneer #capcutforus#capcut",
-      "creator": "naicbnfeb4",
-      "checks": [
-        {
-          "timestamp": "2026-03-01T18:31:37.459264+00:00",
-          "age_hours": 29.2,
-          "shares_per_hour": 206.9,
-          "views_per_hour": 7226,
-          "momentum": 3302,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-03-01T20:25:08.137618+00:00",
-          "age_hours": 31.1,
-          "shares_per_hour": 194.3,
-          "views_per_hour": 6786,
-          "momentum": 3101,
-          "delta_shares_per_hour": -12.599999999999994
-        },
-        {
-          "timestamp": "2026-03-01T22:22:31.623824+00:00",
-          "age_hours": 33.0,
-          "shares_per_hour": 182.8,
-          "views_per_hour": 6384,
-          "momentum": 2917,
-          "delta_shares_per_hour": -11.5
-        }
-      ],
-      "consecutive_negative_deltas": 2,
-      "alerted": false,
-      "consecutive_misses": 2
-    },
-    {
-      "url": "https://www.tiktok.com/@nq_tutorials/video/7611897580766727446",
-      "first_seen": "2026-03-01T18:31:37.459264+00:00",
-      "market": "\ud83c\uddfa\ud83c\uddf8 US ONLY",
-      "text": "Flash + reverse tutorial in#CapCut #edittutorial #capcuttutorial #areyouaneditor #capcutpioneer ",
-      "creator": "nq_tutorials",
-      "checks": [
-        {
-          "timestamp": "2026-03-01T18:31:37.459264+00:00",
-          "age_hours": 29.7,
-          "shares_per_hour": 6.2,
-          "views_per_hour": 919,
-          "momentum": 310,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-03-01T20:25:08.137618+00:00",
-          "age_hours": 31.6,
-          "shares_per_hour": 5.8,
-          "views_per_hour": 864,
-          "momentum": 291,
-          "delta_shares_per_hour": -0.40000000000000036
-        },
-        {
-          "timestamp": "2026-03-01T22:22:31.623824+00:00",
-          "age_hours": 33.5,
-          "shares_per_hour": 5.5,
-          "views_per_hour": 814,
-          "momentum": 274,
-          "delta_shares_per_hour": -0.2999999999999998
-        }
-      ],
-      "consecutive_negative_deltas": 2,
-      "alerted": false,
-      "consecutive_misses": 2
-    },
-    {
-      "url": "https://www.tiktok.com/@huskistaken/video/7611656642500873503",
-      "first_seen": "2026-03-01T20:25:08.137618+00:00",
-      "market": "\ud83c\uddec\ud83c\udde7 UK ONLY",
-      "text": "They think I\u2019m tough now",
-      "creator": "huskistaken",
-      "checks": [
-        {
-          "timestamp": "2026-03-01T20:25:08.137618+00:00",
-          "age_hours": 47.2,
-          "shares_per_hour": 96.8,
-          "views_per_hour": 6073,
-          "momentum": 2689,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-03-01T22:22:31.623824+00:00",
-          "age_hours": 49.1,
-          "shares_per_hour": 93.0,
-          "views_per_hour": 5831,
-          "momentum": 2582,
-          "delta_shares_per_hour": -3.799999999999997
-        }
-      ],
-      "consecutive_negative_deltas": 1,
-      "alerted": false,
-      "consecutive_misses": 2
-    },
-    {
-      "url": "https://www.tiktok.com/@ronakkumar6930/video/7612002164742901022",
-      "first_seen": "2026-03-01T20:25:08.137618+00:00",
-      "market": "\ud83c\uddec\ud83c\udde7 UK ONLY",
-      "text": "#BalliBotMagos #TredingReels #TredingReels #ForYouPage #FYP #FYP #ViralTikTok #MillionViews #TechMagic #SmartBot #AITrend #RobotVibes #Innovation ",
-      "creator": "ronakkumar6930",
-      "checks": [
-        {
-          "timestamp": "2026-03-01T20:25:08.137618+00:00",
-          "age_hours": 24.8,
-          "shares_per_hour": 65.2,
-          "views_per_hour": 10518,
-          "momentum": 1232,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-03-01T22:22:31.623824+00:00",
-          "age_hours": 26.8,
-          "shares_per_hour": 60.4,
-          "views_per_hour": 9749,
-          "momentum": 1142,
-          "delta_shares_per_hour": -4.800000000000004
-        }
-      ],
-      "consecutive_negative_deltas": 1,
-      "alerted": false,
-      "consecutive_misses": 2
-    },
     {
       "url": "https://www.tiktok.com/@missdong775/video/7611860226475822350",
       "first_seen": "2026-03-02T08:42:31.897718+00:00",
@@ -187,9 +23,17 @@
           "views_per_hour": 213497,
           "momentum": 23280,
           "delta_shares_per_hour": -6.699999999999989
+        },
+        {
+          "timestamp": "2026-03-02T12:55:58.243289+00:00",
+          "age_hours": 50.5,
+          "shares_per_hour": 149.5,
+          "views_per_hour": 204052,
+          "momentum": 22250,
+          "delta_shares_per_hour": -6.900000000000006
         }
       ],
-      "consecutive_negative_deltas": 1,
+      "consecutive_negative_deltas": 2,
       "alerted": false,
       "consecutive_misses": 0
     },
@@ -215,9 +59,17 @@
           "views_per_hour": 13246,
           "momentum": 11333,
           "delta_shares_per_hour": -111.79999999999998
+        },
+        {
+          "timestamp": "2026-03-02T12:55:58.243289+00:00",
+          "age_hours": 7.6,
+          "shares_per_hour": 132.9,
+          "views_per_hour": 9342,
+          "momentum": 7993,
+          "delta_shares_per_hour": -55.5
         }
       ],
-      "consecutive_negative_deltas": 1,
+      "consecutive_negative_deltas": 2,
       "alerted": false,
       "consecutive_misses": 0
     },
@@ -234,6 +86,110 @@
           "shares_per_hour": 90.1,
           "views_per_hour": 34698,
           "momentum": 14147,
+          "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-03-02T12:55:58.243289+00:00",
+          "age_hours": 36.8,
+          "shares_per_hour": 84.6,
+          "views_per_hour": 32594,
+          "momentum": 13289,
+          "delta_shares_per_hour": -5.5
+        }
+      ],
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
+    },
+    {
+      "url": "https://www.tiktok.com/@imoletok1/video/7612036883815697677",
+      "first_seen": "2026-03-02T12:55:58.243289+00:00",
+      "market": "\ud83c\udf10 BOTH",
+      "text": "#CapCut That one oat edit intro tutorial \ud83d\ude2d\ud83d\udd25, Hope this was helpful gng \ud83d\ude18 #capcutpioneer #capcuttutorial @CapCut |Oat edit full tutorial|Full tutorial on the oat edit|That one oat edit tutorial|",
+      "creator": "imoletok1",
+      "checks": [
+        {
+          "timestamp": "2026-03-02T12:55:58.243289+00:00",
+          "age_hours": 39.1,
+          "shares_per_hour": 32.2,
+          "views_per_hour": 10850,
+          "momentum": 2626,
+          "delta_shares_per_hour": null
+        }
+      ],
+      "consecutive_negative_deltas": 0,
+      "alerted": false
+    },
+    {
+      "url": "https://www.tiktok.com/@dark_mooon2/video/7612264366020300050",
+      "first_seen": "2026-03-02T12:55:58.243289+00:00",
+      "market": "\ud83c\uddfa\ud83c\uddf8 US ONLY",
+      "text": "RAT MY PUSHTO LIPSYNC \ud83d\ude00\ud83e\udee3\ud83e\udd17\n#capcut_edit #darkbeauty #pashto #fyp #trending ",
+      "creator": "dark_mooon2",
+      "checks": [
+        {
+          "timestamp": "2026-03-02T12:55:58.243289+00:00",
+          "age_hours": 24.4,
+          "shares_per_hour": 36.3,
+          "views_per_hour": 5247,
+          "momentum": 1966,
+          "delta_shares_per_hour": null
+        }
+      ],
+      "consecutive_negative_deltas": 0,
+      "alerted": false
+    },
+    {
+      "url": "https://www.tiktok.com/@stargirl_11n/video/7611988752822553864",
+      "first_seen": "2026-03-02T12:55:58.243289+00:00",
+      "market": "\ud83c\uddec\ud83c\udde7 UK ONLY",
+      "text": "#fyp #motivation #mindset #glowup ",
+      "creator": "stargirl_11n",
+      "checks": [
+        {
+          "timestamp": "2026-03-02T12:55:58.243289+00:00",
+          "age_hours": 42.2,
+          "shares_per_hour": 8.7,
+          "views_per_hour": 5220,
+          "momentum": 1909,
+          "delta_shares_per_hour": null
+        }
+      ],
+      "consecutive_negative_deltas": 0,
+      "alerted": false
+    },
+    {
+      "url": "https://www.tiktok.com/@weloveditzzz/video/7612354283874307341",
+      "first_seen": "2026-03-02T12:55:58.243289+00:00",
+      "market": "\ud83c\udf10 BOTH",
+      "text": "TEMPLATE\ud83d\udccd#CapCut #capcutpioneer #pioneertemplate #capcuttemplate #boatremix @leavemealone ",
+      "creator": "weloveditzzz",
+      "checks": [
+        {
+          "timestamp": "2026-03-02T12:55:58.243289+00:00",
+          "age_hours": 18.6,
+          "shares_per_hour": 6.3,
+          "views_per_hour": 1773,
+          "momentum": 968,
+          "delta_shares_per_hour": null
+        }
+      ],
+      "consecutive_negative_deltas": 0,
+      "alerted": false
+    },
+    {
+      "url": "https://www.tiktok.com/@cmdmenzzz/video/7612013761607650592",
+      "first_seen": "2026-03-02T12:55:58.243289+00:00",
+      "market": "\ud83c\uddfa\ud83c\uddf8 US ONLY",
+      "text": "It\u2019s the best thing\ud83e\udee3 #glowup #breakup #love #fyp #viral ",
+      "creator": "cmdmenzzz",
+      "checks": [
+        {
+          "timestamp": "2026-03-02T12:55:58.243289+00:00",
+          "age_hours": 40.6,
+          "shares_per_hour": 14.0,
+          "views_per_hour": 1757,
+          "momentum": 940,
           "delta_shares_per_hour": null
         }
       ],
