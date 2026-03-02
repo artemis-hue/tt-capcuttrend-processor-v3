@@ -1,42 +1,6 @@
 {
-  "last_updated": "2026-03-02T20:36:07.167233+00:00",
+  "last_updated": "2026-03-02T22:25:29.957261+00:00",
   "candidates": [
-    {
-      "url": "https://www.tiktok.com/@tranghieu0211/video/7612524036102425864",
-      "first_seen": "2026-03-02T16:43:28.280452+00:00",
-      "market": "\ud83c\uddec\ud83c\udde7 UK ONLY",
-      "text": "M\u1eabu n\u00e0y vui he hehee #changhiu #couple #CapCut ",
-      "creator": "tranghieu0211",
-      "checks": [
-        {
-          "timestamp": "2026-03-02T16:43:28.280452+00:00",
-          "age_hours": 11.4,
-          "shares_per_hour": 88.6,
-          "views_per_hour": 6227,
-          "momentum": 5327,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-03-02T18:44:56.403166+00:00",
-          "age_hours": 13.4,
-          "shares_per_hour": 75.2,
-          "views_per_hour": 5285,
-          "momentum": 4522,
-          "delta_shares_per_hour": -13.399999999999991
-        },
-        {
-          "timestamp": "2026-03-02T20:36:07.161938+00:00",
-          "age_hours": 15.2,
-          "shares_per_hour": 66.0,
-          "views_per_hour": 4643,
-          "momentum": 3973,
-          "delta_shares_per_hour": -9.200000000000003
-        }
-      ],
-      "consecutive_negative_deltas": 2,
-      "alerted": false,
-      "consecutive_misses": 0
-    },
     {
       "url": "https://www.tiktok.com/@unknowngirl_2.08/video/7612071934318169365",
       "first_seen": "2026-03-02T18:44:56.403166+00:00",
@@ -59,9 +23,17 @@
           "views_per_hour": 26975,
           "momentum": 10998,
           "delta_shares_per_hour": -3.0999999999999943
+        },
+        {
+          "timestamp": "2026-03-02T22:25:29.952898+00:00",
+          "age_hours": 46.3,
+          "shares_per_hour": 67.3,
+          "views_per_hour": 25913,
+          "momentum": 10565,
+          "delta_shares_per_hour": -2.700000000000003
         }
       ],
-      "consecutive_negative_deltas": 1,
+      "consecutive_negative_deltas": 2,
       "alerted": false,
       "consecutive_misses": 0
     },
@@ -87,9 +59,17 @@
           "views_per_hour": 1145,
           "momentum": 655,
           "delta_shares_per_hour": -2.700000000000003
+        },
+        {
+          "timestamp": "2026-03-02T22:25:29.952898+00:00",
+          "age_hours": 44.2,
+          "shares_per_hour": 56.9,
+          "views_per_hour": 1098,
+          "momentum": 628,
+          "delta_shares_per_hour": -2.3999999999999986
         }
       ],
-      "consecutive_negative_deltas": 1,
+      "consecutive_negative_deltas": 2,
       "alerted": false,
       "consecutive_misses": 0
     },
@@ -115,9 +95,17 @@
           "views_per_hour": 388,
           "momentum": 206,
           "delta_shares_per_hour": -1.0
+        },
+        {
+          "timestamp": "2026-03-02T22:25:29.952898+00:00",
+          "age_hours": 37.9,
+          "shares_per_hour": 17.8,
+          "views_per_hour": 369,
+          "momentum": 196,
+          "delta_shares_per_hour": -0.8999999999999986
         }
       ],
-      "consecutive_negative_deltas": 1,
+      "consecutive_negative_deltas": 2,
       "alerted": false,
       "consecutive_misses": 0
     },
@@ -143,9 +131,17 @@
           "views_per_hour": 1911,
           "momentum": 200,
           "delta_shares_per_hour": -0.40000000000000036
+        },
+        {
+          "timestamp": "2026-03-02T22:25:29.952898+00:00",
+          "age_hours": 40.8,
+          "shares_per_hour": 7.3,
+          "views_per_hour": 1825,
+          "momentum": 191,
+          "delta_shares_per_hour": -0.2999999999999998
         }
       ],
-      "consecutive_negative_deltas": 1,
+      "consecutive_negative_deltas": 2,
       "alerted": false,
       "consecutive_misses": 0
     },
@@ -171,9 +167,17 @@
           "views_per_hour": 305,
           "momentum": 139,
           "delta_shares_per_hour": -0.40000000000000036
+        },
+        {
+          "timestamp": "2026-03-02T22:25:29.952898+00:00",
+          "age_hours": 31.4,
+          "shares_per_hour": 5.3,
+          "views_per_hour": 288,
+          "momentum": 131,
+          "delta_shares_per_hour": -0.2999999999999998
         }
       ],
-      "consecutive_negative_deltas": 1,
+      "consecutive_negative_deltas": 2,
       "alerted": false,
       "consecutive_misses": 0
     },
@@ -191,10 +195,19 @@
           "views_per_hour": 9070,
           "momentum": 2195,
           "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-03-02T22:25:29.952898+00:00",
+          "age_hours": 48.6,
+          "shares_per_hour": 25.9,
+          "views_per_hour": 8729,
+          "momentum": 2113,
+          "delta_shares_per_hour": -1.1000000000000014
         }
       ],
-      "consecutive_negative_deltas": 0,
-      "alerted": false
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
     },
     {
       "url": "https://www.tiktok.com/@dark_mooon2/video/7612264366020300050",
@@ -209,6 +222,34 @@
           "shares_per_hour": 27.6,
           "views_per_hour": 3991,
           "momentum": 1495,
+          "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-03-02T22:25:29.952898+00:00",
+          "age_hours": 33.9,
+          "shares_per_hour": 26.1,
+          "views_per_hour": 3776,
+          "momentum": 1415,
+          "delta_shares_per_hour": -1.5
+        }
+      ],
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
+    },
+    {
+      "url": "https://www.tiktok.com/@prkcf/video/7612286672343977230",
+      "first_seen": "2026-03-02T22:25:29.952898+00:00",
+      "market": "\ud83c\uddfa\ud83c\uddf8 US ONLY",
+      "text": "Tutorial de creaci\u00f3n de im\u00e1genes de alta calidad con IA\uff0cHaz clic en el icono de CapCut de arriba para generar obras con el mismo estilo que el video.#Godpic #hypic #hypiccreator @hypic_global ",
+      "creator": "prkcf",
+      "checks": [
+        {
+          "timestamp": "2026-03-02T22:25:29.952898+00:00",
+          "age_hours": 32.4,
+          "shares_per_hour": 10.0,
+          "views_per_hour": 333,
+          "momentum": 116,
           "delta_shares_per_hour": null
         }
       ],
