@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-02T08:42:31.902817+00:00",
+  "last_updated": "2026-03-02T10:41:58.809011+00:00",
   "candidates": [
     {
       "url": "https://www.tiktok.com/@usa.uk545/video/7611800804776758558",
@@ -35,7 +35,7 @@
       ],
       "consecutive_negative_deltas": 2,
       "alerted": false,
-      "consecutive_misses": 1
+      "consecutive_misses": 2
     },
     {
       "url": "https://www.tiktok.com/@naicbnfeb4/video/7611905128697793812",
@@ -71,7 +71,7 @@
       ],
       "consecutive_negative_deltas": 2,
       "alerted": false,
-      "consecutive_misses": 1
+      "consecutive_misses": 2
     },
     {
       "url": "https://www.tiktok.com/@nq_tutorials/video/7611897580766727446",
@@ -107,7 +107,7 @@
       ],
       "consecutive_negative_deltas": 2,
       "alerted": false,
-      "consecutive_misses": 1
+      "consecutive_misses": 2
     },
     {
       "url": "https://www.tiktok.com/@huskistaken/video/7611656642500873503",
@@ -135,43 +135,7 @@
       ],
       "consecutive_negative_deltas": 1,
       "alerted": false,
-      "consecutive_misses": 1
-    },
-    {
-      "url": "https://www.tiktok.com/@emma341820/video/7611849333977238802",
-      "first_seen": "2026-03-01T20:25:08.137618+00:00",
-      "market": "\ud83c\udf10 BOTH",
-      "text": "ai filter effect tutorial How to make this Al beat-synced effect: Tutorial - just import your photos into CapCut and you're done! You can create a uniquely styled photo video. Free tutorial on creating Al beat- synced effects. How to make sync with rhythm effect with Al: Simple guide - just import your photos to CapCut and you're done! You can create a photo video with a unique design. Free Guide to Sync Effects Industry with Artificial Intelligence How does this effect work with Al? Explanation: All you have to do is add your pictures in CapCut and salvation! #gemini#AI_generated#capcutforus#capcut#capcutpioneer",
-      "creator": "emma341820",
-      "checks": [
-        {
-          "timestamp": "2026-03-01T20:25:08.137618+00:00",
-          "age_hours": 34.7,
-          "shares_per_hour": 62.6,
-          "views_per_hour": 5103,
-          "momentum": 1757,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-03-01T22:22:31.623824+00:00",
-          "age_hours": 36.7,
-          "shares_per_hour": 59.3,
-          "views_per_hour": 4831,
-          "momentum": 1663,
-          "delta_shares_per_hour": -3.3000000000000043
-        },
-        {
-          "timestamp": "2026-03-02T08:42:31.897718+00:00",
-          "age_hours": 47.0,
-          "shares_per_hour": 56.9,
-          "views_per_hour": 4311,
-          "momentum": 1512,
-          "delta_shares_per_hour": -2.3999999999999986
-        }
-      ],
-      "consecutive_negative_deltas": 2,
-      "alerted": false,
-      "consecutive_misses": 0
+      "consecutive_misses": 2
     },
     {
       "url": "https://www.tiktok.com/@ronakkumar6930/video/7612002164742901022",
@@ -199,7 +163,7 @@
       ],
       "consecutive_negative_deltas": 1,
       "alerted": false,
-      "consecutive_misses": 1
+      "consecutive_misses": 2
     },
     {
       "url": "https://www.tiktok.com/@missdong775/video/7611860226475822350",
@@ -215,10 +179,19 @@
           "views_per_hour": 222686,
           "momentum": 24282,
           "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-03-02T10:41:58.804584+00:00",
+          "age_hours": 48.2,
+          "shares_per_hour": 156.4,
+          "views_per_hour": 213497,
+          "momentum": 23280,
+          "delta_shares_per_hour": -6.699999999999989
         }
       ],
-      "consecutive_negative_deltas": 0,
-      "alerted": false
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
     },
     {
       "url": "https://www.tiktok.com/@tranghieu0211/video/7612524036102425864",
@@ -233,6 +206,34 @@
           "shares_per_hour": 300.2,
           "views_per_hour": 21108,
           "momentum": 18060,
+          "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-03-02T10:41:58.804584+00:00",
+          "age_hours": 5.3,
+          "shares_per_hour": 188.4,
+          "views_per_hour": 13246,
+          "momentum": 11333,
+          "delta_shares_per_hour": -111.79999999999998
+        }
+      ],
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
+    },
+    {
+      "url": "https://www.tiktok.com/@unknowngirl_2.08/video/7612071934318169365",
+      "first_seen": "2026-03-02T10:41:58.804584+00:00",
+      "market": "\ud83c\udf10 BOTH",
+      "text": "1 month of hard work and I\u2019m still making progress\ud83e\udef6\u270c\ufe0f #workout #motivation #1monthago #glowup? #fyp",
+      "creator": "unknowngirl_2.08",
+      "checks": [
+        {
+          "timestamp": "2026-03-02T10:41:58.804584+00:00",
+          "age_hours": 34.6,
+          "shares_per_hour": 90.1,
+          "views_per_hour": 34698,
+          "momentum": 14147,
           "delta_shares_per_hour": null
         }
       ],
