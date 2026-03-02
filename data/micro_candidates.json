@@ -1,78 +1,6 @@
 {
-  "last_updated": "2026-03-02T12:55:58.247930+00:00",
+  "last_updated": "2026-03-02T14:41:08.011997+00:00",
   "candidates": [
-    {
-      "url": "https://www.tiktok.com/@missdong775/video/7611860226475822350",
-      "first_seen": "2026-03-02T08:42:31.897718+00:00",
-      "market": "\ud83c\udf10 BOTH",
-      "text": "#cat #cats #ai #fpy #catsoftiktok ",
-      "creator": "missdong775",
-      "checks": [
-        {
-          "timestamp": "2026-03-02T08:42:31.897718+00:00",
-          "age_hours": 46.3,
-          "shares_per_hour": 163.1,
-          "views_per_hour": 222686,
-          "momentum": 24282,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-03-02T10:41:58.804584+00:00",
-          "age_hours": 48.2,
-          "shares_per_hour": 156.4,
-          "views_per_hour": 213497,
-          "momentum": 23280,
-          "delta_shares_per_hour": -6.699999999999989
-        },
-        {
-          "timestamp": "2026-03-02T12:55:58.243289+00:00",
-          "age_hours": 50.5,
-          "shares_per_hour": 149.5,
-          "views_per_hour": 204052,
-          "momentum": 22250,
-          "delta_shares_per_hour": -6.900000000000006
-        }
-      ],
-      "consecutive_negative_deltas": 2,
-      "alerted": false,
-      "consecutive_misses": 0
-    },
-    {
-      "url": "https://www.tiktok.com/@tranghieu0211/video/7612524036102425864",
-      "first_seen": "2026-03-02T08:42:31.897718+00:00",
-      "market": "\ud83c\uddec\ud83c\udde7 UK ONLY",
-      "text": "M\u1eabu n\u00e0y vui he hehee #changhiu #couple #CapCut ",
-      "creator": "tranghieu0211",
-      "checks": [
-        {
-          "timestamp": "2026-03-02T08:42:31.897718+00:00",
-          "age_hours": 3.4,
-          "shares_per_hour": 300.2,
-          "views_per_hour": 21108,
-          "momentum": 18060,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-03-02T10:41:58.804584+00:00",
-          "age_hours": 5.3,
-          "shares_per_hour": 188.4,
-          "views_per_hour": 13246,
-          "momentum": 11333,
-          "delta_shares_per_hour": -111.79999999999998
-        },
-        {
-          "timestamp": "2026-03-02T12:55:58.243289+00:00",
-          "age_hours": 7.6,
-          "shares_per_hour": 132.9,
-          "views_per_hour": 9342,
-          "momentum": 7993,
-          "delta_shares_per_hour": -55.5
-        }
-      ],
-      "consecutive_negative_deltas": 2,
-      "alerted": false,
-      "consecutive_misses": 0
-    },
     {
       "url": "https://www.tiktok.com/@unknowngirl_2.08/video/7612071934318169365",
       "first_seen": "2026-03-02T10:41:58.804584+00:00",
@@ -95,9 +23,17 @@
           "views_per_hour": 32594,
           "momentum": 13289,
           "delta_shares_per_hour": -5.5
+        },
+        {
+          "timestamp": "2026-03-02T14:41:08.007148+00:00",
+          "age_hours": 38.6,
+          "shares_per_hour": 80.8,
+          "views_per_hour": 31112,
+          "momentum": 12685,
+          "delta_shares_per_hour": -3.799999999999997
         }
       ],
-      "consecutive_negative_deltas": 1,
+      "consecutive_negative_deltas": 2,
       "alerted": false,
       "consecutive_misses": 0
     },
@@ -115,10 +51,19 @@
           "views_per_hour": 10850,
           "momentum": 2626,
           "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-03-02T14:41:08.007148+00:00",
+          "age_hours": 40.8,
+          "shares_per_hour": 30.9,
+          "views_per_hour": 10384,
+          "momentum": 2513,
+          "delta_shares_per_hour": -1.3000000000000043
         }
       ],
-      "consecutive_negative_deltas": 0,
-      "alerted": false
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
     },
     {
       "url": "https://www.tiktok.com/@dark_mooon2/video/7612264366020300050",
@@ -134,10 +79,19 @@
           "views_per_hour": 5247,
           "momentum": 1966,
           "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-03-02T14:41:08.007148+00:00",
+          "age_hours": 26.1,
+          "shares_per_hour": 33.9,
+          "views_per_hour": 4895,
+          "momentum": 1834,
+          "delta_shares_per_hour": -2.3999999999999986
         }
       ],
-      "consecutive_negative_deltas": 0,
-      "alerted": false
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
     },
     {
       "url": "https://www.tiktok.com/@stargirl_11n/video/7611988752822553864",
@@ -153,10 +107,19 @@
           "views_per_hour": 5220,
           "momentum": 1909,
           "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-03-02T14:41:08.007148+00:00",
+          "age_hours": 43.9,
+          "shares_per_hour": 8.3,
+          "views_per_hour": 5012,
+          "momentum": 1833,
+          "delta_shares_per_hour": -0.3999999999999986
         }
       ],
-      "consecutive_negative_deltas": 0,
-      "alerted": false
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
     },
     {
       "url": "https://www.tiktok.com/@weloveditzzz/video/7612354283874307341",
@@ -172,10 +135,19 @@
           "views_per_hour": 1773,
           "momentum": 968,
           "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-03-02T14:41:08.007148+00:00",
+          "age_hours": 20.3,
+          "shares_per_hour": 5.8,
+          "views_per_hour": 1620,
+          "momentum": 885,
+          "delta_shares_per_hour": -0.5
         }
       ],
-      "consecutive_negative_deltas": 0,
-      "alerted": false
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
     },
     {
       "url": "https://www.tiktok.com/@cmdmenzzz/video/7612013761607650592",
@@ -190,6 +162,53 @@
           "shares_per_hour": 14.0,
           "views_per_hour": 1757,
           "momentum": 940,
+          "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-03-02T14:41:08.007148+00:00",
+          "age_hours": 42.3,
+          "shares_per_hour": 13.4,
+          "views_per_hour": 1684,
+          "momentum": 902,
+          "delta_shares_per_hour": -0.5999999999999996
+        }
+      ],
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
+    },
+    {
+      "url": "https://www.tiktok.com/@dhia_graphic/video/7612013871531904264",
+      "first_seen": "2026-03-02T14:41:08.007148+00:00",
+      "market": "\ud83c\udf10 BOTH",
+      "text": "Ai detectors \ud83e\udd14\n\u0628\u0627\u0634 \u0627\u0644\u0646\u0635 \u064a\u0628\u0627\u0646 \u0637\u0628\u064a\u0639\u064a \u0648\u0645\u0643\u062a\u0648\u0628 \u0645\u0646 \u0625\u0646\u0633\u0627\u0646 \u0645\u0648\u0634 \u0645\u0646 \u0630\u0643\u0627\u0621 \u0627\u0635\u0637\u0646\u0627\u0639\u064a\u060c \u0644\u0627\u0632\u0645\u0646\u0627 \u062a\u0639\u0645\u0644\u0648 Humanizing.\n.\nTo make the text sound natural and written by a human not by AI we need to humanize it.\n#tunisia\ud83c\uddf9\ud83c\uddf3 #ai #chatgpt #foryou #fyp ",
+      "creator": "dhia_graphic",
+      "checks": [
+        {
+          "timestamp": "2026-03-02T14:41:08.007148+00:00",
+          "age_hours": 42.3,
+          "shares_per_hour": 28.0,
+          "views_per_hour": 5405,
+          "momentum": 878,
+          "delta_shares_per_hour": null
+        }
+      ],
+      "consecutive_negative_deltas": 0,
+      "alerted": false
+    },
+    {
+      "url": "https://www.tiktok.com/@cxscko315496/video/7611958467615640862",
+      "first_seen": "2026-03-02T14:41:08.007148+00:00",
+      "market": "\ud83c\udf10 BOTH",
+      "text": "Let's make the same template together. It's super easy. #capcutforus #capcut #capcutpioneer",
+      "creator": "cxscko315496",
+      "checks": [
+        {
+          "timestamp": "2026-03-02T14:41:08.007148+00:00",
+          "age_hours": 45.9,
+          "shares_per_hour": 58.3,
+          "views_per_hour": 8356,
+          "momentum": 821,
           "delta_shares_per_hour": null
         }
       ],
