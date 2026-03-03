@@ -1,78 +1,6 @@
 {
-  "last_updated": "2026-03-03T18:44:30.161744+00:00",
+  "last_updated": "2026-03-03T20:30:56.835460+00:00",
   "candidates": [
-    {
-      "url": "https://www.tiktok.com/@hvn_scale/video/7612320001533414658",
-      "first_seen": "2026-03-03T14:41:59.125333+00:00",
-      "market": "\ud83c\uddec\ud83c\udde7 UK ONLY",
-      "text": "R\u00e9ponse \u00e0 @\ud83c\udf11  Qui pour le prochain ?\ud83d\udc40 #jacksparrow #ia ",
-      "creator": "hvn_scale",
-      "checks": [
-        {
-          "timestamp": "2026-03-03T14:41:59.125333+00:00",
-          "age_hours": 46.5,
-          "shares_per_hour": 8.0,
-          "views_per_hour": 15149,
-          "momentum": 1282,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-03-03T16:44:41.200904+00:00",
-          "age_hours": 48.6,
-          "shares_per_hour": 7.7,
-          "views_per_hour": 14512,
-          "momentum": 1228,
-          "delta_shares_per_hour": -0.2999999999999998
-        },
-        {
-          "timestamp": "2026-03-03T18:44:30.157230+00:00",
-          "age_hours": 50.6,
-          "shares_per_hour": 7.4,
-          "views_per_hour": 13939,
-          "momentum": 1179,
-          "delta_shares_per_hour": -0.2999999999999998
-        }
-      ],
-      "consecutive_negative_deltas": 2,
-      "alerted": false,
-      "consecutive_misses": 0
-    },
-    {
-      "url": "https://www.tiktok.com/@jpia27/video/7612425767204523286",
-      "first_seen": "2026-03-03T14:41:59.125333+00:00",
-      "market": "\ud83c\udf10 BOTH",
-      "text": "Ah bon?#ia #reel #kiproco @kiproco\u3299\ufe0f ",
-      "creator": "jpia27",
-      "checks": [
-        {
-          "timestamp": "2026-03-03T14:41:59.125333+00:00",
-          "age_hours": 39.7,
-          "shares_per_hour": 14.2,
-          "views_per_hour": 9886,
-          "momentum": 1260,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-03-03T16:44:41.200904+00:00",
-          "age_hours": 41.7,
-          "shares_per_hour": 13.5,
-          "views_per_hour": 9402,
-          "momentum": 1199,
-          "delta_shares_per_hour": -0.6999999999999993
-        },
-        {
-          "timestamp": "2026-03-03T18:44:30.157230+00:00",
-          "age_hours": 43.7,
-          "shares_per_hour": 12.9,
-          "views_per_hour": 8973,
-          "momentum": 1144,
-          "delta_shares_per_hour": -0.5999999999999996
-        }
-      ],
-      "consecutive_negative_deltas": 2,
-      "alerted": false,
-      "consecutive_misses": 0
-    },
     {
       "url": "https://www.tiktok.com/@chloeabeth4545/video/7612606959253982484",
       "first_seen": "2026-03-03T18:44:30.157230+00:00",
@@ -87,10 +15,19 @@
           "views_per_hour": 16094,
           "momentum": 5831,
           "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-03-03T20:30:56.831040+00:00",
+          "age_hours": 33.8,
+          "shares_per_hour": 18.9,
+          "views_per_hour": 15249,
+          "momentum": 5525,
+          "delta_shares_per_hour": -1.1000000000000014
         }
       ],
-      "consecutive_negative_deltas": 0,
-      "alerted": false
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
     },
     {
       "url": "https://www.tiktok.com/@mvdraa/video/7612645280546147606",
@@ -106,10 +43,19 @@
           "views_per_hour": 3672,
           "momentum": 916,
           "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-03-03T20:30:56.831040+00:00",
+          "age_hours": 31.3,
+          "shares_per_hour": 15.5,
+          "views_per_hour": 3464,
+          "momentum": 864,
+          "delta_shares_per_hour": -0.8999999999999986
         }
       ],
-      "consecutive_negative_deltas": 0,
-      "alerted": false
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
     },
     {
       "url": "https://www.tiktok.com/@l.x5840/video/7612686981222370591",
@@ -125,10 +71,19 @@
           "views_per_hour": 603,
           "momentum": 192,
           "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-03-03T20:30:56.831040+00:00",
+          "age_hours": 28.6,
+          "shares_per_hour": 8.2,
+          "views_per_hour": 566,
+          "momentum": 180,
+          "delta_shares_per_hour": -0.6000000000000014
         }
       ],
-      "consecutive_negative_deltas": 0,
-      "alerted": false
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
     },
     {
       "url": "https://www.tiktok.com/@zzyue0609/video/7612596321316343071",
@@ -144,10 +99,19 @@
           "views_per_hour": 283,
           "momentum": 189,
           "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-03-03T20:30:56.831040+00:00",
+          "age_hours": 34.5,
+          "shares_per_hour": 15.0,
+          "views_per_hour": 269,
+          "momentum": 180,
+          "delta_shares_per_hour": -0.8000000000000007
         }
       ],
-      "consecutive_negative_deltas": 0,
-      "alerted": false
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
     },
     {
       "url": "https://www.tiktok.com/@ayhai.168/video/7612594664364854546",
@@ -163,10 +127,19 @@
           "views_per_hour": 210,
           "momentum": 108,
           "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-03-03T20:30:56.831040+00:00",
+          "age_hours": 34.6,
+          "shares_per_hour": 9.1,
+          "views_per_hour": 199,
+          "momentum": 103,
+          "delta_shares_per_hour": -0.5
         }
       ],
-      "consecutive_negative_deltas": 0,
-      "alerted": false
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
     },
     {
       "url": "https://www.tiktok.com/@user8136617941617/video/7612495487207230734",
@@ -181,6 +154,53 @@
           "shares_per_hour": 9.2,
           "views_per_hour": 254,
           "momentum": 107,
+          "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-03-03T20:30:56.831040+00:00",
+          "age_hours": 41.0,
+          "shares_per_hour": 8.8,
+          "views_per_hour": 243,
+          "momentum": 102,
+          "delta_shares_per_hour": -0.3999999999999986
+        }
+      ],
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
+    },
+    {
+      "url": "https://www.tiktok.com/@abdoulaye79.com/video/7612812595027823893",
+      "first_seen": "2026-03-03T20:30:56.831040+00:00",
+      "market": "\ud83c\udf10 BOTH",
+      "text": "",
+      "creator": "abdoulaye79.com",
+      "checks": [
+        {
+          "timestamp": "2026-03-03T20:30:56.831040+00:00",
+          "age_hours": 20.5,
+          "shares_per_hour": 51.1,
+          "views_per_hour": 3254,
+          "momentum": 2167,
+          "delta_shares_per_hour": null
+        }
+      ],
+      "consecutive_negative_deltas": 0,
+      "alerted": false
+    },
+    {
+      "url": "https://www.tiktok.com/@sheluvnel/video/7612758403579956510",
+      "first_seen": "2026-03-03T20:30:56.831040+00:00",
+      "market": "\ud83c\uddec\ud83c\udde7 UK ONLY",
+      "text": "\ud83d\ude02\ud83d\ude02#viral #fyp #ragebait #ai #prank ",
+      "creator": "sheluvnel",
+      "checks": [
+        {
+          "timestamp": "2026-03-03T20:30:56.831040+00:00",
+          "age_hours": 24.0,
+          "shares_per_hour": 64.8,
+          "views_per_hour": 5417,
+          "momentum": 1476,
           "delta_shares_per_hour": null
         }
       ],
