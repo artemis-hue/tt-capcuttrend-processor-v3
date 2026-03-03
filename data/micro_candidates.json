@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-03T20:30:56.835460+00:00",
+  "last_updated": "2026-03-03T22:27:09.444952+00:00",
   "candidates": [
     {
       "url": "https://www.tiktok.com/@chloeabeth4545/video/7612606959253982484",
@@ -23,9 +23,17 @@
           "views_per_hour": 15249,
           "momentum": 5525,
           "delta_shares_per_hour": -1.1000000000000014
+        },
+        {
+          "timestamp": "2026-03-03T22:27:09.444814+00:00",
+          "age_hours": 35.7,
+          "shares_per_hour": 17.9,
+          "views_per_hour": 14422,
+          "momentum": 5226,
+          "delta_shares_per_hour": -1.0
         }
       ],
-      "consecutive_negative_deltas": 1,
+      "consecutive_negative_deltas": 2,
       "alerted": false,
       "consecutive_misses": 0
     },
@@ -51,9 +59,17 @@
           "views_per_hour": 3464,
           "momentum": 864,
           "delta_shares_per_hour": -0.8999999999999986
+        },
+        {
+          "timestamp": "2026-03-03T22:27:09.444814+00:00",
+          "age_hours": 33.3,
+          "shares_per_hour": 14.6,
+          "views_per_hour": 3262,
+          "momentum": 813,
+          "delta_shares_per_hour": -0.9000000000000004
         }
       ],
-      "consecutive_negative_deltas": 1,
+      "consecutive_negative_deltas": 2,
       "alerted": false,
       "consecutive_misses": 0
     },
@@ -79,9 +95,17 @@
           "views_per_hour": 566,
           "momentum": 180,
           "delta_shares_per_hour": -0.6000000000000014
+        },
+        {
+          "timestamp": "2026-03-03T22:27:09.444814+00:00",
+          "age_hours": 30.6,
+          "shares_per_hour": 7.7,
+          "views_per_hour": 530,
+          "momentum": 169,
+          "delta_shares_per_hour": -0.4999999999999991
         }
       ],
-      "consecutive_negative_deltas": 1,
+      "consecutive_negative_deltas": 2,
       "alerted": false,
       "consecutive_misses": 0
     },
@@ -107,9 +131,17 @@
           "views_per_hour": 269,
           "momentum": 180,
           "delta_shares_per_hour": -0.8000000000000007
+        },
+        {
+          "timestamp": "2026-03-03T22:27:09.444814+00:00",
+          "age_hours": 36.4,
+          "shares_per_hour": 14.2,
+          "views_per_hour": 254,
+          "momentum": 170,
+          "delta_shares_per_hour": -0.8000000000000007
         }
       ],
-      "consecutive_negative_deltas": 1,
+      "consecutive_negative_deltas": 2,
       "alerted": false,
       "consecutive_misses": 0
     },
@@ -135,9 +167,17 @@
           "views_per_hour": 199,
           "momentum": 103,
           "delta_shares_per_hour": -0.5
+        },
+        {
+          "timestamp": "2026-03-03T22:27:09.444814+00:00",
+          "age_hours": 36.5,
+          "shares_per_hour": 8.6,
+          "views_per_hour": 188,
+          "momentum": 97,
+          "delta_shares_per_hour": -0.5
         }
       ],
-      "consecutive_negative_deltas": 1,
+      "consecutive_negative_deltas": 2,
       "alerted": false,
       "consecutive_misses": 0
     },
@@ -163,9 +203,17 @@
           "views_per_hour": 243,
           "momentum": 102,
           "delta_shares_per_hour": -0.3999999999999986
+        },
+        {
+          "timestamp": "2026-03-03T22:27:09.444814+00:00",
+          "age_hours": 42.9,
+          "shares_per_hour": 8.4,
+          "views_per_hour": 232,
+          "momentum": 98,
+          "delta_shares_per_hour": -0.40000000000000036
         }
       ],
-      "consecutive_negative_deltas": 1,
+      "consecutive_negative_deltas": 2,
       "alerted": false,
       "consecutive_misses": 0
     },
@@ -183,10 +231,19 @@
           "views_per_hour": 3254,
           "momentum": 2167,
           "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-03-03T22:27:09.444814+00:00",
+          "age_hours": 22.4,
+          "shares_per_hour": 46.7,
+          "views_per_hour": 2973,
+          "momentum": 1980,
+          "delta_shares_per_hour": -4.399999999999999
         }
       ],
-      "consecutive_negative_deltas": 0,
-      "alerted": false
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
     },
     {
       "url": "https://www.tiktok.com/@sheluvnel/video/7612758403579956510",
@@ -202,10 +259,19 @@
           "views_per_hour": 5417,
           "momentum": 1476,
           "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-03-03T22:27:09.444814+00:00",
+          "age_hours": 25.9,
+          "shares_per_hour": 59.9,
+          "views_per_hour": 5012,
+          "momentum": 1366,
+          "delta_shares_per_hour": -4.899999999999999
         }
       ],
-      "consecutive_negative_deltas": 0,
-      "alerted": false
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
     }
   ]
 }
