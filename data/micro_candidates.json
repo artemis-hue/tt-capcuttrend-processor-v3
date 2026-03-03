@@ -1,222 +1,6 @@
 {
-  "last_updated": "2026-03-03T16:44:41.201048+00:00",
+  "last_updated": "2026-03-03T18:44:30.161744+00:00",
   "candidates": [
-    {
-      "url": "https://www.tiktok.com/@abdoulaye79.com/video/7612812595027823893",
-      "first_seen": "2026-03-03T12:54:42.108543+00:00",
-      "market": "\ud83c\udf10 BOTH",
-      "text": "",
-      "creator": "abdoulaye79.com",
-      "checks": [
-        {
-          "timestamp": "2026-03-03T12:54:42.108543+00:00",
-          "age_hours": 12.9,
-          "shares_per_hour": 81.2,
-          "views_per_hour": 5173,
-          "momentum": 3446,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-03-03T14:41:59.125333+00:00",
-          "age_hours": 14.7,
-          "shares_per_hour": 71.3,
-          "views_per_hour": 4543,
-          "momentum": 3026,
-          "delta_shares_per_hour": -9.900000000000006
-        },
-        {
-          "timestamp": "2026-03-03T16:44:41.200904+00:00",
-          "age_hours": 16.7,
-          "shares_per_hour": 62.6,
-          "views_per_hour": 3987,
-          "momentum": 2656,
-          "delta_shares_per_hour": -8.699999999999996
-        }
-      ],
-      "consecutive_negative_deltas": 2,
-      "alerted": false,
-      "consecutive_misses": 0
-    },
-    {
-      "url": "https://www.tiktok.com/@sheluvnel/video/7612758403579956510",
-      "first_seen": "2026-03-03T12:54:42.108543+00:00",
-      "market": "\ud83c\uddec\ud83c\udde7 UK ONLY",
-      "text": "\ud83d\ude02\ud83d\ude02#viral #fyp #ragebait #ai #prank ",
-      "creator": "sheluvnel",
-      "checks": [
-        {
-          "timestamp": "2026-03-03T12:54:42.108543+00:00",
-          "age_hours": 16.4,
-          "shares_per_hour": 94.8,
-          "views_per_hour": 7930,
-          "momentum": 2161,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-03-03T14:41:59.125333+00:00",
-          "age_hours": 18.2,
-          "shares_per_hour": 85.5,
-          "views_per_hour": 7150,
-          "momentum": 1949,
-          "delta_shares_per_hour": -9.299999999999997
-        },
-        {
-          "timestamp": "2026-03-03T16:44:41.200904+00:00",
-          "age_hours": 20.2,
-          "shares_per_hour": 76.8,
-          "views_per_hour": 6427,
-          "momentum": 1752,
-          "delta_shares_per_hour": -8.700000000000003
-        }
-      ],
-      "consecutive_negative_deltas": 2,
-      "alerted": false,
-      "consecutive_misses": 0
-    },
-    {
-      "url": "https://www.tiktok.com/@acnel.yg0/video/7612312772713401630",
-      "first_seen": "2026-03-03T12:54:42.108543+00:00",
-      "market": "\ud83c\udf10 BOTH",
-      "text": "#fyp #viral #lightskin #glowup",
-      "creator": "acnel.yg0",
-      "checks": [
-        {
-          "timestamp": "2026-03-03T12:54:42.108543+00:00",
-          "age_hours": 45.2,
-          "shares_per_hour": 15.2,
-          "views_per_hour": 3830,
-          "momentum": 1974,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-03-03T14:41:59.125333+00:00",
-          "age_hours": 47.0,
-          "shares_per_hour": 14.6,
-          "views_per_hour": 3684,
-          "momentum": 1899,
-          "delta_shares_per_hour": -0.5999999999999996
-        },
-        {
-          "timestamp": "2026-03-03T16:44:41.200904+00:00",
-          "age_hours": 49.0,
-          "shares_per_hour": 14.0,
-          "views_per_hour": 3531,
-          "momentum": 1820,
-          "delta_shares_per_hour": -0.5999999999999996
-        }
-      ],
-      "consecutive_negative_deltas": 2,
-      "alerted": false,
-      "consecutive_misses": 0
-    },
-    {
-      "url": "https://www.tiktok.com/@monk_template/video/7612335566431980807",
-      "first_seen": "2026-03-03T12:54:42.108543+00:00",
-      "market": "\ud83c\udf10 BOTH",
-      "text": "some clips #templatecapcut \n\n#capcutpioneer #pioneertemplate #CapCut ",
-      "creator": "monk_template",
-      "checks": [
-        {
-          "timestamp": "2026-03-03T12:54:42.108543+00:00",
-          "age_hours": 43.7,
-          "shares_per_hour": 14.7,
-          "views_per_hour": 16888,
-          "momentum": 1783,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-03-03T14:41:59.125333+00:00",
-          "age_hours": 45.5,
-          "shares_per_hour": 14.1,
-          "views_per_hour": 16224,
-          "momentum": 1713,
-          "delta_shares_per_hour": -0.5999999999999996
-        },
-        {
-          "timestamp": "2026-03-03T16:44:41.200904+00:00",
-          "age_hours": 47.6,
-          "shares_per_hour": 13.5,
-          "views_per_hour": 15527,
-          "momentum": 1639,
-          "delta_shares_per_hour": -0.5999999999999996
-        }
-      ],
-      "consecutive_negative_deltas": 2,
-      "alerted": false,
-      "consecutive_misses": 0
-    },
-    {
-      "url": "https://www.tiktok.com/@just._j0seph/video/7612476752346008845",
-      "first_seen": "2026-03-03T12:54:42.108543+00:00",
-      "market": "\ud83c\udf10 BOTH",
-      "text": "#fyp #viral #real #trending #glowup ",
-      "creator": "just._j0seph",
-      "checks": [
-        {
-          "timestamp": "2026-03-03T12:54:42.108543+00:00",
-          "age_hours": 34.6,
-          "shares_per_hour": 15.4,
-          "views_per_hour": 2533,
-          "momentum": 1661,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-03-03T14:41:59.125333+00:00",
-          "age_hours": 36.4,
-          "shares_per_hour": 14.6,
-          "views_per_hour": 2409,
-          "momentum": 1579,
-          "delta_shares_per_hour": -0.8000000000000007
-        },
-        {
-          "timestamp": "2026-03-03T16:44:41.200904+00:00",
-          "age_hours": 38.4,
-          "shares_per_hour": 13.8,
-          "views_per_hour": 2281,
-          "momentum": 1495,
-          "delta_shares_per_hour": -0.7999999999999989
-        }
-      ],
-      "consecutive_negative_deltas": 2,
-      "alerted": false,
-      "consecutive_misses": 0
-    },
-    {
-      "url": "https://www.tiktok.com/@weloveditzzz/video/7612700831711890702",
-      "first_seen": "2026-03-03T12:54:42.108543+00:00",
-      "market": "\ud83c\udf10 BOTH",
-      "text": "TEMPLATE\ud83d\udccd#CapCut #capcutpioneer #pioneertemplate #templatecapcut #capcuttemplate @sabri ",
-      "creator": "weloveditzzz",
-      "checks": [
-        {
-          "timestamp": "2026-03-03T12:54:42.108543+00:00",
-          "age_hours": 20.1,
-          "shares_per_hour": 8.5,
-          "views_per_hour": 2774,
-          "momentum": 1558,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-03-03T14:41:59.125333+00:00",
-          "age_hours": 21.9,
-          "shares_per_hour": 7.8,
-          "views_per_hour": 2548,
-          "momentum": 1431,
-          "delta_shares_per_hour": -0.7000000000000002
-        },
-        {
-          "timestamp": "2026-03-03T16:44:41.200904+00:00",
-          "age_hours": 23.9,
-          "shares_per_hour": 7.1,
-          "views_per_hour": 2330,
-          "momentum": 1309,
-          "delta_shares_per_hour": -0.7000000000000002
-        }
-      ],
-      "consecutive_negative_deltas": 2,
-      "alerted": false,
-      "consecutive_misses": 0
-    },
     {
       "url": "https://www.tiktok.com/@hvn_scale/video/7612320001533414658",
       "first_seen": "2026-03-03T14:41:59.125333+00:00",
@@ -239,9 +23,17 @@
           "views_per_hour": 14512,
           "momentum": 1228,
           "delta_shares_per_hour": -0.2999999999999998
+        },
+        {
+          "timestamp": "2026-03-03T18:44:30.157230+00:00",
+          "age_hours": 50.6,
+          "shares_per_hour": 7.4,
+          "views_per_hour": 13939,
+          "momentum": 1179,
+          "delta_shares_per_hour": -0.2999999999999998
         }
       ],
-      "consecutive_negative_deltas": 1,
+      "consecutive_negative_deltas": 2,
       "alerted": false,
       "consecutive_misses": 0
     },
@@ -267,11 +59,133 @@
           "views_per_hour": 9402,
           "momentum": 1199,
           "delta_shares_per_hour": -0.6999999999999993
+        },
+        {
+          "timestamp": "2026-03-03T18:44:30.157230+00:00",
+          "age_hours": 43.7,
+          "shares_per_hour": 12.9,
+          "views_per_hour": 8973,
+          "momentum": 1144,
+          "delta_shares_per_hour": -0.5999999999999996
         }
       ],
-      "consecutive_negative_deltas": 1,
+      "consecutive_negative_deltas": 2,
       "alerted": false,
       "consecutive_misses": 0
+    },
+    {
+      "url": "https://www.tiktok.com/@chloeabeth4545/video/7612606959253982484",
+      "first_seen": "2026-03-03T18:44:30.157230+00:00",
+      "market": "\ud83c\udf10 BOTH",
+      "text": "Stop comparing yourself to people you see online- it\u2019s literally their JOB to look good \n\n#glowup #beforeandafter #transformation #glowuptips #weightlossglowup  ",
+      "creator": "chloeabeth4545",
+      "checks": [
+        {
+          "timestamp": "2026-03-03T18:44:30.157230+00:00",
+          "age_hours": 32.0,
+          "shares_per_hour": 20.0,
+          "views_per_hour": 16094,
+          "momentum": 5831,
+          "delta_shares_per_hour": null
+        }
+      ],
+      "consecutive_negative_deltas": 0,
+      "alerted": false
+    },
+    {
+      "url": "https://www.tiktok.com/@mvdraa/video/7612645280546147606",
+      "first_seen": "2026-03-03T18:44:30.157230+00:00",
+      "market": "\ud83c\udf10 BOTH",
+      "text": "Very aggressive shake tutorial #capcut #capcutpioneer #fyp #tutorial #capcutedit ",
+      "creator": "mvdraa",
+      "checks": [
+        {
+          "timestamp": "2026-03-03T18:44:30.157230+00:00",
+          "age_hours": 29.5,
+          "shares_per_hour": 16.4,
+          "views_per_hour": 3672,
+          "momentum": 916,
+          "delta_shares_per_hour": null
+        }
+      ],
+      "consecutive_negative_deltas": 0,
+      "alerted": false
+    },
+    {
+      "url": "https://www.tiktok.com/@l.x5840/video/7612686981222370591",
+      "first_seen": "2026-03-03T18:44:30.157230+00:00",
+      "market": "\ud83c\udf10 BOTH",
+      "text": "Don\u2019t play with me baby dance #capcut #capcutpioneer #pioneertemplate #babydance #dontplaywithme ",
+      "creator": "l.x5840",
+      "checks": [
+        {
+          "timestamp": "2026-03-03T18:44:30.157230+00:00",
+          "age_hours": 26.8,
+          "shares_per_hour": 8.8,
+          "views_per_hour": 603,
+          "momentum": 192,
+          "delta_shares_per_hour": null
+        }
+      ],
+      "consecutive_negative_deltas": 0,
+      "alerted": false
+    },
+    {
+      "url": "https://www.tiktok.com/@zzyue0609/video/7612596321316343071",
+      "first_seen": "2026-03-03T18:44:30.157230+00:00",
+      "market": "\ud83c\udf10 BOTH",
+      "text": "~\ud83d\udc8b\ud83d\udcb0how to do the baby dance tutorial how to find ai sway dance effect Baby Dancing Ai Tutorial ai sway dance effect filter ai sway dance filter ai sway dance effect photo ai sway dance effect baby ai sway dance effect tutorial ai baby dance effect baby ai sway dance effect template ai sway baby effects ai sway dance effects tiktok ai sway dance effect video ai sway baby dance effect ai sway dance filter effect 2026 ai generated sway dance effect ai sway dance effect prompt ai sway dance ai dance filter effect ai dance filter tutorial template ai dance filter tutorial capcut ai dance filter ai dance filter tutorial no templete ai dance filter effect ai dance filter baby tutorial ai baby dance generator baby dancing ai tutorial template baby dancing ai template baby dancing ai tutorials boo boo baby dancing ai tutorial boo headband baby dancing ai video baby dancing ai to boo tutorial #AIBabyDance #BabyDanceFilter #SwayDanceEffect\n#capcut #capcutpioneer ",
+      "creator": "zzyue0609",
+      "checks": [
+        {
+          "timestamp": "2026-03-03T18:44:30.157230+00:00",
+          "age_hours": 32.7,
+          "shares_per_hour": 15.8,
+          "views_per_hour": 283,
+          "momentum": 189,
+          "delta_shares_per_hour": null
+        }
+      ],
+      "consecutive_negative_deltas": 0,
+      "alerted": false
+    },
+    {
+      "url": "https://www.tiktok.com/@ayhai.168/video/7612594664364854546",
+      "first_seen": "2026-03-03T18:44:30.157230+00:00",
+      "market": "\ud83c\udf10 BOTH",
+      "text": "Free AI Template Link\ud83d\udc47\ud83d\udc47\ud83d\udc47\nPenyunting Kreatif AI, Penyunting Foto AI, AI Creative Editing, AI Photo Editing, Google Gemini AI, Prompt, AI Prompt, ai image generation algorithms, ai Prompt, ai editing photo effect, Filter Foto AI, Al Foto Efek, Filter ai foto wajah, Gunakan filter ai foto ini, Editor foto Alat edit foto efek filter, AI PromptFoto, AIgenerated,ChatGPT, Prompt\nBuat foto serupa dengan satu klik\nsecara gratis, klik hypic di sudut kiri\nbawah untuk membuatnya secara gratis.\nGemini ai foto edit\nPrompt Gemini ai\nEditor kreatif AI, Editor foto AI\nPenyunting kreatif AI, \nPenyunting fotoAI\nGoogle Gemini AI\nFilter Foto AI\nAI Foto Efek\nFilter ai foto wajah\nGunakan filter ai foto ini\nPenyunting Kreatif AI\nPenyunting Foto AI\nAI Creative Editing,\nAI Photo Editing\nGoogle Gemini AI,\nEditor foto Alat edit\nfoto efek filter ,\npenyunting kreatif AI ,\nAI creative editing Prompt,\nAI PromptFoto\n#hypic #hypiccreator #Godpic @hypic_global @HypicVietnam #aiart #Geminiai",
+      "creator": "ayhai.168",
+      "checks": [
+        {
+          "timestamp": "2026-03-03T18:44:30.157230+00:00",
+          "age_hours": 32.8,
+          "shares_per_hour": 9.6,
+          "views_per_hour": 210,
+          "momentum": 108,
+          "delta_shares_per_hour": null
+        }
+      ],
+      "consecutive_negative_deltas": 0,
+      "alerted": false
+    },
+    {
+      "url": "https://www.tiktok.com/@user8136617941617/video/7612495487207230734",
+      "first_seen": "2026-03-03T18:44:30.157230+00:00",
+      "market": "\ud83c\udf10 BOTH",
+      "text": "Try this template #capcut #capcutpioneer #capcutforus #pioneertemplate ",
+      "creator": "user8136617941617",
+      "checks": [
+        {
+          "timestamp": "2026-03-03T18:44:30.157230+00:00",
+          "age_hours": 39.2,
+          "shares_per_hour": 9.2,
+          "views_per_hour": 254,
+          "momentum": 107,
+          "delta_shares_per_hour": null
+        }
+      ],
+      "consecutive_negative_deltas": 0,
+      "alerted": false
     }
   ]
 }
