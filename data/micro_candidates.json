@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-03T08:38:41.301399+00:00",
+  "last_updated": "2026-03-03T10:37:14.969052+00:00",
   "candidates": [
     {
       "url": "https://www.tiktok.com/@po94275/video/7612103719185927437",
@@ -35,7 +35,7 @@
       ],
       "consecutive_negative_deltas": 2,
       "alerted": false,
-      "consecutive_misses": 1
+      "consecutive_misses": 2
     },
     {
       "url": "https://www.tiktok.com/@influencerss.ai/video/7612156952415702294",
@@ -71,7 +71,7 @@
       ],
       "consecutive_negative_deltas": 2,
       "alerted": false,
-      "consecutive_misses": 1
+      "consecutive_misses": 2
     },
     {
       "url": "https://www.tiktok.com/@mishaart12/video/7612303038790896926",
@@ -107,7 +107,7 @@
       ],
       "consecutive_negative_deltas": 2,
       "alerted": false,
-      "consecutive_misses": 1
+      "consecutive_misses": 2
     },
     {
       "url": "https://www.tiktok.com/@imoletok1/video/7612036883815697677",
@@ -135,7 +135,7 @@
       ],
       "consecutive_negative_deltas": 1,
       "alerted": false,
-      "consecutive_misses": 1
+      "consecutive_misses": 2
     },
     {
       "url": "https://www.tiktok.com/@dark_mooon2/video/7612264366020300050",
@@ -163,7 +163,7 @@
       ],
       "consecutive_negative_deltas": 1,
       "alerted": false,
-      "consecutive_misses": 1
+      "consecutive_misses": 2
     },
     {
       "url": "https://www.tiktok.com/@prkcf/video/7612286672343977230",
@@ -183,7 +183,7 @@
       ],
       "consecutive_negative_deltas": 0,
       "alerted": false,
-      "consecutive_misses": 1
+      "consecutive_misses": 2
     },
     {
       "url": "https://www.tiktok.com/@annaxsitar/video/7612764614752865567",
@@ -199,10 +199,19 @@
           "views_per_hour": 24428,
           "momentum": 10822,
           "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-03-03T10:37:14.968942+00:00",
+          "age_hours": 13.7,
+          "shares_per_hour": 5.3,
+          "views_per_hour": 20904,
+          "momentum": 9261,
+          "delta_shares_per_hour": -0.7999999999999998
         }
       ],
-      "consecutive_negative_deltas": 0,
-      "alerted": false
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
     },
     {
       "url": "https://www.tiktok.com/@chloeabeth4545/video/7612606959253982484",
@@ -218,10 +227,19 @@
           "views_per_hour": 23504,
           "momentum": 8516,
           "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-03-03T10:37:14.968942+00:00",
+          "age_hours": 23.9,
+          "shares_per_hour": 26.8,
+          "views_per_hour": 21561,
+          "momentum": 7812,
+          "delta_shares_per_hour": -2.3999999999999986
         }
       ],
-      "consecutive_negative_deltas": 0,
-      "alerted": false
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
     }
   ]
 }
