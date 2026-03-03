@@ -1,42 +1,6 @@
 {
-  "last_updated": "2026-03-02T22:25:29.957261+00:00",
+  "last_updated": "2026-03-03T08:38:41.301399+00:00",
   "candidates": [
-    {
-      "url": "https://www.tiktok.com/@unknowngirl_2.08/video/7612071934318169365",
-      "first_seen": "2026-03-02T18:44:56.403166+00:00",
-      "market": "\ud83c\udf10 BOTH",
-      "text": "1 month of hard work and I\u2019m still making progress\ud83e\udef6\u270c\ufe0f #workout #motivation #1monthago #glowup? #fyp",
-      "creator": "unknowngirl_2.08",
-      "checks": [
-        {
-          "timestamp": "2026-03-02T18:44:56.403166+00:00",
-          "age_hours": 42.6,
-          "shares_per_hour": 73.1,
-          "views_per_hour": 28147,
-          "momentum": 11476,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-03-02T20:36:07.161938+00:00",
-          "age_hours": 44.5,
-          "shares_per_hour": 70.0,
-          "views_per_hour": 26975,
-          "momentum": 10998,
-          "delta_shares_per_hour": -3.0999999999999943
-        },
-        {
-          "timestamp": "2026-03-02T22:25:29.952898+00:00",
-          "age_hours": 46.3,
-          "shares_per_hour": 67.3,
-          "views_per_hour": 25913,
-          "momentum": 10565,
-          "delta_shares_per_hour": -2.700000000000003
-        }
-      ],
-      "consecutive_negative_deltas": 2,
-      "alerted": false,
-      "consecutive_misses": 0
-    },
     {
       "url": "https://www.tiktok.com/@po94275/video/7612103719185927437",
       "first_seen": "2026-03-02T18:44:56.403166+00:00",
@@ -71,43 +35,7 @@
       ],
       "consecutive_negative_deltas": 2,
       "alerted": false,
-      "consecutive_misses": 0
-    },
-    {
-      "url": "https://www.tiktok.com/@ayhai.168/video/7612202309765975303",
-      "first_seen": "2026-03-02T18:44:56.403166+00:00",
-      "market": "\ud83c\udf10 BOTH",
-      "text": "Free AI Template Link\ud83d\udc47\ud83d\udc47\ud83d\udc47\nPenyunting Kreatif AI, Penyunting Foto AI, AI Creative Editing, AI Photo Editing, Google Gemini AI, Prompt, AI Prompt, ai image generation algorithms, ai Prompt, ai editing photo effect, Filter Foto AI, Al Foto Efek, Filter ai foto wajah, Gunakan filter ai foto ini, Editor foto Alat edit foto efek filter, AI PromptFoto, AIgenerated,ChatGPT, Prompt\nBuat foto serupa dengan satu klik\nsecara gratis, klik hypic di sudut kiri\nbawah untuk membuatnya secara gratis.\nGemini ai foto edit\nPrompt Gemini ai\nEditor kreatif AI, Editor foto AI\nPenyunting kreatif AI, \nPenyunting fotoAI\nGoogle Gemini AI\nFilter Foto AI\nAI Foto Efek\nFilter ai foto wajah\nGunakan filter ai foto ini\nPenyunting Kreatif AI\nPenyunting Foto AI\nAI Creative Editing,\nAI Photo Editing\nGoogle Gemini AI,\nEditor foto Alat edit\nfoto efek filter ,\npenyunting kreatif AI ,\nAI creative editing Prompt,\nAI PromptFoto\n#hypic #hypiccreator #Godpic @hypic_global @HypicVietnam #promptgemini #Geminiai",
-      "creator": "ayhai.168",
-      "checks": [
-        {
-          "timestamp": "2026-03-02T18:44:56.403166+00:00",
-          "age_hours": 34.2,
-          "shares_per_hour": 19.7,
-          "views_per_hour": 409,
-          "momentum": 217,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-03-02T20:36:07.161938+00:00",
-          "age_hours": 36.1,
-          "shares_per_hour": 18.7,
-          "views_per_hour": 388,
-          "momentum": 206,
-          "delta_shares_per_hour": -1.0
-        },
-        {
-          "timestamp": "2026-03-02T22:25:29.952898+00:00",
-          "age_hours": 37.9,
-          "shares_per_hour": 17.8,
-          "views_per_hour": 369,
-          "momentum": 196,
-          "delta_shares_per_hour": -0.8999999999999986
-        }
-      ],
-      "consecutive_negative_deltas": 2,
-      "alerted": false,
-      "consecutive_misses": 0
+      "consecutive_misses": 1
     },
     {
       "url": "https://www.tiktok.com/@influencerss.ai/video/7612156952415702294",
@@ -143,7 +71,7 @@
       ],
       "consecutive_negative_deltas": 2,
       "alerted": false,
-      "consecutive_misses": 0
+      "consecutive_misses": 1
     },
     {
       "url": "https://www.tiktok.com/@mishaart12/video/7612303038790896926",
@@ -179,7 +107,7 @@
       ],
       "consecutive_negative_deltas": 2,
       "alerted": false,
-      "consecutive_misses": 0
+      "consecutive_misses": 1
     },
     {
       "url": "https://www.tiktok.com/@imoletok1/video/7612036883815697677",
@@ -207,7 +135,7 @@
       ],
       "consecutive_negative_deltas": 1,
       "alerted": false,
-      "consecutive_misses": 0
+      "consecutive_misses": 1
     },
     {
       "url": "https://www.tiktok.com/@dark_mooon2/video/7612264366020300050",
@@ -235,7 +163,7 @@
       ],
       "consecutive_negative_deltas": 1,
       "alerted": false,
-      "consecutive_misses": 0
+      "consecutive_misses": 1
     },
     {
       "url": "https://www.tiktok.com/@prkcf/video/7612286672343977230",
@@ -250,6 +178,45 @@
           "shares_per_hour": 10.0,
           "views_per_hour": 333,
           "momentum": 116,
+          "delta_shares_per_hour": null
+        }
+      ],
+      "consecutive_negative_deltas": 0,
+      "alerted": false,
+      "consecutive_misses": 1
+    },
+    {
+      "url": "https://www.tiktok.com/@annaxsitar/video/7612764614752865567",
+      "first_seen": "2026-03-03T08:38:41.296497+00:00",
+      "market": "\ud83c\udf10 BOTH",
+      "text": "DAY ONE OF 29 days til the ultimate glow up & a new lap around the sun \u2728 ",
+      "creator": "annaxsitar",
+      "checks": [
+        {
+          "timestamp": "2026-03-03T08:38:41.296497+00:00",
+          "age_hours": 11.7,
+          "shares_per_hour": 6.1,
+          "views_per_hour": 24428,
+          "momentum": 10822,
+          "delta_shares_per_hour": null
+        }
+      ],
+      "consecutive_negative_deltas": 0,
+      "alerted": false
+    },
+    {
+      "url": "https://www.tiktok.com/@chloeabeth4545/video/7612606959253982484",
+      "first_seen": "2026-03-03T08:38:41.296497+00:00",
+      "market": "\ud83c\udf10 BOTH",
+      "text": "Stop comparing yourself to people you see online- it\u2019s literally their JOB to look good \n\n#glowup #beforeandafter #transformation #glowuptips #weightlossglowup  ",
+      "creator": "chloeabeth4545",
+      "checks": [
+        {
+          "timestamp": "2026-03-03T08:38:41.296497+00:00",
+          "age_hours": 21.9,
+          "shares_per_hour": 29.2,
+          "views_per_hour": 23504,
+          "momentum": 8516,
           "delta_shares_per_hour": null
         }
       ],
