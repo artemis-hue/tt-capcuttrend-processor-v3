@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-03T22:27:09.444952+00:00",
+  "last_updated": "2026-03-04T08:37:29.365579+00:00",
   "candidates": [
     {
       "url": "https://www.tiktok.com/@chloeabeth4545/video/7612606959253982484",
@@ -35,43 +35,7 @@
       ],
       "consecutive_negative_deltas": 2,
       "alerted": false,
-      "consecutive_misses": 0
-    },
-    {
-      "url": "https://www.tiktok.com/@mvdraa/video/7612645280546147606",
-      "first_seen": "2026-03-03T18:44:30.157230+00:00",
-      "market": "\ud83c\udf10 BOTH",
-      "text": "Very aggressive shake tutorial #capcut #capcutpioneer #fyp #tutorial #capcutedit ",
-      "creator": "mvdraa",
-      "checks": [
-        {
-          "timestamp": "2026-03-03T18:44:30.157230+00:00",
-          "age_hours": 29.5,
-          "shares_per_hour": 16.4,
-          "views_per_hour": 3672,
-          "momentum": 916,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-03-03T20:30:56.831040+00:00",
-          "age_hours": 31.3,
-          "shares_per_hour": 15.5,
-          "views_per_hour": 3464,
-          "momentum": 864,
-          "delta_shares_per_hour": -0.8999999999999986
-        },
-        {
-          "timestamp": "2026-03-03T22:27:09.444814+00:00",
-          "age_hours": 33.3,
-          "shares_per_hour": 14.6,
-          "views_per_hour": 3262,
-          "momentum": 813,
-          "delta_shares_per_hour": -0.9000000000000004
-        }
-      ],
-      "consecutive_negative_deltas": 2,
-      "alerted": false,
-      "consecutive_misses": 0
+      "consecutive_misses": 1
     },
     {
       "url": "https://www.tiktok.com/@l.x5840/video/7612686981222370591",
@@ -107,7 +71,7 @@
       ],
       "consecutive_negative_deltas": 2,
       "alerted": false,
-      "consecutive_misses": 0
+      "consecutive_misses": 1
     },
     {
       "url": "https://www.tiktok.com/@zzyue0609/video/7612596321316343071",
@@ -143,7 +107,7 @@
       ],
       "consecutive_negative_deltas": 2,
       "alerted": false,
-      "consecutive_misses": 0
+      "consecutive_misses": 1
     },
     {
       "url": "https://www.tiktok.com/@ayhai.168/video/7612594664364854546",
@@ -179,7 +143,7 @@
       ],
       "consecutive_negative_deltas": 2,
       "alerted": false,
-      "consecutive_misses": 0
+      "consecutive_misses": 1
     },
     {
       "url": "https://www.tiktok.com/@user8136617941617/video/7612495487207230734",
@@ -215,7 +179,7 @@
       ],
       "consecutive_negative_deltas": 2,
       "alerted": false,
-      "consecutive_misses": 0
+      "consecutive_misses": 1
     },
     {
       "url": "https://www.tiktok.com/@abdoulaye79.com/video/7612812595027823893",
@@ -243,7 +207,7 @@
       ],
       "consecutive_negative_deltas": 1,
       "alerted": false,
-      "consecutive_misses": 0
+      "consecutive_misses": 1
     },
     {
       "url": "https://www.tiktok.com/@sheluvnel/video/7612758403579956510",
@@ -271,7 +235,26 @@
       ],
       "consecutive_negative_deltas": 1,
       "alerted": false,
-      "consecutive_misses": 0
+      "consecutive_misses": 1
+    },
+    {
+      "url": "https://www.tiktok.com/@stormcapcutx/video/7612747536272510229",
+      "first_seen": "2026-03-04T08:37:29.360518+00:00",
+      "market": "\ud83c\udf10 BOTH",
+      "text": "#CapCut #capcutpioneer #pioneertemplate ",
+      "creator": "stormcapcutx",
+      "checks": [
+        {
+          "timestamp": "2026-03-04T08:37:29.360518+00:00",
+          "age_hours": 36.8,
+          "shares_per_hour": 219.3,
+          "views_per_hour": 18404,
+          "momentum": 12710,
+          "delta_shares_per_hour": null
+        }
+      ],
+      "consecutive_negative_deltas": 0,
+      "alerted": false
     }
   ]
 }
