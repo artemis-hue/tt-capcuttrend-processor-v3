@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-04T22:29:45.239295+00:00",
+  "last_updated": "2026-03-05T08:39:19.975465+00:00",
   "candidates": [
     {
       "url": "https://www.tiktok.com/@user2312450393252/video/7613005747567250702",
@@ -27,7 +27,7 @@
       ],
       "consecutive_negative_deltas": 1,
       "alerted": false,
-      "consecutive_misses": 0
+      "consecutive_misses": 1
     },
     {
       "url": "https://www.tiktok.com/@mwxn636696/video/7613009081053252895",
@@ -55,7 +55,7 @@
       ],
       "consecutive_negative_deltas": 1,
       "alerted": false,
-      "consecutive_misses": 0
+      "consecutive_misses": 1
     },
     {
       "url": "https://www.tiktok.com/@po94275/video/7613019001588960526",
@@ -83,7 +83,102 @@
       ],
       "consecutive_negative_deltas": 1,
       "alerted": false,
-      "consecutive_misses": 0
+      "consecutive_misses": 1
+    },
+    {
+      "url": "https://www.tiktok.com/@mikaylanogueira/video/7613455365035937054",
+      "first_seen": "2026-03-05T08:39:19.970770+00:00",
+      "market": "\ud83c\uddfa\ud83c\uddf8 US ONLY",
+      "text": "DREAM HAIR! I\u2019m just getting started \ud83d\ude09\ud83d\ude09",
+      "creator": "mikaylanogueira",
+      "checks": [
+        {
+          "timestamp": "2026-03-05T08:39:19.970770+00:00",
+          "age_hours": 15.1,
+          "shares_per_hour": 105.0,
+          "views_per_hour": 106220,
+          "momentum": 28799,
+          "delta_shares_per_hour": null
+        }
+      ],
+      "consecutive_negative_deltas": 0,
+      "alerted": false
+    },
+    {
+      "url": "https://www.tiktok.com/@mikaylanogueira/video/7613081665958628638",
+      "first_seen": "2026-03-05T08:39:19.970770+00:00",
+      "market": "\ud83c\uddfa\ud83c\uddf8 US ONLY",
+      "text": "Glow up incoming\u2026. #hairday #newhair #hairtransformation #glowup ",
+      "creator": "mikaylanogueira",
+      "checks": [
+        {
+          "timestamp": "2026-03-05T08:39:19.970770+00:00",
+          "age_hours": 39.2,
+          "shares_per_hour": 41.2,
+          "views_per_hour": 73918,
+          "momentum": 21208,
+          "delta_shares_per_hour": null
+        }
+      ],
+      "consecutive_negative_deltas": 0,
+      "alerted": false
+    },
+    {
+      "url": "https://www.tiktok.com/@mikaylanogueira/video/7613439819817045279",
+      "first_seen": "2026-03-05T08:39:19.970770+00:00",
+      "market": "\ud83c\uddfa\ud83c\uddf8 US ONLY",
+      "text": "GLOW UP PHASE ONE \ud83e\udd2a #glowup #hairtransformation #newhair #hairday #hairextensions ",
+      "creator": "mikaylanogueira",
+      "checks": [
+        {
+          "timestamp": "2026-03-05T08:39:19.970770+00:00",
+          "age_hours": 16.1,
+          "shares_per_hour": 25.9,
+          "views_per_hour": 74675,
+          "momentum": 20496,
+          "delta_shares_per_hour": null
+        }
+      ],
+      "consecutive_negative_deltas": 0,
+      "alerted": false
+    },
+    {
+      "url": "https://www.tiktok.com/@chelseasik0/video/7613210569738390814",
+      "first_seen": "2026-03-05T08:39:19.970770+00:00",
+      "market": "\ud83c\uddfa\ud83c\uddf8 US ONLY",
+      "text": "Breakup glow up is real \u2728\n#HilyApp #hilycreator",
+      "creator": "chelseasik0",
+      "checks": [
+        {
+          "timestamp": "2026-03-05T08:39:19.970770+00:00",
+          "age_hours": 30.9,
+          "shares_per_hour": 142.1,
+          "views_per_hour": 35600,
+          "momentum": 10913,
+          "delta_shares_per_hour": null
+        }
+      ],
+      "consecutive_negative_deltas": 0,
+      "alerted": false
+    },
+    {
+      "url": "https://www.tiktok.com/@michael.funny84/video/7613477569177914654",
+      "first_seen": "2026-03-05T08:39:19.970770+00:00",
+      "market": "\ud83c\uddec\ud83c\udde7 UK ONLY",
+      "text": "#BalliBotMagos #TredingReels #TredingReels #ForYouPage #FYP #FYP #ViralTikTok #MillionViews #TechMagic #SmartBot #AITrend #RobotVibes #Innovation ",
+      "creator": "michael.funny84",
+      "checks": [
+        {
+          "timestamp": "2026-03-05T08:39:19.970770+00:00",
+          "age_hours": 13.6,
+          "shares_per_hour": 427.4,
+          "views_per_hour": 20801,
+          "momentum": 8268,
+          "delta_shares_per_hour": null
+        }
+      ],
+      "consecutive_negative_deltas": 0,
+      "alerted": false
     }
   ]
 }
