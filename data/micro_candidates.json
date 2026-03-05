@@ -1,186 +1,6 @@
 {
-  "last_updated": "2026-03-05T20:35:33.762764+00:00",
+  "last_updated": "2026-03-05T22:30:22.649324+00:00",
   "candidates": [
-    {
-      "url": "https://www.tiktok.com/@mrgrexx/video/7613414145467190550",
-      "first_seen": "2026-03-05T14:43:04.284778+00:00",
-      "market": "\ud83c\uddec\ud83c\udde7 UK ONLY",
-      "text": "Bis Ende M\u00e4rz k\u00f6nnt ihr noch Games downloaden von Myrient #myrient #gaming #ki #news ",
-      "creator": "mrgrexx",
-      "checks": [
-        {
-          "timestamp": "2026-03-05T14:43:04.284778+00:00",
-          "age_hours": 23.8,
-          "shares_per_hour": 39.9,
-          "views_per_hour": 6640,
-          "momentum": 1565,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-03-05T18:02:46.715923+00:00",
-          "age_hours": 27.1,
-          "shares_per_hour": 35.0,
-          "views_per_hour": 5825,
-          "momentum": 1373,
-          "delta_shares_per_hour": -4.899999999999999
-        },
-        {
-          "timestamp": "2026-03-05T20:35:33.757138+00:00",
-          "age_hours": 29.7,
-          "shares_per_hour": 32.0,
-          "views_per_hour": 5325,
-          "momentum": 1255,
-          "delta_shares_per_hour": -3.0
-        }
-      ],
-      "consecutive_negative_deltas": 2,
-      "alerted": false,
-      "consecutive_misses": 0
-    },
-    {
-      "url": "https://www.tiktok.com/@shawtybetter/video/7613386636734369045",
-      "first_seen": "2026-03-05T14:43:04.284778+00:00",
-      "market": "\ud83c\uddec\ud83c\udde7 UK ONLY",
-      "text": "\u0417\u0440\u044f \u043e\u0442\u0448\u0438\u043b\u0430 \u043f\u043e\u043b\u0443\u0447\u0430\u0435\u0442\u0441\u044f? \ud83d\ude02 \u0442\u0433\u043a \u0442\u044b \u0441\u0430\u043c \u0437\u043d\u0430\u0435\u0448\u044c \u0433\u0434\u0435 \u043d\u0430\u0439\u0442\u0438 \ud83e\udd1d#transformation #methode #\u043b\u0438\u0446\u043e #\u043a\u0440\u0430\u0441\u043e\u0442\u0430 #face #faceglowup #glowup #beaty",
-      "creator": "shawtybetter",
-      "checks": [
-        {
-          "timestamp": "2026-03-05T14:43:04.284778+00:00",
-          "age_hours": 25.6,
-          "shares_per_hour": 18.5,
-          "views_per_hour": 10405,
-          "momentum": 1497,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-03-05T18:02:46.715923+00:00",
-          "age_hours": 28.9,
-          "shares_per_hour": 16.4,
-          "views_per_hour": 9206,
-          "momentum": 1325,
-          "delta_shares_per_hour": -2.1000000000000014
-        },
-        {
-          "timestamp": "2026-03-05T20:35:33.757138+00:00",
-          "age_hours": 31.4,
-          "shares_per_hour": 15.1,
-          "views_per_hour": 8461,
-          "momentum": 1217,
-          "delta_shares_per_hour": -1.299999999999999
-        }
-      ],
-      "consecutive_negative_deltas": 2,
-      "alerted": false,
-      "consecutive_misses": 0
-    },
-    {
-      "url": "https://www.tiktok.com/@okanikeok/video/7613312705620905224",
-      "first_seen": "2026-03-05T14:43:04.284778+00:00",
-      "market": "\ud83c\uddec\ud83c\udde7 UK ONLY",
-      "text": "can i make it? #fyp #fomo #glowup #bp #ascend ",
-      "creator": "okanikeok",
-      "checks": [
-        {
-          "timestamp": "2026-03-05T14:43:04.284778+00:00",
-          "age_hours": 30.4,
-          "shares_per_hour": 20.8,
-          "views_per_hour": 3136,
-          "momentum": 1155,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-03-05T18:02:46.715923+00:00",
-          "age_hours": 33.7,
-          "shares_per_hour": 18.7,
-          "views_per_hour": 2826,
-          "momentum": 1041,
-          "delta_shares_per_hour": -2.1000000000000014
-        },
-        {
-          "timestamp": "2026-03-05T20:35:33.757138+00:00",
-          "age_hours": 36.2,
-          "shares_per_hour": 17.4,
-          "views_per_hour": 2627,
-          "momentum": 967,
-          "delta_shares_per_hour": -1.3000000000000007
-        }
-      ],
-      "consecutive_negative_deltas": 2,
-      "alerted": false,
-      "consecutive_misses": 0
-    },
-    {
-      "url": "https://www.tiktok.com/@meowniverse3/video/7613321369350049025",
-      "first_seen": "2026-03-05T14:43:04.284778+00:00",
-      "market": "\ud83c\uddec\ud83c\udde7 UK ONLY",
-      "text": "#fyp #foryou #viral #trend #trending #tiktoktrend #explorepage #foru #viralvideo #trendalert #newtrend #tiktok #duet #comedy #dancechallenge #funnyvideos #lifehacks #AI #AIart #AIvideo #AILife #AIreels #AItiktok #AIcreator #AItrending #AItechnology #AIanimations #AIfun #AIviral #AIforyou #cats #cat #catsoftiktok #catlover #cutecat #catlife #cattok #catlovers #meow #catvideo #kitten #pet #pets #animal #funnycatvideos #petsoftiktok #aicats #aicat #aianimals #fantasyanimals #aiadventure #aiartcats #ai_cat_lovers #ai_pet #ai_magic #ai_cute #ai_animal_world#Meow #aipet #cat #AI_Cat #challenge #fyp #viralllllll #AI #fyp\u30b7\u309a #viral #capcut #ai #M #trending #viralvideo #viraltiktok #aicat #cart #usa_tiktok #catsoftiktok",
-      "creator": "meowniverse3",
-      "checks": [
-        {
-          "timestamp": "2026-03-05T14:43:04.284778+00:00",
-          "age_hours": 29.8,
-          "shares_per_hour": 13.4,
-          "views_per_hour": 14260,
-          "momentum": 1124,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-03-05T18:02:46.715923+00:00",
-          "age_hours": 33.1,
-          "shares_per_hour": 12.1,
-          "views_per_hour": 12826,
-          "momentum": 1011,
-          "delta_shares_per_hour": -1.3000000000000007
-        },
-        {
-          "timestamp": "2026-03-05T20:35:33.757138+00:00",
-          "age_hours": 35.7,
-          "shares_per_hour": 11.2,
-          "views_per_hour": 11910,
-          "momentum": 939,
-          "delta_shares_per_hour": -0.9000000000000004
-        }
-      ],
-      "consecutive_negative_deltas": 2,
-      "alerted": false,
-      "consecutive_misses": 0
-    },
-    {
-      "url": "https://www.tiktok.com/@tinylittleworld0/video/7613365942772337950",
-      "first_seen": "2026-03-05T14:43:04.284778+00:00",
-      "market": "\ud83c\udf10 BOTH",
-      "text": "Pick Your Favorite Dancer \ud83d\udc83\u270c\ufe0f\n#viraldances #shakeit #dancing #trendingsongs #fyp ",
-      "creator": "tinylittleworld0",
-      "checks": [
-        {
-          "timestamp": "2026-03-05T14:43:04.284778+00:00",
-          "age_hours": 26.9,
-          "shares_per_hour": 45.7,
-          "views_per_hour": 1687,
-          "momentum": 762,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-03-05T18:02:46.715923+00:00",
-          "age_hours": 30.2,
-          "shares_per_hour": 40.7,
-          "views_per_hour": 1501,
-          "momentum": 678,
-          "delta_shares_per_hour": -5.0
-        },
-        {
-          "timestamp": "2026-03-05T20:35:33.757138+00:00",
-          "age_hours": 32.8,
-          "shares_per_hour": 37.5,
-          "views_per_hour": 1384,
-          "momentum": 625,
-          "delta_shares_per_hour": -3.200000000000003
-        }
-      ],
-      "consecutive_negative_deltas": 2,
-      "alerted": false,
-      "consecutive_misses": 0
-    },
     {
       "url": "https://www.tiktok.com/@mikaylanogueira/video/7613455365035937054",
       "first_seen": "2026-03-05T20:35:33.757138+00:00",
@@ -195,10 +15,19 @@
           "views_per_hour": 59258,
           "momentum": 16066,
           "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-03-05T22:30:22.644568+00:00",
+          "age_hours": 28.9,
+          "shares_per_hour": 54.7,
+          "views_per_hour": 55336,
+          "momentum": 15003,
+          "delta_shares_per_hour": -3.8999999999999986
         }
       ],
-      "consecutive_negative_deltas": 0,
-      "alerted": false
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
     },
     {
       "url": "https://www.tiktok.com/@mikaylanogueira/video/7613439819817045279",
@@ -214,10 +43,19 @@
           "views_per_hour": 42847,
           "momentum": 11760,
           "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-03-05T22:30:22.644568+00:00",
+          "age_hours": 29.9,
+          "shares_per_hour": 13.9,
+          "views_per_hour": 40106,
+          "momentum": 11008,
+          "delta_shares_per_hour": -1.0
         }
       ],
-      "consecutive_negative_deltas": 0,
-      "alerted": false
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
     },
     {
       "url": "https://www.tiktok.com/@chelseasik0/video/7613210569738390814",
@@ -232,6 +70,110 @@
           "shares_per_hour": 102.5,
           "views_per_hour": 25679,
           "momentum": 7872,
+          "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-03-05T22:30:22.644568+00:00",
+          "age_hours": 44.7,
+          "shares_per_hour": 98.1,
+          "views_per_hour": 24581,
+          "momentum": 7535,
+          "delta_shares_per_hour": -4.400000000000006
+        }
+      ],
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
+    },
+    {
+      "url": "https://www.tiktok.com/@michael.funny84/video/7613477569177914654",
+      "first_seen": "2026-03-05T22:30:22.644568+00:00",
+      "market": "\ud83c\uddec\ud83c\udde7 UK ONLY",
+      "text": "#BalliBotMagos #TredingReels #TredingReels #ForYouPage #FYP #FYP #ViralTikTok #MillionViews #TechMagic #SmartBot #AITrend #RobotVibes #Innovation ",
+      "creator": "michael.funny84",
+      "checks": [
+        {
+          "timestamp": "2026-03-05T22:30:22.644568+00:00",
+          "age_hours": 27.5,
+          "shares_per_hour": 212.0,
+          "views_per_hour": 10316,
+          "momentum": 4100,
+          "delta_shares_per_hour": null
+        }
+      ],
+      "consecutive_negative_deltas": 0,
+      "alerted": false
+    },
+    {
+      "url": "https://www.tiktok.com/@elysianerror/video/7613296779966074120",
+      "first_seen": "2026-03-05T22:30:22.644568+00:00",
+      "market": "\ud83c\uddec\ud83c\udde7 UK ONLY",
+      "text": "#douyin #transisimakeup #glowup ",
+      "creator": "elysianerror",
+      "checks": [
+        {
+          "timestamp": "2026-03-05T22:30:22.644568+00:00",
+          "age_hours": 39.2,
+          "shares_per_hour": 34.1,
+          "views_per_hour": 7745,
+          "momentum": 2692,
+          "delta_shares_per_hour": null
+        }
+      ],
+      "consecutive_negative_deltas": 0,
+      "alerted": false
+    },
+    {
+      "url": "https://www.tiktok.com/@la_vie_de_hayeon/video/7613212388518661398",
+      "first_seen": "2026-03-05T22:30:22.644568+00:00",
+      "market": "\ud83c\udf10 BOTH",
+      "text": "\u00abToo much confidence\u00bb they said\u2026 \u00abIts optional to post btw\ud83d\udc94\ud83e\udd40\u00bb they said \u00abbefore vs before\u00bb they said\u2026 #transition #glowup #fyp #viral ",
+      "creator": "la_vie_de_hayeon",
+      "checks": [
+        {
+          "timestamp": "2026-03-05T22:30:22.644568+00:00",
+          "age_hours": 44.6,
+          "shares_per_hour": 11.7,
+          "views_per_hour": 5994,
+          "momentum": 1991,
+          "delta_shares_per_hour": null
+        }
+      ],
+      "consecutive_negative_deltas": 0,
+      "alerted": false
+    },
+    {
+      "url": "https://www.tiktok.com/@catatan_harian47/video/7613458694302453012",
+      "first_seen": "2026-03-05T22:30:22.644568+00:00",
+      "market": "\ud83c\uddfa\ud83c\uddf8 US ONLY",
+      "text": "#CapCut #fypppppppppppppppppppppp #pioneertemplate #capcutpioneer #storywa ",
+      "creator": "catatan_harian47",
+      "checks": [
+        {
+          "timestamp": "2026-03-05T22:30:22.644568+00:00",
+          "age_hours": 28.7,
+          "shares_per_hour": 33.0,
+          "views_per_hour": 407,
+          "momentum": 373,
+          "delta_shares_per_hour": null
+        }
+      ],
+      "consecutive_negative_deltas": 0,
+      "alerted": false
+    },
+    {
+      "url": "https://www.tiktok.com/@ayhai.168/video/7613306475561143560",
+      "first_seen": "2026-03-05T22:30:22.644568+00:00",
+      "market": "\ud83c\udf10 BOTH",
+      "text": "Free AI Template Link\ud83d\udc47\ud83d\udc47\ud83d\udc47\nPenyunting Kreatif AI, Penyunting Foto AI, AI Creative Editing, AI Photo Editing, Google Gemini AI, Prompt, AI Prompt, ai image generation algorithms, ai Prompt, ai editing photo effect, Filter Foto AI, Al Foto Efek, Filter ai foto wajah, Gunakan filter ai foto ini, Editor foto Alat edit foto efek filter, AI PromptFoto, AIgenerated,ChatGPT, Prompt\nBuat foto serupa dengan satu klik\nsecara gratis, klik hypic di sudut kiri\nbawah untuk membuatnya secara gratis.\nGemini ai foto edit\nPrompt Gemini ai\nEditor kreatif AI, Editor foto AI\nPenyunting kreatif AI, \nPenyunting fotoAI\nGoogle Gemini AI\nFilter Foto AI\nAI Foto Efek\nFilter ai foto wajah\nGunakan filter ai foto ini\nPenyunting Kreatif AI\nPenyunting Foto AI\nAI Creative Editing,\nAI Photo Editing\nGoogle Gemini AI,\nEditor foto Alat edit\nfoto efek filter ,\npenyunting kreatif AI ,\nAI creative editing Prompt,\nAI PromptFoto\n#hypic #hypiccreator #Godpic @hypic_global @HypicVietnam #faceswap #Geminiai",
+      "creator": "ayhai.168",
+      "checks": [
+        {
+          "timestamp": "2026-03-05T22:30:22.644568+00:00",
+          "age_hours": 38.5,
+          "shares_per_hour": 12.8,
+          "views_per_hour": 269,
+          "momentum": 139,
           "delta_shares_per_hour": null
         }
       ],
