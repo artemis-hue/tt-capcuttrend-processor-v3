@@ -1,114 +1,6 @@
 {
-  "last_updated": "2026-03-05T18:02:46.716046+00:00",
+  "last_updated": "2026-03-05T20:35:33.762764+00:00",
   "candidates": [
-    {
-      "url": "https://www.tiktok.com/@the.kikilking/video/7613032234970320150",
-      "first_seen": "2026-03-05T12:57:28.074199+00:00",
-      "market": "\ud83c\uddfa\ud83c\uddf8 US ONLY",
-      "text": "#CapCut #capcutpioneer #PioneerTemplate #kikilking #trend ",
-      "creator": "the.kikilking",
-      "checks": [
-        {
-          "timestamp": "2026-03-05T12:57:28.074199+00:00",
-          "age_hours": 46.7,
-          "shares_per_hour": 77.1,
-          "views_per_hour": 13499,
-          "momentum": 5059,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-03-05T14:43:04.284778+00:00",
-          "age_hours": 48.5,
-          "shares_per_hour": 74.3,
-          "views_per_hour": 13009,
-          "momentum": 4875,
-          "delta_shares_per_hour": -2.799999999999997
-        },
-        {
-          "timestamp": "2026-03-05T18:02:46.715923+00:00",
-          "age_hours": 51.8,
-          "shares_per_hour": 69.5,
-          "views_per_hour": 12174,
-          "momentum": 4562,
-          "delta_shares_per_hour": -4.799999999999997
-        }
-      ],
-      "consecutive_negative_deltas": 2,
-      "alerted": false,
-      "consecutive_misses": 0
-    },
-    {
-      "url": "https://www.tiktok.com/@elysianerror/video/7613296779966074120",
-      "first_seen": "2026-03-05T12:57:28.074199+00:00",
-      "market": "\ud83c\uddec\ud83c\udde7 UK ONLY",
-      "text": "#douyin #transisimakeup #glowup ",
-      "creator": "elysianerror",
-      "checks": [
-        {
-          "timestamp": "2026-03-05T12:57:28.074199+00:00",
-          "age_hours": 29.6,
-          "shares_per_hour": 45.0,
-          "views_per_hour": 10241,
-          "momentum": 3560,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-03-05T14:43:04.284778+00:00",
-          "age_hours": 31.4,
-          "shares_per_hour": 42.5,
-          "views_per_hour": 9667,
-          "momentum": 3360,
-          "delta_shares_per_hour": -2.5
-        },
-        {
-          "timestamp": "2026-03-05T18:02:46.715923+00:00",
-          "age_hours": 34.7,
-          "shares_per_hour": 38.4,
-          "views_per_hour": 8740,
-          "momentum": 3038,
-          "delta_shares_per_hour": -4.100000000000001
-        }
-      ],
-      "consecutive_negative_deltas": 2,
-      "alerted": false,
-      "consecutive_misses": 0
-    },
-    {
-      "url": "https://www.tiktok.com/@la_vie_de_hayeon/video/7613212388518661398",
-      "first_seen": "2026-03-05T12:57:28.074199+00:00",
-      "market": "\ud83c\udf10 BOTH",
-      "text": "\u00abToo much confidence\u00bb they said\u2026 \u00abIts optional to post btw\ud83d\udc94\ud83e\udd40\u00bb they said \u00abbefore vs before\u00bb they said\u2026 #transition #glowup #fyp #viral ",
-      "creator": "la_vie_de_hayeon",
-      "checks": [
-        {
-          "timestamp": "2026-03-05T12:57:28.074199+00:00",
-          "age_hours": 35.1,
-          "shares_per_hour": 14.9,
-          "views_per_hour": 7626,
-          "momentum": 2534,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-03-05T14:43:04.284778+00:00",
-          "age_hours": 36.8,
-          "shares_per_hour": 14.1,
-          "views_per_hour": 7262,
-          "momentum": 2413,
-          "delta_shares_per_hour": -0.8000000000000007
-        },
-        {
-          "timestamp": "2026-03-05T18:02:46.715923+00:00",
-          "age_hours": 40.2,
-          "shares_per_hour": 13.0,
-          "views_per_hour": 6660,
-          "momentum": 2213,
-          "delta_shares_per_hour": -1.0999999999999996
-        }
-      ],
-      "consecutive_negative_deltas": 2,
-      "alerted": false,
-      "consecutive_misses": 0
-    },
     {
       "url": "https://www.tiktok.com/@mrgrexx/video/7613414145467190550",
       "first_seen": "2026-03-05T14:43:04.284778+00:00",
@@ -131,9 +23,17 @@
           "views_per_hour": 5825,
           "momentum": 1373,
           "delta_shares_per_hour": -4.899999999999999
+        },
+        {
+          "timestamp": "2026-03-05T20:35:33.757138+00:00",
+          "age_hours": 29.7,
+          "shares_per_hour": 32.0,
+          "views_per_hour": 5325,
+          "momentum": 1255,
+          "delta_shares_per_hour": -3.0
         }
       ],
-      "consecutive_negative_deltas": 1,
+      "consecutive_negative_deltas": 2,
       "alerted": false,
       "consecutive_misses": 0
     },
@@ -159,9 +59,17 @@
           "views_per_hour": 9206,
           "momentum": 1325,
           "delta_shares_per_hour": -2.1000000000000014
+        },
+        {
+          "timestamp": "2026-03-05T20:35:33.757138+00:00",
+          "age_hours": 31.4,
+          "shares_per_hour": 15.1,
+          "views_per_hour": 8461,
+          "momentum": 1217,
+          "delta_shares_per_hour": -1.299999999999999
         }
       ],
-      "consecutive_negative_deltas": 1,
+      "consecutive_negative_deltas": 2,
       "alerted": false,
       "consecutive_misses": 0
     },
@@ -187,9 +95,17 @@
           "views_per_hour": 2826,
           "momentum": 1041,
           "delta_shares_per_hour": -2.1000000000000014
+        },
+        {
+          "timestamp": "2026-03-05T20:35:33.757138+00:00",
+          "age_hours": 36.2,
+          "shares_per_hour": 17.4,
+          "views_per_hour": 2627,
+          "momentum": 967,
+          "delta_shares_per_hour": -1.3000000000000007
         }
       ],
-      "consecutive_negative_deltas": 1,
+      "consecutive_negative_deltas": 2,
       "alerted": false,
       "consecutive_misses": 0
     },
@@ -215,9 +131,17 @@
           "views_per_hour": 12826,
           "momentum": 1011,
           "delta_shares_per_hour": -1.3000000000000007
+        },
+        {
+          "timestamp": "2026-03-05T20:35:33.757138+00:00",
+          "age_hours": 35.7,
+          "shares_per_hour": 11.2,
+          "views_per_hour": 11910,
+          "momentum": 939,
+          "delta_shares_per_hour": -0.9000000000000004
         }
       ],
-      "consecutive_negative_deltas": 1,
+      "consecutive_negative_deltas": 2,
       "alerted": false,
       "consecutive_misses": 0
     },
@@ -243,11 +167,76 @@
           "views_per_hour": 1501,
           "momentum": 678,
           "delta_shares_per_hour": -5.0
+        },
+        {
+          "timestamp": "2026-03-05T20:35:33.757138+00:00",
+          "age_hours": 32.8,
+          "shares_per_hour": 37.5,
+          "views_per_hour": 1384,
+          "momentum": 625,
+          "delta_shares_per_hour": -3.200000000000003
         }
       ],
-      "consecutive_negative_deltas": 1,
+      "consecutive_negative_deltas": 2,
       "alerted": false,
       "consecutive_misses": 0
+    },
+    {
+      "url": "https://www.tiktok.com/@mikaylanogueira/video/7613455365035937054",
+      "first_seen": "2026-03-05T20:35:33.757138+00:00",
+      "market": "\ud83c\uddfa\ud83c\uddf8 US ONLY",
+      "text": "DREAM HAIR! I\u2019m just getting started \ud83d\ude09\ud83d\ude09",
+      "creator": "mikaylanogueira",
+      "checks": [
+        {
+          "timestamp": "2026-03-05T20:35:33.757138+00:00",
+          "age_hours": 27.0,
+          "shares_per_hour": 58.6,
+          "views_per_hour": 59258,
+          "momentum": 16066,
+          "delta_shares_per_hour": null
+        }
+      ],
+      "consecutive_negative_deltas": 0,
+      "alerted": false
+    },
+    {
+      "url": "https://www.tiktok.com/@mikaylanogueira/video/7613439819817045279",
+      "first_seen": "2026-03-05T20:35:33.757138+00:00",
+      "market": "\ud83c\uddfa\ud83c\uddf8 US ONLY",
+      "text": "GLOW UP PHASE ONE \ud83e\udd2a #glowup #hairtransformation #newhair #hairday #hairextensions ",
+      "creator": "mikaylanogueira",
+      "checks": [
+        {
+          "timestamp": "2026-03-05T20:35:33.757138+00:00",
+          "age_hours": 28.0,
+          "shares_per_hour": 14.9,
+          "views_per_hour": 42847,
+          "momentum": 11760,
+          "delta_shares_per_hour": null
+        }
+      ],
+      "consecutive_negative_deltas": 0,
+      "alerted": false
+    },
+    {
+      "url": "https://www.tiktok.com/@chelseasik0/video/7613210569738390814",
+      "first_seen": "2026-03-05T20:35:33.757138+00:00",
+      "market": "\ud83c\uddfa\ud83c\uddf8 US ONLY",
+      "text": "Breakup glow up is real \u2728\n#HilyApp #hilycreator",
+      "creator": "chelseasik0",
+      "checks": [
+        {
+          "timestamp": "2026-03-05T20:35:33.757138+00:00",
+          "age_hours": 42.8,
+          "shares_per_hour": 102.5,
+          "views_per_hour": 25679,
+          "momentum": 7872,
+          "delta_shares_per_hour": null
+        }
+      ],
+      "consecutive_negative_deltas": 0,
+      "alerted": false
     }
   ]
 }
