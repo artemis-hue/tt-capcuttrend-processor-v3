@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-05T08:39:19.975465+00:00",
+  "last_updated": "2026-03-05T10:37:12.650085+00:00",
   "candidates": [
     {
       "url": "https://www.tiktok.com/@user2312450393252/video/7613005747567250702",
@@ -27,7 +27,7 @@
       ],
       "consecutive_negative_deltas": 1,
       "alerted": false,
-      "consecutive_misses": 1
+      "consecutive_misses": 2
     },
     {
       "url": "https://www.tiktok.com/@mwxn636696/video/7613009081053252895",
@@ -55,7 +55,7 @@
       ],
       "consecutive_negative_deltas": 1,
       "alerted": false,
-      "consecutive_misses": 1
+      "consecutive_misses": 2
     },
     {
       "url": "https://www.tiktok.com/@po94275/video/7613019001588960526",
@@ -83,7 +83,7 @@
       ],
       "consecutive_negative_deltas": 1,
       "alerted": false,
-      "consecutive_misses": 1
+      "consecutive_misses": 2
     },
     {
       "url": "https://www.tiktok.com/@mikaylanogueira/video/7613455365035937054",
@@ -99,10 +99,19 @@
           "views_per_hour": 106220,
           "momentum": 28799,
           "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-03-05T10:37:12.649965+00:00",
+          "age_hours": 17.0,
+          "shares_per_hour": 92.8,
+          "views_per_hour": 93964,
+          "momentum": 25476,
+          "delta_shares_per_hour": -12.200000000000003
         }
       ],
-      "consecutive_negative_deltas": 0,
-      "alerted": false
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
     },
     {
       "url": "https://www.tiktok.com/@mikaylanogueira/video/7613081665958628638",
@@ -118,10 +127,19 @@
           "views_per_hour": 73918,
           "momentum": 21208,
           "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-03-05T10:37:12.649965+00:00",
+          "age_hours": 41.2,
+          "shares_per_hour": 39.3,
+          "views_per_hour": 70393,
+          "momentum": 20197,
+          "delta_shares_per_hour": -1.9000000000000057
         }
       ],
-      "consecutive_negative_deltas": 0,
-      "alerted": false
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
     },
     {
       "url": "https://www.tiktok.com/@mikaylanogueira/video/7613439819817045279",
@@ -137,10 +155,19 @@
           "views_per_hour": 74675,
           "momentum": 20496,
           "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-03-05T10:37:12.649965+00:00",
+          "age_hours": 18.0,
+          "shares_per_hour": 23.1,
+          "views_per_hour": 66540,
+          "momentum": 18263,
+          "delta_shares_per_hour": -2.799999999999997
         }
       ],
-      "consecutive_negative_deltas": 0,
-      "alerted": false
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
     },
     {
       "url": "https://www.tiktok.com/@chelseasik0/video/7613210569738390814",
@@ -156,10 +183,19 @@
           "views_per_hour": 35600,
           "momentum": 10913,
           "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-03-05T10:37:12.649965+00:00",
+          "age_hours": 32.9,
+          "shares_per_hour": 133.6,
+          "views_per_hour": 33472,
+          "momentum": 10261,
+          "delta_shares_per_hour": -8.5
         }
       ],
-      "consecutive_negative_deltas": 0,
-      "alerted": false
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
     },
     {
       "url": "https://www.tiktok.com/@michael.funny84/video/7613477569177914654",
@@ -175,10 +211,19 @@
           "views_per_hour": 20801,
           "momentum": 8268,
           "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-03-05T10:37:12.649965+00:00",
+          "age_hours": 15.6,
+          "shares_per_hour": 373.6,
+          "views_per_hour": 18180,
+          "momentum": 7226,
+          "delta_shares_per_hour": -53.799999999999955
         }
       ],
-      "consecutive_negative_deltas": 0,
-      "alerted": false
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
     }
   ]
 }
