@@ -1,189 +1,157 @@
 {
-  "last_updated": "2026-03-06T10:33:29.729590+00:00",
+  "last_updated": "2026-03-06T12:53:04.206886+00:00",
   "candidates": [
     {
-      "url": "https://www.tiktok.com/@mikaylanogueira/video/7613455365035937054",
-      "first_seen": "2026-03-05T20:35:33.757138+00:00",
-      "market": "\ud83c\uddfa\ud83c\uddf8 US ONLY",
-      "text": "DREAM HAIR! I\u2019m just getting started \ud83d\ude09\ud83d\ude09",
-      "creator": "mikaylanogueira",
-      "checks": [
-        {
-          "timestamp": "2026-03-05T20:35:33.757138+00:00",
-          "age_hours": 27.0,
-          "shares_per_hour": 58.6,
-          "views_per_hour": 59258,
-          "momentum": 16066,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-03-05T22:30:22.644568+00:00",
-          "age_hours": 28.9,
-          "shares_per_hour": 54.7,
-          "views_per_hour": 55336,
-          "momentum": 15003,
-          "delta_shares_per_hour": -3.8999999999999986
-        }
-      ],
-      "consecutive_negative_deltas": 1,
-      "alerted": false,
-      "consecutive_misses": 2
-    },
-    {
-      "url": "https://www.tiktok.com/@mikaylanogueira/video/7613439819817045279",
-      "first_seen": "2026-03-05T20:35:33.757138+00:00",
-      "market": "\ud83c\uddfa\ud83c\uddf8 US ONLY",
-      "text": "GLOW UP PHASE ONE \ud83e\udd2a #glowup #hairtransformation #newhair #hairday #hairextensions ",
-      "creator": "mikaylanogueira",
-      "checks": [
-        {
-          "timestamp": "2026-03-05T20:35:33.757138+00:00",
-          "age_hours": 28.0,
-          "shares_per_hour": 14.9,
-          "views_per_hour": 42847,
-          "momentum": 11760,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-03-05T22:30:22.644568+00:00",
-          "age_hours": 29.9,
-          "shares_per_hour": 13.9,
-          "views_per_hour": 40106,
-          "momentum": 11008,
-          "delta_shares_per_hour": -1.0
-        }
-      ],
-      "consecutive_negative_deltas": 1,
-      "alerted": false,
-      "consecutive_misses": 2
-    },
-    {
-      "url": "https://www.tiktok.com/@chelseasik0/video/7613210569738390814",
-      "first_seen": "2026-03-05T20:35:33.757138+00:00",
-      "market": "\ud83c\uddfa\ud83c\uddf8 US ONLY",
-      "text": "Breakup glow up is real \u2728\n#HilyApp #hilycreator",
-      "creator": "chelseasik0",
-      "checks": [
-        {
-          "timestamp": "2026-03-05T20:35:33.757138+00:00",
-          "age_hours": 42.8,
-          "shares_per_hour": 102.5,
-          "views_per_hour": 25679,
-          "momentum": 7872,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-03-05T22:30:22.644568+00:00",
-          "age_hours": 44.7,
-          "shares_per_hour": 98.1,
-          "views_per_hour": 24581,
-          "momentum": 7535,
-          "delta_shares_per_hour": -4.400000000000006
-        }
-      ],
-      "consecutive_negative_deltas": 1,
-      "alerted": false,
-      "consecutive_misses": 2
-    },
-    {
-      "url": "https://www.tiktok.com/@michael.funny84/video/7613477569177914654",
-      "first_seen": "2026-03-05T22:30:22.644568+00:00",
+      "url": "https://www.tiktok.com/@oneminutehackstv/video/7613621906616388886",
+      "first_seen": "2026-03-06T12:53:04.201385+00:00",
       "market": "\ud83c\uddec\ud83c\udde7 UK ONLY",
-      "text": "#BalliBotMagos #TredingReels #TredingReels #ForYouPage #FYP #FYP #ViralTikTok #MillionViews #TechMagic #SmartBot #AITrend #RobotVibes #Innovation ",
-      "creator": "michael.funny84",
+      "text": "New Fruit Story \ud83d\ude02 #aistory #Animation #brainrot #sadstory #fruitstory ",
+      "creator": "oneminutehackstv",
       "checks": [
         {
-          "timestamp": "2026-03-05T22:30:22.644568+00:00",
-          "age_hours": 27.5,
-          "shares_per_hour": 212.0,
-          "views_per_hour": 10316,
-          "momentum": 4100,
+          "timestamp": "2026-03-06T12:53:04.201385+00:00",
+          "age_hours": 32.5,
+          "shares_per_hour": 2961.7,
+          "views_per_hour": 58434,
+          "momentum": 48229,
           "delta_shares_per_hour": null
         }
       ],
       "consecutive_negative_deltas": 0,
-      "alerted": false,
-      "consecutive_misses": 2
+      "alerted": false
     },
     {
-      "url": "https://www.tiktok.com/@elysianerror/video/7613296779966074120",
-      "first_seen": "2026-03-05T22:30:22.644568+00:00",
-      "market": "\ud83c\uddec\ud83c\udde7 UK ONLY",
-      "text": "#douyin #transisimakeup #glowup ",
-      "creator": "elysianerror",
-      "checks": [
-        {
-          "timestamp": "2026-03-05T22:30:22.644568+00:00",
-          "age_hours": 39.2,
-          "shares_per_hour": 34.1,
-          "views_per_hour": 7745,
-          "momentum": 2692,
-          "delta_shares_per_hour": null
-        }
-      ],
-      "consecutive_negative_deltas": 0,
-      "alerted": false,
-      "consecutive_misses": 2
-    },
-    {
-      "url": "https://www.tiktok.com/@la_vie_de_hayeon/video/7613212388518661398",
-      "first_seen": "2026-03-05T22:30:22.644568+00:00",
-      "market": "\ud83c\udf10 BOTH",
-      "text": "\u00abToo much confidence\u00bb they said\u2026 \u00abIts optional to post btw\ud83d\udc94\ud83e\udd40\u00bb they said \u00abbefore vs before\u00bb they said\u2026 #transition #glowup #fyp #viral ",
-      "creator": "la_vie_de_hayeon",
-      "checks": [
-        {
-          "timestamp": "2026-03-05T22:30:22.644568+00:00",
-          "age_hours": 44.6,
-          "shares_per_hour": 11.7,
-          "views_per_hour": 5994,
-          "momentum": 1991,
-          "delta_shares_per_hour": null
-        }
-      ],
-      "consecutive_negative_deltas": 0,
-      "alerted": false,
-      "consecutive_misses": 2
-    },
-    {
-      "url": "https://www.tiktok.com/@catatan_harian47/video/7613458694302453012",
-      "first_seen": "2026-03-05T22:30:22.644568+00:00",
+      "url": "https://www.tiktok.com/@nightlymoments/video/7613504991428463894",
+      "first_seen": "2026-03-06T12:53:04.201385+00:00",
       "market": "\ud83c\uddfa\ud83c\uddf8 US ONLY",
-      "text": "#CapCut #fypppppppppppppppppppppp #pioneertemplate #capcutpioneer #storywa ",
+      "text": "#panda #funny #3am #nightvision #ai ",
+      "creator": "nightlymoments",
+      "checks": [
+        {
+          "timestamp": "2026-03-06T12:53:04.201385+00:00",
+          "age_hours": 40.1,
+          "shares_per_hour": 1087.6,
+          "views_per_hour": 16367,
+          "momentum": 15904,
+          "delta_shares_per_hour": null
+        }
+      ],
+      "consecutive_negative_deltas": 0,
+      "alerted": false
+    },
+    {
+      "url": "https://www.tiktok.com/@snackreacts1/video/7613429194340486422",
+      "first_seen": "2026-03-06T12:53:04.201385+00:00",
+      "market": "\ud83c\uddfa\ud83c\uddf8 US ONLY",
+      "text": "Traurige Ki Story Part 2 #kistory #ki #traurig #emotional #animation ",
+      "creator": "snackreacts1",
+      "checks": [
+        {
+          "timestamp": "2026-03-06T12:53:04.201385+00:00",
+          "age_hours": 44.4,
+          "shares_per_hour": 331.2,
+          "views_per_hour": 16697,
+          "momentum": 6331,
+          "delta_shares_per_hour": null
+        }
+      ],
+      "consecutive_negative_deltas": 0,
+      "alerted": false
+    },
+    {
+      "url": "https://www.tiktok.com/@tjot976554/video/7613641203879300359",
+      "first_seen": "2026-03-06T12:53:04.201385+00:00",
+      "market": "\ud83c\uddec\ud83c\udde7 UK ONLY",
+      "text": "#capcut #capcutpioneer#capcutforus  The warriors effect tutorial  The warriors effect  The warrior 2 effect  Viking Transformation Filter Effect, Viking Transformation Filter Tutorial, How to Create AI Viking Transformation Filter Effect, How to Use the Viking Transformation Filter, How to Make a Viking Transformation Trend Tutorial, How to Make a Viking Transformation Filter Tutorial, How to Create a Viking Transformation Filter Video Efecto de filtro de transformaci\u00f3n vikinga, Tutorial de filtro de transformaci\u00f3n vikinga, C\u00f3mo crear el efecto de filtro de transformaci\u00f3n vikinga con inteligencia artificial, C\u00f3mo usar el filtro de transformaci\u00f3n vikinga, C\u00f3mo hacer un tutorial de tendencia de transformaci\u00f3n vikinga, C\u00f3mo hacer un tutorial de filtro de transformaci\u00f3n vikinga, C\u00f3mo crear un video con filtro de transformaci\u00f3n vikinga",
+      "creator": "tjot976554",
+      "checks": [
+        {
+          "timestamp": "2026-03-06T12:53:04.201385+00:00",
+          "age_hours": 31.3,
+          "shares_per_hour": 281.4,
+          "views_per_hour": 13508,
+          "momentum": 4272,
+          "delta_shares_per_hour": null
+        }
+      ],
+      "consecutive_negative_deltas": 0,
+      "alerted": false
+    },
+    {
+      "url": "https://www.tiktok.com/@_hhcney/video/7613517395101076758",
+      "first_seen": "2026-03-06T12:53:04.201385+00:00",
+      "market": "\ud83c\uddec\ud83c\udde7 UK ONLY",
+      "text": "last year\ud83d\ude13#CapCut #fyp #viral #glowup #xyzabc ",
+      "creator": "_hhcney",
+      "checks": [
+        {
+          "timestamp": "2026-03-06T12:53:04.201385+00:00",
+          "age_hours": 39.3,
+          "shares_per_hour": 18.2,
+          "views_per_hour": 7448,
+          "momentum": 3845,
+          "delta_shares_per_hour": null
+        }
+      ],
+      "consecutive_negative_deltas": 0,
+      "alerted": false
+    },
+    {
+      "url": "https://www.tiktok.com/@catatan_harian47/video/7613806485662928148",
+      "first_seen": "2026-03-06T12:53:04.201385+00:00",
+      "market": "\ud83c\uddec\ud83c\udde7 UK ONLY",
+      "text": "#CapCut #fypppppppppppppppppppppp #capcutpioneer #pioneertemplate #storywa ",
       "creator": "catatan_harian47",
       "checks": [
         {
-          "timestamp": "2026-03-05T22:30:22.644568+00:00",
-          "age_hours": 28.7,
-          "shares_per_hour": 33.0,
-          "views_per_hour": 407,
-          "momentum": 373,
+          "timestamp": "2026-03-06T12:53:04.201385+00:00",
+          "age_hours": 20.6,
+          "shares_per_hour": 283.8,
+          "views_per_hour": 4100,
+          "momentum": 3128,
           "delta_shares_per_hour": null
         }
       ],
       "consecutive_negative_deltas": 0,
-      "alerted": false,
-      "consecutive_misses": 2
+      "alerted": false
     },
     {
-      "url": "https://www.tiktok.com/@ayhai.168/video/7613306475561143560",
-      "first_seen": "2026-03-05T22:30:22.644568+00:00",
+      "url": "https://www.tiktok.com/@tuhrst/video/7613383537626025238",
+      "first_seen": "2026-03-06T12:53:04.201385+00:00",
       "market": "\ud83c\udf10 BOTH",
-      "text": "Free AI Template Link\ud83d\udc47\ud83d\udc47\ud83d\udc47\nPenyunting Kreatif AI, Penyunting Foto AI, AI Creative Editing, AI Photo Editing, Google Gemini AI, Prompt, AI Prompt, ai image generation algorithms, ai Prompt, ai editing photo effect, Filter Foto AI, Al Foto Efek, Filter ai foto wajah, Gunakan filter ai foto ini, Editor foto Alat edit foto efek filter, AI PromptFoto, AIgenerated,ChatGPT, Prompt\nBuat foto serupa dengan satu klik\nsecara gratis, klik hypic di sudut kiri\nbawah untuk membuatnya secara gratis.\nGemini ai foto edit\nPrompt Gemini ai\nEditor kreatif AI, Editor foto AI\nPenyunting kreatif AI, \nPenyunting fotoAI\nGoogle Gemini AI\nFilter Foto AI\nAI Foto Efek\nFilter ai foto wajah\nGunakan filter ai foto ini\nPenyunting Kreatif AI\nPenyunting Foto AI\nAI Creative Editing,\nAI Photo Editing\nGoogle Gemini AI,\nEditor foto Alat edit\nfoto efek filter ,\npenyunting kreatif AI ,\nAI creative editing Prompt,\nAI PromptFoto\n#hypic #hypiccreator #Godpic @hypic_global @HypicVietnam #faceswap #Geminiai",
-      "creator": "ayhai.168",
+      "text": "i lowkey miss my curly hair.. #fyp #capcut #prime #curly #glowup ",
+      "creator": "tuhrst",
       "checks": [
         {
-          "timestamp": "2026-03-05T22:30:22.644568+00:00",
-          "age_hours": 38.5,
-          "shares_per_hour": 12.8,
-          "views_per_hour": 269,
-          "momentum": 139,
+          "timestamp": "2026-03-06T12:53:04.201385+00:00",
+          "age_hours": 47.9,
+          "shares_per_hour": 7.4,
+          "views_per_hour": 4228,
+          "momentum": 2838,
           "delta_shares_per_hour": null
         }
       ],
       "consecutive_negative_deltas": 0,
-      "alerted": false,
-      "consecutive_misses": 2
+      "alerted": false
+    },
+    {
+      "url": "https://www.tiktok.com/@emma341820/video/7613717882194676999",
+      "first_seen": "2026-03-06T12:53:04.201385+00:00",
+      "market": "\ud83c\udf10 BOTH",
+      "text": "AI Flying Effect Tutorial AI Flying Transformation Effect Guide\ud83d\udc40 Fly into the Sky with AI \u2728 AI Flying Effect CapCut Tutorial AI Flying Filter Effect \ud83d\udd25 How to Create an AI Flying Portrait AI Flying Trend Filter How to Get the AI Flying Effect \ud83d\udcab Use AI to Create a Flying Effect with Your Photo in CapCut \u2764\ufe0f AI Flying Effect Step-by-Step Tutorial\ud83d\udc40 AI Flying Transformation CapCut AI Flying Trend Filter AI Flying Portrait Editing Guide Tutoriel IA Effet Voler \ud83d\udd25 Guide Effet IA Transformation Volante Envolez-vous dans le Ciel avec l\u2019IA \u2728 Tutoriel CapCut Effet IA Voler Effet Filtre IA Voler \ud83d\udd25 Comment Cr\u00e9er un Portrait IA en Train de Voler\ud83d\udc40 Filtre Tendance IA Effet Voler Comment Obtenir l\u2019Effet IA Voler \ud83d\udcab Utilisez l\u2019IA pour Cr\u00e9er un Effet de Vol avec Votre Photo dans CapCut \u2764\ufe0f Tutoriel Pas \u00e0 Pas Effet IA Voler Transformation CapCut IA Effet Voler\ud83d\udc40 Filtre Tendance IA Vol Guide d\u2019\u00c9dition de Portrait IA Volant #fyp #flying #capcut #capcutpioneer #capcutforus",
+      "creator": "emma341820",
+      "checks": [
+        {
+          "timestamp": "2026-03-06T12:53:04.201385+00:00",
+          "age_hours": 26.3,
+          "shares_per_hour": 134.5,
+          "views_per_hour": 5551,
+          "momentum": 2121,
+          "delta_shares_per_hour": null
+        }
+      ],
+      "consecutive_negative_deltas": 0,
+      "alerted": false
     }
   ]
 }
