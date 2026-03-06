@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-05T22:30:22.649324+00:00",
+  "last_updated": "2026-03-06T08:36:13.112222+00:00",
   "candidates": [
     {
       "url": "https://www.tiktok.com/@mikaylanogueira/video/7613455365035937054",
@@ -27,7 +27,7 @@
       ],
       "consecutive_negative_deltas": 1,
       "alerted": false,
-      "consecutive_misses": 0
+      "consecutive_misses": 1
     },
     {
       "url": "https://www.tiktok.com/@mikaylanogueira/video/7613439819817045279",
@@ -55,7 +55,7 @@
       ],
       "consecutive_negative_deltas": 1,
       "alerted": false,
-      "consecutive_misses": 0
+      "consecutive_misses": 1
     },
     {
       "url": "https://www.tiktok.com/@chelseasik0/video/7613210569738390814",
@@ -83,7 +83,7 @@
       ],
       "consecutive_negative_deltas": 1,
       "alerted": false,
-      "consecutive_misses": 0
+      "consecutive_misses": 1
     },
     {
       "url": "https://www.tiktok.com/@michael.funny84/video/7613477569177914654",
@@ -102,7 +102,8 @@
         }
       ],
       "consecutive_negative_deltas": 0,
-      "alerted": false
+      "alerted": false,
+      "consecutive_misses": 1
     },
     {
       "url": "https://www.tiktok.com/@elysianerror/video/7613296779966074120",
@@ -121,7 +122,8 @@
         }
       ],
       "consecutive_negative_deltas": 0,
-      "alerted": false
+      "alerted": false,
+      "consecutive_misses": 1
     },
     {
       "url": "https://www.tiktok.com/@la_vie_de_hayeon/video/7613212388518661398",
@@ -140,7 +142,8 @@
         }
       ],
       "consecutive_negative_deltas": 0,
-      "alerted": false
+      "alerted": false,
+      "consecutive_misses": 1
     },
     {
       "url": "https://www.tiktok.com/@catatan_harian47/video/7613458694302453012",
@@ -159,7 +162,8 @@
         }
       ],
       "consecutive_negative_deltas": 0,
-      "alerted": false
+      "alerted": false,
+      "consecutive_misses": 1
     },
     {
       "url": "https://www.tiktok.com/@ayhai.168/video/7613306475561143560",
@@ -178,7 +182,8 @@
         }
       ],
       "consecutive_negative_deltas": 0,
-      "alerted": false
+      "alerted": false,
+      "consecutive_misses": 1
     }
   ]
 }
