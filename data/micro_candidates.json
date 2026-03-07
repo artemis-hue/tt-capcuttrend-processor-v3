@@ -1,114 +1,6 @@
 {
-  "last_updated": "2026-03-07T18:31:37.487552+00:00",
+  "last_updated": "2026-03-07T20:23:50.025243+00:00",
   "candidates": [
-    {
-      "url": "https://www.tiktok.com/@syvydwtb33/video/7613956109073665287",
-      "first_seen": "2026-03-07T14:22:40.675963+00:00",
-      "market": "\ud83c\udf10 BOTH",
-      "text": "#capcut #capcutpioneer ",
-      "creator": "syvydwtb33",
-      "checks": [
-        {
-          "timestamp": "2026-03-07T14:22:40.675963+00:00",
-          "age_hours": 36.4,
-          "shares_per_hour": 34.3,
-          "views_per_hour": 15663,
-          "momentum": 2386,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-03-07T16:25:52.239536+00:00",
-          "age_hours": 38.5,
-          "shares_per_hour": 32.4,
-          "views_per_hour": 14827,
-          "momentum": 2258,
-          "delta_shares_per_hour": -1.8999999999999986
-        },
-        {
-          "timestamp": "2026-03-07T18:31:37.482895+00:00",
-          "age_hours": 40.6,
-          "shares_per_hour": 30.8,
-          "views_per_hour": 14060,
-          "momentum": 2142,
-          "delta_shares_per_hour": -1.5999999999999979
-        }
-      ],
-      "consecutive_negative_deltas": 2,
-      "alerted": false,
-      "consecutive_misses": 0
-    },
-    {
-      "url": "https://www.tiktok.com/@theuslx.modelos/video/7613876044424121618",
-      "first_seen": "2026-03-07T14:22:40.675963+00:00",
-      "market": "\ud83c\udf10 BOTH",
-      "text": "Trend Asa Noturna no Capcut - Usem o Template \ud83d\udc46\ud83c\udffc | Asa Noturna Trend | Como Fazer a Trend Asa Noturna | #CapCut #pioneertemplate #capcutpioneer #asanoturna #virginia ",
-      "creator": "theuslx.modelos",
-      "checks": [
-        {
-          "timestamp": "2026-03-07T14:22:40.675963+00:00",
-          "age_hours": 41.6,
-          "shares_per_hour": 32.4,
-          "views_per_hour": 7765,
-          "momentum": 2298,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-03-07T16:25:52.239536+00:00",
-          "age_hours": 43.6,
-          "shares_per_hour": 30.8,
-          "views_per_hour": 7400,
-          "momentum": 2190,
-          "delta_shares_per_hour": -1.5999999999999979
-        },
-        {
-          "timestamp": "2026-03-07T18:31:37.482895+00:00",
-          "age_hours": 45.7,
-          "shares_per_hour": 29.4,
-          "views_per_hour": 7061,
-          "momentum": 2090,
-          "delta_shares_per_hour": -1.4000000000000021
-        }
-      ],
-      "consecutive_negative_deltas": 2,
-      "alerted": false,
-      "consecutive_misses": 0
-    },
-    {
-      "url": "https://www.tiktok.com/@mira.aman.yolo/video/7614215887020707094",
-      "first_seen": "2026-03-07T14:22:40.675963+00:00",
-      "market": "\ud83c\uddec\ud83c\udde7 UK ONLY",
-      "text": "i\u2019m so happy i took it seriously. if i hadn\u2019t had made this decision on a random wednesday i would still look like that. #fyp #GlowUp #SelfCare #trend #facefat ",
-      "creator": "mira.aman.yolo",
-      "checks": [
-        {
-          "timestamp": "2026-03-07T14:22:40.675963+00:00",
-          "age_hours": 19.6,
-          "shares_per_hour": 7.1,
-          "views_per_hour": 5590,
-          "momentum": 2269,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-03-07T16:25:52.239536+00:00",
-          "age_hours": 21.7,
-          "shares_per_hour": 6.5,
-          "views_per_hour": 5060,
-          "momentum": 2054,
-          "delta_shares_per_hour": -0.5999999999999996
-        },
-        {
-          "timestamp": "2026-03-07T18:31:37.482895+00:00",
-          "age_hours": 23.8,
-          "shares_per_hour": 5.9,
-          "views_per_hour": 4614,
-          "momentum": 1873,
-          "delta_shares_per_hour": -0.5999999999999996
-        }
-      ],
-      "consecutive_negative_deltas": 2,
-      "alerted": false,
-      "consecutive_misses": 0
-    },
     {
       "url": "https://www.tiktok.com/@lars_ranks/video/7614036929868270870",
       "first_seen": "2026-03-07T18:31:37.482895+00:00",
@@ -123,10 +15,19 @@
           "views_per_hour": 18805,
           "momentum": 7197,
           "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-03-07T20:23:50.020913+00:00",
+          "age_hours": 37.2,
+          "shares_per_hour": 325.3,
+          "views_per_hour": 17859,
+          "momentum": 6835,
+          "delta_shares_per_hour": -17.19999999999999
         }
       ],
-      "consecutive_negative_deltas": 0,
-      "alerted": false
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
     },
     {
       "url": "https://www.tiktok.com/@lua.br23/video/7614135099528957202",
@@ -142,10 +43,19 @@
           "views_per_hour": 23666,
           "momentum": 6921,
           "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-03-07T20:23:50.020913+00:00",
+          "age_hours": 30.8,
+          "shares_per_hour": 385.8,
+          "views_per_hour": 22232,
+          "momentum": 6501,
+          "delta_shares_per_hour": -24.899999999999977
         }
       ],
-      "consecutive_negative_deltas": 0,
-      "alerted": false
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
     },
     {
       "url": "https://www.tiktok.com/@zenja_template/video/7613930017692601620",
@@ -161,10 +71,19 @@
           "views_per_hour": 2211,
           "momentum": 1843,
           "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-03-07T20:23:50.020913+00:00",
+          "age_hours": 44.1,
+          "shares_per_hour": 21.4,
+          "views_per_hour": 2117,
+          "momentum": 1765,
+          "delta_shares_per_hour": -0.9000000000000021
         }
       ],
-      "consecutive_negative_deltas": 0,
-      "alerted": false
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
     },
     {
       "url": "https://www.tiktok.com/@theuslx.modelos/video/7614097127605685511",
@@ -180,10 +99,19 @@
           "views_per_hour": 5831,
           "momentum": 1242,
           "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-03-07T20:23:50.020913+00:00",
+          "age_hours": 33.3,
+          "shares_per_hour": 12.7,
+          "views_per_hour": 5504,
+          "momentum": 1172,
+          "delta_shares_per_hour": -0.7000000000000011
         }
       ],
-      "consecutive_negative_deltas": 0,
-      "alerted": false
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
     },
     {
       "url": "https://www.tiktok.com/@catatan_harian47/video/7614172485067476244",
@@ -198,6 +126,72 @@
           "shares_per_hour": 90.3,
           "views_per_hour": 1314,
           "momentum": 1032,
+          "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-03-07T20:23:50.020913+00:00",
+          "age_hours": 28.4,
+          "shares_per_hour": 84.3,
+          "views_per_hour": 1227,
+          "momentum": 964,
+          "delta_shares_per_hour": -6.0
+        }
+      ],
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
+    },
+    {
+      "url": "https://www.tiktok.com/@ancha1521/video/7614020774998969630",
+      "first_seen": "2026-03-07T20:23:50.020913+00:00",
+      "market": "\ud83c\udf10 BOTH",
+      "text": "###BalliBotMogis #TrendingReels #TrendingReels #Foryoupage ##FYP #FYP #ViralTikTok #MillionViews #TechMagic #SmartBot #AITrend #RobotVibes #innovation",
+      "creator": "ancha1521",
+      "checks": [
+        {
+          "timestamp": "2026-03-07T20:23:50.020913+00:00",
+          "age_hours": 38.2,
+          "shares_per_hour": 29.7,
+          "views_per_hour": 39227,
+          "momentum": 3756,
+          "delta_shares_per_hour": null
+        }
+      ],
+      "consecutive_negative_deltas": 0,
+      "alerted": false
+    },
+    {
+      "url": "https://www.tiktok.com/@journiiblue/video/7613897635367324959",
+      "first_seen": "2026-03-07T20:23:50.020913+00:00",
+      "market": "\ud83c\udf10 BOTH",
+      "text": "\ud83e\udd26\u200d\u2640\ufe0f#viral #aibaddie #aifamily #soraai #ai #trending #fyp",
+      "creator": "journiiblue",
+      "checks": [
+        {
+          "timestamp": "2026-03-07T20:23:50.020913+00:00",
+          "age_hours": 46.2,
+          "shares_per_hour": 95.6,
+          "views_per_hour": 7447,
+          "momentum": 3596,
+          "delta_shares_per_hour": null
+        }
+      ],
+      "consecutive_negative_deltas": 0,
+      "alerted": false
+    },
+    {
+      "url": "https://www.tiktok.com/@hiro.araki4/video/7613999215554989325",
+      "first_seen": "2026-03-07T20:23:50.020913+00:00",
+      "market": "\ud83c\uddfa\ud83c\uddf8 US ONLY",
+      "text": "hit rock bottom. rebuilt everything. and so can you \ud83d\udcc8 #GlowUp #motivation #fitness #fyp #gym ",
+      "creator": "hiro.araki4",
+      "checks": [
+        {
+          "timestamp": "2026-03-07T20:23:50.020913+00:00",
+          "age_hours": 39.6,
+          "shares_per_hour": 66.6,
+          "views_per_hour": 5572,
+          "momentum": 2016,
           "delta_shares_per_hour": null
         }
       ],
