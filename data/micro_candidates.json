@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-07T08:29:26.270126+00:00",
+  "last_updated": "2026-03-07T10:22:04.375556+00:00",
   "candidates": [
     {
       "url": "https://www.tiktok.com/@janta.queen/video/7613608343986375966",
@@ -35,7 +35,7 @@
       ],
       "consecutive_negative_deltas": 2,
       "alerted": false,
-      "consecutive_misses": 1
+      "consecutive_misses": 2
     },
     {
       "url": "https://www.tiktok.com/@sanarrx/video/7613745854544940290",
@@ -71,7 +71,7 @@
       ],
       "consecutive_negative_deltas": 2,
       "alerted": false,
-      "consecutive_misses": 1
+      "consecutive_misses": 2
     },
     {
       "url": "https://www.tiktok.com/@xdwshfzqi0k/video/7613774556150451486",
@@ -107,7 +107,7 @@
       ],
       "consecutive_negative_deltas": 2,
       "alerted": false,
-      "consecutive_misses": 1
+      "consecutive_misses": 2
     },
     {
       "url": "https://www.tiktok.com/@ayhai.168/video/7613714679185132807",
@@ -143,7 +143,7 @@
       ],
       "consecutive_negative_deltas": 2,
       "alerted": false,
-      "consecutive_misses": 1
+      "consecutive_misses": 2
     },
     {
       "url": "https://www.tiktok.com/@oneminutehackstv/video/7613621906616388886",
@@ -175,9 +175,17 @@
           "views_per_hour": 57558,
           "momentum": 45058,
           "delta_shares_per_hour": 453.0999999999999
+        },
+        {
+          "timestamp": "2026-03-07T10:22:04.375438+00:00",
+          "age_hours": 54.0,
+          "shares_per_hour": 2646.4,
+          "views_per_hour": 55557,
+          "momentum": 43491,
+          "delta_shares_per_hour": -95.29999999999973
         }
       ],
-      "consecutive_negative_deltas": 0,
+      "consecutive_negative_deltas": 1,
       "alerted": false,
       "consecutive_misses": 0
     },
@@ -207,7 +215,7 @@
       ],
       "consecutive_negative_deltas": 1,
       "alerted": false,
-      "consecutive_misses": 1
+      "consecutive_misses": 2
     },
     {
       "url": "https://www.tiktok.com/@lua.br23/video/7614135099528957202",
@@ -223,10 +231,19 @@
           "views_per_hour": 36207,
           "momentum": 10588,
           "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-03-07T10:22:04.375438+00:00",
+          "age_hours": 20.8,
+          "shares_per_hour": 571.6,
+          "views_per_hour": 32942,
+          "momentum": 9633,
+          "delta_shares_per_hour": -56.69999999999993
         }
       ],
-      "consecutive_negative_deltas": 0,
-      "alerted": false
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
     },
     {
       "url": "https://www.tiktok.com/@lars_ranks/video/7614036929868270870",
@@ -242,10 +259,19 @@
           "views_per_hour": 26268,
           "momentum": 10053,
           "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-03-07T10:22:04.375438+00:00",
+          "age_hours": 27.2,
+          "shares_per_hour": 445.4,
+          "views_per_hour": 24453,
+          "momentum": 9358,
+          "delta_shares_per_hour": -33.10000000000002
         }
       ],
-      "consecutive_negative_deltas": 0,
-      "alerted": false
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
     }
   ]
 }
