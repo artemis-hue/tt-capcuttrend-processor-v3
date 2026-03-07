@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-06T22:26:51.185386+00:00",
+  "last_updated": "2026-03-07T08:29:26.270126+00:00",
   "candidates": [
     {
       "url": "https://www.tiktok.com/@janta.queen/video/7613608343986375966",
@@ -35,7 +35,7 @@
       ],
       "consecutive_negative_deltas": 2,
       "alerted": false,
-      "consecutive_misses": 0
+      "consecutive_misses": 1
     },
     {
       "url": "https://www.tiktok.com/@sanarrx/video/7613745854544940290",
@@ -71,79 +71,7 @@
       ],
       "consecutive_negative_deltas": 2,
       "alerted": false,
-      "consecutive_misses": 0
-    },
-    {
-      "url": "https://www.tiktok.com/@l6stayjugging/video/7613505800878755094",
-      "first_seen": "2026-03-06T18:42:28.065279+00:00",
-      "market": "\ud83c\uddec\ud83c\udde7 UK ONLY",
-      "text": "Glow up??? \ud83e\uddfc\ud83e\uddfc #CapCut #fyp #viral #glowup #handsome ",
-      "creator": "l6stayjugging",
-      "checks": [
-        {
-          "timestamp": "2026-03-06T18:42:28.065279+00:00",
-          "age_hours": 45.9,
-          "shares_per_hour": 7.9,
-          "views_per_hour": 2564,
-          "momentum": 830,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-03-06T20:29:54.037080+00:00",
-          "age_hours": 47.6,
-          "shares_per_hour": 7.6,
-          "views_per_hour": 2468,
-          "momentum": 799,
-          "delta_shares_per_hour": -0.3000000000000007
-        },
-        {
-          "timestamp": "2026-03-06T22:26:51.185262+00:00",
-          "age_hours": 49.6,
-          "shares_per_hour": 7.3,
-          "views_per_hour": 2371,
-          "momentum": 767,
-          "delta_shares_per_hour": -0.2999999999999998
-        }
-      ],
-      "consecutive_negative_deltas": 2,
-      "alerted": false,
-      "consecutive_misses": 0
-    },
-    {
-      "url": "https://www.tiktok.com/@ai_influencer_teacher/video/7613596965598776606",
-      "first_seen": "2026-03-06T18:42:28.065279+00:00",
-      "market": "\ud83c\udf10 BOTH",
-      "text": "ai model generator. see pinned for tutorials #aimodel #fanvue #ofm #creatorsearchinsights ",
-      "creator": "ai_influencer_teacher",
-      "checks": [
-        {
-          "timestamp": "2026-03-06T18:42:28.065279+00:00",
-          "age_hours": 40.0,
-          "shares_per_hour": 13.3,
-          "views_per_hour": 4429,
-          "momentum": 752,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-03-06T20:29:54.037080+00:00",
-          "age_hours": 41.8,
-          "shares_per_hour": 12.7,
-          "views_per_hour": 4239,
-          "momentum": 720,
-          "delta_shares_per_hour": -0.6000000000000014
-        },
-        {
-          "timestamp": "2026-03-06T22:26:51.185262+00:00",
-          "age_hours": 43.7,
-          "shares_per_hour": 12.1,
-          "views_per_hour": 4050,
-          "momentum": 688,
-          "delta_shares_per_hour": -0.5999999999999996
-        }
-      ],
-      "consecutive_negative_deltas": 2,
-      "alerted": false,
-      "consecutive_misses": 0
+      "consecutive_misses": 1
     },
     {
       "url": "https://www.tiktok.com/@xdwshfzqi0k/video/7613774556150451486",
@@ -179,7 +107,7 @@
       ],
       "consecutive_negative_deltas": 2,
       "alerted": false,
-      "consecutive_misses": 0
+      "consecutive_misses": 1
     },
     {
       "url": "https://www.tiktok.com/@ayhai.168/video/7613714679185132807",
@@ -215,7 +143,7 @@
       ],
       "consecutive_negative_deltas": 2,
       "alerted": false,
-      "consecutive_misses": 0
+      "consecutive_misses": 1
     },
     {
       "url": "https://www.tiktok.com/@oneminutehackstv/video/7613621906616388886",
@@ -239,9 +167,17 @@
           "views_per_hour": 45154,
           "momentum": 37268,
           "delta_shares_per_hour": -111.20000000000027
+        },
+        {
+          "timestamp": "2026-03-07T08:29:26.265718+00:00",
+          "age_hours": 52.1,
+          "shares_per_hour": 2741.7,
+          "views_per_hour": 57558,
+          "momentum": 45058,
+          "delta_shares_per_hour": 453.0999999999999
         }
       ],
-      "consecutive_negative_deltas": 1,
+      "consecutive_negative_deltas": 0,
       "alerted": false,
       "consecutive_misses": 0
     },
@@ -271,7 +207,45 @@
       ],
       "consecutive_negative_deltas": 1,
       "alerted": false,
-      "consecutive_misses": 0
+      "consecutive_misses": 1
+    },
+    {
+      "url": "https://www.tiktok.com/@lua.br23/video/7614135099528957202",
+      "first_seen": "2026-03-07T08:29:26.265718+00:00",
+      "market": "\ud83c\uddfa\ud83c\uddf8 US ONLY",
+      "text": "como fazer o video do asa noturna,asa noturna transi\u00e7\u00e3o ia como fazer,Trend Asa Noturna IA,trend asa noturna ia tutorial,asa noturna original,asa noturna trend original, trend asa noturna tutorial, tutorial  photo, Dean Winchester, arlene lee throwing, dancinhas\n#capcut #capcutpioneer ",
+      "creator": "lua.br23",
+      "checks": [
+        {
+          "timestamp": "2026-03-07T08:29:26.265718+00:00",
+          "age_hours": 18.9,
+          "shares_per_hour": 628.3,
+          "views_per_hour": 36207,
+          "momentum": 10588,
+          "delta_shares_per_hour": null
+        }
+      ],
+      "consecutive_negative_deltas": 0,
+      "alerted": false
+    },
+    {
+      "url": "https://www.tiktok.com/@lars_ranks/video/7614036929868270870",
+      "first_seen": "2026-03-07T08:29:26.265718+00:00",
+      "market": "\ud83c\udf10 BOTH",
+      "text": "Ranking The Best AI Disney Trailers\ud83c\udfac #disney #fyp #ranking #ai ",
+      "creator": "lars_ranks",
+      "checks": [
+        {
+          "timestamp": "2026-03-07T08:29:26.265718+00:00",
+          "age_hours": 25.3,
+          "shares_per_hour": 478.5,
+          "views_per_hour": 26268,
+          "momentum": 10053,
+          "delta_shares_per_hour": null
+        }
+      ],
+      "consecutive_negative_deltas": 0,
+      "alerted": false
     }
   ]
 }
