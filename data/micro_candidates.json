@@ -1,150 +1,6 @@
 {
-  "last_updated": "2026-03-08T16:26:51.529660+00:00",
+  "last_updated": "2026-03-08T18:32:12.967373+00:00",
   "candidates": [
-    {
-      "url": "https://www.tiktok.com/@storyzone46/video/7614441667688402206",
-      "first_seen": "2026-03-08T12:45:03.899392+00:00",
-      "market": "\ud83c\udf10 BOTH",
-      "text": "#sadstory #emotionalstory #aistory #ai ",
-      "creator": "storyzone46",
-      "checks": [
-        {
-          "timestamp": "2026-03-08T12:45:03.899392+00:00",
-          "age_hours": 27.4,
-          "shares_per_hour": 365.3,
-          "views_per_hour": 34433,
-          "momentum": 9664,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-03-08T14:23:40.750144+00:00",
-          "age_hours": 29.0,
-          "shares_per_hour": 344.7,
-          "views_per_hour": 32483,
-          "momentum": 9116,
-          "delta_shares_per_hour": -20.600000000000023
-        },
-        {
-          "timestamp": "2026-03-08T16:26:51.525083+00:00",
-          "age_hours": 31.1,
-          "shares_per_hour": 321.9,
-          "views_per_hour": 30336,
-          "momentum": 8514,
-          "delta_shares_per_hour": -22.80000000000001
-        }
-      ],
-      "consecutive_negative_deltas": 2,
-      "alerted": false,
-      "consecutive_misses": 0
-    },
-    {
-      "url": "https://www.tiktok.com/@k179bux0/video/7614346032486403349",
-      "first_seen": "2026-03-08T12:45:03.899392+00:00",
-      "market": "\ud83c\uddec\ud83c\udde7 UK ONLY",
-      "text": "BASS DA DA DA TREND #CapCut #bassdadada #pioneertemplate #capcutpioneer #trending ",
-      "creator": "k179bux0",
-      "checks": [
-        {
-          "timestamp": "2026-03-08T12:45:03.899392+00:00",
-          "age_hours": 33.6,
-          "shares_per_hour": 85.6,
-          "views_per_hour": 12599,
-          "momentum": 8598,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-03-08T14:23:40.750144+00:00",
-          "age_hours": 35.2,
-          "shares_per_hour": 81.6,
-          "views_per_hour": 12011,
-          "momentum": 8196,
-          "delta_shares_per_hour": -4.0
-        },
-        {
-          "timestamp": "2026-03-08T16:26:51.525083+00:00",
-          "age_hours": 37.3,
-          "shares_per_hour": 77.1,
-          "views_per_hour": 11349,
-          "momentum": 7745,
-          "delta_shares_per_hour": -4.5
-        }
-      ],
-      "consecutive_negative_deltas": 2,
-      "alerted": false,
-      "consecutive_misses": 0
-    },
-    {
-      "url": "https://www.tiktok.com/@local_capcut_templates/video/7614190639378402573",
-      "first_seen": "2026-03-08T12:45:03.899392+00:00",
-      "market": "\ud83c\udf10 BOTH",
-      "text": "#capcut #capcutpioneer #pioneertemplate #capcuttemplate #capcutedit ",
-      "creator": "local_capcut_templates",
-      "checks": [
-        {
-          "timestamp": "2026-03-08T12:45:03.899392+00:00",
-          "age_hours": 43.6,
-          "shares_per_hour": 66.6,
-          "views_per_hour": 25225,
-          "momentum": 6759,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-03-08T14:23:40.750144+00:00",
-          "age_hours": 45.2,
-          "shares_per_hour": 64.2,
-          "views_per_hour": 24309,
-          "momentum": 6514,
-          "delta_shares_per_hour": -2.3999999999999915
-        },
-        {
-          "timestamp": "2026-03-08T16:26:51.525083+00:00",
-          "age_hours": 47.3,
-          "shares_per_hour": 61.4,
-          "views_per_hour": 23254,
-          "momentum": 6231,
-          "delta_shares_per_hour": -2.8000000000000043
-        }
-      ],
-      "consecutive_negative_deltas": 2,
-      "alerted": false,
-      "consecutive_misses": 0
-    },
-    {
-      "url": "https://www.tiktok.com/@piscesfin/video/7614600396501191956",
-      "first_seen": "2026-03-08T12:45:03.899392+00:00",
-      "market": "\ud83c\uddfa\ud83c\uddf8 US ONLY",
-      "text": "#CapCut #hariperempuansedunia #capcutpioneer #pioneertemplate #fyppppppppppppppppppppppp ",
-      "creator": "piscesfin",
-      "checks": [
-        {
-          "timestamp": "2026-03-08T12:45:03.899392+00:00",
-          "age_hours": 17.1,
-          "shares_per_hour": 401.0,
-          "views_per_hour": 9091,
-          "momentum": 4438,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-03-08T14:23:40.750144+00:00",
-          "age_hours": 18.7,
-          "shares_per_hour": 365.9,
-          "views_per_hour": 8294,
-          "momentum": 4049,
-          "delta_shares_per_hour": -35.10000000000002
-        },
-        {
-          "timestamp": "2026-03-08T16:26:51.525083+00:00",
-          "age_hours": 20.8,
-          "shares_per_hour": 329.7,
-          "views_per_hour": 7475,
-          "momentum": 3649,
-          "delta_shares_per_hour": -36.19999999999999
-        }
-      ],
-      "consecutive_negative_deltas": 2,
-      "alerted": false,
-      "consecutive_misses": 0
-    },
     {
       "url": "https://www.tiktok.com/@objetsparlants0/video/7614421452275617046",
       "first_seen": "2026-03-08T14:23:40.750144+00:00",
@@ -167,9 +23,17 @@
           "views_per_hour": 17926,
           "momentum": 3702,
           "delta_shares_per_hour": -1.6999999999999993
+        },
+        {
+          "timestamp": "2026-03-08T18:32:12.963111+00:00",
+          "age_hours": 34.5,
+          "shares_per_hour": 24.6,
+          "views_per_hour": 16839,
+          "momentum": 3477,
+          "delta_shares_per_hour": -1.5999999999999979
         }
       ],
-      "consecutive_negative_deltas": 1,
+      "consecutive_negative_deltas": 2,
       "alerted": false,
       "consecutive_misses": 0
     },
@@ -195,9 +59,17 @@
           "views_per_hour": 10672,
           "momentum": 3005,
           "delta_shares_per_hour": -0.8000000000000007
+        },
+        {
+          "timestamp": "2026-03-08T18:32:12.963111+00:00",
+          "age_hours": 37.5,
+          "shares_per_hour": 12.3,
+          "views_per_hour": 10078,
+          "momentum": 2838,
+          "delta_shares_per_hour": -0.7999999999999989
         }
       ],
-      "consecutive_negative_deltas": 1,
+      "consecutive_negative_deltas": 2,
       "alerted": false,
       "consecutive_misses": 0
     },
@@ -223,9 +95,17 @@
           "views_per_hour": 8632,
           "momentum": 2888,
           "delta_shares_per_hour": -7.6000000000000085
+        },
+        {
+          "timestamp": "2026-03-08T18:32:12.963111+00:00",
+          "age_hours": 34.7,
+          "shares_per_hour": 106.0,
+          "views_per_hour": 8112,
+          "momentum": 2714,
+          "delta_shares_per_hour": -6.799999999999997
         }
       ],
-      "consecutive_negative_deltas": 1,
+      "consecutive_negative_deltas": 2,
       "alerted": false,
       "consecutive_misses": 0
     },
@@ -242,6 +122,91 @@
           "shares_per_hour": 1424.8,
           "views_per_hour": 63122,
           "momentum": 21351,
+          "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-03-08T18:32:12.963111+00:00",
+          "age_hours": 46.4,
+          "shares_per_hour": 1360.7,
+          "views_per_hour": 60283,
+          "momentum": 20390,
+          "delta_shares_per_hour": -64.09999999999991
+        }
+      ],
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
+    },
+    {
+      "url": "https://www.tiktok.com/@overcookmyself/video/7614633479120243990",
+      "first_seen": "2026-03-08T18:32:12.963111+00:00",
+      "market": "\ud83c\uddfa\ud83c\uddf8 US ONLY",
+      "text": "Toilet abd Toilet Paper\u00a0\nAi couple cheating\n#aistory #aianimation #storytime #americanhumor #aifoodtalking",
+      "creator": "overcookmyself",
+      "checks": [
+        {
+          "timestamp": "2026-03-08T18:32:12.963111+00:00",
+          "age_hours": 20.8,
+          "shares_per_hour": 168.3,
+          "views_per_hour": 3271,
+          "momentum": 2467,
+          "delta_shares_per_hour": null
+        }
+      ],
+      "consecutive_negative_deltas": 0,
+      "alerted": false
+    },
+    {
+      "url": "https://www.tiktok.com/@tnairunariakra/video/7614461699202059538",
+      "first_seen": "2026-03-08T18:32:12.963111+00:00",
+      "market": "\ud83c\uddfa\ud83c\uddf8 US ONLY",
+      "text": "#CapCut #hariperempuansedunia #capcutgala2026 #capcutpioneer #pioneertemplate ",
+      "creator": "tnairunariakra",
+      "checks": [
+        {
+          "timestamp": "2026-03-08T18:32:12.963111+00:00",
+          "age_hours": 31.9,
+          "shares_per_hour": 120.7,
+          "views_per_hour": 3477,
+          "momentum": 1631,
+          "delta_shares_per_hour": null
+        }
+      ],
+      "consecutive_negative_deltas": 0,
+      "alerted": false
+    },
+    {
+      "url": "https://www.tiktok.com/@cocoon_asmr/video/7614541607387335958",
+      "first_seen": "2026-03-08T18:32:12.963111+00:00",
+      "market": "\ud83c\uddfa\ud83c\uddf8 US ONLY",
+      "text": "#CapCut #ia #foryoupage\u2764\ufe0f\u2764\ufe0f #pourtoi #fruitstory ",
+      "creator": "cocoon_asmr",
+      "checks": [
+        {
+          "timestamp": "2026-03-08T18:32:12.963111+00:00",
+          "age_hours": 26.7,
+          "shares_per_hour": 31.4,
+          "views_per_hour": 8705,
+          "momentum": 1558,
+          "delta_shares_per_hour": null
+        }
+      ],
+      "consecutive_negative_deltas": 0,
+      "alerted": false
+    },
+    {
+      "url": "https://www.tiktok.com/@zenja_template/video/7614265612755291412",
+      "first_seen": "2026-03-08T18:32:12.963111+00:00",
+      "market": "\ud83c\udf10 BOTH",
+      "text": "Use my template \ud83d\ude22#cinematic #gru #capcutpioneer #pioneertemplate #CapCut ",
+      "creator": "zenja_template",
+      "checks": [
+        {
+          "timestamp": "2026-03-08T18:32:12.963111+00:00",
+          "age_hours": 44.5,
+          "shares_per_hour": 9.7,
+          "views_per_hour": 1697,
+          "momentum": 1131,
           "delta_shares_per_hour": null
         }
       ],
