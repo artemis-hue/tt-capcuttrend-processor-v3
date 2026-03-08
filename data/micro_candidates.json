@@ -1,42 +1,6 @@
 {
-  "last_updated": "2026-03-08T20:24:34.018258+00:00",
+  "last_updated": "2026-03-08T22:21:49.098222+00:00",
   "candidates": [
-    {
-      "url": "https://www.tiktok.com/@yudiiithm/video/7614236212018040072",
-      "first_seen": "2026-03-08T16:26:51.525083+00:00",
-      "market": "\ud83c\udf10 BOTH",
-      "text": "D\u00eda de la Mujer\n#CapCut #filtroia #pioneertemplate #embajadorcc #capcutpioneer ",
-      "creator": "yudiiithm",
-      "checks": [
-        {
-          "timestamp": "2026-03-08T16:26:51.525083+00:00",
-          "age_hours": 44.4,
-          "shares_per_hour": 1424.8,
-          "views_per_hour": 63122,
-          "momentum": 21351,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-03-08T18:32:12.963111+00:00",
-          "age_hours": 46.4,
-          "shares_per_hour": 1360.7,
-          "views_per_hour": 60283,
-          "momentum": 20390,
-          "delta_shares_per_hour": -64.09999999999991
-        },
-        {
-          "timestamp": "2026-03-08T20:24:34.013451+00:00",
-          "age_hours": 48.3,
-          "shares_per_hour": 1308.0,
-          "views_per_hour": 57947,
-          "momentum": 19600,
-          "delta_shares_per_hour": -52.700000000000045
-        }
-      ],
-      "consecutive_negative_deltas": 2,
-      "alerted": false,
-      "consecutive_misses": 0
-    },
     {
       "url": "https://www.tiktok.com/@overcookmyself/video/7614633479120243990",
       "first_seen": "2026-03-08T18:32:12.963111+00:00",
@@ -59,9 +23,17 @@
           "views_per_hour": 3000,
           "momentum": 2263,
           "delta_shares_per_hour": -14.0
+        },
+        {
+          "timestamp": "2026-03-08T22:21:49.093786+00:00",
+          "age_hours": 24.6,
+          "shares_per_hour": 142.1,
+          "views_per_hour": 2762,
+          "momentum": 2083,
+          "delta_shares_per_hour": -12.200000000000017
         }
       ],
-      "consecutive_negative_deltas": 1,
+      "consecutive_negative_deltas": 2,
       "alerted": false,
       "consecutive_misses": 0
     },
@@ -87,9 +59,17 @@
           "views_per_hour": 3284,
           "momentum": 1540,
           "delta_shares_per_hour": -6.700000000000003
+        },
+        {
+          "timestamp": "2026-03-08T22:21:49.093786+00:00",
+          "age_hours": 35.7,
+          "shares_per_hour": 107.8,
+          "views_per_hour": 3104,
+          "momentum": 1456,
+          "delta_shares_per_hour": -6.200000000000003
         }
       ],
-      "consecutive_negative_deltas": 1,
+      "consecutive_negative_deltas": 2,
       "alerted": false,
       "consecutive_misses": 0
     },
@@ -115,9 +95,17 @@
           "views_per_hour": 8134,
           "momentum": 1456,
           "delta_shares_per_hour": -2.099999999999998
+        },
+        {
+          "timestamp": "2026-03-08T22:21:49.093786+00:00",
+          "age_hours": 30.5,
+          "shares_per_hour": 27.5,
+          "views_per_hour": 7614,
+          "momentum": 1363,
+          "delta_shares_per_hour": -1.8000000000000007
         }
       ],
-      "consecutive_negative_deltas": 1,
+      "consecutive_negative_deltas": 2,
       "alerted": false,
       "consecutive_misses": 0
     },
@@ -143,9 +131,17 @@
           "views_per_hour": 1628,
           "momentum": 1085,
           "delta_shares_per_hour": -0.29999999999999893
+        },
+        {
+          "timestamp": "2026-03-08T22:21:49.093786+00:00",
+          "age_hours": 48.4,
+          "shares_per_hour": 9.0,
+          "views_per_hour": 1563,
+          "momentum": 1041,
+          "delta_shares_per_hour": -0.40000000000000036
         }
       ],
-      "consecutive_negative_deltas": 1,
+      "consecutive_negative_deltas": 2,
       "alerted": false,
       "consecutive_misses": 0
     },
@@ -163,10 +159,19 @@
           "views_per_hour": 26905,
           "momentum": 7551,
           "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-03-08T22:21:49.093786+00:00",
+          "age_hours": 37.0,
+          "shares_per_hour": 270.4,
+          "views_per_hour": 25484,
+          "momentum": 7152,
+          "delta_shares_per_hour": -15.100000000000023
         }
       ],
-      "consecutive_negative_deltas": 0,
-      "alerted": false
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
     },
     {
       "url": "https://www.tiktok.com/@k179bux0/video/7614346032486403349",
@@ -182,10 +187,19 @@
           "views_per_hour": 10258,
           "momentum": 7000,
           "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-03-08T22:21:49.093786+00:00",
+          "age_hours": 43.2,
+          "shares_per_hour": 66.5,
+          "views_per_hour": 9793,
+          "momentum": 6683,
+          "delta_shares_per_hour": -3.200000000000003
         }
       ],
-      "consecutive_negative_deltas": 0,
-      "alerted": false
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
     },
     {
       "url": "https://www.tiktok.com/@piscesfin/video/7614600396501191956",
@@ -200,6 +214,34 @@
           "shares_per_hour": 277.0,
           "views_per_hour": 6279,
           "momentum": 3065,
+          "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-03-08T22:21:49.093786+00:00",
+          "age_hours": 26.7,
+          "shares_per_hour": 256.7,
+          "views_per_hour": 5820,
+          "momentum": 2841,
+          "delta_shares_per_hour": -20.30000000000001
+        }
+      ],
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
+    },
+    {
+      "url": "https://www.tiktok.com/@objetsparlants0/video/7614421452275617046",
+      "first_seen": "2026-03-08T22:21:49.093786+00:00",
+      "market": "\ud83c\udf10 BOTH",
+      "text": "Abonnez-vous\u2705\u2764\ufe0f rejoindrez notre famille \ud83d\udcaa\ud83c\udffb\ud83e\udd2f Le choc total . Fraise vs Banane : le mariage tourne au cauchemar. \ud83c\udf53\ud83c\udf4c Fin de la partie 1 \n#IA ##Histoireai #viralfrance\ud83c\uddeb\ud83c\uddf7 #aianimation #tiktokfrance\ud83c\udde8\ud83c\uddf5 ",
+      "creator": "objetsparlants0",
+      "checks": [
+        {
+          "timestamp": "2026-03-08T22:21:49.093786+00:00",
+          "age_hours": 38.3,
+          "shares_per_hour": 22.1,
+          "views_per_hour": 15156,
+          "momentum": 3130,
           "delta_shares_per_hour": null
         }
       ],
