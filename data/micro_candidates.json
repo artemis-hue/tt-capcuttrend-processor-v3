@@ -1,42 +1,6 @@
 {
-  "last_updated": "2026-03-08T14:23:40.754919+00:00",
+  "last_updated": "2026-03-08T16:26:51.529660+00:00",
   "candidates": [
-    {
-      "url": "https://www.tiktok.com/@lua.br23/video/7614135099528957202",
-      "first_seen": "2026-03-08T10:23:46.148260+00:00",
-      "market": "\ud83c\udf10 BOTH",
-      "text": "como fazer o video do asa noturna,asa noturna transi\u00e7\u00e3o ia como fazer,Trend Asa Noturna IA,trend asa noturna ia tutorial,asa noturna original,asa noturna trend original, trend asa noturna tutorial, tutorial  photo, Dean Winchester, arlene lee throwing, dancinhas\n#capcut #capcutpioneer ",
-      "creator": "lua.br23",
-      "checks": [
-        {
-          "timestamp": "2026-03-08T10:23:46.148260+00:00",
-          "age_hours": 44.8,
-          "shares_per_hour": 987.8,
-          "views_per_hour": 55746,
-          "momentum": 16349,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-03-08T12:45:03.899392+00:00",
-          "age_hours": 47.2,
-          "shares_per_hour": 938.5,
-          "views_per_hour": 52964,
-          "momentum": 15533,
-          "delta_shares_per_hour": -49.299999999999955
-        },
-        {
-          "timestamp": "2026-03-08T14:23:40.750144+00:00",
-          "age_hours": 48.8,
-          "shares_per_hour": 907.0,
-          "views_per_hour": 51182,
-          "momentum": 15010,
-          "delta_shares_per_hour": -31.5
-        }
-      ],
-      "consecutive_negative_deltas": 2,
-      "alerted": false,
-      "consecutive_misses": 0
-    },
     {
       "url": "https://www.tiktok.com/@storyzone46/video/7614441667688402206",
       "first_seen": "2026-03-08T12:45:03.899392+00:00",
@@ -59,9 +23,17 @@
           "views_per_hour": 32483,
           "momentum": 9116,
           "delta_shares_per_hour": -20.600000000000023
+        },
+        {
+          "timestamp": "2026-03-08T16:26:51.525083+00:00",
+          "age_hours": 31.1,
+          "shares_per_hour": 321.9,
+          "views_per_hour": 30336,
+          "momentum": 8514,
+          "delta_shares_per_hour": -22.80000000000001
         }
       ],
-      "consecutive_negative_deltas": 1,
+      "consecutive_negative_deltas": 2,
       "alerted": false,
       "consecutive_misses": 0
     },
@@ -87,9 +59,17 @@
           "views_per_hour": 12011,
           "momentum": 8196,
           "delta_shares_per_hour": -4.0
+        },
+        {
+          "timestamp": "2026-03-08T16:26:51.525083+00:00",
+          "age_hours": 37.3,
+          "shares_per_hour": 77.1,
+          "views_per_hour": 11349,
+          "momentum": 7745,
+          "delta_shares_per_hour": -4.5
         }
       ],
-      "consecutive_negative_deltas": 1,
+      "consecutive_negative_deltas": 2,
       "alerted": false,
       "consecutive_misses": 0
     },
@@ -115,9 +95,17 @@
           "views_per_hour": 24309,
           "momentum": 6514,
           "delta_shares_per_hour": -2.3999999999999915
+        },
+        {
+          "timestamp": "2026-03-08T16:26:51.525083+00:00",
+          "age_hours": 47.3,
+          "shares_per_hour": 61.4,
+          "views_per_hour": 23254,
+          "momentum": 6231,
+          "delta_shares_per_hour": -2.8000000000000043
         }
       ],
-      "consecutive_negative_deltas": 1,
+      "consecutive_negative_deltas": 2,
       "alerted": false,
       "consecutive_misses": 0
     },
@@ -143,9 +131,17 @@
           "views_per_hour": 8294,
           "momentum": 4049,
           "delta_shares_per_hour": -35.10000000000002
+        },
+        {
+          "timestamp": "2026-03-08T16:26:51.525083+00:00",
+          "age_hours": 20.8,
+          "shares_per_hour": 329.7,
+          "views_per_hour": 7475,
+          "momentum": 3649,
+          "delta_shares_per_hour": -36.19999999999999
         }
       ],
-      "consecutive_negative_deltas": 1,
+      "consecutive_negative_deltas": 2,
       "alerted": false,
       "consecutive_misses": 0
     },
@@ -163,10 +159,19 @@
           "views_per_hour": 19139,
           "momentum": 3953,
           "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-03-08T16:26:51.525083+00:00",
+          "age_hours": 32.4,
+          "shares_per_hour": 26.2,
+          "views_per_hour": 17926,
+          "momentum": 3702,
+          "delta_shares_per_hour": -1.6999999999999993
         }
       ],
-      "consecutive_negative_deltas": 0,
-      "alerted": false
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
     },
     {
       "url": "https://www.tiktok.com/@mgcarrilho/video/7614374118405721364",
@@ -182,10 +187,19 @@
           "views_per_hour": 11328,
           "momentum": 3190,
           "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-03-08T16:26:51.525083+00:00",
+          "age_hours": 35.4,
+          "shares_per_hour": 13.1,
+          "views_per_hour": 10672,
+          "momentum": 3005,
+          "delta_shares_per_hour": -0.8000000000000007
         }
       ],
-      "consecutive_negative_deltas": 0,
-      "alerted": false
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
     },
     {
       "url": "https://www.tiktok.com/@rankingtop03/video/7614417827616935190",
@@ -200,6 +214,34 @@
           "shares_per_hour": 120.4,
           "views_per_hour": 9212,
           "momentum": 3082,
+          "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-03-08T16:26:51.525083+00:00",
+          "age_hours": 32.6,
+          "shares_per_hour": 112.8,
+          "views_per_hour": 8632,
+          "momentum": 2888,
+          "delta_shares_per_hour": -7.6000000000000085
+        }
+      ],
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
+    },
+    {
+      "url": "https://www.tiktok.com/@yudiiithm/video/7614236212018040072",
+      "first_seen": "2026-03-08T16:26:51.525083+00:00",
+      "market": "\ud83c\udf10 BOTH",
+      "text": "D\u00eda de la Mujer\n#CapCut #filtroia #pioneertemplate #embajadorcc #capcutpioneer ",
+      "creator": "yudiiithm",
+      "checks": [
+        {
+          "timestamp": "2026-03-08T16:26:51.525083+00:00",
+          "age_hours": 44.4,
+          "shares_per_hour": 1424.8,
+          "views_per_hour": 63122,
+          "momentum": 21351,
           "delta_shares_per_hour": null
         }
       ],
