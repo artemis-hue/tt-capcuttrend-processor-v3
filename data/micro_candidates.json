@@ -1,142 +1,6 @@
 {
-  "last_updated": "2026-03-08T10:23:46.152871+00:00",
+  "last_updated": "2026-03-08T12:45:03.903697+00:00",
   "candidates": [
-    {
-      "url": "https://www.tiktok.com/@lars_ranks/video/7614036929868270870",
-      "first_seen": "2026-03-07T18:31:37.482895+00:00",
-      "market": "\ud83c\udf10 BOTH",
-      "text": "Ranking The Best AI Disney Trailers\ud83c\udfac #disney #fyp #ranking #ai ",
-      "creator": "lars_ranks",
-      "checks": [
-        {
-          "timestamp": "2026-03-07T18:31:37.482895+00:00",
-          "age_hours": 35.3,
-          "shares_per_hour": 342.5,
-          "views_per_hour": 18805,
-          "momentum": 7197,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-03-07T20:23:50.020913+00:00",
-          "age_hours": 37.2,
-          "shares_per_hour": 325.3,
-          "views_per_hour": 17859,
-          "momentum": 6835,
-          "delta_shares_per_hour": -17.19999999999999
-        },
-        {
-          "timestamp": "2026-03-07T22:21:49.469711+00:00",
-          "age_hours": 39.2,
-          "shares_per_hour": 309.0,
-          "views_per_hour": 16962,
-          "momentum": 6492,
-          "delta_shares_per_hour": -16.30000000000001
-        }
-      ],
-      "consecutive_negative_deltas": 2,
-      "alerted": false,
-      "consecutive_misses": 2
-    },
-    {
-      "url": "https://www.tiktok.com/@theuslx.modelos/video/7614097127605685511",
-      "first_seen": "2026-03-07T18:31:37.482895+00:00",
-      "market": "\ud83c\udf10 BOTH",
-      "text": "Trend Asa Noturna en Capcut \ud83d\udc46\ud83c\udffc | Utilicen la plantilla || C\u00f3mo hacer la tendencia de Alas Nocturna | Tutorial de Alas Nocturnas || @Arthur Lima \n\n#CapCut #pioneertemplate #capcutpioneer #asanoturna #arthurlima ",
-      "creator": "theuslx.modelos",
-      "checks": [
-        {
-          "timestamp": "2026-03-07T18:31:37.482895+00:00",
-          "age_hours": 31.4,
-          "shares_per_hour": 13.4,
-          "views_per_hour": 5831,
-          "momentum": 1242,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-03-07T20:23:50.020913+00:00",
-          "age_hours": 33.3,
-          "shares_per_hour": 12.7,
-          "views_per_hour": 5504,
-          "momentum": 1172,
-          "delta_shares_per_hour": -0.7000000000000011
-        },
-        {
-          "timestamp": "2026-03-07T22:21:49.469711+00:00",
-          "age_hours": 35.3,
-          "shares_per_hour": 12.0,
-          "views_per_hour": 5197,
-          "momentum": 1107,
-          "delta_shares_per_hour": -0.6999999999999993
-        }
-      ],
-      "consecutive_negative_deltas": 2,
-      "alerted": false,
-      "consecutive_misses": 2
-    },
-    {
-      "url": "https://www.tiktok.com/@catatan_harian47/video/7614172485067476244",
-      "first_seen": "2026-03-07T18:31:37.482895+00:00",
-      "market": "\ud83c\uddfa\ud83c\uddf8 US ONLY",
-      "text": "#CapCut #fypppppppppppppppppppppp #capcutpioneer #pioneertemplate #storywa ",
-      "creator": "catatan_harian47",
-      "checks": [
-        {
-          "timestamp": "2026-03-07T18:31:37.482895+00:00",
-          "age_hours": 26.6,
-          "shares_per_hour": 90.3,
-          "views_per_hour": 1314,
-          "momentum": 1032,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-03-07T20:23:50.020913+00:00",
-          "age_hours": 28.4,
-          "shares_per_hour": 84.3,
-          "views_per_hour": 1227,
-          "momentum": 964,
-          "delta_shares_per_hour": -6.0
-        },
-        {
-          "timestamp": "2026-03-07T22:21:49.469711+00:00",
-          "age_hours": 30.4,
-          "shares_per_hour": 78.9,
-          "views_per_hour": 1148,
-          "momentum": 902,
-          "delta_shares_per_hour": -5.3999999999999915
-        }
-      ],
-      "consecutive_negative_deltas": 2,
-      "alerted": false,
-      "consecutive_misses": 2
-    },
-    {
-      "url": "https://www.tiktok.com/@ancha1521/video/7614020774998969630",
-      "first_seen": "2026-03-07T20:23:50.020913+00:00",
-      "market": "\ud83c\udf10 BOTH",
-      "text": "###BalliBotMogis #TrendingReels #TrendingReels #Foryoupage ##FYP #FYP #ViralTikTok #MillionViews #TechMagic #SmartBot #AITrend #RobotVibes #innovation",
-      "creator": "ancha1521",
-      "checks": [
-        {
-          "timestamp": "2026-03-07T20:23:50.020913+00:00",
-          "age_hours": 38.2,
-          "shares_per_hour": 29.7,
-          "views_per_hour": 39227,
-          "momentum": 3756,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-03-07T22:21:49.469711+00:00",
-          "age_hours": 40.2,
-          "shares_per_hour": 28.3,
-          "views_per_hour": 37309,
-          "momentum": 3573,
-          "delta_shares_per_hour": -1.3999999999999986
-        }
-      ],
-      "consecutive_negative_deltas": 1,
-      "alerted": false,
-      "consecutive_misses": 2
-    },
     {
       "url": "https://www.tiktok.com/@hiro.araki4/video/7613999215554989325",
       "first_seen": "2026-03-07T20:23:50.020913+00:00",
@@ -175,9 +39,17 @@
           "views_per_hour": 14333,
           "momentum": 4527,
           "delta_shares_per_hour": -5.599999999999994
+        },
+        {
+          "timestamp": "2026-03-08T12:45:03.899392+00:00",
+          "age_hours": 56.0,
+          "shares_per_hour": 144.0,
+          "views_per_hour": 13730,
+          "momentum": 4337,
+          "delta_shares_per_hour": -6.300000000000011
         }
       ],
-      "consecutive_negative_deltas": 1,
+      "consecutive_negative_deltas": 2,
       "alerted": false,
       "consecutive_misses": 0
     },
@@ -203,9 +75,17 @@
           "views_per_hour": 73094,
           "momentum": 24724,
           "delta_shares_per_hour": -86.19999999999982
+        },
+        {
+          "timestamp": "2026-03-08T12:45:03.899392+00:00",
+          "age_hours": 40.7,
+          "shares_per_hour": 1554.3,
+          "views_per_hour": 68861,
+          "momentum": 23292,
+          "delta_shares_per_hour": -95.60000000000014
         }
       ],
-      "consecutive_negative_deltas": 1,
+      "consecutive_negative_deltas": 2,
       "alerted": false,
       "consecutive_misses": 0
     },
@@ -231,9 +111,17 @@
           "views_per_hour": 26255,
           "momentum": 11034,
           "delta_shares_per_hour": -31.399999999999977
+        },
+        {
+          "timestamp": "2026-03-08T12:45:03.899392+00:00",
+          "age_hours": 44.3,
+          "shares_per_hour": 626.0,
+          "views_per_hour": 24858,
+          "momentum": 10447,
+          "delta_shares_per_hour": -35.200000000000045
         }
       ],
-      "consecutive_negative_deltas": 1,
+      "consecutive_negative_deltas": 2,
       "alerted": false,
       "consecutive_misses": 0
     },
@@ -250,6 +138,91 @@
           "shares_per_hour": 987.8,
           "views_per_hour": 55746,
           "momentum": 16349,
+          "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-03-08T12:45:03.899392+00:00",
+          "age_hours": 47.2,
+          "shares_per_hour": 938.5,
+          "views_per_hour": 52964,
+          "momentum": 15533,
+          "delta_shares_per_hour": -49.299999999999955
+        }
+      ],
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
+    },
+    {
+      "url": "https://www.tiktok.com/@storyzone46/video/7614441667688402206",
+      "first_seen": "2026-03-08T12:45:03.899392+00:00",
+      "market": "\ud83c\udf10 BOTH",
+      "text": "#sadstory #emotionalstory #aistory #ai ",
+      "creator": "storyzone46",
+      "checks": [
+        {
+          "timestamp": "2026-03-08T12:45:03.899392+00:00",
+          "age_hours": 27.4,
+          "shares_per_hour": 365.3,
+          "views_per_hour": 34433,
+          "momentum": 9664,
+          "delta_shares_per_hour": null
+        }
+      ],
+      "consecutive_negative_deltas": 0,
+      "alerted": false
+    },
+    {
+      "url": "https://www.tiktok.com/@k179bux0/video/7614346032486403349",
+      "first_seen": "2026-03-08T12:45:03.899392+00:00",
+      "market": "\ud83c\uddec\ud83c\udde7 UK ONLY",
+      "text": "BASS DA DA DA TREND #CapCut #bassdadada #pioneertemplate #capcutpioneer #trending ",
+      "creator": "k179bux0",
+      "checks": [
+        {
+          "timestamp": "2026-03-08T12:45:03.899392+00:00",
+          "age_hours": 33.6,
+          "shares_per_hour": 85.6,
+          "views_per_hour": 12599,
+          "momentum": 8598,
+          "delta_shares_per_hour": null
+        }
+      ],
+      "consecutive_negative_deltas": 0,
+      "alerted": false
+    },
+    {
+      "url": "https://www.tiktok.com/@local_capcut_templates/video/7614190639378402573",
+      "first_seen": "2026-03-08T12:45:03.899392+00:00",
+      "market": "\ud83c\udf10 BOTH",
+      "text": "#capcut #capcutpioneer #pioneertemplate #capcuttemplate #capcutedit ",
+      "creator": "local_capcut_templates",
+      "checks": [
+        {
+          "timestamp": "2026-03-08T12:45:03.899392+00:00",
+          "age_hours": 43.6,
+          "shares_per_hour": 66.6,
+          "views_per_hour": 25225,
+          "momentum": 6759,
+          "delta_shares_per_hour": null
+        }
+      ],
+      "consecutive_negative_deltas": 0,
+      "alerted": false
+    },
+    {
+      "url": "https://www.tiktok.com/@piscesfin/video/7614600396501191956",
+      "first_seen": "2026-03-08T12:45:03.899392+00:00",
+      "market": "\ud83c\uddfa\ud83c\uddf8 US ONLY",
+      "text": "#CapCut #hariperempuansedunia #capcutpioneer #pioneertemplate #fyppppppppppppppppppppppp ",
+      "creator": "piscesfin",
+      "checks": [
+        {
+          "timestamp": "2026-03-08T12:45:03.899392+00:00",
+          "age_hours": 17.1,
+          "shares_per_hour": 401.0,
+          "views_per_hour": 9091,
+          "momentum": 4438,
           "delta_shares_per_hour": null
         }
       ],
