@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-08T08:29:35.393329+00:00",
+  "last_updated": "2026-03-08T10:23:46.152871+00:00",
   "candidates": [
     {
       "url": "https://www.tiktok.com/@lars_ranks/video/7614036929868270870",
@@ -35,7 +35,7 @@
       ],
       "consecutive_negative_deltas": 2,
       "alerted": false,
-      "consecutive_misses": 1
+      "consecutive_misses": 2
     },
     {
       "url": "https://www.tiktok.com/@theuslx.modelos/video/7614097127605685511",
@@ -71,7 +71,7 @@
       ],
       "consecutive_negative_deltas": 2,
       "alerted": false,
-      "consecutive_misses": 1
+      "consecutive_misses": 2
     },
     {
       "url": "https://www.tiktok.com/@catatan_harian47/video/7614172485067476244",
@@ -107,7 +107,7 @@
       ],
       "consecutive_negative_deltas": 2,
       "alerted": false,
-      "consecutive_misses": 1
+      "consecutive_misses": 2
     },
     {
       "url": "https://www.tiktok.com/@ancha1521/video/7614020774998969630",
@@ -135,43 +135,7 @@
       ],
       "consecutive_negative_deltas": 1,
       "alerted": false,
-      "consecutive_misses": 1
-    },
-    {
-      "url": "https://www.tiktok.com/@journiiblue/video/7613897635367324959",
-      "first_seen": "2026-03-07T20:23:50.020913+00:00",
-      "market": "\ud83c\udf10 BOTH",
-      "text": "\ud83e\udd26\u200d\u2640\ufe0f#viral #aibaddie #aifamily #soraai #ai #trending #fyp",
-      "creator": "journiiblue",
-      "checks": [
-        {
-          "timestamp": "2026-03-07T20:23:50.020913+00:00",
-          "age_hours": 46.2,
-          "shares_per_hour": 95.6,
-          "views_per_hour": 7447,
-          "momentum": 3596,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-03-07T22:21:49.469711+00:00",
-          "age_hours": 48.2,
-          "shares_per_hour": 91.7,
-          "views_per_hour": 7143,
-          "momentum": 3449,
-          "delta_shares_per_hour": -3.8999999999999915
-        },
-        {
-          "timestamp": "2026-03-08T08:29:35.389073+00:00",
-          "age_hours": 58.3,
-          "shares_per_hour": 103.5,
-          "views_per_hour": 8741,
-          "momentum": 4056,
-          "delta_shares_per_hour": 11.799999999999997
-        }
-      ],
-      "consecutive_negative_deltas": 0,
-      "alerted": false,
-      "consecutive_misses": 0
+      "consecutive_misses": 2
     },
     {
       "url": "https://www.tiktok.com/@hiro.araki4/video/7613999215554989325",
@@ -203,9 +167,17 @@
           "views_per_hour": 14860,
           "momentum": 4694,
           "delta_shares_per_hour": 92.4
+        },
+        {
+          "timestamp": "2026-03-08T10:23:46.148260+00:00",
+          "age_hours": 53.6,
+          "shares_per_hour": 150.3,
+          "views_per_hour": 14333,
+          "momentum": 4527,
+          "delta_shares_per_hour": -5.599999999999994
         }
       ],
-      "consecutive_negative_deltas": 0,
+      "consecutive_negative_deltas": 1,
       "alerted": false,
       "consecutive_misses": 0
     },
@@ -223,10 +195,19 @@
           "views_per_hour": 76915,
           "momentum": 26016,
           "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-03-08T10:23:46.148260+00:00",
+          "age_hours": 38.3,
+          "shares_per_hour": 1649.9,
+          "views_per_hour": 73094,
+          "momentum": 24724,
+          "delta_shares_per_hour": -86.19999999999982
         }
       ],
-      "consecutive_negative_deltas": 0,
-      "alerted": false
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
     },
     {
       "url": "https://www.tiktok.com/@snackreacts1/video/7614103893940636950",
@@ -241,6 +222,34 @@
           "shares_per_hour": 692.6,
           "views_per_hour": 27504,
           "momentum": 11559,
+          "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-03-08T10:23:46.148260+00:00",
+          "age_hours": 41.9,
+          "shares_per_hour": 661.2,
+          "views_per_hour": 26255,
+          "momentum": 11034,
+          "delta_shares_per_hour": -31.399999999999977
+        }
+      ],
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
+    },
+    {
+      "url": "https://www.tiktok.com/@lua.br23/video/7614135099528957202",
+      "first_seen": "2026-03-08T10:23:46.148260+00:00",
+      "market": "\ud83c\udf10 BOTH",
+      "text": "como fazer o video do asa noturna,asa noturna transi\u00e7\u00e3o ia como fazer,Trend Asa Noturna IA,trend asa noturna ia tutorial,asa noturna original,asa noturna trend original, trend asa noturna tutorial, tutorial  photo, Dean Winchester, arlene lee throwing, dancinhas\n#capcut #capcutpioneer ",
+      "creator": "lua.br23",
+      "checks": [
+        {
+          "timestamp": "2026-03-08T10:23:46.148260+00:00",
+          "age_hours": 44.8,
+          "shares_per_hour": 987.8,
+          "views_per_hour": 55746,
+          "momentum": 16349,
           "delta_shares_per_hour": null
         }
       ],
