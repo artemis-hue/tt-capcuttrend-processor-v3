@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-09T14:49:26.376605+00:00",
+  "last_updated": "2026-03-09T16:55:29.154558+00:00",
   "candidates": [
     {
       "url": "https://www.tiktok.com/@snackreacts1/video/7614863465701854486",
@@ -23,9 +23,17 @@
           "views_per_hour": 20336,
           "momentum": 10895,
           "delta_shares_per_hour": -73.79999999999995
+        },
+        {
+          "timestamp": "2026-03-09T16:55:29.153836+00:00",
+          "age_hours": 24.4,
+          "shares_per_hour": 757.4,
+          "views_per_hour": 18587,
+          "momentum": 9958,
+          "delta_shares_per_hour": -71.30000000000007
         }
       ],
-      "consecutive_negative_deltas": 1,
+      "consecutive_negative_deltas": 2,
       "alerted": false,
       "consecutive_misses": 0
     },
@@ -51,9 +59,17 @@
           "views_per_hour": 18376,
           "momentum": 8272,
           "delta_shares_per_hour": -35.700000000000045
+        },
+        {
+          "timestamp": "2026-03-09T16:55:29.153836+00:00",
+          "age_hours": 41.9,
+          "shares_per_hour": 704.3,
+          "views_per_hour": 17454,
+          "momentum": 7857,
+          "delta_shares_per_hour": -37.200000000000045
         }
       ],
-      "consecutive_negative_deltas": 1,
+      "consecutive_negative_deltas": 2,
       "alerted": false,
       "consecutive_misses": 0
     },
@@ -79,9 +95,17 @@
           "views_per_hour": 10084,
           "momentum": 6944,
           "delta_shares_per_hour": -7.900000000000006
+        },
+        {
+          "timestamp": "2026-03-09T16:55:29.153836+00:00",
+          "age_hours": 37.6,
+          "shares_per_hour": 136.6,
+          "views_per_hour": 9520,
+          "momentum": 6555,
+          "delta_shares_per_hour": -8.099999999999994
         }
       ],
-      "consecutive_negative_deltas": 1,
+      "consecutive_negative_deltas": 2,
       "alerted": false,
       "consecutive_misses": 0
     },
@@ -107,9 +131,17 @@
           "views_per_hour": 6227,
           "momentum": 5600,
           "delta_shares_per_hour": -17.899999999999977
+        },
+        {
+          "timestamp": "2026-03-09T16:55:29.153836+00:00",
+          "age_hours": 43.1,
+          "shares_per_hour": 366.2,
+          "views_per_hour": 5924,
+          "momentum": 5327,
+          "delta_shares_per_hour": -18.80000000000001
         }
       ],
-      "consecutive_negative_deltas": 1,
+      "consecutive_negative_deltas": 2,
       "alerted": false,
       "consecutive_misses": 0
     },
@@ -127,10 +159,19 @@
           "views_per_hour": 58149,
           "momentum": 4053,
           "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-03-09T16:55:29.153836+00:00",
+          "age_hours": 38.2,
+          "shares_per_hour": 254.0,
+          "views_per_hour": 54952,
+          "momentum": 3830,
+          "delta_shares_per_hour": -14.699999999999989
         }
       ],
-      "consecutive_negative_deltas": 0,
-      "alerted": false
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
     },
     {
       "url": "https://www.tiktok.com/@cryptidarchives4/video/7614748083586338068",
@@ -146,10 +187,19 @@
           "views_per_hour": 41633,
           "momentum": 3060,
           "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-03-09T16:55:29.153836+00:00",
+          "age_hours": 35.7,
+          "shares_per_hour": 64.9,
+          "views_per_hour": 39185,
+          "momentum": 2880,
+          "delta_shares_per_hour": -4.099999999999994
         }
       ],
-      "consecutive_negative_deltas": 0,
-      "alerted": false
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
     },
     {
       "url": "https://www.tiktok.com/@julzzess/video/7615043334758731015",
@@ -165,10 +215,19 @@
           "views_per_hour": 3770,
           "momentum": 2579,
           "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-03-09T16:55:29.153836+00:00",
+          "age_hours": 16.6,
+          "shares_per_hour": 21.9,
+          "views_per_hour": 3294,
+          "momentum": 2253,
+          "delta_shares_per_hour": -3.1000000000000014
         }
       ],
-      "consecutive_negative_deltas": 0,
-      "alerted": false
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
     },
     {
       "url": "https://www.tiktok.com/@cocoon_asmr/video/7614541607387335958",
@@ -184,10 +243,19 @@
           "views_per_hour": 10938,
           "momentum": 2065,
           "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-03-09T16:55:29.153836+00:00",
+          "age_hours": 49.1,
+          "shares_per_hour": 40.6,
+          "views_per_hour": 10469,
+          "momentum": 1977,
+          "delta_shares_per_hour": -1.7999999999999972
         }
       ],
-      "consecutive_negative_deltas": 0,
-      "alerted": false
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
     }
   ]
 }
