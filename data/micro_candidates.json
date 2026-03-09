@@ -1,150 +1,6 @@
 {
-  "last_updated": "2026-03-09T18:51:40.516966+00:00",
+  "last_updated": "2026-03-09T20:32:59.343714+00:00",
   "candidates": [
-    {
-      "url": "https://www.tiktok.com/@idoksterlongfart/video/7614709620833045791",
-      "first_seen": "2026-03-09T14:49:26.371655+00:00",
-      "market": "\ud83c\udf10 BOTH",
-      "text": "Idksterling #idksterling #fyp #ai #sora #fy",
-      "creator": "idoksterlongfart",
-      "checks": [
-        {
-          "timestamp": "2026-03-09T14:49:26.371655+00:00",
-          "age_hours": 36.1,
-          "shares_per_hour": 268.7,
-          "views_per_hour": 58149,
-          "momentum": 4053,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-03-09T16:55:29.153836+00:00",
-          "age_hours": 38.2,
-          "shares_per_hour": 254.0,
-          "views_per_hour": 54952,
-          "momentum": 3830,
-          "delta_shares_per_hour": -14.699999999999989
-        },
-        {
-          "timestamp": "2026-03-09T18:51:40.512298+00:00",
-          "age_hours": 40.2,
-          "shares_per_hour": 241.7,
-          "views_per_hour": 52302,
-          "momentum": 3645,
-          "delta_shares_per_hour": -12.300000000000011
-        }
-      ],
-      "consecutive_negative_deltas": 2,
-      "alerted": false,
-      "consecutive_misses": 0
-    },
-    {
-      "url": "https://www.tiktok.com/@cryptidarchives4/video/7614748083586338068",
-      "first_seen": "2026-03-09T14:49:26.371655+00:00",
-      "market": "\ud83c\udf10 BOTH",
-      "text": "ai? or naw\n\n#aitrend \n#scarytiktok #unexplained #fyp ",
-      "creator": "cryptidarchives4",
-      "checks": [
-        {
-          "timestamp": "2026-03-09T14:49:26.371655+00:00",
-          "age_hours": 33.6,
-          "shares_per_hour": 69.0,
-          "views_per_hour": 41633,
-          "momentum": 3060,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-03-09T16:55:29.153836+00:00",
-          "age_hours": 35.7,
-          "shares_per_hour": 64.9,
-          "views_per_hour": 39185,
-          "momentum": 2880,
-          "delta_shares_per_hour": -4.099999999999994
-        },
-        {
-          "timestamp": "2026-03-09T18:51:40.512298+00:00",
-          "age_hours": 37.7,
-          "shares_per_hour": 61.6,
-          "views_per_hour": 37170,
-          "momentum": 2732,
-          "delta_shares_per_hour": -3.3000000000000043
-        }
-      ],
-      "consecutive_negative_deltas": 2,
-      "alerted": false,
-      "consecutive_misses": 0
-    },
-    {
-      "url": "https://www.tiktok.com/@julzzess/video/7615043334758731015",
-      "first_seen": "2026-03-09T14:49:26.371655+00:00",
-      "market": "\ud83c\uddfa\ud83c\uddf8 US ONLY",
-      "text": "#fyp #foryou #alt #glowup #transformation ",
-      "creator": "julzzess",
-      "checks": [
-        {
-          "timestamp": "2026-03-09T14:49:26.371655+00:00",
-          "age_hours": 14.5,
-          "shares_per_hour": 25.0,
-          "views_per_hour": 3770,
-          "momentum": 2579,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-03-09T16:55:29.153836+00:00",
-          "age_hours": 16.6,
-          "shares_per_hour": 21.9,
-          "views_per_hour": 3294,
-          "momentum": 2253,
-          "delta_shares_per_hour": -3.1000000000000014
-        },
-        {
-          "timestamp": "2026-03-09T18:51:40.512298+00:00",
-          "age_hours": 18.6,
-          "shares_per_hour": 19.6,
-          "views_per_hour": 2950,
-          "momentum": 2018,
-          "delta_shares_per_hour": -2.299999999999997
-        }
-      ],
-      "consecutive_negative_deltas": 2,
-      "alerted": false,
-      "consecutive_misses": 0
-    },
-    {
-      "url": "https://www.tiktok.com/@cocoon_asmr/video/7614541607387335958",
-      "first_seen": "2026-03-09T14:49:26.371655+00:00",
-      "market": "\ud83c\uddfa\ud83c\uddf8 US ONLY",
-      "text": "#CapCut #ia #foryoupage\u2764\ufe0f\u2764\ufe0f #pourtoi #fruitstory ",
-      "creator": "cocoon_asmr",
-      "checks": [
-        {
-          "timestamp": "2026-03-09T14:49:26.371655+00:00",
-          "age_hours": 47.0,
-          "shares_per_hour": 42.4,
-          "views_per_hour": 10938,
-          "momentum": 2065,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-03-09T16:55:29.153836+00:00",
-          "age_hours": 49.1,
-          "shares_per_hour": 40.6,
-          "views_per_hour": 10469,
-          "momentum": 1977,
-          "delta_shares_per_hour": -1.7999999999999972
-        },
-        {
-          "timestamp": "2026-03-09T18:51:40.512298+00:00",
-          "age_hours": 51.0,
-          "shares_per_hour": 39.0,
-          "views_per_hour": 10072,
-          "momentum": 1902,
-          "delta_shares_per_hour": -1.6000000000000014
-        }
-      ],
-      "consecutive_negative_deltas": 2,
-      "alerted": false,
-      "consecutive_misses": 0
-    },
     {
       "url": "https://www.tiktok.com/@comedy.comedy07/video/7614831061679279391",
       "first_seen": "2026-03-09T18:51:40.512298+00:00",
@@ -159,10 +15,19 @@
           "views_per_hour": 71259,
           "momentum": 24987,
           "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-03-09T20:32:59.338520+00:00",
+          "age_hours": 34.0,
+          "shares_per_hour": 1383.8,
+          "views_per_hour": 67716,
+          "momentum": 23744,
+          "delta_shares_per_hour": -72.40000000000009
         }
       ],
-      "consecutive_negative_deltas": 0,
-      "alerted": false
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
     },
     {
       "url": "https://www.tiktok.com/@theuslx.modelos/video/7614616112919022866",
@@ -178,10 +43,19 @@
           "views_per_hour": 10220,
           "momentum": 1714,
           "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-03-09T20:32:59.338520+00:00",
+          "age_hours": 47.9,
+          "shares_per_hour": 14.6,
+          "views_per_hour": 9860,
+          "momentum": 1653,
+          "delta_shares_per_hour": -0.5
         }
       ],
-      "consecutive_negative_deltas": 0,
-      "alerted": false
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
     },
     {
       "url": "https://www.tiktok.com/@4dore.kayla/video/7614621885938060558",
@@ -197,10 +71,19 @@
           "views_per_hour": 1102,
           "momentum": 850,
           "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-03-09T20:32:59.338520+00:00",
+          "age_hours": 47.5,
+          "shares_per_hour": 14.1,
+          "views_per_hour": 1062,
+          "momentum": 820,
+          "delta_shares_per_hour": -0.5
         }
       ],
-      "consecutive_negative_deltas": 0,
-      "alerted": false
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
     },
     {
       "url": "https://www.tiktok.com/@catatan_harian47/video/7614930204342881556",
@@ -215,6 +98,91 @@
           "shares_per_hour": 51.5,
           "views_per_hour": 849,
           "momentum": 601,
+          "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-03-09T20:32:59.338520+00:00",
+          "age_hours": 27.6,
+          "shares_per_hour": 48.3,
+          "views_per_hour": 797,
+          "momentum": 564,
+          "delta_shares_per_hour": -3.200000000000003
+        }
+      ],
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
+    },
+    {
+      "url": "https://www.tiktok.com/@snackreacts1/video/7614863465701854486",
+      "first_seen": "2026-03-09T20:32:59.338520+00:00",
+      "market": "\ud83c\uddec\ud83c\udde7 UK ONLY",
+      "text": "Traurige KI Story Part 6 #kistory #ki #traurig #emotional #animation ",
+      "creator": "snackreacts1",
+      "checks": [
+        {
+          "timestamp": "2026-03-09T20:32:59.338520+00:00",
+          "age_hours": 28.0,
+          "shares_per_hour": 659.5,
+          "views_per_hour": 16185,
+          "momentum": 8671,
+          "delta_shares_per_hour": null
+        }
+      ],
+      "consecutive_negative_deltas": 0,
+      "alerted": false
+    },
+    {
+      "url": "https://www.tiktok.com/@quzamiwuukd/video/7614652835409579285",
+      "first_seen": "2026-03-09T20:32:59.338520+00:00",
+      "market": "\ud83c\uddfa\ud83c\uddf8 US ONLY",
+      "text": "#capcutpioneer #pioneertemplate #capcutgala2026 tutorial ai ubah fotomu menjadi video bergerak menari tarian India bollywood haye haye marjawan tery bin cinematic, tutorial buat video menari di wan, tutorial buat video menari India bollywood dari foto sendiri, cara edit foto jadi video menari realistis, ai menari India bollywood 8k ultra detailed, ai dance haye haye marjawan tery bin viral trend tiktok, ai bollywood dancer effect cinematic lighting, ai Bollywood choreography video generator, ai dance Bollywood outfit colorful traditional, ai template capcut bollywood dance transition, prompt ai chatgpt buat video menari India, kling ai bollywood dance animation dari foto, grok ai prompt India Bollywood choreography, kling ai ai dance Bollywood viral trend, ai wan Bollywood style dance motion, AI dance Bollywood realistic, video maker dance India 2026, Indian dance AI from photo, Bollywood choreography effect AI, tutorial video dance India Bollywood viral tiktok, \u0e01\u0e32\u0e23\u0e40\u0e15\u0e49\u0e19\u0e23\u0e33\u0e2d\u0e34\u0e19\u0e40\u0e14\u0e35\u0e22\u0e42\u0e1a\u0e25\u0e34\u0e27\u0e39\u0e14 AI \u0e08\u0e32\u0e01\u0e20\u0e32\u0e1e\u0e16\u0e48\u0e32\u0e22, \u0e27\u0e34\u0e14\u0e35\u0e42\u0e2d\u0e40\u0e15\u0e49\u0e19\u0e23\u0e33\u0e2d\u0e34\u0e19\u0e40\u0e14\u0e35\u0e22 AI, \u092c\u0949\u0932\u0940\u0935\u0941\u0921 \u0921\u093e\u0902\u0938 \u0935\u0940\u0921\u093f\u092f\u094b \u090f\u0906\u0908, \u0627\u0646\u0688\u06cc\u0646 \u0688\u0627\u0646\u0633 \u0627\u06d2 \u0622\u0626\u06cc \u0648\u06cc\u0688\u06cc\u0648, \u0628\u0627\u0644\u06cc \u0648\u0688 \u0688\u0627\u0646\u0633 \u0627\u06d2 \u0622\u0626\u06cc \u0648\u06cc\u0688\u06cc\u0648\u060c AI \u0921\u093e\u0902\u0938 \u092c\u0949\u0932\u093f\u0935\u0941\u0921 \u0935\u0940\u0921\u093f\u092f\u094b \u091c\u0928\u0930\u0947\u091f\u0930, \u092d\u093e\u0930\u0924\u0940\u092f \u0928\u0943\u0924\u094d\u092f AI \u092b\u094b\u091f\u094b \u0938\u0947, tiktok viral Indian dance AI, ai gemini ubah foto jadi menari Bollywood haye haye, ai prompt gemini bollywood dance choreography realistic, ai template capcut bollywood dance transition viral, kling ai bollywood dance motion from photo, grok ai prompt create Bollywood dance AI video, ai wan Bollywood dance viral 2026, keywords English: AI dance Bollywood video generator, AI Bollywood choreography from photo, AI Haye Haye Marjawan Tery Bin dance trend, AI dance tutorial India style, AI Bollywood outfit colorful animation, AI photo to video Bollywood dancer, AI Bollywood dance viral TikTok, AI cinematic Bollywood choreography, AI template CapCut dance effect, AI prompt ChatGPT Bollywood dance video, Kling AI photo to Bollywood dance animation, Grok AI Bollywood dance prompt, AI WAN Bollywood style dance video\n#capcut #capcutpioneer ",
+      "creator": "quzamiwuukd",
+      "checks": [
+        {
+          "timestamp": "2026-03-09T20:32:59.338520+00:00",
+          "age_hours": 45.5,
+          "shares_per_hour": 648.2,
+          "views_per_hour": 16064,
+          "momentum": 7231,
+          "delta_shares_per_hour": null
+        }
+      ],
+      "consecutive_negative_deltas": 0,
+      "alerted": false
+    },
+    {
+      "url": "https://www.tiktok.com/@stormcapcutx/video/7614719577930435861",
+      "first_seen": "2026-03-09T20:32:59.338520+00:00",
+      "market": "\ud83c\udf10 BOTH",
+      "text": "i love u s2 #CapCut #capcutpioneer #pioneertemplate @selo ",
+      "creator": "stormcapcutx",
+      "checks": [
+        {
+          "timestamp": "2026-03-09T20:32:59.338520+00:00",
+          "age_hours": 41.2,
+          "shares_per_hour": 124.6,
+          "views_per_hour": 8682,
+          "momentum": 5978,
+          "delta_shares_per_hour": null
+        }
+      ],
+      "consecutive_negative_deltas": 0,
+      "alerted": false
+    },
+    {
+      "url": "https://www.tiktok.com/@overcookmyself/video/7614633479120243990",
+      "first_seen": "2026-03-09T20:32:59.338520+00:00",
+      "market": "\ud83c\uddfa\ud83c\uddf8 US ONLY",
+      "text": "Toilet abd Toilet Paper\u00a0\nAi couple cheating\n#aistory #aianimation #storytime #americanhumor #aifoodtalking",
+      "creator": "overcookmyself",
+      "checks": [
+        {
+          "timestamp": "2026-03-09T20:32:59.338520+00:00",
+          "age_hours": 46.8,
+          "shares_per_hour": 337.8,
+          "views_per_hour": 5465,
+          "momentum": 4914,
           "delta_shares_per_hour": null
         }
       ],
