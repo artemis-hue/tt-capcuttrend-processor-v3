@@ -1,42 +1,6 @@
 {
-  "last_updated": "2026-03-08T22:21:49.098222+00:00",
+  "last_updated": "2026-03-09T08:42:12.786537+00:00",
   "candidates": [
-    {
-      "url": "https://www.tiktok.com/@overcookmyself/video/7614633479120243990",
-      "first_seen": "2026-03-08T18:32:12.963111+00:00",
-      "market": "\ud83c\uddfa\ud83c\uddf8 US ONLY",
-      "text": "Toilet abd Toilet Paper\u00a0\nAi couple cheating\n#aistory #aianimation #storytime #americanhumor #aifoodtalking",
-      "creator": "overcookmyself",
-      "checks": [
-        {
-          "timestamp": "2026-03-08T18:32:12.963111+00:00",
-          "age_hours": 20.8,
-          "shares_per_hour": 168.3,
-          "views_per_hour": 3271,
-          "momentum": 2467,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-03-08T20:24:34.013451+00:00",
-          "age_hours": 22.6,
-          "shares_per_hour": 154.3,
-          "views_per_hour": 3000,
-          "momentum": 2263,
-          "delta_shares_per_hour": -14.0
-        },
-        {
-          "timestamp": "2026-03-08T22:21:49.093786+00:00",
-          "age_hours": 24.6,
-          "shares_per_hour": 142.1,
-          "views_per_hour": 2762,
-          "momentum": 2083,
-          "delta_shares_per_hour": -12.200000000000017
-        }
-      ],
-      "consecutive_negative_deltas": 2,
-      "alerted": false,
-      "consecutive_misses": 0
-    },
     {
       "url": "https://www.tiktok.com/@tnairunariakra/video/7614461699202059538",
       "first_seen": "2026-03-08T18:32:12.963111+00:00",
@@ -71,43 +35,7 @@
       ],
       "consecutive_negative_deltas": 2,
       "alerted": false,
-      "consecutive_misses": 0
-    },
-    {
-      "url": "https://www.tiktok.com/@cocoon_asmr/video/7614541607387335958",
-      "first_seen": "2026-03-08T18:32:12.963111+00:00",
-      "market": "\ud83c\uddfa\ud83c\uddf8 US ONLY",
-      "text": "#CapCut #ia #foryoupage\u2764\ufe0f\u2764\ufe0f #pourtoi #fruitstory ",
-      "creator": "cocoon_asmr",
-      "checks": [
-        {
-          "timestamp": "2026-03-08T18:32:12.963111+00:00",
-          "age_hours": 26.7,
-          "shares_per_hour": 31.4,
-          "views_per_hour": 8705,
-          "momentum": 1558,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-03-08T20:24:34.013451+00:00",
-          "age_hours": 28.6,
-          "shares_per_hour": 29.3,
-          "views_per_hour": 8134,
-          "momentum": 1456,
-          "delta_shares_per_hour": -2.099999999999998
-        },
-        {
-          "timestamp": "2026-03-08T22:21:49.093786+00:00",
-          "age_hours": 30.5,
-          "shares_per_hour": 27.5,
-          "views_per_hour": 7614,
-          "momentum": 1363,
-          "delta_shares_per_hour": -1.8000000000000007
-        }
-      ],
-      "consecutive_negative_deltas": 2,
-      "alerted": false,
-      "consecutive_misses": 0
+      "consecutive_misses": 1
     },
     {
       "url": "https://www.tiktok.com/@zenja_template/video/7614265612755291412",
@@ -143,7 +71,7 @@
       ],
       "consecutive_negative_deltas": 2,
       "alerted": false,
-      "consecutive_misses": 0
+      "consecutive_misses": 1
     },
     {
       "url": "https://www.tiktok.com/@storyzone46/video/7614441667688402206",
@@ -167,9 +95,17 @@
           "views_per_hour": 25484,
           "momentum": 7152,
           "delta_shares_per_hour": -15.100000000000023
+        },
+        {
+          "timestamp": "2026-03-09T08:42:12.781853+00:00",
+          "age_hours": 47.3,
+          "shares_per_hour": 350.8,
+          "views_per_hour": 33809,
+          "momentum": 9044,
+          "delta_shares_per_hour": 80.40000000000003
         }
       ],
-      "consecutive_negative_deltas": 1,
+      "consecutive_negative_deltas": 0,
       "alerted": false,
       "consecutive_misses": 0
     },
@@ -195,9 +131,17 @@
           "views_per_hour": 9793,
           "momentum": 6683,
           "delta_shares_per_hour": -3.200000000000003
+        },
+        {
+          "timestamp": "2026-03-09T08:42:12.781853+00:00",
+          "age_hours": 53.5,
+          "shares_per_hour": 127.6,
+          "views_per_hour": 26163,
+          "momentum": 15329,
+          "delta_shares_per_hour": 61.099999999999994
         }
       ],
-      "consecutive_negative_deltas": 1,
+      "consecutive_negative_deltas": 0,
       "alerted": false,
       "consecutive_misses": 0
     },
@@ -227,7 +171,7 @@
       ],
       "consecutive_negative_deltas": 1,
       "alerted": false,
-      "consecutive_misses": 0
+      "consecutive_misses": 1
     },
     {
       "url": "https://www.tiktok.com/@objetsparlants0/video/7614421452275617046",
@@ -242,6 +186,45 @@
           "shares_per_hour": 22.1,
           "views_per_hour": 15156,
           "momentum": 3130,
+          "delta_shares_per_hour": null
+        }
+      ],
+      "consecutive_negative_deltas": 0,
+      "alerted": false,
+      "consecutive_misses": 1
+    },
+    {
+      "url": "https://www.tiktok.com/@comedy.comedy07/video/7614831061679279391",
+      "first_seen": "2026-03-09T08:42:12.781853+00:00",
+      "market": "\ud83c\udf10 BOTH",
+      "text": "#BalliBotMogis #TrendingReels #TrendingReels #Foryoupage ##FYP #FYP #ViralTikTok #MillionViews #TechMagic #SmartBot #AITrend #RobotVibes #Innovation ",
+      "creator": "comedy.comedy07",
+      "checks": [
+        {
+          "timestamp": "2026-03-09T08:42:12.781853+00:00",
+          "age_hours": 22.1,
+          "shares_per_hour": 2124.9,
+          "views_per_hour": 103983,
+          "momentum": 36462,
+          "delta_shares_per_hour": null
+        }
+      ],
+      "consecutive_negative_deltas": 0,
+      "alerted": false
+    },
+    {
+      "url": "https://www.tiktok.com/@iranaretzz/video/7614432175164853525",
+      "first_seen": "2026-03-09T08:42:12.781853+00:00",
+      "market": "\ud83c\udf10 BOTH",
+      "text": "International Women's Day - New Happy women's day template \nJust click \"Capcut Anchor (try this template) to Use\"\n\n#CapCut #capcutpioneer #pioneertemplate #womensday2026 #womensday ",
+      "creator": "iranaretzz",
+      "checks": [
+        {
+          "timestamp": "2026-03-09T08:42:12.781853+00:00",
+          "age_hours": 47.9,
+          "shares_per_hour": 1846.1,
+          "views_per_hour": 62580,
+          "momentum": 28248,
           "delta_shares_per_hour": null
         }
       ],
