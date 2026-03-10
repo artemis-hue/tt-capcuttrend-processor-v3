@@ -1,94 +1,6 @@
 {
-  "last_updated": "2026-03-10T12:57:34.136262+00:00",
+  "last_updated": "2026-03-10T14:46:33.929090+00:00",
   "candidates": [
-    {
-      "url": "https://www.tiktok.com/@stormcapcutx/video/7614719577930435861",
-      "first_seen": "2026-03-09T20:32:59.338520+00:00",
-      "market": "\ud83c\udf10 BOTH",
-      "text": "i love u s2 #CapCut #capcutpioneer #pioneertemplate @selo ",
-      "creator": "stormcapcutx",
-      "checks": [
-        {
-          "timestamp": "2026-03-09T20:32:59.338520+00:00",
-          "age_hours": 41.2,
-          "shares_per_hour": 124.6,
-          "views_per_hour": 8682,
-          "momentum": 5978,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-03-09T22:27:13.008293+00:00",
-          "age_hours": 43.1,
-          "shares_per_hour": 119.1,
-          "views_per_hour": 8299,
-          "momentum": 5714,
-          "delta_shares_per_hour": -5.5
-        },
-        {
-          "timestamp": "2026-03-10T08:39:49.497992+00:00",
-          "age_hours": 53.3,
-          "shares_per_hour": 212.0,
-          "views_per_hour": 15756,
-          "momentum": 10498,
-          "delta_shares_per_hour": 92.9
-        },
-        {
-          "timestamp": "2026-03-10T10:37:48.023054+00:00",
-          "age_hours": 55.3,
-          "shares_per_hour": 204.4,
-          "views_per_hour": 15196,
-          "momentum": 10125,
-          "delta_shares_per_hour": -7.599999999999994
-        },
-        {
-          "timestamp": "2026-03-10T12:57:34.131685+00:00",
-          "age_hours": 57.6,
-          "shares_per_hour": 196.2,
-          "views_per_hour": 14581,
-          "momentum": 9715,
-          "delta_shares_per_hour": -8.200000000000017
-        }
-      ],
-      "consecutive_negative_deltas": 2,
-      "alerted": false,
-      "consecutive_misses": 0
-    },
-    {
-      "url": "https://www.tiktok.com/@snackreacts1/video/7615260701589900566",
-      "first_seen": "2026-03-10T08:39:49.497992+00:00",
-      "market": "\ud83c\uddec\ud83c\udde7 UK ONLY",
-      "text": "Traurige KI Story Part 7 #kistory #ki #traurig #emotional #animation ",
-      "creator": "snackreacts1",
-      "checks": [
-        {
-          "timestamp": "2026-03-10T08:39:49.497992+00:00",
-          "age_hours": 16.2,
-          "shares_per_hour": 1020.8,
-          "views_per_hour": 25390,
-          "momentum": 13895,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-03-10T10:37:48.023054+00:00",
-          "age_hours": 18.1,
-          "shares_per_hour": 910.1,
-          "views_per_hour": 22636,
-          "momentum": 12388,
-          "delta_shares_per_hour": -110.69999999999993
-        },
-        {
-          "timestamp": "2026-03-10T12:57:34.131685+00:00",
-          "age_hours": 20.5,
-          "shares_per_hour": 806.5,
-          "views_per_hour": 20059,
-          "momentum": 10977,
-          "delta_shares_per_hour": -103.60000000000002
-        }
-      ],
-      "consecutive_negative_deltas": 2,
-      "alerted": false,
-      "consecutive_misses": 0
-    },
     {
       "url": "https://www.tiktok.com/@templatebyfeckry/video/7614870624988564754",
       "first_seen": "2026-03-10T12:57:34.131685+00:00",
@@ -103,10 +15,19 @@
           "views_per_hour": 16383,
           "momentum": 11457,
           "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-03-10T14:46:33.923609+00:00",
+          "age_hours": 49.7,
+          "shares_per_hour": 302.1,
+          "views_per_hour": 15784,
+          "momentum": 11038,
+          "delta_shares_per_hour": -11.399999999999977
         }
       ],
-      "consecutive_negative_deltas": 0,
-      "alerted": false
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
     },
     {
       "url": "https://www.tiktok.com/@drexedits01/video/7615161865412431124",
@@ -122,10 +43,19 @@
           "views_per_hour": 6544,
           "momentum": 4318,
           "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-03-10T14:46:33.923609+00:00",
+          "age_hours": 30.8,
+          "shares_per_hour": 29.3,
+          "views_per_hour": 6158,
+          "momentum": 4063,
+          "delta_shares_per_hour": -1.8999999999999986
         }
       ],
-      "consecutive_negative_deltas": 0,
-      "alerted": false
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
     },
     {
       "url": "https://www.tiktok.com/@local_capcut_templates/video/7615017558319631630",
@@ -141,10 +71,19 @@
           "views_per_hour": 10665,
           "momentum": 2977,
           "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-03-10T14:46:33.923609+00:00",
+          "age_hours": 40.1,
+          "shares_per_hour": 32.0,
+          "views_per_hour": 10182,
+          "momentum": 2842,
+          "delta_shares_per_hour": -1.5
         }
       ],
-      "consecutive_negative_deltas": 0,
-      "alerted": false
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
     },
     {
       "url": "https://www.tiktok.com/@nonchadel/video/7615018287688109334",
@@ -160,10 +99,19 @@
           "views_per_hour": 6161,
           "momentum": 2948,
           "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-03-10T14:46:33.923609+00:00",
+          "age_hours": 40.1,
+          "shares_per_hour": 119.3,
+          "views_per_hour": 5882,
+          "momentum": 2814,
+          "delta_shares_per_hour": -5.6000000000000085
         }
       ],
-      "consecutive_negative_deltas": 0,
-      "alerted": false
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
     },
     {
       "url": "https://www.tiktok.com/@theuslx.modelos/video/7615011501061000456",
@@ -179,10 +127,19 @@
           "views_per_hour": 6866,
           "momentum": 2375,
           "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-03-10T14:46:33.923609+00:00",
+          "age_hours": 40.5,
+          "shares_per_hour": 26.4,
+          "views_per_hour": 6558,
+          "momentum": 2268,
+          "delta_shares_per_hour": -1.3000000000000007
         }
       ],
-      "consecutive_negative_deltas": 0,
-      "alerted": false
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
     },
     {
       "url": "https://www.tiktok.com/@nairunariakra/video/7615109849071897864",
@@ -197,6 +154,53 @@
           "shares_per_hour": 111.4,
           "views_per_hour": 5137,
           "momentum": 1660,
+          "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-03-10T14:46:33.923609+00:00",
+          "age_hours": 34.2,
+          "shares_per_hour": 105.5,
+          "views_per_hour": 4864,
+          "momentum": 1571,
+          "delta_shares_per_hour": -5.900000000000006
+        }
+      ],
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
+    },
+    {
+      "url": "https://www.tiktok.com/@ki.videos819/video/7615005777354444054",
+      "first_seen": "2026-03-10T14:46:33.923609+00:00",
+      "market": "\ud83c\uddec\ud83c\udde7 UK ONLY",
+      "text": "#fremdgeher #baby#KI#Fyp #fy",
+      "creator": "ki.videos819",
+      "checks": [
+        {
+          "timestamp": "2026-03-10T14:46:33.923609+00:00",
+          "age_hours": 40.9,
+          "shares_per_hour": 137.3,
+          "views_per_hour": 1226,
+          "momentum": 1551,
+          "delta_shares_per_hour": null
+        }
+      ],
+      "consecutive_negative_deltas": 0,
+      "alerted": false
+    },
+    {
+      "url": "https://www.tiktok.com/@catatan_harian47/video/7615222771718622484",
+      "first_seen": "2026-03-10T14:46:33.923609+00:00",
+      "market": "\ud83c\udf10 BOTH",
+      "text": "#CapCut #fypppppppppppppppppppppp #capcutpioneer #pioneertemplate #storywa ",
+      "creator": "catatan_harian47",
+      "checks": [
+        {
+          "timestamp": "2026-03-10T14:46:33.923609+00:00",
+          "age_hours": 26.9,
+          "shares_per_hour": 105.8,
+          "views_per_hour": 1711,
+          "momentum": 1196,
           "delta_shares_per_hour": null
         }
       ],
