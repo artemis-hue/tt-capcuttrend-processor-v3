@@ -1,222 +1,6 @@
 {
-  "last_updated": "2026-03-10T16:55:00.035042+00:00",
+  "last_updated": "2026-03-10T18:48:17.687486+00:00",
   "candidates": [
-    {
-      "url": "https://www.tiktok.com/@templatebyfeckry/video/7614870624988564754",
-      "first_seen": "2026-03-10T12:57:34.131685+00:00",
-      "market": "\ud83c\udf10 BOTH",
-      "text": "#CapCut I always smile when editing this #cinematic #templatecapcut #trend #slowmo ",
-      "creator": "templatebyfeckry",
-      "checks": [
-        {
-          "timestamp": "2026-03-10T12:57:34.131685+00:00",
-          "age_hours": 47.8,
-          "shares_per_hour": 313.5,
-          "views_per_hour": 16383,
-          "momentum": 11457,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-03-10T14:46:33.923609+00:00",
-          "age_hours": 49.7,
-          "shares_per_hour": 302.1,
-          "views_per_hour": 15784,
-          "momentum": 11038,
-          "delta_shares_per_hour": -11.399999999999977
-        },
-        {
-          "timestamp": "2026-03-10T16:55:00.034904+00:00",
-          "age_hours": 51.8,
-          "shares_per_hour": 289.6,
-          "views_per_hour": 15132,
-          "momentum": 10582,
-          "delta_shares_per_hour": -12.5
-        }
-      ],
-      "consecutive_negative_deltas": 2,
-      "alerted": false,
-      "consecutive_misses": 0
-    },
-    {
-      "url": "https://www.tiktok.com/@drexedits01/video/7615161865412431124",
-      "first_seen": "2026-03-10T12:57:34.131685+00:00",
-      "market": "\ud83c\udf10 BOTH",
-      "text": "Say i love you\ud83d\ude0d\u2764\ufe0f || TEMPLATE\ud83d\udccc || #CapCut #drextemplate01 #iloveyou #amma #template @Don&Vee ",
-      "creator": "drexedits01",
-      "checks": [
-        {
-          "timestamp": "2026-03-10T12:57:34.131685+00:00",
-          "age_hours": 29.0,
-          "shares_per_hour": 31.2,
-          "views_per_hour": 6544,
-          "momentum": 4318,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-03-10T14:46:33.923609+00:00",
-          "age_hours": 30.8,
-          "shares_per_hour": 29.3,
-          "views_per_hour": 6158,
-          "momentum": 4063,
-          "delta_shares_per_hour": -1.8999999999999986
-        },
-        {
-          "timestamp": "2026-03-10T16:55:00.034904+00:00",
-          "age_hours": 33.0,
-          "shares_per_hour": 27.4,
-          "views_per_hour": 5758,
-          "momentum": 3799,
-          "delta_shares_per_hour": -1.9000000000000021
-        }
-      ],
-      "consecutive_negative_deltas": 2,
-      "alerted": false,
-      "consecutive_misses": 0
-    },
-    {
-      "url": "https://www.tiktok.com/@local_capcut_templates/video/7615017558319631630",
-      "first_seen": "2026-03-10T12:57:34.131685+00:00",
-      "market": "\ud83c\udf10 BOTH",
-      "text": "#capcut #capcutpioneer #pioneertemplate #capcuttemplate #capcutedit ",
-      "creator": "local_capcut_templates",
-      "checks": [
-        {
-          "timestamp": "2026-03-10T12:57:34.131685+00:00",
-          "age_hours": 38.3,
-          "shares_per_hour": 33.5,
-          "views_per_hour": 10665,
-          "momentum": 2977,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-03-10T14:46:33.923609+00:00",
-          "age_hours": 40.1,
-          "shares_per_hour": 32.0,
-          "views_per_hour": 10182,
-          "momentum": 2842,
-          "delta_shares_per_hour": -1.5
-        },
-        {
-          "timestamp": "2026-03-10T16:55:00.034904+00:00",
-          "age_hours": 42.3,
-          "shares_per_hour": 30.4,
-          "views_per_hour": 9667,
-          "momentum": 2698,
-          "delta_shares_per_hour": -1.6000000000000014
-        }
-      ],
-      "consecutive_negative_deltas": 2,
-      "alerted": false,
-      "consecutive_misses": 0
-    },
-    {
-      "url": "https://www.tiktok.com/@nonchadel/video/7615018287688109334",
-      "first_seen": "2026-03-10T12:57:34.131685+00:00",
-      "market": "\ud83c\uddfa\ud83c\uddf8 US ONLY",
-      "text": "#fyp #nonchalant #glowup #nonchadel ",
-      "creator": "nonchadel",
-      "checks": [
-        {
-          "timestamp": "2026-03-10T12:57:34.131685+00:00",
-          "age_hours": 38.3,
-          "shares_per_hour": 124.9,
-          "views_per_hour": 6161,
-          "momentum": 2948,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-03-10T14:46:33.923609+00:00",
-          "age_hours": 40.1,
-          "shares_per_hour": 119.3,
-          "views_per_hour": 5882,
-          "momentum": 2814,
-          "delta_shares_per_hour": -5.6000000000000085
-        },
-        {
-          "timestamp": "2026-03-10T16:55:00.034904+00:00",
-          "age_hours": 42.2,
-          "shares_per_hour": 113.2,
-          "views_per_hour": 5584,
-          "momentum": 2672,
-          "delta_shares_per_hour": -6.099999999999994
-        }
-      ],
-      "consecutive_negative_deltas": 2,
-      "alerted": false,
-      "consecutive_misses": 0
-    },
-    {
-      "url": "https://www.tiktok.com/@theuslx.modelos/video/7615011501061000456",
-      "first_seen": "2026-03-10T12:57:34.131685+00:00",
-      "market": "\ud83c\udf10 BOTH",
-      "text": "Usem o Modelo \ud83d\udc46\ud83c\udffc\ud83e\udd0d || Trend Asa Noturna no Capcut | Tutorial Trend Asas Noturna | Como Fazer a Trend Asas Noturna | @b\u00e1ch  \n\n#CapCut #pioneertemplate #capcutpioneer #asanoturna ",
-      "creator": "theuslx.modelos",
-      "checks": [
-        {
-          "timestamp": "2026-03-10T12:57:34.131685+00:00",
-          "age_hours": 38.7,
-          "shares_per_hour": 27.7,
-          "views_per_hour": 6866,
-          "momentum": 2375,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-03-10T14:46:33.923609+00:00",
-          "age_hours": 40.5,
-          "shares_per_hour": 26.4,
-          "views_per_hour": 6558,
-          "momentum": 2268,
-          "delta_shares_per_hour": -1.3000000000000007
-        },
-        {
-          "timestamp": "2026-03-10T16:55:00.034904+00:00",
-          "age_hours": 42.7,
-          "shares_per_hour": 25.1,
-          "views_per_hour": 6229,
-          "momentum": 2154,
-          "delta_shares_per_hour": -1.2999999999999972
-        }
-      ],
-      "consecutive_negative_deltas": 2,
-      "alerted": false,
-      "consecutive_misses": 0
-    },
-    {
-      "url": "https://www.tiktok.com/@nairunariakra/video/7615109849071897864",
-      "first_seen": "2026-03-10T12:57:34.131685+00:00",
-      "market": "\ud83c\uddec\ud83c\udde7 UK ONLY",
-      "text": "#CapCut #capcutpioneer #pioneertemplate #capcutgala2026 #todaysnote ",
-      "creator": "nairunariakra",
-      "checks": [
-        {
-          "timestamp": "2026-03-10T12:57:34.131685+00:00",
-          "age_hours": 32.4,
-          "shares_per_hour": 111.4,
-          "views_per_hour": 5137,
-          "momentum": 1660,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-03-10T14:46:33.923609+00:00",
-          "age_hours": 34.2,
-          "shares_per_hour": 105.5,
-          "views_per_hour": 4864,
-          "momentum": 1571,
-          "delta_shares_per_hour": -5.900000000000006
-        },
-        {
-          "timestamp": "2026-03-10T16:55:00.034904+00:00",
-          "age_hours": 36.3,
-          "shares_per_hour": 99.2,
-          "views_per_hour": 4578,
-          "momentum": 1479,
-          "delta_shares_per_hour": -6.299999999999997
-        }
-      ],
-      "consecutive_negative_deltas": 2,
-      "alerted": false,
-      "consecutive_misses": 0
-    },
     {
       "url": "https://www.tiktok.com/@ki.videos819/video/7615005777354444054",
       "first_seen": "2026-03-10T14:46:33.923609+00:00",
@@ -239,9 +23,17 @@
           "views_per_hour": 1165,
           "momentum": 1474,
           "delta_shares_per_hour": -6.800000000000011
+        },
+        {
+          "timestamp": "2026-03-10T18:48:17.683037+00:00",
+          "age_hours": 44.9,
+          "shares_per_hour": 125.0,
+          "views_per_hour": 1116,
+          "momentum": 1412,
+          "delta_shares_per_hour": -5.5
         }
       ],
-      "consecutive_negative_deltas": 1,
+      "consecutive_negative_deltas": 2,
       "alerted": false,
       "consecutive_misses": 0
     },
@@ -267,11 +59,133 @@
           "views_per_hour": 1585,
           "momentum": 1108,
           "delta_shares_per_hour": -7.799999999999997
+        },
+        {
+          "timestamp": "2026-03-10T18:48:17.683037+00:00",
+          "age_hours": 30.9,
+          "shares_per_hour": 92.0,
+          "views_per_hour": 1488,
+          "momentum": 1040,
+          "delta_shares_per_hour": -6.0
         }
       ],
-      "consecutive_negative_deltas": 1,
+      "consecutive_negative_deltas": 2,
       "alerted": false,
       "consecutive_misses": 0
+    },
+    {
+      "url": "https://www.tiktok.com/@snackreacts1/video/7615260701589900566",
+      "first_seen": "2026-03-10T18:48:17.683037+00:00",
+      "market": "\ud83c\uddec\ud83c\udde7 UK ONLY",
+      "text": "Traurige KI Story Part 7 #kistory #ki #traurig #emotional #animation ",
+      "creator": "snackreacts1",
+      "checks": [
+        {
+          "timestamp": "2026-03-10T18:48:17.683037+00:00",
+          "age_hours": 26.3,
+          "shares_per_hour": 627.3,
+          "views_per_hour": 15601,
+          "momentum": 8538,
+          "delta_shares_per_hour": null
+        }
+      ],
+      "consecutive_negative_deltas": 0,
+      "alerted": false
+    },
+    {
+      "url": "https://www.tiktok.com/@matidada4/video/7615166104549215509",
+      "first_seen": "2026-03-10T18:48:17.683037+00:00",
+      "market": "\ud83c\uddec\ud83c\udde7 UK ONLY",
+      "text": "\u0915\u0947 \u0915\u0938\u0930\u0940 \u092c\u0928\u093e\u0909\u0928\u0947 trendy \u0915\u0941\u0930\u094d\u0924\u0940 \u0930 palazzo set AI \u0938\u0902\u0917? \ud83d\udcf8 AI-generated outfit photos \ud83e\udd16\nCreate stunning kurti with palazzo set photos \u2728 ChatGPT AI prompt kurti outfit \ud83d\udcac\nBagaimana nak buat kurti dengan palazzo set guna AI? \ud83c\udf1f\n\u200e\u0643\u064a\u0641\u064a\u0629 \u0625\u0646\u0634\u0627\u0621 \u0645\u062c\u0645\u0648\u0639\u0629 \u0627\u0644\u0643\u0648\u0631\u062a\u064a \u0648\u0627\u0644\u0628\u0627\u0644\u0627\u0632\u0648 \u0628\u0627\u0633\u062a\u062e\u062f\u0627\u0645 AI \ud83e\udd16\nAI \u0b95\u0bca\u0ba3\u0bcd\u0b9f\u0bc1 \u0b95\u0bc1\u0bb0\u0bcd\u0ba4\u0bbf \u0bae\u0bb1\u0bcd\u0bb1\u0bc1\u0bae\u0bcd \u0baa\u0bb2\u0bcd\u0bb2\u0bbe\u0b9c\u0bcb \u0b9a\u0bc6\u0b9f\u0bcd \u0b89\u0bb0\u0bc1\u0bb5\u0bbe\u0b95\u0bcd\u0b95\u0bc1\u0bb5\u0ba4\u0bc1 \u0b8e\u0baa\u0bcd\u0baa\u0b9f\u0bbf \u2728\nPaano gumawa ng kurti with palazzo set gamit ang AI \ud83d\udcf8\ud83d\udc96\n\n\u091f\u094d\u0930\u0947\u0902\u0921\u0940 \u0915\u0941\u0930\u094d\u0924\u0940 \u0930 \u091f\u093e\u092f\u0930\u094d\u0921 \u092e\u0948\u0915\u094d\u0938\u0940 \u0938\u094d\u0915\u0930\u094d\u091f \u0938\u0947\u091f AI \u092b\u094b\u091f\u094b \ud83e\udd33\nTake AI selfies with kurti tiered maxi skirt set \u270d\ufe0f\ud83e\udd33\nAmbil foto cantik kurti dengan tiered maxi skirt menggunakan AI \ud83d\udcac\n\u200e\u0627\u0644\u062a\u0642\u0627\u0637 \u0635\u0648\u0631 \u0633\u064a\u0644\u0641\u064a AI \u0645\u0639 \u0643\u0648\u0631\u062a\u064a \u0648\u062a\u0646\u0648\u0631\u0629 \u0645\u0627\u0643\u0633\u064a \u0645\u062a\u0639\u062f\u062f\u0629 \u0627\u0644\u0637\u0628\u0642\u0627\u062a \ud83d\ude0d\nAI \u0bae\u0bc2\u0bb2\u0bae\u0bcd \u0b95\u0bc2\u0bb0\u0bcd\u0ba4\u0bbf \u0bae\u0bb1\u0bcd\u0bb1\u0bc1\u0bae\u0bcd \u0b9f\u0bc8\u0baf\u0bb0\u0bcd\u0b9f\u0bcd \u0bae\u0bc6\u0b95\u0bcd\u0bb8\u0bbf \u0bb8\u0bcd\u0b95\u0bbf\u0bb0\u0bcd\u0b9f\u0bcd \u0b9a\u0bc6\u0b9f\u0bcd \u0bb7\u0bbe\u0b9f\u0bcd\u0bb8\u0bcd \ud83e\udd33\nAI selfies kasama ang kurti at tiered maxi skirt set \ud83d\udc96\n\nHypic redefine \u0917\u0930\u094d\u091b \u092b\u094b\u091f\u094b \u090f\u0921\u093f\u091f\u093f\u0902\u0917 \ud83c\udf1f ChatGPT prompts for AI outfit photos \ud83d\udcac\nHypic redefines photo editing for kurti outfits \u2728\nHypic mendefinisikan semula penyuntingan foto untuk kurti set \ud83d\udcbb\n\u200e\u0647\u0628\u064a\u0643 \u062a\u0639\u064a\u062f \u062a\u0639\u0631\u064a\u0641 \u062a\u0639\u062f\u064a\u0644 \u0627\u0644\u0635\u0648\u0631 \u0645\u0639 AI \ud83e\udd16\nHypic \u0baa\u0bcd\u0bb0\u0bcb\u0bae\u0bcd\u0b9f\u0bcd \u0bae\u0bc2\u0bb2\u0bae\u0bcd AI \u0b89\u0b9f\u0ba9\u0bcd \u0b85\u0bb4\u0b95\u0bbe\u0ba9 \u0baa\u0bcb\u0b9f\u0bcd\u0b9f\u0bcb\u0bb5\u0bc8 \u0b89\u0bb0\u0bc1\u0bb5\u0bbe\u0b95\u0bcd\u0b95\u0bc1\u0b95\u0bbf\u0bb1\u0ba4\u0bc1 \ud83c\udf1f\nHypic nagre-redefine ng photo editing gamit ang AI \ud83d\udcac\n\n#tutorial #Godpic \n#AIphoto #hypic #hypiccreator @hypic_global @HypicVietnam ",
+      "creator": "matidada4",
+      "checks": [
+        {
+          "timestamp": "2026-03-10T18:48:17.683037+00:00",
+          "age_hours": 34.6,
+          "shares_per_hour": 25.2,
+          "views_per_hour": 801,
+          "momentum": 371,
+          "delta_shares_per_hour": null
+        }
+      ],
+      "consecutive_negative_deltas": 0,
+      "alerted": false
+    },
+    {
+      "url": "https://www.tiktok.com/@fr6ncesco_08/video/7614958244313812246",
+      "first_seen": "2026-03-10T18:48:17.683037+00:00",
+      "market": "\ud83c\uddec\ud83c\udde7 UK ONLY",
+      "text": "Benutz Vorlage #CapCut #glowup ",
+      "creator": "fr6ncesco_08",
+      "checks": [
+        {
+          "timestamp": "2026-03-10T18:48:17.683037+00:00",
+          "age_hours": 48.0,
+          "shares_per_hour": 10.4,
+          "views_per_hour": 1145,
+          "momentum": 312,
+          "delta_shares_per_hour": null
+        }
+      ],
+      "consecutive_negative_deltas": 0,
+      "alerted": false
+    },
+    {
+      "url": "https://www.tiktok.com/@l.x5840/video/7615296232273022238",
+      "first_seen": "2026-03-10T18:48:17.683037+00:00",
+      "market": "\ud83c\udf10 BOTH",
+      "text": "Kriss vecc baby ai dance #capcut #capcutpioneer #pioneertemplate #aidance #fyp ",
+      "creator": "l.x5840",
+      "checks": [
+        {
+          "timestamp": "2026-03-10T18:48:17.683037+00:00",
+          "age_hours": 26.2,
+          "shares_per_hour": 8.2,
+          "views_per_hour": 944,
+          "momentum": 294,
+          "delta_shares_per_hour": null
+        }
+      ],
+      "consecutive_negative_deltas": 0,
+      "alerted": false
+    },
+    {
+      "url": "https://www.tiktok.com/@ayhai.168/video/7615123936610667783",
+      "first_seen": "2026-03-10T18:48:17.683037+00:00",
+      "market": "\ud83c\udf10 BOTH",
+      "text": "Free AI Template Link\ud83d\udc47\ud83d\udc47\ud83d\udc47\nPenyunting Kreatif AI, Penyunting Foto AI, AI Creative Editing, AI Photo Editing, Google Gemini AI, Prompt, AI Prompt, ai image generation algorithms, ai Prompt, ai editing photo effect, Filter Foto AI, Al Foto Efek, Filter ai foto wajah, Gunakan filter ai foto ini, Editor foto Alat edit foto efek filter, AI PromptFoto, AIgenerated,ChatGPT, Prompt\nBuat foto serupa dengan satu klik\nsecara gratis, klik hypic di sudut kiri\nbawah untuk membuatnya secara gratis.\nGemini ai foto edit\nPrompt Gemini ai\nEditor kreatif AI, Editor foto AI\nPenyunting kreatif AI, \nPenyunting fotoAI\nGoogle Gemini AI\nFilter Foto AI\nAI Foto Efek\nFilter ai foto wajah\nGunakan filter ai foto ini\nPenyunting Kreatif AI\nPenyunting Foto AI\nAI Creative Editing,\nAI Photo Editing\nGoogle Gemini AI,\nEditor foto Alat edit\nfoto efek filter ,\npenyunting kreatif AI ,\nAI creative editing Prompt,\nAI PromptFoto\n#hypic #hypiccreator #Godpic @hypic_global @HypicVietnam #aiart #Geminiai",
+      "creator": "ayhai.168",
+      "checks": [
+        {
+          "timestamp": "2026-03-10T18:48:17.683037+00:00",
+          "age_hours": 37.3,
+          "shares_per_hour": 21.1,
+          "views_per_hour": 546,
+          "momentum": 247,
+          "delta_shares_per_hour": null
+        }
+      ],
+      "consecutive_negative_deltas": 0,
+      "alerted": false
+    },
+    {
+      "url": "https://www.tiktok.com/@connor19140/video/7615384423252430100",
+      "first_seen": "2026-03-10T18:48:17.683037+00:00",
+      "market": "\ud83c\udf10 BOTH",
+      "text": "#capcut #capcutpioneer Trend Asa Noturna IA\nQuer fazer a trend da Asa Noturna original que est\u00e1 bombando?\nEu vou te ensinar passo a passo no CapCut, de forma simples e r\u00e1pida!\nBasta uma foto ou v\u00eddeo, que a IA faz a transi\u00e7\u00e3o \u00e9pica da Asa Noturna.\n\u00c9 o efeito mais viral do momento, super estiloso para homens e mulheres.\nAprenda agora a trend oficial da Asa Noturna e arrasa no seu feed! \u2728\ud83e\udd87\n#AsaNoturna #NightwingTrend #CapCut  ",
+      "creator": "connor19140",
+      "checks": [
+        {
+          "timestamp": "2026-03-10T18:48:17.683037+00:00",
+          "age_hours": 20.5,
+          "shares_per_hour": 21.6,
+          "views_per_hour": 434,
+          "momentum": 228,
+          "delta_shares_per_hour": null
+        }
+      ],
+      "consecutive_negative_deltas": 0,
+      "alerted": false
     }
   ]
 }
