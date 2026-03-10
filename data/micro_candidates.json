@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-10T08:39:49.502627+00:00",
+  "last_updated": "2026-03-10T10:37:48.023158+00:00",
   "candidates": [
     {
       "url": "https://www.tiktok.com/@comedy.comedy07/video/7614831061679279391",
@@ -35,7 +35,7 @@
       ],
       "consecutive_negative_deltas": 2,
       "alerted": false,
-      "consecutive_misses": 1
+      "consecutive_misses": 2
     },
     {
       "url": "https://www.tiktok.com/@4dore.kayla/video/7614621885938060558",
@@ -71,7 +71,7 @@
       ],
       "consecutive_negative_deltas": 2,
       "alerted": false,
-      "consecutive_misses": 1
+      "consecutive_misses": 2
     },
     {
       "url": "https://www.tiktok.com/@catatan_harian47/video/7614930204342881556",
@@ -107,7 +107,7 @@
       ],
       "consecutive_negative_deltas": 2,
       "alerted": false,
-      "consecutive_misses": 1
+      "consecutive_misses": 2
     },
     {
       "url": "https://www.tiktok.com/@snackreacts1/video/7614863465701854486",
@@ -135,7 +135,7 @@
       ],
       "consecutive_negative_deltas": 1,
       "alerted": false,
-      "consecutive_misses": 1
+      "consecutive_misses": 2
     },
     {
       "url": "https://www.tiktok.com/@quzamiwuukd/video/7614652835409579285",
@@ -163,7 +163,7 @@
       ],
       "consecutive_negative_deltas": 1,
       "alerted": false,
-      "consecutive_misses": 1
+      "consecutive_misses": 2
     },
     {
       "url": "https://www.tiktok.com/@stormcapcutx/video/7614719577930435861",
@@ -195,9 +195,17 @@
           "views_per_hour": 15756,
           "momentum": 10498,
           "delta_shares_per_hour": 92.9
+        },
+        {
+          "timestamp": "2026-03-10T10:37:48.023054+00:00",
+          "age_hours": 55.3,
+          "shares_per_hour": 204.4,
+          "views_per_hour": 15196,
+          "momentum": 10125,
+          "delta_shares_per_hour": -7.599999999999994
         }
       ],
-      "consecutive_negative_deltas": 0,
+      "consecutive_negative_deltas": 1,
       "alerted": false,
       "consecutive_misses": 0
     },
@@ -227,7 +235,7 @@
       ],
       "consecutive_negative_deltas": 1,
       "alerted": false,
-      "consecutive_misses": 1
+      "consecutive_misses": 2
     },
     {
       "url": "https://www.tiktok.com/@snackreacts1/video/7615260701589900566",
@@ -243,10 +251,19 @@
           "views_per_hour": 25390,
           "momentum": 13895,
           "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-03-10T10:37:48.023054+00:00",
+          "age_hours": 18.1,
+          "shares_per_hour": 910.1,
+          "views_per_hour": 22636,
+          "momentum": 12388,
+          "delta_shares_per_hour": -110.69999999999993
         }
       ],
-      "consecutive_negative_deltas": 0,
-      "alerted": false
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
     }
   ]
 }
