@@ -1,114 +1,6 @@
 {
-  "last_updated": "2026-03-11T18:52:28.550159+00:00",
+  "last_updated": "2026-03-11T20:32:16.547670+00:00",
   "candidates": [
-    {
-      "url": "https://www.tiktok.com/@chloecarteerr/video/7615325550558612758",
-      "first_seen": "2026-03-11T14:43:30.008814+00:00",
-      "market": "\ud83c\udf10 BOTH",
-      "text": "my glowup #GlowUp ",
-      "creator": "chloecarteerr",
-      "checks": [
-        {
-          "timestamp": "2026-03-11T14:43:30.008814+00:00",
-          "age_hours": 44.2,
-          "shares_per_hour": 40.3,
-          "views_per_hour": 8100,
-          "momentum": 2038,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-03-11T16:50:37.984240+00:00",
-          "age_hours": 46.3,
-          "shares_per_hour": 38.4,
-          "views_per_hour": 7729,
-          "momentum": 1945,
-          "delta_shares_per_hour": -1.8999999999999986
-        },
-        {
-          "timestamp": "2026-03-11T18:52:28.545502+00:00",
-          "age_hours": 48.3,
-          "shares_per_hour": 36.8,
-          "views_per_hour": 7405,
-          "momentum": 1863,
-          "delta_shares_per_hour": -1.6000000000000014
-        }
-      ],
-      "consecutive_negative_deltas": 2,
-      "alerted": false,
-      "consecutive_misses": 0
-    },
-    {
-      "url": "https://www.tiktok.com/@innercalmdiaries/video/7615394296014834957",
-      "first_seen": "2026-03-11T14:43:30.008814+00:00",
-      "market": "\ud83c\uddfa\ud83c\uddf8 US ONLY",
-      "text": "When the remix hits harder than the original \ud83d\udc76\ud83c\udfa7 AI-made \nDC: @kyliec_hernandez \n#fyp\u30b7 #aibaby #cute #ai #aivideos ",
-      "creator": "innercalmdiaries",
-      "checks": [
-        {
-          "timestamp": "2026-03-11T14:43:30.008814+00:00",
-          "age_hours": 39.7,
-          "shares_per_hour": 136.3,
-          "views_per_hour": 3324,
-          "momentum": 2001,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-03-11T16:50:37.984240+00:00",
-          "age_hours": 41.8,
-          "shares_per_hour": 129.4,
-          "views_per_hour": 3156,
-          "momentum": 1900,
-          "delta_shares_per_hour": -6.900000000000006
-        },
-        {
-          "timestamp": "2026-03-11T18:52:28.545502+00:00",
-          "age_hours": 43.9,
-          "shares_per_hour": 123.4,
-          "views_per_hour": 3010,
-          "momentum": 1812,
-          "delta_shares_per_hour": -6.0
-        }
-      ],
-      "consecutive_negative_deltas": 2,
-      "alerted": false,
-      "consecutive_misses": 0
-    },
-    {
-      "url": "https://www.tiktok.com/@trusteverythingyousee/video/7615600593784114454",
-      "first_seen": "2026-03-11T14:43:30.008814+00:00",
-      "market": "\ud83c\udf10 BOTH",
-      "text": "Ca se la donne grave.\n\n#ai #chat #cat #sora #ia #humour",
-      "creator": "trusteverythingyousee",
-      "checks": [
-        {
-          "timestamp": "2026-03-11T14:43:30.008814+00:00",
-          "age_hours": 26.4,
-          "shares_per_hour": 141.5,
-          "views_per_hour": 1921,
-          "momentum": 1811,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-03-11T16:50:37.984240+00:00",
-          "age_hours": 28.5,
-          "shares_per_hour": 131.0,
-          "views_per_hour": 1778,
-          "momentum": 1676,
-          "delta_shares_per_hour": -10.5
-        },
-        {
-          "timestamp": "2026-03-11T18:52:28.545502+00:00",
-          "age_hours": 30.5,
-          "shares_per_hour": 122.3,
-          "views_per_hour": 1660,
-          "momentum": 1565,
-          "delta_shares_per_hour": -8.700000000000003
-        }
-      ],
-      "consecutive_negative_deltas": 2,
-      "alerted": false,
-      "consecutive_misses": 0
-    },
     {
       "url": "https://www.tiktok.com/@jokes.chain/video/7615446711619554591",
       "first_seen": "2026-03-11T18:52:28.545502+00:00",
@@ -123,10 +15,19 @@
           "views_per_hour": 34574,
           "momentum": 21556,
           "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-03-11T20:32:16.543254+00:00",
+          "age_hours": 42.2,
+          "shares_per_hour": 1309.4,
+          "views_per_hour": 33209,
+          "momentum": 20706,
+          "delta_shares_per_hour": -53.799999999999955
         }
       ],
-      "consecutive_negative_deltas": 0,
-      "alerted": false
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
     },
     {
       "url": "https://www.tiktok.com/@mmwahmia/video/7615376007352143134",
@@ -142,10 +43,19 @@
           "views_per_hour": 9018,
           "momentum": 8036,
           "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-03-11T20:32:16.543254+00:00",
+          "age_hours": 46.7,
+          "shares_per_hour": 357.4,
+          "views_per_hour": 8697,
+          "momentum": 7750,
+          "delta_shares_per_hour": -13.200000000000045
         }
       ],
-      "consecutive_negative_deltas": 0,
-      "alerted": false
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
     },
     {
       "url": "https://www.tiktok.com/@overcookmyself/video/7615757664051662102",
@@ -161,10 +71,19 @@
           "views_per_hour": 13428,
           "momentum": 6131,
           "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-03-11T20:32:16.543254+00:00",
+          "age_hours": 22.0,
+          "shares_per_hour": 221.1,
+          "views_per_hour": 12414,
+          "momentum": 5668,
+          "delta_shares_per_hour": -18.0
         }
       ],
-      "consecutive_negative_deltas": 0,
-      "alerted": false
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
     },
     {
       "url": "https://www.tiktok.com/@maozai90/video/7615619056581840149",
@@ -180,10 +99,19 @@
           "views_per_hour": 2085,
           "momentum": 1270,
           "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-03-11T20:32:16.543254+00:00",
+          "age_hours": 31.0,
+          "shares_per_hour": 93.6,
+          "views_per_hour": 1973,
+          "momentum": 1201,
+          "delta_shares_per_hour": -5.300000000000011
         }
       ],
-      "consecutive_negative_deltas": 0,
-      "alerted": false
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
     },
     {
       "url": "https://www.tiktok.com/@klaudesom.ia/video/7615423909592157460",
@@ -198,6 +126,72 @@
           "shares_per_hour": 20.7,
           "views_per_hour": 9112,
           "momentum": 1127,
+          "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-03-11T20:32:16.543254+00:00",
+          "age_hours": 43.6,
+          "shares_per_hour": 19.9,
+          "views_per_hour": 8764,
+          "momentum": 1084,
+          "delta_shares_per_hour": -0.8000000000000007
+        }
+      ],
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
+    },
+    {
+      "url": "https://www.tiktok.com/@nayaafitt/video/7615636836097985814",
+      "first_seen": "2026-03-11T20:32:16.543254+00:00",
+      "market": "\ud83c\uddec\ud83c\udde7 UK ONLY",
+      "text": "It\u2019s possible #change #glowup #youcandoit #motivation #sad ",
+      "creator": "nayaafitt",
+      "checks": [
+        {
+          "timestamp": "2026-03-11T20:32:16.543254+00:00",
+          "age_hours": 29.9,
+          "shares_per_hour": 78.5,
+          "views_per_hour": 4778,
+          "momentum": 1825,
+          "delta_shares_per_hour": null
+        }
+      ],
+      "consecutive_negative_deltas": 0,
+      "alerted": false
+    },
+    {
+      "url": "https://www.tiktok.com/@lrjvae3ce3/video/7615476325674962194",
+      "first_seen": "2026-03-11T20:32:16.543254+00:00",
+      "market": "\ud83c\uddfa\ud83c\uddf8 US ONLY",
+      "text": "#capcut #capcutpioneer ",
+      "creator": "lrjvae3ce3",
+      "checks": [
+        {
+          "timestamp": "2026-03-11T20:32:16.543254+00:00",
+          "age_hours": 40.2,
+          "shares_per_hour": 21.5,
+          "views_per_hour": 7116,
+          "momentum": 1039,
+          "delta_shares_per_hour": null
+        }
+      ],
+      "consecutive_negative_deltas": 0,
+      "alerted": false
+    },
+    {
+      "url": "https://www.tiktok.com/@nior.musee/video/7615832802033995022",
+      "first_seen": "2026-03-11T20:32:16.543254+00:00",
+      "market": "\ud83c\uddec\ud83c\udde7 UK ONLY",
+      "text": "Cook Ramen With Us\ud83c\udf5c| #fyp #cozy #ai #ramen #aivideo ",
+      "creator": "nior.musee",
+      "checks": [
+        {
+          "timestamp": "2026-03-11T20:32:16.543254+00:00",
+          "age_hours": 17.2,
+          "shares_per_hour": 13.6,
+          "views_per_hour": 1210,
+          "momentum": 782,
           "delta_shares_per_hour": null
         }
       ],
