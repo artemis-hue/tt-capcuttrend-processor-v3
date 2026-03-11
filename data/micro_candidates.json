@@ -1,186 +1,6 @@
 {
-  "last_updated": "2026-03-11T16:50:37.984364+00:00",
+  "last_updated": "2026-03-11T18:52:28.550159+00:00",
   "candidates": [
-    {
-      "url": "https://www.tiktok.com/@snackreacts1/video/7615260701589900566",
-      "first_seen": "2026-03-11T12:57:06.987765+00:00",
-      "market": "\ud83c\uddfa\ud83c\uddf8 US ONLY",
-      "text": "Traurige KI Story Part 7 #kistory #ki #traurig #emotional #animation ",
-      "creator": "snackreacts1",
-      "checks": [
-        {
-          "timestamp": "2026-03-11T12:57:06.987765+00:00",
-          "age_hours": 44.5,
-          "shares_per_hour": 746.9,
-          "views_per_hour": 22496,
-          "momentum": 10609,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-03-11T14:43:30.008814+00:00",
-          "age_hours": 46.2,
-          "shares_per_hour": 718.2,
-          "views_per_hour": 21633,
-          "momentum": 10202,
-          "delta_shares_per_hour": -28.699999999999932
-        },
-        {
-          "timestamp": "2026-03-11T16:50:37.984240+00:00",
-          "age_hours": 48.3,
-          "shares_per_hour": 686.7,
-          "views_per_hour": 20685,
-          "momentum": 9755,
-          "delta_shares_per_hour": -31.5
-        }
-      ],
-      "consecutive_negative_deltas": 2,
-      "alerted": false,
-      "consecutive_misses": 0
-    },
-    {
-      "url": "https://www.tiktok.com/@py.kang59/video/7615275949898108174",
-      "first_seen": "2026-03-11T12:57:06.987765+00:00",
-      "market": "\ud83c\udf10 BOTH",
-      "text": "Wow wowwwwwwwww#capcut #capcutpioneer #capcutforus #dance #baby ",
-      "creator": "py.kang59",
-      "checks": [
-        {
-          "timestamp": "2026-03-11T12:57:06.987765+00:00",
-          "age_hours": 45.6,
-          "shares_per_hour": 126.4,
-          "views_per_hour": 13798,
-          "momentum": 5499,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-03-11T14:43:30.008814+00:00",
-          "age_hours": 47.4,
-          "shares_per_hour": 121.7,
-          "views_per_hour": 13281,
-          "momentum": 5293,
-          "delta_shares_per_hour": -4.700000000000003
-        },
-        {
-          "timestamp": "2026-03-11T16:50:37.984240+00:00",
-          "age_hours": 49.5,
-          "shares_per_hour": 116.5,
-          "views_per_hour": 12713,
-          "momentum": 5067,
-          "delta_shares_per_hour": -5.200000000000003
-        }
-      ],
-      "consecutive_negative_deltas": 2,
-      "alerted": false,
-      "consecutive_misses": 0
-    },
-    {
-      "url": "https://www.tiktok.com/@lucyjuiccy/video/7615317201876241686",
-      "first_seen": "2026-03-11T12:57:06.987765+00:00",
-      "market": "\ud83c\uddfa\ud83c\uddf8 US ONLY",
-      "text": "my glowup\u2026 #glowup ",
-      "creator": "lucyjuiccy",
-      "checks": [
-        {
-          "timestamp": "2026-03-11T12:57:06.987765+00:00",
-          "age_hours": 42.9,
-          "shares_per_hour": 35.5,
-          "views_per_hour": 13110,
-          "momentum": 3175,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-03-11T14:43:30.008814+00:00",
-          "age_hours": 44.7,
-          "shares_per_hour": 34.1,
-          "views_per_hour": 12590,
-          "momentum": 3049,
-          "delta_shares_per_hour": -1.3999999999999986
-        },
-        {
-          "timestamp": "2026-03-11T16:50:37.984240+00:00",
-          "age_hours": 46.8,
-          "shares_per_hour": 32.6,
-          "views_per_hour": 12021,
-          "momentum": 2911,
-          "delta_shares_per_hour": -1.5
-        }
-      ],
-      "consecutive_negative_deltas": 2,
-      "alerted": false,
-      "consecutive_misses": 0
-    },
-    {
-      "url": "https://www.tiktok.com/@nayaafitt/video/7615636836097985814",
-      "first_seen": "2026-03-11T12:57:06.987765+00:00",
-      "market": "\ud83c\uddec\ud83c\udde7 UK ONLY",
-      "text": "It\u2019s possible #change #glowup #youcandoit #motivation #sad ",
-      "creator": "nayaafitt",
-      "checks": [
-        {
-          "timestamp": "2026-03-11T12:57:06.987765+00:00",
-          "age_hours": 22.3,
-          "shares_per_hour": 105.2,
-          "views_per_hour": 6405,
-          "momentum": 2447,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-03-11T14:43:30.008814+00:00",
-          "age_hours": 24.0,
-          "shares_per_hour": 97.5,
-          "views_per_hour": 5933,
-          "momentum": 2267,
-          "delta_shares_per_hour": -7.700000000000003
-        },
-        {
-          "timestamp": "2026-03-11T16:50:37.984240+00:00",
-          "age_hours": 26.2,
-          "shares_per_hour": 89.6,
-          "views_per_hour": 5453,
-          "momentum": 2083,
-          "delta_shares_per_hour": -7.900000000000006
-        }
-      ],
-      "consecutive_negative_deltas": 2,
-      "alerted": false,
-      "consecutive_misses": 0
-    },
-    {
-      "url": "https://www.tiktok.com/@l.x5840/video/7615296232273022238",
-      "first_seen": "2026-03-11T12:57:06.987765+00:00",
-      "market": "\ud83c\udf10 BOTH",
-      "text": "Kriss vecc baby ai dance #capcut #capcutpioneer #pioneertemplate #aidance #fyp ",
-      "creator": "l.x5840",
-      "checks": [
-        {
-          "timestamp": "2026-03-11T12:57:06.987765+00:00",
-          "age_hours": 44.3,
-          "shares_per_hour": 71.0,
-          "views_per_hour": 5509,
-          "momentum": 2322,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-03-11T14:43:30.008814+00:00",
-          "age_hours": 46.1,
-          "shares_per_hour": 68.3,
-          "views_per_hour": 5297,
-          "momentum": 2233,
-          "delta_shares_per_hour": -2.700000000000003
-        },
-        {
-          "timestamp": "2026-03-11T16:50:37.984240+00:00",
-          "age_hours": 48.2,
-          "shares_per_hour": 65.3,
-          "views_per_hour": 5064,
-          "momentum": 2135,
-          "delta_shares_per_hour": -3.0
-        }
-      ],
-      "consecutive_negative_deltas": 2,
-      "alerted": false,
-      "consecutive_misses": 0
-    },
     {
       "url": "https://www.tiktok.com/@chloecarteerr/video/7615325550558612758",
       "first_seen": "2026-03-11T14:43:30.008814+00:00",
@@ -203,9 +23,17 @@
           "views_per_hour": 7729,
           "momentum": 1945,
           "delta_shares_per_hour": -1.8999999999999986
+        },
+        {
+          "timestamp": "2026-03-11T18:52:28.545502+00:00",
+          "age_hours": 48.3,
+          "shares_per_hour": 36.8,
+          "views_per_hour": 7405,
+          "momentum": 1863,
+          "delta_shares_per_hour": -1.6000000000000014
         }
       ],
-      "consecutive_negative_deltas": 1,
+      "consecutive_negative_deltas": 2,
       "alerted": false,
       "consecutive_misses": 0
     },
@@ -231,9 +59,17 @@
           "views_per_hour": 3156,
           "momentum": 1900,
           "delta_shares_per_hour": -6.900000000000006
+        },
+        {
+          "timestamp": "2026-03-11T18:52:28.545502+00:00",
+          "age_hours": 43.9,
+          "shares_per_hour": 123.4,
+          "views_per_hour": 3010,
+          "momentum": 1812,
+          "delta_shares_per_hour": -6.0
         }
       ],
-      "consecutive_negative_deltas": 1,
+      "consecutive_negative_deltas": 2,
       "alerted": false,
       "consecutive_misses": 0
     },
@@ -259,11 +95,114 @@
           "views_per_hour": 1778,
           "momentum": 1676,
           "delta_shares_per_hour": -10.5
+        },
+        {
+          "timestamp": "2026-03-11T18:52:28.545502+00:00",
+          "age_hours": 30.5,
+          "shares_per_hour": 122.3,
+          "views_per_hour": 1660,
+          "momentum": 1565,
+          "delta_shares_per_hour": -8.700000000000003
         }
       ],
-      "consecutive_negative_deltas": 1,
+      "consecutive_negative_deltas": 2,
       "alerted": false,
       "consecutive_misses": 0
+    },
+    {
+      "url": "https://www.tiktok.com/@jokes.chain/video/7615446711619554591",
+      "first_seen": "2026-03-11T18:52:28.545502+00:00",
+      "market": "\ud83c\uddfa\ud83c\uddf8 US ONLY",
+      "text": "#BalliBotMogis #TrendingReels #TrendingReels #Foryoupage ##FYP #FYP #ViralTikTok #MillionViews #TechMagic #SmartBot #AITrend #RobotVibes #Innovation ",
+      "creator": "jokes.chain",
+      "checks": [
+        {
+          "timestamp": "2026-03-11T18:52:28.545502+00:00",
+          "age_hours": 40.5,
+          "shares_per_hour": 1363.2,
+          "views_per_hour": 34574,
+          "momentum": 21556,
+          "delta_shares_per_hour": null
+        }
+      ],
+      "consecutive_negative_deltas": 0,
+      "alerted": false
+    },
+    {
+      "url": "https://www.tiktok.com/@mmwahmia/video/7615376007352143134",
+      "first_seen": "2026-03-11T18:52:28.545502+00:00",
+      "market": "\ud83c\uddec\ud83c\udde7 UK ONLY",
+      "text": "#aifruit #aifood #fyp #funny #taco @tacobell @Taco Bell Canada @DelTaco @Chipotle ",
+      "creator": "mmwahmia",
+      "checks": [
+        {
+          "timestamp": "2026-03-11T18:52:28.545502+00:00",
+          "age_hours": 45.1,
+          "shares_per_hour": 370.6,
+          "views_per_hour": 9018,
+          "momentum": 8036,
+          "delta_shares_per_hour": null
+        }
+      ],
+      "consecutive_negative_deltas": 0,
+      "alerted": false
+    },
+    {
+      "url": "https://www.tiktok.com/@overcookmyself/video/7615757664051662102",
+      "first_seen": "2026-03-11T18:52:28.545502+00:00",
+      "market": "\ud83c\uddfa\ud83c\uddf8 US ONLY",
+      "text": "White cows, black cow and brown cow\nAi couple cheating, talking animal\n#aistory #animation #funnyanimal #americanhumor #couplestory ",
+      "creator": "overcookmyself",
+      "checks": [
+        {
+          "timestamp": "2026-03-11T18:52:28.545502+00:00",
+          "age_hours": 20.4,
+          "shares_per_hour": 239.1,
+          "views_per_hour": 13428,
+          "momentum": 6131,
+          "delta_shares_per_hour": null
+        }
+      ],
+      "consecutive_negative_deltas": 0,
+      "alerted": false
+    },
+    {
+      "url": "https://www.tiktok.com/@maozai90/video/7615619056581840149",
+      "first_seen": "2026-03-11T18:52:28.545502+00:00",
+      "market": "\ud83c\udf10 BOTH",
+      "text": "Click on the CapCut icon above to generate the same style as the video.ai clothes filter effect use this effect changing clothes magic ai clothes filter effect ai outfit changer effect filter ai gives you outfit.ai dress.ai clothes filter tutorial ai give you outfit tutorial.Ai smart clothing template,\n\nChange clothes. \n\nBonyeza kitufe cha CapCut na fuata maagizo ili uweke picha au video. Kama hauna programu ya CapCut AI, unaweza kuyauza na kuisaidha bure na kuyatumia na vipengele vikubwa!\n\nDanna ma\u0253allin CapCut kuma bi shawarwari don \u0257ora hotuna ko bidiyo. Idan ba ku da shirin CapCut AI, kuna iya zazzage shi kuma a shigar da shi kyauta kuma amfani da shi tare da fasalolin masu \u0199arfi!\n\nChofoza ibhutoni le-CapCut futhi ulandelela amaqondana ukuze ufakhe amaphoto noma amavidiyo. Uma awuna iprogramu ye-CapCut AI, ungayidlula futhi uyiyenze isetshenziswa ngokusiza ngokuzola futhi uyisebenzise ngezici ezinamandla!\n\n#changeclothes #smartclothing\n\n#capcut\u00a0#capcutpioneer #capcutforus\u00a0\u00a0",
+      "creator": "maozai90",
+      "checks": [
+        {
+          "timestamp": "2026-03-11T18:52:28.545502+00:00",
+          "age_hours": 29.3,
+          "shares_per_hour": 98.9,
+          "views_per_hour": 2085,
+          "momentum": 1270,
+          "delta_shares_per_hour": null
+        }
+      ],
+      "consecutive_negative_deltas": 0,
+      "alerted": false
+    },
+    {
+      "url": "https://www.tiktok.com/@klaudesom.ia/video/7615423909592157460",
+      "first_seen": "2026-03-11T18:52:28.545502+00:00",
+      "market": "\ud83c\uddfa\ud83c\uddf8 US ONLY",
+      "text": "Respondendo a @Davi Lucas Qual o pr\u00f3ximo? \u270d\ufe0f #ia #fy #ai #asanoturna ",
+      "creator": "klaudesom.ia",
+      "checks": [
+        {
+          "timestamp": "2026-03-11T18:52:28.545502+00:00",
+          "age_hours": 42.0,
+          "shares_per_hour": 20.7,
+          "views_per_hour": 9112,
+          "momentum": 1127,
+          "delta_shares_per_hour": null
+        }
+      ],
+      "consecutive_negative_deltas": 0,
+      "alerted": false
     }
   ]
 }
