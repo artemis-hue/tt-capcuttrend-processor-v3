@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-11T20:32:16.547670+00:00",
+  "last_updated": "2026-03-11T22:25:28.198704+00:00",
   "candidates": [
     {
       "url": "https://www.tiktok.com/@jokes.chain/video/7615446711619554591",
@@ -23,9 +23,17 @@
           "views_per_hour": 33209,
           "momentum": 20706,
           "delta_shares_per_hour": -53.799999999999955
+        },
+        {
+          "timestamp": "2026-03-11T22:25:28.198578+00:00",
+          "age_hours": 44.0,
+          "shares_per_hour": 1253.3,
+          "views_per_hour": 31787,
+          "momentum": 19819,
+          "delta_shares_per_hour": -56.100000000000136
         }
       ],
-      "consecutive_negative_deltas": 1,
+      "consecutive_negative_deltas": 2,
       "alerted": false,
       "consecutive_misses": 0
     },
@@ -51,9 +59,17 @@
           "views_per_hour": 8697,
           "momentum": 7750,
           "delta_shares_per_hour": -13.200000000000045
+        },
+        {
+          "timestamp": "2026-03-11T22:25:28.198578+00:00",
+          "age_hours": 48.6,
+          "shares_per_hour": 343.5,
+          "views_per_hour": 8359,
+          "momentum": 7449,
+          "delta_shares_per_hour": -13.899999999999977
         }
       ],
-      "consecutive_negative_deltas": 1,
+      "consecutive_negative_deltas": 2,
       "alerted": false,
       "consecutive_misses": 0
     },
@@ -79,9 +95,17 @@
           "views_per_hour": 12414,
           "momentum": 5668,
           "delta_shares_per_hour": -18.0
+        },
+        {
+          "timestamp": "2026-03-11T22:25:28.198578+00:00",
+          "age_hours": 23.9,
+          "shares_per_hour": 203.7,
+          "views_per_hour": 11436,
+          "momentum": 5222,
+          "delta_shares_per_hour": -17.400000000000006
         }
       ],
-      "consecutive_negative_deltas": 1,
+      "consecutive_negative_deltas": 2,
       "alerted": false,
       "consecutive_misses": 0
     },
@@ -107,9 +131,17 @@
           "views_per_hour": 1973,
           "momentum": 1201,
           "delta_shares_per_hour": -5.300000000000011
+        },
+        {
+          "timestamp": "2026-03-11T22:25:28.198578+00:00",
+          "age_hours": 32.9,
+          "shares_per_hour": 88.2,
+          "views_per_hour": 1860,
+          "momentum": 1132,
+          "delta_shares_per_hour": -5.3999999999999915
         }
       ],
-      "consecutive_negative_deltas": 1,
+      "consecutive_negative_deltas": 2,
       "alerted": false,
       "consecutive_misses": 0
     },
@@ -135,9 +167,17 @@
           "views_per_hour": 8764,
           "momentum": 1084,
           "delta_shares_per_hour": -0.8000000000000007
+        },
+        {
+          "timestamp": "2026-03-11T22:25:28.198578+00:00",
+          "age_hours": 45.5,
+          "shares_per_hour": 19.1,
+          "views_per_hour": 8401,
+          "momentum": 1039,
+          "delta_shares_per_hour": -0.7999999999999972
         }
       ],
-      "consecutive_negative_deltas": 1,
+      "consecutive_negative_deltas": 2,
       "alerted": false,
       "consecutive_misses": 0
     },
@@ -155,10 +195,19 @@
           "views_per_hour": 4778,
           "momentum": 1825,
           "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-03-11T22:25:28.198578+00:00",
+          "age_hours": 31.7,
+          "shares_per_hour": 73.8,
+          "views_per_hour": 4494,
+          "momentum": 1717,
+          "delta_shares_per_hour": -4.700000000000003
         }
       ],
-      "consecutive_negative_deltas": 0,
-      "alerted": false
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
     },
     {
       "url": "https://www.tiktok.com/@lrjvae3ce3/video/7615476325674962194",
@@ -174,10 +223,19 @@
           "views_per_hour": 7116,
           "momentum": 1039,
           "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-03-11T22:25:28.198578+00:00",
+          "age_hours": 42.1,
+          "shares_per_hour": 20.6,
+          "views_per_hour": 6798,
+          "momentum": 992,
+          "delta_shares_per_hour": -0.8999999999999986
         }
       ],
-      "consecutive_negative_deltas": 0,
-      "alerted": false
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
     },
     {
       "url": "https://www.tiktok.com/@nior.musee/video/7615832802033995022",
@@ -193,10 +251,19 @@
           "views_per_hour": 1210,
           "momentum": 782,
           "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-03-11T22:25:28.198578+00:00",
+          "age_hours": 19.1,
+          "shares_per_hour": 12.3,
+          "views_per_hour": 1090,
+          "momentum": 704,
+          "delta_shares_per_hour": -1.299999999999999
         }
       ],
-      "consecutive_negative_deltas": 0,
-      "alerted": false
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
     }
   ]
 }
