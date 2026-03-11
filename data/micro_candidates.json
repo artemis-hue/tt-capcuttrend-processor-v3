@@ -1,42 +1,6 @@
 {
-  "last_updated": "2026-03-10T22:27:13.260925+00:00",
+  "last_updated": "2026-03-11T08:39:07.614104+00:00",
   "candidates": [
-    {
-      "url": "https://www.tiktok.com/@snackreacts1/video/7615260701589900566",
-      "first_seen": "2026-03-10T18:48:17.683037+00:00",
-      "market": "\ud83c\uddec\ud83c\udde7 UK ONLY",
-      "text": "Traurige KI Story Part 7 #kistory #ki #traurig #emotional #animation ",
-      "creator": "snackreacts1",
-      "checks": [
-        {
-          "timestamp": "2026-03-10T18:48:17.683037+00:00",
-          "age_hours": 26.3,
-          "shares_per_hour": 627.3,
-          "views_per_hour": 15601,
-          "momentum": 8538,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-03-10T20:32:21.471137+00:00",
-          "age_hours": 28.0,
-          "shares_per_hour": 588.5,
-          "views_per_hour": 14636,
-          "momentum": 8010,
-          "delta_shares_per_hour": -38.799999999999955
-        },
-        {
-          "timestamp": "2026-03-10T22:27:13.260795+00:00",
-          "age_hours": 30.0,
-          "shares_per_hour": 550.9,
-          "views_per_hour": 13701,
-          "momentum": 7498,
-          "delta_shares_per_hour": -37.60000000000002
-        }
-      ],
-      "consecutive_negative_deltas": 2,
-      "alerted": false,
-      "consecutive_misses": 0
-    },
     {
       "url": "https://www.tiktok.com/@matidada4/video/7615166104549215509",
       "first_seen": "2026-03-10T18:48:17.683037+00:00",
@@ -71,7 +35,7 @@
       ],
       "consecutive_negative_deltas": 2,
       "alerted": false,
-      "consecutive_misses": 0
+      "consecutive_misses": 1
     },
     {
       "url": "https://www.tiktok.com/@fr6ncesco_08/video/7614958244313812246",
@@ -107,79 +71,7 @@
       ],
       "consecutive_negative_deltas": 2,
       "alerted": false,
-      "consecutive_misses": 0
-    },
-    {
-      "url": "https://www.tiktok.com/@l.x5840/video/7615296232273022238",
-      "first_seen": "2026-03-10T18:48:17.683037+00:00",
-      "market": "\ud83c\udf10 BOTH",
-      "text": "Kriss vecc baby ai dance #capcut #capcutpioneer #pioneertemplate #aidance #fyp ",
-      "creator": "l.x5840",
-      "checks": [
-        {
-          "timestamp": "2026-03-10T18:48:17.683037+00:00",
-          "age_hours": 26.2,
-          "shares_per_hour": 8.2,
-          "views_per_hour": 944,
-          "momentum": 294,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-03-10T20:32:21.471137+00:00",
-          "age_hours": 27.9,
-          "shares_per_hour": 7.7,
-          "views_per_hour": 885,
-          "momentum": 275,
-          "delta_shares_per_hour": -0.4999999999999991
-        },
-        {
-          "timestamp": "2026-03-10T22:27:13.260795+00:00",
-          "age_hours": 29.8,
-          "shares_per_hour": 7.2,
-          "views_per_hour": 828,
-          "momentum": 258,
-          "delta_shares_per_hour": -0.5
-        }
-      ],
-      "consecutive_negative_deltas": 2,
-      "alerted": false,
-      "consecutive_misses": 0
-    },
-    {
-      "url": "https://www.tiktok.com/@ayhai.168/video/7615123936610667783",
-      "first_seen": "2026-03-10T18:48:17.683037+00:00",
-      "market": "\ud83c\udf10 BOTH",
-      "text": "Free AI Template Link\ud83d\udc47\ud83d\udc47\ud83d\udc47\nPenyunting Kreatif AI, Penyunting Foto AI, AI Creative Editing, AI Photo Editing, Google Gemini AI, Prompt, AI Prompt, ai image generation algorithms, ai Prompt, ai editing photo effect, Filter Foto AI, Al Foto Efek, Filter ai foto wajah, Gunakan filter ai foto ini, Editor foto Alat edit foto efek filter, AI PromptFoto, AIgenerated,ChatGPT, Prompt\nBuat foto serupa dengan satu klik\nsecara gratis, klik hypic di sudut kiri\nbawah untuk membuatnya secara gratis.\nGemini ai foto edit\nPrompt Gemini ai\nEditor kreatif AI, Editor foto AI\nPenyunting kreatif AI, \nPenyunting fotoAI\nGoogle Gemini AI\nFilter Foto AI\nAI Foto Efek\nFilter ai foto wajah\nGunakan filter ai foto ini\nPenyunting Kreatif AI\nPenyunting Foto AI\nAI Creative Editing,\nAI Photo Editing\nGoogle Gemini AI,\nEditor foto Alat edit\nfoto efek filter ,\npenyunting kreatif AI ,\nAI creative editing Prompt,\nAI PromptFoto\n#hypic #hypiccreator #Godpic @hypic_global @HypicVietnam #aiart #Geminiai",
-      "creator": "ayhai.168",
-      "checks": [
-        {
-          "timestamp": "2026-03-10T18:48:17.683037+00:00",
-          "age_hours": 37.3,
-          "shares_per_hour": 21.1,
-          "views_per_hour": 546,
-          "momentum": 247,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-03-10T20:32:21.471137+00:00",
-          "age_hours": 39.0,
-          "shares_per_hour": 20.2,
-          "views_per_hour": 522,
-          "momentum": 236,
-          "delta_shares_per_hour": -0.9000000000000021
-        },
-        {
-          "timestamp": "2026-03-10T22:27:13.260795+00:00",
-          "age_hours": 41.0,
-          "shares_per_hour": 19.2,
-          "views_per_hour": 498,
-          "momentum": 225,
-          "delta_shares_per_hour": -1.0
-        }
-      ],
-      "consecutive_negative_deltas": 2,
-      "alerted": false,
-      "consecutive_misses": 0
+      "consecutive_misses": 1
     },
     {
       "url": "https://www.tiktok.com/@connor19140/video/7615384423252430100",
@@ -215,7 +107,7 @@
       ],
       "consecutive_negative_deltas": 2,
       "alerted": false,
-      "consecutive_misses": 0
+      "consecutive_misses": 1
     },
     {
       "url": "https://www.tiktok.com/@drexedits01/video/7615161865412431124",
@@ -243,7 +135,7 @@
       ],
       "consecutive_negative_deltas": 1,
       "alerted": false,
-      "consecutive_misses": 0
+      "consecutive_misses": 1
     },
     {
       "url": "https://www.tiktok.com/@local_capcut_templates/video/7615017558319631630",
@@ -267,11 +159,76 @@
           "views_per_hour": 8547,
           "momentum": 2386,
           "delta_shares_per_hour": -1.1999999999999993
+        },
+        {
+          "timestamp": "2026-03-11T08:39:07.609667+00:00",
+          "age_hours": 58.0,
+          "shares_per_hour": 70.2,
+          "views_per_hour": 20681,
+          "momentum": 6317,
+          "delta_shares_per_hour": 43.400000000000006
         }
       ],
-      "consecutive_negative_deltas": 1,
+      "consecutive_negative_deltas": 0,
       "alerted": false,
       "consecutive_misses": 0
+    },
+    {
+      "url": "https://www.tiktok.com/@jokes.chain/video/7615446711619554591",
+      "first_seen": "2026-03-11T08:39:07.609667+00:00",
+      "market": "\ud83c\uddfa\ud83c\uddf8 US ONLY",
+      "text": "#BalliBotMogis #TrendingReels #TrendingReels #Foryoupage ##FYP #FYP #ViralTikTok #MillionViews #TechMagic #SmartBot #AITrend #RobotVibes #Innovation ",
+      "creator": "jokes.chain",
+      "checks": [
+        {
+          "timestamp": "2026-03-11T08:39:07.609667+00:00",
+          "age_hours": 30.3,
+          "shares_per_hour": 1823.6,
+          "views_per_hour": 46250,
+          "momentum": 28836,
+          "delta_shares_per_hour": null
+        }
+      ],
+      "consecutive_negative_deltas": 0,
+      "alerted": false
+    },
+    {
+      "url": "https://www.tiktok.com/@overcookmyself/video/7615757664051662102",
+      "first_seen": "2026-03-11T08:39:07.609667+00:00",
+      "market": "\ud83c\uddfa\ud83c\uddf8 US ONLY",
+      "text": "White cows, black cow and brown cow\nAi couple cheating, talking animal\n#aistory #animation #funnyanimal #americanhumor #couplestory ",
+      "creator": "overcookmyself",
+      "checks": [
+        {
+          "timestamp": "2026-03-11T08:39:07.609667+00:00",
+          "age_hours": 10.2,
+          "shares_per_hour": 479.7,
+          "views_per_hour": 26938,
+          "momentum": 12300,
+          "delta_shares_per_hour": null
+        }
+      ],
+      "consecutive_negative_deltas": 0,
+      "alerted": false
+    },
+    {
+      "url": "https://www.tiktok.com/@mmwahmia/video/7615376007352143134",
+      "first_seen": "2026-03-11T08:39:07.609667+00:00",
+      "market": "\ud83c\uddec\ud83c\udde7 UK ONLY",
+      "text": "#aifruit #aifood #fyp #funny #taco @tacobell @Taco Bell Canada @DelTaco @Chipotle ",
+      "creator": "mmwahmia",
+      "checks": [
+        {
+          "timestamp": "2026-03-11T08:39:07.609667+00:00",
+          "age_hours": 34.8,
+          "shares_per_hour": 479.3,
+          "views_per_hour": 11664,
+          "momentum": 10394,
+          "delta_shares_per_hour": null
+        }
+      ],
+      "consecutive_negative_deltas": 0,
+      "alerted": false
     }
   ]
 }
