@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-11T22:25:28.198704+00:00",
+  "last_updated": "2026-03-12T08:40:04.699645+00:00",
   "candidates": [
     {
       "url": "https://www.tiktok.com/@jokes.chain/video/7615446711619554591",
@@ -35,7 +35,7 @@
       ],
       "consecutive_negative_deltas": 2,
       "alerted": false,
-      "consecutive_misses": 0
+      "consecutive_misses": 1
     },
     {
       "url": "https://www.tiktok.com/@mmwahmia/video/7615376007352143134",
@@ -71,7 +71,7 @@
       ],
       "consecutive_negative_deltas": 2,
       "alerted": false,
-      "consecutive_misses": 0
+      "consecutive_misses": 1
     },
     {
       "url": "https://www.tiktok.com/@overcookmyself/video/7615757664051662102",
@@ -107,7 +107,7 @@
       ],
       "consecutive_negative_deltas": 2,
       "alerted": false,
-      "consecutive_misses": 0
+      "consecutive_misses": 1
     },
     {
       "url": "https://www.tiktok.com/@maozai90/video/7615619056581840149",
@@ -143,7 +143,7 @@
       ],
       "consecutive_negative_deltas": 2,
       "alerted": false,
-      "consecutive_misses": 0
+      "consecutive_misses": 1
     },
     {
       "url": "https://www.tiktok.com/@klaudesom.ia/video/7615423909592157460",
@@ -179,7 +179,7 @@
       ],
       "consecutive_negative_deltas": 2,
       "alerted": false,
-      "consecutive_misses": 0
+      "consecutive_misses": 1
     },
     {
       "url": "https://www.tiktok.com/@nayaafitt/video/7615636836097985814",
@@ -207,7 +207,7 @@
       ],
       "consecutive_negative_deltas": 1,
       "alerted": false,
-      "consecutive_misses": 0
+      "consecutive_misses": 1
     },
     {
       "url": "https://www.tiktok.com/@lrjvae3ce3/video/7615476325674962194",
@@ -231,9 +231,17 @@
           "views_per_hour": 6798,
           "momentum": 992,
           "delta_shares_per_hour": -0.8999999999999986
+        },
+        {
+          "timestamp": "2026-03-12T08:40:04.699538+00:00",
+          "age_hours": 52.4,
+          "shares_per_hour": 24.3,
+          "views_per_hour": 8135,
+          "momentum": 1274,
+          "delta_shares_per_hour": 3.6999999999999993
         }
       ],
-      "consecutive_negative_deltas": 1,
+      "consecutive_negative_deltas": 0,
       "alerted": false,
       "consecutive_misses": 0
     },
@@ -263,7 +271,7 @@
       ],
       "consecutive_negative_deltas": 1,
       "alerted": false,
-      "consecutive_misses": 0
+      "consecutive_misses": 1
     }
   ]
 }
