@@ -1,42 +1,6 @@
 {
-  "last_updated": "2026-03-12T18:52:30.503377+00:00",
+  "last_updated": "2026-03-12T20:33:03.007768+00:00",
   "candidates": [
-    {
-      "url": "https://www.tiktok.com/@.gmx8/video/7615653598390652167",
-      "first_seen": "2026-03-12T14:47:26.008971+00:00",
-      "market": "\ud83c\udf10 BOTH",
-      "text": "Try the template \ud83d\udd25#capcut #capcutpioneer #pioneertemplate #cristianoronaldo #nightwing ",
-      "creator": ".gmx8",
-      "checks": [
-        {
-          "timestamp": "2026-03-12T14:47:26.008971+00:00",
-          "age_hours": 47.0,
-          "shares_per_hour": 21.0,
-          "views_per_hour": 3389,
-          "momentum": 1225,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-03-12T16:57:32.169066+00:00",
-          "age_hours": 49.2,
-          "shares_per_hour": 20.0,
-          "views_per_hour": 3239,
-          "momentum": 1171,
-          "delta_shares_per_hour": -1.0
-        },
-        {
-          "timestamp": "2026-03-12T18:52:30.498861+00:00",
-          "age_hours": 51.1,
-          "shares_per_hour": 19.3,
-          "views_per_hour": 3118,
-          "momentum": 1127,
-          "delta_shares_per_hour": -0.6999999999999993
-        }
-      ],
-      "consecutive_negative_deltas": 2,
-      "alerted": false,
-      "consecutive_misses": 0
-    },
     {
       "url": "https://www.tiktok.com/@_cumatempl4t3/video/7615903381109902600",
       "first_seen": "2026-03-12T18:52:30.498861+00:00",
@@ -51,10 +15,19 @@
           "views_per_hour": 13815,
           "momentum": 784,
           "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-03-12T20:33:03.003409+00:00",
+          "age_hours": 36.6,
+          "shares_per_hour": 36.5,
+          "views_per_hour": 13183,
+          "momentum": 748,
+          "delta_shares_per_hour": -1.7000000000000028
         }
       ],
-      "consecutive_negative_deltas": 0,
-      "alerted": false
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
     },
     {
       "url": "https://www.tiktok.com/@usgbaby1/video/7615811637894761742",
@@ -70,10 +43,19 @@
           "views_per_hour": 2325,
           "momentum": 628,
           "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-03-12T20:33:03.003409+00:00",
+          "age_hours": 42.6,
+          "shares_per_hour": 22.5,
+          "views_per_hour": 2234,
+          "momentum": 603,
+          "delta_shares_per_hour": -0.8999999999999986
         }
       ],
-      "consecutive_negative_deltas": 0,
-      "alerted": false
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
     },
     {
       "url": "https://www.tiktok.com/@judetrew/video/7615761866488335646",
@@ -89,10 +71,19 @@
           "views_per_hour": 1659,
           "momentum": 565,
           "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-03-12T20:33:03.003409+00:00",
+          "age_hours": 45.8,
+          "shares_per_hour": 7.8,
+          "views_per_hour": 1598,
+          "momentum": 544,
+          "delta_shares_per_hour": -0.2999999999999998
         }
       ],
-      "consecutive_negative_deltas": 0,
-      "alerted": false
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
     },
     {
       "url": "https://www.tiktok.com/@tjot976554/video/7615890298450840850",
@@ -108,10 +99,19 @@
           "views_per_hour": 449,
           "momentum": 206,
           "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-03-12T20:33:03.003409+00:00",
+          "age_hours": 37.5,
+          "shares_per_hour": 15.1,
+          "views_per_hour": 429,
+          "momentum": 197,
+          "delta_shares_per_hour": -0.7000000000000011
         }
       ],
-      "consecutive_negative_deltas": 0,
-      "alerted": false
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
     },
     {
       "url": "https://www.tiktok.com/@ayhai.168/video/7615872265187609863",
@@ -126,6 +126,72 @@
           "shares_per_hour": 17.9,
           "views_per_hour": 419,
           "momentum": 194,
+          "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-03-12T20:33:03.003409+00:00",
+          "age_hours": 38.6,
+          "shares_per_hour": 17.1,
+          "views_per_hour": 401,
+          "momentum": 186,
+          "delta_shares_per_hour": -0.7999999999999972
+        }
+      ],
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
+    },
+    {
+      "url": "https://www.tiktok.com/@plantillasbychand/video/7615740923770637588",
+      "first_seen": "2026-03-12T20:33:03.003409+00:00",
+      "market": "\ud83c\udf10 BOTH",
+      "text": "#CapCut #capcutpioneer #pioneertemplate #parati #cctrends ",
+      "creator": "plantillasbychand",
+      "checks": [
+        {
+          "timestamp": "2026-03-12T20:33:03.003409+00:00",
+          "age_hours": 47.1,
+          "shares_per_hour": 454.0,
+          "views_per_hour": 27578,
+          "momentum": 15310,
+          "delta_shares_per_hour": null
+        }
+      ],
+      "consecutive_negative_deltas": 0,
+      "alerted": false
+    },
+    {
+      "url": "https://www.tiktok.com/@cuteandchubbycat/video/7616030187033021710",
+      "first_seen": "2026-03-12T20:33:03.003409+00:00",
+      "market": "\ud83c\udf10 BOTH",
+      "text": "Sequel#funnyvideos #Orangecat #aicatstory #animation #cutecat cute and chubby cat",
+      "creator": "cuteandchubbycat",
+      "checks": [
+        {
+          "timestamp": "2026-03-12T20:33:03.003409+00:00",
+          "age_hours": 28.4,
+          "shares_per_hour": 22.9,
+          "views_per_hour": 42216,
+          "momentum": 4777,
+          "delta_shares_per_hour": null
+        }
+      ],
+      "consecutive_negative_deltas": 0,
+      "alerted": false
+    },
+    {
+      "url": "https://www.tiktok.com/@muddasirtemplates/video/7615748576962104583",
+      "first_seen": "2026-03-12T20:33:03.003409+00:00",
+      "market": "\ud83c\udf10 BOTH",
+      "text": "3 Clips Transition Template for eid \u2764\ufe0f\ud83d\udd4a\ufe0f #CapCut #muddasirtemplate #slomo #trend #viraltemplate ",
+      "creator": "muddasirtemplates",
+      "checks": [
+        {
+          "timestamp": "2026-03-12T20:33:03.003409+00:00",
+          "age_hours": 46.6,
+          "shares_per_hour": 82.6,
+          "views_per_hour": 14326,
+          "momentum": 3824,
           "delta_shares_per_hour": null
         }
       ],
