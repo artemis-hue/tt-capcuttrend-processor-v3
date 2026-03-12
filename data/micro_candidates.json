@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-12T20:33:03.007768+00:00",
+  "last_updated": "2026-03-12T22:24:18.731779+00:00",
   "candidates": [
     {
       "url": "https://www.tiktok.com/@_cumatempl4t3/video/7615903381109902600",
@@ -23,9 +23,17 @@
           "views_per_hour": 13183,
           "momentum": 748,
           "delta_shares_per_hour": -1.7000000000000028
+        },
+        {
+          "timestamp": "2026-03-12T22:24:18.731659+00:00",
+          "age_hours": 38.5,
+          "shares_per_hour": 34.7,
+          "views_per_hour": 12548,
+          "momentum": 712,
+          "delta_shares_per_hour": -1.7999999999999972
         }
       ],
-      "consecutive_negative_deltas": 1,
+      "consecutive_negative_deltas": 2,
       "alerted": false,
       "consecutive_misses": 0
     },
@@ -51,9 +59,17 @@
           "views_per_hour": 2234,
           "momentum": 603,
           "delta_shares_per_hour": -0.8999999999999986
+        },
+        {
+          "timestamp": "2026-03-12T22:24:18.731659+00:00",
+          "age_hours": 44.4,
+          "shares_per_hour": 21.5,
+          "views_per_hour": 2140,
+          "momentum": 578,
+          "delta_shares_per_hour": -1.0
         }
       ],
-      "consecutive_negative_deltas": 1,
+      "consecutive_negative_deltas": 2,
       "alerted": false,
       "consecutive_misses": 0
     },
@@ -79,9 +95,17 @@
           "views_per_hour": 1598,
           "momentum": 544,
           "delta_shares_per_hour": -0.2999999999999998
+        },
+        {
+          "timestamp": "2026-03-12T22:24:18.731659+00:00",
+          "age_hours": 47.6,
+          "shares_per_hour": 7.5,
+          "views_per_hour": 1536,
+          "momentum": 523,
+          "delta_shares_per_hour": -0.2999999999999998
         }
       ],
-      "consecutive_negative_deltas": 1,
+      "consecutive_negative_deltas": 2,
       "alerted": false,
       "consecutive_misses": 0
     },
@@ -107,9 +131,17 @@
           "views_per_hour": 429,
           "momentum": 197,
           "delta_shares_per_hour": -0.7000000000000011
+        },
+        {
+          "timestamp": "2026-03-12T22:24:18.731659+00:00",
+          "age_hours": 39.3,
+          "shares_per_hour": 14.4,
+          "views_per_hour": 409,
+          "momentum": 187,
+          "delta_shares_per_hour": -0.6999999999999993
         }
       ],
-      "consecutive_negative_deltas": 1,
+      "consecutive_negative_deltas": 2,
       "alerted": false,
       "consecutive_misses": 0
     },
@@ -135,9 +167,17 @@
           "views_per_hour": 401,
           "momentum": 186,
           "delta_shares_per_hour": -0.7999999999999972
+        },
+        {
+          "timestamp": "2026-03-12T22:24:18.731659+00:00",
+          "age_hours": 40.5,
+          "shares_per_hour": 16.3,
+          "views_per_hour": 382,
+          "momentum": 177,
+          "delta_shares_per_hour": -0.8000000000000007
         }
       ],
-      "consecutive_negative_deltas": 1,
+      "consecutive_negative_deltas": 2,
       "alerted": false,
       "consecutive_misses": 0
     },
@@ -155,10 +195,19 @@
           "views_per_hour": 27578,
           "momentum": 15310,
           "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-03-12T22:24:18.731659+00:00",
+          "age_hours": 49.0,
+          "shares_per_hour": 436.8,
+          "views_per_hour": 26534,
+          "momentum": 14730,
+          "delta_shares_per_hour": -17.19999999999999
         }
       ],
-      "consecutive_negative_deltas": 0,
-      "alerted": false
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
     },
     {
       "url": "https://www.tiktok.com/@cuteandchubbycat/video/7616030187033021710",
@@ -174,10 +223,19 @@
           "views_per_hour": 42216,
           "momentum": 4777,
           "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-03-12T22:24:18.731659+00:00",
+          "age_hours": 30.3,
+          "shares_per_hour": 21.5,
+          "views_per_hour": 39630,
+          "momentum": 4484,
+          "delta_shares_per_hour": -1.3999999999999986
         }
       ],
-      "consecutive_negative_deltas": 0,
-      "alerted": false
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
     },
     {
       "url": "https://www.tiktok.com/@muddasirtemplates/video/7615748576962104583",
@@ -193,10 +251,19 @@
           "views_per_hour": 14326,
           "momentum": 3824,
           "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-03-12T22:24:18.731659+00:00",
+          "age_hours": 48.5,
+          "shares_per_hour": 79.4,
+          "views_per_hour": 13778,
+          "momentum": 3677,
+          "delta_shares_per_hour": -3.1999999999999886
         }
       ],
-      "consecutive_negative_deltas": 0,
-      "alerted": false
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
     }
   ]
 }
