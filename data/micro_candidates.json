@@ -1,78 +1,6 @@
 {
-  "last_updated": "2026-03-13T18:39:34.556102+00:00",
+  "last_updated": "2026-03-13T20:32:34.384281+00:00",
   "candidates": [
-    {
-      "url": "https://www.tiktok.com/@py.kang59/video/7616455646061415694",
-      "first_seen": "2026-03-13T14:40:46.382730+00:00",
-      "market": "\ud83c\udf10 BOTH",
-      "text": "\u2b06\ufe0fUse the CapCut template \u2b06\ufe0fai dance #capcutforus #capcut #capcutpioneer #fyp #zaza ",
-      "creator": "py.kang59",
-      "checks": [
-        {
-          "timestamp": "2026-03-13T14:40:46.382730+00:00",
-          "age_hours": 19.0,
-          "shares_per_hour": 16.5,
-          "views_per_hour": 1554,
-          "momentum": 561,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-03-13T16:38:30.735189+00:00",
-          "age_hours": 21.0,
-          "shares_per_hour": 15.0,
-          "views_per_hour": 1409,
-          "momentum": 508,
-          "delta_shares_per_hour": -1.5
-        },
-        {
-          "timestamp": "2026-03-13T18:39:34.551480+00:00",
-          "age_hours": 23.0,
-          "shares_per_hour": 13.7,
-          "views_per_hour": 1285,
-          "momentum": 464,
-          "delta_shares_per_hour": -1.3000000000000007
-        }
-      ],
-      "consecutive_negative_deltas": 2,
-      "alerted": false,
-      "consecutive_misses": 0
-    },
-    {
-      "url": "https://www.tiktok.com/@thedailyrise.capcut/video/7616033928402455830",
-      "first_seen": "2026-03-13T14:40:46.382730+00:00",
-      "market": "\ud83c\udf10 BOTH",
-      "text": "Break me ??? \ud83d\udd25 @\ud835\uddd6\ud835\uddee\ud835\uddfd\ud835\uddd6\ud835\ude02\ud835\ude01 #quotes #motivation #capcutpioneer #pioneertemplate #CapCut ",
-      "creator": "thedailyrise.capcut",
-      "checks": [
-        {
-          "timestamp": "2026-03-13T14:40:46.382730+00:00",
-          "age_hours": 46.3,
-          "shares_per_hour": 13.5,
-          "views_per_hour": 2055,
-          "momentum": 428,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-03-13T16:38:30.735189+00:00",
-          "age_hours": 48.3,
-          "shares_per_hour": 13.0,
-          "views_per_hour": 1971,
-          "momentum": 410,
-          "delta_shares_per_hour": -0.5
-        },
-        {
-          "timestamp": "2026-03-13T18:39:34.551480+00:00",
-          "age_hours": 50.3,
-          "shares_per_hour": 12.4,
-          "views_per_hour": 1892,
-          "momentum": 394,
-          "delta_shares_per_hour": -0.5999999999999996
-        }
-      ],
-      "consecutive_negative_deltas": 2,
-      "alerted": false,
-      "consecutive_misses": 0
-    },
     {
       "url": "https://www.tiktok.com/@py.kang59/video/7616078478311492877",
       "first_seen": "2026-03-13T16:38:30.735189+00:00",
@@ -95,9 +23,17 @@
           "views_per_hour": 20085,
           "momentum": 9354,
           "delta_shares_per_hour": -7.300000000000011
+        },
+        {
+          "timestamp": "2026-03-13T20:32:34.379626+00:00",
+          "age_hours": 49.3,
+          "shares_per_hour": 159.8,
+          "views_per_hour": 19318,
+          "momentum": 8996,
+          "delta_shares_per_hour": -6.399999999999977
         }
       ],
-      "consecutive_negative_deltas": 1,
+      "consecutive_negative_deltas": 2,
       "alerted": false,
       "consecutive_misses": 0
     },
@@ -115,10 +51,19 @@
           "views_per_hour": 14634,
           "momentum": 8922,
           "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-03-13T20:32:34.379626+00:00",
+          "age_hours": 31.9,
+          "shares_per_hour": 761.9,
+          "views_per_hour": 13770,
+          "momentum": 8395,
+          "delta_shares_per_hour": -47.80000000000007
         }
       ],
-      "consecutive_negative_deltas": 0,
-      "alerted": false
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
     },
     {
       "url": "https://www.tiktok.com/@connor19140/video/7616126686358211860",
@@ -134,10 +79,19 @@
           "views_per_hour": 10807,
           "momentum": 3530,
           "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-03-13T20:32:34.379626+00:00",
+          "age_hours": 46.2,
+          "shares_per_hour": 294.5,
+          "views_per_hour": 10367,
+          "momentum": 3386,
+          "delta_shares_per_hour": -12.5
         }
       ],
-      "consecutive_negative_deltas": 0,
-      "alerted": false
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
     },
     {
       "url": "https://www.tiktok.com/@nairunariakra/video/7616378879539809544",
@@ -153,10 +107,19 @@
           "views_per_hour": 489,
           "momentum": 180,
           "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-03-13T20:32:34.379626+00:00",
+          "age_hours": 29.9,
+          "shares_per_hour": 10.2,
+          "views_per_hour": 458,
+          "momentum": 169,
+          "delta_shares_per_hour": -0.7000000000000011
         }
       ],
-      "consecutive_negative_deltas": 0,
-      "alerted": false
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
     },
     {
       "url": "https://www.tiktok.com/@cxscko315496/video/7616431331169307935",
@@ -172,10 +135,19 @@
           "views_per_hour": 1549,
           "momentum": 127,
           "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-03-13T20:32:34.379626+00:00",
+          "age_hours": 26.5,
+          "shares_per_hour": 8.3,
+          "views_per_hour": 1439,
+          "momentum": 118,
+          "delta_shares_per_hour": -0.6999999999999993
         }
       ],
-      "consecutive_negative_deltas": 0,
-      "alerted": false
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
     },
     {
       "url": "https://www.tiktok.com/@ega8829/video/7616324834670398723",
@@ -190,6 +162,53 @@
           "shares_per_hour": 9.1,
           "views_per_hour": 309,
           "momentum": 121,
+          "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-03-13T20:32:34.379626+00:00",
+          "age_hours": 33.4,
+          "shares_per_hour": 8.6,
+          "views_per_hour": 292,
+          "momentum": 114,
+          "delta_shares_per_hour": -0.5
+        }
+      ],
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
+    },
+    {
+      "url": "https://www.tiktok.com/@masbe4ja/video/7616492259369913617",
+      "first_seen": "2026-03-13T20:32:34.379626+00:00",
+      "market": "\ud83c\uddec\ud83c\udde7 UK ONLY",
+      "text": "Jumat #CapCut #fyp #rayapenuhrasa #pioneertemplate #capcutpioneer ",
+      "creator": "masbe4ja",
+      "checks": [
+        {
+          "timestamp": "2026-03-13T20:32:34.379626+00:00",
+          "age_hours": 22.5,
+          "shares_per_hour": 97.3,
+          "views_per_hour": 3196,
+          "momentum": 1440,
+          "delta_shares_per_hour": null
+        }
+      ],
+      "consecutive_negative_deltas": 0,
+      "alerted": false
+    },
+    {
+      "url": "https://www.tiktok.com/@jnfpnlcju0/video/7616324375188475158",
+      "first_seen": "2026-03-13T20:32:34.379626+00:00",
+      "market": "\ud83c\udf10 BOTH",
+      "text": "Add some flair to your photos with this jaw-dropping effect. AI transforms your photos into the extraordinary! #capcut #capcutpioneer #capcutforus #fyp  #ai Let me show you how to transform your photos with cutting-edge AI effects! Want to discover the future of photo editing with AI? Selfie Beautification, Outfit Effects, Face Swap, Fun Masks, Animated Avatars. ",
+      "creator": "jnfpnlcju0",
+      "checks": [
+        {
+          "timestamp": "2026-03-13T20:32:34.379626+00:00",
+          "age_hours": 33.4,
+          "shares_per_hour": 6.6,
+          "views_per_hour": 404,
+          "momentum": 108,
           "delta_shares_per_hour": null
         }
       ],
