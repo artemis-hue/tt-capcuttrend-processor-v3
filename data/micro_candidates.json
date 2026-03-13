@@ -1,170 +1,6 @@
 {
-  "last_updated": "2026-03-13T10:35:17.389897+00:00",
+  "last_updated": "2026-03-13T12:55:44.638230+00:00",
   "candidates": [
-    {
-      "url": "https://www.tiktok.com/@_cumatempl4t3/video/7615903381109902600",
-      "first_seen": "2026-03-12T18:52:30.498861+00:00",
-      "market": "\ud83c\uddfa\ud83c\uddf8 US ONLY",
-      "text": "#CapCut \nidul fitri 2026\n#storywa #capcutpioneer #pioneertemplate #idulfitri ",
-      "creator": "_cumatempl4t3",
-      "checks": [
-        {
-          "timestamp": "2026-03-12T18:52:30.498861+00:00",
-          "age_hours": 35.0,
-          "shares_per_hour": 38.2,
-          "views_per_hour": 13815,
-          "momentum": 784,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-03-12T20:33:03.003409+00:00",
-          "age_hours": 36.6,
-          "shares_per_hour": 36.5,
-          "views_per_hour": 13183,
-          "momentum": 748,
-          "delta_shares_per_hour": -1.7000000000000028
-        },
-        {
-          "timestamp": "2026-03-12T22:24:18.731659+00:00",
-          "age_hours": 38.5,
-          "shares_per_hour": 34.7,
-          "views_per_hour": 12548,
-          "momentum": 712,
-          "delta_shares_per_hour": -1.7999999999999972
-        }
-      ],
-      "consecutive_negative_deltas": 2,
-      "alerted": false,
-      "consecutive_misses": 2
-    },
-    {
-      "url": "https://www.tiktok.com/@usgbaby1/video/7615811637894761742",
-      "first_seen": "2026-03-12T18:52:30.498861+00:00",
-      "market": "\ud83c\uddec\ud83c\udde7 UK ONLY",
-      "text": "fruitstory ai drama \ud83c\udf4c\ud83c\udf53 #fruitstory #fruitanimation #fruitaidrama #sadstory #viral #unfreezemyaccount ",
-      "creator": "usgbaby1",
-      "checks": [
-        {
-          "timestamp": "2026-03-12T18:52:30.498861+00:00",
-          "age_hours": 40.9,
-          "shares_per_hour": 23.4,
-          "views_per_hour": 2325,
-          "momentum": 628,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-03-12T20:33:03.003409+00:00",
-          "age_hours": 42.6,
-          "shares_per_hour": 22.5,
-          "views_per_hour": 2234,
-          "momentum": 603,
-          "delta_shares_per_hour": -0.8999999999999986
-        },
-        {
-          "timestamp": "2026-03-12T22:24:18.731659+00:00",
-          "age_hours": 44.4,
-          "shares_per_hour": 21.5,
-          "views_per_hour": 2140,
-          "momentum": 578,
-          "delta_shares_per_hour": -1.0
-        }
-      ],
-      "consecutive_negative_deltas": 2,
-      "alerted": false,
-      "consecutive_misses": 2
-    },
-    {
-      "url": "https://www.tiktok.com/@tjot976554/video/7615890298450840850",
-      "first_seen": "2026-03-12T18:52:30.498861+00:00",
-      "market": "\ud83c\udf10 BOTH",
-      "text": "#capcut #capcutpioneer#capcutforus  The warriors effect tutorial  The warriors effect  The warrior 2 effect  Viking Transformation Filter Effect, Viking Transformation Filter Tutorial, How to Create AI Viking Transformation Filter Effect, How to Use the Viking Transformation Filter, How to Make a Viking Transformation Trend Tutorial, How to Make a Viking Transformation Filter Tutorial, How to Create a Viking Transformation Filter Video Efecto de filtro de transformaci\u00f3n vikinga, Tutorial de filtro de transformaci\u00f3n vikinga, C\u00f3mo crear el efecto de filtro de transformaci\u00f3n vikinga con inteligencia artificial, C\u00f3mo usar el filtro de transformaci\u00f3n vikinga, C\u00f3mo hacer un tutorial de tendencia de transformaci\u00f3n vikinga, C\u00f3mo hacer un tutorial de filtro de transformaci\u00f3n vikinga, C\u00f3mo crear un video con filtro de transformaci\u00f3n vikinga",
-      "creator": "tjot976554",
-      "checks": [
-        {
-          "timestamp": "2026-03-12T18:52:30.498861+00:00",
-          "age_hours": 35.8,
-          "shares_per_hour": 15.8,
-          "views_per_hour": 449,
-          "momentum": 206,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-03-12T20:33:03.003409+00:00",
-          "age_hours": 37.5,
-          "shares_per_hour": 15.1,
-          "views_per_hour": 429,
-          "momentum": 197,
-          "delta_shares_per_hour": -0.7000000000000011
-        },
-        {
-          "timestamp": "2026-03-12T22:24:18.731659+00:00",
-          "age_hours": 39.3,
-          "shares_per_hour": 14.4,
-          "views_per_hour": 409,
-          "momentum": 187,
-          "delta_shares_per_hour": -0.6999999999999993
-        }
-      ],
-      "consecutive_negative_deltas": 2,
-      "alerted": false,
-      "consecutive_misses": 2
-    },
-    {
-      "url": "https://www.tiktok.com/@plantillasbychand/video/7615740923770637588",
-      "first_seen": "2026-03-12T20:33:03.003409+00:00",
-      "market": "\ud83c\udf10 BOTH",
-      "text": "#CapCut #capcutpioneer #pioneertemplate #parati #cctrends ",
-      "creator": "plantillasbychand",
-      "checks": [
-        {
-          "timestamp": "2026-03-12T20:33:03.003409+00:00",
-          "age_hours": 47.1,
-          "shares_per_hour": 454.0,
-          "views_per_hour": 27578,
-          "momentum": 15310,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-03-12T22:24:18.731659+00:00",
-          "age_hours": 49.0,
-          "shares_per_hour": 436.8,
-          "views_per_hour": 26534,
-          "momentum": 14730,
-          "delta_shares_per_hour": -17.19999999999999
-        }
-      ],
-      "consecutive_negative_deltas": 1,
-      "alerted": false,
-      "consecutive_misses": 2
-    },
-    {
-      "url": "https://www.tiktok.com/@cuteandchubbycat/video/7616030187033021710",
-      "first_seen": "2026-03-12T20:33:03.003409+00:00",
-      "market": "\ud83c\udf10 BOTH",
-      "text": "Sequel#funnyvideos #Orangecat #aicatstory #animation #cutecat cute and chubby cat",
-      "creator": "cuteandchubbycat",
-      "checks": [
-        {
-          "timestamp": "2026-03-12T20:33:03.003409+00:00",
-          "age_hours": 28.4,
-          "shares_per_hour": 22.9,
-          "views_per_hour": 42216,
-          "momentum": 4777,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-03-12T22:24:18.731659+00:00",
-          "age_hours": 30.3,
-          "shares_per_hour": 21.5,
-          "views_per_hour": 39630,
-          "momentum": 4484,
-          "delta_shares_per_hour": -1.3999999999999986
-        }
-      ],
-      "consecutive_negative_deltas": 1,
-      "alerted": false,
-      "consecutive_misses": 2
-    },
     {
       "url": "https://www.tiktok.com/@catatan_harian47/video/7616347652795436308",
       "first_seen": "2026-03-13T08:37:34.889320+00:00",
@@ -187,9 +23,17 @@
           "views_per_hour": 20018,
           "momentum": 12205,
           "delta_shares_per_hour": -108.70000000000005
+        },
+        {
+          "timestamp": "2026-03-13T12:55:44.633949+00:00",
+          "age_hours": 24.3,
+          "shares_per_hour": 1000.8,
+          "views_per_hour": 18088,
+          "momentum": 11028,
+          "delta_shares_per_hour": -106.79999999999995
         }
       ],
-      "consecutive_negative_deltas": 1,
+      "consecutive_negative_deltas": 2,
       "alerted": false,
       "consecutive_misses": 0
     },
@@ -215,9 +59,17 @@
           "views_per_hour": 24206,
           "momentum": 11273,
           "delta_shares_per_hour": -10.5
+        },
+        {
+          "timestamp": "2026-03-13T12:55:44.633949+00:00",
+          "age_hours": 41.7,
+          "shares_per_hour": 189.0,
+          "views_per_hour": 22847,
+          "momentum": 10640,
+          "delta_shares_per_hour": -11.300000000000011
         }
       ],
-      "consecutive_negative_deltas": 1,
+      "consecutive_negative_deltas": 2,
       "alerted": false,
       "consecutive_misses": 0
     },
@@ -234,6 +86,110 @@
           "shares_per_hour": 375.4,
           "views_per_hour": 13215,
           "momentum": 4317,
+          "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-03-13T12:55:44.633949+00:00",
+          "age_hours": 38.6,
+          "shares_per_hour": 352.6,
+          "views_per_hour": 12413,
+          "momentum": 4055,
+          "delta_shares_per_hour": -22.799999999999955
+        }
+      ],
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
+    },
+    {
+      "url": "https://www.tiktok.com/@heroees1/video/7616083833372298516",
+      "first_seen": "2026-03-13T12:55:44.633949+00:00",
+      "market": "\ud83c\udf10 BOTH",
+      "text": "Get your rating @UCHAD App #ascension #ascend #GlowUp #fyp #xybca ",
+      "creator": "heroees1",
+      "checks": [
+        {
+          "timestamp": "2026-03-13T12:55:44.633949+00:00",
+          "age_hours": 41.3,
+          "shares_per_hour": 41.8,
+          "views_per_hour": 6441,
+          "momentum": 2485,
+          "delta_shares_per_hour": null
+        }
+      ],
+      "consecutive_negative_deltas": 0,
+      "alerted": false
+    },
+    {
+      "url": "https://www.tiktok.com/@user1795857660574/video/7616028015998340373",
+      "first_seen": "2026-03-13T12:55:44.633949+00:00",
+      "market": "\ud83c\udf10 BOTH",
+      "text": "The template in the lower left corner is ready. Upload a photo to make the same video.#capcut #capcutforus #capcutpioneer  La plantilla en la esquina inferior izquierda est\u00e1 lista. Sube una foto para crear el mismo v\u00eddeo. \u0627\u0644\u0642\u0627\u0644\u0628 \u0641\u064a \u0627\u0644\u0632\u0627\u0648\u064a\u0629 \u0627\u0644\u0633\u0641\u0644\u064a\u0629 \u0627\u0644\u064a\u0633\u0631\u0649 \u062c\u0627\u0647\u0632. \u0642\u0645 \u0628\u062a\u062d\u0645\u064a\u0644 \u0635\u0648\u0631\u0629 \u0644\u0635\u0646\u0639 \u0646\u0641\u0633 \u0627\u0644\u0641\u064a\u062f\u064a\u0648. Templat di sudut kiri bawah sudah siap. Unggah foto untuk membuat video yang sama M\u1eabu \u1edf g\u00f3c d\u01b0\u1edbi tr\u00e1i \u0111\u00e3 s\u1eb5n s\u00e0ng r\u1ed3i n\u00e8! Ch\u1ec9 c\u1ea7n t\u1ea3i l\u00ean 1 b\u1ee9c \u1ea3nh l\u00e0 c\u00f3 th\u1ec3 l\u00e0m video gi\u1ed1ng h\u1ec7t lu\u00f4n \u0111\u1ea5y!",
+      "creator": "user1795857660574",
+      "checks": [
+        {
+          "timestamp": "2026-03-13T12:55:44.633949+00:00",
+          "age_hours": 45.0,
+          "shares_per_hour": 174.2,
+          "views_per_hour": 7111,
+          "momentum": 2308,
+          "delta_shares_per_hour": null
+        }
+      ],
+      "consecutive_negative_deltas": 0,
+      "alerted": false
+    },
+    {
+      "url": "https://www.tiktok.com/@masbe4ja/video/7616492259369913617",
+      "first_seen": "2026-03-13T12:55:44.633949+00:00",
+      "market": "\ud83c\uddec\ud83c\udde7 UK ONLY",
+      "text": "Jumat #CapCut #fyp #rayapenuhrasa #pioneertemplate #capcutpioneer ",
+      "creator": "masbe4ja",
+      "checks": [
+        {
+          "timestamp": "2026-03-13T12:55:44.633949+00:00",
+          "age_hours": 14.9,
+          "shares_per_hour": 147.0,
+          "views_per_hour": 4829,
+          "momentum": 2176,
+          "delta_shares_per_hour": null
+        }
+      ],
+      "consecutive_negative_deltas": 0,
+      "alerted": false
+    },
+    {
+      "url": "https://www.tiktok.com/@whymarcuswhy/video/7615992268113104146",
+      "first_seen": "2026-03-13T12:55:44.633949+00:00",
+      "market": "\ud83c\uddfa\ud83c\uddf8 US ONLY",
+      "text": "Matrix becoming real, and nobody can stop it.\n\n#ai #artificial #intelligence #fruitfly #science",
+      "creator": "whymarcuswhy",
+      "checks": [
+        {
+          "timestamp": "2026-03-13T12:55:44.633949+00:00",
+          "age_hours": 47.3,
+          "shares_per_hour": 74.9,
+          "views_per_hour": 3395,
+          "momentum": 1268,
+          "delta_shares_per_hour": null
+        }
+      ],
+      "consecutive_negative_deltas": 0,
+      "alerted": false
+    },
+    {
+      "url": "https://www.tiktok.com/@raven.xls/video/7616019598495829255",
+      "first_seen": "2026-03-13T12:55:44.633949+00:00",
+      "market": "\ud83c\udf10 BOTH",
+      "text": "This template is just \ud83d\ude0d #CapCut #caribbeantiktokeurs\ud83c\udded\ud83c\uddf9\ud83c\uddec\ud83c\uddfe\ud83c\uddf9\ud83c\uddf9\ud83c\uddf8\ud83c\uddf7\ud83c\uddef\ud83c\uddf2 #templates #fyp\u30b7\u309aviral #pourtoii ",
+      "creator": "raven.xls",
+      "checks": [
+        {
+          "timestamp": "2026-03-13T12:55:44.633949+00:00",
+          "age_hours": 45.5,
+          "shares_per_hour": 16.6,
+          "views_per_hour": 1318,
+          "momentum": 851,
           "delta_shares_per_hour": null
         }
       ],
