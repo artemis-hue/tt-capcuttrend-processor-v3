@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-12T22:24:18.731779+00:00",
+  "last_updated": "2026-03-13T08:37:34.894001+00:00",
   "candidates": [
     {
       "url": "https://www.tiktok.com/@_cumatempl4t3/video/7615903381109902600",
@@ -35,7 +35,7 @@
       ],
       "consecutive_negative_deltas": 2,
       "alerted": false,
-      "consecutive_misses": 0
+      "consecutive_misses": 1
     },
     {
       "url": "https://www.tiktok.com/@usgbaby1/video/7615811637894761742",
@@ -71,43 +71,7 @@
       ],
       "consecutive_negative_deltas": 2,
       "alerted": false,
-      "consecutive_misses": 0
-    },
-    {
-      "url": "https://www.tiktok.com/@judetrew/video/7615761866488335646",
-      "first_seen": "2026-03-12T18:52:30.498861+00:00",
-      "market": "\ud83c\udf10 BOTH",
-      "text": "#fyp #viral",
-      "creator": "judetrew",
-      "checks": [
-        {
-          "timestamp": "2026-03-12T18:52:30.498861+00:00",
-          "age_hours": 44.1,
-          "shares_per_hour": 8.1,
-          "views_per_hour": 1659,
-          "momentum": 565,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-03-12T20:33:03.003409+00:00",
-          "age_hours": 45.8,
-          "shares_per_hour": 7.8,
-          "views_per_hour": 1598,
-          "momentum": 544,
-          "delta_shares_per_hour": -0.2999999999999998
-        },
-        {
-          "timestamp": "2026-03-12T22:24:18.731659+00:00",
-          "age_hours": 47.6,
-          "shares_per_hour": 7.5,
-          "views_per_hour": 1536,
-          "momentum": 523,
-          "delta_shares_per_hour": -0.2999999999999998
-        }
-      ],
-      "consecutive_negative_deltas": 2,
-      "alerted": false,
-      "consecutive_misses": 0
+      "consecutive_misses": 1
     },
     {
       "url": "https://www.tiktok.com/@tjot976554/video/7615890298450840850",
@@ -143,43 +107,7 @@
       ],
       "consecutive_negative_deltas": 2,
       "alerted": false,
-      "consecutive_misses": 0
-    },
-    {
-      "url": "https://www.tiktok.com/@ayhai.168/video/7615872265187609863",
-      "first_seen": "2026-03-12T18:52:30.498861+00:00",
-      "market": "\ud83c\udf10 BOTH",
-      "text": "Free AI Template Link\ud83d\udc47\ud83d\udc47\ud83d\udc47\nPenyunting Kreatif AI, Penyunting Foto AI, AI Creative Editing, AI Photo Editing, Google Gemini AI, Prompt, AI Prompt, ai image generation algorithms, ai Prompt, ai editing photo effect, Filter Foto AI, Al Foto Efek, Filter ai foto wajah, Gunakan filter ai foto ini, Editor foto Alat edit foto efek filter, AI PromptFoto, AIgenerated,ChatGPT, Prompt\nBuat foto serupa dengan satu klik\nsecara gratis, klik hypic di sudut kiri\nbawah untuk membuatnya secara gratis.\nGemini ai foto edit\nPrompt Gemini ai\nEditor kreatif AI, Editor foto AI\nPenyunting kreatif AI, \nPenyunting fotoAI\nGoogle Gemini AI\nFilter Foto AI\nAI Foto Efek\nFilter ai foto wajah\nGunakan filter ai foto ini\nPenyunting Kreatif AI\nPenyunting Foto AI\nAI Creative Editing,\nAI Photo Editing\nGoogle Gemini AI,\nEditor foto Alat edit\nfoto efek filter ,\npenyunting kreatif AI ,\nAI creative editing Prompt,\nAI PromptFoto\n#hypic #hypiccreator #Godpic @hypic_global @HypicVietnam #jdm #Geminiai",
-      "creator": "ayhai.168",
-      "checks": [
-        {
-          "timestamp": "2026-03-12T18:52:30.498861+00:00",
-          "age_hours": 37.0,
-          "shares_per_hour": 17.9,
-          "views_per_hour": 419,
-          "momentum": 194,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-03-12T20:33:03.003409+00:00",
-          "age_hours": 38.6,
-          "shares_per_hour": 17.1,
-          "views_per_hour": 401,
-          "momentum": 186,
-          "delta_shares_per_hour": -0.7999999999999972
-        },
-        {
-          "timestamp": "2026-03-12T22:24:18.731659+00:00",
-          "age_hours": 40.5,
-          "shares_per_hour": 16.3,
-          "views_per_hour": 382,
-          "momentum": 177,
-          "delta_shares_per_hour": -0.8000000000000007
-        }
-      ],
-      "consecutive_negative_deltas": 2,
-      "alerted": false,
-      "consecutive_misses": 0
+      "consecutive_misses": 1
     },
     {
       "url": "https://www.tiktok.com/@plantillasbychand/video/7615740923770637588",
@@ -207,7 +135,7 @@
       ],
       "consecutive_negative_deltas": 1,
       "alerted": false,
-      "consecutive_misses": 0
+      "consecutive_misses": 1
     },
     {
       "url": "https://www.tiktok.com/@cuteandchubbycat/video/7616030187033021710",
@@ -235,7 +163,7 @@
       ],
       "consecutive_negative_deltas": 1,
       "alerted": false,
-      "consecutive_misses": 0
+      "consecutive_misses": 1
     },
     {
       "url": "https://www.tiktok.com/@muddasirtemplates/video/7615748576962104583",
@@ -259,11 +187,57 @@
           "views_per_hour": 13778,
           "momentum": 3677,
           "delta_shares_per_hour": -3.1999999999999886
+        },
+        {
+          "timestamp": "2026-03-13T08:37:34.889320+00:00",
+          "age_hours": 58.7,
+          "shares_per_hour": 98.8,
+          "views_per_hour": 18731,
+          "momentum": 4731,
+          "delta_shares_per_hour": 19.39999999999999
         }
       ],
-      "consecutive_negative_deltas": 1,
+      "consecutive_negative_deltas": 0,
       "alerted": false,
       "consecutive_misses": 0
+    },
+    {
+      "url": "https://www.tiktok.com/@catatan_harian47/video/7616347652795436308",
+      "first_seen": "2026-03-13T08:37:34.889320+00:00",
+      "market": "\ud83c\uddfa\ud83c\uddf8 US ONLY",
+      "text": "#CapCut #fypppppppppppppppppppppp #pioneertemplate #capcutpioneer #storywa ",
+      "creator": "catatan_harian47",
+      "checks": [
+        {
+          "timestamp": "2026-03-13T08:37:34.889320+00:00",
+          "age_hours": 20.0,
+          "shares_per_hour": 1216.3,
+          "views_per_hour": 21983,
+          "momentum": 13403,
+          "delta_shares_per_hour": null
+        }
+      ],
+      "consecutive_negative_deltas": 0,
+      "alerted": false
+    },
+    {
+      "url": "https://www.tiktok.com/@py.kang59/video/7616078478311492877",
+      "first_seen": "2026-03-13T08:37:34.889320+00:00",
+      "market": "\ud83c\udf10 BOTH",
+      "text": "\u2b06\ufe0fUse the CapCut template \u2b06\ufe0fbaby ai dance #capcut #capcutforus #capcutpioneer #baby #fyp ",
+      "creator": "py.kang59",
+      "checks": [
+        {
+          "timestamp": "2026-03-13T08:37:34.889320+00:00",
+          "age_hours": 37.4,
+          "shares_per_hour": 210.8,
+          "views_per_hour": 25476,
+          "momentum": 11865,
+          "delta_shares_per_hour": null
+        }
+      ],
+      "consecutive_negative_deltas": 0,
+      "alerted": false
     }
   ]
 }
