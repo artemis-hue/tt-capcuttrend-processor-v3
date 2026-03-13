@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-13T08:37:34.894001+00:00",
+  "last_updated": "2026-03-13T10:35:17.389897+00:00",
   "candidates": [
     {
       "url": "https://www.tiktok.com/@_cumatempl4t3/video/7615903381109902600",
@@ -35,7 +35,7 @@
       ],
       "consecutive_negative_deltas": 2,
       "alerted": false,
-      "consecutive_misses": 1
+      "consecutive_misses": 2
     },
     {
       "url": "https://www.tiktok.com/@usgbaby1/video/7615811637894761742",
@@ -71,7 +71,7 @@
       ],
       "consecutive_negative_deltas": 2,
       "alerted": false,
-      "consecutive_misses": 1
+      "consecutive_misses": 2
     },
     {
       "url": "https://www.tiktok.com/@tjot976554/video/7615890298450840850",
@@ -107,7 +107,7 @@
       ],
       "consecutive_negative_deltas": 2,
       "alerted": false,
-      "consecutive_misses": 1
+      "consecutive_misses": 2
     },
     {
       "url": "https://www.tiktok.com/@plantillasbychand/video/7615740923770637588",
@@ -135,7 +135,7 @@
       ],
       "consecutive_negative_deltas": 1,
       "alerted": false,
-      "consecutive_misses": 1
+      "consecutive_misses": 2
     },
     {
       "url": "https://www.tiktok.com/@cuteandchubbycat/video/7616030187033021710",
@@ -163,43 +163,7 @@
       ],
       "consecutive_negative_deltas": 1,
       "alerted": false,
-      "consecutive_misses": 1
-    },
-    {
-      "url": "https://www.tiktok.com/@muddasirtemplates/video/7615748576962104583",
-      "first_seen": "2026-03-12T20:33:03.003409+00:00",
-      "market": "\ud83c\udf10 BOTH",
-      "text": "3 Clips Transition Template for eid \u2764\ufe0f\ud83d\udd4a\ufe0f #CapCut #muddasirtemplate #slomo #trend #viraltemplate ",
-      "creator": "muddasirtemplates",
-      "checks": [
-        {
-          "timestamp": "2026-03-12T20:33:03.003409+00:00",
-          "age_hours": 46.6,
-          "shares_per_hour": 82.6,
-          "views_per_hour": 14326,
-          "momentum": 3824,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-03-12T22:24:18.731659+00:00",
-          "age_hours": 48.5,
-          "shares_per_hour": 79.4,
-          "views_per_hour": 13778,
-          "momentum": 3677,
-          "delta_shares_per_hour": -3.1999999999999886
-        },
-        {
-          "timestamp": "2026-03-13T08:37:34.889320+00:00",
-          "age_hours": 58.7,
-          "shares_per_hour": 98.8,
-          "views_per_hour": 18731,
-          "momentum": 4731,
-          "delta_shares_per_hour": 19.39999999999999
-        }
-      ],
-      "consecutive_negative_deltas": 0,
-      "alerted": false,
-      "consecutive_misses": 0
+      "consecutive_misses": 2
     },
     {
       "url": "https://www.tiktok.com/@catatan_harian47/video/7616347652795436308",
@@ -215,10 +179,19 @@
           "views_per_hour": 21983,
           "momentum": 13403,
           "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-03-13T10:35:17.385767+00:00",
+          "age_hours": 21.9,
+          "shares_per_hour": 1107.6,
+          "views_per_hour": 20018,
+          "momentum": 12205,
+          "delta_shares_per_hour": -108.70000000000005
         }
       ],
-      "consecutive_negative_deltas": 0,
-      "alerted": false
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
     },
     {
       "url": "https://www.tiktok.com/@py.kang59/video/7616078478311492877",
@@ -233,6 +206,34 @@
           "shares_per_hour": 210.8,
           "views_per_hour": 25476,
           "momentum": 11865,
+          "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-03-13T10:35:17.385767+00:00",
+          "age_hours": 39.3,
+          "shares_per_hour": 200.3,
+          "views_per_hour": 24206,
+          "momentum": 11273,
+          "delta_shares_per_hour": -10.5
+        }
+      ],
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
+    },
+    {
+      "url": "https://www.tiktok.com/@connor19140/video/7616126686358211860",
+      "first_seen": "2026-03-13T10:35:17.385767+00:00",
+      "market": "\ud83c\udf10 BOTH",
+      "text": "#capcut #capcutpioneer Trend Asa Noturna IA\nQuer fazer a trend da Asa Noturna original que est\u00e1 bombando?\nEu vou te ensinar passo a passo no CapCut, de forma simples e r\u00e1pida!\nBasta uma foto ou v\u00eddeo, que a IA faz a transi\u00e7\u00e3o \u00e9pica da Asa Noturna.\n\u00c9 o efeito mais viral do momento, super estiloso para homens e mulheres.\nAprenda agora a trend oficial da Asa Noturna e arrasa no seu feed! \u2728\ud83e\udd87\n#AsaNoturna #NightwingTrend #CapCut  ",
+      "creator": "connor19140",
+      "checks": [
+        {
+          "timestamp": "2026-03-13T10:35:17.385767+00:00",
+          "age_hours": 36.2,
+          "shares_per_hour": 375.4,
+          "views_per_hour": 13215,
+          "momentum": 4317,
           "delta_shares_per_hour": null
         }
       ],
