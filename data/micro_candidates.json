@@ -1,42 +1,6 @@
 {
-  "last_updated": "2026-03-13T14:40:46.387476+00:00",
+  "last_updated": "2026-03-13T16:38:30.739504+00:00",
   "candidates": [
-    {
-      "url": "https://www.tiktok.com/@connor19140/video/7616126686358211860",
-      "first_seen": "2026-03-13T10:35:17.385767+00:00",
-      "market": "\ud83c\udf10 BOTH",
-      "text": "#capcut #capcutpioneer Trend Asa Noturna IA\nQuer fazer a trend da Asa Noturna original que est\u00e1 bombando?\nEu vou te ensinar passo a passo no CapCut, de forma simples e r\u00e1pida!\nBasta uma foto ou v\u00eddeo, que a IA faz a transi\u00e7\u00e3o \u00e9pica da Asa Noturna.\n\u00c9 o efeito mais viral do momento, super estiloso para homens e mulheres.\nAprenda agora a trend oficial da Asa Noturna e arrasa no seu feed! \u2728\ud83e\udd87\n#AsaNoturna #NightwingTrend #CapCut  ",
-      "creator": "connor19140",
-      "checks": [
-        {
-          "timestamp": "2026-03-13T10:35:17.385767+00:00",
-          "age_hours": 36.2,
-          "shares_per_hour": 375.4,
-          "views_per_hour": 13215,
-          "momentum": 4317,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-03-13T12:55:44.633949+00:00",
-          "age_hours": 38.6,
-          "shares_per_hour": 352.6,
-          "views_per_hour": 12413,
-          "momentum": 4055,
-          "delta_shares_per_hour": -22.799999999999955
-        },
-        {
-          "timestamp": "2026-03-13T14:40:46.382730+00:00",
-          "age_hours": 40.3,
-          "shares_per_hour": 337.3,
-          "views_per_hour": 11874,
-          "momentum": 3878,
-          "delta_shares_per_hour": -15.300000000000011
-        }
-      ],
-      "consecutive_negative_deltas": 2,
-      "alerted": false,
-      "consecutive_misses": 0
-    },
     {
       "url": "https://www.tiktok.com/@heroees1/video/7616083833372298516",
       "first_seen": "2026-03-13T12:55:44.633949+00:00",
@@ -59,9 +23,17 @@
           "views_per_hour": 6179,
           "momentum": 2384,
           "delta_shares_per_hour": -1.6999999999999957
+        },
+        {
+          "timestamp": "2026-03-13T16:38:30.735189+00:00",
+          "age_hours": 45.1,
+          "shares_per_hour": 38.4,
+          "views_per_hour": 5910,
+          "momentum": 2280,
+          "delta_shares_per_hour": -1.7000000000000028
         }
       ],
-      "consecutive_negative_deltas": 1,
+      "consecutive_negative_deltas": 2,
       "alerted": false,
       "consecutive_misses": 0
     },
@@ -87,9 +59,17 @@
           "views_per_hour": 6845,
           "momentum": 2221,
           "delta_shares_per_hour": -6.5
+        },
+        {
+          "timestamp": "2026-03-13T16:38:30.735189+00:00",
+          "age_hours": 48.7,
+          "shares_per_hour": 160.9,
+          "views_per_hour": 6569,
+          "momentum": 2132,
+          "delta_shares_per_hour": -6.799999999999983
         }
       ],
-      "consecutive_negative_deltas": 1,
+      "consecutive_negative_deltas": 2,
       "alerted": false,
       "consecutive_misses": 0
     },
@@ -115,9 +95,17 @@
           "views_per_hour": 4322,
           "momentum": 1947,
           "delta_shares_per_hour": -15.400000000000006
+        },
+        {
+          "timestamp": "2026-03-13T16:38:30.735189+00:00",
+          "age_hours": 18.6,
+          "shares_per_hour": 117.7,
+          "views_per_hour": 3866,
+          "momentum": 1742,
+          "delta_shares_per_hour": -13.899999999999991
         }
       ],
-      "consecutive_negative_deltas": 1,
+      "consecutive_negative_deltas": 2,
       "alerted": false,
       "consecutive_misses": 0
     },
@@ -143,9 +131,17 @@
           "views_per_hour": 3274,
           "momentum": 1222,
           "delta_shares_per_hour": -2.6000000000000085
+        },
+        {
+          "timestamp": "2026-03-13T16:38:30.735189+00:00",
+          "age_hours": 51.0,
+          "shares_per_hour": 69.5,
+          "views_per_hour": 3148,
+          "momentum": 1175,
+          "delta_shares_per_hour": -2.799999999999997
         }
       ],
-      "consecutive_negative_deltas": 1,
+      "consecutive_negative_deltas": 2,
       "alerted": false,
       "consecutive_misses": 0
     },
@@ -171,9 +167,17 @@
           "views_per_hour": 1269,
           "momentum": 820,
           "delta_shares_per_hour": -0.6000000000000014
+        },
+        {
+          "timestamp": "2026-03-13T16:38:30.735189+00:00",
+          "age_hours": 49.2,
+          "shares_per_hour": 15.3,
+          "views_per_hour": 1219,
+          "momentum": 787,
+          "delta_shares_per_hour": -0.6999999999999993
         }
       ],
-      "consecutive_negative_deltas": 1,
+      "consecutive_negative_deltas": 2,
       "alerted": false,
       "consecutive_misses": 0
     },
@@ -191,10 +195,19 @@
           "views_per_hour": 1554,
           "momentum": 561,
           "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-03-13T16:38:30.735189+00:00",
+          "age_hours": 21.0,
+          "shares_per_hour": 15.0,
+          "views_per_hour": 1409,
+          "momentum": 508,
+          "delta_shares_per_hour": -1.5
         }
       ],
-      "consecutive_negative_deltas": 0,
-      "alerted": false
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
     },
     {
       "url": "https://www.tiktok.com/@thedailyrise.capcut/video/7616033928402455830",
@@ -209,6 +222,34 @@
           "shares_per_hour": 13.5,
           "views_per_hour": 2055,
           "momentum": 428,
+          "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-03-13T16:38:30.735189+00:00",
+          "age_hours": 48.3,
+          "shares_per_hour": 13.0,
+          "views_per_hour": 1971,
+          "momentum": 410,
+          "delta_shares_per_hour": -0.5
+        }
+      ],
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
+    },
+    {
+      "url": "https://www.tiktok.com/@py.kang59/video/7616078478311492877",
+      "first_seen": "2026-03-13T16:38:30.735189+00:00",
+      "market": "\ud83c\udf10 BOTH",
+      "text": "\u2b06\ufe0fUse the CapCut template \u2b06\ufe0fbaby ai dance #capcut #capcutforus #capcutpioneer #baby #fyp ",
+      "creator": "py.kang59",
+      "checks": [
+        {
+          "timestamp": "2026-03-13T16:38:30.735189+00:00",
+          "age_hours": 45.4,
+          "shares_per_hour": 173.5,
+          "views_per_hour": 20978,
+          "momentum": 9769,
           "delta_shares_per_hour": null
         }
       ],
