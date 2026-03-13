@@ -1,186 +1,6 @@
 {
-  "last_updated": "2026-03-13T16:38:30.739504+00:00",
+  "last_updated": "2026-03-13T18:39:34.556102+00:00",
   "candidates": [
-    {
-      "url": "https://www.tiktok.com/@heroees1/video/7616083833372298516",
-      "first_seen": "2026-03-13T12:55:44.633949+00:00",
-      "market": "\ud83c\udf10 BOTH",
-      "text": "Get your rating @UCHAD App #ascension #ascend #GlowUp #fyp #xybca ",
-      "creator": "heroees1",
-      "checks": [
-        {
-          "timestamp": "2026-03-13T12:55:44.633949+00:00",
-          "age_hours": 41.3,
-          "shares_per_hour": 41.8,
-          "views_per_hour": 6441,
-          "momentum": 2485,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-03-13T14:40:46.382730+00:00",
-          "age_hours": 43.1,
-          "shares_per_hour": 40.1,
-          "views_per_hour": 6179,
-          "momentum": 2384,
-          "delta_shares_per_hour": -1.6999999999999957
-        },
-        {
-          "timestamp": "2026-03-13T16:38:30.735189+00:00",
-          "age_hours": 45.1,
-          "shares_per_hour": 38.4,
-          "views_per_hour": 5910,
-          "momentum": 2280,
-          "delta_shares_per_hour": -1.7000000000000028
-        }
-      ],
-      "consecutive_negative_deltas": 2,
-      "alerted": false,
-      "consecutive_misses": 0
-    },
-    {
-      "url": "https://www.tiktok.com/@user1795857660574/video/7616028015998340373",
-      "first_seen": "2026-03-13T12:55:44.633949+00:00",
-      "market": "\ud83c\udf10 BOTH",
-      "text": "The template in the lower left corner is ready. Upload a photo to make the same video.#capcut #capcutforus #capcutpioneer  La plantilla en la esquina inferior izquierda est\u00e1 lista. Sube una foto para crear el mismo v\u00eddeo. \u0627\u0644\u0642\u0627\u0644\u0628 \u0641\u064a \u0627\u0644\u0632\u0627\u0648\u064a\u0629 \u0627\u0644\u0633\u0641\u0644\u064a\u0629 \u0627\u0644\u064a\u0633\u0631\u0649 \u062c\u0627\u0647\u0632. \u0642\u0645 \u0628\u062a\u062d\u0645\u064a\u0644 \u0635\u0648\u0631\u0629 \u0644\u0635\u0646\u0639 \u0646\u0641\u0633 \u0627\u0644\u0641\u064a\u062f\u064a\u0648. Templat di sudut kiri bawah sudah siap. Unggah foto untuk membuat video yang sama M\u1eabu \u1edf g\u00f3c d\u01b0\u1edbi tr\u00e1i \u0111\u00e3 s\u1eb5n s\u00e0ng r\u1ed3i n\u00e8! Ch\u1ec9 c\u1ea7n t\u1ea3i l\u00ean 1 b\u1ee9c \u1ea3nh l\u00e0 c\u00f3 th\u1ec3 l\u00e0m video gi\u1ed1ng h\u1ec7t lu\u00f4n \u0111\u1ea5y!",
-      "creator": "user1795857660574",
-      "checks": [
-        {
-          "timestamp": "2026-03-13T12:55:44.633949+00:00",
-          "age_hours": 45.0,
-          "shares_per_hour": 174.2,
-          "views_per_hour": 7111,
-          "momentum": 2308,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-03-13T14:40:46.382730+00:00",
-          "age_hours": 46.7,
-          "shares_per_hour": 167.7,
-          "views_per_hour": 6845,
-          "momentum": 2221,
-          "delta_shares_per_hour": -6.5
-        },
-        {
-          "timestamp": "2026-03-13T16:38:30.735189+00:00",
-          "age_hours": 48.7,
-          "shares_per_hour": 160.9,
-          "views_per_hour": 6569,
-          "momentum": 2132,
-          "delta_shares_per_hour": -6.799999999999983
-        }
-      ],
-      "consecutive_negative_deltas": 2,
-      "alerted": false,
-      "consecutive_misses": 0
-    },
-    {
-      "url": "https://www.tiktok.com/@masbe4ja/video/7616492259369913617",
-      "first_seen": "2026-03-13T12:55:44.633949+00:00",
-      "market": "\ud83c\uddec\ud83c\udde7 UK ONLY",
-      "text": "Jumat #CapCut #fyp #rayapenuhrasa #pioneertemplate #capcutpioneer ",
-      "creator": "masbe4ja",
-      "checks": [
-        {
-          "timestamp": "2026-03-13T12:55:44.633949+00:00",
-          "age_hours": 14.9,
-          "shares_per_hour": 147.0,
-          "views_per_hour": 4829,
-          "momentum": 2176,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-03-13T14:40:46.382730+00:00",
-          "age_hours": 16.7,
-          "shares_per_hour": 131.6,
-          "views_per_hour": 4322,
-          "momentum": 1947,
-          "delta_shares_per_hour": -15.400000000000006
-        },
-        {
-          "timestamp": "2026-03-13T16:38:30.735189+00:00",
-          "age_hours": 18.6,
-          "shares_per_hour": 117.7,
-          "views_per_hour": 3866,
-          "momentum": 1742,
-          "delta_shares_per_hour": -13.899999999999991
-        }
-      ],
-      "consecutive_negative_deltas": 2,
-      "alerted": false,
-      "consecutive_misses": 0
-    },
-    {
-      "url": "https://www.tiktok.com/@whymarcuswhy/video/7615992268113104146",
-      "first_seen": "2026-03-13T12:55:44.633949+00:00",
-      "market": "\ud83c\uddfa\ud83c\uddf8 US ONLY",
-      "text": "Matrix becoming real, and nobody can stop it.\n\n#ai #artificial #intelligence #fruitfly #science",
-      "creator": "whymarcuswhy",
-      "checks": [
-        {
-          "timestamp": "2026-03-13T12:55:44.633949+00:00",
-          "age_hours": 47.3,
-          "shares_per_hour": 74.9,
-          "views_per_hour": 3395,
-          "momentum": 1268,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-03-13T14:40:46.382730+00:00",
-          "age_hours": 49.0,
-          "shares_per_hour": 72.3,
-          "views_per_hour": 3274,
-          "momentum": 1222,
-          "delta_shares_per_hour": -2.6000000000000085
-        },
-        {
-          "timestamp": "2026-03-13T16:38:30.735189+00:00",
-          "age_hours": 51.0,
-          "shares_per_hour": 69.5,
-          "views_per_hour": 3148,
-          "momentum": 1175,
-          "delta_shares_per_hour": -2.799999999999997
-        }
-      ],
-      "consecutive_negative_deltas": 2,
-      "alerted": false,
-      "consecutive_misses": 0
-    },
-    {
-      "url": "https://www.tiktok.com/@raven.xls/video/7616019598495829255",
-      "first_seen": "2026-03-13T12:55:44.633949+00:00",
-      "market": "\ud83c\udf10 BOTH",
-      "text": "This template is just \ud83d\ude0d #CapCut #caribbeantiktokeurs\ud83c\udded\ud83c\uddf9\ud83c\uddec\ud83c\uddfe\ud83c\uddf9\ud83c\uddf9\ud83c\uddf8\ud83c\uddf7\ud83c\uddef\ud83c\uddf2 #templates #fyp\u30b7\u309aviral #pourtoii ",
-      "creator": "raven.xls",
-      "checks": [
-        {
-          "timestamp": "2026-03-13T12:55:44.633949+00:00",
-          "age_hours": 45.5,
-          "shares_per_hour": 16.6,
-          "views_per_hour": 1318,
-          "momentum": 851,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-03-13T14:40:46.382730+00:00",
-          "age_hours": 47.2,
-          "shares_per_hour": 16.0,
-          "views_per_hour": 1269,
-          "momentum": 820,
-          "delta_shares_per_hour": -0.6000000000000014
-        },
-        {
-          "timestamp": "2026-03-13T16:38:30.735189+00:00",
-          "age_hours": 49.2,
-          "shares_per_hour": 15.3,
-          "views_per_hour": 1219,
-          "momentum": 787,
-          "delta_shares_per_hour": -0.6999999999999993
-        }
-      ],
-      "consecutive_negative_deltas": 2,
-      "alerted": false,
-      "consecutive_misses": 0
-    },
     {
       "url": "https://www.tiktok.com/@py.kang59/video/7616455646061415694",
       "first_seen": "2026-03-13T14:40:46.382730+00:00",
@@ -203,9 +23,17 @@
           "views_per_hour": 1409,
           "momentum": 508,
           "delta_shares_per_hour": -1.5
+        },
+        {
+          "timestamp": "2026-03-13T18:39:34.551480+00:00",
+          "age_hours": 23.0,
+          "shares_per_hour": 13.7,
+          "views_per_hour": 1285,
+          "momentum": 464,
+          "delta_shares_per_hour": -1.3000000000000007
         }
       ],
-      "consecutive_negative_deltas": 1,
+      "consecutive_negative_deltas": 2,
       "alerted": false,
       "consecutive_misses": 0
     },
@@ -231,9 +59,17 @@
           "views_per_hour": 1971,
           "momentum": 410,
           "delta_shares_per_hour": -0.5
+        },
+        {
+          "timestamp": "2026-03-13T18:39:34.551480+00:00",
+          "age_hours": 50.3,
+          "shares_per_hour": 12.4,
+          "views_per_hour": 1892,
+          "momentum": 394,
+          "delta_shares_per_hour": -0.5999999999999996
         }
       ],
-      "consecutive_negative_deltas": 1,
+      "consecutive_negative_deltas": 2,
       "alerted": false,
       "consecutive_misses": 0
     },
@@ -250,6 +86,110 @@
           "shares_per_hour": 173.5,
           "views_per_hour": 20978,
           "momentum": 9769,
+          "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-03-13T18:39:34.551480+00:00",
+          "age_hours": 47.4,
+          "shares_per_hour": 166.2,
+          "views_per_hour": 20085,
+          "momentum": 9354,
+          "delta_shares_per_hour": -7.300000000000011
+        }
+      ],
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
+    },
+    {
+      "url": "https://www.tiktok.com/@catatan_harian47/video/7616347652795436308",
+      "first_seen": "2026-03-13T18:39:34.551480+00:00",
+      "market": "\ud83c\uddfa\ud83c\uddf8 US ONLY",
+      "text": "#CapCut #fypppppppppppppppppppppp #pioneertemplate #capcutpioneer #storywa ",
+      "creator": "catatan_harian47",
+      "checks": [
+        {
+          "timestamp": "2026-03-13T18:39:34.551480+00:00",
+          "age_hours": 30.0,
+          "shares_per_hour": 809.7,
+          "views_per_hour": 14634,
+          "momentum": 8922,
+          "delta_shares_per_hour": null
+        }
+      ],
+      "consecutive_negative_deltas": 0,
+      "alerted": false
+    },
+    {
+      "url": "https://www.tiktok.com/@connor19140/video/7616126686358211860",
+      "first_seen": "2026-03-13T18:39:34.551480+00:00",
+      "market": "\ud83c\udf10 BOTH",
+      "text": "#capcut #capcutpioneer Trend Asa Noturna IA\nQuer fazer a trend da Asa Noturna original que est\u00e1 bombando?\nEu vou te ensinar passo a passo no CapCut, de forma simples e r\u00e1pida!\nBasta uma foto ou v\u00eddeo, que a IA faz a transi\u00e7\u00e3o \u00e9pica da Asa Noturna.\n\u00c9 o efeito mais viral do momento, super estiloso para homens e mulheres.\nAprenda agora a trend oficial da Asa Noturna e arrasa no seu feed! \u2728\ud83e\udd87\n#AsaNoturna #NightwingTrend #CapCut  ",
+      "creator": "connor19140",
+      "checks": [
+        {
+          "timestamp": "2026-03-13T18:39:34.551480+00:00",
+          "age_hours": 44.3,
+          "shares_per_hour": 307.0,
+          "views_per_hour": 10807,
+          "momentum": 3530,
+          "delta_shares_per_hour": null
+        }
+      ],
+      "consecutive_negative_deltas": 0,
+      "alerted": false
+    },
+    {
+      "url": "https://www.tiktok.com/@nairunariakra/video/7616378879539809544",
+      "first_seen": "2026-03-13T18:39:34.551480+00:00",
+      "market": "\ud83c\udf10 BOTH",
+      "text": "#CapCut #capcutgala2026 #quotestory #pioneertemplate #capcutpioneer ",
+      "creator": "nairunariakra",
+      "checks": [
+        {
+          "timestamp": "2026-03-13T18:39:34.551480+00:00",
+          "age_hours": 28.0,
+          "shares_per_hour": 10.9,
+          "views_per_hour": 489,
+          "momentum": 180,
+          "delta_shares_per_hour": null
+        }
+      ],
+      "consecutive_negative_deltas": 0,
+      "alerted": false
+    },
+    {
+      "url": "https://www.tiktok.com/@cxscko315496/video/7616431331169307935",
+      "first_seen": "2026-03-13T18:39:34.551480+00:00",
+      "market": "\ud83c\uddfa\ud83c\uddf8 US ONLY",
+      "text": "Let's make the same template together. It's super easy. #capcutforus #capcut #capcutpioneer",
+      "creator": "cxscko315496",
+      "checks": [
+        {
+          "timestamp": "2026-03-13T18:39:34.551480+00:00",
+          "age_hours": 24.6,
+          "shares_per_hour": 9.0,
+          "views_per_hour": 1549,
+          "momentum": 127,
+          "delta_shares_per_hour": null
+        }
+      ],
+      "consecutive_negative_deltas": 0,
+      "alerted": false
+    },
+    {
+      "url": "https://www.tiktok.com/@ega8829/video/7616324834670398723",
+      "first_seen": "2026-03-13T18:39:34.551480+00:00",
+      "market": "\ud83c\uddfa\ud83c\uddf8 US ONLY",
+      "text": "Watch your photos go from plain to epic in seconds. With AI, even the simplest photo becomes a masterpiece. #capcut #capcutpioneer #capcutforus #fyp  #ai Want to make your photos look extraordinary? Learn how to use AI! Want to see how AI can instantly transform your photos into something amazing? Photo Beautification, Dynamic Filters, Dynamic Beauty, Filter Camera, Face Transformation. ",
+      "creator": "ega8829",
+      "checks": [
+        {
+          "timestamp": "2026-03-13T18:39:34.551480+00:00",
+          "age_hours": 31.5,
+          "shares_per_hour": 9.1,
+          "views_per_hour": 309,
+          "momentum": 121,
           "delta_shares_per_hour": null
         }
       ],
