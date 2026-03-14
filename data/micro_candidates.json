@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-14T08:33:33.296928+00:00",
+  "last_updated": "2026-03-14T10:27:02.462270+00:00",
   "candidates": [
     {
       "url": "https://www.tiktok.com/@catatan_harian47/video/7616347652795436308",
@@ -35,7 +35,7 @@
       ],
       "consecutive_negative_deltas": 2,
       "alerted": false,
-      "consecutive_misses": 1
+      "consecutive_misses": 2
     },
     {
       "url": "https://www.tiktok.com/@nairunariakra/video/7616378879539809544",
@@ -71,7 +71,7 @@
       ],
       "consecutive_negative_deltas": 2,
       "alerted": false,
-      "consecutive_misses": 1
+      "consecutive_misses": 2
     },
     {
       "url": "https://www.tiktok.com/@ega8829/video/7616324834670398723",
@@ -107,7 +107,7 @@
       ],
       "consecutive_negative_deltas": 2,
       "alerted": false,
-      "consecutive_misses": 1
+      "consecutive_misses": 2
     },
     {
       "url": "https://www.tiktok.com/@masbe4ja/video/7616492259369913617",
@@ -135,7 +135,7 @@
       ],
       "consecutive_negative_deltas": 1,
       "alerted": false,
-      "consecutive_misses": 1
+      "consecutive_misses": 2
     },
     {
       "url": "https://www.tiktok.com/@jnfpnlcju0/video/7616324375188475158",
@@ -163,7 +163,7 @@
       ],
       "consecutive_negative_deltas": 1,
       "alerted": false,
-      "consecutive_misses": 1
+      "consecutive_misses": 2
     },
     {
       "url": "https://www.tiktok.com/@py.kang59/video/7616455646061415694",
@@ -187,9 +187,17 @@
           "views_per_hour": 4133,
           "momentum": 1642,
           "delta_shares_per_hour": 44.3
+        },
+        {
+          "timestamp": "2026-03-14T10:27:02.462169+00:00",
+          "age_hours": 38.8,
+          "shares_per_hour": 53.4,
+          "views_per_hour": 3932,
+          "momentum": 1562,
+          "delta_shares_per_hour": -2.700000000000003
         }
       ],
-      "consecutive_negative_deltas": 0,
+      "consecutive_negative_deltas": 1,
       "alerted": false,
       "consecutive_misses": 0
     },
@@ -207,10 +215,19 @@
           "views_per_hour": 20985,
           "momentum": 6282,
           "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-03-14T10:27:02.462169+00:00",
+          "age_hours": 5.1,
+          "shares_per_hour": 6.9,
+          "views_per_hour": 13156,
+          "momentum": 3938,
+          "delta_shares_per_hour": -4.1
         }
       ],
-      "consecutive_negative_deltas": 0,
-      "alerted": false
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
     },
     {
       "url": "https://www.tiktok.com/@love233260/video/7616668575192878352",
@@ -226,10 +243,19 @@
           "views_per_hour": 11472,
           "momentum": 5614,
           "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-03-14T10:27:02.462169+00:00",
+          "age_hours": 25.0,
+          "shares_per_hour": 479.3,
+          "views_per_hour": 10605,
+          "momentum": 5190,
+          "delta_shares_per_hour": -39.19999999999999
         }
       ],
-      "consecutive_negative_deltas": 0,
-      "alerted": false
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
     }
   ]
 }
