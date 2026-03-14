@@ -1,114 +1,6 @@
 {
-  "last_updated": "2026-03-14T18:36:42.555595+00:00",
+  "last_updated": "2026-03-14T20:26:39.571761+00:00",
   "candidates": [
-    {
-      "url": "https://www.tiktok.com/@nq_tutorials/video/7616443032136633622",
-      "first_seen": "2026-03-14T14:27:17.949204+00:00",
-      "market": "\ud83c\udf10 BOTH",
-      "text": "Marlon AI trend tutorial in#CapCut #edittutorial #capcuttutorial #areyouaneditor #capcutpioneer ",
-      "creator": "nq_tutorials",
-      "checks": [
-        {
-          "timestamp": "2026-03-14T14:27:17.949204+00:00",
-          "age_hours": 43.6,
-          "shares_per_hour": 17.9,
-          "views_per_hour": 7518,
-          "momentum": 1271,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-03-14T16:29:20.590126+00:00",
-          "age_hours": 45.7,
-          "shares_per_hour": 17.1,
-          "views_per_hour": 7183,
-          "momentum": 1215,
-          "delta_shares_per_hour": -0.7999999999999972
-        },
-        {
-          "timestamp": "2026-03-14T18:36:42.550324+00:00",
-          "age_hours": 47.8,
-          "shares_per_hour": 16.4,
-          "views_per_hour": 6864,
-          "momentum": 1161,
-          "delta_shares_per_hour": -0.7000000000000028
-        }
-      ],
-      "consecutive_negative_deltas": 2,
-      "alerted": false,
-      "consecutive_misses": 0
-    },
-    {
-      "url": "https://www.tiktok.com/@snackreacts1/video/7616781105974365472",
-      "first_seen": "2026-03-14T14:27:17.949204+00:00",
-      "market": "\ud83c\uddec\ud83c\udde7 UK ONLY",
-      "text": "Traurige KI Story Part 11\n#traurig #emotional #animation #kistory #ki ",
-      "creator": "snackreacts1",
-      "checks": [
-        {
-          "timestamp": "2026-03-14T14:27:17.949204+00:00",
-          "age_hours": 21.8,
-          "shares_per_hour": 60.9,
-          "views_per_hour": 6935,
-          "momentum": 1160,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-03-14T16:29:20.590126+00:00",
-          "age_hours": 23.8,
-          "shares_per_hour": 55.7,
-          "views_per_hour": 6342,
-          "momentum": 1061,
-          "delta_shares_per_hour": -5.199999999999996
-        },
-        {
-          "timestamp": "2026-03-14T18:36:42.550324+00:00",
-          "age_hours": 25.9,
-          "shares_per_hour": 51.2,
-          "views_per_hour": 5823,
-          "momentum": 974,
-          "delta_shares_per_hour": -4.5
-        }
-      ],
-      "consecutive_negative_deltas": 2,
-      "alerted": false,
-      "consecutive_misses": 0
-    },
-    {
-      "url": "https://www.tiktok.com/@boogiebug0/video/7616927692574838047",
-      "first_seen": "2026-03-14T14:27:17.949204+00:00",
-      "market": "\ud83c\uddfa\ud83c\uddf8 US ONLY",
-      "text": "#foryoupag #funnyai #tiktokfunny #trend #viral ",
-      "creator": "boogiebug0",
-      "checks": [
-        {
-          "timestamp": "2026-03-14T14:27:17.949204+00:00",
-          "age_hours": 12.3,
-          "shares_per_hour": 33.1,
-          "views_per_hour": 1456,
-          "momentum": 513,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-03-14T16:29:20.590126+00:00",
-          "age_hours": 14.3,
-          "shares_per_hour": 28.4,
-          "views_per_hour": 1249,
-          "momentum": 440,
-          "delta_shares_per_hour": -4.700000000000003
-        },
-        {
-          "timestamp": "2026-03-14T18:36:42.550324+00:00",
-          "age_hours": 16.4,
-          "shares_per_hour": 24.7,
-          "views_per_hour": 1088,
-          "momentum": 383,
-          "delta_shares_per_hour": -3.6999999999999993
-        }
-      ],
-      "consecutive_negative_deltas": 2,
-      "alerted": false,
-      "consecutive_misses": 0
-    },
     {
       "url": "https://www.tiktok.com/@love233260/video/7616668575192878352",
       "first_seen": "2026-03-14T18:36:42.550324+00:00",
@@ -123,10 +15,19 @@
           "views_per_hour": 7998,
           "momentum": 3914,
           "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-03-14T20:26:39.566913+00:00",
+          "age_hours": 35.0,
+          "shares_per_hour": 342.6,
+          "views_per_hour": 7579,
+          "momentum": 3709,
+          "delta_shares_per_hour": -18.899999999999977
         }
       ],
-      "consecutive_negative_deltas": 0,
-      "alerted": false
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
     },
     {
       "url": "https://www.tiktok.com/@py.kang59/video/7616455646061415694",
@@ -142,10 +43,19 @@
           "views_per_hour": 3248,
           "momentum": 1291,
           "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-03-14T20:26:39.566913+00:00",
+          "age_hours": 48.8,
+          "shares_per_hour": 42.5,
+          "views_per_hour": 3126,
+          "momentum": 1242,
+          "delta_shares_per_hour": -1.6000000000000014
         }
       ],
-      "consecutive_negative_deltas": 0,
-      "alerted": false
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
     },
     {
       "url": "https://www.tiktok.com/@ex3go200n5/video/7616898129278864648",
@@ -161,10 +71,19 @@
           "views_per_hour": 287,
           "momentum": 231,
           "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-03-14T20:26:39.566913+00:00",
+          "age_hours": 20.2,
+          "shares_per_hour": 15.5,
+          "views_per_hour": 261,
+          "momentum": 210,
+          "delta_shares_per_hour": -1.5
         }
       ],
-      "consecutive_negative_deltas": 0,
-      "alerted": false
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
     },
     {
       "url": "https://www.tiktok.com/@ayhai.168/video/7616682160858139924",
@@ -180,10 +99,19 @@
           "views_per_hour": 349,
           "momentum": 172,
           "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-03-14T20:26:39.566913+00:00",
+          "age_hours": 34.2,
+          "shares_per_hour": 13.4,
+          "views_per_hour": 330,
+          "momentum": 163,
+          "delta_shares_per_hour": -0.7999999999999989
         }
       ],
-      "consecutive_negative_deltas": 0,
-      "alerted": false
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
     },
     {
       "url": "https://www.tiktok.com/@lovinglylov3ly0/video/7616727604518735125",
@@ -198,6 +126,72 @@
           "shares_per_hour": 11.7,
           "views_per_hour": 329,
           "momentum": 153,
+          "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-03-14T20:26:39.566913+00:00",
+          "age_hours": 31.2,
+          "shares_per_hour": 11.0,
+          "views_per_hour": 309,
+          "momentum": 144,
+          "delta_shares_per_hour": -0.6999999999999993
+        }
+      ],
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
+    },
+    {
+      "url": "https://www.tiktok.com/@.gmx8/video/7616603996551236884",
+      "first_seen": "2026-03-14T20:26:39.566913+00:00",
+      "market": "\ud83c\udf10 BOTH",
+      "text": "Try the template \ud83d\udd25\ud83e\udee3#capcut #capcutpioneer #pioneertemplate #viral #gmx8 ",
+      "creator": ".gmx8",
+      "checks": [
+        {
+          "timestamp": "2026-03-14T20:26:39.566913+00:00",
+          "age_hours": 39.2,
+          "shares_per_hour": 55.7,
+          "views_per_hour": 6395,
+          "momentum": 3735,
+          "delta_shares_per_hour": null
+        }
+      ],
+      "consecutive_negative_deltas": 0,
+      "alerted": false
+    },
+    {
+      "url": "https://www.tiktok.com/@moddy.a.m/video/7616638606932741398",
+      "first_seen": "2026-03-14T20:26:39.566913+00:00",
+      "market": "\ud83c\uddec\ud83c\udde7 UK ONLY",
+      "text": "Yes CapCut photo editor allows you to make these fun portraits. Try it for yourself and have a go.\n\u00a0\nComment 'Capcut' for more videos like this\n\u00a0\n#CapCut #Capcutphotoedit #aitools #capcutpioneer ",
+      "creator": "moddy.a.m",
+      "checks": [
+        {
+          "timestamp": "2026-03-14T20:26:39.566913+00:00",
+          "age_hours": 37.0,
+          "shares_per_hour": 98.9,
+          "views_per_hour": 724,
+          "momentum": 1896,
+          "delta_shares_per_hour": null
+        }
+      ],
+      "consecutive_negative_deltas": 0,
+      "alerted": false
+    },
+    {
+      "url": "https://www.tiktok.com/@tidkdclxf6/video/7616656639575215367",
+      "first_seen": "2026-03-14T20:26:39.566913+00:00",
+      "market": "\ud83c\udf10 BOTH",
+      "text": "#capcut #capcutpioneer Trend Asa Noturna IA Quer fazer a trend da Asa Noturna original que est\u00e1 bombando? Eu vou te ensinar passo a passo no CapCut, de forma simples e r\u00e1pida! Basta uma foto ou v\u00eddeo, que a IA faz a transi\u00e7\u00e3o \u00e9pica da Asa Noturna. \u00c9 o efeito mais viral do momento, super estiloso para homens e mulheres. Aprenda agora a trend oficial da Asa Noturna e arrasa no seu feed! \u2728\ud83e\udd87 #AsaNoturna #NightwingTrend   como fazer o video do asa noturna,asa noturna transi\u00e7\u00e3o ia como fazer,Trend Asa Noturna IA,trend asa noturna ia tutorial,asa noturna original,asa noturna trend original, trend asa noturna tutorial, tutorial  photo, Dean Winchester, arlene lee throwing, dancinhas   tutorial da trend asa noturna tutorial da trend asa noturna gratis tutorial da trend asa noturna mulher trend do asa noturna original tutorial da trend asa noturna original tutorial da trend asa noturna como fazer asa noturna original tutorial da trend asa noturna jorse asa noturna fantasia tutorial da trend asa noturna tutorial da trend asa noturna feito por ia trend do asa noturna original trend asa noturna ia como fazer trend asa noturna ia tutorial trend asa noturna ia v\u00eddeo original Trend Asa Noturna IA trend asa noturna ia como fazer passo a passo trend asa noturna ia ana paula trend asa noturna como fazer trend asa noturna ia vermeha asa noturna original video asa noturna original rapaz asa noturna original como fazer asa noturna original dann tutorial asa noturna original dannynosc asa noturna v\u00eddeo oficial asa noturna original trend asa noturna original ia trend asa noturna original do homem como fazer a trend do asa noturna com ia trend do asa noturna original como fazer a trend do asa noturna no cap cut como fazer a trend do asa noturna como fazer a trend do asa noturna da mulher maravilha como fazer a trend do asa noturna estelar como fazer a trend do asa noturna passo a passo como fazer a trend do asa noturna vermelha como fazer a trend do asa noturna original como fazer a trend do asa noturna jung kook do bts trend asa noturna original tutorial trend asa noturna original tutorial passo a passo trend asa noturna original plantilla trend asa noturna ana paula trend asa noturna original tutorial texto trend asa noturna original asa noturna fantasia trend asa noturna mulher maravilha trend asa noturna tutorial passo a passo trend asa noturna original tut trend asa noturna com a da ravena  tutorial asa noturna original\ntutorial asa noturna feminina\ntutorial da trend asa noturna gratis\n tutorial trend asa noturna\n tutorial asa noturna gratis\n tutorial asa noturna passo a passo\n tutorial asa noturna masculino tutorial trend asa noturna mulher maravilha\n tutorial asa noturna sem o roboneo\ntutorial asa noturna prompt como fazer a trend do asa noturna gratis\n como fazer a trend do asa noturna video original\ncomo fazer a trend do asa noturna renato garcia\n como fazer a trend do asa noturna capcut\n como fazer a trend do asa noturna no gemini\ncomo fazer a trend do asa noturna com ia\n como fazer a trend do asa noturna no capcut\n como fazer a trend do asa noturna gemini\n como fazer a trend do asa noturna sem usar o roboneo",
+      "creator": "tidkdclxf6",
+      "checks": [
+        {
+          "timestamp": "2026-03-14T20:26:39.566913+00:00",
+          "age_hours": 35.8,
+          "shares_per_hour": 102.0,
+          "views_per_hour": 5685,
+          "momentum": 1574,
           "delta_shares_per_hour": null
         }
       ],
