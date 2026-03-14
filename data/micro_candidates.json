@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-13T22:26:28.490183+00:00",
+  "last_updated": "2026-03-14T08:33:33.296928+00:00",
   "candidates": [
     {
       "url": "https://www.tiktok.com/@catatan_harian47/video/7616347652795436308",
@@ -35,43 +35,7 @@
       ],
       "consecutive_negative_deltas": 2,
       "alerted": false,
-      "consecutive_misses": 0
-    },
-    {
-      "url": "https://www.tiktok.com/@connor19140/video/7616126686358211860",
-      "first_seen": "2026-03-13T18:39:34.551480+00:00",
-      "market": "\ud83c\udf10 BOTH",
-      "text": "#capcut #capcutpioneer Trend Asa Noturna IA\nQuer fazer a trend da Asa Noturna original que est\u00e1 bombando?\nEu vou te ensinar passo a passo no CapCut, de forma simples e r\u00e1pida!\nBasta uma foto ou v\u00eddeo, que a IA faz a transi\u00e7\u00e3o \u00e9pica da Asa Noturna.\n\u00c9 o efeito mais viral do momento, super estiloso para homens e mulheres.\nAprenda agora a trend oficial da Asa Noturna e arrasa no seu feed! \u2728\ud83e\udd87\n#AsaNoturna #NightwingTrend #CapCut  ",
-      "creator": "connor19140",
-      "checks": [
-        {
-          "timestamp": "2026-03-13T18:39:34.551480+00:00",
-          "age_hours": 44.3,
-          "shares_per_hour": 307.0,
-          "views_per_hour": 10807,
-          "momentum": 3530,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-03-13T20:32:34.379626+00:00",
-          "age_hours": 46.2,
-          "shares_per_hour": 294.5,
-          "views_per_hour": 10367,
-          "momentum": 3386,
-          "delta_shares_per_hour": -12.5
-        },
-        {
-          "timestamp": "2026-03-13T22:26:28.485748+00:00",
-          "age_hours": 48.1,
-          "shares_per_hour": 282.8,
-          "views_per_hour": 9957,
-          "momentum": 3252,
-          "delta_shares_per_hour": -11.699999999999989
-        }
-      ],
-      "consecutive_negative_deltas": 2,
-      "alerted": false,
-      "consecutive_misses": 0
+      "consecutive_misses": 1
     },
     {
       "url": "https://www.tiktok.com/@nairunariakra/video/7616378879539809544",
@@ -107,43 +71,7 @@
       ],
       "consecutive_negative_deltas": 2,
       "alerted": false,
-      "consecutive_misses": 0
-    },
-    {
-      "url": "https://www.tiktok.com/@cxscko315496/video/7616431331169307935",
-      "first_seen": "2026-03-13T18:39:34.551480+00:00",
-      "market": "\ud83c\uddfa\ud83c\uddf8 US ONLY",
-      "text": "Let's make the same template together. It's super easy. #capcutforus #capcut #capcutpioneer",
-      "creator": "cxscko315496",
-      "checks": [
-        {
-          "timestamp": "2026-03-13T18:39:34.551480+00:00",
-          "age_hours": 24.6,
-          "shares_per_hour": 9.0,
-          "views_per_hour": 1549,
-          "momentum": 127,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-03-13T20:32:34.379626+00:00",
-          "age_hours": 26.5,
-          "shares_per_hour": 8.3,
-          "views_per_hour": 1439,
-          "momentum": 118,
-          "delta_shares_per_hour": -0.6999999999999993
-        },
-        {
-          "timestamp": "2026-03-13T22:26:28.485748+00:00",
-          "age_hours": 28.4,
-          "shares_per_hour": 7.8,
-          "views_per_hour": 1342,
-          "momentum": 110,
-          "delta_shares_per_hour": -0.5000000000000009
-        }
-      ],
-      "consecutive_negative_deltas": 2,
-      "alerted": false,
-      "consecutive_misses": 0
+      "consecutive_misses": 1
     },
     {
       "url": "https://www.tiktok.com/@ega8829/video/7616324834670398723",
@@ -179,7 +107,7 @@
       ],
       "consecutive_negative_deltas": 2,
       "alerted": false,
-      "consecutive_misses": 0
+      "consecutive_misses": 1
     },
     {
       "url": "https://www.tiktok.com/@masbe4ja/video/7616492259369913617",
@@ -207,7 +135,7 @@
       ],
       "consecutive_negative_deltas": 1,
       "alerted": false,
-      "consecutive_misses": 0
+      "consecutive_misses": 1
     },
     {
       "url": "https://www.tiktok.com/@jnfpnlcju0/video/7616324375188475158",
@@ -235,7 +163,7 @@
       ],
       "consecutive_negative_deltas": 1,
       "alerted": false,
-      "consecutive_misses": 0
+      "consecutive_misses": 1
     },
     {
       "url": "https://www.tiktok.com/@py.kang59/video/7616455646061415694",
@@ -250,6 +178,53 @@
           "shares_per_hour": 11.8,
           "views_per_hour": 1104,
           "momentum": 398,
+          "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-03-14T08:33:33.292105+00:00",
+          "age_hours": 36.9,
+          "shares_per_hour": 56.1,
+          "views_per_hour": 4133,
+          "momentum": 1642,
+          "delta_shares_per_hour": 44.3
+        }
+      ],
+      "consecutive_negative_deltas": 0,
+      "alerted": false,
+      "consecutive_misses": 0
+    },
+    {
+      "url": "https://www.tiktok.com/@carterpcs/video/7616977354178546974",
+      "first_seen": "2026-03-14T08:33:33.292105+00:00",
+      "market": "\ud83c\udf10 BOTH",
+      "text": "The downfall of Sora.. #carterpcs #tech #sora #ai ",
+      "creator": "carterpcs",
+      "checks": [
+        {
+          "timestamp": "2026-03-14T08:33:33.292105+00:00",
+          "age_hours": 3.2,
+          "shares_per_hour": 11.0,
+          "views_per_hour": 20985,
+          "momentum": 6282,
+          "delta_shares_per_hour": null
+        }
+      ],
+      "consecutive_negative_deltas": 0,
+      "alerted": false
+    },
+    {
+      "url": "https://www.tiktok.com/@love233260/video/7616668575192878352",
+      "first_seen": "2026-03-14T08:33:33.292105+00:00",
+      "market": "\ud83c\udf10 BOTH",
+      "text": "#capcut #capcutpioneer #fyp #trending \nPaano ko magagawa ang ganitong idol video gamit ang CapCut? Napakadali lang, i-click lang ang template tool sa ibabang kaliwa at sa isang tap makakagawa ka agad ng parehong viral idol video, maaari ka ring mag-duet at gumawa ng trending fan edit kasama ang iyong idol. CapCut \u1016\u103c\u1004\u1037\u103a \u1024\u1000\u1032\u1037\u101e\u102d\u102f\u1037 \u1000\u103b\u103d\u1014\u103a\u102f\u1015\u103a\u104f \u1021\u102d\u102f\u1004\u103a\u1012\u1031\u102b\u101c\u103a\u1017\u102e\u1012\u102e\u101a\u102d\u102f\u1000\u102d\u102f \u1019\u100a\u103a\u101e\u102d\u102f\u1037\u1015\u103c\u102f\u101c\u102f\u1015\u103a\u1014\u102d\u102f\u1004\u103a\u101e\u1014\u100a\u103a\u1038\u104a \u1021\u101b\u1019\u103a\u1038\u101c\u103d\u101a\u103a\u1000\u1030\u1015\u102b\u1010\u101a\u103a\u104a \u1018\u101a\u103a\u1018\u1000\u103a\u1021\u1031\u102c\u1000\u103a\u1001\u103c\u1031\u101b\u103e\u102d template tool \u1000\u102d\u102f \u1014\u103e\u102d\u1015\u103a\u101c\u102d\u102f\u1000\u103a\u101b\u102f\u1036\u1014\u1032\u1037 \u1010\u1005\u103a\u1001\u103b\u1000\u103a\u1014\u103e\u102d\u1015\u103a\u1015\u103c\u102e\u1038 \u1010\u1030\u100a\u102e\u101e\u1031\u102c viral idol video \u1000\u102d\u102f \u1016\u1014\u103a\u1010\u102e\u1038\u1014\u102d\u102f\u1004\u103a\u1015\u102b\u1010\u101a\u103a\u104a \u101e\u1004\u103a\u104f idol \u1014\u103e\u1004\u1037\u103a duet \u101c\u102f\u1015\u103a\u1015\u103c\u102e\u1038 trend fan edit \u1000\u102d\u102f \u1001\u103b\u1000\u103a\u1001\u103b\u1004\u103a\u1038\u101b\u102d\u102f\u1000\u103a\u1000\u1030\u1038\u1014\u102d\u102f\u1004\u103a\u1015\u102b\u101e\u100a\u103a\u104b Bagaimana cara membuat video idolaku seperti ini dengan CapCut? Sangat mudah, cukup gunakan template tools di pojok kiri bawah untuk membuat versi viral yang sama hanya dengan satu klik, dan kamu bisa langsung duet serta membuat fan edit trending bersama idolamu. \u0e27\u0e34\u0e18\u0e35\u0e17\u0e33\u0e27\u0e34\u0e14\u0e35\u0e42\u0e2d\u0e44\u0e2d\u0e14\u0e2d\u0e25\u0e41\u0e1a\u0e1a\u0e19\u0e35\u0e49\u0e14\u0e49\u0e27\u0e22 CapCut \u0e17\u0e33\u0e2d\u0e22\u0e48\u0e32\u0e07\u0e44\u0e23? \u0e07\u0e48\u0e32\u0e22\u0e21\u0e32\u0e01 \u0e40\u0e1e\u0e35\u0e22\u0e07\u0e43\u0e0a\u0e49 template tool \u0e17\u0e35\u0e48\u0e21\u0e38\u0e21\u0e0b\u0e49\u0e32\u0e22\u0e25\u0e48\u0e32\u0e07 \u0e04\u0e25\u0e34\u0e01\u0e04\u0e23\u0e31\u0e49\u0e07\u0e40\u0e14\u0e35\u0e22\u0e27\u0e01\u0e47\u0e2a\u0e23\u0e49\u0e32\u0e07\u0e27\u0e34\u0e14\u0e35\u0e42\u0e2d\u0e44\u0e27\u0e23\u0e31\u0e25\u0e41\u0e1a\u0e1a\u0e40\u0e14\u0e35\u0e22\u0e27\u0e01\u0e31\u0e19\u0e44\u0e14\u0e49\u0e17\u0e31\u0e19\u0e17\u0e35 \u0e41\u0e25\u0e30\u0e22\u0e31\u0e07\u0e2a\u0e32\u0e21\u0e32\u0e23\u0e16\u0e14\u0e39\u0e40\u0e2d\u0e47\u0e15\u0e23\u0e48\u0e27\u0e21\u0e01\u0e31\u0e1a\u0e44\u0e2d\u0e14\u0e2d\u0e25\u0e02\u0e2d\u0e07\u0e04\u0e38\u0e13\u0e40\u0e1e\u0e37\u0e48\u0e2d\u0e17\u0e33 fan edit \u0e17\u0e35\u0e48\u0e01\u0e33\u0e25\u0e31\u0e07\u0e40\u0e1b\u0e47\u0e19\u0e40\u0e17\u0e23\u0e19\u0e14\u0e4c\u0e44\u0e14\u0e49\u0e2d\u0e35\u0e01\u0e14\u0e49\u0e27\u0e22. How can I make an idol video like this with CapCut? It\u2019s super easy, just tap the template tool in the bottom left and create the same viral video in one click, then duet with your idol and make a trending fan edit instantly. L\u00e0m th\u1ebf n\u00e0o \u0111\u1ec3 t\u1ea1o video idol nh\u01b0 th\u1ebf n\u00e0y b\u1eb1ng CapCut? R\u1ea5t \u0111\u01a1n gi\u1ea3n, ch\u1ec9 c\u1ea7n nh\u1ea5n v\u00e0o template tool \u1edf g\u00f3c d\u01b0\u1edbi b\u00ean tr\u00e1i, b\u1ea1n c\u00f3 th\u1ec3 t\u1ea1o video viral gi\u1ed1ng h\u1ec7t ch\u1ec9 v\u1edbi m\u1ed9t l\u1ea7n ch\u1ea1m v\u00e0 duet c\u00f9ng idol c\u1ee7a m\u00ecnh \u0111\u1ec3 t\u1ea1o fan edit \u0111ang th\u1ecbnh h\u00e0nh.",
+      "creator": "love233260",
+      "checks": [
+        {
+          "timestamp": "2026-03-14T08:33:33.292105+00:00",
+          "age_hours": 23.1,
+          "shares_per_hour": 518.5,
+          "views_per_hour": 11472,
+          "momentum": 5614,
           "delta_shares_per_hour": null
         }
       ],
