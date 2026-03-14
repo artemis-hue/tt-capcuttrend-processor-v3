@@ -1,170 +1,6 @@
 {
-  "last_updated": "2026-03-14T10:27:02.462270+00:00",
+  "last_updated": "2026-03-14T12:48:23.036399+00:00",
   "candidates": [
-    {
-      "url": "https://www.tiktok.com/@catatan_harian47/video/7616347652795436308",
-      "first_seen": "2026-03-13T18:39:34.551480+00:00",
-      "market": "\ud83c\uddfa\ud83c\uddf8 US ONLY",
-      "text": "#CapCut #fypppppppppppppppppppppp #pioneertemplate #capcutpioneer #storywa ",
-      "creator": "catatan_harian47",
-      "checks": [
-        {
-          "timestamp": "2026-03-13T18:39:34.551480+00:00",
-          "age_hours": 30.0,
-          "shares_per_hour": 809.7,
-          "views_per_hour": 14634,
-          "momentum": 8922,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-03-13T20:32:34.379626+00:00",
-          "age_hours": 31.9,
-          "shares_per_hour": 761.9,
-          "views_per_hour": 13770,
-          "momentum": 8395,
-          "delta_shares_per_hour": -47.80000000000007
-        },
-        {
-          "timestamp": "2026-03-13T22:26:28.485748+00:00",
-          "age_hours": 33.8,
-          "shares_per_hour": 719.1,
-          "views_per_hour": 12996,
-          "momentum": 7924,
-          "delta_shares_per_hour": -42.799999999999955
-        }
-      ],
-      "consecutive_negative_deltas": 2,
-      "alerted": false,
-      "consecutive_misses": 2
-    },
-    {
-      "url": "https://www.tiktok.com/@nairunariakra/video/7616378879539809544",
-      "first_seen": "2026-03-13T18:39:34.551480+00:00",
-      "market": "\ud83c\udf10 BOTH",
-      "text": "#CapCut #capcutgala2026 #quotestory #pioneertemplate #capcutpioneer ",
-      "creator": "nairunariakra",
-      "checks": [
-        {
-          "timestamp": "2026-03-13T18:39:34.551480+00:00",
-          "age_hours": 28.0,
-          "shares_per_hour": 10.9,
-          "views_per_hour": 489,
-          "momentum": 180,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-03-13T20:32:34.379626+00:00",
-          "age_hours": 29.9,
-          "shares_per_hour": 10.2,
-          "views_per_hour": 458,
-          "momentum": 169,
-          "delta_shares_per_hour": -0.7000000000000011
-        },
-        {
-          "timestamp": "2026-03-13T22:26:28.485748+00:00",
-          "age_hours": 31.8,
-          "shares_per_hour": 9.6,
-          "views_per_hour": 431,
-          "momentum": 159,
-          "delta_shares_per_hour": -0.5999999999999996
-        }
-      ],
-      "consecutive_negative_deltas": 2,
-      "alerted": false,
-      "consecutive_misses": 2
-    },
-    {
-      "url": "https://www.tiktok.com/@ega8829/video/7616324834670398723",
-      "first_seen": "2026-03-13T18:39:34.551480+00:00",
-      "market": "\ud83c\uddfa\ud83c\uddf8 US ONLY",
-      "text": "Watch your photos go from plain to epic in seconds. With AI, even the simplest photo becomes a masterpiece. #capcut #capcutpioneer #capcutforus #fyp  #ai Want to make your photos look extraordinary? Learn how to use AI! Want to see how AI can instantly transform your photos into something amazing? Photo Beautification, Dynamic Filters, Dynamic Beauty, Filter Camera, Face Transformation. ",
-      "creator": "ega8829",
-      "checks": [
-        {
-          "timestamp": "2026-03-13T18:39:34.551480+00:00",
-          "age_hours": 31.5,
-          "shares_per_hour": 9.1,
-          "views_per_hour": 309,
-          "momentum": 121,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-03-13T20:32:34.379626+00:00",
-          "age_hours": 33.4,
-          "shares_per_hour": 8.6,
-          "views_per_hour": 292,
-          "momentum": 114,
-          "delta_shares_per_hour": -0.5
-        },
-        {
-          "timestamp": "2026-03-13T22:26:28.485748+00:00",
-          "age_hours": 35.3,
-          "shares_per_hour": 8.1,
-          "views_per_hour": 276,
-          "momentum": 108,
-          "delta_shares_per_hour": -0.5
-        }
-      ],
-      "consecutive_negative_deltas": 2,
-      "alerted": false,
-      "consecutive_misses": 2
-    },
-    {
-      "url": "https://www.tiktok.com/@masbe4ja/video/7616492259369913617",
-      "first_seen": "2026-03-13T20:32:34.379626+00:00",
-      "market": "\ud83c\uddec\ud83c\udde7 UK ONLY",
-      "text": "Jumat #CapCut #fyp #rayapenuhrasa #pioneertemplate #capcutpioneer ",
-      "creator": "masbe4ja",
-      "checks": [
-        {
-          "timestamp": "2026-03-13T20:32:34.379626+00:00",
-          "age_hours": 22.5,
-          "shares_per_hour": 97.3,
-          "views_per_hour": 3196,
-          "momentum": 1440,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-03-13T22:26:28.485748+00:00",
-          "age_hours": 24.4,
-          "shares_per_hour": 89.8,
-          "views_per_hour": 2948,
-          "momentum": 1328,
-          "delta_shares_per_hour": -7.5
-        }
-      ],
-      "consecutive_negative_deltas": 1,
-      "alerted": false,
-      "consecutive_misses": 2
-    },
-    {
-      "url": "https://www.tiktok.com/@jnfpnlcju0/video/7616324375188475158",
-      "first_seen": "2026-03-13T20:32:34.379626+00:00",
-      "market": "\ud83c\udf10 BOTH",
-      "text": "Add some flair to your photos with this jaw-dropping effect. AI transforms your photos into the extraordinary! #capcut #capcutpioneer #capcutforus #fyp  #ai Let me show you how to transform your photos with cutting-edge AI effects! Want to discover the future of photo editing with AI? Selfie Beautification, Outfit Effects, Face Swap, Fun Masks, Animated Avatars. ",
-      "creator": "jnfpnlcju0",
-      "checks": [
-        {
-          "timestamp": "2026-03-13T20:32:34.379626+00:00",
-          "age_hours": 33.4,
-          "shares_per_hour": 6.6,
-          "views_per_hour": 404,
-          "momentum": 108,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-03-13T22:26:28.485748+00:00",
-          "age_hours": 35.3,
-          "shares_per_hour": 6.3,
-          "views_per_hour": 382,
-          "momentum": 102,
-          "delta_shares_per_hour": -0.2999999999999998
-        }
-      ],
-      "consecutive_negative_deltas": 1,
-      "alerted": false,
-      "consecutive_misses": 2
-    },
     {
       "url": "https://www.tiktok.com/@py.kang59/video/7616455646061415694",
       "first_seen": "2026-03-13T22:26:28.485748+00:00",
@@ -195,9 +31,17 @@
           "views_per_hour": 3932,
           "momentum": 1562,
           "delta_shares_per_hour": -2.700000000000003
+        },
+        {
+          "timestamp": "2026-03-14T12:48:23.031508+00:00",
+          "age_hours": 41.2,
+          "shares_per_hour": 50.3,
+          "views_per_hour": 3707,
+          "momentum": 1473,
+          "delta_shares_per_hour": -3.1000000000000014
         }
       ],
-      "consecutive_negative_deltas": 1,
+      "consecutive_negative_deltas": 2,
       "alerted": false,
       "consecutive_misses": 0
     },
@@ -223,9 +67,17 @@
           "views_per_hour": 13156,
           "momentum": 3938,
           "delta_shares_per_hour": -4.1
+        },
+        {
+          "timestamp": "2026-03-14T12:48:23.031508+00:00",
+          "age_hours": 7.4,
+          "shares_per_hour": 4.7,
+          "views_per_hour": 8982,
+          "momentum": 2689,
+          "delta_shares_per_hour": -2.2
         }
       ],
-      "consecutive_negative_deltas": 1,
+      "consecutive_negative_deltas": 2,
       "alerted": false,
       "consecutive_misses": 0
     },
@@ -251,11 +103,114 @@
           "views_per_hour": 10605,
           "momentum": 5190,
           "delta_shares_per_hour": -39.19999999999999
+        },
+        {
+          "timestamp": "2026-03-14T12:48:23.031508+00:00",
+          "age_hours": 27.4,
+          "shares_per_hour": 438.1,
+          "views_per_hour": 9693,
+          "momentum": 4743,
+          "delta_shares_per_hour": -41.19999999999999
         }
       ],
-      "consecutive_negative_deltas": 1,
+      "consecutive_negative_deltas": 2,
       "alerted": false,
       "consecutive_misses": 0
+    },
+    {
+      "url": "https://www.tiktok.com/@.gmx8/video/7616603996551236884",
+      "first_seen": "2026-03-14T12:48:23.031508+00:00",
+      "market": "\ud83c\udf10 BOTH",
+      "text": "Try the template \ud83d\udd25\ud83e\udee3#capcut #capcutpioneer #pioneertemplate #viral #gmx8 ",
+      "creator": ".gmx8",
+      "checks": [
+        {
+          "timestamp": "2026-03-14T12:48:23.031508+00:00",
+          "age_hours": 31.6,
+          "shares_per_hour": 69.2,
+          "views_per_hour": 7942,
+          "momentum": 4638,
+          "delta_shares_per_hour": null
+        }
+      ],
+      "consecutive_negative_deltas": 0,
+      "alerted": false
+    },
+    {
+      "url": "https://www.tiktok.com/@moddy.a.m/video/7616638606932741398",
+      "first_seen": "2026-03-14T12:48:23.031508+00:00",
+      "market": "\ud83c\uddec\ud83c\udde7 UK ONLY",
+      "text": "Yes CapCut photo editor allows you to make these fun portraits. Try it for yourself and have a go.\n\u00a0\nComment 'Capcut' for more videos like this\n\u00a0\n#CapCut #Capcutphotoedit #aitools #capcutpioneer ",
+      "creator": "moddy.a.m",
+      "checks": [
+        {
+          "timestamp": "2026-03-14T12:48:23.031508+00:00",
+          "age_hours": 29.3,
+          "shares_per_hour": 124.6,
+          "views_per_hour": 913,
+          "momentum": 2390,
+          "delta_shares_per_hour": null
+        }
+      ],
+      "consecutive_negative_deltas": 0,
+      "alerted": false
+    },
+    {
+      "url": "https://www.tiktok.com/@tidkdclxf6/video/7616656639575215367",
+      "first_seen": "2026-03-14T12:48:23.031508+00:00",
+      "market": "\ud83c\udf10 BOTH",
+      "text": "#capcut #capcutpioneer Trend Asa Noturna IA Quer fazer a trend da Asa Noturna original que est\u00e1 bombando? Eu vou te ensinar passo a passo no CapCut, de forma simples e r\u00e1pida! Basta uma foto ou v\u00eddeo, que a IA faz a transi\u00e7\u00e3o \u00e9pica da Asa Noturna. \u00c9 o efeito mais viral do momento, super estiloso para homens e mulheres. Aprenda agora a trend oficial da Asa Noturna e arrasa no seu feed! \u2728\ud83e\udd87 #AsaNoturna #NightwingTrend   como fazer o video do asa noturna,asa noturna transi\u00e7\u00e3o ia como fazer,Trend Asa Noturna IA,trend asa noturna ia tutorial,asa noturna original,asa noturna trend original, trend asa noturna tutorial, tutorial  photo, Dean Winchester, arlene lee throwing, dancinhas   tutorial da trend asa noturna tutorial da trend asa noturna gratis tutorial da trend asa noturna mulher trend do asa noturna original tutorial da trend asa noturna original tutorial da trend asa noturna como fazer asa noturna original tutorial da trend asa noturna jorse asa noturna fantasia tutorial da trend asa noturna tutorial da trend asa noturna feito por ia trend do asa noturna original trend asa noturna ia como fazer trend asa noturna ia tutorial trend asa noturna ia v\u00eddeo original Trend Asa Noturna IA trend asa noturna ia como fazer passo a passo trend asa noturna ia ana paula trend asa noturna como fazer trend asa noturna ia vermeha asa noturna original video asa noturna original rapaz asa noturna original como fazer asa noturna original dann tutorial asa noturna original dannynosc asa noturna v\u00eddeo oficial asa noturna original trend asa noturna original ia trend asa noturna original do homem como fazer a trend do asa noturna com ia trend do asa noturna original como fazer a trend do asa noturna no cap cut como fazer a trend do asa noturna como fazer a trend do asa noturna da mulher maravilha como fazer a trend do asa noturna estelar como fazer a trend do asa noturna passo a passo como fazer a trend do asa noturna vermelha como fazer a trend do asa noturna original como fazer a trend do asa noturna jung kook do bts trend asa noturna original tutorial trend asa noturna original tutorial passo a passo trend asa noturna original plantilla trend asa noturna ana paula trend asa noturna original tutorial texto trend asa noturna original asa noturna fantasia trend asa noturna mulher maravilha trend asa noturna tutorial passo a passo trend asa noturna original tut trend asa noturna com a da ravena  tutorial asa noturna original\ntutorial asa noturna feminina\ntutorial da trend asa noturna gratis\n tutorial trend asa noturna\n tutorial asa noturna gratis\n tutorial asa noturna passo a passo\n tutorial asa noturna masculino tutorial trend asa noturna mulher maravilha\n tutorial asa noturna sem o roboneo\ntutorial asa noturna prompt como fazer a trend do asa noturna gratis\n como fazer a trend do asa noturna video original\ncomo fazer a trend do asa noturna renato garcia\n como fazer a trend do asa noturna capcut\n como fazer a trend do asa noturna no gemini\ncomo fazer a trend do asa noturna com ia\n como fazer a trend do asa noturna no capcut\n como fazer a trend do asa noturna gemini\n como fazer a trend do asa noturna sem usar o roboneo",
+      "creator": "tidkdclxf6",
+      "checks": [
+        {
+          "timestamp": "2026-03-14T12:48:23.031508+00:00",
+          "age_hours": 28.2,
+          "shares_per_hour": 129.7,
+          "views_per_hour": 7226,
+          "momentum": 2001,
+          "delta_shares_per_hour": null
+        }
+      ],
+      "consecutive_negative_deltas": 0,
+      "alerted": false
+    },
+    {
+      "url": "https://www.tiktok.com/@too.an1/video/7616351054757711124",
+      "first_seen": "2026-03-14T12:48:23.031508+00:00",
+      "market": "\ud83c\uddfa\ud83c\uddf8 US ONLY",
+      "text": "#capcutpioneer  Tutorial \u0e17\u0e33\u0e27\u0e34\u0e14\u0e35\u0e42\u0e2d AI Baby Dance Overdrive \u0e17\u0e35\u0e48\u0e01\u0e33\u0e25\u0e31\u0e07\u0e44\u0e27\u0e23\u0e31\u0e25\u0e2a\u0e38\u0e14 \u0e46 \ud83d\udc76\n\ud83d\udc83\u2728 \u0e40\u0e2d\u0e1f\u0e40\u0e1f\u0e01\u0e15\u0e4c AI \u0e40\u0e17\u0e23\u0e19\u0e14\u0e4c\u0e2e\u0e34\u0e15\u0e2a\u0e33\u0e2b\u0e23\u0e31\u0e1a\u0e41\u0e01\u0e49\u0e44\u0e02\u0e23\u0e39\u0e1b/\u0e27\u0e34\u0e14\u0e35\u0e42\u0e2d\u0e40\u0e14\u0e47\u0e01 Baby joget lucu + \u0e17\u0e48\u0e32\u0e40\u0e15\u0e49\u0e19 TikTok viral \u0e2a\u0e44\u0e15\u0e25\u0e4c overdrive \u0e1e\u0e25\u0e31\u0e07\u0e25\u0e49\u0e19 \u0e1c\u0e25\u0e25\u0e31\u0e1e\u0e18\u0e4c\u0e2d\u0e2d\u0e01\u0e21\u0e32\u0e19\u0e48\u0e32\u0e23\u0e31\u0e01\u0e21\u0e32\u0e01 \u0e46 \u0e14\u0e39 cute \u0e08\u0e19\u0e15\u0e49\u0e2d\u0e07\u0e22\u0e34\u0e49\u0e21\u0e15\u0e32\u0e21 \ud83d\ude33\n\ud83d\udc9e \u0e40\u0e2d\u0e1f\u0e40\u0e1f\u0e01\u0e15\u0e4c AI \u0e40\u0e14\u0e47\u0e01\u0e40\u0e15\u0e49\u0e19\u0e17\u0e35\u0e48\u0e2b\u0e25\u0e32\u0e22\u0e04\u0e19\u0e43\u0e0a\u0e49\u0e01\u0e31\u0e19\u0e43\u0e19 TikTok \u0e15\u0e2d\u0e19\u0e19\u0e35\u0e49 \n\ud83d\ude80 \u0e08\u0e32\u0e01\u0e23\u0e39\u0e1b\u0e40\u0e14\u0e47\u0e01\u0e18\u0e23\u0e23\u0e21\u0e14\u0e32 \u2192 \u0e01\u0e25\u0e32\u0e22\u0e40\u0e1b\u0e47\u0e19\u0e27\u0e34\u0e14\u0e35\u0e42\u0e2d\u0e40\u0e15\u0e49\u0e19 overdrive \u0e17\u0e35\u0e48\u0e14\u0e39\u0e21\u0e35\u0e0a\u0e35\u0e27\u0e34\u0e15 \u0e01\u0e32\u0e23\u0e40\u0e04\u0e25\u0e37\u0e48\u0e2d\u0e19\u0e44\u0e2b\u0e27\u0e41\u0e1a\u0e1a sway, bounce, shake \u0e08\u0e31\u0e07\u0e2b\u0e27\u0e30\u0e40\u0e23\u0e47\u0e27\u0e15\u0e32\u0e21\u0e40\u0e17\u0e23\u0e19\u0e14\u0e4c TikTok \u0e17\u0e38\u0e01\u0e2d\u0e22\u0e48\u0e32\u0e07\u0e14\u0e39\u0e01\u0e25\u0e21\u0e01\u0e25\u0e37\u0e19\u0e40\u0e1b\u0e47\u0e19\u0e18\u0e23\u0e23\u0e21\u0e0a\u0e32\u0e15\u0e34\u0e2a\u0e38\u0e14 \u0e46 \u2728\n\ud83d\udcf1 AI \u0e08\u0e30\u0e40\u0e1b\u0e25\u0e35\u0e48\u0e22\u0e19\u0e23\u0e39\u0e1b\u0e40\u0e14\u0e47\u0e01\u0e43\u0e2b\u0e49\u0e01\u0e25\u0e32\u0e22\u0e40\u0e1b\u0e47\u0e19\u0e40\u0e14\u0e47\u0e01\u0e19\u0e49\u0e2d\u0e22\u0e2a\u0e38\u0e14\u0e19\u0e48\u0e32\u0e23\u0e31\u0e01\u0e17\u0e35\u0e48\u0e40\u0e15\u0e49\u0e19\u0e2d\u0e31\u0e15\u0e42\u0e19\u0e21\u0e31\u0e15\u0e34 \u0e01\u0e32\u0e23\u0e40\u0e04\u0e25\u0e37\u0e48\u0e2d\u0e19\u0e44\u0e2b\u0e27\u0e0b\u0e34\u0e07\u0e01\u0e4c\u0e01\u0e31\u0e1a\u0e40\u0e1e\u0e25\u0e07 perfectly (\uc624\ubc84\ub4dc\ub77c\uc774\ube0c \ub304\uc2a4 \ud6a8\uacfc \uc9c4\uc9dc \uadc0\uc5ec\uc6cc\uc694 \ud83d\ude06) \u0e2a\u0e31\u0e14\u0e2a\u0e48\u0e27\u0e19\u0e23\u0e48\u0e32\u0e07\u0e01\u0e32\u0e22\u0e14\u0e39\u0e1e\u0e2d\u0e14\u0e35 \u0e2b\u0e19\u0e49\u0e32\u0e40\u0e14\u0e47\u0e01\u0e22\u0e31\u0e07\u0e04\u0e07\u0e19\u0e48\u0e32\u0e23\u0e31\u0e01 \u0e40\u0e1b\u0e47\u0e19\u0e18\u0e23\u0e23\u0e21\u0e0a\u0e32\u0e15\u0e34 (\u0431\u0435\u0437 \u0438\u0437\u043c\u0435\u043d\u0435\u043d\u0438\u044f \u043b\u0438\u0446\u0430 \u2705) \u0e41\u0e2a\u0e07\u0e19\u0e38\u0e48\u0e21 \u0e01\u0e32\u0e23\u0e40\u0e04\u0e25\u0e37\u0e48\u0e2d\u0e19\u0e44\u0e2b\u0e27\u0e25\u0e37\u0e48\u0e19\u0e44\u0e2b\u0e25 vibe \u0e2a\u0e19\u0e38\u0e01 \u0e2a\u0e14\u0e43\u0e2a happy \u0e21\u0e32\u0e01 \u0e40\u0e2b\u0e21\u0e32\u0e30\u0e2a\u0e38\u0e14 \u0e46 \u0e2a\u0e33\u0e2b\u0e23\u0e31\u0e1a\u0e04\u0e2d\u0e19\u0e40\u0e17\u0e19\u0e15\u0e4c\u0e04\u0e23\u0e2d\u0e1a\u0e04\u0e23\u0e31\u0e27 FYP reels shorts \u0e41\u0e25\u0e30 challenge \u0e44\u0e27\u0e23\u0e31\u0e25 (\u0e40\u0e2b\u0e21\u0e32\u0e30\u0e21\u0e32\u0e01\u0e2a\u0e33\u0e2b\u0e23\u0e31\u0e1a TikTok & Reels \ud83c\udfb6\ud83d\udd25) \u0e40\u0e2d\u0e1f\u0e40\u0e1f\u0e01\u0e15\u0e4c CapCut / Dreamina / Kling / Gemini: \u201cAI Baby Dance Insert + Overdrive Motion\u201d \u0e1c\u0e25\u0e25\u0e31\u0e1e\u0e18\u0e4c\u0e2d\u0e2d\u0e01\u0e21\u0e32\u0e25\u0e37\u0e48\u0e19 \u0e19\u0e48\u0e32\u0e23\u0e31\u0e01 cinematic \u0e41\u0e25\u0e30\u0e44\u0e27\u0e23\u0e31\u0e25\u0e21\u0e32\u0e01\u0e1a\u0e19\u0e42\u0e0b\u0e40\u0e0a\u0e35\u0e22\u0e25\u0e21\u0e35\u0e40\u0e14\u0e35\u0e22 \ud83c\udfac\ud83d\udca5\ud83d\udc97 \u0e40\u0e2b\u0e21\u0e32\u0e30\u0e2a\u0e33\u0e2b\u0e23\u0e31\u0e1a\u0e04\u0e2d\u0e19\u0e40\u0e17\u0e19\u0e15\u0e4c\u0e40\u0e14\u0e47\u0e01\u0e19\u0e48\u0e32\u0e23\u0e31\u0e01 \u0e27\u0e34\u0e14\u0e35\u0e42\u0e2d\u0e04\u0e23\u0e2d\u0e1a\u0e04\u0e23\u0e31\u0e27 baby motor skills trend \u0e41\u0e25\u0e30\u0e04\u0e2d\u0e19\u0e40\u0e17\u0e19\u0e15\u0e4c\u0e1a\u0e31\u0e19\u0e40\u0e17\u0e34\u0e07\u0e17\u0e35\u0e48\u0e40\u0e02\u0e49\u0e32\u0e16\u0e36\u0e07 FYP \u0e44\u0e14\u0e49\u0e07\u0e48\u0e32\u0e22\u0e21\u0e32\u0e01 \ud83d\ude80\ud83d\udcf1\u2728 #AIBabyDancegait\n#capcut #capcutpioneer ",
+      "creator": "too.an1",
+      "checks": [
+        {
+          "timestamp": "2026-03-14T12:48:23.031508+00:00",
+          "age_hours": 47.9,
+          "shares_per_hour": 119.7,
+          "views_per_hour": 4900,
+          "momentum": 1416,
+          "delta_shares_per_hour": null
+        }
+      ],
+      "consecutive_negative_deltas": 0,
+      "alerted": false
+    },
+    {
+      "url": "https://www.tiktok.com/@ex3go200n5/video/7616653396514229522",
+      "first_seen": "2026-03-14T12:48:23.031508+00:00",
+      "market": "\ud83c\uddec\ud83c\udde7 UK ONLY",
+      "text": "#capcut #capcutpioneer Click on the CapCut icon above to generate the same style as the video.Use one photos to create the same effect as the video.2026 filter capcut.Photogenic filter.\n Tattoo effect.Ink effect.Body art result.\n Sebenzisa isithombe esisodwa ukuze wenze umphumela ofanayo nomvuyo.\n Danna alamar CapCut da ke sama don samar da salon daidai da bidiyo. Yi amfani da hoto \u0257aya don \u0199ir\u0199irar tasirin daidai da bidiyo.\n Bonyeza ikoni ya CapCut yenyejuu ili kuzalisha mtindo sawa na video. Tumia picha moja ili kuunda athari sawa na video.\n #capcut #capcutpioneer #capcutforus ",
+      "creator": "ex3go200n5",
+      "checks": [
+        {
+          "timestamp": "2026-03-14T12:48:23.031508+00:00",
+          "age_hours": 28.4,
+          "shares_per_hour": 106.2,
+          "views_per_hour": 1409,
+          "momentum": 1351,
+          "delta_shares_per_hour": null
+        }
+      ],
+      "consecutive_negative_deltas": 0,
+      "alerted": false
     }
   ]
 }
