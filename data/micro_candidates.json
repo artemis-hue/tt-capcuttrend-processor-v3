@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-15T08:35:03.591558+00:00",
+  "last_updated": "2026-03-15T10:27:57.839300+00:00",
   "candidates": [
     {
       "url": "https://www.tiktok.com/@love233260/video/7616668575192878352",
@@ -35,7 +35,7 @@
       ],
       "consecutive_negative_deltas": 2,
       "alerted": false,
-      "consecutive_misses": 1
+      "consecutive_misses": 2
     },
     {
       "url": "https://www.tiktok.com/@ayhai.168/video/7616682160858139924",
@@ -71,7 +71,7 @@
       ],
       "consecutive_negative_deltas": 2,
       "alerted": false,
-      "consecutive_misses": 1
+      "consecutive_misses": 2
     },
     {
       "url": "https://www.tiktok.com/@lovinglylov3ly0/video/7616727604518735125",
@@ -107,7 +107,7 @@
       ],
       "consecutive_negative_deltas": 2,
       "alerted": false,
-      "consecutive_misses": 1
+      "consecutive_misses": 2
     },
     {
       "url": "https://www.tiktok.com/@.gmx8/video/7616603996551236884",
@@ -139,9 +139,17 @@
           "views_per_hour": 15665,
           "momentum": 10597,
           "delta_shares_per_hour": 103.70000000000002
+        },
+        {
+          "timestamp": "2026-03-15T10:27:57.839190+00:00",
+          "age_hours": 53.2,
+          "shares_per_hour": 151.2,
+          "views_per_hour": 15111,
+          "momentum": 10223,
+          "delta_shares_per_hour": -5.600000000000023
         }
       ],
-      "consecutive_negative_deltas": 0,
+      "consecutive_negative_deltas": 1,
       "alerted": false,
       "consecutive_misses": 0
     },
@@ -171,7 +179,7 @@
       ],
       "consecutive_negative_deltas": 1,
       "alerted": false,
-      "consecutive_misses": 1
+      "consecutive_misses": 2
     },
     {
       "url": "https://www.tiktok.com/@tidkdclxf6/video/7616656639575215367",
@@ -203,9 +211,17 @@
           "views_per_hour": 8998,
           "momentum": 2608,
           "delta_shares_per_hour": 71.3
+        },
+        {
+          "timestamp": "2026-03-15T10:27:57.839190+00:00",
+          "age_hours": 49.8,
+          "shares_per_hour": 161.7,
+          "views_per_hour": 8658,
+          "momentum": 2510,
+          "delta_shares_per_hour": -6.300000000000011
         }
       ],
-      "consecutive_negative_deltas": 0,
+      "consecutive_negative_deltas": 1,
       "alerted": false,
       "consecutive_misses": 0
     },
@@ -223,10 +239,19 @@
           "views_per_hour": 35609,
           "momentum": 15655,
           "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-03-15T10:27:57.839190+00:00",
+          "age_hours": 12.5,
+          "shares_per_hour": 76.0,
+          "views_per_hour": 30267,
+          "momentum": 13307,
+          "delta_shares_per_hour": -13.5
         }
       ],
-      "consecutive_negative_deltas": 0,
-      "alerted": false
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
     },
     {
       "url": "https://www.tiktok.com/@usafunnyclips5456/video/7617113773664472350",
@@ -242,10 +267,19 @@
           "views_per_hour": 22964,
           "momentum": 11290,
           "delta_shares_per_hour": null
+        },
+        {
+          "timestamp": "2026-03-15T10:27:57.839190+00:00",
+          "age_hours": 20.3,
+          "shares_per_hour": 661.3,
+          "views_per_hour": 20831,
+          "momentum": 10241,
+          "delta_shares_per_hour": -67.70000000000005
         }
       ],
-      "consecutive_negative_deltas": 0,
-      "alerted": false
+      "consecutive_negative_deltas": 1,
+      "alerted": false,
+      "consecutive_misses": 0
     }
   ]
 }
