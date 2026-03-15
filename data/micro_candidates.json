@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-03-14T22:24:01.849701+00:00",
+  "last_updated": "2026-03-15T08:35:03.591558+00:00",
   "candidates": [
     {
       "url": "https://www.tiktok.com/@love233260/video/7616668575192878352",
@@ -35,79 +35,7 @@
       ],
       "consecutive_negative_deltas": 2,
       "alerted": false,
-      "consecutive_misses": 0
-    },
-    {
-      "url": "https://www.tiktok.com/@py.kang59/video/7616455646061415694",
-      "first_seen": "2026-03-14T18:36:42.550324+00:00",
-      "market": "\ud83c\udf10 BOTH",
-      "text": "\u2b06\ufe0fUse the CapCut template \u2b06\ufe0fai dance #capcutforus #capcut #capcutpioneer #fyp #zaza ",
-      "creator": "py.kang59",
-      "checks": [
-        {
-          "timestamp": "2026-03-14T18:36:42.550324+00:00",
-          "age_hours": 47.0,
-          "shares_per_hour": 44.1,
-          "views_per_hour": 3248,
-          "momentum": 1291,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-03-14T20:26:39.566913+00:00",
-          "age_hours": 48.8,
-          "shares_per_hour": 42.5,
-          "views_per_hour": 3126,
-          "momentum": 1242,
-          "delta_shares_per_hour": -1.6000000000000014
-        },
-        {
-          "timestamp": "2026-03-14T22:24:01.849567+00:00",
-          "age_hours": 50.8,
-          "shares_per_hour": 40.8,
-          "views_per_hour": 3006,
-          "momentum": 1194,
-          "delta_shares_per_hour": -1.7000000000000028
-        }
-      ],
-      "consecutive_negative_deltas": 2,
-      "alerted": false,
-      "consecutive_misses": 0
-    },
-    {
-      "url": "https://www.tiktok.com/@ex3go200n5/video/7616898129278864648",
-      "first_seen": "2026-03-14T18:36:42.550324+00:00",
-      "market": "\ud83c\uddfa\ud83c\uddf8 US ONLY",
-      "text": "#capcut #capcutpioneer #capcutforus \u2728 The AI Couple Embrace in the Rain \u2014 Google Gemini Rain AI Effect Tutorial \ud83c\udf27\ufe0f Transform your photo into a romantic AI rain scene with the Gemini Rain AI Filter \u2014 one click to make your images look like a cinematic love story! \ud83d\udc9e\u2614 Perfect for TikTok edits, AI romance videos, and aesthetic rainy visuals. \ud83d\udcf8\u2728 \ud83d\udca7 Learn step by step how to use the Google Gemini Rain AI Effect \u2014 turn a single photo into an emotional rainy embrace full of atmosphere and love. \ud83c\udf19 \u200e\u062f\u0644\u064a\u0644 \u062a\u0623\u062b\u064a\u0631 \u0627\u0644\u0645\u0637\u0631 \u0628\u0627\u0644\u0630\u0643\u0627\u0621 \u0627\u0644\u0627\u0635\u0637\u0646\u0627\u0639\u064a \u0645\u0646 Google Gemini \ud83c\udf27\ufe0f\u2728 \u200e\u062d\u0648\u0651\u0644 \u0635\u0648\u0631\u062a\u0643 \u0625\u0644\u0649 \u0645\u0634\u0647\u062f \u0631\u0648\u0645\u0627\u0646\u0633\u064a \u0628\u064a\u0646 \u0632\u0648\u062c\u064a\u0646 \u062a\u062d\u062a \u0627\u0644\u0645\u0637\u0631 \u0628\u0627\u0633\u062a\u062e\u062f\u0627\u0645 \u0641\u0644\u062a\u0631 \u0627\u0644\u0630\u0643\u0627\u0621 \u0627\u0644\u0627\u0635\u0637\u0646\u0627\u0639\u064a \u0645\u0646 Gemini. \ud83d\udc95 \u200e\u0628\u062e\u0637\u0648\u0629 \u0648\u0627\u062d\u062f\u0629 \u0641\u0642\u0637\u060c \u0623\u0646\u0634\u0626 \u0641\u064a\u062f\u064a\u0648 \u0631\u0627\u0626\u0639 \u0628\u0623\u0633\u0644\u0648\u0628 \u0633\u064a\u0646\u0645\u0627\u0626\u064a \u0645\u062b\u0627\u0644\u064a \u0644\u0645\u0642\u0627\u0637\u0639 TikTok \u0627\u0644\u0625\u0628\u062f\u0627\u0639\u064a\u0629. \ud83c\udfa5\u2614",
-      "creator": "ex3go200n5",
-      "checks": [
-        {
-          "timestamp": "2026-03-14T18:36:42.550324+00:00",
-          "age_hours": 18.4,
-          "shares_per_hour": 17.0,
-          "views_per_hour": 287,
-          "momentum": 231,
-          "delta_shares_per_hour": null
-        },
-        {
-          "timestamp": "2026-03-14T20:26:39.566913+00:00",
-          "age_hours": 20.2,
-          "shares_per_hour": 15.5,
-          "views_per_hour": 261,
-          "momentum": 210,
-          "delta_shares_per_hour": -1.5
-        },
-        {
-          "timestamp": "2026-03-14T22:24:01.849567+00:00",
-          "age_hours": 22.1,
-          "shares_per_hour": 14.1,
-          "views_per_hour": 238,
-          "momentum": 192,
-          "delta_shares_per_hour": -1.4000000000000004
-        }
-      ],
-      "consecutive_negative_deltas": 2,
-      "alerted": false,
-      "consecutive_misses": 0
+      "consecutive_misses": 1
     },
     {
       "url": "https://www.tiktok.com/@ayhai.168/video/7616682160858139924",
@@ -143,7 +71,7 @@
       ],
       "consecutive_negative_deltas": 2,
       "alerted": false,
-      "consecutive_misses": 0
+      "consecutive_misses": 1
     },
     {
       "url": "https://www.tiktok.com/@lovinglylov3ly0/video/7616727604518735125",
@@ -179,7 +107,7 @@
       ],
       "consecutive_negative_deltas": 2,
       "alerted": false,
-      "consecutive_misses": 0
+      "consecutive_misses": 1
     },
     {
       "url": "https://www.tiktok.com/@.gmx8/video/7616603996551236884",
@@ -203,9 +131,17 @@
           "views_per_hour": 6091,
           "momentum": 3557,
           "delta_shares_per_hour": -2.6000000000000014
+        },
+        {
+          "timestamp": "2026-03-15T08:35:03.586751+00:00",
+          "age_hours": 51.4,
+          "shares_per_hour": 156.8,
+          "views_per_hour": 15665,
+          "momentum": 10597,
+          "delta_shares_per_hour": 103.70000000000002
         }
       ],
-      "consecutive_negative_deltas": 1,
+      "consecutive_negative_deltas": 0,
       "alerted": false,
       "consecutive_misses": 0
     },
@@ -235,7 +171,7 @@
       ],
       "consecutive_negative_deltas": 1,
       "alerted": false,
-      "consecutive_misses": 0
+      "consecutive_misses": 1
     },
     {
       "url": "https://www.tiktok.com/@tidkdclxf6/video/7616656639575215367",
@@ -259,11 +195,57 @@
           "views_per_hour": 5390,
           "momentum": 1493,
           "delta_shares_per_hour": -5.299999999999997
+        },
+        {
+          "timestamp": "2026-03-15T08:35:03.586751+00:00",
+          "age_hours": 48.0,
+          "shares_per_hour": 168.0,
+          "views_per_hour": 8998,
+          "momentum": 2608,
+          "delta_shares_per_hour": 71.3
         }
       ],
-      "consecutive_negative_deltas": 1,
+      "consecutive_negative_deltas": 0,
       "alerted": false,
       "consecutive_misses": 0
+    },
+    {
+      "url": "https://www.tiktok.com/@showtoolsai/video/7617233155396832543",
+      "first_seen": "2026-03-15T08:35:03.586751+00:00",
+      "market": "\ud83c\udf10 BOTH",
+      "text": "The AI bag scam #ai #noveltybag #handmadebags #SmallBusiness #leatherbags The AI-generated novelty bag scam uses AI videos with fake, manipulative characters. This is a really common scam format today. The lobster bag trend looks a lot like the dragon bag trend from before. Follow for more AI spotting tips!",
+      "creator": "showtoolsai",
+      "checks": [
+        {
+          "timestamp": "2026-03-15T08:35:03.586751+00:00",
+          "age_hours": 10.7,
+          "shares_per_hour": 89.5,
+          "views_per_hour": 35609,
+          "momentum": 15655,
+          "delta_shares_per_hour": null
+        }
+      ],
+      "consecutive_negative_deltas": 0,
+      "alerted": false
+    },
+    {
+      "url": "https://www.tiktok.com/@usafunnyclips5456/video/7617113773664472350",
+      "first_seen": "2026-03-15T08:35:03.586751+00:00",
+      "market": "\ud83c\uddec\ud83c\udde7 UK ONLY",
+      "text": "#BalliBotMogis #TrendingReels #TrendingReels #Foryoupage ##FYP #FYP #ViralTikTok #MillionViews #TechMagic #SmartBot #AITrend #RobotVibes #Innovation ",
+      "creator": "usafunnyclips5456",
+      "checks": [
+        {
+          "timestamp": "2026-03-15T08:35:03.586751+00:00",
+          "age_hours": 18.4,
+          "shares_per_hour": 729.0,
+          "views_per_hour": 22964,
+          "momentum": 11290,
+          "delta_shares_per_hour": null
+        }
+      ],
+      "consecutive_negative_deltas": 0,
+      "alerted": false
     }
   ]
 }
